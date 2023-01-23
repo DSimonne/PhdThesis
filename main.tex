@@ -1,0 +1,174 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Preamble %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{report}
+
+\usepackage{titling} % makes following commands available
+\title{Catalytic properties at the nanoscale probed by surface X-ray diffraction and coherent diffraction imaging}
+\author{David Simonne}
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Colours %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{xcolor}
+\definecolor{mycolor}{RGB}{30,75,180}
+\definecolor{LUBlue}{RGB}{0,0,128}
+\definecolor{LUGrey}{RGB}{77,76,68}
+\definecolor{Prune}{RGB}{99,0,60}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Page layout %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[
+    a4paper,
+    width=155mm,
+    headheight=110pt,
+    top=25mm,
+    bottom=25mm
+]{geometry}
+
+\usepackage{etoolbox} % Apply different styles
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+
+\fancypagestyle{main}{% Define fancy style for thesis
+    \fancyhead[L]{\chaptername \, \thechapter:  \small{\textsf{\leftmark}}}
+    \fancyhead[R]{\small{\textsf{\rightmark}}}
+    \fancyfoot[R]{\small{\thepage}}
+    \fancyfoot[L]{\small{\theauthor}}
+    \fancyfoot[C]{}
+    \renewcommand{\headrulewidth}{0.4pt}%
+    \renewcommand{\footrulewidth}{0.4pt}%
+}
+\appto\mainmatter{\pagestyle{main}}
+
+\fancypagestyle{plain}{% Define plain style for table of contents and acknowledgements
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}%
+    \renewcommand{\footrulewidth}{0.4pt}%
+}
+\appto\frontmatter{\pagestyle{plain}}
+
+\usepackage{sectsty} % To colour sections, raise an error on underbar
+\chapterfont{\color{Prune}}
+\sectionfont{\color{LUGrey}}
+\subsectionfont{\color{LUGrey}}
+\subsubsectionfont{\color{LUGrey}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Citation %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[style=authoryear,sorting=none]{biblatex}
+%    nty Sort by name, title, year.
+%    nyt Sort by name, year, title.
+%    nyvt Sort by name, year, volume, title.
+%    anyt Sort by alphabetic label, name, year, title.
+%    anyvt Sort by alphabetic label, name, year, volume, title.
+%    ynt Sort by year, name, title.
+%    ydnt Sort by year (descending), name, title.
+%    none Do not sort at all. All entries are processed in citation order.
+\addbibresource{references.bib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Other packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[utf8]{inputenc} % Use accents in source code
+\usepackage[T1]{fontenc} % Show accents in output
+
+\usepackage{lipsum} % Latin blabla
+\usepackage{setspace} % Space between lines
+\usepackage{tikz} % Drawing
+\usepackage{array} % Create tables as arrays
+\usepackage{colortbl} % Colour the lines in the tables
+\usepackage{minted} % Format code
+
+\usepackage{textcomp} % To avoid warnings in gensymb
+\usepackage{gensymb} % Segree symbol
+
+\usepackage{siunitx} % Units
+\DeclareSIUnit\angstrom{\text {Å}}
+
+\usepackage{graphicx} % Insert images
+\graphicspath{{Images/}}
+
+\usepackage[hypcap=true,font={small,it}]{caption}
+\captionsetup{belowskip=2pt,aboveskip=2pt}
+
+\usepackage{scrextend} % Forcer la 4eme  de couverture en page pair
+\usepackage{mdframed} % Entourer un paragraphe
+\usepackage{multirow} % Mettre un texte sur plusieurs rangées
+\usepackage{multicol} % Mettre un texte sur plusieurs colonnes
+
+\usepackage[
+    colorlinks = true,
+    linkcolor = mycolor,
+    urlcolor  = mycolor,
+    citecolor = mycolor,
+    anchorcolor = mycolor,
+]{hyperref} % load last to avoid errors
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Title page
+    \input{Sections/00_Title_Saclay}
+
+% Optional Chapters
+    %\chapter*{Dedication}
+    %\chapter*{Declaration}
+    \chapter*{Acknowledgements}
+    \input{Sections/0_Acknowledgements}
+
+\frontmatter
+% Table of contents, list of figures, and list of tables
+{\hypersetup{linkcolor=black}
+    \tableofcontents
+    \listoffigures
+    \listoftables
+}
+
+\mainmatter
+% Introduction
+    \chapter{Introduction} 
+    \input{Sections/1_Introduction/Introduction}
+     
+% Theory
+    \chapter{Theory and methods}
+    \input{Sections/2_Theory_Models/0_Catalysis}
+    \input{Sections/2_Theory_Models/1_X-ray_interaction_matter}
+    \input{Sections/2_Theory_Models/2_SXRD}
+    \input{Sections/2_Theory_Models/3_BCDI}
+    \input{Sections/2_Theory_Models/4_XPS}
+    \input{Sections/2_Theory_Models/5_SixS}
+    
+% Results
+    \chapter{Results}
+    \input{Sections/3_Results/Results}
+    
+    \section{Empirical Analysis}
+    \input{Sections/3_Results/EmpiricalAnalysis}
+    
+% Big data
+    \chapter{Transitioning to big data at Synchrotrons}
+    \input{Sections/4_BigData/UserExperience}
+    \input{Sections/4_BigData/Algorithms}
+    
+% Conclusion
+    \chapter{Conclusion}
+    \input{Sections/5_Conclusion/Conclusion}
+    
+% Bibliography
+    \phantomsection
+    \printbibliography
+
+% Appendices
+    \appendix
+    \chapter{(Appendix A)}
+    \input{Sections/6_Appendix/Papers}
+    \input{Sections/6_Appendix/PythonScripts}
+
+% 4ème de couverture
+\input{Sections/99_4eme_couverture}
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
