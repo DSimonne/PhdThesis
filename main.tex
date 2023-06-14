@@ -10,10 +10,41 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Colours %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage{xcolor}
-\definecolor{mycolor}{RGB}{30,75,180}
+
+\definecolor{ArgonColor}{HTML}{008FD5}
+\definecolor{AmmoniaColor}{HTML}{DD65B0}
+\definecolor{OxygenColor}{HTML}{FC4F30}
+\definecolor{NitrogenColor}{HTML}{810F7C}
+\definecolor{NitrousOxideColor}{HTML}{8B8B8B}
+\definecolor{NitrogenOxideColor}{HTML}{6D904F}
+\definecolor{WaterColor}{HTML}{E5AE38}
+
+\definecolor{Ostwald}{HTML}{800080}
+\definecolor{Haber}{HTML}{158466}
+
+\definecolor{LightBlue}{RGB}{30,75,180}
 \definecolor{LUBlue}{RGB}{0,0,128}
 \definecolor{LUGrey}{RGB}{77,76,68}
 \definecolor{Prune}{RGB}{99,0,60}
+\definecolor{Important}{HTML}{980000}
+
+\definecolor{DarkFern}{HTML}{407428}
+\definecolor{DarkCharcoal}{HTML}{4D4944}
+\definecolor{DarkBlue}{HTML}{23373B}
+\definecolor{DarkOrange}{HTML}{EA7500}
+\definecolor{LightOrange}{HTML}{F9D6B3}
+\definecolor{Blue}{HTML}{13406a}
+
+\colorlet{lightblue}{blue!60}
+\colorlet{lightorange}{orange!60}
+\colorlet{lightgreen}{green!60}
+\colorlet{lightred}{red!60}
+\colorlet{lightgray}{gray!60}
+\colorlet{lightbrown}{brown!60}
+\colorlet{lightpink}{pink!60}
+\colorlet{lightviolet}{violet!60}
+
+\colorlet{shadecolor}{gray!40}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Page layout %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -67,7 +98,7 @@
 %    ynt Sort by year, name, title.
 %    ydnt Sort by year (descending), name, title.
 %    none Do not sort at all. All entries are processed in citation order.
-\addbibresource{references.bib}
+\addbibresource{/home/david/Documents/PhD/PhdThesis/references.bib}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Other packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -75,36 +106,62 @@
 \usepackage[T1]{fontenc} % Show accents in output
 
 \usepackage{lipsum} % Latin blabla
+\usepackage{lmodern} % to avoid errors in font size
+\usepackage[british]{babel}
 \usepackage{setspace} % Space between lines
+\usepackage{mathtools}
 \usepackage{tikz} % Drawing
-\usepackage{array} % Create tables as arrays
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
 \usepackage{colortbl} % Colour the lines in the tables
 \usepackage{minted} % Format code
+\usepackage[version=4]{mhchem}
+\usepackage{animate} % for animations in 3D
 
 \usepackage{textcomp} % To avoid warnings in gensymb
-\usepackage{gensymb} % Segree symbol
+\usepackage{gensymb} % for degree symbol
 
 \usepackage{siunitx} % Units
 \DeclareSIUnit\angstrom{\text {Å}}
 
 \usepackage{graphicx} % Insert images
-\graphicspath{{Images/}}
+\graphicspath{{/home/david/Documents/PhD/Figures/}}
 
-\usepackage[hypcap=true,font={small,it}]{caption}
+\usepackage[hypcap=true,font={small,it},justification=centering]{caption}
 \captionsetup{belowskip=2pt,aboveskip=2pt}
 
 \usepackage{scrextend} % Forcer la 4eme  de couverture en page pair
 \usepackage{mdframed} % Entourer un paragraphe
 \usepackage{multirow} % Mettre un texte sur plusieurs rangées
 \usepackage{multicol} % Mettre un texte sur plusieurs colonnes
+\usepackage{array} % Create tables as arrays
+\usepackage{csquotes}
+\usepackage{booktabs} % for \midrule and such
 
 \usepackage[
     colorlinks = true,
-    linkcolor = mycolor,
-    urlcolor  = mycolor,
-    citecolor = mycolor,
-    anchorcolor = mycolor,
+    linkcolor = LightBlue,
+    urlcolor  = LightBlue,
+    citecolor = LightBlue,
+    anchorcolor = LightBlue,
 ]{hyperref} % load last to avoid errors
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\argon}{{\textcolor{ArgonColor}{\ce{Ar}\,}}}
+\newcommand{\ammonia}{{\textcolor{AmmoniaColor}{\ce{NH_3}\,}}}
+\newcommand{\nitrousoxide}{{\textcolor{NitrousOxideColor}{\ce{N_2O}\,}}}
+\newcommand{\water}{{\textcolor{WaterColor}{\ce{H_2O}\,}}}
+\newcommand{\nitrogen}{{\textcolor{NitrogenColor}{\ce{N_2}\,}}}
+\newcommand{\nitricacid}{{\textcolor{DarkOrange}{\ce{HNO_3}\,}}}
+\newcommand{\nitricoxide}{{\textcolor{NitrogenOxideColor}{\ce{NO}\,}}}
+\newcommand{\dioxygen}{{\textcolor{OxygenColor}{\ce{O_2}\,}}}
+\newcommand{\ptthreeofour}{{\textcolor{Important}{Pt$_3$O$_4$\,}}}
+\newcommand{\ammoniumnitrate}{{\textcolor{Blue}{\ce{NH_4NO_3}\,}}}
+
+\newcommand{\yes}{{\textcolor{green}{0}}}
+
+\newcommand{\no}{{\textcolor{red}{x}}}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
