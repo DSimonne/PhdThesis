@@ -1,6 +1,52 @@
 \section{X-ray interaction with matter}
 
+Understanding the different mechanism at play when photons interact with matter is of crucial importance to be able to decide how to use x-rays as a probe in material science.
+Each phenomena is at the source of different techniques, diffraction brings surface x-ray diffraction (SXRD) and Bragg coherent diffraction imaging (BCDI), two techniques used during this thesis that give complementary information about the sample structure and constitution.
+
+X-ray absorption together with the photoelectric effect explained by Einstein in 1905 are at the source of a third technique, x-ray photoelectron spectroscopy, specific to the nature of the adsorbates on the sample's surface.
+
+In this chapter we will discuss the origin of each technique, their sensitivity and the information that we can obtain from using them.
+
 \subsection{Scattering from electrons and atoms}
+
+The duality between wave and particles was first mentionned by Max Planck and Albert Einstein in the early 20th century and generalized to all matter by Louis-Victor de Broglie in 1924 with the famous formula:
+
+\begin{equation}
+	\lambda = \frac{h}{p}
+\end{equation}
+
+Electromagnetic waves, i.e. light or photons can be characterized by their energy $E$ in \si{\electronvolt} and wavelength $\lambda$ in \si{\meter}.
+The conversion between both is realized thanks to Planck's constant: $h = 6.626 \times 10^{-34}$ \si{\joule \second} with the following equation:
+\begin{equation}
+	E = \frac{hc}{\lambda}
+\end{equation}
+
+$c = 2.9979 \times 10^{8}$ \si{\meter \per \second} the speed of light in vacuum.
+
+The properties of the photon and its use in our society depends on its energy and wavelength. If visible light is situated between $500 \si{\electronvolt}$ and $900 \si{\electronvolt}$, micro-waves used in our everyday life are situated between $10^{-6} \si{\electronvolt}$ and $10^{-4}\si{\electronvolt}$. On the other side of the electromagnetic spectrum, we have higher energy photons such as x-rays ($\in [10^{2}, 10^{6}] \si{\electronvolt}$) and $\gamma$-rays (above $10^{-6} \si{\electronvolt}$).
+
+For example, x-ray with a wavelength of 1 \si{\angstrom} have an energy of $12 384.4 \si{\electronvolt}$, we will see that the very fact that the wavelength of x-rays is in the range of the distance between atoms is the reason why we use x-rays for diffraction.
+
+\subsection{Cross-sections}
+
+When an electromagnectic beam interacts with matter it will be attenuated by absorbtion, reflection or scattering, etc ... Each process can be quantified depending on the atoms the beam interacts with and the energy on the incoming photon, this is illustrated in figure \ref{fig:cross_sections}. The cross-section for a particuliar process $p$ defined as follows:
+
+\begin{equation}
+	\sigma_p = (\Lambda_p N_i)^{-1}
+\end{equation}
+
+$\Lambda_p$ is the attenuation length in \si{\meter} defined as the length after which the beam is reduced to $1/e$, $N_i$ is the atomic number-density in atoms/unit volume.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/introduction/cross_sections.pdf}
+    \caption{Cross-sections for Platinum (Z=78) for various processes that occur when photons interact with matter. The data was taken from the NIST (national Institute of Standards and Technology) \parencite{NIST_cross_sections} website.}
+    \label{fig:cross_sections}
+\end{figure}
+
+In the frame of this thesis, the cross-sections of (elastic) Thomson scattering is the most important, at the origin of x-ray diffraction. This process is dominant for energies below $200 \si{k\electronvolt}$, together with photoelectric absorption for which the K, L and M edges are shown.
+
+Compton scattering also named inelastic scattering is a process during which some of the incoming electromagnetic wave energy is transfered to the atoms' electrons. This results in a lower energy for the scattered photon (and therefore a higher wavelength) compared to the incoming photon. This effect has a low cross-section compared to the two other processes and is therefore not taken account during the experiments.
 
 We begin our discussion of x-ray scattering by first considering scattering from a single free electron using classical electromagnetic theory. During elastic scattering, the oscillating electric field of the x-ray wave exerts forces ($\vec{F} = q \vec{E_i}$ , $q$ represents the charge) on the electron, causing it to accelerate and oscillate in the same direction as the incident field.
 
@@ -8,28 +54,241 @@ The oscillating electron then emits a spherical wave with the same wavelength as
 
 If we consider how the incident x-ray wave will interact with the different charge elements relative to the origin of the atom, you can see from Figure 1.4 that there is a path length difference of   where  =  is the scattering vector and is equal to the change experienced by the wavevector during scattering.
 
-\subsection{Diffraction}
+Let us first consider a simple approach to neutron scattering with a system consisting of a single nucleus, one can write the nucleus-neutrons interaction potential for a single nucleus as $V(\vec{r})$.
+
+We can then derive the Schrödinger equation as follows:
+\begin{equation}
+\label{eq:Schrodinger}
+    \bigg[ \frac{-p^2}{2m} +V(r) \bigg] \psi(r)= E\psi
+\end{equation}{}
+where the first term corresponds to the kinetic energy and the second to the potential energy, i.e. the nucleus-neutrons potential $V(\vec{r})$. $\psi(r)$ is the eigenfunction of the neutron.
+The general solution to the Schrodinger equation is given in the Born Approximation (DWBA).The incoming wave is assumed plane:
+
+\begin{equation}
+\label{eq:incwave}
+    \phi_i(r,w)=\exp{(-i(kx-\omega t))}
+\end{equation}{}
+
+and the resulting wave is the sum of a plane wave and a spherical wave. The final particle scatters in all directions in the form of a spherical wave.
+
+\begin{equation}
+    \label{eq:resultwave}
+    \phi_f(r,w)=\exp{(-i(kx-\omega t))} + f(\theta)\frac{\exp{(-i(kx-\omega t))}}{r}
+\end{equation}{}
+
+\subsubsection{Bragg's Law}
+
+In the frame of this thesis, where the all the information will be extracted from the analysis of Bragg peaks, it is mandatory to explain the physics behind Bragg peaks.
+
+The lattice of our crystal is defined by three vectors $\vec{a},\ \vec{b},\ \vec{c}$. Any vector $\vec{v}$ of the unit cell can then be created by a linear combination of these three vectors:
+
+\begin{equation}
+    \vec{v}=n_1\vec{a} + n_2\vec{b} + n_3\vec{c}, \quad with \ (n_1,n_2,n_3) \in \mathbb{Z}^3
+\end{equation}{}
+
+the volume of the unit cell is:
+
+\begin{equation}
+    V=\vec{a}.(\vec{b}\times \vec{c})
+\end{equation}{}
+
+An important tool of crystallography is the \textit{reciprocal space} of dimension $m^{-1}$, defined by the three vectors $\vec{a*},\ \vec{b*},\ \vec{c*}$:
+
+\begin{equation}
+    \vec{a^*}=\frac{2\pi}{V}(\vec{b}\times \vec{c}), \qquad
+    \vec{b^*}=\frac{2\pi}{V}(\vec{c}\times \vec{a}), \qquad
+    \vec{c^*}=\frac{2\pi}{V}(\vec{a}\times \vec{b})
+\end{equation}{}
+
+From the De Broglie wavelength \eqref{eq:DBGWVL}, it is possible to define the wavevector k of neutrons \eqref{eq:WV}. We can then define the momentum transfer $\vec{Q}$ as the difference between the wavevector of the incoming neutron $\vec{k}$ and the wavevector of the scattered neutron $\vec{k'}$:
+
+\begin{equation}
+    \label{eq:Q}
+    \vec{Q}=\vec{k}-\vec{k'}
+\end{equation}{}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[scale=0.6]{Figures/introduction/Q.pdf}
+    \caption{Geometry of the momentum transfer $\vec{Q}$ in reciprocal space, $2\theta$ is the scattering angle.}
+    \label{fig:Q}
+\end{figure}
+
+The figure \ref{fig:Q} leads to \eqref{eq:QandSin} and illustrates the particular case of a Bragg peak. If the momentum transfer $\vec{Q}$ can be expressed as a linear combination of reciprocal vectors, here graphically verified, a Bragg peak occurs for this value of Q.
+
+\begin{equation}
+\label{eq:QandSin}
+    \vec{Q_{hkl}}=2k\sin{\theta}=\frac{4\pi}{\lambda} \sin{\theta}
+\end{equation}
+
+$\vec{Q}$ can be written as a linear combination of the reciprocal length between planes.
+\begin{equation}
+    \label{eq:QandD}
+    \vec{Q} = n\frac{2\pi}{d_{hkl}}, \qquad with \ n \in \mathbb{Z}
+\end{equation}{}
+
+Combining \eqref{eq:QandSin} and \eqref{eq:QandD}, we fall back on the most famous equation of crystallography, Bragg law:
+
+\begin{equation}
+    \label{eq:Bragglaw}
+    n\lambda = 2d_{hkl} \sin{\theta}
+\end{equation}
+
+To summarize, a Bragg peak result from the constructive interference between coherently scattered waves at discrete values of the incident angle $2\theta$ or of the momentum transfer $\vec{Q}$ on a specific set of crystalline planes. $\vec{Q}$ and $2\theta$ are linked through \eqref{eq:QandSin}. The condition to have constructive interference is known as Bragg law and is given by \eqref{eq:Bragglaw}.
+
+From \eqref{eq:QandD}, one can define the general reciprocal-space metric tensor for any crystalline system:
+
+\begin{gather}
+    \frac{(2\pi)^2}{d_{hkl}^2} = h^2 \, (\Vec{a^*}.\Vec{a^*}) + k^2 \,
+    \label{eq:dsquare}(\Vec{b^*}.\Vec{b^*}) + l^2 \, (\Vec{c^*}.\Vec{c^*}) + 2hk \, (\Vec{a^*}.\Vec{b^*}) + 2hl \, (\Vec{a^*}.\Vec{c^*}) + 2kl \, (\Vec{b^*}.\Vec{c^*})\\
+     \frac{(2\pi)^2}{d_{hkl}^2} = h^2 \, {a^*}^2 + k^2 \, {b^*}^2 + l^2 \, {c^*}^2 + 2hk \, {a^*}.{b^*}\cos{\gamma^*} + 2hl \, {a^*}.{c^*}\cos{\beta^*} + 2kl \, {b^*}.{c^*}\cos{\alpha^*}\\
+     \frac{(2\pi)^2}{d_{hkl}^2} = Ah^2 + Bk^2 + Cl^2 + Dhk + Ehl + Fkl
+     \label{eq:RecSpaceMetricTensor}
+\end{gather}{}
+
+Equation \eqref{eq:dsquare} can be simplified as \eqref{eq:Interplanarspacing} for a simple cubic system, defining the interplanar spacing between the crystalline planes:
+
+\begin{equation}
+    \label{eq:Interplanarspacing}
+    d_{hkl}=\frac{2\pi}{|\vec{a^*}|\sqrt{h^2 + k^2 + l^2}}=\frac{|\vec{a}|}{\sqrt{h^2 + k^2 + l^2}}
+\end{equation}{}
+
+Moreover, for each peak, indexed by its \textit{hkl} miller indices that specify the orientation of the crystalline planes, the momentum transfer can be written as a linear combination of reciprocal space vectors, for a cubic lattice:
+
+\begin{equation}
+    \label{eq:Qhkl}
+    \vec{Q_{hkl}} = h\vec{a*} + l\vec{b*} + k\vec{c*}
+\end{equation}{}
+
+\subsubsection{Inelastic scattering}
+One can also write for the momentum transfer:
+\begin{equation}
+\label{MomTransfer}
+    \omega=\frac{\hbar k_f^2}{2m}-\frac{\hbar k_i^2}{2m}
+\end{equation}
+
+We have elastic scattering if $|\vec{Q}|=0$, energy is not transferred (to or from the material) in this case, we lose all dynamical information about the sample and study the structural information alone.
+
+For inelastic scattering, when $|\vec{Q}|\neq0$, energy is transferred, given or received from the sample. In that case we measure neutrons as a function of both energy and momentum transfer. It can lead to a dispersion relation giving more insight in the geometry of the phenomena that lead to the loss or gain of energy.
+
+\subsection{Intensity of a nuclear Bragg peak}
+Neglecting absorption, very weak for most of the elements, and considering only a non-magnetic structure factor; the intensity of a Bragg peak $I_{nuc}$ as a function of its miller indices \textit{hkl} and of $2\theta$ can be written as:
+
+\begin{equation}
+    \label{eq:PeakIntensity}
+    I_{nuc} = A \times |F_{hkl}|^2  \times j_{hkl} \times L(2\theta) \times \exp{(-2W)}
+\end{equation}
+where A is an instrument constant.
+
+\subsubsection{Structure factor}
+$F_{hkl}$ is known as the structure factor, it is given by:
+\begin{equation}
+    \label{eq:StrucFactor}
+    F_{hkl} = \sum_{j=0}^n b_j \exp{(-2\pi i \vec{Q}. \vec{r_{j0}})}
+\end{equation}{}
+
+The structure factor is the summation of the contribution to the scattering energy of each atoms at the position $\vec{r_{j0}}$ of scattering length $b_j$ in our unit cell for a given $\vec{Q}$.
+The position of the atom $\vec{r_{j0}}$ is given by:
+
+\begin{equation}
+    \label{eq:AtomPos}
+    \vec{r_{j0}} = x_j\vec{a} + y_j\vec{b} + z_j\vec{c}
+\end{equation}
+
+\subsubsection{Debye-Waller factor}
+
+The position $\vec{r_j}$ of the atom j is not static but should be rather understood as the instantaneous position of the atom. In a crystal, atoms vibrate around their equilibrium position $\vec{r_{j0}}$, we have:
+
+\begin{equation}
+    \vec{r_j}(t)=\vec{r_{j0}} + \vec{u}(t)
+\end{equation}{}
+
+$\vec{u} = \vec{u}(t)$ is the thermal displacement, accounting for thermal vibrations in the crystal. These oscillations around the equilibrium position can be understood following the model of a harmonic oscillator at low temperature, with discrete frequencies of vibrations. The frequency of the vibrations, that increase with temperature, are linked to quasi-particles named \textit{phonons}.
+Another contribution to the thermal displacement is the zero-point displacement, if one could lower the temperature of the crystal in a perfect vacuum down to absolute zero, one would have expected the system to not show any motion. However, quantum physics tells us that even at absolute zero there is a probability for the atom to not be in at its equilibrium position, called zero-point displacement.
+Moreover, the Debye-Waller factor also takes into account the static displacement in the lattice that is linked to disorder. This will be discusses further in chapter 2.
+
+The exponential in \eqref{eq:StrucFactor} can be rewritten as:
+
+\begin{equation}
+    \exp{(-2\pi i \vec{Q}.\vec{r_j})} = \exp{(\ -2\pi i \vec{Q}.(\vec{r_{j0}} + \vec{u})\ )}
+\end{equation}{}
+
+The average of this equation is given by:
+
+\begin{equation}
+    \langle \exp{(-2\pi i \vec{Q}.\vec{r_j})} \rangle= \exp{(-2\pi i \vec{Q}.\vec{r_{j0}})} \times \langle \exp{(\ -2\pi i \vec{Q}.\vec{u})\ }\rangle
+\end{equation}{}
+
+The second term of this expression can be expanded as the second order Taylor series for $\exp{x_0}$ with $x_0 = -2\pi i \vec{Q}.\vec{u}$ at zero, we loose the $(2\pi)$ for clarity:
+
+\begin{equation}
+    \langle \exp{(- i \vec{Q}.\vec{u})}\rangle = 1 - \langle \ i \vec{Q}.\vec{u} \ \rangle - \frac{1}{2} \langle \ (\vec{Q}.\vec{u})^2 \ \rangle + o \ ( \ \langle \ (\vec{Q}.\vec{u})^2 \ \rangle \ )
+\end{equation}
+
+Since the displacement are random, the average of $i \vec{Q}.\vec{u}$ is equal to zero. However the average of the square of $\vec{Q}.\vec{u}$ is non zero and can be further developed as:
+
+\begin{equation}
+    \langle \ (\vec{Q}.\vec{u})^2 \ \rangle = Q^2 \ \langle \ u^2 \ \rangle \  \langle \ \cos{\theta}^2 \ \rangle = \frac{1}{3} \  Q^2 \ \langle \ u^2 \ \rangle
+\end{equation}{}
+
+which leads to:
+
+\begin{equation}
+    \langle \exp{(- i \vec{Q}.\vec{u})}\rangle = 1 - \frac{1}{6} \ Q^2 \ \langle \ u^2 \ \rangle
+\end{equation}
+
+that corresponds to the first order Taylor series for $\exp{x_0}$ with $x_0 = \frac{1}{6} \ q^2 \ \langle \ u^2 \ \rangle $ at zero, we can write:
+
+\begin{equation}
+    \label{eq:DWFroot}
+    1 - \frac{1}{6} \ Q^2 \ \langle \ u^2 \ \rangle = \exp{( \frac{1}{6} \ Q^2 \ \langle \ u^2 \ \rangle \ )}
+\end{equation}
+
+The final intensity contribution of the Debye Waller factor is the square of \eqref{eq:DWFroot} given by:
+
+\begin{equation}
+    \label{eq:DWF}
+    \exp{( \frac{1}{3} \ Q^2 \ \langle \ u^2 \ \rangle \ )}
+\end{equation}
+
+The last two terms of \eqref{eq:PeakIntensity}, respectively $j_{hkl}$ and $L(2\theta)$ are the multiplicity of a Bragg peak and the Lorentz factor. They will be studied in a section covering the instrument used for powder diffraction for they both relate more to the collection of the data than to the theoretical intensity of a Bragg peak.
 
 
+\section{X-Ray diffraction}
 
-\lipsum
+Laboratory X-Ray powder diffractometers commonly use Cu-K$\alpha$ radiation and a Bragg-Brentano geometry for which the incoming beam diverges onto the sample and the diffracted beams is focused on the detector, both beams are at a fixed radius from the sample position. Focussing the diffracted beam leads to better resolution.
+It is then possible to either fix the source and move the sample and detector by respectively $\theta$ and $2\theta$ or to fix the sample and move the source by respectively $-\theta$ and $\theta$. This second configuration is more adapted to liquid sample for example.
 
+The advantages of using neutrons over X-ray in general are summarized in the table \ref{tab:XrayvsNeutrons}. For powder diffraction, the main differences hold in the scatterer, in the necessity to account more thoroughly for absorption and in the creation of polarization corrections while using X-ray (which is only possible for the spin in the case of neutrons, no polarization factor for neutrons) at a synchrotron (due to how the X-Rays are emitted). Laboratory sources are unpolarized and in the case of a Bragg-Brentano geometry where the incident beam constantly covers the entire sample the absorption correction is also negligible.
+The structure factor dependence on q can be seen in the atomic form factor that measures the scattering power of an isolated atom:
 
-\subsection{Reciprocal space}
+\begin{gather}
+    \label{eq:AtomicFormFactor}
+    f(\vec{q}) = r_0\int \rho(\vec{r}) \exp{(-i\vec{q}.\vec{r}) d^3\vec{r}},\\
+    \text{with} \quad r_0 = \frac{e^2}{mc^2}
+\end{gather}{}
+with $r_0$ the Thomson scattering length, $e$ the charge of the electron, $m$ the mass of the electron and $c$ the speed of light. Magnetic neutron scattering depends also on q but the intensity falls off faster than for X-ray for which we do not consider only the unpaired electrons but the whole electronic cloud around an atom of atomic number Z. The structure factor is therefore also proportional to Z. Finally, the angular resolution of X-ray diffraction is higher than for neutron diffraction.
 
-
-
-\lipsum
-
-
-\subsection{Brillouin zone}
-
-The importance of the Brillouin zone stems from the description of waves in a periodic medium given by Bloch's theorem, in which it is found that the solutions can be completely characterized by their behavior in a single Brillouin zone.
-
-The first Brillouin zone is the locus of points in reciprocal space that are closer to the origin of the reciprocal lattice than they are to any other reciprocal lattice points (see the derivation of the Wigner–Seitz cell). Another definition is as the set of points in k-space that can be reached from the origin without crossing any Bragg plane.
-
-A related concept is that of the irreducible Brillouin zone, which is the first Brillouin zone reduced by all of the symmetries in the point group of the lattice (point group of the crystal).
-
-k-vectors exceeding the first Brillouin zone (red) do not Brillouin any more information than their counterparts (black) in the first Brillouin zone. k at the Brillouin zone edge is the spatial Nyquist frequency of waves in the lattice, because it corresponds to a half-wavelength equal to the inter-atomic lattice spacing a.
-
-
+\begin{table}[htb]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}lll@{}}
+    \toprule
+         &  Neutrons & X-rays\\
+    \midrule
+         Dependence on q & Constant with q & Decreases for high q\\
+         Sample size & Huge, $cm^3$ & Small, between 0.1 and 1 mm\\
+         Availability & Only at nuclear facilities & Lab and synchrotrons\\
+         Ability to discriminate neighbouring elements & Yes, depending on b & No\\
+         Ability to discriminate isotopes & Yes & No\\
+         Ability to "see" light elements & Yes & No\\
+         Radiation damage & No, but activation & Yes, but no activation\\
+         Possibility to investigate magnetic structures & Yes & Yes, in development\\
+         Acquisition time & Long due to low flux and low efficiencies & Fast, possibly ultrafast (sub second resolution)\\
+         Resolution & Low $\Delta\theta$ resolution & Moderate $\Delta\theta$ resolution\\
+    \bottomrule
+    \end{tabular}{}
+    }
+    \caption{Summary of the main perks and disadvantages of using neutrons or X-ray for diffraction  \parencite{borfecchia_gianolio_agostini_bordiga_lamberti}.}
+    \label{tab:XrayvsNeutrons}
+\end{table}{}
