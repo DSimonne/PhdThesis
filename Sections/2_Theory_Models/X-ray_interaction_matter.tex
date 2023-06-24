@@ -1,0 +1,413 @@
+\section{X-ray interaction with matter}
+
+Understanding the different mechanism at play when photons interact with matter is of crucial importance to be able to decide how to use X-rays as a probe in material science.
+Each phenomena is at the source of different techniques, diffraction brings surface X-ray diffraction (SXRD) and Bragg coherent diffraction imaging (BCDI), two techniques used in the frame of this thesis that give complementary information about the sample structure bulk and surface.
+
+X-ray absorption together with the photoelectric effect explained by Einstein in 1905 are at the source of a third technique used, X-ray photoelectron spectroscopy, which yields information specific to the nature of the adsorbates on the sample's surface.
+
+\begin{table}[!htb]
+    \centering
+    \small
+    \begin{tabular}{l|l|l|l}
+        Technique & Sample & Sensitivity & Information \\
+        \toprule
+        \textcolor{Important}{Bragg Coherent} & Pt nanoparticles & Bragg electronic & Shape, 3D strain  \\
+        \textcolor{Important}{Diffraction Imaging} & (111), (110), (100), ... & density & and displacement arrays \\
+        \textcolor{Important}{(BCDI)} &  &  & \\
+        \midrule
+        \textcolor{Important}{Surface X-ray} & Pt single crystals & Surface & Roughness, relaxation \\
+        \textcolor{Important}{Diffraction (SXRD)} & (111), (100), (311) & structure & and crystallographic phases \\
+        \midrule
+        \textcolor{Blue}{X-ray Photoelectron} & Pt single crystals & Surface & Species presence, \\
+        \textcolor{Blue}{Spectroscopy (XPS)} & (111), (100) & species & quantity, oxidation state \\
+        \bottomrule
+    \end{tabular}
+    \caption{Near-ambient pressure (NAP) X-ray techniques carried out at the \textcolor{Important}{SixS} (SOLEIL) \\ or \textcolor{Blue}{B-07} (Diamond) beamlines}
+    \label{tab:techniques}
+\end{table}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[height=0.25\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/gwaihir/dp_pr.png}
+    \includegraphics[height=0.25\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sxrd_data/Pt100/maps/Map_hkl_surf_or_2227-2283_not_patched.png}
+    \includegraphics[height=0.25\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/xps_data/transition_xps.png}
+    \caption{Slice of 3D diffraction pattern collected at the SixS beamline at the SOLEIL synchrotron (left). Reciprocal space map in HK plane collected at the SixS beamline at the SOLEIL synchrotron (middle). Ambient pressure XPS spectra collected during a transition between two atmospheres, collected at the B07 beamline at the Diamond synchrotron (right).}
+\end{figure}
+
+
+In this chapter we will discuss the origin of each technique from fundamentals that not only tailor their experimental design but also their operability and sensitivity.
+
+\subsection{Scattering from electrons and atoms}
+
+The duality between wave and particles was first mentionned by Max Planck and Albert Einstein in the early 20th century and generalized to all matter by Louis-Victor de Broglie in 1924 with the famous formula:
+
+\begin{equation}
+	\lambda = \frac{h}{p}
+\end{equation}
+
+Electromagnetic waves, i.e. light or photons can be characterized by their energy $E$ in \si{\electronvolt} and wavelength $\lambda$ in \si{\meter}.
+The conversion between is realized thanks to Planck's constant $h = 6.626 \times 10^{-34}$ \si{\joule \second} and the speed of light in vacuum $c = 2.9979 \times 10^{8}$ \si{\meter \per \second} (eq. \ref{eq:EnergyLambda}).
+
+\begin{equation}
+    \label{eq:EnergyLambda}
+	E = \frac{hc}{\lambda}
+\end{equation}
+
+The properties of the photon and its use in our society depends on its energy and wavelength.
+If visible light is situated between $500 \si{\electronvolt}$ and $900 \si{\electronvolt}$, micro-waves used in our everyday life are situated between $10^{-6} \si{\electronvolt}$ and $10^{-4}\si{\electronvolt}$.
+On the other side of the electromagnetic spectrum, we have higher energy photons such as X-rays ($\in [10^{2}, 10^{6}] \si{\electronvolt}$) and $\gamma$-rays (above $10^{-6} \si{\electronvolt}$).
+
+X-rays have a wavelength of a few \si{\angstrom} ($10^{-10} \si{\meter}$) making them the perfect probe to study the structures of materials at the atomic scale thanks to different interaction with matter.
+
+\subsubsection{Cross-sections}
+
+When an electromagnectic beam interacts with matter it will be attenuated by absorbtion, reflection or scattering.
+Each process can be quantified depending on the atoms (and thus on the electronic cloud) the beam interacts with and the energy on the incident photon, this is illustrated in figure \ref{fig:cross_sections}.
+The cross-section for a particuliar process $p$ is defined as follows \parencite{Willmott}:
+
+\begin{equation}
+	\sigma_p = (\Lambda_p N_i)^{-1}
+\end{equation}
+
+$\Lambda_p$ is the attenuation length in \si{\meter}, i.e. the length after which the beam is reduced to $1/e$, $N_i$ is the atomic number-density in atoms/unit volume.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/introduction/cross_sections.pdf}
+    \caption{Cross-sections for Platinum (Z=78) for various processes that occur when photons interact with matter. The data was taken from the NIST (National Institute of Standards and Technology) \parencite{NIST_cross_sections} website. The energy range of the SixS beamline at SOLEIL is highlighted in blue.}
+    \label{fig:cross_sections}
+\end{figure}
+
+Compton scattering, also named inelastic scattering, is a process during which some of the incident electromagnetic wave energy is transfered to the atoms' electrons.
+This results in a lower energy for the scattered photon (and therefore a higher wavelength) compared to the incident photon.
+%This effect has a low cross-section compared to the two other processes and is therefore not taken account during the experiments.
+
+In the frame of this thesis, the (elastic) Thomson scattering cross-sections is the most important, at the origin of X-ray diffraction.
+This process is dominant for energies below $200 \si{k\electronvolt}$, together with photoelectric absorption.% for which the K, L and M edges are shown.
+
+\subsubsection{Scattering from an electron}
+
+We begin our discussion of X-ray scattering by considering scattering from a single free electron using classical electromagnetic theory.
+During elastic scattering, the oscillating electric field of the incident X-ray wave exerts an electromagnetic force on the electron, causing it to accelerate and oscillate in the same direction as the incident electronic field.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/introduction/torus.pdf}
+    \caption{
+        Effect of relation between synchrotron X-ray polarization $\hat{\epsilon}$ and scattered X-ray polarization $\hat{\epsilon}'$ on the scattered field.
+        The scattered field intensity is attenuated by a $\cos{\theta}$ factor, where $\theta$ is the angle between the plane perpendicular to the electric field and the direction of observation $\vec{r}$.
+        Working in the vertical plane is preferable to maximize the intensity of the scattered field, this has pratical repercussions in surface X-ray diffraction for which it is preferable to work in a vertical geometry to scan large 2D areas of the reciprocal space.
+    }
+    \label{fig:polarization_effect}
+\end{figure}
+
+During an elastic scattering event, the oscillating electron emits a spherical electromagnetic wave with the same wavelength as the incident beam (Thomson scattering).
+The scattered field $\vec{E}_{scatt}$ is then proportional to the incident electromagnetic field $\vec{E}_{in}$ as follows \parencite{NielsenMcMorrow}:
+
+\begin{equation}
+    \label{eq:scatt_field}
+    \frac{\vec{E}_{scatt}(R, \, t)} {\vec{E}_{in}} = -r_0 \frac{e^{\vec{k}.\vec{R}}} {|\vec{R}|}| \hat{\epsilon}.\hat{\epsilon}'|
+\end{equation}
+with $|\vec{R}|$ the distance at which the scattering is detected at the time $t$. $r_0$ is the Thomson scattering length defined as:
+
+\begin{equation}
+    \label{eq:scatt_thomson_scat_length}
+    r_0 = \frac{e^2} {4\pi\epsilon_0 m_e c^2}
+\end{equation}
+
+The minus sign illustrates a phase shift of $\pi$ between the incident and scattered wave, $\hat{\epsilon}$ and $\hat{\epsilon}'$ are respectively the polarization vectors of the incident and scattered electromagnectic fields.
+
+The differential cross-section for Thomson scattering measures the efficiency of the scattering in the volume occupied by a solid angle $d\Omega$ in the direction $\vec{R}$ \parencite{NielsenMcMorrow}. It is defined as follows:
+\begin{equation}
+    \label{eq:dif_cross_sec_thomson1}
+    \frac{d\sigma_{ts}} {d \Omega} = \frac{ |\vec{E}_{scatt}(R, t)|^2 R^2} {|\vec{E}_{in}|^2}
+\end{equation}
+
+By substituting eq. \ref{eq:scatt_field} into eq. \ref{eq:dif_cross_sec_thomson1}, it becomes clear that the scattering is proportional to the Thomson scattering length and that the intenisty is attenuated depending on the dot product between the two polarizations.
+The polarization factor $P$ for scattered beams is defined as $P =  | \hat{\epsilon}.\hat{\epsilon}'|^2$ and we can write the differential cross-section as:
+
+\begin{equation}
+    \frac{d\sigma_{ts}} {d \Omega} = r_0^2 | \hat{\epsilon}.\hat{\epsilon}'|^2 = r_0^2 P
+\end{equation}
+
+The effect of the polarization of the incident beam is illustrated in figure \ref{fig:polarization_effect}.
+At synchrotron sources where the incident beam is horizontally polarized, working in the vertical plane becomes more effective since the polarization factor is always equal to one.
+
+The total cross-section for the scattering event by a single free electron can be computed by integrating the differential cross-section over all the possible scattering angles, ie. by averaging all possible polarization directions \parencite{Willmott}.
+This yields $\sigma_{ts} = 8 \pi r_0^2 /3 = 0.665 \si{\barn}$, the total Thomson scattering cross-section is constant, independant of the incoming photon energy. This results holds for X-rays for which the scatterer i.e. the electron can be considered as free \parencite{Willmott}.
+
+\subsubsection{Scattering from a single atom}
+
+As we have seen the main scatterer for Thomson scattering is the electron.
+The scattering of the incident beam from an atom is therfore proportional to the electronic density $\rho_{atom}(\vec{r})$.
+For a single atom of atomic number $Z$ we have :
+
+\begin{equation}
+    \int \rho_{atom} (\vec{r}) d\vec{r} = Z
+\end{equation}
+
+The scattering amplitude shows a dependance depending on the wavelength of the incident beam $\lambda$, and on the direction of detection defined by the scattering angle $2\theta$ between the wavevector of the incident photon $\vec{k_i}$ and the wavevector of the scattered photon $\vec{k_s}$ (fig. \ref{fig:q}).
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.6]{Figures/introduction/q.pdf}
+    \caption{Geometry of the momentum transfer $\vec{q}$ in reciprocal space, $2\theta$ is the scattering angle.}
+    \label{fig:q}
+\end{figure}
+
+This leads to the definition of the momentum transfer, $\vec{q}$, to describe the amplitude of a scattering event (eq. \ref{eq:Q}, fig. \ref{fig:q}).
+
+\begin{equation}
+    \label{eq:Q}
+    \vec{q}=\vec{k_i}-\vec{k_s}=2|\vec{k}|\sin{\theta}=\frac{4\pi}{\lambda} \sin{\theta}
+\end{equation}{}
+
+The phase difference between a wave scattered at a position $\vec{O}$ and a wave scattered at a position $\vec{O}+\vec{r}$ is equal to $(\vec{k_i} - \vec{k_s}).\vec{r} = \vec{q}.\vec{r}$ (fig. \ref{fig:q}).
+We assume here that the scattering event is elastic ($|\vec{k_i}|=|\vec{k_s}|$) and that the waves are plane waves parallel to each other when in the small scattering volume $dr$.
+
+A small volume $dr$ will have a contribution equal to $-r_0 \rho(\vec{r})dr$ to the scattered field with a phase $e^{i\vec{q}.\vec{r}}$.
+%Thus, the total scattering amplitude at $2\theta$ will be equal to the vector sum of the scattering amplitudes in this direction from all volume elements $dr$ in $\rho(\vec{r})$ taking into account the phases between them.
+
+By integrating over the volume occupied by the atom we obtain the total contribution of an atom to the scattered field in the direction $2\theta$:
+
+\begin{equation}
+    \label{eq:AtomicFormFactor}
+    -r_0 \int \rho (\vec{r}) e^{i\vec{q}.\vec{r}} d\vec{r} = -r_0 f(\vec{q}) = -r_0 FT [\rho (\vec{r})]
+\end{equation}
+
+The scattering amplitude as a function of $\vec{q}$ is described by the atomic scattering factor $f(\vec{q})$, which is defined as the fourier transform of the electronic density $\rho(\vec{r})$. This hypothesis is at the basis of several techniques such as Bragg coherent diffraction imaging for which the use this hypothesis to compute the scattered amplitude from the fourier transform of the electronic density (sec. X).
+
+The values for the atomic scattering factor can be calculated using tabulated coefficients (eq. \ref{eq:AtomicFormFactorTab}) available online \parencite{InterTablesOfCryst}.
+The intensity decreases with $\vec{q}$ as illustrated in figure \ref{fig:atomic_form_factor}.
+
+\begin{equation}
+    \label{eq:AtomicFormFactorTab}
+    f(\vec{q}) = \sum_{i=1}^4 a_i \exp (-b_i (\frac{q} {4\pi})^2) + c
+\end{equation}
+
+The scattering intensity is equal to the square of the scattering amplitude.
+For example, the scattering intensity of palladium atoms at $|\vec{q}| \approx 2.75 \AA$ is only $\approx 31\%$ of that of platinum atoms. In the case of oxygen, the intensity falls down to $\approx 6.7\%$.
+This difference in scattering intensity between elements becomes crucial when working with small objects that have a small scattering volume such as nanoparticles, as in Bragg Coherent Diffraction Imaging.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/introduction/atomic_form_factor.pdf}
+    \caption{
+    Atomic form factor calculated for Pt (Z=78) using tabulated values \parencite{InterTablesOfCryst} for equation \ref{eq:AtomicFormFactor}. The scattering intensity decreases with the scattering angle $\theta$ but increases with the incident wavelength $\lambda$. $i$ and $c$ respectively designate the Gaussian contribution and constant in eq. \ref{eq:AtomicFormFactorTab}.
+    }
+    \label{fig:atomic_form_factor}
+\end{figure}
+
+\subsection{Scattering from atoms and molecules}
+
+In the case of multiple atoms, each atom can be described as a small volume $dr$ in the electronic density, and the scattered field by the superposition of the contribution from the electronic cloud surrounding the atoms.
+
+%The intensity of the scattered beam is proportionnal to the
+
+%As seen in Equation (\ref{eq:scatt_thomson_scat_length}), the Thomson scattering length is inversely proportional to the mass of the particle, while the scattering cross-section is proportional to the square of the Thomson scattering length.
+%Hence the nucleus contributes less than one part in a million to the scattering amplitude and can be completely ignored.
+%The charge distribution is therefore equal to the electronic density.
+
+
+
+
+
+
+
+
+
+
+
+
+%When detecting the scattered field at a point $\vec{R}$, we assume that $\|vec{R}|$ is far greater than the electronic density, this is called the dipole approximation. NOT GOOD Each atom can be considered as a ball of certain radius (see \ref{fcc_lattice}).
+
+Furthermore, we assume that the source and detector are sufficiently far from the charge distribution so that the incident and scattered X-rays may be represented as plane waves, parallel to each other and perpendicular to the direction of propagation. % also more easily described
+This is the so-called far-field limit or the fraunhofer region.
+
+In the scattering direction defined by the angle $2\theta$ between $k_f$ and $k_i$
+
+
+Finally, we assume that the charge distribution is small and that the scattering is weak so that the sample can be treated as a simple "perturbation" to the incident beam resulting in a linear problem \parencite{NielsenMcMorrow} and that the Born approximation is valid.
+
+Working under these assumption is known as kinematic diffraction for which we can easily derive the intensity of the scattered photons. We therefore ignore multiple-scattering of photons inside the sample and xxx. This is correct when working with low incident angles and penetration depths as for example in surface X-ray diffraction (see Section x).
+
+
+
+
+% only valid in far-field, faunhofer region
+% DWBA
+% dipole approximation
+
+\subsection{Coherence}
+
+
+
+\subsection{Bragg's Law}
+
+The lattice of our crystal is defined by three vectors $\vec{a},\ \vec{b},\ \vec{c}$. Any vector $\vec{v}$ of the unit cell can then be created by a linear combination of these three vectors:
+
+\begin{equation}
+    \vec{v}=n_1\vec{a} + n_2\vec{b} + n_3\vec{c}, \quad with \ (n_1,n_2,n_3) \in \mathbb{Z}^3
+\end{equation}{}
+
+the volume of the unit cell is:
+
+\begin{equation}
+    V=\vec{a}.(\vec{b}\times \vec{c})
+\end{equation}{}
+
+An important tool of crystallography is the \textit{reciprocal space} of dimension $m^{-1}$, defined by the three vectors $\vec{a*},\ \vec{b*},\ \vec{c*}$:
+
+\begin{equation}
+    \vec{a^*}=\frac{2\pi}{V}(\vec{b}\times \vec{c}), \qquad
+    \vec{b^*}=\frac{2\pi}{V}(\vec{c}\times \vec{a}), \qquad
+    \vec{c^*}=\frac{2\pi}{V}(\vec{a}\times \vec{b})
+\end{equation}{}
+
+$\vec{q}$ can be written as a linear combination of the reciprocal length between planes.
+\begin{equation}
+    \label{eq:QandD}
+    \vec{Q} = n\frac{2\pi}{d_{hkl}}, \qquad with \ n \in \mathbb{Z}
+\end{equation}{}
+
+Combining \eqref{eq:QandSin} and \eqref{eq:QandD}, we fall back on the most famous equation of crystallography, Bragg law:
+
+\begin{equation}
+    \label{eq:Bragglaw}
+    n\lambda = 2d_{hkl} \sin{\theta}
+\end{equation}
+
+To summarize, a Bragg peak result from the constructive interference between coherently scattered waves at discrete values of the incident angle $2\theta$ or of the momentum transfer $\vec{q}$ on a specific set of crystalline planes. $\vec{q}$ and $2\theta$ are linked through \eqref{eq:QandSin}. The condition to have constructive interference is known as Bragg law and is given by \eqref{eq:Bragglaw}.
+
+From \eqref{eq:QandD}, one can define the general reciprocal-space metric tensor for any crystalline system:
+
+\begin{gather}
+    \frac{(2\pi)^2}{d_{hkl}^2} = h^2 \, (\Vec{a^*}.\Vec{a^*}) + k^2 \,
+    \label{eq:dsquare}(\Vec{b^*}.\Vec{b^*}) + l^2 \, (\Vec{c^*}.\Vec{c^*}) + 2hk \, (\Vec{a^*}.\Vec{b^*}) + 2hl \, (\Vec{a^*}.\Vec{c^*}) + 2kl \, (\Vec{b^*}.\Vec{c^*})\\
+     \frac{(2\pi)^2}{d_{hkl}^2} = h^2 \, {a^*}^2 + k^2 \, {b^*}^2 + l^2 \, {c^*}^2 + 2hk \, {a^*}.{b^*}\cos{\gamma^*} + 2hl \, {a^*}.{c^*}\cos{\beta^*} + 2kl \, {b^*}.{c^*}\cos{\alpha^*}\\
+     \frac{(2\pi)^2}{d_{hkl}^2} = Ah^2 + Bk^2 + Cl^2 + Dhk + Ehl + Fkl
+     \label{eq:RecSpaceMetricTensor}
+\end{gather}{}
+
+Equation \eqref{eq:dsquare} can be simplified as \eqref{eq:Interplanarspacing} for a simple cubic system, defining the interplanar spacing between the crystalline planes:
+
+\begin{equation}
+    \label{eq:Interplanarspacing}
+    d_{hkl}=\frac{2\pi}{|\vec{a^*}|\sqrt{h^2 + k^2 + l^2}}=\frac{|\vec{a}|}{\sqrt{h^2 + k^2 + l^2}}
+\end{equation}{}
+
+Moreover, for each peak, indexed by its \textit{hkl} miller indices that specify the orientation of the crystalline planes, the momentum transfer can be written as a linear combination of reciprocal space vectors, for a cubic lattice:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{Figures/introduction/BraggLaw.pdf}
+    \caption{Geometry of the momentum transfer $\vec{q}$ in reciprocal space, $2\theta$ is the scattering angle.}
+    \label{fig:BraggLaw}
+\end{figure}
+
+The figure \ref{fig:Q} leads to \eqref{eq:QandSin} and illustrates the particular case of a Bragg peak. If the momentum transfer $\vec{q}$ can be expressed as a linear combination of reciprocal vectors, here graphically verified, a Bragg peak occurs for this value of Q.
+
+\begin{equation}
+    \label{eq:Qhkl}
+    \vec{Q_{hkl}} = h\vec{a*} + l\vec{b*} + k\vec{c*}
+\end{equation}{}
+
+\subsection{Intensity of a Bragg peak}
+Neglecting absorption, the intensity of a Bragg peak $I_{nuc}$ as a function of its miller indices \textit{hkl} and of $2\theta$ can be written as:
+
+\begin{equation}
+    \label{eq:PeakIntensity}
+    I_{nuc} = A \times |F_{hkl}|^2  \times j_{hkl} \times L(2\theta) \times \exp{(-2W)}
+\end{equation}
+where A is an instrument constant.
+
+\subsubsection{Structure factor}
+$F_{hkl}$ is known as the structure factor, it is given by:
+\begin{equation}
+    \label{eq:StrucFactor}
+    F_{hkl} = \sum_{j=0}^n b_j \exp{(-2\pi i \vec{Q}. \vec{r_{j0}})}
+\end{equation}{}
+
+The structure factor is the summation of the contribution to the scattering energy of each atoms at the position $\vec{r_{j0}}$ of scattering length $b_j$ in our unit cell for a given $\vec{Q}$.
+The position of the atom $\vec{r_{j0}}$ is given by:
+
+\begin{equation}
+    \label{eq:AtomPos}
+    \vec{r_{j0}} = x_j\vec{a} + y_j\vec{b} + z_j\vec{c}
+\end{equation}
+
+\subsubsection{Debye-Waller factor}
+
+The position $\vec{r_j}$ of the atom j is not static but should be rather understood as the instantaneous position of the atom. In a crystal, atoms vibrate around their equilibrium position $\vec{r_{j0}}$, we have:
+
+\begin{equation}
+    \vec{r_j}(t)=\vec{r_{j0}} + \vec{u}(t)
+\end{equation}{}
+
+$\vec{u} = \vec{u}(t)$ is the thermal displacement, accounting for thermal vibrations in the crystal. These oscillations around the equilibrium position can be understood following the model of a harmonic oscillator at low temperature, with discrete frequencies of vibrations. The frequency of the vibrations, that increase with temperature, are linked to quasi-particles named \textit{phonons}.
+Another contribution to the thermal displacement is the zero-point displacement, if one could lower the temperature of the crystal in a perfect vacuum down to absolute zero, one would have expected the system to not show any motion. However, quantum physics tells us that even at absolute zero there is a probability for the atom to not be in at its equilibrium position, called zero-point displacement.
+Moreover, the Debye-Waller factor also takes into account the static displacement in the lattice that is linked to disorder. This will be discusses further in chapter 2.
+
+The exponential in \eqref{eq:StrucFactor} can be rewritten as:
+
+\begin{equation}
+    \exp{(-2\pi i \vec{Q}.\vec{r_j})} = \exp{(\ -2\pi i \vec{Q}.(\vec{r_{j0}} + \vec{u})\ )}
+\end{equation}{}
+
+The average of this equation is given by:
+
+\begin{equation}
+    \langle \exp{(-2\pi i \vec{Q}.\vec{r_j})} \rangle= \exp{(-2\pi i \vec{Q}.\vec{r_{j0}})} \times \langle \exp{(\ -2\pi i \vec{Q}.\vec{u})\ }\rangle
+\end{equation}{}
+
+The second term of this expression can be expanded as the second order Taylor series for $\exp{x_0}$ with $x_0 = -2\pi i \vec{Q}.\vec{u}$ at zero, we loose the $(2\pi)$ for clarity:
+
+\begin{equation}
+    \langle \exp{(- i \vec{Q}.\vec{u})}\rangle = 1 - \langle \ i \vec{Q}.\vec{u} \ \rangle - \frac{1}{2} \langle \ (\vec{Q}.\vec{u})^2 \ \rangle + o \ ( \ \langle \ (\vec{Q}.\vec{u})^2 \ \rangle \ )
+\end{equation}
+
+Since the displacement are random, the average of $i \vec{Q}.\vec{u}$ is equal to zero. However the average of the square of $\vec{Q}.\vec{u}$ is non zero and can be further developed as:
+
+\begin{equation}
+    \langle \ (\vec{Q}.\vec{u})^2 \ \rangle = Q^2 \ \langle \ u^2 \ \rangle \  \langle \ \cos{\theta}^2 \ \rangle = \frac{1}{3} \  Q^2 \ \langle \ u^2 \ \rangle
+\end{equation}{}
+
+which leads to:
+
+\begin{equation}
+    \langle \exp{(- i \vec{Q}.\vec{u})}\rangle = 1 - \frac{1}{6} \ Q^2 \ \langle \ u^2 \ \rangle
+\end{equation}
+
+that corresponds to the first order Taylor series for $\exp{x_0}$ with $x_0 = \frac{1}{6} \ q^2 \ \langle \ u^2 \ \rangle $ at zero, we can write:
+
+\begin{equation}
+    \label{eq:DWFroot}
+    1 - \frac{1}{6} \ Q^2 \ \langle \ u^2 \ \rangle = \exp{( \frac{1}{6} \ Q^2 \ \langle \ u^2 \ \rangle \ )}
+\end{equation}
+
+The final intensity contribution of the Debye Waller factor is the square of \eqref{eq:DWFroot} given by:
+
+\begin{equation}
+    \label{eq:DWF}
+    \exp{( \frac{1}{3} \ Q^2 \ \langle \ u^2 \ \rangle \ )}
+\end{equation}
+
+The last two terms of \eqref{eq:PeakIntensity}, respectively $j_{hkl}$ and $L(2\theta)$ are the multiplicity of a Bragg peak and the Lorentz factor. They will be studied in a section covering the instrument used for powder diffraction for they both relate more to the collection of the data than to the theoretical intensity of a Bragg peak.
+
+\subsubsection{Lorentz factor}
+
+Explain here how we actually collect the data
+
+Ewald sphere is quite important here.
+
+\subsubsection{Multiplicity}
+
+Small introduction to space groups ?
+
+% \begin{figure}[!htb]
+%     \centering
+%     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/drawing/blender/FCC.png}
+%     \caption{FCC lattice of Pt. Close packed direction is achieved along the diagonal of the lateral faces. The distance between the atoms is $2.71 \si{\angstrom}.$}
+%     \label{fig:fcc_lattice}
+% \end{figure}
+
