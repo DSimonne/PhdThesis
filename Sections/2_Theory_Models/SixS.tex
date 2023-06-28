@@ -14,3 +14,32 @@ theta two theta is mu gamma or omega delta
 \subsubsection{Residual Gas Analyser}
 
 
+\subsection{Data collection}
+
+Explain here how we actually collect the data
+
+Ewald sphere is quite important here.
+
+\subsection{Intensity of a Bragg peak}
+Neglecting absorption, the intensity of a Bragg peak $I_{nuc}$ as a function of its Miller indices \textit{hkl} and of $2\theta$ can be written as:
+
+\begin{equation}
+    \label{eq:PeakIntensity}
+    I_{nuc} = A \times |F_{hkl}|^2  \times j_{hkl} \times L(2\theta) \times \exp{(-2W)}
+\end{equation}
+where A is an instrument constant.
+
+\subsubsection{Structure factor}
+$F_{hkl}$ is known as the structure factor, it is given by:
+\begin{equation}
+    \label{eq:StrucFactor}
+    F_{hkl} = \sum_{j=0}^n b_j \exp{(-2\pi i \vec{Q}. \vec{r_{j0}})}
+\end{equation}
+
+The structure factor is the summation of the contribution to the scattering energy of each atoms at the position $\vec{r_{j0}}$ of scattering length $b_j$ in our unit cell for a given $\vec{Q}$.
+The position of the atom $\vec{r_{j0}}$ is given by:
+
+\begin{equation}
+    \label{eq:AtomPos}
+    \vec{r_{j0}} = x_j\vec{a} + y_j\vec{b} + z_j\vec{c}
+\end{equation}
