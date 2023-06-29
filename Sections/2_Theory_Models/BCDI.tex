@@ -55,7 +55,7 @@ The DFT is a mathematical operation that transforms a time-domain signal into it
 
 The FFT algorithm was developed by Cooley and Tukey in the 1960s and revolutionized the field of digital signal processing due to its significant speed improvement over the conventional DFT calculation.
 
-Here is a simplified explanation of the FFT algorithm:
+Simplified explanation of the FFT algorithm:
 
 1. Input: The algorithm takes as input a sequence of N complex numbers, representing a discrete-time signal.
 
@@ -69,7 +69,7 @@ Here is a simplified explanation of the FFT algorithm:
 
 The key concept behind the FFT algorithm is the exploitation of symmetry and periodicity properties of the complex exponential functions involved in the DFT computation. By using these properties and recursively dividing the sequence, the algorithm achieves a significant reduction in the number of operations required, resulting in a faster computation compared to the straightforward DFT calculation.
 
-The FFT algorithm has a time complexity of O(N log N), where N is the size of the input sequence. This is a significant improvement over the O(N^2) complexity of the direct DFT calculation.
+The FFT algorithm has a time complexity of $O(N log N)$, where N is the size of the input sequence. This is a significant improvement over the $O(N^2)$ complexity of the direct DFT calculation.
 
 The FFT algorithm is extensively used in various applications, such as digital signal processing, image processing, audio processing, telecommunications, and many scientific and engineering fields that involve spectral analysis or frequency domain operations on discrete signals.
 
@@ -91,9 +91,6 @@ In combination of the ER and HIO algorithms, a third algorithm is routinely used
 In practice, the estimate is smoothed by convolution with a Gaussian. After convolution, a thresholding is applied to the smoothed image to a typical value of 10\% of the maximum value of the amplitude. Values above the threshold are set to 1 and values below are set to 0. The threshold is generally set to such low values to avoid to suppress too large parts of the support. Nevertheless, the convolution step allows to recover from a support that has been reduced
 
 \subsection{Accessing strain and displacement}
-
-
-\lipsum
 
 
 \subsection{Computer programs}
