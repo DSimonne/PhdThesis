@@ -1,0 +1,9 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'main.blg'
+[40] biber-darwin:313> INFO - === Ven jui 30, 2023, 09:19:45
+[62] Biber.pm:371> INFO - Reading 'main.bcf'
+[152] Biber.pm:857> INFO - Found 5 citekeys in bib section 0
+[169] Biber.pm:3976> INFO - Processing section 0
+[186] Biber.pm:4136> INFO - Looking for bibtex format file '/home/david/Documents/PhD/PhdThesis/references.bib' for section 0
+[446] Utils.pm:209> ERROR - Cannot find '/home/david/Documents/PhD/PhdThesis/references.bib'!
+[446] Biber.pm:114> INFO - ERRORS: 1
