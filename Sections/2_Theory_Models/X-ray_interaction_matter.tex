@@ -1,7 +1,7 @@
 \section{X-ray interaction with matter}
 
 Understanding the different mechanisms at play when photons interact with matter is of crucial importance to be able to decide how to use X-rays as a probe in material science.
-Each phenomenon (absorption, scattering, \textit{etc})}  is at the source of different techniques, diffraction brings surface X-ray diffraction (SXRD) and Bragg coherent diffraction imaging (BCDI), two techniques used in the frame of this thesis that give complementary information about the sample structure bulk and surface.
+Each phenomenon (absorption, scattering, \textit{etc}) is at the source of different techniques, diffraction brings surface X-ray diffraction (SXRD) and Bragg coherent diffraction imaging (BCDI), two techniques used in the frame of this thesis that give complementary information about the sample structure bulk and surface.
 
 X-ray absorption together with the photoelectric effect explained by Einstein in 1905 are at the source of a third technique used, X-ray photoelectron spectroscopy, which yields information specific to the nature of the adsorbates on the sample's surface.
 
@@ -11,18 +11,18 @@ X-ray absorption together with the photoelectric effect explained by Einstein in
     \begin{tabular}{l|l|l|l}
         Technique & Sample & Sensitivity & Information \\
         \toprule
-        \textcolor{Important}{Bragg Coherent} & Pt nanoparticles & Bragg electronic & Shape, 3D strain  \\
-        \textcolor{Important}{Diffraction Imaging} & (111), (110), (100), ... & density and phase & and displacement \\
-        \textcolor{Important}{(BCDI)} &  &  & \\
+        Bragg Coherent & Pt nanoparticles & Bragg electronic & Shape, 3D strain  \\
+        Diffraction Imaging & (111), (110), (100), ... & density and phase & and displacement \\
+        (BCDI) &  &  & \\
         \midrule
-        \textcolor{Important}{Surface X-ray} & Pt single crystals & Surface & Roughness, relaxation \\
-        \textcolor{Important}{Diffraction (SXRD)} & (111), (100), (311) & structure & and crystallographic phases \\
+        Surface X-ray & Pt single crystals & Surface & Roughness, relaxation \\
+        Diffraction (SXRD) & (111), (100), (311) & structure & and crystallographic phases \\
         \midrule
-        \textcolor{Blue}{X-ray Photoelectron} & Pt single crystals & Surface & Species presence, \\
-        \textcolor{Blue}{Spectroscopy (XPS)} & (111), (100) & species & quantity, oxidation state \\
+        X-ray Photoelectron & Pt single crystals & Surface & Species presence, \\
+        Spectroscopy (XPS) & (111), (100) & species & quantity, oxidation state \\
         \bottomrule
     \end{tabular}
-    \caption{Near-ambient pressure (NAP) X-ray techniques carried out at the \textcolor{Important}{SixS} (SOLEIL) \\ or \textcolor{Blue}{B-07} (Diamond) beamlines}
+    \caption{Near-ambient pressure (NAP) X-ray techniques carried out at the SixS (SOLEIL) \\ or B-07 (Diamond) beamlines}
     \label{tab:techniques}
 \end{table}
 
@@ -184,15 +184,15 @@ By integrating over the volume occupied by the atom we obtain the total contribu
     -r_0 \int \rho (\vec{r}) e^{i\vec{q}.\vec{r}} d\vec{r} = -r_0 f(\vec{q}) = -r_0 FT [\rho (\vec{r})]
 \end{equation}
 
-The scattering amplitude as a function of $\vec{q}$ is described by the atomic scattering factor $f(\vec{q})$, which is defined as the Fourier transform of the electronic density $\rho(\vec{r})$.
+The scattering amplitude as a function of $\vec{q}$ is described by the atomic from factor $f^0(\vec{q})$, which is defined as the Fourier transform of the electronic density $\rho(\vec{r})$.
 This hypothesis is at the basis of several techniques such as Bragg coherent diffraction imaging for which we use Fourier transforms to compute the scattered amplitude (sec. X).
 
-The values for the atomic scattering factor can be approximated by a sum of Gaussians using tabulated coefficients (eq. \ref{eq:AtomicFormFactorTab}) available online \parencite{InterTablesOfCryst}.
+The values for the atomic from factor can be approximated by a sum of Gaussians using tabulated coefficients (eq. \ref{eq:AtomicFormFactorTab}) available online \parencite{InterTablesOfCryst}.
 It decreases with $\vec{q}$ (or $\sin(\theta) / \lambda)$ as illustrated in figure \ref{fig:atomic_form_factor}.
 
 \begin{equation}
     \label{eq:AtomicFormFactorTab}
-    f(\vec{q}) = \sum_{i=1}^4 a_i \exp (-b_i (\frac{q} {4\pi})^2) + c
+    f^0(\vec{q}) = \sum_{i=1}^4 a_i \exp (-b_i (\frac{q} {4\pi})^2) + c
 \end{equation}
 
 The scattering intensity is equal to the square of the scattering amplitude.
@@ -208,7 +208,63 @@ This difference in scattering intensity between elements becomes crucial when wo
     \label{fig:atomic_form_factor}
 \end{figure}
 
-\subsection{Scattering from crystals}
+
+\subsection{Refraction, reflection and absoption effects}
+
+For now we have considered the electron as free.
+However, electrons in atoms or molecules exist in discrete bound states (characterised by a binding energy $E_b$), and their response to the incoming electromagnetic field becomes dependent on the incoming energy.
+
+First, when approaching the binding energy, the amplitude of the electron's oscillation are reduced and so is the atomic form factor by a real energy-dependant factor $f'(\hbar\omega)$.
+Secondly, when approaching the binding energy, the oscillation of the scattering electron experiences a phase lag.
+This is taken into account by introducing an imaginary energy-dependent factor $f''(\hbar\omega)$.
+The atomic form factor $f^0(\vec{q})$ must therefore be corrected by these two correction factors, we define the total atomic form factor $f(q, \hbar\omega)$ as:
+
+\begin{equation}
+    f(\vec{q}, \hbar\omega) = f^0(\vec{q}) + f'(\hbar\omega) + if''(\hbar\omega) = f_1(\vec{q}, \hbar\omega) + i f_2(\hbar\omega)
+\end{equation}
+
+The values of the correction factors $f'$ and $f''$, also known as the dispersion corrections to $f^0$, depend on the electronic structure of the atom and are maximum when approaching the binding energies of the electrons in the atom.
+To understand the impact of the correction factors on the electromagnetic wave inside a material, we introduce the complex refraction index $n$, which for X-rays can be written as:
+
+\begin{gather}
+    n = 1-\delta+i\beta = 1 - \frac{r_0 \lambda^2}{2\pi} \sum_i N_i f_i(\vec{q}=0)\\
+    \label{eq:delta}
+    \delta = \frac{r_0 \lambda^2}{2\pi} \sum_i N_i f_1(\vec{q}=0)\\
+    \beta = \frac{r_0 \lambda^2}{2\pi} \sum_i N_i f_2
+\end{gather}
+with $f_i(\vec{q}=0)$ the total atomic form factor of atom $i$ in the forward direction ($\vec{q}=0$) and $N_i$ the number of atoms corresponding to the element $i$ per unit volume, $\delta$ is the refractive index and $\beta$ the absorption index.
+
+When impinging on a plane surface between air ($n$=1) and another medium of refractive index $n$, X-rays are refracted, the wavelength changes to $\lambda/n$ and the direction of propagation becomes closer to the surface between both mediums.
+Below a certain incident angle known as the \textit{critical angle} $\alpha_c$ between the direction of the incident X-rays and the plane interface, the X-rays will be totally reflected.
+This effect is used in focussing mirrors for optics
+This angle is approximately equal to $\sqrt{2\delta}$ \parencite{Willmott}.
+Far from the binding energies of the electron in the system, the correction factor $f'$ in the expression of $\delta$ can be ignored and the sum in eq. \ref{eq:delta} is then equal to the electronic density of the system.
+
+Finally, to highlight the impact of the complex part of the absorption index $\beta$, we express the electric field of a plane electromagnetic wave propagating in the $\vec{z}$ direction inside a material of refractive index $n$ as follows:
+
+\begin{equation}
+    E(\vec{z}, t) = E_0 e^{i(n\vec{k}.\vec{z} - wt)} = E_0 e^{-\beta \vec{k}.\vec{z}} e^{i(\delta\vec{k}.\vec{z} - wt)}
+\end{equation}
+
+The imaginary part of the form factor translates into an exponential decay of the intensity of the incoming wave, the intensity of the electromagnetic field decreases; \textit{i.e.} the wave is absorbed by the material.
+The absorption of the photons by the material is at the origin of many different phenomena such as the promotion of electrons to either higher energetic bound states or directly to vacuum.
+The kinetic energy of the electrons released from the material in the latter scenario is equal to the incident photon energy $\hbar\omega$ minus the energy required to release the electron from its bound state $E_b$, minus the energy required for the electron to escape from the electronic cloud $W$ (also known as the work function).
+
+\begin{equation}
+    E_{kin} = \hbar\omega - W - E_b
+\end{equation}
+
+Measuring the kinetic energy of the photoelectron that escaped the material yields direct information about the different binding energies present in the material, \textit{i.e.} about its electronic structure.
+The study of these kinetic energy is known as X-ray photoelectron spectroscopy (XPS),
+a technique used in this thesis to study the electronic structure of the latest atomic layers of a surface, electrons released from atoms in deeper layers being ultimately absorbed(more like cancelled due to the interraction with the e cloud of) by the surrounding atoms.
+The cross-section for XPS is directly proportional to the absorption cross-section $\sigma_a$ (eq. \ref{eq:AbsorptionCrossSection}, fig. \ref{fig:cross_sections}) which can be derived from the imaginary atomic form factor:
+
+\begin{equation}
+    \label{eq:AbsorptionCrossSection}
+    \sigma_a(\hbar\omega) = 2 r_0 \lambda f_2(\hbar\omega)
+\end{equation}
+
+\section{Scattering from crystals}
 
 A crystal is a solid material composed of a regular, repeating arrangement of atoms, ions, or molecules (\textit{i.e.} a pattern), exhibiting a highly ordered structure with long-range periodicity in three dimensions.
 
@@ -220,7 +276,7 @@ The structure of the Bravais lattice (cubic, hexagonal, ...) combined with the p
 In total there exist 230 space group in crystallography.
 In the simplest case the pattern consists of a single atom, for example pure Platinum (Z=78) cristallizes at room temperature in a cubic Bravais lattice (fig. \ref{fig:fcc}).
 
-We can define the scattering factor $F_{crystal}$ of the crystal by the sum of the atomic scattering factor of each atom present in the crystal: 
+We can define the scattering factor $F_{crystal}$ of the crystal, that describes the amplitude of the scattered waves, by the sum of the atomic scattering factor $f_j(\vec{q})$ of each atom present in the crystal, while the phases between the scattered waves depend on the positions of the atoms $\vec{r}_j$ in the unit cell in the direction that is perpendicular to the scattering vector $\vec{q}$.
 
 \begin{equation}
     F_{crystal}(\vec{q}) = \sum_j^{N_{atom}} f_j(\vec{q}) e^{i\vec{q}.\vec{r}_j}
@@ -231,7 +287,7 @@ The Thomson scattering length is left apart for simplicity.
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/drawing/blender/FCC.png}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/Drawing/blender/FCC.png}
     \caption{Face centered cubic (FCC) lattice of Pt (space group 225). Atoms are represented as solid balls and situated on the corners and at the middle of the faces. The lattice parameter at room temperature is $a = 3.9254 \:\AA$. Close packed direction is achieved along the diagonal of the lateral faces, the distance between the atoms then becomes is $2.71 \:\si{\angstrom}.$}
     \label{fig:fcc}
 \end{figure}
@@ -367,6 +423,12 @@ These Fourier transforms are known as the lattice factor $F_{lat}$ and the unit 
 The lattice factor $F_{lat}$ represents the periodic arrangement of the crystal lattice in Fourier space, corresponding to the reciprocal lattice.
 It determines the positions and intensities of the diffraction peaks in the scattering pattern.
 The unit cell structure factor $F_{uc}$ describes the distribution of electron density within the unit cell of the crystal and modulates the scattered beam amplitude depending on what atoms are in the unit cell (amplitude) and their positions (phase).
+By identifying the different parts of eq. \ref{eq:Fcrystal} and eq. \ref{eq:FcrystalFlatFuc} we can first isolate the structure factor:
+
+\begin{equation}
+    \label{eq:StrucFactor}
+    F_{uc} = \sum_j^{N_{atoms}} f_j(\vec{q}) e^{i\vec{q}.\vec{r}_j}
+\end{equation}
 
 Each diffraction peak in the scattering pattern corresponds to a specific Fourier component, representing a sinusoidal wave of electron density with a particular frequency and direction determined by its scattering vector $\vec{q}$, \textit{i.e.} by its position in Fourier space.
 By knowing the phase relationships between these Fourier components, which can be obtained from the measured diffraction pattern, the electron density within the unit cell can be reconstructed.
@@ -376,15 +438,8 @@ To summarize, the diffraction peaks in the scattering pattern represent the Four
 %The first sum is the unit cell structure factor, that modulates the scattered beam amplitude depending on what atoms are in the unit cell (amplitude) and their positions (phase).
 %The second sum is the lattice factor that takes the value of $N_{uc}$ if $\vec{q}.\vec{R_k} = n \times 2\pi$ $(\ n \in \mathbb{Z})$.
 
-By identifying the different parts of eq. \ref{eq:Fcrystal} and eq. \ref{eq:FcrystalFlatFuc} we can first isolate the structure factor:
-
-\begin{equation}
-    \label{eq:StrucFactor}
-    F_{uc} = \sum_j^{N_{atoms}} f_j(\vec{q}) e^{i\vec{q}.\vec{r}_j}
-\end{equation}
-
-The structure factor is the summation of the contribution of each atom $j$ at the position $\vec{r}_j$ of atomic form factor $f_j(\vec{q})$ in the unit cell for a given scattering vector $\vec{q}$.
-The position of each atom is defined in the unit cell by eq. \ref{eq:AtomPos}, an example with the Platinum atoms in its primitive unit cell is given in tab. \ref{tab:PtAtoms}.
+The structure factor $F_{uc}$ is the summation of the contribution of each atom $j$ at the position $\vec{r}_j$ of atomic form factor $f_j(\vec{q})$ in the unit cell for a given scattering vector $\vec{q}$.
+The position of each atom is defined in the unit cell by eq. \ref{eq:AtomPos}, an example with the platinum atoms in its primitive unit cell is given in tab. \ref{tab:PtAtoms}.
 
 \begin{equation}
     \label{eq:AtomPos}
@@ -395,13 +450,13 @@ The position of each atom is defined in the unit cell by eq. \ref{eq:AtomPos}, a
     \centering
     \begin{tabular}{@{}lllllllllllllll@{}}
     \toprule
-    Atom & Pt & Pt & Pt & Pt & Pt  & Pt  & Pt  & Pt  & Pt  & Pt & Pt & Pt & Pt & Pt  \\ \midrule
-    x    & 0  & 1  & 0  & 1  & 0.5 & 0.5 & 0   & 0.5 & 1   & 0  & 1  & 0  & 1  & 0.5 \\
-    y    & 0  & 0  & 1  & 1  & 0.5 & 0   & 0.5 & 1   & 0.5 & 0  & 0  & 1  & 1  & 0.5 \\
-    z    & 0  & 0  & 0  & 0  & 0   & 0.5 & 0.5 & 0.5 & 0.5 & 1  & 1  & 1  & 1  & 1   \\ \bottomrule
+    Atom & Pt & Pt  & Pt  & Pt  & | Pt & Pt & Pt & Pt  & Pt  & Pt & Pt & Pt & Pt & Pt  \\ \midrule
+    x    & 0  & 0.5 & 0.5 & 0   & | 1  & 0  & 1  & 0.5 & 1   & 0  & 1  & 0  & 1  & 0.5 \\
+    y    & 0  & 0.5 & 0   & 0.5 & | 0  & 1  & 1  & 1   & 0.5 & 0  & 0  & 1  & 1  & 0.5 \\
+    z    & 0  & 0   & 0.5 & 0.5 & | 0  & 0  & 0  & 0.5 & 0.5 & 1  & 1  & 1  & 1  & 1   \\ \bottomrule
     \end{tabular}
+    \caption{Position of Platinum atoms in the face-centered cubic (FCC) unit cell. Illustrated in fig. \ref{fig:fcc}. The first four atomic positions  lead to the other positions by symmetry.}
     \label{tab:PtAtoms}
-    \caption{Position of Platinum atoms in the face-centered cubic (FCC) unit cell. Illustrated in fig. \ref{fig:fcc}}
 \end{table}
 
 Systematic extinctions ($F_{uc} = 0$) occur when certain diffraction peaks are forbidden due to the crystal's symmetry elements, such as the atomic positions.
@@ -414,21 +469,95 @@ If the scattering factor considers the composition of the unit cell, the lattice
 It takes into account the arrangement of atoms or scatterers within the crystal lattice and their interaction with the incident wave.
 
 By identifying the different parts of eq. \ref{eq:Fcrystal} and eq. \ref{eq:FcrystalFlatFuc} we can now isolate the lattice factor (eq \ref{eq:LatFactor}).
-Instead of considering one sum over all the unit cells $N_{uc}$ in the crystal, we can work with the product of three sums, each in one of the three directions of the crystal lattice ($\vec{a}, \vec{b}, \vec{c}$) so that $N_{uc} = N_{uc, x} \times N_{uc, y} \times N_{uc, z}$.
+In the case of a simple cubic arrangement of unit cells in three directions perpendicular to each other, we can divide the sum over all the unit cells $N_{uc}$ in the crystal into three sums, each in one of the directions of the crystal lattice ($\vec{a}, \, \vec{b}, \, \vec{c}$) so that $N_{uc} = N_{uc, x} \times N_{uc, y} \times N_{uc, z}$.
 
 \begin{gather}
     \label{eq:LatFactor}
-    F_{lat} = \sum_k^{N_{uc}} e^{i\vec{q}.\vec{R_k}} = \sum_{m_x}^{N_{uc, x}} e^{i m_x\vec{q}.\vec{a}} \times \sum_{m_y}^{N_{uc, y}} e^{i m_y\vec{q}.\vec{b}} \times \sum_{m_y}^{N_{uc, z}} e^{i m_y\vec{q}.\vec{c}},\\
-    \prod_{j=1}^3
+    F_{lat} = \sum_k^{N_{uc}} e^{i\vec{q}.\vec{R_k}} = \sum_{n_x}^{N_{uc, x}} e^{i n_x\vec{q}.\vec{a}} \times \sum_{n_y}^{N_{uc, y}} e^{i n_y\vec{q}.\vec{b}} \times \sum_{n_y}^{N_{uc, z}} e^{i n_y\vec{q}.\vec{c}}\\
+    F_{lat} = \prod_{j=\{x,y,z\}} \Bigg( \sum_{n_j}^{N_{uc, j}} e^{i n_j\vec{q}.\vec{a}_j} \Bigg)\\
+    F_{lat} = \prod_{j=\{x,y,z\}} S_{N_{uc, j}}(\vec{q}.\vec{a}_j)
 \end{gather}
+
+Where $S_{N_{uc, j}}(\vec{q}.\vec{a})$ is a function whose modulus $|S_{N_{uc, j}}(\vec{q}.\vec{a})|$ tends towards a dirac function when $N_{uc, j} \longrightarrow \infty$.
+The condition to observe peaks in eq. \ref{eq:SFunction2} is for the denominator to be equal to zero: $\frac{\vec{q}.\vec{a}_j}{2} \equiv \pi$ which brings us back to the Laue condition: $\vec{q} = \vec{G}$ where $\vec{G}$ is a reciprocal space lattice vector.
+Minor peaks appear when the numerator is equal to one: $N\frac{\vec{q}.\vec{a}_j}{2} \equiv \frac{\pi}{2}$, the distance between each minor peak is equal to $\frac{2\pi}{t_j}$ where $t_j$ is the thickness of the crystal in the direction $\vec{a_j}$.
+
+\begin{gather}
+    \label{eq:SFunction1}
+    S_{N_{uc, j}}(\vec{q}.\vec{a}_j) = \sum_{n_j}^{N_{uc, j}} e^{in\vec{q}.\vec{a}_j} = \sum_{n_j}^{N_{uc, j}} e^{(i\vec{q}.\vec{a}_j)^n_j} = \frac{1-e^{(i N_{uc, j} \vec{q}.\vec{a}_j)}}{1-e^{(i\vec{q}.\vec{a}_j)}},\\
+    \label{eq:SFunction2}
+    |S_{N_{uc, j}}(\vec{q}.\vec{a}_j)| = \frac{\sin(N_{uc, j} \vec{q}.\vec{a}_j/2)}{\sin(\vec{q}.\vec{a}_j/2)},\\
+    \label{eq:SFunction3}
+    |S_{N_{uc, j}}(\vec{q}.\vec{a}_j)| \underset{N_{uc, j} \to \infty}{\longrightarrow} \approx \delta (\vec{q})
+\end{gather}
+
+To resume, the lattice factor $F_{lat}(\vec{q})$ defines the shape of Bragg peaks.
+For a large crystal (\textit{i.e.} a large number of unit cells in three directions), ideal Bragg peaks will look like Dirac functions (in reality they are widened due to different experimental factors).
+For a small crystal such as nanoparticles, the fringes of the lattice factor will be further apart and their intensity more visible in contrast to the intensity of the main peak (fig. ).
+In a more general sense, the lattice factor is the Fourier transform of the crystal's lattice, the effect of the Fourier transform is that fringes will be visible in the reciprocal space in directions perpendicular to the crystal's surface (fig. ).
+The ability to effectively sample these fringes during experiments is at the root of the BCDI technique, to be able to perform the inverse Fourier transform of the Bragg peak to then retrieve the crystal shape (sec. x).
+
 
 \subsection{Coherence}
 
+Every X-ray source can be described by several parameters.
+The brilliance is a measure of the distribution of flux in both space and angular range, it indicates how the flux is spread over the source area and solid angle.
+
+\begin{equation}
+    Brilliance = \frac{photons/second}{(mm^2 source \; area)(mrad)^2(0.1\% \; bandwidth)}
+\end{equation}
+
+The spectral flux, on the other hand, quantifies the number of photons passing through a defined area per unit bandwidth per second.
+Synchrotron facilities aim to optimize both the photon flux and brilliance, a higher flux meaning faster experiments whereas a high brilliance is important for those that need a coherent beam.
+To do so, the source size which is the convolution of the size of the photon source and the transverse size of the electron beam has been reduced by an order of magnitude in 4th generation synchrotrons compared to 3rd generation synchrotrons \parencite{Willmott}.
+
+\begin{equation}
+    \label{eq:Emittance}
+    \epsilon = D \times \Delta\theta
+\end{equation}
+The emittance $\epsilon$ is defined as the product of the source size $D$ and the beam divergence $\Delta\theta$ (eq. \ref{eq:Emittance}), a low emittance is characteristic of a small source size and almost parallel emitted beams.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=0.9]{Figures/introduction/coherence_lengths.pdf}
+    \caption{
+    (a) Two waves become out of phase in the direction of the beam at a distance $L_L$ from being in phase after $N/2$ wavelengths for $\lambda$ and $(N+1)/2$ wavelengths for $\lambda - \Delta\lambda$. Since $N >> 1$, we can write $N\approx\lambda/\Delta\lambda$ and find eq. \ref{eq:LongitudinalCoL}.
+    (b) A plane wave emitted from one extremity of the source is out of phase with another plane wave emitted from the other extremity with maximum angular divergence $\Delta\theta$ at a distance $L_T$ in the plane perpendicular to the direction of the beam situated at a distance $R$ from the source.
+    }
+    \label{fig:CoherenceLengths}
+\end{figure}
+
+The longitudinal coherence length $L_L$ describes the distance in the direction of the beam after which two waves of slighly different wavelength become out of phase due to the small extent of the beam bandwidth $\Delta\lambda$ (fig. \ref{fig:CoherenceLengths} - a).
+The bandwidth is linked to the quality of the monochromator used to obtain a monochromatic beam through the relation $\lambda/\Delta\lambda$ (eq. \ref{eq:LongitudinalCoL}).
+
+\begin{equation}
+    \label{eq:LongitudinalCoL}
+    L_L = \frac{\lambda^2}{2\Delta\lambda}
+\end{equation}
+
+The transverse coherence length $L_T$ describes the distance in the plane perpendicular to the beam after which two waves become out of phase due to the finite source size $D$ and to the angular divergence of the beam $\Delta\theta$ (fig. \ref{fig:CoherenceLengths} - b).
+By assuming that the source has a Gaussian profile, we can relate $D$ to the standard deviation of the beam $\sigma_{x,y}$ in the $\vec{x}$ and $\vec{y}$ directions perpendicular to the beam direction (\cite{Willmott}, eq. \ref{eq:TransverseCoL}).
+
+\begin{equation}
+    \label{eq:TransverseCoL}
+    L_{T,(x,y)} = \frac{\lambda}{2\Delta\theta_{(x,y)}} = \frac{\lambda R}{2 D_{(x,y)}} = \frac{\lambda R}{2\sqrt{\pi}\sigma_{x,y}}
+\end{equation}
+
+At synchrotrons, the vertical and horizontal source size are significantly different due to the shape of the electron beam, much more extended in the horizontal plane.
+The horizontal coherence length is usually smaller and the limiting factor.
+By multiplying the two transverse coherence lengths $L_{T,x}$, $L_{T,y}$ and the longitudinal coherence length $L_L$ we obtain the coherent volume.
+An example if given in sec. x for the SixS beamline of the synchrotron SOLEIL.
+
+To perform Bragg coherent diffraction imaging experiments for which the coherent volume must be larger than the sample, the beamline must have low vertical and horizontal emittances, high monochromaticity and a sample environment situated as far as possible from the source.
+Indeed, to be able to resolve the interference fringes resulting from the lattice factor, a high brilliance is crucial since the intensity of the total scattered field, proportional to the scattering volume, is weak.
+A detailed explanation of how to optimize BCDI experiments is given in sec. xxx.
 
 \textit{
 So far we have limited ourselves to the kinematical approach of diffraction in the frame of this thesis.
 This means that multiple scattering and effect of absorption and refraction are ignored during diffraction.
+We will see in sec. that for BCDI, multiple scattering imposes an upper limit on particle size if in the kinematical approach while effect of absorption and refraction can be corrected.
 This is justified for Surface X-ray diffraction by the fact that the incoming angle is very low ($\approx 0.3$) and for BCDI by the low volume of the sample ($\approx 0.1 \mu m^3$).
+We have also assumed that the incident wave is plane and that the phase of the incident wave is the same within the scattering volume.
 }
 
 \textcolor{Important}{Field / amplitude / intensity consistent ? $r_0$ use consistent ? $2\pi$ ? Where to mention that here we are using several hypothesis (Born approximation, DWBA, dipole), real crystals, fourier tranform, convolution

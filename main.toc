@@ -1,30 +1,35 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {british}{}
-\contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}
-\contentsline {section}{\numberline {1.1}The oxidation of Ammonia}{4}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}From industry to model catalysis}{4}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Crystal structures}{4}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Pt 111}{4}{subsection.1.1.3}
-\contentsline {subsection}{\numberline {1.1.4}Pt 100}{4}{subsection.1.1.4}
-\contentsline {subsection}{\numberline {1.1.5}Nanoparticles}{4}{subsection.1.1.5}
-\contentsline {section}{\numberline {1.2}Aim and Scope}{5}{section.1.2}
-\contentsline {section}{\numberline {1.3}Outline of the Thesis}{5}{section.1.3}
-\contentsline {chapter}{\numberline {2}Theory and methods}{6}{chapter.2}
-\contentsline {section}{\numberline {2.1}X-ray interaction with matter}{6}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Scattering from electrons and atoms}{7}{subsection.2.1.1}
-\contentsline {subsubsection}{Cross-sections}{7}{section*.8}
-\contentsline {subsubsection}{Scattering from an electron}{7}{section*.10}
-\contentsline {subsubsection}{Scattering from a single atom}{10}{section*.12}
-\contentsline {subsection}{\numberline {2.1.2}Scattering from crystals}{11}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Bragg's Law}{14}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}Structure factor}{14}{subsection.2.1.4}
-\contentsline {subsection}{\numberline {2.1.5}Lattice factor}{16}{subsection.2.1.5}
-\contentsline {subsection}{\numberline {2.1.6}Coherence}{16}{subsection.2.1.6}
-\contentsline {section}{\numberline {2.2}Synchrotron radiation}{16}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Tailored for the study of materials}{16}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}The SixS beamline}{16}{subsection.2.2.2}
-\contentsline {subsubsection}{Diffractometer}{16}{section*.18}
-\contentsline {subsubsection}{Mass flow controller}{16}{section*.19}
-\contentsline {subsubsection}{Residual Gas Analyser}{16}{section*.20}
-\contentsline {subsection}{\numberline {2.2.3}Data collection}{16}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Intensity of a Bragg peak}{17}{subsection.2.2.4}
+\babel@toc {british}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The oxidation of Ammonia}{5}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}From industry to model catalysis}{5}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Crystal structures}{5}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Pt 111}{5}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Pt 100}{5}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Nanoparticles}{5}{subsection.1.1.5}%
+\contentsline {section}{\numberline {1.2}Aim and Scope}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Outline of the Thesis}{6}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Theory and methods}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}X-ray interaction with matter}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Scattering from electrons and atoms}{8}{subsection.2.1.1}%
+\contentsline {subsubsection}{Cross-sections}{8}{section*.8}%
+\contentsline {subsubsection}{Scattering from an electron}{8}{section*.10}%
+\contentsline {subsubsection}{Scattering from a single atom}{11}{section*.12}%
+\contentsline {subsection}{\numberline {2.1.2}Refraction, reflection and absoption effects}{13}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Scattering from crystals}{14}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Bragg's Law}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Structure factor}{16}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Lattice factor}{18}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Coherence}{18}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}SXRD}{20}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Surface reconstructions}{20}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Crystal truncation rods}{20}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Reflectivety}{21}{subsection.2.3.3}%
+\contentsline {subsubsection}{ROD}{21}{section*.19}%
+\contentsline {section}{\numberline {2.4}Synchrotron radiation}{21}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Tailored for the study of materials}{21}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}The SixS beamline}{21}{subsection.2.4.2}%
+\contentsline {subsubsection}{Diffractometer}{21}{section*.20}%
+\contentsline {subsubsection}{Mass flow controller}{21}{section*.21}%
+\contentsline {subsubsection}{Residual Gas Analyser}{21}{section*.22}%
+\contentsline {subsection}{\numberline {2.4.3}Data collection}{21}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Intensity of a Bragg peak}{21}{subsection.2.4.4}%

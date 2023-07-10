@@ -1,0 +1,330 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Resta2020a}{article}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=095401660ec6b30ea5677c39096e8cae}{%
+           family={Resta},
+           familyi={R\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c4ce95dc59c6d354cb3a4a0de7c52e7}{%
+           family={Hejral},
+           familyi={H\bibinitperiod},
+           given={Uta},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=93b98f9b1bb1c482bf06afe381f2fdce}{%
+           family={Blomberg},
+           familyi={B\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9a2cfb0971e1a0becfa710285fbe5d8}{%
+           family={Albertin},
+           familyi={A\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0210a78f5e50d5c663ed1743bdb42b0e}{%
+           family={Vlad},
+           familyi={V\bibinitperiod},
+           given={Alina},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18e7474c259377953c3f9d7b79555403}{%
+           family={Garreau},
+           familyi={G\bibinitperiod},
+           given={Yves},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2a733f8919468cc8e9922ae24befbaf}{%
+           family={Chatelier},
+           familyi={C\bibinitperiod},
+           given={Corentin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89470d3e6176a633563dd08779a4f8ba}{%
+           family={Venturini},
+           familyi={V\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5ea6cfeaf9ea5321e46321abaacafa3}{%
+           family={Ferrer},
+           familyi={F\bibinitperiod},
+           given={Pilar},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcedb7b0a6051e6e17c9bd6df61f71eb}{%
+           family={Held},
+           familyi={H\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c85b8198092dccc89def4cc7a79ce10}{%
+           family={Grinter},
+           familyi={G\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10ebdcdb9a80e9130142b6e09af51901}{%
+           family={Lundgren},
+           familyi={L\bibinitperiod},
+           given={Edvin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=116823dc16a2ffe740374b23c6bf69cf}{%
+           family={Coati},
+           familyi={C\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{014a4f45c68df3e27ec1ce13f122a520}
+      \strng{fullhash}{84e0e62f50cd5bf5ea1ae8f32084f6dc}
+      \strng{bibnamehash}{014a4f45c68df3e27ec1ce13f122a520}
+      \strng{authorbibnamehash}{014a4f45c68df3e27ec1ce13f122a520}
+      \strng{authornamehash}{014a4f45c68df3e27ec1ce13f122a520}
+      \strng{authorfullhash}{84e0e62f50cd5bf5ea1ae8f32084f6dc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ammonia oxidation reaction over a PtRh binary alloy has been studied with a surface science approach by operando techniques such as near-ambient pressure X-ray photoemission spectroscopy (NAP-XPS) and surface X-ray diffraction (SXRD) combined with mass spectrometry. The article will explore the surface evolution across five different oxygen to ammonia ratios in the millibar regime for two different temperatures. The presented data set allows us to link variations in the atomic structures measured by diffraction methods and surface species information from NAP-XPS to reaction products in the gas phase. We will show that NO production coincides with significant changes of the surface structure and the formation of a RhO2 surface oxide. It was also observed that the RhO2 surface oxide only fully forms when the nitrogen signal in the N1s has disappeared.}
+      \field{issn}{19327455}
+      \field{journaltitle}{Journal of Physical Chemistry C}
+      \field{number}{40}
+      \field{title}{{Ammonia Oxidation over a Pt25Rh75(001) Model Catalyst Surface: An Operando Study}}
+      \field{volume}{124}
+      \field{year}{2020}
+      \field{pages}{22192\bibrangedash 22199}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/acs.jpcc.0c07128
+      \endverb
+      \verb{file}
+      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Resta et al. - 2020 - Ammonia Oxidation over a Pt25Rh75(001) Model Catalyst Surface An Operando Study(3).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Willmott}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ff234e6551d0e6e2670235f9ccd59f25}{%
+           family={Willmott},
+           familyi={W\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {John Wiley}%
+        {Sons, Ltd}%
+      }
+      \strng{namehash}{ff234e6551d0e6e2670235f9ccd59f25}
+      \strng{fullhash}{ff234e6551d0e6e2670235f9ccd59f25}
+      \strng{bibnamehash}{ff234e6551d0e6e2670235f9ccd59f25}
+      \strng{authorbibnamehash}{ff234e6551d0e6e2670235f9ccd59f25}
+      \strng{authornamehash}{ff234e6551d0e6e2670235f9ccd59f25}
+      \strng{authorfullhash}{ff234e6551d0e6e2670235f9ccd59f25}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Introduction to Synchrotron Radiation: Techniques and Applications}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.1002/9781119280453
+      \endverb
+    \endentry
+    \entry{NIST_cross_sections}{online}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=00b1a7d674f6b696681df62ee4078dc7}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={M.J.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37d31e7cda7c03154f92ec63feb35458}{%
+           family={Hubbell},
+           familyi={H\bibinitperiod},
+           given={J.H.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c45d33d03614b354959ee52928414a93}{%
+           family={Seltzer},
+           familyi={S\bibinitperiod},
+           given={S.M.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6df7ee16d9a70c9acafa733a4d229a8}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=733a3515d72573f848ff83b7d8e63f81}{%
+           family={Coursey},
+           familyi={C\bibinitperiod},
+           given={J.S.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86bf319828047884bc9b48189af11c2f}{%
+           family={Sukumar},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a20e35ced22cc000c1d40e6b8d3b5d43}{%
+           family={Zucker},
+           familyi={Z\bibinitperiod},
+           given={D.S.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60a80a18d872144b97500c742259a4f2}{%
+           family={Olsen},
+           familyi={O\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{823389005f82aa3557bb28409e5c6dfe}
+      \strng{fullhash}{363b3c88de8cbb4f69ee26dc5424489d}
+      \strng{bibnamehash}{823389005f82aa3557bb28409e5c6dfe}
+      \strng{authorbibnamehash}{823389005f82aa3557bb28409e5c6dfe}
+      \strng{authornamehash}{823389005f82aa3557bb28409e5c6dfe}
+      \strng{authorfullhash}{363b3c88de8cbb4f69ee26dc5424489d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NIST Standard Reference Database 8 (XGAM)}
+      \field{urlday}{15}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb https://dx.doi.org/10.18434/T48G6X
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nist.gov/pml/xcom-photon-cross-sections-database
+      \endverb
+      \verb{url}
+      \verb https://www.nist.gov/pml/xcom-photon-cross-sections-database
+      \endverb
+    \endentry
+    \entry{NielsenMcMorrow}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6275aef8c5efce8993e78493a62db8db}{%
+           family={Jens\bibnamedelima Als-Nielsen},
+           familyi={J\bibinitperiod\bibinitdelim A\bibinithyphendelim N\bibinitperiod},
+           given={Des\bibnamedelima McMorrow},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {John Wiley}%
+        {Sons, Ltd}%
+      }
+      \strng{namehash}{6275aef8c5efce8993e78493a62db8db}
+      \strng{fullhash}{6275aef8c5efce8993e78493a62db8db}
+      \strng{bibnamehash}{6275aef8c5efce8993e78493a62db8db}
+      \strng{authorbibnamehash}{6275aef8c5efce8993e78493a62db8db}
+      \strng{authornamehash}{6275aef8c5efce8993e78493a62db8db}
+      \strng{authorfullhash}{6275aef8c5efce8993e78493a62db8db}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Elements of Modern X‐ray Physics}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1002/9781119998365
+      \endverb
+    \endentry
+    \entry{InterTablesOfCryst}{book}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=da8d524f8bfe88e16dcf302bc5f4fd5d}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9942d39d4deb1ccde2dd5a2c9f69a6b2}{%
+           family={Fox},
+           familyi={F\bibinitperiod},
+           given={A.\bibnamedelimi G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f5a68e20ba4ffc7ea8096fd3f641e0a}{%
+           family={Maslen},
+           familyi={M\bibinitperiod},
+           given={E.\bibnamedelimi N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=110b7cb0d4437c52c8bfe63c6c450923}{%
+           family={O'Keefe},
+           familyi={O\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=450ed279ce10747909d489cf5928a13a}{%
+           family={Willis},
+           familyi={W\bibinitperiod},
+           given={B.\bibnamedelimi T.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2603d61f972ca7601417f14076e51662}
+      \strng{fullhash}{10a49ef9f010010d29d23fe7e6781029}
+      \strng{bibnamehash}{2603d61f972ca7601417f14076e51662}
+      \strng{authorbibnamehash}{2603d61f972ca7601417f14076e51662}
+      \strng{authornamehash}{2603d61f972ca7601417f14076e51662}
+      \strng{authorfullhash}{10a49ef9f010010d29d23fe7e6781029}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{6.1}
+      \field{title}{International Tables for Crystallography}
+      \field{volume}{C}
+      \field{year}{2006}
+      \field{pages}{554\bibrangedash 595}
+      \range{pages}{42}
+      \verb{doi}
+      \verb 10.1107/97809553602060000600
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

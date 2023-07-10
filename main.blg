@@ -1,9 +1,15 @@
-[0] Config.pm:302> INFO - This is Biber 2.11
-[0] Config.pm:305> INFO - Logfile is 'main.blg'
-[40] biber-darwin:313> INFO - === Ven jui 30, 2023, 09:19:45
-[62] Biber.pm:371> INFO - Reading 'main.bcf'
-[152] Biber.pm:857> INFO - Found 5 citekeys in bib section 0
-[169] Biber.pm:3976> INFO - Processing section 0
-[186] Biber.pm:4136> INFO - Looking for bibtex format file '/home/david/Documents/PhD/PhdThesis/references.bib' for section 0
-[446] Utils.pm:209> ERROR - Cannot find '/home/david/Documents/PhD/PhdThesis/references.bib'!
-[446] Biber.pm:114> INFO - ERRORS: 1
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'main.blg'
+[75] biber:340> INFO - === lun. juil. 10, 2023, 13:14:20
+[87] Biber.pm:418> INFO - Reading 'main.bcf'
+[135] Biber.pm:978> INFO - Found 5 citekeys in bib section 0
+[145] Biber.pm:4401> INFO - Processing section 0
+[153] Biber.pm:4592> INFO - Looking for bibtex file '/home/david/Documents/PhD/PhdThesis/references.bib' for section 0
+[181] bibtex.pm:1713> INFO - LaTeX decoding ...
+[449] bibtex.pm:1518> INFO - Found BibTeX data source '/home/david/Documents/PhD/PhdThesis/references.bib'
+[522] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[522] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[522] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-GB'
+[522] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-GB'
+[528] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[534] bbl.pm:757> INFO - Output to main.bbl
