@@ -106,8 +106,8 @@
       \strng{authorbibnamehash}{014a4f45c68df3e27ec1ce13f122a520}
       \strng{authornamehash}{014a4f45c68df3e27ec1ce13f122a520}
       \strng{authorfullhash}{84e0e62f50cd5bf5ea1ae8f32084f6dc}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -147,8 +147,8 @@
       \strng{authorbibnamehash}{ff234e6551d0e6e2670235f9ccd59f25}
       \strng{authornamehash}{ff234e6551d0e6e2670235f9ccd59f25}
       \strng{authorfullhash}{ff234e6551d0e6e2670235f9ccd59f25}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -216,8 +216,8 @@
       \strng{authorbibnamehash}{823389005f82aa3557bb28409e5c6dfe}
       \strng{authornamehash}{823389005f82aa3557bb28409e5c6dfe}
       \strng{authorfullhash}{363b3c88de8cbb4f69ee26dc5424489d}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -257,8 +257,8 @@
       \strng{authorbibnamehash}{6275aef8c5efce8993e78493a62db8db}
       \strng{authornamehash}{6275aef8c5efce8993e78493a62db8db}
       \strng{authorfullhash}{6275aef8c5efce8993e78493a62db8db}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
@@ -323,6 +323,310 @@
       \verb{doi}
       \verb 10.1107/97809553602060000600
       \endverb
+    \endentry
+    \entry{Andrews1985}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f37a983ed8e8f48992b6bf0e111bb3cd}{%
+           family={Andrews},
+           familyi={A\bibinitperiod},
+           given={S\bibnamedelima R},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67386a6e00496d878c592aac702b4514}{%
+           family={Cowley},
+           familyi={C\bibinitperiod},
+           given={R\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d98b3c96b5dd053d0f1d39a382df9b86}
+      \strng{fullhash}{d98b3c96b5dd053d0f1d39a382df9b86}
+      \strng{bibnamehash}{d98b3c96b5dd053d0f1d39a382df9b86}
+      \strng{authorbibnamehash}{d98b3c96b5dd053d0f1d39a382df9b86}
+      \strng{authornamehash}{d98b3c96b5dd053d0f1d39a382df9b86}
+      \strng{authorfullhash}{d98b3c96b5dd053d0f1d39a382df9b86}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{X-ray measurements performed on a variety of materials demonstrate that it is possible to observe diffuse scattering that originates in the abrupt change of density at a crystal surface. Such a discontinuity gives rise, in general, to rods of scattering in reciprocal space which are most intense close to the Bragg peaks tau and are well defined for sufficiently smooth surfaces. For wave-vector transfer Q= tau +q the q-dependence of the intensity of scattering gives information on the topographic structure of the crystal surface. Experimental results on crystals of GaAs and KTaO3, with surfaces prepared in various ways, were obtained using conventional X-ray techniques with a rotating anode source and can be described by a continuum model of the surface. There are discrepancies between the predictions of the models and the experimental results and these suggest that further experiments are needed to achieve a more complete understanding.}
+      \field{journaltitle}{Journal of Physics C: Solid State Physics}
+      \field{month}{12}
+      \field{number}{35}
+      \field{title}{Scattering of X-rays from crystal surfaces}
+      \field{volume}{18}
+      \field{year}{1985}
+      \field{pages}{6427}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0022-3719/18/35/008
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0022-3719/18/35/008
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0022-3719/18/35/008
+      \endverb
+    \endentry
+    \entry{Robinson1986}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=892104b4cadaea7613199fef90707a6c}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={I.\bibnamedelimi K.},
+           giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{892104b4cadaea7613199fef90707a6c}
+      \strng{fullhash}{892104b4cadaea7613199fef90707a6c}
+      \strng{bibnamehash}{892104b4cadaea7613199fef90707a6c}
+      \strng{authorbibnamehash}{892104b4cadaea7613199fef90707a6c}
+      \strng{authornamehash}{892104b4cadaea7613199fef90707a6c}
+      \strng{authorfullhash}{892104b4cadaea7613199fef90707a6c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present x-ray-diffraction profiles from a variety of different crystals which are characteristically diffuse in the direction perpendicular to the surface through which the incident and diffracted beams pass, but sharp in both parallel directions. We show that these effects arise from truncation of the crystal lattice at the surface. To explain the precise form of the momentum-transfer depen- dence of the intensity across the reciprocal-space zone, it is necessary to include the effects of surface roughness on an atomic scale. Such measurements therefore allow highly sensitive roughness determinations to be made. Understanding the origin of these streaks of intensity will have significant impact on the practice of x-ray crystallographic determinations of surface structure}
+      \field{annotation}{The importance of the Brillouin zone stems from the description of waves in a periodic medium given by Bloch's theorem, in which it is found that the solutions can be completely characterized by their behavior in a single Brillouin zone. The first Brillouin zone is the locus of points in reciprocal space that are closer to the origin of the reciprocal lattice than they are to any other reciprocal lattice points (see the derivation of the Wigner–Seitz cell). Another definition is as the set of points in k-space that can be reached from the origin without crossing any Bragg plane. A related concept is that of the irreducible Brillouin zone, which is the first Brillouin zone reduced by all of the symmetries in the point group of the lattice (point group of the crystal).}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{number}{6}
+      \field{title}{Crystal truncation rods and surface roughness}
+      \field{volume}{33}
+      \field{year}{1986}
+      \field{pages}{3830\bibrangedash 3836}
+      \range{pages}{7}
+    \endentry
+    \entry{Vlieg2000}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e17d089b60a6e234ba0dcffc5079547a}{%
+           family={Vlieg},
+           familyi={V\bibinitperiod},
+           given={Elias},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e17d089b60a6e234ba0dcffc5079547a}
+      \strng{fullhash}{e17d089b60a6e234ba0dcffc5079547a}
+      \strng{bibnamehash}{e17d089b60a6e234ba0dcffc5079547a}
+      \strng{authorbibnamehash}{e17d089b60a6e234ba0dcffc5079547a}
+      \strng{authornamehash}{e17d089b60a6e234ba0dcffc5079547a}
+      \strng{authorfullhash}{e17d089b60a6e234ba0dcffc5079547a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A brief description is given of the C-program ROD with which surface structures can be refined on the basis of X-ray data. All main features one encounters on surfaces, like roughness, relaxations, reconstructions and multiple domains, are taken into account. The program has proven to be a useful tool over the past ten years.}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{number}{2}
+      \field{title}{ROD: a program for surface X-ray crystallography}
+      \field{volume}{33}
+      \field{year}{2000}
+      \field{pages}{401\bibrangedash 405}
+      \range{pages}{5}
+      \verb{doi}
+      \verb https://doi.org/10.1107/S0021889899013655
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1107/S0021889899013655
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1107/S0021889899013655
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1107/S0021889899013655
+      \endverb
+    \endentry
+    \entry{Kaganer2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=63454c49ddced68bfd7f7b70db4ae2ea}{%
+           family={Kaganer},
+           familyi={K\bibinitperiod},
+           given={Vladimir\bibnamedelima M},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{63454c49ddced68bfd7f7b70db4ae2ea}
+      \strng{fullhash}{63454c49ddced68bfd7f7b70db4ae2ea}
+      \strng{bibnamehash}{63454c49ddced68bfd7f7b70db4ae2ea}
+      \strng{authorbibnamehash}{63454c49ddced68bfd7f7b70db4ae2ea}
+      \strng{authornamehash}{63454c49ddced68bfd7f7b70db4ae2ea}
+      \strng{authorfullhash}{63454c49ddced68bfd7f7b70db4ae2ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{February}
+      \field{journaltitle}{Physical Review B}
+      \field{title}{Crystal truncation rods in kinematical and dynamical x-ray diffraction theories}
+      \field{volume}{75}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.75.245425
+      \endverb
+    \endentry
+    \entry{Fadenberger2010InSO}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=158a266fe58a4cd0eb7e3aa9503ec18c}{%
+           family={Fadenberger},
+           familyi={F\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db60ad53a8406306222fad8a7ca6ae61}{%
+           family={Gunduz},
+           familyi={G\bibinitperiod},
+           given={Ibrahim\bibnamedelima E.},
+           giveni={I\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d7c69ce6b9713f4e6317fafc296a3ce}{%
+           family={Tsotsos},
+           familyi={T\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e22fb0957630db550f9ce8d9a3205e13}{%
+           family={Kokonou},
+           familyi={K\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c1fa95243a1343483ed07a9cc23f539}{%
+           family={Gravani},
+           familyi={G\bibinitperiod},
+           given={Styliani},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b538bf7629b32f82b13e61b3939c287}{%
+           family={Brandstetter},
+           familyi={B\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=883b58bf102a5f823ad31636a04f6dc9}{%
+           family={Bergamaschi},
+           familyi={B\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d39790590ed5c7fbd37d006e9160e7b}{%
+           family={Schmitt},
+           familyi={S\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=83a96b67cac5a0bfa9e22848f92a970a}{%
+           family={Mayrhofer},
+           familyi={M\bibinitperiod},
+           given={Paul\bibnamedelima H.},
+           giveni={P\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c6810fd722a18c116f262cc578a7c2b}{%
+           family={Doumanidis},
+           familyi={D\bibinitperiod},
+           given={Charalabos\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=833799f222624d07a0c94514f559d1b2}{%
+           family={Rebholz},
+           familyi={R\bibinitperiod},
+           given={Claus},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7fd7a5153824b53f567fe1e4ab022b48}
+      \strng{fullhash}{b1ba7c18fafba97860e0310cc8347ca5}
+      \strng{bibnamehash}{7fd7a5153824b53f567fe1e4ab022b48}
+      \strng{authorbibnamehash}{7fd7a5153824b53f567fe1e4ab022b48}
+      \strng{authornamehash}{7fd7a5153824b53f567fe1e4ab022b48}
+      \strng{authorfullhash}{b1ba7c18fafba97860e0310cc8347ca5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{title}{In situ observation of rapid reactions in nanoscale Ni-Al multilayer foils using synchrotron radiation}
+      \field{volume}{97}
+      \field{year}{2010}
+      \field{pages}{144101}
+      \range{pages}{1}
+    \endentry
+    \entry{Schleputz2011}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=08f61de9685ca475e5ed67b75dba3351}{%
+           family={Schlepütz},
+           familyi={S\bibinitperiod},
+           given={Christian\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=874d5482c3b281702f729e227bebe855}{%
+           family={Mariager},
+           familyi={M\bibinitperiod},
+           given={Simon\bibnamedelima O.},
+           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38b03f0d7db05febbf2d1d059d64e171}{%
+           family={Pauli},
+           familyi={P\bibinitperiod},
+           given={Stephan\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30627153cf0031f269441b14bb8e8ccb}{%
+           family={Feidenhans'l},
+           familyi={F\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9bbf3116d3e78a140082dcf39c9272e}{%
+           family={Willmott},
+           familyi={W\bibinitperiod},
+           given={Philip\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7c3f998b8a27b6b508d9b2512bbc5e55}
+      \strng{fullhash}{f12dc7a5e3115ca80f515f1488b7925f}
+      \strng{bibnamehash}{7c3f998b8a27b6b508d9b2512bbc5e55}
+      \strng{authorbibnamehash}{7c3f998b8a27b6b508d9b2512bbc5e55}
+      \strng{authornamehash}{7c3f998b8a27b6b508d9b2512bbc5e55}
+      \strng{authorfullhash}{f12dc7a5e3115ca80f515f1488b7925f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Angle calculations for a (2+3)-type diffractometer are presented with comprehensive derivations for both cases of either a vertical or horizontal sample configuration. This work focuses on some particular aspects of using area detectors in surface X-ray diffraction, namely the role of the detector rotation and the direct conversion of the angle-resolved diffraction signal recorded by the detector into a two-dimensional slice through reciprocal space.}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{{Angle calculations for a (2+3)-type diffractometer: focus on area detectors}}
+      \field{volume}{44}
+      \field{year}{2011}
+      \field{pages}{73\bibrangedash 83}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1107/S0021889810048922
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1107/S0021889810048922
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1107/S0021889810048922
+      \endverb
+      \keyw{angle calculations,diffractometers,pixel detectors,grazing-incidence diffraction,surface diffraction,reciprocal-space mapping}
     \endentry
   \enddatalist
 \endrefsection

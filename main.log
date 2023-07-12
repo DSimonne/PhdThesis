@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.5.25)  10 JUL 2023 13:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.5.25)  12 JUL 2023 14:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1843,8 +1843,8 @@ LaTeX Warning: Command \r invalid in math mode on input line 10.
 \openout9 = `main.lof'.
 
  [3] (./main.lot
-Overfull \hbox (9.08646pt too wide) in paragraph at lines 5--5
- [][] [][][]\T1/lmr/m/n/10.95 Near-ambient pres-sure (NAP) X-ray tech-niques ca
+Overfull \hbox (6.65337pt too wide) in paragraph at lines 5--5
+ [][] [][][]\T1/lmr/m/n/10.95 Near-ambient pres-sure (NAP) x-ray tech-niques ca
 r-ried out at the SixS (SOLEIL) 
  []
 
@@ -1862,7 +1862,7 @@ Overfull \hbox (22.76161pt too wide) in paragraph at lines 17--28
  []
 
 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/pt_gaz
-es.png, id=283, 1353.055pt x 1360.08125pt>
+es.png, id=332, 1353.055pt x 1360.08125pt>
 File: /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/p
 t_gazes.png Graphic file (type png)
 <use /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/pt
@@ -1871,7 +1871,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/Presentations/Slides/PhdSlid
 es/Figures/sample/pt_gazes.png  used on input line 34.
 (pdftex.def)             Requested size: 84.9167pt x 85.35826pt.
 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/B7/
-B7_facets.png, id=284, 602.25pt x 501.875pt>
+B7_facets.png, id=333, 602.25pt x 501.875pt>
 File: /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_dat
 a/B7/B7_facets.png Graphic file (type png)
 <use /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data
@@ -1880,7 +1880,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/Presentations/Slides/PhdSlid
 es/Figures/bcdi_data/B7/B7_facets.png  used on input line 35.
 (pdftex.def)             Requested size: 102.4271pt x 85.35826pt.
 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/sxrd_s
-ample.png, id=285, 193.72375pt x 196.735pt>
+ample.png, id=334, 193.72375pt x 196.735pt>
 File: /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/s
 xrd_sample.png Graphic file (type png)
 <use /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/sx
@@ -1906,7 +1906,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 11.
 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/gwaihir/dp_pr
-.png, id=303, 453.19313pt x 508.90125pt>
+.png, id=351, 453.19313pt x 508.90125pt>
 File: /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/gwaihir/
 dp_pr.png Graphic file (type png)
 <use /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/gwaihir/d
@@ -1915,7 +1915,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/Presentations/Slides/PhdSlid
 es/Figures/gwaihir/dp_pr.png  used on input line 31.
 (pdftex.def)             Requested size: 98.18146pt x 110.25443pt.
 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sxrd_data/Pt1
-00/maps/Map_hkl_surf_or_2227-2283_not_patched.png, id=304, 722.7pt x 578.16pt>
+00/maps/Map_hkl_surf_or_2227-2283_not_patched.png, id=352, 722.7pt x 578.16pt>
 File: /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sxrd_dat
 a/Pt100/maps/Map_hkl_surf_or_2227-2283_not_patched.png Graphic file (type png)
 <use /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sxrd_data
@@ -1925,7 +1925,7 @@ es/Figures/sxrd_data/Pt100/maps/Map_hkl_surf_or_2227-2283_not_patched.png  used
  on input line 32.
 (pdftex.def)             Requested size: 137.81065pt x 110.25443pt.
 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/xps_data/tran
-sition_xps.png, id=305, 803.0pt x 602.25pt>
+sition_xps.png, id=353, 803.0pt x 602.25pt>
 File: /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/xps_data
 /transition_xps.png Graphic file (type png)
 <use /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/xps_data/
@@ -1939,13 +1939,13 @@ es/Figures/xps_data/transition_xps.png  used on input line 33.
 r.png> </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sxrd_d
 ata/Pt100/maps/Map_hkl_surf_or_2227-2283_not_patched.png> </home/david/Document
 s/PhD/Presentations/Slides/PhdSlides/Figures/xps_data/transition_xps.png>]
-<Figures/introduction/cross_sections.pdf, id=318, 462.52798pt x 346.89601pt>
+<Figures/introduction/cross_sections.pdf, id=366, 462.52798pt x 346.89601pt>
 File: Figures/introduction/cross_sections.pdf Graphic file (type pdf)
 <use Figures/introduction/cross_sections.pdf>
 Package pdftex.def Info: Figures/introduction/cross_sections.pdf  used on input
  line 76.
 (pdftex.def)             Requested size: 441.01772pt x 330.77736pt.
-<Figures/introduction/torus.pdf, id=321, 505.89pt x 578.16pt>
+<Figures/introduction/torus.pdf, id=369, 505.89pt x 578.16pt>
 File: Figures/introduction/torus.pdf Graphic file (type pdf)
 <use Figures/introduction/torus.pdf>
 Package pdftex.def Info: Figures/introduction/torus.pdf  used on input line 95.
@@ -1953,16 +1953,19 @@ Package pdftex.def Info: Figures/introduction/torus.pdf  used on input line 95.
 (pdftex.def)             Requested size: 441.01772pt x 504.02731pt.
  [8] [9 <./Figures/introduction/cross_sections.pdf>] [10 <./Figures/introductio
 n/torus.pdf>]
-<Figures/introduction/q.pdf, id=432, 462.52798pt x 346.89601pt>
+<Figures/introduction/q.pdf, id=478, 462.52798pt x 346.89601pt>
 File: Figures/introduction/q.pdf Graphic file (type pdf)
 <use Figures/introduction/q.pdf>
 Package pdftex.def Info: Figures/introduction/q.pdf  used on input line 156.
 (pdftex.def)             Requested size: 277.51892pt x 208.1392pt.
  [11 <./Figures/introduction/q.pdf>]
 
+LaTeX Warning: Reference `BCDI' on page 12 undefined on input line 188.
+
+
 LaTeX Warning: Command \r invalid in math mode on input line 199.
 
-<Figures/introduction/atomic_form_factor.pdf, id=474, 462.52798pt x 346.89601pt
+<Figures/introduction/atomic_form_factor.pdf, id=521, 462.52798pt x 346.89601pt
 >
 File: Figures/introduction/atomic_form_factor.pdf Graphic file (type pdf)
 <use Figures/introduction/atomic_form_factor.pdf>
@@ -1970,57 +1973,105 @@ Package pdftex.def Info: Figures/introduction/atomic_form_factor.pdf  used on i
 nput line 204.
 (pdftex.def)             Requested size: 441.01772pt x 330.77736pt.
 [12 <./Figures/introduction/atomic_form_factor.pdf>] [13]
-</home/david/Documents/PhDScripts/Drawing/blender/FCC.png, id=550, 1927.2pt x 1
+</home/david/Documents/PhDScripts/Drawing/blender/FCC.png, id=598, 1927.2pt x 1
 084.05pt>
 File: /home/david/Documents/PhDScripts/Drawing/blender/FCC.png Graphic file (ty
 pe png)
 <use /home/david/Documents/PhDScripts/Drawing/blender/FCC.png>
 Package pdftex.def Info: /home/david/Documents/PhDScripts/Drawing/blender/FCC.p
-ng  used on input line 290.
+ng  used on input line 293.
 (pdftex.def)             Requested size: 441.01772pt x 248.06912pt.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 291.
+LaTeX Warning: Command \r invalid in math mode on input line 294.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 291.
+LaTeX Warning: Command \r invalid in math mode on input line 294.
 
-[14]
-<Figures/introduction/BraggLaw.pdf, id=567, 462.52798pt x 346.89601pt>
+[14] [15 </home/david/Documents/PhDScripts/Drawing/blender/FCC.png>]
+<Figures/introduction/BraggLaw.pdf, id=624, 462.52798pt x 346.89601pt>
 File: Figures/introduction/BraggLaw.pdf Graphic file (type pdf)
 <use Figures/introduction/BraggLaw.pdf>
 Package pdftex.def Info: Figures/introduction/BraggLaw.pdf  used on input line 
-369.
+372.
 (pdftex.def)             Requested size: 277.51892pt x 208.1392pt.
- [15 </home/david/Documents/PhDScripts/Drawing/blender/FCC.png>] [16 <./Figures
-/introduction/BraggLaw.pdf>] [17] [18]
-<Figures/introduction/coherence_lengths.pdf, id=642, 462.52798pt x 346.89601pt>
+ [16 <./Figures/introduction/BraggLaw.pdf>] [17]
+
+LaTeX Warning: Reference `BCDI' on page 18 undefined on input line 501.
+
+[18]
+<Figures/introduction/coherence_lengths.pdf, id=691, 462.52798pt x 346.89601pt>
 
 File: Figures/introduction/coherence_lengths.pdf Graphic file (type pdf)
 <use Figures/introduction/coherence_lengths.pdf>
 Package pdftex.def Info: Figures/introduction/coherence_lengths.pdf  used on in
-put line 522.
+put line 525.
 (pdftex.def)             Requested size: 416.27133pt x 312.20352pt.
- [19 <./Figures/introduction/coherence_lengths.pdf>]) (./Sections/2_Theory_Mode
-ls/SXRD.tex [20])
-(./Sections/2_Theory_Models/SixS.tex
-<Figures/introduction/ewald_sphere_out_of_plane.pdf, id=688, 578.16pt x 578.16p
-t>
-File: Figures/introduction/ewald_sphere_out_of_plane.pdf Graphic file (type pdf
-)
-<use Figures/introduction/ewald_sphere_out_of_plane.pdf>
-Package pdftex.def Info: Figures/introduction/ewald_sphere_out_of_plane.pdf  us
-ed on input line 25.
-(pdftex.def)             Requested size: 346.89867pt x 346.89867pt.
-) [21] [22 <./Figures/introduction/ewald_sphere_out_of_plane.pdf>]
+
+
+LaTeX Warning: Reference `BCDI' on page 19 undefined on input line 556.
+
+[19]) (./Sections/2_Theory_Models/SXRD.tex [20 <./Figures/introduction/coherenc
+e_lengths.pdf>]
+<Figures/introduction/SurfaceReconstructions.pdf, id=738, 578.16pt x 289.08pt>
+File: Figures/introduction/SurfaceReconstructions.pdf Graphic file (type pdf)
+<use Figures/introduction/SurfaceReconstructions.pdf>
+Package pdftex.def Info: Figures/introduction/SurfaceReconstructions.pdf  used 
+on input line 17.
+(pdftex.def)             Requested size: 441.01772pt x 220.50587pt.
+<Figures/introduction/CTRConvolution.png, id=740, 941.5175pt x 707.64375pt>
+File: Figures/introduction/CTRConvolution.png Graphic file (type png)
+<use Figures/introduction/CTRConvolution.png>
+Package pdftex.def Info: Figures/introduction/CTRConvolution.png  used on input
+ line 33.
+(pdftex.def)             Requested size: 396.91324pt x 298.32051pt.
+ [21 <./Figures/introduction/SurfaceReconstructions.pdf>]
+[22 <./Figures/introduction/CTRConvolution.png>]
+<Figures/introduction/relax_rough_ctr.pdf, id=780, 578.16pt x 578.16pt>
+File: Figures/introduction/relax_rough_ctr.pdf Graphic file (type pdf)
+<use Figures/introduction/relax_rough_ctr.pdf>
+Package pdftex.def Info: Figures/introduction/relax_rough_ctr.pdf  used on inpu
+t line 68.
+(pdftex.def)             Requested size: 441.01772pt x 441.01176pt.
+ [23 <./Figures/introduction/relax_rough_ctr.pdf>]
+<Figures/introduction/EwaldSphereInPlane3D.pdf, id=836, 578.16pt x 578.16pt>
+File: Figures/introduction/EwaldSphereInPlane3D.pdf Graphic file (type pdf)
+<use Figures/introduction/EwaldSphereInPlane3D.pdf>
+Package pdftex.def Info: Figures/introduction/EwaldSphereInPlane3D.pdf  used on
+ input line 97.
+(pdftex.def)             Requested size: 216.10109pt x 190.73714pt.
+<Figures/introduction/EwaldSphereOutOfPlane3D.pdf, id=838, 578.16pt x 578.16pt>
+
+File: Figures/introduction/EwaldSphereOutOfPlane3D.pdf Graphic file (type pdf)
+<use Figures/introduction/EwaldSphereOutOfPlane3D.pdf>
+Package pdftex.def Info: Figures/introduction/EwaldSphereOutOfPlane3D.pdf  used
+ on input line 98.
+(pdftex.def)             Requested size: 216.10109pt x 190.73714pt.
+ [24 <./Figures/introduction/EwaldSphereInPlane3D.pdf> <./Figures/introduction/
+EwaldSphereOutOfPlane3D.pdf>]
+<Figures/sixs/diffractometer.png, id=888, 941.5175pt x 711.65875pt>
+File: Figures/sixs/diffractometer.png Graphic file (type png)
+<use Figures/sixs/diffractometer.png>
+Package pdftex.def Info: Figures/sixs/diffractometer.png  used on input line 11
+9.
+(pdftex.def)             Requested size: 352.8155pt x 266.6759pt.
+ [25 <./Figures/sixs/diffractometer.png>]) (./Sections/2_Theory_Models/SixS.tex
+) [26]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 37.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-(./Sections/99_4eme_couverture.tex [23
+Overfull \hbox (0.92648pt too wide) in paragraph at lines 238--238
+\T1/lmr/m/it/10.95 Crys-tal-lo-graphy \T1/lmr/m/n/10.95 33.2, pp. 401^^U405. \T
+1/lmr/m/sc/10.95 doi\T1/lmr/m/n/10.95 : [][]$\T1/lmtt/m/n/10.95 https : / / doi
+ . org / 10 . 1107 / S0021889899013655$[][]\T1/lmr/m/n/10.95 .
+ []
 
-] [24]
+(./Sections/99_4eme_couverture.tex [27
+
+] [28]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2060,7 +2111,7 @@ LaTeX Font Info:    No file T1rm.fd. on input line 5.
 LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 5.
 
-</home/david/Documents/PhD/Figures//logo/logo_edpif_4eme.png, id=746, 1008.7687
+</home/david/Documents/PhD/Figures//logo/logo_edpif_4eme.png, id=946, 1008.7687
 5pt x 151.56625pt>
 File: /home/david/Documents/PhD/Figures//logo/logo_edpif_4eme.png Graphic file 
 (type png)
@@ -2094,7 +2145,7 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 54.
-) [25
+) [29
 
  </home/david/Documents/PhD/Figures//logo/logo_edpif_4eme.png>]
 (./main.aux)
@@ -2105,22 +2156,25 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9BE3382B9F818208C72F81C46A0D4099;4327.
+(rerunfilecheck)             Checksum: 6203C9967C81E68629246A0277E9EDBA;4365.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44910 strings out of 476091
- 924180 string characters out of 5794081
- 1875330 words of memory out of 5000000
- 64377 multiletter control sequences out of 15000+600000
+ 45011 strings out of 476091
+ 927286 string characters out of 5794081
+ 1883330 words of memory out of 5000000
+ 64456 multiletter control sequences out of 15000+600000
  632004 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,106p,2043b,3282s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/u
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
+fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/u
 sr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvi
 ps/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/sh
 are/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-di
@@ -2147,10 +2201,10 @@ sfsx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/typ
 e1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
 fsx1440.pfb>
-Output written on main.pdf (26 pages, 5021133 bytes).
+Output written on main.pdf (30 pages, 7779114 bytes).
 PDF statistics:
- 928 PDF objects out of 1000 (max. 8388607)
- 648 compressed objects within 7 object streams
- 128 named destinations out of 1000 (max. 500000)
- 319 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1128 PDF objects out of 1200 (max. 8388607)
+ 783 compressed objects within 8 object streams
+ 144 named destinations out of 1000 (max. 500000)
+ 356 words of extra memory for PDF output out of 10000 (max. 10000000)
 

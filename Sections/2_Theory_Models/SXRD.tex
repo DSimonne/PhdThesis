@@ -1,28 +1,148 @@
-\section{SXRD}
+\section{SXRD} \label{SXRD}
 
+Surface x-ray diffraction is a technique used to study the crystal structure and surface morphology of materials by analyzing the diffraction pattern formed when x-rays interact with the surface of the material.
+In surface x-ray diffraction, the incident photon beam is directed towards the sample surface at a low angle of incidence to lower the penetration depth of the x-rays in the material, typically probing the top few atomic layers.
+The incident angle can be chosen to coincide with the critical angle of the material (sec. \ref{RefractionReflectionAbsorption}) to increase the intensity of the scattered beam due to total reflection and to lower the bulk contribution to the intensity in comparison with the surface contribution.
+However, since the intensity becomes so dependent on the incident angle, a small deviation due to a bad alignment can lead to large errors in the scattered beam intensity, the surface alignment is critical during surface x-ray diffraction experiments.
+The x-rays interact with the atoms in the surface layer of the material and undergo scattering.
+The scattered x-rays are then collected and their intensity is measured as a function of the scattering angle.
+
+By analyzing the diffraction pattern, which consists of intensity peaks at specific scattering angles, valuable information about the crystal structure and surface properties can be obtained.
+The positions and intensities of the diffraction peaks provide insights into the arrangement of atoms near the surface, surface reconstruction, crystallographic orientation, lattice strain, and the presence of surface defects.
 
 \subsection{Surface reconstructions}
 
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/introduction/SurfaceReconstructions.pdf}
+    \caption{
+    a) Top view of the crystal surface, the last atomic layer (blue) does not have the same periodicity as the bulk layers (red).
+    b) HK plane in the reciprocal space, diffraction peaks are represented as small red and blue dots for the bulk and surface reconstruction, respectively. The bulk reciprocal lattice is represented in gray.
+    }
+    \label{fig:SurfaceReconstructions}
+\end{figure}
+
+An example of surface reconstructions is given in fig. \ref{fig:SurfaceReconstructions} where the latest atomic layer (blue) does not have the same periodicity as the bulk layers (red).
+This phenomenom gives rise to additional Bragg peaks at positions defined by how the periodicity of the reconstruction relates to the periodicity of the bulk structure in the $\vec{a}$ and $\vec{b}$ directions.
+In this example, the surface reconstructions can be described by the (2, 4) matrix, that quantifies the relation between the surface reconstuction unit vectors ($\vec{a}_r, \vec{b}_r$) and the bulk unit vectors ($\vec{a}, \vec{b}$).
 
 \subsection{Crystal truncation rods}
 
-Thus the diffraction intensity of the finite-sized crystal has diffuse streaks connecting all the Bragg points. The diffuse intensity far from the nodes is of order of magnitude $N^4$ compared with $N^6$ at the nodes.
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Figures/introduction/CTRConvolution.png}
+    \caption{
+    Describing a crystal surface by the multiplication of the crystal lattice by a step-function in real space explain the shape of crystal truncation rods in reciprocal space thanks to the convolution theorem.
+    Taken from \cite{Willmott}.
+    }
+    \label{fig:CTRConvolution}
+\end{figure}
 
-Scattering that is sharp in two directions and diffuse in the third (referred to as a "rod" of scattering) must arise from a crystalline object that is localized in one dimension and extended in the other two.
+We have shown in sec. \ref{LatticeFactor} that the Lattice factor is equivalent to the Fourier transform of the crystal shape.
+For infinitely large crystals, the lattice factor converges towards a three dimensional Dirac peak.
+When working with large single crystals for surface x-ray diffraction, the samples are considered to be infinitely large in the $\vec{a}, \vec{b}$ directions and \textit{semi-infinitely} large in the $\vec{c}$ direction, creating an infinitely large flat surface.
+In the real space, this can be mathematically described by the multiplication of the crystal lattice and a step-function as illustrated in fig. \ref{fig:CTRConvolution}.
+The convolution theorem states that the Fourier transform of the multiplication of two functions is the convolution of their Fourier transforms, the Fourier transform of the crystal lattice is the Lattice factor when the Fourier transform of the step function is the inverse function $\frac{1}{q_z}$ \parencite{Andrews1985, Robinson1986}.
+The direction of the crystal truncation rod is perpendicular to the truncated surface.
 
-We are then left with only the sixth component due to the sharply truncated surface. We will call these features "crystal truncation rods. '
+We define $A(\vec{q})$ as the scattering amplitude of an infinite 2D layer of atoms, the scattering amplitude for a semi infinite stack of those layers in the $\vec{c}$ direction can be written as (adapted from eq. \ref{eq:LatFactor}):
 
-We now wish to estimate the strength of the truncation rods in the Bragg geometry. We must first modify Eqs. (1) and (2) by including the x-ray coherence length, $m$ (measured in unit cells), of the experimental configuration. This broadens all the diffraction features to $\frac{1}{m}$ reciprocal units. The Bragg points then have intensity of order $N_1 N_2 N_3 m^3$, while the diffuse intensity is $N_1 N_2 m^2$
+\begin{equation}
+    \label{eq:CTR1}
+    F^{CTR} = A(\vec{q})\sum_{n=-\infty}^0 e^{in\vec{q}.\vec{c}} e^{-n\beta_{abs}} = \frac{A(\vec{q})}{1 - e^{in\vec{q}.\vec{c}} e^{-\beta_{abs}}}
+\end{equation}
 
-A typical penetration depth is $1 \mu m$ so $N_3 =10^3$ unit cells (perpendicular to the face). With $m \approx 100$ unit cells, this gives a relative intensity
-$\frac{I(Bragg peak)}{I(truncation rod)} = N_3 m \approx 10^5$
+$\beta_{abs}$ is the absorption parameter.
+The intensity around a Bragg peak can then be written as a function of $q_z$, \textit{i.e.} the deviation from the Laue condition in $\vec{c}$. We have $q = q_z + 2\pi l/|\vec{c}|$, $l$ is the Miller indice of the nearest Bragg peak.
 
-More roughness means wider Bragg peaks and deeper valleys between the BP.
+\begin{equation}
+    \label{eq:CTR2}
+    I^{CTR} = |F^{CTR}|^2 = \frac{|A(\vec{q})|^2}{(1 - e^{in\vec{q}.\vec{c}} e^{-\beta_{abs}})(1 - e^{in\vec{q}.\vec{c}} e^{-\beta_{abs}})} \approx \frac{|A(\vec{q})|^2}{q_z^2 |\vec{c}|^2 + \beta_{abs}^2 }
+\end{equation}
 
-It is not clear that different detailed models of roughness could be distinguished at this level of accuracy. One central concept to all descriptions of crystal truncation rods, however, is the continuation of the crystal lattice into the roughened region (not defects, keeping symmetry).
+The amplitude of the Bragg peaks in the reciprocal space becomes therefore proportional to $\frac{1}{q_z}$ in the $\vec{c}*$ direction and their amplitude to $\frac{1}{q_z^2}$.
+This expression is only valid to describe the shape of the CTR intensity between the Bragg peaks within the kinematical approach to diffraction.
 
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/introduction/relax_rough_ctr.pdf}
+    \caption{
+    Simulation of the intensity of a crystal truncation rod recorded perpendicular to [2, 0] node for a single crystal made out platinum, performed with ROD \parencite{Vlieg2000}.
+    (a) Evolution of the CTR intensity together with the roughness parameter $\beta$, the intensity between the Bragg peaks decreases with increasing roughness.
+    (b) Evolution of the CTR intensity together with the displacement $\delta z$ of the last atomic layer perpendicular to the surface.
+    The CTR shows a stronger asymmetry with high relaxations and the position of the minimum between Bragg peaks is shifted.
+    }
+    \label{fig:CTRSimulation}
+\end{figure}
 
-\subsection{Reflectivety}
+The position in the reciprocal space that is exactly between Bragg peaks linked by the CTR is called the \textit{anti-Bragg}, where the signal scattered from the surface is maximum compared to the signal scattered from the bulk which interferes destructively.
+This region, in which the surface structural information in contained, is accurelately described using the kinematical diffraction theory in contrast with the Bragg peaks where multiple scattering cannot be ignored \parencite{Kaganer2007}.
+To be able to analyze CTRs, it is crucial to be able to obtain a good signal to noise ratio when measuring the anti-Bragg since the intensity difference with the Bragg peak can reach 8 orders of magnitude \parencite{Fadenberger2010InSO}.
+This can become difficult when the surface is roughened during the creation of surface layers (such as oxide growth), phase transitions, or due to the adsorption of molecules during catalysis (cite).
+
+The effect of roughness is illustrated in fig. \ref{fig:CTRSimulation}, the simple $\beta$ model is used to describe surface roughness in which the $n$-surface layer (n increases towards the surface) is defined as occupying an area equivalent to $\beta^n \times A_{bulk}$ where $A_{bulk}$ is the bulk surface area \parencite{Robinson1986}.
+This model only serves to describe the roughness of the bulk structure and does not function to describe the roughness of additional surface structures in which case more complex models can be used (sec. SXRD Pt 100).
+
+In surface x-ray diffraction, strain is defined with respect to the bulk unit cell lattice parameters.
+The displacement of the surface atomic layers has the effect of changing the position of the CTR minimum and of skewing the shape of the CTR as illustrated in fig. \ref{fig:CTRSimulation}.
+
+Surface reconstructions can also yield crystal truncation rods in the reciprocal space, perpendicular to the nodes of the reconstructed lattice if their width in $\vec{c}$ is more than a few unit cells, these are then called super-stucture rods (SSR).
+If the surface reconstructions are not thick enough in $\vec{c}$, the scattered signal corresponds to broad diffuse peaks as a function of $l$ instead.
+To resume, analysing the scattered signal as a function of $l$ (out-of-plane measurements) yields information about the structure in the $\vec{c}$ direction whereas analysing the position of the peaks in $[h, k]$ planes (in-plane measurements) gives information about the two-dimensional structure in the directions of $\vec{a}$ and $\vec{b}$.
+
+\subsection{Data collection}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[trim=75 100 75 100, clip, width=0.49\textwidth]{Figures/introduction/EwaldSphereInPlane3D.pdf}
+    \includegraphics[trim=75 100 75 100, clip, width=0.49\textwidth]{Figures/introduction/EwaldSphereOutOfPlane3D.pdf}
+    \caption{
+    Ewald sphere represented together with the reciprocal lattice before (green) and after (blue) rotating the sample to satify the Laue condition. The node of the reciprocal lattice that satisfies the Laue condition is in red.
+    For simplicity, only part of the reciprocal lattice is represented.
+    (a) In-plane measurement ([h, k, l] = [0, 1, 0]), the sample is rotated in-plane by an angle $\omega$.
+    The detector must be at an in-plane angle $\gamma=2\omega$ to detect the scattered x-rays.
+    (b) Out-of-plane measurement for crystal truncation rods, the sample is rotated in-plane by an angle $\omega$ so that the rod perpendicular to the [0, 1] node is measured \textit{while} keeping the incident angle equal to zero.
+    Here the [0, 1, 1] node is on the Ewald sphere, both detector angles must be rotated to be in the direction of the scattered x-rays.
+    }
+    \label{fig:EwaldSphere}
+\end{figure}
+
+Visualising how the measurements of scattered x-rays is performed with a diffractometer can quickly become complicated in three dimensions.
+The Ewald sphere is a concept used in crystallography to visualize and interpret the diffraction of x-rays by a single crystal.
+It is a geometric construction that represents the reciprocal space associated with the crystal lattice, centered at the origin of reciprocal space and with a radius equal to the magnitude of the wavevector $\vec{k}_i$.
+
+The scattering vector $\vec{q}$ is determined by the incident and diffracted wavevectors and represents the difference between them (eq. \ref{eq:Q}).
+The Laue condition for a particular reflection is satisfied when the scattering vector lies on the surface of the Ewald sphere (fig. \ref{fig:EwaldSphere}), in other words, when the scattering vector corresponds to a point of intersection between the Ewald sphere and the reciprocal lattice points.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Figures/sixs/diffractometer.png}
+    \caption{
+    2+3 diffractometer used at SixS. Figure adapted from \cite{Schleputz2011}.
+    The angle $\omega$ is always the in-plane rotation of the sample but if the out-of-plane angular rotation varies is performed with $\beta$ in the horizontal configuration, $\mu$ is used in the vertical configuration.
+    Likewise, if $\gamma$ and $\delta$ are respectively the in-plane and out-of-plane detector angles in the horizontal configuration, they switch in the vertical configuration since the "plane" is defined as parallel the sample surface.
+    The $u$ and $v$ angles are in reality pseudo-angles created by moving the position of the sample with the goniometer, they are usually used to correct a possible tilt of the sample so that its surface lies perfectly in the ($\vec{x}, \vec{y}$) plane.
+    }
+    \label{fig:Diffractometer}
+\end{figure}
+
+The Ewald sphere is represented in fig. \ref{fig:EwaldSphere} to highlight how the diffraction angles must be tuned to satisfy the Laue condition.
+Let us take the example of a diffractometer in a horizontal setup (fig. \ref{fig:Diffractometer}), $\omega$, and $\beta$ are respectively the in-plane and out-of-plane rotation angles of the sample when $\gamma$ and $\delta$ are the in-plane and out-of-plane rotation angles of the detector.
+The rotation of the reciprocal space associated to the sample is achieved by rotating the sample to satisfy the Laue condition, the detection of the scattered x-rays by the detector is then attained by placing the detector in the direction of the scattering wavevector $\vec{k}_f$.
+
+For in-plane measurements, the Laue condition is fulfilled simply by rotating the sample with the in-plane angle $\omega$, the detector in-plane angle $\gamma$ must then be equal to $\gamma = 2 \omega$ to measure the scattered x-rays (fig. \ref{fig:EwaldSphere} - a).
+The incident angle between $\vec{k}_i$ and the sample must be kept to low values for reason that were explained earlier.
+In the case of out-of-plane measurements, this brings some important constraints about the experiment geometry.
+For example, the $[0, 0, L]$ crystal truncation rod becomes impossible to measure, for other rods (e.g. $[0, 1, L]$, fig. \ref{fig:EwaldSphere} - b), the sample must be rotated in plane so that the top of the Ewald sphere intersect the rod in the reciprocal space.
+
+As one can imagine from fig. \ref{fig:EwaldSphere} - b, there is a maximum value $l_{max}$ that can be reached until the radius of the Ewald sphere becomes too low to ever intersect the rod in the reciprocal lattice, which depends on the incoming photon wavelength and on the crystal lattice.
+Furthermore, if for low $l$ values the detector is in the vertical plane, for high $l$ values the detector is almost parallel to the sample which limits the sampling of the reciprocal space.
+These experimental limitations are at the origin of how far in $l$ the CTR are measured.
+
+To perform a measurement perpendicular to the $[0, 0]$ node, $\mu$ must be tuned together with the out-of-plane angle of the detector $\delta$ keeping the relation $\delta=2\mu$.
+This kind of measurement is called "specular" measurement for which the direction of the scattering vector is only perpendicular to the surface and is the subject of the x-ray reflectometry technique  (sec. \ref{XRR}).
+
+\subsection{X-ray reflectivety}\label{XRR}
 
 
 \subsubsection{ROD}

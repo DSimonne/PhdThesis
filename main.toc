@@ -9,27 +9,27 @@
 \contentsline {section}{\numberline {1.2}Aim and Scope}{6}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Outline of the Thesis}{6}{section.1.3}%
 \contentsline {chapter}{\numberline {2}Theory and methods}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}X-ray interaction with matter}{7}{section.2.1}%
+\contentsline {section}{\numberline {2.1}x-ray interaction with matter}{7}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Scattering from electrons and atoms}{8}{subsection.2.1.1}%
 \contentsline {subsubsection}{Cross-sections}{8}{section*.8}%
 \contentsline {subsubsection}{Scattering from an electron}{8}{section*.10}%
 \contentsline {subsubsection}{Scattering from a single atom}{11}{section*.12}%
-\contentsline {subsection}{\numberline {2.1.2}Refraction, reflection and absoption effects}{13}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.2}Refraction, reflection and absorption effects}{13}{subsection.2.1.2}%
 \contentsline {section}{\numberline {2.2}Scattering from crystals}{14}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Bragg's Law}{15}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Structure factor}{16}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Bragg's Law}{16}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Structure factor}{17}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}Lattice factor}{18}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Coherence}{18}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}SXRD}{20}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Surface reconstructions}{20}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Crystal truncation rods}{20}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Reflectivety}{21}{subsection.2.3.3}%
-\contentsline {subsubsection}{ROD}{21}{section*.19}%
-\contentsline {section}{\numberline {2.4}Synchrotron radiation}{21}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Tailored for the study of materials}{21}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}The SixS beamline}{21}{subsection.2.4.2}%
-\contentsline {subsubsection}{Diffractometer}{21}{section*.20}%
-\contentsline {subsubsection}{Mass flow controller}{21}{section*.21}%
-\contentsline {subsubsection}{Residual Gas Analyser}{21}{section*.22}%
-\contentsline {subsection}{\numberline {2.4.3}Data collection}{21}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Intensity of a Bragg peak}{21}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.2.4}Coherence}{19}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}SXRD}{21}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Surface reconstructions}{21}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Crystal truncation rods}{22}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Data collection}{24}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}X-ray reflectivety}{26}{subsection.2.3.4}%
+\contentsline {subsubsection}{ROD}{26}{section*.24}%
+\contentsline {section}{\numberline {2.4}Synchrotron radiation}{26}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Tailored for the study of materials}{26}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}The SixS beamline}{26}{subsection.2.4.2}%
+\contentsline {subsubsection}{Diffractometer}{26}{section*.25}%
+\contentsline {subsubsection}{Mass flow controller}{26}{section*.26}%
+\contentsline {subsubsection}{Residual Gas Analyser}{26}{section*.27}%
+\contentsline {subsection}{\numberline {2.4.3}Intensity of a Bragg peak}{26}{subsection.2.4.3}%
