@@ -167,7 +167,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>none</bcf:value>
+      <bcf:value>nyt</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -2376,21 +2376,159 @@
     <bcf:citekey order="28" intorder="1">Robinson1986</bcf:citekey>
     <bcf:citekey order="29" intorder="1">Schleputz2011</bcf:citekey>
     <bcf:citekey order="30" intorder="1">Schleputz2011</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">Vlieg1997</bcf:citekey>
+    <bcf:citekey order="31" intorder="2">Drnec2014</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">NielsenMcMorrow</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">Robach2000</bcf:citekey>
+    <bcf:citekey order="33" intorder="2">Drnec2014</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Roobol2015</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">robinson_coherent_2009</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">labat_inversion_2015</bcf:citekey>
+    <bcf:citekey order="36" intorder="2">cherukara_anisotropic_2018</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">Newton2010</bcf:citekey>
+    <bcf:citekey order="37" intorder="2">Lauraux2020</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">Miao1999</bcf:citekey>
+    <bcf:citekey order="38" intorder="2">Miao2000</bcf:citekey>
+    <bcf:citekey order="38" intorder="3">Robinson2001</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">ulvestad_situ_2016</bcf:citekey>
+    <bcf:citekey order="39" intorder="2">Kim2019</bcf:citekey>
+    <bcf:citekey order="39" intorder="3">Carnis2021</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">cherukara_real-time_2018</bcf:citekey>
+    <bcf:citekey order="40" intorder="2">chan_rapid_2021</bcf:citekey>
+    <bcf:citekey order="40" intorder="3">Wu2021</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">chapman_high-resolution_2006</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">cherukara_anisotropic_2018</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">NielsenMcMorrow</bcf:citekey>
+    <bcf:citekey order="43" intorder="2">Willmott</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">van_heel_fourier_2005</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">hofmann_nanoscale_2020</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">labat_inversion_2015</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">chapman_high-resolution_2006</bcf:citekey>
+    <bcf:citekey order="47" intorder="2">cherukara_anisotropic_2018</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">pynx2020FLLK</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">Ulvestad2017</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">Carnis2019_scientific_reports</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">ahrens2005paraview</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">richard_crystallographic_2018</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">ulvestad_situ_2016</bcf:citekey>
+    <bcf:citekey order="53" intorder="2">kim_active_2018</bcf:citekey>
+    <bcf:citekey order="53" intorder="3">fernandez_situ_2019</bcf:citekey>
+    <bcf:citekey order="53" intorder="4">Passos2020</bcf:citekey>
+    <bcf:citekey order="53" intorder="5">Carnis2021</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">vicente_bragg_2021</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">Grothausmann2012</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">Grothausmann_Beare2015</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">default_1925</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">WangIEEE2016</bcf:citekey>
+    <bcf:citekey order="58" intorder="2">Alizada2017</bcf:citekey>
+    <bcf:citekey order="58" intorder="3">Wang2018</bcf:citekey>
+    <bcf:citekey order="58" intorder="4">Khaleghi2019</bcf:citekey>
+    <bcf:citekey order="58" intorder="5">Wang2021</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">IPython</bcf:citekey>
+    <bcf:citekey order="59" intorder="2">Kluyver2016jupyter</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">Martini2019a</bcf:citekey>
+    <bcf:citekey order="60" intorder="2">Simonne2020</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">jupyter_computing_4</bcf:citekey>
+    <bcf:citekey order="61" intorder="2">jupyter_computing_1</bcf:citekey>
+    <bcf:citekey order="61" intorder="3">jupyter_computing_3</bcf:citekey>
+    <bcf:citekey order="61" intorder="4">jupyter_computing_2</bcf:citekey>
+    <bcf:citekey order="61" intorder="5">9307800</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">Kretser2019</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">Kornfeld2016</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">Baker2016</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">DanielSarwitz2015</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">Baker2016</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">Lee2017</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">Munafo2017</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">Maia2012</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">Simonne2020</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">Newville2016</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">robinson_coherent_2009</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">robinson_coherent_2005</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">ozturk_performance_2017</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">miao_possible_2000</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">pynx2020operators</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">jerome_carnis_2021_5741935</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">cohere_2021</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">cohere_2021</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">dzhigaev_dzhigaevdphasor_2021</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">newton_bonsu_2012</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">Kluyver2016jupyter</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">IPython</bcf:citekey>
+    <bcf:citekey order="83" intorder="2">Newville2016</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">Scopatz2015</bcf:citekey>
+    <bcf:citekey order="84" intorder="2">McKinney2017</bcf:citekey>
+    <bcf:citekey order="84" intorder="3">Boulle2019</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">jerome_carnis_2021_5741935</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">pynx2011</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">pynx2020operators</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">thesismark</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">kriegner_xrayutilities_2013</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">crystal_sarah</bcf:citekey>
+    <bcf:citekey order="91" intorder="1">cherukara_real-time_2018</bcf:citekey>
+    <bcf:citekey order="91" intorder="2">chan_rapid_2021</bcf:citekey>
+    <bcf:citekey order="91" intorder="3">Wu2021</bcf:citekey>
+    <bcf:citekey order="92" intorder="1">fienup_phase_1982</bcf:citekey>
+    <bcf:citekey order="92" intorder="2">fienup_reconstruction_1978</bcf:citekey>
+    <bcf:citekey order="92" intorder="3">marchesini_publishers_2007</bcf:citekey>
+    <bcf:citekey order="92" intorder="4">pynx2020operators</bcf:citekey>
+    <bcf:citekey order="93" intorder="1">pynx2020operators</bcf:citekey>
+    <bcf:citekey order="94" intorder="1">gerchberg_practical_1972</bcf:citekey>
+    <bcf:citekey order="94" intorder="2">fienup_reconstruction_1978</bcf:citekey>
+    <bcf:citekey order="94" intorder="3">marchesini_publishers_2007</bcf:citekey>
+    <bcf:citekey order="95" intorder="1">pynx2020FLLK</bcf:citekey>
+    <bcf:citekey order="96" intorder="1">Ulvestad2017</bcf:citekey>
+    <bcf:citekey order="97" intorder="1">pynx2020FLLK</bcf:citekey>
+    <bcf:citekey order="98" intorder="1">ulvestad_nanoscale_2014</bcf:citekey>
+    <bcf:citekey order="99" intorder="1">guizar-sicairos_phase_2011</bcf:citekey>
+    <bcf:citekey order="100" intorder="1">hofmann_nanoscale_2020</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">Carnis2019_scientific_reports</bcf:citekey>
+    <bcf:citekey order="101" intorder="2">jerome_carnis_2021_5741935</bcf:citekey>
+    <bcf:citekey order="102" intorder="1">hunter2007matplotlib</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">ipyvolume</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">Bokeh</bcf:citekey>
+    <bcf:citekey order="105" intorder="1">Konnecke2015</bcf:citekey>
+    <bcf:citekey order="106" intorder="1">Maia2012</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">kriegner_xrayutilities_2013</bcf:citekey>
+    <bcf:citekey order="108" intorder="1">NumPy</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">Maia2012</bcf:citekey>
+    <bcf:citekey order="110" intorder="1">Konnecke2015</bcf:citekey>
+    <bcf:citekey order="111" intorder="1">Konnecke2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
-  <bcf:sortingtemplate name="none">
+  <bcf:sortingtemplate name="nyt">
     <bcf:sort order="1">
-      <bcf:sortitem order="1">citeorder</bcf:sortitem>
+      <bcf:sortitem order="1">presort</bcf:sortitem>
     </bcf:sort>
-    <bcf:sort order="2">
-      <bcf:sortitem order="1">intciteorder</bcf:sortitem>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="none/global//global/global"
+                name="nyt/global//global/global"
                 type="entry"
-                sortingtemplatename="none"
+                sortingtemplatename="nyt"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"

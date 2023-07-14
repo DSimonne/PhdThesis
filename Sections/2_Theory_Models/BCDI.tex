@@ -1,39 +1,146 @@
-\section{BCDI} \label{BCDI}
+\newpage
+\section{BCDI} \label{sec:BCDI}
 
-\subsection{Coherent diffraction}
+\begin{enumerate}
+    \item introduce bcdi
+    \item give equation for scattering by strained crystals
+    \item relate this to the concept of block unit cells
+    \item give limits in term of kinematic scattering and q-range for FT, q-4 decrease of intensity
+    \item introduce phase retrieval
+    \item introduce iterative algorithms
+    \item explain how to judge the quality of the reconstruction and the concept of resolution
+    \item explain how we define the facets of the crystal, the limits
+\end{enumerate}
 
-Bragg coherent diffractive imaging (BCDI) is a lensless x-ray imaging technique that uses computational algorithms in place of physical lenses to achieve high-resolution imaging. It can be used to visualize the Bragg electron density and atomic displacement fields of crystalline materials in three-dimensional (3D) detail and with nanometer resolution.
+Bragg Coherent Diffraction Imaging (BCDI) \parencite{robinson_coherent_2009} is a powerful technique for the non-destructive characterisation of material structure in three dimensions with unparalleled spatial and strain resolution, few nanometers \parencite{labat_inversion_2015,cherukara_anisotropic_2018} and $10^{-4 }$ respectively \parencite{Newton2010,Lauraux2020}.
 
-We focus only on elastic scattering as that is the main process exploited when studying the structure of materials (the x-ray photon is elastically scattered (energy is conserved) and both the incident and scattered photons have the same wavelength).
-
-By adding up the scattered amplitudes of an arrangement of atoms, we can then get the diffracted amplitude for a crystal. Note that the following derivations only apply if the diffraction pattern is viewed at a distance far away from the diffracting object. This region is known as the far-field or Fraunhofer region.
+The BCDI method is reliant on the coherence (sec. \ref{sec:Coherence}) of the light available, thus only began to be exploited at third generation synchrotron sources \parencite{Miao1999,Miao2000,Robinson2001}.
+Since then it was developed into a characterisation tool for \textit{in situ / operando} studies of materials structure \parencite{ulvestad_situ_2016,Kim2019,Carnis2021} and will gain significantly (several orders of magnitude) from further source and beamline improvements as many synchrotrons have recently completed or are in the process of an upgrade from $3^{rd}$ to $4^{th}$ generation synchrotrons.
 
 \subsection{Scattering by strained crystals}
+
+Note that the following derivations only apply if the diffraction pattern is viewed at a distance far away from the diffracting object. This region is known as the far-field or Fraunhofer region.
+
+HERE DETAIL WHAT VINCENT SHOWED IN HIS HDR
 
 
 \subsection{Phase retrieval}
 
-To understand the phase problem, it's important to know that when X-rays interact with a crystal, they are diffracted by the crystal lattice structure. The diffracted X-rays form a complex interference pattern of constructive and destructive interference, resulting in a series of spots known as diffraction peaks.
+As seen in sec. \ref{sec:DataCollectionSXRD}, the diffracted intensity collected by the detector is proportional to the squared modulus of the structure factor $F(\vec{q})$ (eq. \ref{eq:scat_int} - \ref{eq:int_detector}).
+A typical 3d diffraction pattern measured from a faceted crystal at a synchrotron can be seen in fig. \ref{fig:3DDP}.
+The direction of each rods in the figure is perpendicular to a facet of the crystal.
+The interfringe observed on the rods is proportional to the size of the crystal in that direction
 
-The intensities of these diffraction peaks can be measured experimentally, providing valuable information about the distribution of electrons within the crystal. However, the phases of the diffracted waves are not directly determined from the intensity data.
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/3D_DP/DP_white_1.png}
+    \caption{
+    3D diffraction pattern collected at SixS.
+    Different iso-surfaces from high (red) to low (yellow) intensity are plotted, highlighting the drop of the scattered intensity as a function of $q_{hkl}+\delta q$ where $\delta q$ is the distance from the center of the Bragg peak.
+    }
+    \label{fig:3DDP}
+\end{figure}
 
-In order to obtain a complete and accurate picture of the electron density within the crystal, both the amplitudes and phases of the diffracted waves are needed. The problem lies in determining these phases, which is often challenging or even impossible to do directly from experimental measurements.
+\begin{align}
+    \label{eq:scat_int}
+    F(\vec{q_{hkl}}) & = \sum_j^N f_j (\vec{q_{hkl}}) \mathrm{e}^{i\vec{q_{hkl}}\cdot\vec{u}(\vec{r})} \\
+    \label{eq:int_detector}
+    I(\vec{q_{hkl}}) & \propto |F(\vec{q_{hkl}})|^2
+\end{align}
+with $f_j (\vec{q_{hkl}})$ the atomic form factor of atom \textit{j}, $\vec{q_{hkl}}$ the scattering vector, and $\Phi_{hkl} = \vec{q_{hkl}}\cdot\vec{u}(\vec{r})$ the phase Of the scattered x-rays that is lost during the measurement.
+\textit{hkl} correspond to the miller indices of the crystallographic planes probed by the incoming beam.
 
-The phase problem arises because the intensities of the diffracted waves are obtained through measurement, but the phases are typically missing. Without the phase information, it is impossible to directly reconstruct the electron density distribution and obtain a detailed structural model of the crystal.
+$\Phi_{hkl}$ is proportional to the scalar component of the displacement $\vec{u}(\vec{r})$ that is parallel to $ \vec{q_{hkl}}$.
+A phase value of $\pi$ is equivalent to a displacement from the equilibrium position of half the lattice spacing in the direction of $\vec{q_{hkl}}$.
+Without the phase information, it is impossible to directly reconstruct the electron density distribution and obtain a detailed structural model of the crystal.
 
-Basic algorithm is Error-Retrieval (ER), quick but can converge towards local minimum. 
+To retrieve the phase from the diffracted intensity, the most common solution is to use iterative algorithms.
+New methods such as convolution neural networks (CNN) are under study and have started to show some encouraging results, but are not yet sufficiently robust, particularly in the case of strained particles \cite{cherukara_real-time_2018,chan_rapid_2021,Wu2021}.
+
+
+Basic algorithm is Error-Retrieval (ER), quick but can converge towards local minimum.
 The support corresponds to a shape when the object is included. The density of the object is thus equal to zero outside the support. (Fienup, 1978).
 
 In practice, a slow convergence of the ER algorithm is often observed. The error-metric does not evolve and the algorithm is sort of stuck in a local minimum.
 
-To overcome the problem of stagnation in local minima from ER, (FIenup, 1982) introduced the Hybrid-Input-Output algorithm, that differs in its application of real space constraints. Feedback parameter $\beta$, 
+To overcome the problem of stagnation in local minima from ER, (FIenup, 1982) introduced the Hybrid-Input-Output algorithm, that differs in its application of real space constraints. Feedback parameter $\beta$,
 In practice, this adaptation is efficient and significantly enhances the convergence speed. It can be seen as a little perturbation that allows to leave a local minimum.
-
 
 However, the HIO algorithm still fails sometimes, and this explains why the ER and HIO algorithms are generally used in combination.
 
+\subsection{Resolution}
+
+Finally, the resolution of the reconstructed object, defined according to multiple parameters in the literature, is critical for an imaging technique.
+The voxel size in real space depends on the collected volume of reciprocal space: $\frac{2\pi}{\delta q_x}, \frac{2\pi}{\delta q_y}, \frac{2\pi}{\delta q_z}$, $q_x, q_y, q_z$ being the coordinates of the scattering vector.
+Three methods are commonly used to estimate the spatial resolution.
+
+First, the Phase Retrieval Transfer Function (PRTF) \parencite{chapman_high-resolution_2006} is the ratio of the calculated amplitude to the measured amplitude as a function of the resolution ring, which is a fraction of the sampling frequency of the diffraction pattern. The relative frequency at which the PRTF is equal to 0.5, or to 1/\textit{e}, can be used as an estimated resolution of the reconstruction.
+Note that \cite{cherukara_anisotropic_2018} have recently demonstrated that the resolution of 3D real-space images obtained from Bragg X-ray coherent diffraction measurements is direction dependent, as expected from the discussion in sec. \ref{sec:CTR}.
+The scattered intensity of the rods that rise from each facet in the real space is proportional to the size (\textit{i.e.} the number of unit cells) of the crystal in the direction perpendicular to the facet.
+For large facets, the rod intensity will be much more intense and increase the signal to noise ratio as a function of $\delta q$, keeping in mind that the scattered intensity decreases with as a function of $q^-4$ (Porod \parencite{NielsenMcMorrow, Willmott}, to verify).
+
+Secondly, the Fourier shell correlation (FSC) \parencite{van_heel_fourier_2005} measures the normalized cross-correlation coefficient between two 3D volumes and hence depends on two reconstructions that have to be the result of independent data sets.
+
+Thirdly, spatial resolution can be quantified by differentiating line profiles of electron density amplitude across the object-air interface and fitting these with a Gaussian profile.
+The average 3D spatial resolution is taken as 2$\sigma$ of the fitted Gaussian \parencite{hofmann_nanoscale_2020}. Concerning the resolution of the retrieved atomic displacement, Labat \textit{et al.} \cite{labat_inversion_2015} have demonstrated a displacement field accuracy of few pm with BCDI.
+
+The experiment resolution can be quantified in the \textit{Gwaihir} GUI following different criteria and shared along with the processed data. Testing the influence of different parameters on the resolution and final results will help deriving optimum parameter values for data analysis.
+
+For phase retrieval, the phase retrieval transfer function (PRTF) \parencite{chapman_high-resolution_2006,cherukara_anisotropic_2018} and the Free log-likelihood \parencite{pynx2020FLLK} are standards, accompanied by specific metrics in the case of crystallographic defects \parencite{Ulvestad2017}.
+
+\subsubsection{Facet analysis}
+
+The surface in BCDI corresponds to the surface voxel layer defined by a threshold of its maximum density.
+Guidelines on how to select this threshold are given in \cite{Carnis2019_scientific_reports}, the objective being to select correctly the object's surface voxels.
+
+Once the threshold for the iso-surface is selected, it is possible to visualize a contour of the object directly in the GUI (fig. \ref{fig:3D_object}) or specialized solutions such as Paraview \parencite{ahrens2005paraview} (fig. \ref{fig:facets_paraview}). Crystallographic facets can be identified on the surface of the reconstructed object when studying faceted objects with a highly coherent beam \parencite{richard_crystallographic_2018}, allowing in-depth studies of facet dependent strain and displacement. Lattice strain and displacement are key factors in fields such as heterogeneous catalysis \parencite{ulvestad_situ_2016,kim_active_2018,fernandez_situ_2019,Passos2020,Carnis2021} or electrochemistry \parencite{vicente_bragg_2021}.
+
+Retrieving the facets can be achieved by analysing the probability distributions of the orientations of triangle normals on a mesh representation of the object \parencite{Grothausmann2012}.
+This method is used in the Paraview plugin FacetAnalyser \parencite{Grothausmann_Beare2015}, and yields a list of features detailed in Table \ref{tab:facets}.
+
+In the case of highly resoluted measurement, another approach could be inspired from  image processing and convolutional neural netwroks in which 3D convolutions kernels could help identify the object surface.
+By tuning the kernel size and values, it is possible to be sensitive to boundaries in specific directions.
+In this example, we use the FacetAnalyser plugin (fig. \ref{fig:facets_paraview}). Note that the edges and corners, sites of particular interest for heterogeneous catalysis \parencite{default_1925}, are also retrieved together as voxels not belonging to any facets.
+The result depends on the algorithm input parameters, such as the minimum relative facet size, the angular acceptance for the facet normals, \textit{etc.}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/facets_D6.png}
+    \caption{On this screenshot taken from Paraview, the particle facets are identified by a white contour. The coloring represents the phase of the reconstructed object, proportional to the lattice displacement. This particle has a diameter of about 800 nm.}
+    \label{fig:facets_paraview}
+\end{figure}
+
+\begin{table}
+    \begin{center}
+    \resizebox{0.95\textwidth}{!}{%
+    \begin{tabular}{@{}lllll@{}}
+    %\toprule
+    Facet id & Facet normal & Relative facet size & Average displacement (\AA)& Average strain ($10^{-4}$)\\
+    %\midrule
+    1 & $(1, 1, 1)$ & 0.106 & $0.080 \pm 0.173$      & $-0.28 \pm 0.51$\\
+    2 & $(\bar{1}, \bar{1}, \bar{1})$ & 0.223 & $0.052 \pm 0.26$     & $-1.17 \pm 0.64$\\
+    3 & $(1, \bar{1}, 0)$ & 0.106 & $0.080 \pm 0.173$    & $-0.28 \pm 0.51$\\
+    4 & $(1, 0, 0)$ & 0.096 & $0.137 \pm 0.192$ & $0.27 \pm 0.49$\\
+    0 & Edges and corner & NaN & $-0.224 \pm 0.259$ & $0.20 \pm 0.86$\\
+    %\bottomrule
+    \end{tabular}
+    }
+    \end{center}
+    \caption{The output of facet analysis is a list of values for each facet. The accessible features are the facet size, the average strain, the average displacement, the facet center and the facet normal. The uncertainty on the average displacement and strain corresponds to the standard deviation of  the displacement and strain distribution, respectively.}
+    \label{tab:facets}
+\end{table}{}
+
+
+\textcolor{Important}{
+    Signal to noise ratio that influence FFT window size for cropping
+    Oversampling ratio
+    Poisson (Shot) noise
+    Autocorrelation
+}
+
 \subsubsection{Oversampling}
-Oversampling in Fourier transforms refers to the practice of sampling a signal at a higher sampling rate than the Nyquist rate, which is twice the highest frequency present in the signal. By increasing the sampling rate, more samples are taken per unit of time, resulting in a denser set of data points.
+Oversampling in Fourier transforms refers to the practice of sampling a signal at a higher sampling rate than the Nyquist rate, which is twice the highest frequency present in the signal.
+By increasing the sampling rate, more samples are taken per unit of time, resulting in a denser set of data points.
 
 When it comes to Fourier transforms, oversampling can offer several advantages:
 
@@ -79,7 +186,7 @@ The FFT algorithm is extensively used in various applications, such as digital s
 Overall, the FFT algorithm provides an efficient and powerful tool for transforming signals between the time and frequency domains, enabling a wide range of applications that require efficient spectral analysis and manipulation of digital signals.
 
 \subsubsection{Support determination}
-There are several techniques to estimate the support. In some cases, the shape and dimensions of the object have been already determined by other techniques (such as SEM or AFM for instance), and a support can be built from this knowledge. 
+There are several techniques to estimate the support. In some cases, the shape and dimensions of the object have been already determined by other techniques (such as SEM or AFM for instance), and a support can be built from this knowledge.
 
 \subsubsection{Patterson function}
 When the shape of the object is unknown, a rough estimate of the support can be obtained from the diffraction signal using the autocorrelation function (Marchesini 2003). It is based on the Patterson function which can be defined as the invert Fourier transform of the diffracted intensity. This function can be expressed as the convolution of the complex electron density.
@@ -92,42 +199,3 @@ For large strain, the diffraction pattern has a large extent in the reciprocal s
 In combination of the ER and HIO algorithms, a third algorithm is routinely used for CDI. It is known as the shrink wrap (SW) algorithm and allows to update the support during the reconstruction. It was first introduced by Marchesini (2003) and has proven to greatly improve the convergence of the procedure.
 
 In practice, the estimate is smoothed by convolution with a Gaussian. After convolution, a thresholding is applied to the smoothed image to a typical value of 10\% of the maximum value of the amplitude. Values above the threshold are set to 1 and values below are set to 0. The threshold is generally set to such low values to avoid to suppress too large parts of the support. Nevertheless, the convolution step allows to recover from a support that has been reduced
-
-\subsection{Accessing strain and displacement}
-
-
-\subsection{Computer programs}
-
-\subsubsection{\textit{PyNX}}
-Coherent X-ray imaging techniques developed during the last 20 years thanks to high brilliance in synchrotrons. Wide range of techniques:
-
-\begin{itemize}
-    \item Phase Contrast Imaging
-    \item Coherent Diffraction Imaging, allowing to reconstruct single objects from their diffraction pattern alone, including strain imaging of crystalline nano-objects in the Bragg geometry.
-    \item X-ray Ptychography, used in both near and far field regime, developed for imaging extended objects (larger than the incident beam), both in small angle and Bragg geometry, also usable in the Fourier regime by scanning the transmitted beam.
-\end{itemize}
-These techniques all provide high resolution 2D or 3D imaging, down to 5 to 15 nm resolution, depending on the instrumental setup.
-
-Requires a coherent X-ray beam, readily available at synchrotrons facilities. Will benefit from upgrades of synchrotrons rings, which promises 2 orders of magnitude increase in the available coherent X-ray flux thanks to higher brilliance. This will enable faster dynamics and imaging experiments as well as reaching higher resolutions.
-Higher energy coherent X-ray ($\>20 keV$) will enable data collection for thicker samples and allow to mitigate radiation damage with lower absorption.
-
-PyNX has open-source coherent X-ray imaging modules \parencite{Favre-Nicolin2020}. All calculations for coherent imaging modules (\texttt{cdi, ptycho, wavefront}), respectively for Coherent Diffraction Imaging, Ptychography and coherent wavefront propagation (mostly used for simulation purposes) are executed on the GPU by using pyCUDA or pyOpenCL libraries. Language and GPU automatically selected based on tests.
-
-Autocorrelation
-
-The CDI technique consists of reconstructing an object from a far-field diffraction pattern alone, a technique which has been expanded to 3D reconstruction by collecting multiple ($>100$) projections around a rotation axis, either in the small angle, or in the Bragg geometries - the latter approach yielding information about strain in the reconstructed object \parencite{Li2020}.
-
-In order to recover the object from non-redundant diffraction data, it is necessary to recover the lost phases of the measured amplitude (c.f. phase loss problem).
-
-A variety of algorithms are available, all of which rely on alternating between a real-space estimate of the object and diffraction (Fourier) space, where an amplitude constraint can be applied from the measured intensity.
-
-
-\subsubsection{\textit{bcdi}}
-
-\subsubsection{Preprocessing}
-
-Signal to noise ratio that influence FFT window size for cropping
-
-Oversampling ratio
-
-Poisson (Shot) noise 
