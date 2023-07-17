@@ -1,83 +1,29 @@
 \newpage
 \section{Computer programs}
 
-% big data
+With the upgrade of synchrotrons to more brilliant sources, imaging beamlines have received increasing attention from the scientific community and yield larger and more complex data that far exceed the basic diffraction pattern (a reconstructed BCDI measurement is a complex array in 3 dimensions) (cite new beamlines that do imaging techniques like SixS, Crystal, new beamline at esrf etc).
+In a more general frame, the increase in flux at synchrotrons leads to quicker experiments, which in turn leads to an increased data stream stored on the beamlines, often in different formats.
 
-Transitioning to big data in science is of great importance due to the following reasons:
+Synchrotrons have effectively stepped in the wold of "big data" \parencite{Alizada2017, Wang2018}, which refers to a vast volume of structured, semi-structured, and unstructured data that is generated at a high velocity and comes from various sources.
+This data is typically too complex or large to be processed and analyzed using traditional data management tools or methods that were originally written to simulate or fit only a few datasets at a time.
+In the specific case of Bragg coherent diffration imaging, new tools have been developed during the thesis (sec. \ref{sec:Gwaihir}, \cite{jerome_carnis_2021_5741935, Simonne2022}) to help create a fast and reproducible workflow, but it is a more general way of working that must be adopted in synchrotrons to adapt and profit from the transition to big data \parencite{Wang2018}.
+This does not only concern scientific analysis but also the complexity of synchrotron beamlines that could benefit from the use of big data to upgrade their performance (cite projet maxime).
 
-\parencite{WangIEEE2016, Alizada2017, Wang2018, Khaleghi2019, Wang2021}
+First, synchrotron data must be stored in a comprehensive data format \parencite{Konnecke2015} that contains not only detector images but all of the important metadata linked to the experiment, providing a more comprehensive and detailed view.
+The fine selection of the beamline attributes that can be of interest for the discovery of hidden patterns, correlations, and trends that may not be apparent with smaller datasets is left to the beamline scientists.
 
-Big data provides scientists with a wealth of information that can be analyzed to uncover valuable insights.
-By examining large datasets, scientists can discover hidden patterns, correlations, and trends that may not be apparent with smaller datasets.
+Secondly, synchrotrons must offer high performance computing (HPC) clusters \parencite{Wang2021} compatible with the most common integrated development environment (IDE) and either have an internal strategy or trust their users to be able to develop tools that can use their power to uncover valuable insights \parencite{WangIEEE2016, Khaleghi2019}.
 These insights can lead to new discoveries and enhance our understanding of complex phenomena, driving scientific progress.
 
-The use of big data expands research capabilities by allowing studies to be conducted on a much larger scale.
-Traditional scientific experiments often rely on a limited number of observations or samples, which may not capture the full complexity of real-world phenomena.
-Big data enables researchers to collect information from various sources, such as sensors, social media, or electronic health records, providing a more comprehensive and detailed view.
-
-Big data analytics can accelerate scientific discovery by facilitating more efficient identification of patterns and trends.
-By automating data analysis and utilizing machine learning techniques, researchers can process and interpret vast amounts of data more quickly.
-This can reduce the time required for experimentation, hypothesis testing, and validation, expediting the pace of scientific progress.
-
-The transition to big data in science promotes collaboration among researchers from different disciplines.
-Analyzing large datasets often requires expertise in statistics, computer science, and domain-specific knowledge.
-Interdisciplinary collaborations enable scientists to combine their skills and knowledge to address complex research questions that surpass the capabilities of individual researchers or traditional approaches.
-
-The application of big data extends beyond academia and can have real-world impacts. In fields such as healthcare, environmental science, and social sciences, big data provides insights into population health trends, climate change patterns, social behaviors, and other crucial aspects of our world.
-These insights inform evidence-based decision-making, policy formulation, and the development of innovative solutions to societal challenges.
-
-Big data also plays a vital role in evidence-based policymaking and decision-making processes.
-Policymakers can leverage large datasets to gain insights into social, economic, and environmental trends, enabling them to make informed decisions and design effective strategies.
-Big data helps identify emerging issues, predict future scenarios, and evaluate the impact of policy interventions.
-
-In summary, transitioning to big data in science unlocks new research opportunities, accelerates scientific discovery, fosters interdisciplinary collaborations, drives real-world applications, and informs evidence-based decision-making. The utilization of big data empowers scientists to gain deeper insights, address complex challenges, and make significant contributions to their respective fields.
-
-
-Transitioning to big data in science can be facilitated using tools like Jupyter Notebook through the following steps:
-
-    Data acquisition: Identify and acquire relevant datasets for research or analysis, considering large volumes of data from various sources. Retrieve data from databases, APIs, file systems, or streaming platforms, ensuring appropriate permissions and access.
-
-    Data preprocessing: Clean, transform, and prepare the data for analysis within Jupyter Notebook. Handle missing values, duplicates, format inconsistencies, and normalize data. Utilize the interactive environment of Jupyter Notebook to iteratively explore and manipulate data effectively.
-
-    Data exploration and visualization: Utilize Jupyter Notebook's capabilities to explore data and gain initial insights. Use libraries like Pandas, NumPy, Matplotlib, Seaborn, or Plotly to perform data exploration and create visualizations. Visualizations aid in identifying patterns, outliers, and relationships in the data.
-
-    Data analysis and modeling: Apply data analysis techniques, such as statistical analysis, machine learning, or deep learning algorithms, to extract insights from big data. Jupyter Notebook supports multiple programming languages like Python, R, Julia, or Scala, accommodating various analysis and modeling tasks. Leverage libraries like scikit-learn, TensorFlow, or PyTorch to implement complex models and algorithms.
-
-    Scaling with distributed computing: Employ distributed computing frameworks, such as Apache Spark, to handle the computational load associated with big data. Jupyter Notebook seamlessly integrates with Spark, enabling the writing and execution of Spark code within notebooks. Leverage distributed computing capabilities for large-scale data processing and parallelization.
-
-    Documentation and collaboration: Utilize Jupyter Notebook's platform for documenting the analysis process, including code, visualizations, and explanatory text. Documenting work ensures reproducibility and facilitates sharing insights with colleagues or collaborators. Export notebooks in formats like HTML or PDF for sharing findings or publication.
-
-    Deployment and automation: Deploy analysis or models developed within Jupyter Notebook to production systems and automate the data processing pipeline. Convert notebooks into scripts or integrate them with other tools and frameworks to create automated workflows. This enables seamless integration of analysis into production environments.
-
-Optimize code, consider efficient data storage and processing techniques for big data, and leverage distributed file systems, databases, or cloud-based storage platforms. Additionally, monitor computational resources and scalability requirements to accommodate larger datasets.
-
-By utilizing Jupyter Notebook and its ecosystem of libraries and tools, scientists can effectively transition to big data analysis, exploration, and modeling while benefiting from the interactive and collaborative environment it provides
-
-% jupyter
-
-The Jupyter Notebook environment \parencite{IPython,Kluyver2016jupyter} was chosen for its versatile, user-friendly and browser-based interface.
-To simplify the data analysis pipelines in fourth-generation synchrotrons, it is of critical importance to offer the possibility for external users to analyse the collected data remotely with access to computational environments
-Remote access to Jupyter Notebook or JupyterLab is provided by JupyterHub, while the sharing of ressources is handled by SLURM.
-
-Jupyter Notebook has proven to be an effective tool for the analysis of synchrotron data, in terms of graphical user interface \parencite{Martini2019a,Simonne2020}, but also in terms of supporting scientific communities looking for high-performance frameworks \parencite{jupyter_computing_4, jupyter_computing_1, jupyter_computing_3, jupyter_computing_2, 9307800}.
-Moreover, computational environments and resources can be accessed from any computer \textit{via} JupyterHub, a specific interface for computing clusters.
-JupyterHub offers the possibility to proceed to heavy computations without relying on specific hardware, \textit{e.g.} graphical processing units, mandatory for accelerated phase retrieval with \textit{PyNX}.
-
-The Notebook can be used to take notes on the experiment or to create custom Python functions. They can be shared in the \textit{.ipynb} format or as \textit{.pdf} documents. \textit{Gwaihir} transforms each data-set into a structured Python object that can be accessed and manipulated in the Notebook for e.g. personalized figures, parameter tests, \textit{etc.}
-
-Moreover, researchers can create their own work-spaces from shared resources, with direct access to tailored computational environments, without having to install multiple software, keeping in mind that the use of GPUs for scripts optimisation is far from accessible.
-Thus, system administrators can efficiently manage complex environments accessible to all users.
-Finally, remotely accessing the data avoids data storage issues, which can quickly become problematic with current CXI experiments.
-Interactive data analysis/visualisation relies on the \textit{ipywidgets} library.
-
-Widgets are represented in the back-end by a single object linked to a single parameter.
-The front-end relies on \textit{JavaScript} code; each time a widget is displayed, a new representation of that same object is created.
-The widgets' style, orientation, and layout attributes can be edited to customize the final window, \textit{e.g.}, the layout attribute exposes a number of properties that impact how widgets are laid out, such as height and width.
-
+% The use of big data expands research capabilities by allowing studies to be conducted on a much larger scale whereas traditional scientific experiments often rely on a limited number of observations or samples, which may not capture the full complexity of real-world phenomena.
 
 \subsection{Data reproducibility}
 
-Discussions about defining a set of rules that regulate research practice \parencite{Kretser2019} and reduce the grey zone that includes scientific misconduct at all levels of academia \parencite{Kornfeld2016} are growing, raising awareness on data reproducibility in the scientific community.
+On one hand, linking reproducibility and big data is crucial for ensuring the credibility and reliability of the insights derived from large and complex datasets.
+Reproducibility in the context of big data refers to the ability to replicate or re-run data analysis processes to obtain consistent results.
+Achieving reproducibility with big data can be challenging due to the massive volume, velocity, and variety of the data involved, in the case of Bragg coherent diffraction imaging, if measurements took a few dozens of minutes a few years ago, we are now capable of measuring a single rocking curve in less than a minut at specialized beamlines such as ID01 at the upgraded european synchrotron \parencite{Richter2019}.
+
+On the other hand, discussions about defining a set of rules that regulate research practice \parencite{Kretser2019} and reduce the grey zone that includes scientific misconduct at all levels of academia \parencite{Kornfeld2016} are growing, raising awareness on data reproducibility in the scientific community.
 
 Staggering numbers \parencite{Baker2016}, show that about 65\% of scientists in the field of physics and engineering struggle to reproduce others' results, and more than 50 \% fail to reproduce their own results.
 These numbers can sometimes be linked to very precise environments and techniques, with experimental conditions and processes difficult to reproduce between different laboratories, and also to knowledge transfer from academia to industry \parencite{DanielSarwitz2015}.
@@ -87,36 +33,47 @@ Moreover, it is largely accepted that the publishing industry has its own role t
 Therefore, code-availability, access to raw data combined with metadata, and reproducible workflows are goals of utmost importance for experimental science \parencite{Munafo2017}.
 Reproducible data will result in a global improvement of confidence in new techniques, such as BCDI, which could subsequently result in growth of interest and community.
 
-Already, raw and processed data can be accessed for the BCDI technique through the \textit{.cxi} database (https://cxidb.org/) \parencite{Maia2012}, which aims at creating a single data-storing architecture/format for coherent X-ray imaging experiments.
-An example of reproducible data is
+\subsection{The Jupyter environment}
 
-\subsection{BINoculars} \label{sec:BINoculars}
+The Jupyter Notebook environment \parencite{IPython, Kluyver2016jupyter} was chosen for the development of data analysis tools during this thesis for its versatile, user-friendly and browser-based interface.
+To simplify the data analysis pipelines in fourth-generation synchrotrons, it is of critical importance to offer the possibility for external users to analyse the collected data remotely with access to computational environments
+Remote access to Jupyter Notebook or JupyterLab is provided by JupyterHub, while the sharing of ressources is handled by SLURM.
 
-\subsection{ROD} \label{sec:ROD}
+Jupyter Notebook has proven to be an effective tool for the analysis of synchrotron data, in terms of graphical user interface \parencite{Martini2019a,Simonne2020}, but also in terms of supporting scientific communities looking for high-performance frameworks \parencite{jupyter_computing_4, jupyter_computing_1, jupyter_computing_3, jupyter_computing_2, 9307800}.
+Moreover, computational environments and resources can be accessed from any computer \textit{via} JupyterHub, a specific interface for computing clusters.
+JupyterHub offers the possibility to proceed to heavy computations without relying on specific hardware, \textit{e.g.} graphical processing units, mandatory for accelerated phase retrieval with \textit{PyNX}.
 
-\subsection{GenX} \label{sec:GenX}
+The Notebook can be used to take notes on the experiment or to create custom Python functions.
+They can be shared in the \textit{.ipynb} format or as \textit{.pdf} documents.
+%\textit{Gwaihir} transforms each data-set into a structured Python object that can be accessed and manipulated in the Notebook for e.g. personalized figures, parameter tests, \textit{etc.}
+
+Moreover, researchers can create their own work-spaces from shared resources, with direct access to tailored computational environments, without having to install multiple software, keeping in mind that the use of GPUs for scripts optimisation is far from accessible.
+Thus, system administrators can efficiently manage complex environments accessible to all users.
+Finally, remotely accessing the data avoids data storage issues, which can quickly become problematic with current experiments.
+
+Interactive data analysis/visualisation relies on the \textit{ipywidgets} library.
+Widgets are represented in the back-end by a single object linked to a single parameter.
+The front-end relies on \textit{JavaScript} code; each time a widget is displayed, a new representation of that same object is created.
+The widgets' style, orientation, and layout attributes can be edited to customize the final window, \textit{e.g.}, the layout attribute exposes a number of properties that impact how widgets are laid out, such as height and width.
 
 \subsection{Thorondor} \label{sec:Thorondor}
 
-Due to the lack of available free data reduction and analysis software at the B07 beamline in the Diamond synchrotron, a modified version (cite repo) of Thorondor \parencite{Simonne2020}, a program originally written for the analysis of NEXAFS data, was used to process the XPS data.
-To facilitate data reproducibility and open-source data analysis workflows, an example of the data recorded during this thesis is available directly in the GitHub repository (link).
+Due to the lack of available free data reduction and analysis software at the B07 beamline in the Diamond synchrotron, a modified version \parencite{Simonne_Thorondor_2022_Diamond} of Thorondor \parencite{Simonne2020}, a program originally written for the analysis of NEXAFS data, was used to process the XPS data.
+To facilitate data reproducibility and open-source analysis workflows, an example of the data recorded during this thesis is available directly in the GitHub repository \cite{Simonne_Thorondor_2022_Diamond}.
 
 Since the XPS measurements were performed at different total pressures, the raw data had first to be reduced in order to be be able to analyse the different spectra all together.
-The classical workflow for the analysis of XPS data is to first align the recorded spectra on the Fermi edge that corresponds to the kinetic energy of the first electron that escape the sample.
+The classical workflow for the analysis of XPS data is to first align the recorded spectra on the Fermi edge that corresponds to the kinetic energy of the first electron that escapes the sample.
 By doing so, one can be confident that any shift in the peak positions is due to chemical changes such as the oxidation state and not to charging effects of the sample.
 
-Secondly, to be able to quantify and compare the evolution of the peak intensity, one must normalize the intensity of the detected electron beam since it the electron mean free path depends on the pressure in the reaction chamber.
+Secondly, to be able to quantify and compare the evolution of the peak intensity, one must normalize the intensity of the detected electron beam since the electron mean free path depends on the pressure in the reaction chamber.
 The range of kinetic energy just before the absorption edge of Pt 4f was chosen since it had the best signal to noise ratio and does not depend on any experimental parameter besides the pressure.
 
-Finally, for the peaks that showed a good signal to noise ratio, the fitting of the peak shape was realised thanks to the \textit{lmfit} \parencite{Newville2016} package by the means of the Doniach-equation which is the best approximation of the peak shape that results from the convolution of the analyser function and the shape linked to the photoelectron process in transition metals (cite here).
+Finally, for the peaks that showed a good signal to noise ratio, the fitting of the peak shape was realised thanks to the \textit{lmfit} \parencite{Newville2016} package by the means of the Doniach-equation which is the best approximation of the asymmetric peak shape that results partly from the convolution of the analyser function and the shape linked to the photoelectron process in metals \parencite{Doniach_1970}.
 
 \subsection{Gwaihir} \label{sec:Gwaihir}
 
 BCDI relies on iterative algorithms to solve the phase lost during the measurement (\cite{robinson_coherent_2009} - sec. \ref{sec:BCDI}).
 A 3D intensity distribution in the vicinity of a Bragg peak (stack of diffraction patterns forming a 3D reciprocal space map with the proper sampling) is collected from a sample illuminated with coherent light \parencite{robinson_coherent_2005}, and serves as input for phase retrieval.
-There are three main steps to complete to image the strain (fig. \ref{fig:Packages}); it must first be pre-processed (removal of parasitic scattering intensities, \textit{etc.} \parencite{ozturk_performance_2017}).
-It must then be inverted \textit{via} phase retrieval \parencite{miao_possible_2000}, the phase containing important information lost during the measurement.
-Finally, it is possible to extract meaningful results from the three dimensional complex images after post-processing (removal of phase offset, interpolation in a common orthonormal frame, \textit{etc}).
 
 \begin{figure}[!htb]
     \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/Packages.png}
@@ -125,7 +82,11 @@ Finally, it is possible to extract meaningful results from the three dimensional
     \label{fig:Packages}
 \end{figure}
 
+There are three main steps to complete to image the strain (fig. \ref{fig:Packages}); it must first be pre-processed (removal of parasitic scattering intensities, \textit{etc.} \parencite{ozturk_performance_2017}).
+It must then be inverted \textit{via} phase retrieval \parencite{miao_possible_2000}, the phase containing important information lost during the measurement.
+Finally, it is possible to extract meaningful results from the three dimensional complex images after post-processing (removal of phase offset, interpolation in a common orthonormal frame, \textit{etc}).
 Several software packages were developed to solve these steps but none bring a comprehensive pipeline from start to finish.
+
 For example, \textit{PyNX} \parencite{pynx2020operators} focuses on the phase retrieval step, \textit{bcdi} \parencite{jerome_carnis_2021_5741935} focuses on data pre-processing and post-processing, and \textit{Cohere} \parencite{cohere_2021} focuses on pre-processing and phase retrieval.
 A few graphical user interfaces (GUIs) also exist, such as \textit{Cohere} \parencite{cohere_2021}, \textit{Phasor} \parencite{dzhigaev_dzhigaevdphasor_2021}, and \textit{Bonsu} \parencite{newton_bonsu_2012}.
 Providing a workflow will reduce the time spent on data analysis for newcomers, and improve results reproducibility by facilitating sharing while keeping track of analysis parameters and metadata.
@@ -204,12 +165,6 @@ Finally, it is possible to normalise the raw data by an intensity monitor, or co
 \subsubsection{Phase retrieval}
 The diffracted intensity collected by the detector is proportional to the squared modulus of the structure factor $F(\vec{q})$ (Equations \ref{eq:scat_int}-\ref{eq:int_detector}).
 To retrieve the phase from the diffracted intensity, \textit{PyNX} uses iterative algorithms (sec \ref{sec:BCDI}).
-
-\begin{align}
-    F(\vec{q_{hkl}}) & = \sum_j^N f_j (\vec{q_{hkl}}) \mathrm{e}^{i\vec{q_{hkl}}\cdot\vec{u}(\vec{r})}    \label{eq:scat_int} \\
-    I(\vec{q_{hkl}}) & \propto |F(\vec{q_{hkl}})|^2     \label{eq:int_detector}
-\end{align}
-with $f_j (\vec{q_{hkl}})$ the atomic form factor of atom \textit{j}, $\vec{q_{hkl}}$ the scattering vector, and $\Phi_{hkl} = \vec{q_{hkl}}\cdot\vec{u}(\vec{r})$ the phase lost during the measurement. \textit{hkl} correspond to the miller indices of the crystallographic planes probed by the incoming beam.
 
 The phase of the Bragg electronic density (Figure \ref{fig:GUI_file}) $\Phi_{hkl}$ is proportional to the scalar component of the displacement $\vec{u}(\vec{r})$ that is parallel to $ \vec{q_{hkl}}$. A phase value of $\pi$ is equivalent to a displacement from the equilibrium position of half the lattice spacing in the direction of $\vec{q_{hkl}}$.
 
@@ -339,7 +294,8 @@ In that case, the workflow is less interactive. One may still manually mask the 
 
 \subsubsection{Data storage}
 
-The data input/output follows Nexus definitions \parencite{Konnecke2015} built in a CXI format hdf5 file \parencite{Maia2012}.
+Already, raw and processed data can be accessed for the BCDI technique through the \textit{.cxi} database (https://cxidb.org/) \parencite{Maia2012}, which aims at creating a single data-storing architecture/format for coherent X-ray imaging experiments.
+The data input/output follows Nexus definitions \parencite{Konnecke2015} built in a CXI format hdf5 file.
 Both clarity and consistency in data formatting encourages the reproducibility of the science produced (see https://www.panosc.eu/) and guarantees the workflow.
 
 \begin{figure}[!htb]
@@ -370,6 +326,14 @@ Comments or metadata, such as the horizontal and vertical coherence lengths, or 
 With \textit{Gwaihir} as an analysis tool, and a final \textit{cxi} file storing all the parameters and results, it becomes much more easier to review one's data and workflow.
 
 Nevertheless, it allows the user to share the values of many parameters which can be difficult to select and which have an important influence over the final results. As mentioned earlier, the threshold used to determine the surface layer of the object has an important impact on the strain and displacement values on this surface. The center of the array, at which the phase is set to zero for phase unwrapping, becomes difficult to fix for a highly strained object.
+
+
+\subsection{BINoculars} \label{sec:BINoculars}
+
+\subsection{ROD} \label{sec:ROD}
+
+\subsection{GenX} \label{sec:GenX}
+
 
 \textcolor{Important}{
 NXS, CXI, , reproducibility, repositories, PEP

@@ -1,57 +1,58 @@
 \babel@toc {british}{}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
-\contentsline {section}{\numberline {1.1}The oxidation of Ammonia}{6}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}From industry to model catalysis}{6}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Crystal structures}{6}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Pt 111}{6}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}Pt 100}{6}{subsection.1.1.4}%
-\contentsline {subsection}{\numberline {1.1.5}Nanoparticles}{6}{subsection.1.1.5}%
-\contentsline {section}{\numberline {1.2}Aim and Scope}{7}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Outline of the Thesis}{7}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Theory and methods}{8}{chapter.2}%
-\contentsline {section}{\numberline {2.1}X-ray interaction with matter}{9}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Scattering from electrons and atoms}{9}{subsection.2.1.1}%
-\contentsline {subsubsection}{Cross-sections}{10}{section*.8}%
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The oxidation of Ammonia}{7}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}From industry to model catalysis}{7}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Crystal structures}{7}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Pt 111}{7}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Pt 100}{7}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.5}Nanoparticles}{7}{subsection.1.1.5}%
+\contentsline {section}{\numberline {1.2}Aim and Scope}{8}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Outline of the Thesis}{8}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Theory and methods}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}X-ray interaction with matter}{10}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Scattering from electrons and atoms}{10}{subsection.2.1.1}%
+\contentsline {subsubsection}{Cross-sections}{11}{section*.8}%
 \contentsline {subsubsection}{Scattering from an electron}{11}{section*.10}%
-\contentsline {subsubsection}{Scattering from a single atom}{12}{section*.12}%
-\contentsline {subsection}{\numberline {2.1.2}Refraction, reflection and absorption effects}{14}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Scattering from crystals}{16}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Bragg's Law}{17}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Structure factor}{18}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Lattice factor}{19}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Coherence}{20}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}SXRD}{23}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Surface reconstructions}{23}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Crystal truncation rods}{24}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Data collection}{26}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}X-ray reflectometry}{28}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}BCDI}{29}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Scattering by strained crystals}{29}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Phase retrieval}{29}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Resolution}{31}{subsection.2.4.3}%
-\contentsline {subsubsection}{Facet analysis}{31}{section*.25}%
-\contentsline {subsubsection}{Oversampling}{32}{section*.28}%
-\contentsline {subsubsection}{Fast Fourier transform}{33}{section*.29}%
-\contentsline {subsubsection}{Support determination}{34}{section*.30}%
-\contentsline {subsubsection}{Patterson function}{34}{section*.31}%
-\contentsline {section}{\numberline {2.5}Synchrotron radiation and facility}{35}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Tailored for the study of materials}{35}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}The SixS beamline}{35}{subsection.2.5.2}%
-\contentsline {subsubsection}{Diffractometer}{35}{section*.32}%
-\contentsline {subsubsection}{Mass flow controller}{35}{section*.33}%
-\contentsline {subsubsection}{Residual Gas Analyser}{35}{section*.34}%
-\contentsline {section}{\numberline {2.6}Computer programs}{36}{section.2.6}%
+\contentsline {subsubsection}{Scattering from a single atom}{13}{section*.12}%
+\contentsline {subsection}{\numberline {2.1.2}Refraction, reflection and absorption effects}{15}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Scattering from crystals}{17}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Bragg's Law}{18}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Structure factor}{19}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Lattice factor}{20}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Coherence}{21}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}SXRD}{24}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Surface reconstructions}{24}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Crystal truncation rods}{25}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Data collection}{27}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}X-ray reflectometry}{29}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}BCDI}{30}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Scattering by strained crystals}{31}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Phase retrieval}{31}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Resolution}{32}{subsection.2.4.3}%
+\contentsline {subsubsection}{Facet analysis}{33}{section*.26}%
+\contentsline {subsubsection}{Oversampling}{33}{section*.29}%
+\contentsline {subsubsection}{Fast Fourier transform}{35}{section*.30}%
+\contentsline {subsubsection}{Support determination}{36}{section*.31}%
+\contentsline {subsubsection}{Patterson function}{36}{section*.32}%
+\contentsline {section}{\numberline {2.5}Synchrotron radiation and facility}{37}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Tailored for the study of materials}{37}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}The SixS beamline}{37}{subsection.2.5.2}%
+\contentsline {subsubsection}{Diffractometer}{37}{section*.33}%
+\contentsline {subsubsection}{Mass flow controller}{37}{section*.34}%
+\contentsline {subsubsection}{Residual Gas Analyser}{37}{section*.35}%
+\contentsline {section}{\numberline {2.6}Computer programs}{38}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Data reproducibility}{38}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}BINoculars}{38}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}ROD}{38}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}GenX}{38}{subsection.2.6.4}%
-\contentsline {subsection}{\numberline {2.6.5}Thorondor}{38}{subsection.2.6.5}%
-\contentsline {subsection}{\numberline {2.6.6}Gwaihir}{39}{subsection.2.6.6}%
-\contentsline {subsubsection}{Software structure}{40}{section*.36}%
-\contentsline {subsubsection}{Workflow for Bragg coherent diffraction imaging}{41}{section*.37}%
-\contentsline {subsubsection}{Pre-processing}{42}{section*.40}%
-\contentsline {subsubsection}{Phase retrieval}{42}{section*.41}%
-\contentsline {subsubsection}{Post-processing}{44}{section*.43}%
-\contentsline {subsubsection}{Graphical interface}{45}{section*.45}%
-\contentsline {subsubsection}{Command line scripts}{46}{section*.47}%
-\contentsline {subsubsection}{Data storage}{47}{section*.49}%
+\contentsline {subsection}{\numberline {2.6.2}The Jupyter environment}{39}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Thorondor}{39}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Gwaihir}{40}{subsection.2.6.4}%
+\contentsline {subsubsection}{Software structure}{41}{section*.37}%
+\contentsline {subsubsection}{Workflow for Bragg coherent diffraction imaging}{42}{section*.38}%
+\contentsline {subsubsection}{Pre-processing}{43}{section*.41}%
+\contentsline {subsubsection}{Phase retrieval}{44}{section*.42}%
+\contentsline {subsubsection}{Post-processing}{44}{section*.44}%
+\contentsline {subsubsection}{Graphical interface}{46}{section*.46}%
+\contentsline {subsubsection}{Command line scripts}{47}{section*.48}%
+\contentsline {subsubsection}{Data storage}{47}{section*.50}%
+\contentsline {subsection}{\numberline {2.6.5}BINoculars}{49}{subsection.2.6.5}%
+\contentsline {subsection}{\numberline {2.6.6}ROD}{49}{subsection.2.6.6}%
+\contentsline {subsection}{\numberline {2.6.7}GenX}{49}{subsection.2.6.7}%

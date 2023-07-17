@@ -475,12 +475,12 @@
     \endentry
     \entry{jerome_carnis_2021_5741935}{software}{}
       \name{author}{10}{ul=2}{%
-        {{un=2,uniquepart=given,hash=e2c50ee6c52cb628b5edc324b43ae267}{%
+        {{un=0,uniquepart=base,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
            family={Carnis},
            familyi={C\bibinitperiod},
-           given={Jerome},
+           given={Jérôme},
            giveni={J\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=2475b895ff7be1c11645602be8fbba26}{%
            family={Atlan},
            familyi={A\bibinitperiod},
@@ -539,12 +539,12 @@
       \list{publisher}{1}{%
         {Zenodo}%
       }
-      \strng{namehash}{a23344ff88d64c985852127e2a05ef6a}
-      \strng{fullhash}{46857367ddae02a264d7e80e77bd2b3a}
-      \strng{bibnamehash}{a23344ff88d64c985852127e2a05ef6a}
-      \strng{authorbibnamehash}{a23344ff88d64c985852127e2a05ef6a}
-      \strng{authornamehash}{a23344ff88d64c985852127e2a05ef6a}
-      \strng{authorfullhash}{46857367ddae02a264d7e80e77bd2b3a}
+      \strng{namehash}{1815798d30cad6047a9c9a15a472a424}
+      \strng{fullhash}{03afbcd9858d3297b1a8b6dcb71b4932}
+      \strng{bibnamehash}{1815798d30cad6047a9c9a15a472a424}
+      \strng{authorbibnamehash}{1815798d30cad6047a9c9a15a472a424}
+      \strng{authornamehash}{1815798d30cad6047a9c9a15a472a424}
+      \strng{authorfullhash}{03afbcd9858d3297b1a8b6dcb71b4932}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -559,14 +559,102 @@
       \verb 10.5281/zenodo.5741935
       \endverb
     \endentry
-    \entry{Carnis2021}{article}{}
-      \name{author}{18}{ul=2}{%
-        {{un=2,uniquepart=given,hash=e2c50ee6c52cb628b5edc324b43ae267}{%
+    \entry{Carnis2019_scientific_reports}{article}{}
+      \name{author}{10}{ul=2}{%
+        {{un=0,uniquepart=base,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
            family={Carnis},
            familyi={C\bibinitperiod},
-           given={Jerome},
+           given={Jérôme},
            giveni={J\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ba4dc44e20a33d79eeaf44e36851156}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3fe32d6ad4fbfd46998094d46facb33}{%
+           family={Labat},
+           familyi={L\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9afded6a2d714dab15307105b1eb4b0}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Young\bibnamedelima Yong},
+           giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6042288c2da48fd8587dbe2f4fed1c4d}{%
+           family={Hofmann},
+           familyi={H\bibinitperiod},
+           given={Jan\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bdd6ba8fe072a30a7985c29befc8446}{%
+           family={Leake},
+           familyi={L\bibinitperiod},
+           given={Steven\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=658daad814e9f7e747304d667d76959a}{%
+           family={Schülli},
+           familyi={S\bibinitperiod},
+           given={Tobias\bibnamedelima U.},
+           giveni={T\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99169d3cd97c79422a2dab69f61dd70e}{%
+           family={Hensen},
+           familyi={H\bibinitperiod},
+           given={Emiel\bibnamedelima J.M.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c9c63fbd972192f2090267690e2b16c}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b44fced5fe7bc5bc5e0403d8167fba47}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Marie\bibnamedelima Ingrid},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{58d7f0dab35d7ec8a7e8a86445b2c2b7}
+      \strng{fullhash}{c13bd16c1be2d316b164e2cd4f483e86}
+      \strng{bibnamehash}{58d7f0dab35d7ec8a7e8a86445b2c2b7}
+      \strng{authorbibnamehash}{58d7f0dab35d7ec8a7e8a86445b2c2b7}
+      \strng{authornamehash}{58d7f0dab35d7ec8a7e8a86445b2c2b7}
+      \strng{authorfullhash}{c13bd16c1be2d316b164e2cd4f483e86}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bragg coherent X-ray diffraction imaging (BCDI) has emerged as a powerful technique to image the local displacement field and strain in nanocrystals, in three dimensions with nanometric spatial resolution. However, BCDI relies on both dataset collection and phase retrieval algorithms that can induce artefacts in the reconstruction. Phase retrieval algorithms are based on the fast Fourier transform (FFT). We demonstrate how to calculate the displacement field inside a nanocrystal from its reconstructed phase depending on the mathematical convention used for the FFT. We use numerical simulations to quantify the influence of experimentally unavoidable detector deficiencies such as blind areas or limited dynamic range as well as post-processing filtering on the reconstruction. We also propose a criterion for the isosurface determination of the object, based on the histogram of the reconstructed modulus. Finally, we study the capability of the phasing algorithm to quantitatively retrieve the surface strain (i.e., the strain of the surface voxels). This work emphasizes many aspects that have been neglected so far in BCDI, which need to be understood for a quantitative analysis of displacement and strain based on this technique. It concludes with the optimization of experimental parameters to improve throughput and to establish BCDI as a reliable 3D nano-imaging technique.}
+      \field{issn}{20452322}
+      \field{issue}{1}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Towards a quantitative determination of strain in Bragg Coherent X-ray Diffraction Imaging: artefacts and sign convention in reconstructions}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1038/s41598-019-53774-2
+      \endverb
+    \endentry
+    \entry{Carnis2021}{article}{}
+      \name{author}{18}{ul=2}{%
+        {{un=0,uniquepart=base,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
+           family={Carnis},
+           familyi={C\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=c85e13a7123068a9bdfd6a660ad67ff5}{%
            family={Kirner},
            familyi={K\bibinitperiod},
@@ -673,12 +761,12 @@
       \list{publisher}{1}{%
         {Royal Society of Chemistry}%
       }
-      \strng{namehash}{46ecab6f57cf60931a2c0bb0ed3923d7}
-      \strng{fullhash}{0506499c4ded10e3f761db5d3836a9f0}
-      \strng{bibnamehash}{46ecab6f57cf60931a2c0bb0ed3923d7}
-      \strng{authorbibnamehash}{46ecab6f57cf60931a2c0bb0ed3923d7}
-      \strng{authornamehash}{46ecab6f57cf60931a2c0bb0ed3923d7}
-      \strng{authorfullhash}{0506499c4ded10e3f761db5d3836a9f0}
+      \strng{namehash}{dfe7d8043ee6bbd87876fcf139c2c32a}
+      \strng{fullhash}{49cc9c6a7d603e86b576aa3110fb95b7}
+      \strng{bibnamehash}{dfe7d8043ee6bbd87876fcf139c2c32a}
+      \strng{authorbibnamehash}{dfe7d8043ee6bbd87876fcf139c2c32a}
+      \strng{authornamehash}{dfe7d8043ee6bbd87876fcf139c2c32a}
+      \strng{authorfullhash}{49cc9c6a7d603e86b576aa3110fb95b7}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -700,94 +788,6 @@
       \endverb
       \verb{file}
       \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Carnis et al. - 2021 - Exploring the 3D structure and defects of a self-assembled gold mesocrystal by coherent X-ray diffraction imaging.pdf:pdf
-      \endverb
-    \endentry
-    \entry{Carnis2019_scientific_reports}{article}{}
-      \name{author}{10}{}{%
-        {{un=2,uniquepart=given,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
-           family={Carnis},
-           familyi={C\bibinitperiod},
-           given={Jérôme},
-           giveni={J\bibinitperiod},
-           givenun=2}}%
-        {{un=0,uniquepart=base,hash=8ba4dc44e20a33d79eeaf44e36851156}{%
-           family={Gao},
-           familyi={G\bibinitperiod},
-           given={Lu},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a3fe32d6ad4fbfd46998094d46facb33}{%
-           family={Labat},
-           familyi={L\bibinitperiod},
-           given={Stéphane},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e9afded6a2d714dab15307105b1eb4b0}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Young\bibnamedelima Yong},
-           giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6042288c2da48fd8587dbe2f4fed1c4d}{%
-           family={Hofmann},
-           familyi={H\bibinitperiod},
-           given={Jan\bibnamedelima P.},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7bdd6ba8fe072a30a7985c29befc8446}{%
-           family={Leake},
-           familyi={L\bibinitperiod},
-           given={Steven\bibnamedelima J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=658daad814e9f7e747304d667d76959a}{%
-           family={Schülli},
-           familyi={S\bibinitperiod},
-           given={Tobias\bibnamedelima U.},
-           giveni={T\bibinitperiod\bibinitdelim U\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=99169d3cd97c79422a2dab69f61dd70e}{%
-           family={Hensen},
-           familyi={H\bibinitperiod},
-           given={Emiel\bibnamedelima J.M.},
-           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2c9c63fbd972192f2090267690e2b16c}{%
-           family={Thomas},
-           familyi={T\bibinitperiod},
-           given={Olivier},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b44fced5fe7bc5bc5e0403d8167fba47}{%
-           family={Richard},
-           familyi={R\bibinitperiod},
-           given={Marie\bibnamedelima Ingrid},
-           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{88a617034a520aeb27290d62556329b3}
-      \strng{fullhash}{c13bd16c1be2d316b164e2cd4f483e86}
-      \strng{bibnamehash}{88a617034a520aeb27290d62556329b3}
-      \strng{authorbibnamehash}{88a617034a520aeb27290d62556329b3}
-      \strng{authornamehash}{88a617034a520aeb27290d62556329b3}
-      \strng{authorfullhash}{c13bd16c1be2d316b164e2cd4f483e86}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Bragg coherent X-ray diffraction imaging (BCDI) has emerged as a powerful technique to image the local displacement field and strain in nanocrystals, in three dimensions with nanometric spatial resolution. However, BCDI relies on both dataset collection and phase retrieval algorithms that can induce artefacts in the reconstruction. Phase retrieval algorithms are based on the fast Fourier transform (FFT). We demonstrate how to calculate the displacement field inside a nanocrystal from its reconstructed phase depending on the mathematical convention used for the FFT. We use numerical simulations to quantify the influence of experimentally unavoidable detector deficiencies such as blind areas or limited dynamic range as well as post-processing filtering on the reconstruction. We also propose a criterion for the isosurface determination of the object, based on the histogram of the reconstructed modulus. Finally, we study the capability of the phasing algorithm to quantitatively retrieve the surface strain (i.e., the strain of the surface voxels). This work emphasizes many aspects that have been neglected so far in BCDI, which need to be understood for a quantitative analysis of displacement and strain based on this technique. It concludes with the optimization of experimental parameters to improve throughput and to establish BCDI as a reliable 3D nano-imaging technique.}
-      \field{issn}{20452322}
-      \field{issue}{1}
-      \field{journaltitle}{Scientific Reports}
-      \field{title}{Towards a quantitative determination of strain in Bragg Coherent X-ray Diffraction Imaging: artefacts and sign convention in reconstructions}
-      \field{volume}{9}
-      \field{year}{2019}
-      \field{pages}{1\bibrangedash 13}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1038/s41598-019-53774-2
       \endverb
     \endentry
     \entry{chan_rapid_2021}{article}{}
@@ -1128,6 +1128,46 @@
       \verb :home/david/Downloads/525159a.pdf:pdf
       \endverb
     \endentry
+    \entry{Doniach_1970}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=69b878b14fb73c948f8c2c41fcc089ea}{%
+           family={Doniach},
+           familyi={D\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7077e9257b6794b418ad1cd9d8f0cf57}{%
+           family={Sunjic},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1019e6736f6bf3d86cb88ab383b1534c}
+      \strng{fullhash}{1019e6736f6bf3d86cb88ab383b1534c}
+      \strng{bibnamehash}{1019e6736f6bf3d86cb88ab383b1534c}
+      \strng{authorbibnamehash}{1019e6736f6bf3d86cb88ab383b1534c}
+      \strng{authornamehash}{1019e6736f6bf3d86cb88ab383b1534c}
+      \strng{authorfullhash}{1019e6736f6bf3d86cb88ab383b1534c}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is pointed out that the spectra of X-ray induced fast photoelectrons from metal should have a characteristic skew line shape resulting from Kondo-like many-electron interactions of the metallic conduction electrons with the accompanying deep hole in the final state. The same line shape should also occur for the discrete line spectra of X-rays emitted from metals. This mechanism could account for the well-known asymmetries observed for K alpha lines.}
+      \field{journaltitle}{Journal of Physics C: Solid State Physics}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{Many-electron singularity in X-ray photoemission and X-ray line spectra from metals}
+      \field{volume}{3}
+      \field{year}{1970}
+      \field{pages}{285}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0022-3719/3/2/010
+      \endverb
+    \endentry
     \entry{Drnec2014}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=3848738924ea9119a43046a0b7356ecb}{%
@@ -1391,10 +1431,10 @@
            given={Steven},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=e2c50ee6c52cb628b5edc324b43ae267}{%
+        {{un=0,uniquepart=base,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
            family={Carnis},
            familyi={C\bibinitperiod},
-           given={Jerome},
+           given={Jérôme},
            giveni={J\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=381597232621ce61e1017d957c911311}{%
@@ -1403,10 +1443,10 @@
            given={Yuriy},
            giveni={Y\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=1849e537794f4556dc5962fb1fb9cf15}{%
+        {{un=0,uniquepart=base,hash=8a998fdeefb0243d0d366f80bd666e0c}{%
            family={Kieffer},
            familyi={K\bibinitperiod},
-           given={Jerome},
+           given={Jérôme},
            giveni={J\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=19241741dc580468408752308380aceb}{%
@@ -1423,11 +1463,11 @@
            givenun=0}}%
       }
       \strng{namehash}{9c705f6e50be5332738536d2d4ee9aaa}
-      \strng{fullhash}{c5fd94bbdebdc318e2b79107f9ca2a57}
+      \strng{fullhash}{7287790e178ca1c4eff1f4d6f2f4c3af}
       \strng{bibnamehash}{9c705f6e50be5332738536d2d4ee9aaa}
       \strng{authorbibnamehash}{9c705f6e50be5332738536d2d4ee9aaa}
       \strng{authornamehash}{9c705f6e50be5332738536d2d4ee9aaa}
-      \strng{authorfullhash}{c5fd94bbdebdc318e2b79107f9ca2a57}
+      \strng{authorfullhash}{7287790e178ca1c4eff1f4d6f2f4c3af}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -2314,12 +2354,12 @@
            given={Myungwoo},
            giveni={M\bibinitperiod},
            givenun=0}}%
-        {{un=2,uniquepart=given,hash=e2c50ee6c52cb628b5edc324b43ae267}{%
+        {{un=0,uniquepart=base,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
            family={Carnis},
            familyi={C\bibinitperiod},
-           given={Jerome},
+           given={Jérôme},
            giveni={J\bibinitperiod},
-           givenun=2}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=3aaa9ddabdbbcd28cc8923c2c7da5827}{%
            family={Kim},
            familyi={K\bibinitperiod},
@@ -2402,12 +2442,12 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{a50d988310218e3e353e259478783602}
-      \strng{fullhash}{14f4aae589feab6f9bfb658933f5390e}
-      \strng{bibnamehash}{a50d988310218e3e353e259478783602}
-      \strng{authorbibnamehash}{a50d988310218e3e353e259478783602}
-      \strng{authornamehash}{a50d988310218e3e353e259478783602}
-      \strng{authorfullhash}{14f4aae589feab6f9bfb658933f5390e}
+      \strng{namehash}{580a1b01fe399ed43b71eb8db207716b}
+      \strng{fullhash}{1cf8f235e56d355fc025c735c55c85bf}
+      \strng{bibnamehash}{580a1b01fe399ed43b71eb8db207716b}
+      \strng{authorbibnamehash}{580a1b01fe399ed43b71eb8db207716b}
+      \strng{authornamehash}{580a1b01fe399ed43b71eb8db207716b}
+      \strng{authorfullhash}{1cf8f235e56d355fc025c735c55c85bf}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -3413,12 +3453,12 @@
     \endentry
     \entry{Martini2019a}{article}{}
       \name{author}{11}{}{%
-        {{un=0,uniquepart=base,hash=fbdb1f55a2959b1efa5c01cb20cf03b0}{%
+        {{un=2,uniquepart=given,hash=fbdb1f55a2959b1efa5c01cb20cf03b0}{%
            family={Martini},
            familyi={M\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=8e0467e2f2b8849a07ae385ce4806515}{%
            family={Guda},
            familyi={G\bibinitperiod},
@@ -4488,6 +4528,86 @@
       \verb Richard et al. - 2018 - Crystallographic orientation of facets and planar .pdf:/Users/marieingridrichard/Zotero/storage/GC9IRK2I/Richard et al. - 2018 - Crystallographic orientation of facets and planar .pdf:application/pdf
       \endverb
     \endentry
+    \entry{Richter2019}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=7001fcd73bc59f6b139b178cb16bef32}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d49df84154dd952d772bb26ead4bcf54}{%
+           family={Hilhorst},
+           familyi={H\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=384c4313db348945f3b65a50d0871bcd}{%
+           family={Petit},
+           familyi={P\bibinitperiod},
+           given={Lucien},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bcb5a0354e0b6196439518c05547451}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Marie-ingrid},
+           giveni={M\bibinithyphendelim i\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fb0c45a11985920e6f4321a495e2bc7}{%
+           family={Morawe},
+           familyi={M\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a081d21c515b8f8142ddd8285176de52}{%
+           family={Barrett},
+           familyi={B\bibinitperiod},
+           given={Raymond},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a1f1a0016bb4e33e52e9bd0f48cfd33}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a41fc8bc7b2fdc4bcd1d971149d6e38}{%
+           family={Homs-regojo},
+           familyi={H\bibinithyphendelim r\bibinitperiod},
+           given={Roberto\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {International Union of Crystallography}%
+      }
+      \strng{namehash}{b4334416a1d93300beb95c4c5c752dbf}
+      \strng{fullhash}{94ac79c1fd5a210f07529e5d72b7250d}
+      \strng{bibnamehash}{b4334416a1d93300beb95c4c5c752dbf}
+      \strng{authorbibnamehash}{b4334416a1d93300beb95c4c5c752dbf}
+      \strng{authornamehash}{b4334416a1d93300beb95c4c5c752dbf}
+      \strng{authorfullhash}{94ac79c1fd5a210f07529e5d72b7250d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ID01 beamline has been built to combine Bragg diffraction with imaging techniques to produce a strain and mosaicity microscope for materials in their native or operando state. A scanning probe with nano-focused beams, objective-lens-based full-field microscopy and coherent diffraction imaging provide a suite of tools which deliver micrometre to few nanometre spatial resolution combined with 10−5 strain and 10−3 tilt sensitivity. A detailed description of the beamline from source to sample is provided and serves as a reference for the user community. The anticipated impact of the impending upgrade to the ESRF – Extremely Brilliant Source is also discussed.}
+      \field{journaltitle}{Journal of Synchrotron Radiation}
+      \field{title}{{The Nanodiffraction beamline ID01 / ESRF : a microscope for imaging strain and structure}}
+      \field{year}{2019}
+      \field{pages}{571\bibrangedash 584}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1107/S160057751900078X
+      \endverb
+      \verb{file}
+      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Richter et al. - 2019 - The Nanodiffraction beamline ID01 ESRF a microscope for imaging strain and structure.pdf:pdf
+      \endverb
+      \keyw{been built to combine,bragg diffraction,bragg diffraction with imaging,coherent diffraction imaging,full-field microscopy,scanning microscopy,the id01 beamline has,x-ray}
+    \endentry
     \entry{Robach2000}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=20a8cba5b659dea38f87ab4c17a3a770}{%
@@ -4906,20 +5026,156 @@
       \field{year}{2015}
       \keyw{Computer software,Computer software Development,Physics,Physics Programming}
     \endentry
-    \entry{Simonne2020}{article}{}
-      \name{author}{8}{}{%
+    \entry{Simonne_Thorondor_2022_Diamond}{software}{}
+      \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=72d1584b3a2339e60f032d44ade9b7bb}{%
            family={Simonne},
            familyi={S\bibinitperiod},
            given={David},
            giveni={D\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=cdf52912e35f223f999494bc982d7a69}{%
+      }
+      \strng{namehash}{72d1584b3a2339e60f032d44ade9b7bb}
+      \strng{fullhash}{72d1584b3a2339e60f032d44ade9b7bb}
+      \strng{bibnamehash}{72d1584b3a2339e60f032d44ade9b7bb}
+      \strng{authorbibnamehash}{72d1584b3a2339e60f032d44ade9b7bb}
+      \strng{authornamehash}{72d1584b3a2339e60f032d44ade9b7bb}
+      \strng{authorfullhash}{72d1584b3a2339e60f032d44ade9b7bb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{08}
+      \field{title}{Thorondor}
+      \field{version}{0.4.0}
+      \field{year}{2022}
+      \verb{doi}
+      \verb https://doi.org/10.1107/S1600577520011388
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com/DSimonne/thorondor/tree/diamond
+      \endverb
+      \verb{url}
+      \verb https://github.com/DSimonne/thorondor/tree/diamond
+      \endverb
+    \endentry
+    \entry{Simonne2022}{article}{}
+      \name{author}{11}{ul=2}{%
+        {{un=0,uniquepart=base,hash=72d1584b3a2339e60f032d44ade9b7bb}{%
+           family={Simonne},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
+           family={Carnis},
+           familyi={C\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2475b895ff7be1c11645602be8fbba26}{%
+           family={Atlan},
+           familyi={A\bibinitperiod},
+           given={Clément},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2a733f8919468cc8e9922ae24befbaf}{%
+           family={Chatelier},
+           familyi={C\bibinitperiod},
+           given={Corentin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f23b63dc664989677dd939328a04c5f}{%
+           family={Favre-Nicolin},
+           familyi={F\bibinithyphendelim N\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7812ec96d64e72c3272729b04125b734}{%
+           family={Dupraz},
+           familyi={D\bibinitperiod},
+           given={Maxime},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bdd6ba8fe072a30a7985c29befc8446}{%
+           family={Leake},
+           familyi={L\bibinitperiod},
+           given={Steven\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8db11c174b2a87eb278874e06f07f89d}{%
+           family={Zatterin},
+           familyi={Z\bibinitperiod},
+           given={Edoardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=095401660ec6b30ea5677c39096e8cae}{%
+           family={Resta},
+           familyi={R\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=116823dc16a2ffe740374b23c6bf69cf}{%
+           family={Coati},
+           familyi={C\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8337e20d13dbfa35881a3b2044706fc4}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Marie-Ingrid},
+           giveni={M\bibinithyphendelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{429f9b5ac3c8338a6ae86d100630bc69}
+      \strng{fullhash}{4b0522f3fe41baf8b4e12192b95e0aca}
+      \strng{bibnamehash}{429f9b5ac3c8338a6ae86d100630bc69}
+      \strng{authorbibnamehash}{429f9b5ac3c8338a6ae86d100630bc69}
+      \strng{authornamehash}{429f9b5ac3c8338a6ae86d100630bc69}
+      \strng{authorfullhash}{4b0522f3fe41baf8b4e12192b95e0aca}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bragg coherent X-ray diffraction is a nondestructive method for probing material structure in three dimensions at the nanoscale, with unprecedented resolution in displacement and strain fields. This work presents {\it Gwaihir}, a user-friendly and open-source tool to process and analyze Bragg coherent X-ray diffraction data. It integrates the functionalities of the existing packages {\it bcdi} and {\it PyNX} in the same toolbox, creating a natural workflow and promoting data reproducibility. Its graphical interface, based on {\it Jupyter Notebook} widgets, combines an interactive approach for data analysis with a powerful environment designed to link large-scale facilities and scientists.}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{month}{08}
+      \field{number}{4}
+      \field{title}{{{\it Gwaihir}: {\it Jupyter Notebook} graphical user interface for Bragg coherent diffraction imaging}}
+      \field{volume}{55}
+      \field{year}{2022}
+      \field{pages}{1045\bibrangedash 1054}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1107/S1600576722005854
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1107/S1600576722005854
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1107/S1600576722005854
+      \endverb
+      \keyw{X-ray diffraction,coherence,phase retrieval,Jupyter Notebook,graphical user interfaces}
+    \endentry
+    \entry{Simonne2020}{article}{}
+      \name{author}{8}{ul=2}{%
+        {{un=0,uniquepart=base,hash=72d1584b3a2339e60f032d44ade9b7bb}{%
+           family={Simonne},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=cdf52912e35f223f999494bc982d7a69}{%
            family={Martini},
            familyi={M\bibinitperiod},
            given={Andrea},
            giveni={A\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=8b80bb6506435e0c4cf9a3a0aa5df913}{%
            family={Signorile},
            familyi={S\bibinitperiod},
@@ -4957,11 +5213,11 @@
            giveni={G\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{63651ffd403b0ea25ce51342456a60c2}
+      \strng{namehash}{0d0dc708e9a7e1aa70ee846e494316f5}
       \strng{fullhash}{eebecfbf568d9090c0849da5b37439de}
-      \strng{bibnamehash}{63651ffd403b0ea25ce51342456a60c2}
-      \strng{authorbibnamehash}{63651ffd403b0ea25ce51342456a60c2}
-      \strng{authornamehash}{63651ffd403b0ea25ce51342456a60c2}
+      \strng{bibnamehash}{0d0dc708e9a7e1aa70ee846e494316f5}
+      \strng{authorbibnamehash}{0d0dc708e9a7e1aa70ee846e494316f5}
+      \strng{authornamehash}{0d0dc708e9a7e1aa70ee846e494316f5}
       \strng{authorfullhash}{eebecfbf568d9090c0849da5b37439de}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -4969,7 +5225,6 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{0000000206396}
       \field{issue}{6}
       \field{journaltitle}{Journal of Synchrotron Radiation}
       \field{title}{THORONDOR: software for fast treatment and analysis of low-energy XAS data}

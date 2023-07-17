@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.5.25)  13 JUL 2023 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.5.25)  17 JUL 2023 21:21
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -879,152 +879,31 @@ Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \minrowclearance=\skip93
 \rownum=\count433
 )
-(/usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
-Package: minted 2022/12/12 v2.7 Yet another Pygments shim for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/fvextra/fvextra.sty
-Package: fvextra 2022/11/30 v1.5 fvextra - extensions and patches for fancyvrb
-
-(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
-\FV@CodeLineNo=\count434
-\FV@InFile=\read5
-\FV@TabBox=\box68
-\c@FancyVerbLine=\count435
-\FV@StepNumber=\count436
-\FV@OutFile=\write5
-)
-(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-))
-(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
-Package: lineno 2023/01/19 line numbers on paragraphs v5.1
-\linenopenalty=\count437
-\output=\toks39
-\linenoprevgraf=\count438
-\linenumbersep=\dimen280
-\linenumberwidth=\dimen281
-\c@linenumber=\count439
-\c@pagewiselinenumber=\count440
-\c@LN@truepage=\count441
-\c@internallinenumber=\count442
-\c@internallinenumbers=\count443
-\quotelinenumbersep=\dimen282
-\bframerule=\dimen283
-\bframesep=\dimen284
-\bframebox=\box69
-\linenoamsmath@ams@eqpen=\count444
-LaTeX Info: Redefining \\ on input line 3131.
-)
-\c@FV@TrueTabGroupLevel=\count445
-\c@FV@TrueTabCounter=\count446
-\FV@TabBox@Group=\box70
-\FV@TmpLength=\skip94
-\c@FV@HighlightLinesStart=\count447
-\c@FV@HighlightLinesStop=\count448
-\FV@LoopCount=\count449
-\FV@NCharsBox=\box71
-\FV@BreakIndent=\dimen285
-\FV@BreakIndentNChars=\count450
-\FV@BreakSymbolSepLeft=\dimen286
-\FV@BreakSymbolSepLeftNChars=\count451
-\FV@BreakSymbolSepRight=\dimen287
-\FV@BreakSymbolSepRightNChars=\count452
-\FV@BreakSymbolIndentLeft=\dimen288
-\FV@BreakSymbolIndentLeftNChars=\count453
-\FV@BreakSymbolIndentRight=\dimen289
-\FV@BreakSymbolIndentRightNChars=\count454
-\c@FancyVerbLineBreakLast=\count455
-\FV@LineBox=\box72
-\FV@LineIndentBox=\box73
-\c@FV@BreakBufferDepth=\count456
-\FV@LineWidth=\dimen290
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
-Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
-Package shellesc Info: Unrestricted shell escape enabled on input line 75.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
-Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
-
-(/usr/share/texlive/texmf-dist/tex/generic/catchfile/catchfile.sty
-Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
-Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-)
-runsystem(uname -s > "main.w18")...executed.
-
- (./main.w18)
-runsystem(rm -- "main.w18")...executed.
-
-)
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count457
-\decimalpart=\count458
-)
-Package: xstring 2023/01/14 v1.85 String manipulations (CT)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
-Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip95
-\fb@frw=\dimen291
-\fb@frh=\dimen292
-\FrameRule=\dimen293
-\FrameSep=\dimen294
-)
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count459
-\float@exts=\toks40
-\float@box=\box74
-\@float@everytoks=\toks41
-\@floatcapt=\box75
-)
-\minted@appexistsfile=\read6
-\minted@bgbox=\box76
-\minted@code=\write6
-\c@minted@FancyVerbLineTemp=\count460
-\c@minted@pygmentizecounter=\count461
-\@float@every@listing=\toks42
-\c@listing=\count462
-)
-runsystem(mkdir -p _minted-main)...executed.
-
-
 (/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
 
 (/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count463
-\g__chemgreek_tmpa_int=\count464
+\l__chemgreek_tmpa_int=\count434
+\g__chemgreek_tmpa_int=\count435
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count465
-\__mhchem_arrow_extPgfLength_skip=\skip96
-\mhchem@minispace@tmp=\skip97
-\mhchem@minibackspace@tmp=\skip98
-\mhchem@bondwidth=\skip99
-\mhchem@bondheight=\skip100
-\mhchem@smallbondwidth@tmpA=\skip101
-\mhchem@smallbondwidth@tmpB=\skip102
-\mhchem@smallbondwidth=\skip103
-\mhchem@bondtmp@minussidebearingleft=\skip104
-\mhchem@bondtmp@minussidebearingright=\skip105
-\l__mhchem_option_version_int=\count466
-\mhchem@option@minusmathsidebearingleft=\dimen295
-\mhchem@option@minusmathsidebearingright=\dimen296
-\mhchem@option@minustextsidebearingleft=\dimen297
-\mhchem@option@minustextsidebearingright=\dimen298
+\l__mhchem_ce_distanceFromLastComma_int=\count436
+\__mhchem_arrow_extPgfLength_skip=\skip94
+\mhchem@minispace@tmp=\skip95
+\mhchem@minibackspace@tmp=\skip96
+\mhchem@bondwidth=\skip97
+\mhchem@bondheight=\skip98
+\mhchem@smallbondwidth@tmpA=\skip99
+\mhchem@smallbondwidth@tmpB=\skip100
+\mhchem@smallbondwidth=\skip101
+\mhchem@bondtmp@minussidebearingleft=\skip102
+\mhchem@bondtmp@minussidebearingright=\skip103
+\l__mhchem_option_version_int=\count437
+\mhchem@option@minusmathsidebearingleft=\dimen280
+\mhchem@option@minusmathsidebearingright=\dimen281
+\mhchem@option@minustextsidebearingleft=\dimen282
+\mhchem@option@minustextsidebearingright=\dimen283
 )
 (/usr/share/texlive/texmf-dist/tex/latex/animate/animate.sty
 Package: animate 2022/09/15 PDF & SVG animations from files and inline graphics
@@ -1036,8 +915,8 @@ Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/media9/pdfbase.sty
 Package: pdfbase 2022/08/04 v0.55 driver independent access to low-level PDF fe
 atures
-\g_pbs_page_int=\count467
-\g_pbs_oc_int=\count468
+\g_pbs_page_int=\count438
+\g_pbs_oc_int=\count439
 )
 (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
@@ -1047,6 +926,9 @@ Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
@@ -1059,67 +941,70 @@ Package zref Info: New property: page on input line 769.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\c@abspage=\count469
+\c@abspage=\count440
 Package zref Info: New property: abspage on input line 65.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ocgx2/ocgbase.sty
 Package: ocgbase 2022/08/04 v0.22 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count470
+\g_ocgbase_nd_int=\count441
 )
-\@anim@box=\box77
-\@anim@measbox=\box78
-\@anim@tmpdima=\dimen299
-\@anim@tmpdimb=\dimen300
-\@anim@num=\count471
-\@anim@curframe=\count472
-\@anim@curframe@zb=\count473
-\@anim@resizeflags=\count474
-\@anim@skipfram=\count475
-\@anim@mulframecnt=\count476
-\@anim@@tmlnfile=\read7
-\@anim@tmpcnt=\count477
-\c@@anim@ltxcnt=\count478
-\@anim@curlayer=\count479
-\@anim@lineno=\count480
-\@anim@curfield=\count481
-\@anim@@resizeflags=\count482
+\@anim@box=\box68
+\@anim@measbox=\box69
+\@anim@tmpdima=\dimen284
+\@anim@tmpdimb=\dimen285
+\@anim@num=\count442
+\@anim@curframe=\count443
+\@anim@curframe@zb=\count444
+\@anim@resizeflags=\count445
+\@anim@skipfram=\count446
+\@anim@mulframecnt=\count447
+\@anim@@tmlnfile=\read5
+\@anim@tmpcnt=\count448
+\c@@anim@ltxcnt=\count449
+\@anim@curlayer=\count450
+\@anim@lineno=\count451
+\@anim@curfield=\count452
+\@anim@@resizeflags=\count453
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/gensymb/gensymb.sty
 Package: gensymb 2022/10/17 v1.0.2 (KJH)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2023-01-03 v3.2.0 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen301
-\l__siunitx_angle_marker_box=\box79
-\l__siunitx_angle_unit_box=\box80
-\l__siunitx_compound_count_int=\count483
+\l__siunitx_angle_tmp_dim=\dimen286
+\l__siunitx_angle_marker_box=\box70
+\l__siunitx_angle_unit_box=\box71
+\l__siunitx_compound_count_int=\count454
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_number_exponent_fixed_int=\count484
-\l__siunitx_number_min_decimal_int=\count485
-\l__siunitx_number_min_integer_int=\count486
-\l__siunitx_number_round_precision_int=\count487
-\l__siunitx_number_lower_threshold_int=\count488
-\l__siunitx_number_upper_threshold_int=\count489
-\l__siunitx_number_group_first_int=\count490
-\l__siunitx_number_group_size_int=\count491
-\l__siunitx_number_group_minimum_int=\count492
-\l__siunitx_table_tmp_box=\box81
-\l__siunitx_table_tmp_dim=\dimen302
-\l__siunitx_table_column_width_dim=\dimen303
-\l__siunitx_table_integer_box=\box82
-\l__siunitx_table_decimal_box=\box83
-\l__siunitx_table_uncert_box=\box84
-\l__siunitx_table_before_box=\box85
-\l__siunitx_table_after_box=\box86
-\l__siunitx_table_before_dim=\dimen304
-\l__siunitx_table_carry_dim=\dimen305
-\l__siunitx_unit_tmp_int=\count493
-\l__siunitx_unit_position_int=\count494
-\l__siunitx_unit_total_int=\count495
+\l__siunitx_number_exponent_fixed_int=\count455
+\l__siunitx_number_min_decimal_int=\count456
+\l__siunitx_number_min_integer_int=\count457
+\l__siunitx_number_round_precision_int=\count458
+\l__siunitx_number_lower_threshold_int=\count459
+\l__siunitx_number_upper_threshold_int=\count460
+\l__siunitx_number_group_first_int=\count461
+\l__siunitx_number_group_size_int=\count462
+\l__siunitx_number_group_minimum_int=\count463
+\l__siunitx_table_tmp_box=\box72
+\l__siunitx_table_tmp_dim=\dimen287
+\l__siunitx_table_column_width_dim=\dimen288
+\l__siunitx_table_integer_box=\box73
+\l__siunitx_table_decimal_box=\box74
+\l__siunitx_table_uncert_box=\box75
+\l__siunitx_table_before_box=\box76
+\l__siunitx_table_after_box=\box77
+\l__siunitx_table_before_dim=\dimen289
+\l__siunitx_table_carry_dim=\dimen290
+\l__siunitx_unit_tmp_int=\count464
+\l__siunitx_unit_position_int=\count465
+\l__siunitx_unit_total_int=\count466
 )
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
@@ -1132,19 +1017,18 @@ Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen306
-\captionmargin=\dimen307
-\caption@leftmargin=\dimen308
-\caption@rightmargin=\dimen309
-\caption@width=\dimen310
-\caption@indent=\dimen311
-\caption@parindent=\dimen312
-\caption@hangindent=\dimen313
+\caption@tempdima=\dimen291
+\captionmargin=\dimen292
+\caption@leftmargin=\dimen293
+\caption@rightmargin=\dimen294
+\caption@width=\dimen295
+\caption@indent=\dimen296
+\caption@parindent=\dimen297
+\caption@hangindent=\dimen298
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count496
-\c@continuedfloat=\count497
-Package caption Info: float package is loaded.
+\c@caption@flags=\count467
+\c@continuedfloat=\count468
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrextend.sty
 Package: scrextend 2022/10/12 v3.38 KOMA-Script package (extend other classes w
@@ -1178,125 +1062,134 @@ Package: mdframed 2013/07/01 1.9b: mdframed
 (/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
-\mdf@templength=\skip106
-\c@mdf@globalstyle@cnt=\count498
-\mdf@skipabove@length=\skip107
-\mdf@skipbelow@length=\skip108
-\mdf@leftmargin@length=\skip109
-\mdf@rightmargin@length=\skip110
-\mdf@innerleftmargin@length=\skip111
-\mdf@innerrightmargin@length=\skip112
-\mdf@innertopmargin@length=\skip113
-\mdf@innerbottommargin@length=\skip114
-\mdf@splittopskip@length=\skip115
-\mdf@splitbottomskip@length=\skip116
-\mdf@outermargin@length=\skip117
-\mdf@innermargin@length=\skip118
-\mdf@linewidth@length=\skip119
-\mdf@innerlinewidth@length=\skip120
-\mdf@middlelinewidth@length=\skip121
-\mdf@outerlinewidth@length=\skip122
-\mdf@roundcorner@length=\skip123
-\mdf@footenotedistance@length=\skip124
-\mdf@userdefinedwidth@length=\skip125
-\mdf@needspace@length=\skip126
-\mdf@frametitleaboveskip@length=\skip127
-\mdf@frametitlebelowskip@length=\skip128
-\mdf@frametitlerulewidth@length=\skip129
-\mdf@frametitleleftmargin@length=\skip130
-\mdf@frametitlerightmargin@length=\skip131
-\mdf@shadowsize@length=\skip132
-\mdf@extratopheight@length=\skip133
-\mdf@subtitleabovelinewidth@length=\skip134
-\mdf@subtitlebelowlinewidth@length=\skip135
-\mdf@subtitleaboveskip@length=\skip136
-\mdf@subtitlebelowskip@length=\skip137
-\mdf@subtitleinneraboveskip@length=\skip138
-\mdf@subtitleinnerbelowskip@length=\skip139
-\mdf@subsubtitleabovelinewidth@length=\skip140
-\mdf@subsubtitlebelowlinewidth@length=\skip141
-\mdf@subsubtitleaboveskip@length=\skip142
-\mdf@subsubtitlebelowskip@length=\skip143
-\mdf@subsubtitleinneraboveskip@length=\skip144
-\mdf@subsubtitleinnerbelowskip@length=\skip145
+\mdf@templength=\skip104
+\c@mdf@globalstyle@cnt=\count469
+\mdf@skipabove@length=\skip105
+\mdf@skipbelow@length=\skip106
+\mdf@leftmargin@length=\skip107
+\mdf@rightmargin@length=\skip108
+\mdf@innerleftmargin@length=\skip109
+\mdf@innerrightmargin@length=\skip110
+\mdf@innertopmargin@length=\skip111
+\mdf@innerbottommargin@length=\skip112
+\mdf@splittopskip@length=\skip113
+\mdf@splitbottomskip@length=\skip114
+\mdf@outermargin@length=\skip115
+\mdf@innermargin@length=\skip116
+\mdf@linewidth@length=\skip117
+\mdf@innerlinewidth@length=\skip118
+\mdf@middlelinewidth@length=\skip119
+\mdf@outerlinewidth@length=\skip120
+\mdf@roundcorner@length=\skip121
+\mdf@footenotedistance@length=\skip122
+\mdf@userdefinedwidth@length=\skip123
+\mdf@needspace@length=\skip124
+\mdf@frametitleaboveskip@length=\skip125
+\mdf@frametitlebelowskip@length=\skip126
+\mdf@frametitlerulewidth@length=\skip127
+\mdf@frametitleleftmargin@length=\skip128
+\mdf@frametitlerightmargin@length=\skip129
+\mdf@shadowsize@length=\skip130
+\mdf@extratopheight@length=\skip131
+\mdf@subtitleabovelinewidth@length=\skip132
+\mdf@subtitlebelowlinewidth@length=\skip133
+\mdf@subtitleaboveskip@length=\skip134
+\mdf@subtitlebelowskip@length=\skip135
+\mdf@subtitleinneraboveskip@length=\skip136
+\mdf@subtitleinnerbelowskip@length=\skip137
+\mdf@subsubtitleabovelinewidth@length=\skip138
+\mdf@subsubtitlebelowlinewidth@length=\skip139
+\mdf@subsubtitleaboveskip@length=\skip140
+\mdf@subsubtitlebelowskip@length=\skip141
+\mdf@subsubtitleinneraboveskip@length=\skip142
+\mdf@subsubtitleinnerbelowskip@length=\skip143
 
 (/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box87
-\mdf@footnotebox=\box88
-\mdf@splitbox@one=\box89
-\mdf@splitbox@two=\box90
-\mdf@splitbox@save=\box91
-\mdfsplitboxwidth=\skip146
-\mdfsplitboxtotalwidth=\skip147
-\mdfsplitboxheight=\skip148
-\mdfsplitboxdepth=\skip149
-\mdfsplitboxtotalheight=\skip150
-\mdfframetitleboxwidth=\skip151
-\mdfframetitleboxtotalwidth=\skip152
-\mdfframetitleboxheight=\skip153
-\mdfframetitleboxdepth=\skip154
-\mdfframetitleboxtotalheight=\skip155
-\mdffootnoteboxwidth=\skip156
-\mdffootnoteboxtotalwidth=\skip157
-\mdffootnoteboxheight=\skip158
-\mdffootnoteboxdepth=\skip159
-\mdffootnoteboxtotalheight=\skip160
-\mdftotallinewidth=\skip161
-\mdfboundingboxwidth=\skip162
-\mdfboundingboxtotalwidth=\skip163
-\mdfboundingboxheight=\skip164
-\mdfboundingboxdepth=\skip165
-\mdfboundingboxtotalheight=\skip166
-\mdf@freevspace@length=\skip167
-\mdf@horizontalwidthofbox@length=\skip168
-\mdf@verticalmarginwhole@length=\skip169
-\mdf@horizontalspaceofbox=\skip170
-\mdfsubtitleheight=\skip171
-\mdfsubsubtitleheight=\skip172
-\c@mdfcountframes=\count499
+\mdf@frametitlebox=\box78
+\mdf@footnotebox=\box79
+\mdf@splitbox@one=\box80
+\mdf@splitbox@two=\box81
+\mdf@splitbox@save=\box82
+\mdfsplitboxwidth=\skip144
+\mdfsplitboxtotalwidth=\skip145
+\mdfsplitboxheight=\skip146
+\mdfsplitboxdepth=\skip147
+\mdfsplitboxtotalheight=\skip148
+\mdfframetitleboxwidth=\skip149
+\mdfframetitleboxtotalwidth=\skip150
+\mdfframetitleboxheight=\skip151
+\mdfframetitleboxdepth=\skip152
+\mdfframetitleboxtotalheight=\skip153
+\mdffootnoteboxwidth=\skip154
+\mdffootnoteboxtotalwidth=\skip155
+\mdffootnoteboxheight=\skip156
+\mdffootnoteboxdepth=\skip157
+\mdffootnoteboxtotalheight=\skip158
+\mdftotallinewidth=\skip159
+\mdfboundingboxwidth=\skip160
+\mdfboundingboxtotalwidth=\skip161
+\mdfboundingboxheight=\skip162
+\mdfboundingboxdepth=\skip163
+\mdfboundingboxtotalheight=\skip164
+\mdf@freevspace@length=\skip165
+\mdf@horizontalwidthofbox@length=\skip166
+\mdf@verticalmarginwhole@length=\skip167
+\mdf@horizontalspaceofbox=\skip168
+\mdfsubtitleheight=\skip169
+\mdfsubsubtitleheight=\skip170
+\c@mdfcountframes=\count470
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-\mdf@envdepth=\count500
-\c@mdf@env@i=\count501
-\c@mdf@env@ii=\count502
-\c@mdf@zref@counter=\count503
+\mdf@envdepth=\count471
+\c@mdf@env@i=\count472
+\c@mdf@env@ii=\count473
+\c@mdf@zref@counter=\count474
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip173
-\multirow@cntb=\count504
-\multirow@dima=\skip174
-\bigstrutjot=\dimen314
+\multirow@colwidth=\skip171
+\multirow@cntb=\count475
+\multirow@dima=\skip172
+\bigstrutjot=\dimen299
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count505
-\mult@box=\box92
-\multicol@leftmargin=\dimen315
-\c@unbalance=\count506
-\c@collectmore=\count507
-\doublecol@number=\count508
-\multicoltolerance=\count509
-\multicolpretolerance=\count510
-\full@width=\dimen316
-\page@free=\dimen317
-\premulticols=\dimen318
-\postmulticols=\dimen319
-\multicolsep=\skip175
-\multicolbaselineskip=\skip176
-\partial@page=\box93
-\last@line=\box94
-\maxbalancingoverflow=\dimen320
-\mult@rightbox=\box95
-\mult@grightbox=\box96
-\mult@firstbox=\box97
-\mult@gfirstbox=\box98
+\c@tracingmulticols=\count476
+\mult@box=\box83
+\multicol@leftmargin=\dimen300
+\c@unbalance=\count477
+\c@collectmore=\count478
+\doublecol@number=\count479
+\multicoltolerance=\count480
+\multicolpretolerance=\count481
+\full@width=\dimen301
+\page@free=\dimen302
+\premulticols=\dimen303
+\postmulticols=\dimen304
+\multicolsep=\skip173
+\multicolbaselineskip=\skip174
+\partial@page=\box84
+\last@line=\box85
+\maxbalancingoverflow=\dimen305
+\mult@rightbox=\box86
+\mult@grightbox=\box87
+\mult@firstbox=\box88
+\mult@gfirstbox=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
 \@tempa=\box99
 \@tempa=\box100
 \@tempa=\box101
@@ -1324,34 +1217,25 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box123
 \@tempa=\box124
 \@tempa=\box125
-\@tempa=\box126
-\@tempa=\box127
-\@tempa=\box128
-\@tempa=\box129
-\@tempa=\box130
-\@tempa=\box131
-\@tempa=\box132
-\@tempa=\box133
-\@tempa=\box134
-\c@minrows=\count511
-\c@columnbadness=\count512
-\c@finalcolumnbadness=\count513
-\last@try=\dimen321
-\multicolovershoot=\dimen322
-\multicolundershoot=\dimen323
-\mult@nat@firstbox=\box135
-\colbreak@box=\box136
-\mc@col@check@num=\count514
+\c@minrows=\count482
+\c@columnbadness=\count483
+\c@finalcolumnbadness=\count484
+\last@try=\dimen306
+\multicolovershoot=\dimen307
+\multicolundershoot=\dimen308
+\mult@nat@firstbox=\box126
+\colbreak@box=\box127
+\mc@col@check@num=\count485
 )
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
-\csq@reset=\count515
-\csq@gtype=\count516
-\csq@glevel=\count517
-\csq@qlevel=\count518
-\csq@maxlvl=\count519
-\csq@tshold=\count520
-\csq@ltx@everypar=\toks43
+\csq@reset=\count486
+\csq@gtype=\count487
+\csq@glevel=\count488
+\csq@qlevel=\count489
+\csq@maxlvl=\count490
+\csq@tshold=\count491
+\csq@ltx@everypar=\toks39
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
@@ -1364,23 +1248,23 @@ File: csquotes.cfg
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen324
-\lightrulewidth=\dimen325
-\cmidrulewidth=\dimen326
-\belowrulesep=\dimen327
-\belowbottomsep=\dimen328
-\aboverulesep=\dimen329
-\abovetopsep=\dimen330
-\cmidrulesep=\dimen331
-\cmidrulekern=\dimen332
-\defaultaddspace=\dimen333
-\@cmidla=\count521
-\@cmidlb=\count522
-\@aboverulesep=\dimen334
-\@belowrulesep=\dimen335
-\@thisruleclass=\count523
-\@lastruleclass=\count524
-\@thisrulewidth=\dimen336
+\heavyrulewidth=\dimen309
+\lightrulewidth=\dimen310
+\cmidrulewidth=\dimen311
+\belowrulesep=\dimen312
+\belowbottomsep=\dimen313
+\aboverulesep=\dimen314
+\abovetopsep=\dimen315
+\cmidrulesep=\dimen316
+\cmidrulekern=\dimen317
+\defaultaddspace=\dimen318
+\@cmidla=\count492
+\@cmidlb=\count493
+\@aboverulesep=\dimen319
+\@belowrulesep=\dimen320
+\@thisruleclass=\count494
+\@lastruleclass=\count495
+\@thisrulewidth=\dimen321
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -1414,11 +1298,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count525
+\c@section@level=\count496
 )
-\@linkdim=\dimen337
-\Hy@linkcounter=\count526
-\Hy@pagecounter=\count527
+\@linkdim=\dimen322
+\Hy@linkcounter=\count497
+\Hy@pagecounter=\count498
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
@@ -1428,7 +1312,7 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count528
+\Hy@SavedSpaceFactor=\count499
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
@@ -1443,9 +1327,9 @@ Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4410.
-\c@Hy@tempcnt=\count529
+\c@Hy@tempcnt=\count500
 LaTeX Info: Redefining \url on input line 4748.
-\XeTeXLinkMargin=\dimen338
+\XeTeXLinkMargin=\dimen323
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1454,9 +1338,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count530
-\Field@Width=\dimen339
-\Fld@charsize=\dimen340
+\Fld@menulength=\count501
+\Field@Width=\dimen324
+\Fld@charsize=\dimen325
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -1464,9 +1348,9 @@ Package hyperref Info: backreferencing OFF on input line 6042.
 Package hyperref Info: Link coloring ON on input line 6045.
 Package hyperref Info: Link coloring with OCG OFF on input line 6052.
 Package hyperref Info: PDF/A mode OFF on input line 6057.
-\Hy@abspage=\count531
-\c@Item=\count532
-\c@Hfootnote=\count533
+\Hy@abspage=\count502
+\c@Item=\count503
+\c@Hfootnote=\count504
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1478,9 +1362,9 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\HyAnn@Count=\count534
-\Fld@listcount=\count535
-\c@bookmark@seq@number=\count536
+\HyAnn@Count=\count505
+\Fld@listcount=\count506
+\c@bookmark@seq@number=\count507
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -1491,12 +1375,8 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip177
+\Hy@SectionHShift=\skip175
 )
-runsystem(which pygmentize && touch main.aex)...executed.
-
-runsystem(rm main.aex)...executed.
-
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1506,14 +1386,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 19
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./main.aux
-
-LaTeX Warning: Label `eq:scat_int' multiply defined.
-
-
-LaTeX Warning: Label `eq:int_detector' multiply defined.
-
-)
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 190.
@@ -1534,19 +1407,20 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 190.
 LaTeX Font Info:    ... okay on input line 190.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 190.
 LaTeX Font Info:    ... okay on input line 190.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count537
-\scratchdimen=\dimen341
-\scratchbox=\box137
-\nofMPsegments=\count538
-\nofMParguments=\count539
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count540
-\MPscratchDim=\dimen342
-\MPnumerator=\count541
-\makeMPintoPDFobject=\count542
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count508
+\scratchdimen=\dimen326
+\scratchbox=\box128
+\nofMPsegments=\count509
+\nofMParguments=\count510
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count511
+\MPscratchDim=\dimen327
+\MPnumerator=\count512
+\makeMPintoPDFobject=\count513
+\everyMPtoPDFconversion=\toks41
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1635,8 +1509,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 190.
  (./main.out) (./main.out)
-\@outlinefile=\write7
-\openout7 = `main.out'.
+\@outlinefile=\write5
+\openout5 = `main.out'.
 
  (./Sections/00_Title_Saclay.tex
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1671,7 +1545,7 @@ Package hyperref Info: Link coloring ON on input line 190.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-</home/david/Documents/PhD/Figures//logo/Bandeau_UPaS.pdf, id=155, 303.6027pt x
+</home/david/Documents/PhD/Figures//logo/Bandeau_UPaS.pdf, id=159, 303.6027pt x
  849.97972pt>
 File: /home/david/Documents/PhD/Figures//logo/Bandeau_UPaS.pdf Graphic file (ty
 pe pdf)
@@ -1685,14 +1559,14 @@ LaTeX Font Info:    Trying to load font information for T1+fvs on input line 8.
 (/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvs.fd
 File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
 )
-</home/david/Documents/PhD/Figures//logo/CEA.png, id=156, 1284.8pt x 1048.91875
+</home/david/Documents/PhD/Figures//logo/cea.jpg, id=160, 123.3408pt x 123.3408
 pt>
-File: /home/david/Documents/PhD/Figures//logo/CEA.png Graphic file (type png)
-<use /home/david/Documents/PhD/Figures//logo/CEA.png>
-Package pdftex.def Info: /home/david/Documents/PhD/Figures//logo/CEA.png  used 
+File: /home/david/Documents/PhD/Figures//logo/cea.jpg Graphic file (type jpg)
+<use /home/david/Documents/PhD/Figures//logo/cea.jpg>
+Package pdftex.def Info: /home/david/Documents/PhD/Figures//logo/cea.jpg  used 
 on input line 23.
-(pdftex.def)             Requested size: 73.18338pt x 59.75095pt.
-</home/david/Documents/PhD/Figures//logo/SOLEIL.png, id=158, 530.98375pt x 257.
+(pdftex.def)             Requested size: 59.75056pt x 59.75095pt.
+</home/david/Documents/PhD/Figures//logo/SOLEIL.png, id=161, 530.98375pt x 257.
 96375pt>
 File: /home/david/Documents/PhD/Figures//logo/SOLEIL.png Graphic file (type png
 )
@@ -1825,10 +1699,10 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/david/Documents/PhD/
-Figures//logo/Bandeau_UPaS.pdf> </home/david/Documents/PhD/Figures//logo/CEA.pn
+Figures//logo/Bandeau_UPaS.pdf> </home/david/Documents/PhD/Figures//logo/CEA.jp
 g> </home/david/Documents/PhD/Figures//logo/SOLEIL.png>]) (./main.toc)
-\tf@toc=\write8
-\openout8 = `main.toc'.
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
@@ -1845,20 +1719,20 @@ LaTeX Warning: Command \r invalid in math mode on input line 10.
 [2
 
 ] [3])
-\tf@lof=\write9
-\openout9 = `main.lof'.
+\tf@lof=\write7
+\openout7 = `main.lof'.
 
- [4] (./main.lot
+ [4] [5] (./main.lot
 Overfull \hbox (6.65337pt too wide) in paragraph at lines 5--5
  [][] [][][]\T1/lmr/m/n/10.95 Near-ambient pres-sure (NAP) x-ray tech-niques ca
 r-ried out at the SixS (SOLEIL) 
  []
 
 )
-\tf@lot=\write10
-\openout10 = `main.lot'.
+\tf@lot=\write8
+\openout8 = `main.lot'.
 
- [5
+ [6
 
 ]
 Chapter 1.
@@ -1868,7 +1742,7 @@ Overfull \hbox (22.76161pt too wide) in paragraph at lines 17--28
  []
 
 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/pt_gaz
-es.png, id=451, 1353.055pt x 1360.08125pt>
+es.png, id=474, 1353.055pt x 1360.08125pt>
 File: /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/p
 t_gazes.png Graphic file (type png)
 <use /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/pt
@@ -1877,7 +1751,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/Presentations/Slides/PhdSlid
 es/Figures/sample/pt_gazes.png  used on input line 34.
 (pdftex.def)             Requested size: 84.9167pt x 85.35826pt.
 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/B7/
-B7_facets.png, id=452, 602.25pt x 501.875pt>
+B7_facets.png, id=475, 602.25pt x 501.875pt>
 File: /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_dat
 a/B7/B7_facets.png Graphic file (type png)
 <use /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data
@@ -1886,7 +1760,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/Presentations/Slides/PhdSlid
 es/Figures/bcdi_data/B7/B7_facets.png  used on input line 35.
 (pdftex.def)             Requested size: 102.4271pt x 85.35826pt.
 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/sxrd_s
-ample.png, id=453, 193.72375pt x 196.735pt>
+ample.png, id=476, 193.72375pt x 196.735pt>
 File: /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/s
 xrd_sample.png Graphic file (type png)
 <use /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/sx
@@ -1894,19 +1768,19 @@ rd_sample.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Presentations/Slides/PhdSlid
 es/Figures/sample/sxrd_sample.png  used on input line 36.
 (pdftex.def)             Requested size: 84.0504pt x 85.35826pt.
-[6
+[7
 
 ])
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
 15.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [7 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/p
+) [8 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/p
 t_gazes.png> </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/
 bcdi_data/B7/B7_facets.png (PNG copy)> </home/david/Documents/PhD/Presentations
 /Slides/PhdSlides/Figures/sample/sxrd_sample.png>]
 Chapter 2.
-(./Sections/2_Theory_Models/X-ray_interaction_matter.tex [8
+(./Sections/2_Theory_Models/X-ray_interaction_matter.tex [9
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1914,7 +1788,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 12.
 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/gwaihir/dp_pr
-.png, id=476, 453.19313pt x 508.90125pt>
+.png, id=497, 453.19313pt x 508.90125pt>
 File: /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/gwaihir/
 dp_pr.png Graphic file (type png)
 <use /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/gwaihir/d
@@ -1923,7 +1797,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/Presentations/Slides/PhdSlid
 es/Figures/gwaihir/dp_pr.png  used on input line 32.
 (pdftex.def)             Requested size: 98.18146pt x 110.25443pt.
 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sxrd_data/Pt1
-00/maps/Map_hkl_surf_or_2227-2283_not_patched.png, id=477, 722.7pt x 578.16pt>
+00/maps/Map_hkl_surf_or_2227-2283_not_patched.png, id=498, 722.7pt x 578.16pt>
 File: /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sxrd_dat
 a/Pt100/maps/Map_hkl_surf_or_2227-2283_not_patched.png Graphic file (type png)
 <use /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sxrd_data
@@ -1933,7 +1807,7 @@ es/Figures/sxrd_data/Pt100/maps/Map_hkl_surf_or_2227-2283_not_patched.png  used
  on input line 33.
 (pdftex.def)             Requested size: 137.81065pt x 110.25443pt.
 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/xps_data/tran
-sition_xps.png, id=478, 803.0pt x 602.25pt>
+sition_xps.png, id=499, 803.0pt x 602.25pt>
 File: /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/xps_data
 /transition_xps.png Graphic file (type png)
 <use /home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/xps_data/
@@ -1941,120 +1815,128 @@ transition_xps.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Presentations/Slides/PhdSlid
 es/Figures/xps_data/transition_xps.png  used on input line 34.
 (pdftex.def)             Requested size: 146.99657pt x 110.25443pt.
- [9 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/gwaihir/d
-p_pr.png> </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sxr
-d_data/Pt100/maps/Map_hkl_surf_or_2227-2283_not_patched.png> </home/david/Docum
-ents/PhD/Presentations/Slides/PhdSlides/Figures/xps_data/transition_xps.png>]
-<Figures/introduction/cross_sections.pdf, id=493, 462.52798pt x 346.89601pt>
+ [10 </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/gwaihir/
+dp_pr.png> </home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sx
+rd_data/Pt100/maps/Map_hkl_surf_or_2227-2283_not_patched.png> </home/david/Docu
+ments/PhD/Presentations/Slides/PhdSlides/Figures/xps_data/transition_xps.png>]
+<Figures/introduction/cross_sections.pdf, id=514, 462.52798pt x 346.89601pt>
 File: Figures/introduction/cross_sections.pdf Graphic file (type pdf)
 <use Figures/introduction/cross_sections.pdf>
 Package pdftex.def Info: Figures/introduction/cross_sections.pdf  used on input
- line 77.
+ line 78.
 (pdftex.def)             Requested size: 441.01772pt x 330.77736pt.
- [10 <./Figures/introduction/cross_sections.pdf>]
-<Figures/introduction/torus.pdf, id=552, 505.89pt x 578.16pt>
+<Figures/introduction/torus.pdf, id=517, 505.89pt x 578.16pt>
 File: Figures/introduction/torus.pdf Graphic file (type pdf)
 <use Figures/introduction/torus.pdf>
-Package pdftex.def Info: Figures/introduction/torus.pdf  used on input line 96.
+Package pdftex.def Info: Figures/introduction/torus.pdf  used on input line 97.
 
-(pdftex.def)             Requested size: 441.01772pt x 504.02731pt.
- [11] [12 <./Figures/introduction/torus.pdf>]
-<Figures/introduction/q.pdf, id=605, 462.52798pt x 346.89601pt>
+(pdftex.def)             Requested size: 441.01772pt x 416.52235pt.
+ [11] [12 <./Figures/introduction/cross_sections.pdf>] [13 <./Figures/introduct
+ion/torus.pdf>]
+<Figures/introduction/q.pdf, id=632, 462.52798pt x 346.89601pt>
 File: Figures/introduction/q.pdf Graphic file (type pdf)
 <use Figures/introduction/q.pdf>
-Package pdftex.def Info: Figures/introduction/q.pdf  used on input line 157.
+Package pdftex.def Info: Figures/introduction/q.pdf  used on input line 162.
 (pdftex.def)             Requested size: 277.51892pt x 208.1392pt.
 
-[13 <./Figures/introduction/q.pdf>]
 
-LaTeX Warning: Command \r invalid in math mode on input line 200.
+LaTeX Warning: Command \r invalid in math mode on input line 199.
 
-<Figures/introduction/atomic_form_factor.pdf, id=648, 462.52798pt x 346.89601pt
+[14 <./Figures/introduction/q.pdf>]
+<Figures/introduction/atomic_form_factor.pdf, id=671, 462.52798pt x 346.89601pt
 >
 File: Figures/introduction/atomic_form_factor.pdf Graphic file (type pdf)
 <use Figures/introduction/atomic_form_factor.pdf>
 Package pdftex.def Info: Figures/introduction/atomic_form_factor.pdf  used on i
-nput line 205.
+nput line 204.
 (pdftex.def)             Requested size: 441.01772pt x 330.77736pt.
-[14 <./Figures/introduction/atomic_form_factor.pdf>] [15]
-</home/david/Documents/PhDScripts/Drawing/blender/FCC.png, id=725, 1927.2pt x 1
+ [15 <./Figures/introduction/atomic_form_factor.pdf>] [16]
+</home/david/Documents/PhDScripts/Drawing/blender/FCC.png, id=749, 1927.2pt x 1
 084.05pt>
 File: /home/david/Documents/PhDScripts/Drawing/blender/FCC.png Graphic file (ty
 pe png)
 <use /home/david/Documents/PhDScripts/Drawing/blender/FCC.png>
 Package pdftex.def Info: /home/david/Documents/PhDScripts/Drawing/blender/FCC.p
-ng  used on input line 294.
+ng  used on input line 295.
 (pdftex.def)             Requested size: 441.01772pt x 248.06912pt.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 295.
+LaTeX Warning: Command \r invalid in math mode on input line 296.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 295.
+LaTeX Warning: Command \r invalid in math mode on input line 296.
 
-[16]
-<Figures/introduction/BraggLaw.pdf, id=741, 462.52798pt x 346.89601pt>
+[17]
+<Figures/introduction/BraggLaw.pdf, id=765, 462.52798pt x 346.89601pt>
 File: Figures/introduction/BraggLaw.pdf Graphic file (type pdf)
 <use Figures/introduction/BraggLaw.pdf>
 Package pdftex.def Info: Figures/introduction/BraggLaw.pdf  used on input line 
-373.
+374.
 (pdftex.def)             Requested size: 277.51892pt x 208.1392pt.
- [17 </home/david/Documents/PhDScripts/Drawing/blender/FCC.png>] [18 <./Figures
-/introduction/BraggLaw.pdf>] [19] [20]
-<Figures/introduction/coherence_lengths.pdf, id=819, 462.52798pt x 346.89601pt>
+ [18 </home/david/Documents/PhDScripts/Drawing/blender/FCC.png>] [19 <./Figures
+/introduction/BraggLaw.pdf>] [20] [21]
+<Figures/introduction/coherence_lengths.pdf, id=843, 462.52798pt x 346.89601pt>
 
 File: Figures/introduction/coherence_lengths.pdf Graphic file (type pdf)
 <use Figures/introduction/coherence_lengths.pdf>
 Package pdftex.def Info: Figures/introduction/coherence_lengths.pdf  used on in
-put line 526.
+put line 527.
 (pdftex.def)             Requested size: 416.27133pt x 312.20352pt.
- [21 <./Figures/introduction/coherence_lengths.pdf>]) (./Sections/2_Theory_Mode
-ls/SXRD.tex [22]
-<Figures/introduction/SurfaceReconstructions.pdf, id=867, 578.16pt x 289.08pt>
+ [22 <./Figures/introduction/coherence_lengths.pdf>]) (./Sections/2_Theory_Mode
+ls/SXRD.tex [23]
+<Figures/introduction/SurfaceReconstructions.pdf, id=891, 578.16pt x 289.08pt>
 File: Figures/introduction/SurfaceReconstructions.pdf Graphic file (type pdf)
 <use Figures/introduction/SurfaceReconstructions.pdf>
 Package pdftex.def Info: Figures/introduction/SurfaceReconstructions.pdf  used 
 on input line 18.
 (pdftex.def)             Requested size: 441.01772pt x 220.50587pt.
-<Figures/introduction/CTRConvolution.png, id=869, 941.5175pt x 707.64375pt>
+<Figures/introduction/CTRConvolution.png, id=893, 941.5175pt x 707.64375pt>
 File: Figures/introduction/CTRConvolution.png Graphic file (type png)
 <use Figures/introduction/CTRConvolution.png>
 Package pdftex.def Info: Figures/introduction/CTRConvolution.png  used on input
  line 34.
 (pdftex.def)             Requested size: 396.91324pt x 298.32051pt.
- [23 <./Figures/introduction/SurfaceReconstructions.pdf>] [24 <./Figures/introd
+ [24 <./Figures/introduction/SurfaceReconstructions.pdf>] [25 <./Figures/introd
 uction/CTRConvolution.png>]
-<Figures/introduction/relax_rough_ctr.pdf, id=910, 578.16pt x 578.16pt>
+<Figures/introduction/relax_rough_ctr.pdf, id=934, 578.16pt x 578.16pt>
 File: Figures/introduction/relax_rough_ctr.pdf Graphic file (type pdf)
 <use Figures/introduction/relax_rough_ctr.pdf>
 Package pdftex.def Info: Figures/introduction/relax_rough_ctr.pdf  used on inpu
-t line 69.
+t line 68.
 (pdftex.def)             Requested size: 441.01772pt x 441.01176pt.
- [25 <./Figures/introduction/relax_rough_ctr.pdf>]
-<Figures/introduction/EwaldSphereInPlane3D.pdf, id=967, 578.16pt x 578.16pt>
+ [26 <./Figures/introduction/relax_rough_ctr.pdf>]
+<Figures/introduction/EwaldSphereInPlane3D.pdf, id=990, 578.16pt x 578.16pt>
 File: Figures/introduction/EwaldSphereInPlane3D.pdf Graphic file (type pdf)
 <use Figures/introduction/EwaldSphereInPlane3D.pdf>
 Package pdftex.def Info: Figures/introduction/EwaldSphereInPlane3D.pdf  used on
- input line 98.
+ input line 97.
 (pdftex.def)             Requested size: 216.10109pt x 190.73714pt.
-<Figures/introduction/EwaldSphereOutOfPlane3D.pdf, id=969, 578.16pt x 578.16pt>
+<Figures/introduction/EwaldSphereOutOfPlane3D.pdf, id=992, 578.16pt x 578.16pt>
 
 File: Figures/introduction/EwaldSphereOutOfPlane3D.pdf Graphic file (type pdf)
 <use Figures/introduction/EwaldSphereOutOfPlane3D.pdf>
 Package pdftex.def Info: Figures/introduction/EwaldSphereOutOfPlane3D.pdf  used
- on input line 99.
+ on input line 98.
 (pdftex.def)             Requested size: 216.10109pt x 190.73714pt.
- [26 <./Figures/introduction/EwaldSphereInPlane3D.pdf> <./Figures/introduction/
+ [27 <./Figures/introduction/EwaldSphereInPlane3D.pdf> <./Figures/introduction/
 EwaldSphereOutOfPlane3D.pdf>]
-<Figures/sixs/diffractometer.png, id=1018, 956.57375pt x 790.955pt>
+<Figures/sixs/diffractometer.png, id=1042, 956.57375pt x 790.955pt>
 File: Figures/sixs/diffractometer.png Graphic file (type png)
 <use Figures/sixs/diffractometer.png>
 Package pdftex.def Info: Figures/sixs/diffractometer.png  used on input line 12
-2.
+1.
 (pdftex.def)             Requested size: 352.8155pt x 291.73152pt.
- [27 <./Figures/sixs/diffractometer.png>])
-(./Sections/2_Theory_Models/BCDI.tex [28]
-</home/david/Documents/PhD/Figures/bcdi_data/3D_DP/DP_white_1.png, id=1066, 128
+ [28 <./Figures/sixs/diffractometer.png>]
+<Figures/introduction/EwaldSphereSpecular3D.pdf, id=1063, 578.16pt x 578.16pt>
+File: Figures/introduction/EwaldSphereSpecular3D.pdf Graphic file (type pdf)
+<use Figures/introduction/EwaldSphereSpecular3D.pdf>
+Package pdftex.def Info: Figures/introduction/EwaldSphereSpecular3D.pdf  used o
+n input line 168.
+(pdftex.def)             Requested size: 216.10109pt x 190.73714pt.
+)
+(./Sections/2_Theory_Models/BCDI.tex [29] [30 <./Figures/introduction/EwaldSphe
+reSpecular3D.pdf>]
+</home/david/Documents/PhD/Figures/bcdi_data/3D_DP/DP_white_1.png, id=1138, 128
 4.8pt x 1027.84pt>
 File: /home/david/Documents/PhD/Figures/bcdi_data/3D_DP/DP_white_1.png Graphic 
 file (type png)
@@ -2062,14 +1944,13 @@ file (type png)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/bcdi_data/3D_DP/DP_w
 hite_1.png  used on input line 36.
 (pdftex.def)             Requested size: 441.01772pt x 352.81726pt.
- [29] [30 </home/david/Documents/PhD/Figures/bcdi_data/3D_DP/DP_white_1.png (PN
-G copy)>]
+ [31 </home/david/Documents/PhD/Figures/bcdi_data/3D_DP/DP_white_1.png (PNG cop
+y)>] [32]
 
-LaTeX Warning: Reference `fig:3D_object' on page 31 undefined on input line 96.
+LaTeX Warning: Reference `fig:3D_object' on page 33 undefined on input line 96.
 
 
-[31]
-</home/david/Documents/PhD/Figures/gwaihir/facets_D6.png, id=1153, 602.25pt x 5
+</home/david/Documents/PhD/Figures/gwaihir/facets_D6.png, id=1187, 602.25pt x 5
 01.875pt>
 File: /home/david/Documents/PhD/Figures/gwaihir/facets_D6.png Graphic file (typ
 e png)
@@ -2077,114 +1958,114 @@ e png)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/gwaihir/facets_D6.pn
 g  used on input line 108.
 (pdftex.def)             Requested size: 441.01772pt x 367.52971pt.
- [32 </home/david/Documents/PhD/Figures/gwaihir/facets_D6.png (PNG copy)>]
-[33] [34]) (./Sections/2_Theory_Models/SixS.tex)
-(./Sections/2_Theory_Models/ComputerPrograms.tex [35] [36] [37] [38]
-</home/david/Documents/PhD/Figures/gwaihir/Packages.png, id=1252, 854.19125pt x
+[33] [34 </home/david/Documents/PhD/Figures/gwaihir/facets_D6.png (PNG copy)>]
+[35]) (./Sections/2_Theory_Models/SixS.tex [36])
+(./Sections/2_Theory_Models/ComputerPrograms.tex [37] [38] [39]
+</home/david/Documents/PhD/Figures/gwaihir/Packages.png, id=1305, 854.19125pt x
  645.41125pt>
 File: /home/david/Documents/PhD/Figures/gwaihir/Packages.png Graphic file (type
  png)
 <use /home/david/Documents/PhD/Figures/gwaihir/Packages.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/gwaihir/Packages.png
-  used on input line 122.
+  used on input line 79.
 (pdftex.def)             Requested size: 441.01772pt x 333.22269pt.
- [39 </home/david/Documents/PhD/Figures/gwaihir/Packages.png>]
-</home/david/Documents/PhD/Figures/gwaihir/Workflow.png, id=1283, 659.46375pt x
+ [40 </home/david/Documents/PhD/Figures/gwaihir/Packages.png>] [41]
+</home/david/Documents/PhD/Figures/gwaihir/Workflow.png, id=1352, 659.46375pt x
  456.70625pt>
 File: /home/david/Documents/PhD/Figures/gwaihir/Workflow.png Graphic file (type
  png)
 <use /home/david/Documents/PhD/Figures/gwaihir/Workflow.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/gwaihir/Workflow.png
-  used on input line 161.
+  used on input line 122.
 (pdftex.def)             Requested size: 441.01772pt x 305.43408pt.
- [40]
-Overfull \hbox (1.7754pt too wide) in paragraph at lines 176--177
+
+Overfull \hbox (1.7754pt too wide) in paragraph at lines 137--138
 []\T1/lmr/m/it/10.95 Gwaihir \T1/lmr/m/n/10.95 of-fers an in-ter-act-ive work-f
 low sep-ar-ated in three main groups, data pre-processing,
  []
 
-[41 </home/david/Documents/PhD/Figures/gwaihir/Workflow.png>]
-</home/david/Documents/PhD/Figures/gwaihir/CropDiffPatternRed.png, id=1310, 768
+[42 </home/david/Documents/PhD/Figures/gwaihir/Workflow.png>]
+</home/david/Documents/PhD/Figures/gwaihir/CropDiffPatternRed.png, id=1367, 768
 .8725pt x 597.23125pt>
 File: /home/david/Documents/PhD/Figures/gwaihir/CropDiffPatternRed.png Graphic 
 file (type png)
 <use /home/david/Documents/PhD/Figures/gwaihir/CropDiffPatternRed.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/gwaihir/CropDiffPatt
-ernRed.png  used on input line 183.
+ernRed.png  used on input line 144.
 (pdftex.def)             Requested size: 216.10109pt x 167.86151pt.
-</home/david/Documents/PhD/Figures/gwaihir/crop_phase_red.png, id=1311, 1120.18
+</home/david/Documents/PhD/Figures/gwaihir/crop_phase_red.png, id=1368, 1120.18
 5pt x 893.3375pt>
 File: /home/david/Documents/PhD/Figures/gwaihir/crop_phase_red.png Graphic file
  (type png)
 <use /home/david/Documents/PhD/Figures/gwaihir/crop_phase_red.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/gwaihir/crop_phase_r
-ed.png  used on input line 185.
+ed.png  used on input line 146.
 (pdftex.def)             Requested size: 216.10109pt x 172.33945pt.
- [42 </home/david/Documents/PhD/Figures/gwaihir/CropDiffPatternRed.png> </home/
+ [43 </home/david/Documents/PhD/Figures/gwaihir/CropDiffPatternRed.png> </home/
 david/Documents/PhD/Figures/gwaihir/crop_phase_red.png>]
-</home/david/Documents/PhD/Figures/gwaihir/phase_retrieval_tab.png, id=1341, 87
+</home/david/Documents/PhD/Figures/gwaihir/phase_retrieval_tab.png, id=1396, 87
 7.2775pt x 920.43875pt>
 File: /home/david/Documents/PhD/Figures/gwaihir/phase_retrieval_tab.png Graphic
  file (type png)
 <use /home/david/Documents/PhD/Figures/gwaihir/phase_retrieval_tab.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/gwaihir/phase_retrie
-val_tab.png  used on input line 236.
+val_tab.png  used on input line 191.
 (pdftex.def)             Requested size: 441.01772pt x 462.71822pt.
- [43]
-</home/david/Documents/PhD/Figures/gwaihir/norm_dist.png, id=1360, 433.62pt x 2
+ [44]
+</home/david/Documents/PhD/Figures/gwaihir/norm_dist.png, id=1418, 433.62pt x 2
 89.08pt>
 File: /home/david/Documents/PhD/Figures/gwaihir/norm_dist.png Graphic file (typ
 e png)
 <use /home/david/Documents/PhD/Figures/gwaihir/norm_dist.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/gwaihir/norm_dist.pn
-g  used on input line 264.
+g  used on input line 216.
 (pdftex.def)             Requested size: 291.0733pt x 194.05753pt.
- [44 </home/david/Documents/PhD/Figures/gwaihir/phase_retrieval_tab.png>]
+ [45 </home/david/Documents/PhD/Figures/gwaihir/phase_retrieval_tab.png>]
 
-LaTeX Warning: Reference `fig:GUI_window' on page 45 undefined on input line 28
-3.
+LaTeX Warning: Reference `fig:GUI_window' on page 46 undefined on input line 23
+5.
 
 
-LaTeX Warning: Reference `fig:3D_object' on page 45 undefined on input line 294
+LaTeX Warning: Reference `fig:3D_object' on page 46 undefined on input line 246
 .
 
 
-LaTeX Warning: Reference `fig:3D_object' on page 45 undefined on input line 312
+LaTeX Warning: Reference `fig:3D_object' on page 46 undefined on input line 264
 .
 
-[45 </home/david/Documents/PhD/Figures/gwaihir/norm_dist.png>]
-</home/david/Documents/PhD/Figures/gwaihir/detector_slice_bokeh.png, id=1383, 4
+[46 </home/david/Documents/PhD/Figures/gwaihir/norm_dist.png>]
+</home/david/Documents/PhD/Figures/gwaihir/detector_slice_bokeh.png, id=1439, 4
 45.665pt x 445.665pt>
 File: /home/david/Documents/PhD/Figures/gwaihir/detector_slice_bokeh.png Graphi
 c file (type png)
 <use /home/david/Documents/PhD/Figures/gwaihir/detector_slice_bokeh.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/gwaihir/detector_sli
-ce_bokeh.png  used on input line 321.
+ce_bokeh.png  used on input line 273.
 (pdftex.def)             Requested size: 291.0733pt x 291.07288pt.
-</home/david/Documents/PhD/Figures/gwaihir/yaml.png, id=1385, 1643.13875pt x 88
+</home/david/Documents/PhD/Figures/gwaihir/yaml.png, id=1441, 1643.13875pt x 88
 1.2925pt>
 File: /home/david/Documents/PhD/Figures/gwaihir/yaml.png Graphic file (type png
 )
 <use /home/david/Documents/PhD/Figures/gwaihir/yaml.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/gwaihir/yaml.png  us
-ed on input line 338.
+ed on input line 290.
 (pdftex.def)             Requested size: 441.01772pt x 236.52672pt.
- [46 </home/david/Documents/PhD/Figures/gwaihir/detector_slice_bokeh.png>]
-</home/david/Documents/PhD/Figures/gwaihir/tree.png, id=1396, 743.77875pt x 597
+ [47 </home/david/Documents/PhD/Figures/gwaihir/detector_slice_bokeh.png>]
+</home/david/Documents/PhD/Figures/gwaihir/tree.png, id=1454, 743.77875pt x 597
 .23125pt>
 File: /home/david/Documents/PhD/Figures/gwaihir/tree.png Graphic file (type png
 )
 <use /home/david/Documents/PhD/Figures/gwaihir/tree.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/gwaihir/tree.png  us
-ed on input line 350.
+ed on input line 303.
 (pdftex.def)             Requested size: 441.01772pt x 354.1313pt.
- [47 </home/david/Documents/PhD/Figures/gwaihir/yaml.png>]) [48 </home/david/Do
+ [48 </home/david/Documents/PhD/Figures/gwaihir/yaml.png>]) [49 </home/david/Do
 cuments/PhD/Figures/gwaihir/tree.png>]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 37.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [49
+) [50
 
 ]
 Overfull \hbox (17.10428pt too wide) in paragraph at lines 238--238
@@ -2193,17 +2074,18 @@ Ul-tra-mic-ro-scopy \T1/lmr/m/n/10.95 122.Au-gust, pp. 65^^U75. \T1/lmr/m/sc/10
 .95 issn\T1/lmr/m/n/10.95 : 03043991.
  []
 
-[50] [51] [52]
+[51] [52] [53]
 Overfull \hbox (8.54494pt too wide) in paragraph at lines 238--238
 \T1/lmr/m/n/10.95 Port-land, OR, USA: As-so-ci-ation for Com-put-ing Ma-chinery
 , pp. 91^^U98. \T1/lmr/m/sc/10.95 isbn\T1/lmr/m/n/10.95 : 9781450366892.
  []
 
+[54]
 
 Package biblatex Warning: No driver for 'generic'.
 (biblatex)                Using fallback driver on input line 237.
 
-[53] (./Sections/99_4eme_couverture.tex [54]
+(./Sections/99_4eme_couverture.tex [55] [56]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2243,7 +2125,7 @@ LaTeX Font Info:    No file T1rm.fd. on input line 5.
 LaTeX Font Warning: Font shape `T1/rm/m/n' undefined
 (Font)              using `T1/cmr/m/n' instead on input line 5.
 
-</home/david/Documents/PhD/Figures//logo/logo_edpif_4eme.png, id=1553, 1008.768
+</home/david/Documents/PhD/Figures//logo/logo_edpif_4eme.png, id=1622, 1008.768
 75pt x 151.56625pt>
 File: /home/david/Documents/PhD/Figures//logo/logo_edpif_4eme.png Graphic file 
 (type png)
@@ -2277,14 +2159,10 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 54.
-) [55
+) [57
 
  </home/david/Documents/PhD/Figures//logo/logo_edpif_4eme.png>]
-
-LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/bx/n' instead on input line 247.
-
-[56] (./main.aux)
+(./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.26pt have occurred.
@@ -2295,24 +2173,22 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B26644E09049C979DC8B51C612DF7848;5578.
+(rerunfilecheck)             Checksum: 4273707D1BAC077CF5A46D84EB58306B;5761.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45927 strings out of 476091
- 953928 string characters out of 5794081
- 1889775 words of memory out of 5000000
- 65200 multiletter control sequences out of 15000+600000
- 632763 words of font info for 122 fonts, out of 8000000 for 9000
+ 43155 strings out of 476091
+ 892134 string characters out of 5794081
+ 1883330 words of memory out of 5000000
+ 62472 multiletter control sequences out of 15000+600000
+ 632004 words of font info for 121 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,15n,106p,3070b,3282s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
@@ -2343,10 +2219,10 @@ sfsx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/typ
 e1/public/cm-super/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
 fsx1440.pfb>
-Output written on main.pdf (57 pages, 9922835 bytes).
+Output written on main.pdf (58 pages, 11761705 bytes).
 PDF statistics:
- 1774 PDF objects out of 2073 (max. 8388607)
- 1376 compressed objects within 14 object streams
- 297 named destinations out of 1000 (max. 500000)
- 491 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1842 PDF objects out of 2073 (max. 8388607)
+ 1430 compressed objects within 15 object streams
+ 303 named destinations out of 1000 (max. 500000)
+ 516 words of extra memory for PDF output out of 10000 (max. 10000000)
 
