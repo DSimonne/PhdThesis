@@ -186,7 +186,6 @@ By integrating over the volume occupied by the atom we obtain the total contribu
 \end{equation}
 
 The scattering amplitude as a function of $\vec{q}$ is described by the atomic from factor $f^0(\vec{q})$, which is defined as the Fourier transform of the atomic electronic density $\rho_{atom}(\vec{r})$.
-% This hypothesis is at the basis of several techniques such as Bragg coherent diffraction imaging for which we use Fourier transforms to compute the scattered amplitude (sec. \ref{sec:BCDI}).
 The values for the atomic from factor can be approximated by a sum of Gaussians using tabulated coefficients (eq. \ref{eq:AtomicFormFactorTab}) available online \parencite{InterTablesOfCryst}.
 It decreases with $\vec{q}$ (or $\sin(\theta) / \lambda)$ as illustrated in figure \ref{fig:atomic_form_factor}.
 
@@ -280,14 +279,15 @@ In the simplest case the pattern consists of a single atom, for example pure pla
 
 We can define the scattering factor $F_{crystal}$ of the crystal, that describes the amplitude of the scattered waves, by the sum of the atomic scattering factor $f_j(\vec{q})$ of each atom present in the crystal, while the phases between the scattered waves depend on the positions of the atoms $\vec{R}_j$ in the direction that is perpendicular to the scattering vector $\vec{q}$ (eq. \ref{eq:FCrystal1}).
 In other words, each atom can be described as a small volume $d^3\vec{r}$ in the electronic density $\rho(\vec{r})$, and the scattered field by the superposition of the contribution from the electronic cloud surrounding the atoms.
+If the atomic scattering factor is equal to the Fourier transform of the electronic density of a single atom, the structure factor of a crystal can be written as the Fourier transform of the crystal electronic density.
 %Thus, the total scattering amplitude at $2\theta$ will be equal to the vector sum of the scattering amplitudes in this direction from all volume elements $d^3\vec{r}$ in $\rho(\vec{r})$ taking into account the phases between them.
 
 \begin{equation}
     \label{eq:FCrystal1}
-    F_{crystal}(\vec{q}) = \sum_j^{N_{atom}} f_j(\vec{q}) e^{i\vec{q}.\vec{R}_j}
+    F_{crystal}(\vec{q}) = \sum_j^{N_{atoms}} f_j(\vec{q}) e^{i\vec{q}.\vec{R}_j} = FT[\rho(\vec{r})]
 \end{equation}
 
-$f_j(\vec{q})$ is the atomic scattering factor of the $j^{th}$ atom at position $\vec{R}_j$ in a crystal made of $N_{atom}$ atoms.
+$f_j(\vec{q})$ is the atomic scattering factor of the $j^{th}$ atom at position $\vec{R}_j$ in a crystal made of $N_{atoms}$ atoms.
 The Thomson scattering length is left apart for simplicity.
 
 \begin{figure}[!htb]
@@ -298,10 +298,10 @@ The Thomson scattering length is left apart for simplicity.
 \end{figure}
 
 The position of any atom in the crystal $\vec{R}_j$ is equal to the sum of the position of the unit cell containing the atom $\vec{R}_{uc}$, plus its position within the unit cell $\vec{r}_j$.
-For a crystals made of $N_{uc}$ unit cells each composed of $N_{atoms}$ we have:
+For a crystals made of $N_{uc}$ unit cells each composed of $N_{atoms,uc}$ we have:
 
 \begin{equation}
-    F_{crystal}(\vec{q}) = \sum_j^{N_{atoms}} f_j(\vec{q}) e^{i\vec{q}.\vec{r}_j} \sum_k^{N_{uc}} e^{i\vec{q}.\vec{R_k}}
+    F_{crystal}(\vec{q}) = \sum_j^{N_{atoms,uc}} f_j(\vec{q}) e^{i\vec{q}.\vec{r}_j} \sum_k^{N_{uc}} e^{i\vec{q}.\vec{R_k}}
     \label{eq:Fcrystal}
 \end{equation}
 
@@ -412,7 +412,6 @@ When fulfilling the Laue (or Bragg) condition, the direction of the scattering v
 \subsection{Structure factor} \label{sec:StructureFactor}
 
 On one hand, in real space, the crystal electronic density can be formed by repeating the unit cell at each lattice point, \textit{i.e.} it can be represented as a convolution of the lattice and unit cell functions.
-%The electronic density $\vec{r}$ is formed by repeating the lattice function at each lattice point and adding the basis function associated with that lattice point.
 This representation captures the periodicity and arrangement of the crystal.
 
 On the other hand, in reciprocal space (Fourier space), the crystal scattering factor $F_{crystal}$ is the Fourier transform of the electronic density.
@@ -558,15 +557,13 @@ Indeed, to be able to resolve the interference fringes resulting from the lattic
 A detailed explanation of how to optimize BCDI experiments is given in sec. \ref{sec:BCDI}.
 
 \textit{
-So far we have limited ourselves to the kinematical approach of diffraction in the frame of this thesis.
-This means that multiple scattering and effect of absorption and refraction are ignored during diffraction.
-We will see in sec. \ref{sec:BCDI} that for BCDI, multiple scattering imposes an upper limit on particle size if in the kinematical approach while effect of absorption and refraction can be corrected.
-This is justified for Surface x-ray diffraction by the fact that the incoming angle is very low ($\approx 0.3$) and for BCDI by the low volume of the sample ($\approx 0.1 \mu m^3$).
-We have also assumed that the incident wave is plane and that the phase of the incident wave is the same within the scattering volume.
+So far we have limited ourselves to the kinematical approach of diffraction in the frame of this thesis which means that the scattering is considered weak enough so that multiple scattering can be ignored.
+This allows us to assume that the sample is only a perturbation to the incident field and that the structure factor can be written as the Fourier transform of the electronic density (Born approxiamtion).
+We have also assumed that the incident wave is plane within the scattering volume and that the distance between the scatterer and the detector is large enough for the scattered waves to be considered planes.
 }
 
 \textcolor{Important}{
 Field / amplitude / intensity consistent ?
 $r_0$ use consistent ? $2\pi$ ?
-Where to mention that here we are using several hypothesis (Born approximation, DWBA, dipole), perfect crystals
+hypothesis to explain: DWBA, dipole, perfect crystals
 }

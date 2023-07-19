@@ -135,6 +135,101 @@
       \verb 10.1088/0022-3719/18/35/008
       \endverb
     \endentry
+    \entry{Atlan2023}{article}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=2475b895ff7be1c11645602be8fbba26}{%
+           family={Atlan},
+           familyi={A\bibinitperiod},
+           given={Clément},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2a733f8919468cc8e9922ae24befbaf}{%
+           family={Chatelier},
+           familyi={C\bibinitperiod},
+           given={Corentin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e4eac773798764c6902174ea5608d89}{%
+           family={Martens},
+           familyi={M\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7812ec96d64e72c3272729b04125b734}{%
+           family={Dupraz},
+           familyi={D\bibinitperiod},
+           given={Maxime},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9be9b4ee9639113cf595790cbab91ad}{%
+           family={Viola},
+           familyi={V\bibinitperiod},
+           given={Arnaud},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d75db9bec171a332f5fc52cb66a0829}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ni},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ba4dc44e20a33d79eeaf44e36851156}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=099fdebca478a0a5ef972975b74a20bb}{%
+           family={Leake},
+           familyi={L\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bad0e06edd7d13a4117bca4ca5cd6f88}{%
+           family={Schulli},
+           familyi={S\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cc48041a8d030de729d62ebb933fd24}{%
+           family={Eymery},
+           familyi={E\bibinitperiod},
+           given={Joël},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4ae2c94cc45f1a2913b53963e46c977}{%
+           family={Maillard},
+           familyi={M\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8337e20d13dbfa35881a3b2044706fc4}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Marie-Ingrid},
+           giveni={M\bibinithyphendelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bb3975c88b99c16982e061b44206e8c6}
+      \strng{fullhash}{f2e251863a5fa2ffb7f724050180c44a}
+      \strng{bibnamehash}{bb3975c88b99c16982e061b44206e8c6}
+      \strng{authorbibnamehash}{bb3975c88b99c16982e061b44206e8c6}
+      \strng{authornamehash}{bb3975c88b99c16982e061b44206e8c6}
+      \strng{authorfullhash}{f2e251863a5fa2ffb7f724050180c44a}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Materials}
+      \field{number}{6}
+      \field{title}{{Imaging the strain evolution of a platinum nanoparticle under electrochemical control}}
+      \field{volume}{22}
+      \field{year}{2023}
+      \field{pages}{754\bibrangedash 761}
+      \range{pages}{8}
+    \endentry
     \entry{Baker2016}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5b45c2c81ee16986814bbb7a766b4f02}{%
@@ -166,6 +261,96 @@
       \endverb
       \verb{file}
       \verb :home/david/Documents/PhD/Papers/533452a.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Barringer2021}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=12bc1fa673394a48bfc2b0b458a8109c}{%
+           family={Barringer},
+           familyi={B\bibinitperiod},
+           given={Zachary},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed3d50682be1b60ad0b74dbf2a18717c}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Jie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13cb00862a7be09b7b04ce869ade7dce}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Xiaowen},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9343c44246443f4c2bb09709bdbd347a}{%
+           family={Schold},
+           familyi={S\bibinitperiod},
+           given={Elijah},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6673e22514e526755a50384a2a2048e}{%
+           family={Pateras},
+           familyi={P\bibinitperiod},
+           given={Anastasios},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=195ee356d02ccf0c1a1b31ed3913bf9b}{%
+           family={Cipiccia},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5e3f2fadd376d0bc6d56266f862e67d}{%
+           family={Rau},
+           familyi={R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3562cace78f862a53c4a3bb283b80009}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91b12b9c05e7e6729d6f0ed1c5134c16}{%
+           family={Fohtung},
+           familyi={F\bibinitperiod},
+           given={Edwin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{ef00d121bf07a566c062553588301529}
+      \strng{fullhash}{4e04023ab56a3c1f019773c6b0b85bbf}
+      \strng{bibnamehash}{ef00d121bf07a566c062553588301529}
+      \strng{authorbibnamehash}{ef00d121bf07a566c062553588301529}
+      \strng{authornamehash}{ef00d121bf07a566c062553588301529}
+      \strng{authorfullhash}{4e04023ab56a3c1f019773c6b0b85bbf}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Defects in strongly correlated materials such as V2O3 play influential roles on their electrical properties. Understanding the defects{'} structure is of paramount importance. In this project{,} we investigate defect structures in V2O3 grown via a flux method. We use AFM to see surface features in several large flake-like particles that exhibit characteristics of spiral growth. We also use Bragg coherent diffractive imaging (BCDI) to probe in 3 dimensions a smaller particle without flake-like morphology and note an absence of the pure screw dislocation characteristic of spiral growth. We identified and measured several defects by comparing the observed local displacement of the crystal{,} measured via BCDI to well-known models of the displacement around defects in the crystal. We identified two partial dislocations in the crystal. We discuss how defects of different types influence the morphology of V2O3 crystals grown via a flux method.}
+      \field{issue}{36}
+      \field{journaltitle}{CrystEngComm}
+      \field{title}{Imaging defects in vanadium(iii) oxide nanocrystals using Bragg coherent diffractive imaging}
+      \field{volume}{23}
+      \field{year}{2021}
+      \field{pages}{6239\bibrangedash 6244}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1039/D1CE00736J
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1039/D1CE00736J
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1039/D1CE00736J
       \endverb
     \endentry
     \entry{NIST_cross_sections}{online}{}
@@ -246,6 +431,53 @@
       \verb{url}
       \verb https://www.nist.gov/pml/xcom-photon-cross-sections-database
       \endverb
+    \endentry
+    \entry{Bjorck2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=399967542a150acdcb84f9846759759d}{%
+           family={Björck},
+           familyi={B\bibinitperiod},
+           given={Matts},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=195543a533f5dde75b0bf4b4c1b0314a}{%
+           family={Andersson},
+           familyi={A\bibinitperiod},
+           given={Gabriella},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{28ee88c274d680646dd4b3e5cd4ad65e}
+      \strng{fullhash}{28ee88c274d680646dd4b3e5cd4ad65e}
+      \strng{bibnamehash}{28ee88c274d680646dd4b3e5cd4ad65e}
+      \strng{authorbibnamehash}{28ee88c274d680646dd4b3e5cd4ad65e}
+      \strng{authornamehash}{28ee88c274d680646dd4b3e5cd4ad65e}
+      \strng{authorfullhash}{28ee88c274d680646dd4b3e5cd4ad65e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{\it GenX} is a versatile program using the differential evolution algorithm for fitting X-ray and neutron reflectivity data. It utilizes the Parratt recursion formula for simulating specular reflectivity. The program is easily extensible, allowing users to incorporate their own models into the program. This can be useful for fitting data from other scattering experiments, or for any other minimization problem which has a large number of input parameters and/or contains many local minima, where the differential evolution algorithm is suitable. In addition, {\it GenX} manages to fit an arbitrary number of data sets simultaneously. The program is released under the GNU General Public License.}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{{{\it GenX}: an extensible X-ray reflectivity refinement program utilizing differential evolution}}
+      \field{volume}{40}
+      \field{year}{2007}
+      \field{pages}{1174\bibrangedash 1178}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1107/S0021889807045086
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1107/S0021889807045086
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1107/S0021889807045086
+      \endverb
+      \keyw{X-ray reflectivity,neutron reflectivity,differential evolution algorithm,genetic algorithm}
     \endentry
     \entry{Bokeh}{manual}{}
       \name{author}{1}{}{%
@@ -567,12 +799,12 @@
            given={Jérôme},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=8ba4dc44e20a33d79eeaf44e36851156}{%
+        {{un=1,uniquepart=given,hash=8ba4dc44e20a33d79eeaf44e36851156}{%
            family={Gao},
            familyi={G\bibinitperiod},
            given={Lu},
            giveni={L\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=a3fe32d6ad4fbfd46998094d46facb33}{%
            family={Labat},
            familyi={L\bibinitperiod},
@@ -1773,6 +2005,70 @@
       \verb https://github.com/AdvancedPhotonSource/cohere
       \endverb
     \endentry
+    \entry{Gao2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=a85dcf731e772b177341998a236d587a}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8c3b8ecb506d81c42b6429a865282a94}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Xiaojing},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1604b5d5d9284f7dbd79c41b24ce52f8}{%
+           family={Harder},
+           familyi={H\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cfb6a661ec68e28b40c5745834b6353}{%
+           family={Cha},
+           familyi={C\bibinitperiod},
+           given={Wonsuk},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a230fc957a679b5a3067b9e1ca8ab0f2}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Garth\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e2b5d72cbb17afe035f7da19758f549}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Hanfei},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca567478943da4464a1488087692cb3a}
+      \strng{fullhash}{69f954fcc0e2d2659fa4418a3d17f7ad}
+      \strng{bibnamehash}{ca567478943da4464a1488087692cb3a}
+      \strng{authorbibnamehash}{ca567478943da4464a1488087692cb3a}
+      \strng{authornamehash}{ca567478943da4464a1488087692cb3a}
+      \strng{authorfullhash}{69f954fcc0e2d2659fa4418a3d17f7ad}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2469-9950}
+      \field{issue}{18}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{11}
+      \field{title}{Modeling and experimental validation of dynamical effects in Bragg coherent x-ray diffractive imaging of finite crystals}
+      \field{volume}{106}
+      \field{year}{2022}
+      \field{pages}{184111}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.106.184111
+      \endverb
+    \endentry
     \entry{gerchberg_practical_1972}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=141f0babd77cf931137f30724446567e}{%
@@ -1810,6 +2106,53 @@
       \verb GerchbergandSaxton1972.pdf:/Users/marieingridrichard/Zotero/storage/KL297F8F/GerchbergandSaxton1972.pdf:application/pdf
       \endverb
       \keyw{algorithm,cgh,hologram,pingpong}
+    \endentry
+    \entry{Glavic2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=efdd3f094fd889c86e99fedf728b4d7f}{%
+           family={Glavic},
+           familyi={G\bibinitperiod},
+           given={Artur},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=399967542a150acdcb84f9846759759d}{%
+           family={Björck},
+           familyi={B\bibinitperiod},
+           given={Matts},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b3a2c4826ab67fbeb324dde1608cbbec}
+      \strng{fullhash}{b3a2c4826ab67fbeb324dde1608cbbec}
+      \strng{bibnamehash}{b3a2c4826ab67fbeb324dde1608cbbec}
+      \strng{authorbibnamehash}{b3a2c4826ab67fbeb324dde1608cbbec}
+      \strng{authornamehash}{b3a2c4826ab67fbeb324dde1608cbbec}
+      \strng{authorfullhash}{b3a2c4826ab67fbeb324dde1608cbbec}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Since its publication more than 15 years ago the {\it GenX} software has been continuously developed and has established itself as a standard package for analyzing X-ray and neutron reflectometry data. The evolution of the software during the last two major revisions is reported here. This includes a simplified model builder for beginners, simple samples, additional sample models, statistical error analysis and the use of just-in-time compilation modules for the reflectometry kernel to achieve higher performance. In addition, the influence of experimental errors on the reflectivity curve is discussed, and new features are described that allow the user to include these in the error statistics to improve the fitting and uncertainty estimation.}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{{{\it GenX 3}: the latest generation of an established tool}}
+      \field{volume}{55}
+      \field{year}{2022}
+      \field{pages}{1063\bibrangedash 1071}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1107/S1600576722006653
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1107/S1600576722006653
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1107/S1600576722006653
+      \endverb
+      \keyw{reflectometry,surface X-ray diffraction,neutron analysis,X-ray analysis}
     \endentry
     \entry{jupyter_computing_1}{article}{}
       \name{author}{2}{}{%
@@ -2058,6 +2401,207 @@
       \verb Full Text PDF:/Users/marieingridrichard/Zotero/storage/BNWICKLC/Guizar-Sicairos et al. - 2011 - Phase tomography from x-ray coherent diffractive i.pdf:application/pdf;Snapshot:/Users/marieingridrichard/Zotero/storage/2WSG55QU/fulltext.html:text/html
       \endverb
     \endentry
+    \entry{Gustafson2014}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=e9ef202445b76157c20fdf45a21dacb0}{%
+           family={Gustafson},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d18761b99d1845983560f2dcc83b3b7b}{%
+           family={Shipilin},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08835018e7f90fcf262517bf88eb4d72}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca186b9331e31ae7e4d40803735136ae}{%
+           family={Stierle},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b26d7d800d757768e8f8cd847057ec1}{%
+           family={Hejral},
+           familyi={H\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a1e18d950699cdcc02859d0fa4dd122}{%
+           family={Ruett},
+           familyi={R\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e03c19f2834b1b7918528fbf46b6c736}{%
+           family={Gutowski},
+           familyi={G\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0eb2462a3dc8ef6a6bea65e982100cd2}{%
+           family={Carlsson},
+           familyi={C\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4df857f0419b256965b152a06ffaf87e}{%
+           family={Skoglundh},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8e330f44098a0f5fdabcbdddd7dbac4}{%
+           family={Lundgren},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{a3238704bf90735531a28cc4c3ea585f}
+      \strng{fullhash}{9f405d3c61fd165bc59fdb122ffc92f4}
+      \strng{bibnamehash}{a3238704bf90735531a28cc4c3ea585f}
+      \strng{authorbibnamehash}{a3238704bf90735531a28cc4c3ea585f}
+      \strng{authornamehash}{a3238704bf90735531a28cc4c3ea585f}
+      \strng{authorfullhash}{9f405d3c61fd165bc59fdb122ffc92f4}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding the interaction between surfaces and their surroundings is crucial in many materials-science fields, such as catalysis, corrosion, and thin-film electronics, but existing characterization methods have not been capable of fully determining the structure of surfaces during dynamic processes, such as catalytic reactions, in a reasonable time frame. We demonstrate an x-ray-diffraction-based characterization method that uses high-energy photons (85 kiloelectron volts) to provide unexpected gains in data acquisition speed by several orders of magnitude and enables structural determinations of surfaces on time scales suitable for in situ studies. We illustrate the potential of high-energy surface x-ray diffraction by determining the structure of a palladium surface in situ during catalytic carbon monoxide oxidation and follow dynamic restructuring of the surface with subsecond time resolution.}
+      \field{issn}{10959203}
+      \field{issue}{6172}
+      \field{journaltitle}{Science}
+      \field{title}{High-energy surface x-ray diffraction for fast surface structure determination}
+      \field{volume}{343}
+      \field{year}{2014}
+      \field{pages}{758\bibrangedash 761}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1246834
+      \endverb
+    \endentry
+    \entry{Harder2007}{article}{}
+      \name{author}{5}{}{%
+        {{un=2,uniquepart=given,hash=bb97a112f61add4b5b941d11347f9a84}{%
+           family={Harder},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=841d15307839f61cab223aff66240df5}{%
+           family={Pfeifer},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3ad7153aa4b7dc05311c5da899fa260}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b067a0581b104525582ccbc6b0b961e}{%
+           family={Vartaniants},
+           familyi={V\bibinitperiod},
+           given={I.\bibnamedelimi A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=892104b4cadaea7613199fef90707a6c}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={I.\bibnamedelimi K.},
+           giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{dbcbc38057ff6662d202bc0c092af4e8}
+      \strng{fullhash}{61a0fbb1f8da1419565194a39f09936b}
+      \strng{bibnamehash}{dbcbc38057ff6662d202bc0c092af4e8}
+      \strng{authorbibnamehash}{dbcbc38057ff6662d202bc0c092af4e8}
+      \strng{authornamehash}{dbcbc38057ff6662d202bc0c092af4e8}
+      \strng{authorfullhash}{61a0fbb1f8da1419565194a39f09936b}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Expansion of the surface layers of a facetted hemispherical nanocrystal of Pb is reported at a temperature just below the melting point. Inversion of the coherent x-ray diffraction pattern yields quantitative three-dimensional maps of the deformation of the crystal from its equilibrium lattice spacing. Most of the surface of the crystal has a clear outward displacement, which decays exponentially into the bulk. This is suppressed on the (111) facet itself and is stronger on the spherical regions, suggesting that it arises from the orientational variation of the underlying surface stress.}
+      \field{issn}{1098-0121}
+      \field{issue}{11}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{9}
+      \field{title}{Orientation variation of surface strain}
+      \field{volume}{76}
+      \field{year}{2007}
+      \verb{doi}
+      \verb 10.1103/physrevb.76.115425
+      \endverb
+    \endentry
+    \entry{Harlow2020}{generic}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fa88ab51c2cd67485197c63687da38c8}{%
+           family={Harlow},
+           familyi={H\bibinitperiod},
+           given={Gary\bibnamedelima S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10ebdcdb9a80e9130142b6e09af51901}{%
+           family={Lundgren},
+           familyi={L\bibinitperiod},
+           given={Edvin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=898a9ea60b35dcb2d73f8d17a7174808}{%
+           family={Escudero-Escribano},
+           familyi={E\bibinithyphendelim E\bibinitperiod},
+           given={María},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{209b2610791d65fc9000d13c32b43ef0}
+      \strng{fullhash}{209b2610791d65fc9000d13c32b43ef0}
+      \strng{bibnamehash}{209b2610791d65fc9000d13c32b43ef0}
+      \strng{authorbibnamehash}{209b2610791d65fc9000d13c32b43ef0}
+      \strng{authornamehash}{209b2610791d65fc9000d13c32b43ef0}
+      \strng{authorfullhash}{209b2610791d65fc9000d13c32b43ef0}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Determining how electrode structure governs the performance of an electrocatalyst requires techniques capable of probing structure at the atomic scale, often in situ and operando. In recent years, there have been numerous advances in the main experimental techniques for determining the structure of the electrochemical interface. In situ/operando synchrotron surface x-ray diffraction measurements are key to investigate the atomic structure of the electrode surfaces as well as understand the structure-reactivity relations in electrocatalysis. Here we discuss some recent improvements that have taken place in surface x-ray diffraction and how we expect them to lead to an enhanced understanding of electrocatalysis.}
+      \field{issn}{24519111}
+      \field{journaltitle}{Current Opinion in Electrochemistry}
+      \field{month}{10}
+      \field{title}{Recent advances in surface x-ray diffraction and the potential for determining structure-sensitivity relations in single-crystal electrocatalysis}
+      \field{volume}{23}
+      \field{year}{2020}
+      \field{pages}{162\bibrangedash 173}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.coelec.2020.08.005
+      \endverb
+      \keyw{Crystal truncation rods,Electrocatalysis,Electrode structure,Single crystals,Surface x-ray diffraction}
+    \endentry
     \entry{van_heel_fourier_2005}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=120588017fe2a0a35dee53512e78949c}{%
@@ -2112,6 +2656,67 @@
       \verb ScienceDirect Snapshot:/Users/marieingridrichard/Zotero/storage/HUQX66CY/S1047847705001292.html:text/html
       \endverb
       \keyw{cryo-EM,Fourier shell correlation,Information,Resolution criteria,Single particles}
+    \endentry
+    \entry{Hejral2021}{generic}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=4c4ce95dc59c6d354cb3a4a0de7c52e7}{%
+           family={Hejral},
+           familyi={H\bibinitperiod},
+           given={Uta},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca9a655508a63c2fbf3a23a27fe9d046}{%
+           family={Shipilin},
+           familyi={S\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=426f36e1f47e5fed9790a659e9e2713b}{%
+           family={Gustafson},
+           familyi={G\bibinitperiod},
+           given={Johan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d766a3a04d700f500a117978cf58e49}{%
+           family={Stierle},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10ebdcdb9a80e9130142b6e09af51901}{%
+           family={Lundgren},
+           familyi={L\bibinitperiod},
+           given={Edvin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing Ltd}%
+      }
+      \strng{namehash}{56a9f72583c82d19b599b25321eefea5}
+      \strng{fullhash}{85757ae4e0ef2bbf11a6c212c0d2e02f}
+      \strng{bibnamehash}{56a9f72583c82d19b599b25321eefea5}
+      \strng{authorbibnamehash}{56a9f72583c82d19b599b25321eefea5}
+      \strng{authornamehash}{56a9f72583c82d19b599b25321eefea5}
+      \strng{authorfullhash}{85757ae4e0ef2bbf11a6c212c0d2e02f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Catalysts are materials that accelerate the rate of a desired chemical reaction. As such, they constitute an integral part in many applications ranging from the production of fine chemicals in chemical industry to exhaust gas treatment in vehicles. Accordingly, it is of utmost economic interest to improve catalyst efficiency and performance, which requires an understanding of the interplay between the catalyst structure, the gas phase and the catalytic activity under realistic reaction conditions at ambient pressures and elevated temperatures. In recent years efforts have been made to increasingly develop techniques that allow for investigating model catalyst samples under conditions closer to those of real technical catalysts. One of these techniques is high energy surface x-ray diffraction (HESXRD), which uses x-rays with photon energies typically in the range of 70-80 keV. HESXRD allows a fast data collection of three dimensional reciprocal space for the structure determination of model catalyst samples under operando conditions and has since been used for the investigation of an increasing number of different model catalysts. In this article we will review general considerations of HESXRD including its working principle for different model catalyst samples and the experimental equipment required. An overview over HESXRD investigations performed in recent years will be given, and the advantages of HESXRD with respect to its application to different model catalyst samples will be presented. Moreover, the combination of HESXRD with other operando techniques such as in situ mass spectrometry, planar laser-induced fluorescence and surface optical reflectance will be discussed. The article will close with an outlook on future perspectives and applications of HESXRD.}
+      \field{issn}{1361648X}
+      \field{issue}{7}
+      \field{journaltitle}{Journal of Physics Condensed Matter}
+      \field{month}{2}
+      \field{title}{High energy surface x-ray diffraction applied to model catalyst surfaces at work}
+      \field{volume}{33}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1088/1361-648X/abb17c
+      \endverb
+      \keyw{High energy surface x-ray diffraction,Laser-induced fluorescence,Model catalysts,Nanoparticles,Operando catalysis,Surface optical reflectance,Vicinal surfaces}
     \endentry
     \entry{hofmann_nanoscale_2020}{article}{}
       \name{author}{8}{}{%
@@ -2195,6 +2800,57 @@
       \verb{doi}
       \verb 10.1103/PhysRevMaterials.4.013801
       \endverb
+    \endentry
+    \entry{Hu2018}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=89d998e310410d2237a7a4b26f88ea0b}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Wen},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c3b8ecb506d81c42b6429a865282a94}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Xiaojing},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e2b5d72cbb17afe035f7da19758f549}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Hanfei},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-Blackwell}%
+      }
+      \strng{namehash}{2228f58f81f73bd42a61dce113ecce22}
+      \strng{fullhash}{2228f58f81f73bd42a61dce113ecce22}
+      \strng{bibnamehash}{2228f58f81f73bd42a61dce113ecce22}
+      \strng{authorbibnamehash}{2228f58f81f73bd42a61dce113ecce22}
+      \strng{authornamehash}{2228f58f81f73bd42a61dce113ecce22}
+      \strng{authorfullhash}{2228f58f81f73bd42a61dce113ecce22}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article reports a theoretical study on the reconstruction artefacts in Bragg coherent diffractive imaging caused by dynamical diffraction effects. It is shown that, unlike the absorption and refraction effects that can be corrected after reconstruction, dynamical diffraction effects have profound impacts on both the amplitude and the phase of the reconstructed complex object, causing strong artefacts. At the dynamical diffraction limit, the reconstructed shape is no longer correct, as a result of the strong extinction effect. Simulations for hemispherical particles of different sizes show the type, magnitude and extent of the dynamical diffraction artefacts, as well as the conditions under which they are negligible.The article presents a theoretical study on dynamic artefacts in the reconstruction of Bragg coherent diffractive imaging using an iterative phase retrieval algorithm.}
+      \field{issn}{16005767}
+      \field{issue}{1}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{month}{2}
+      \field{title}{Dynamic diffraction artefacts in Bragg coherent diffractive imaging}
+      \field{volume}{51}
+      \field{year}{2018}
+      \field{pages}{167\bibrangedash 174}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1107/S1600576718000274
+      \endverb
+      \keyw{Bragg coherent diffractive imaging,dynamic diffraction,iterative phase reconstruction}
     \endentry
     \entry{hunter2007matplotlib}{article}{}
       \name{author}{1}{}{%
@@ -2289,6 +2945,48 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.1103/PhysRevB.75.245425
+      \endverb
+    \endentry
+    \entry{Karpov2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1fe0b309bc842a3ae3884d0926e07e0e}{%
+           family={Karpov},
+           familyi={K\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91b12b9c05e7e6729d6f0ed1c5134c16}{%
+           family={Fohtung},
+           familyi={F\bibinitperiod},
+           given={Edwin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b9c4ebe441a06b1457582c579be5c885}
+      \strng{fullhash}{b9c4ebe441a06b1457582c579be5c885}
+      \strng{bibnamehash}{b9c4ebe441a06b1457582c579be5c885}
+      \strng{authorbibnamehash}{b9c4ebe441a06b1457582c579be5c885}
+      \strng{authornamehash}{b9c4ebe441a06b1457582c579be5c885}
+      \strng{authorfullhash}{b9c4ebe441a06b1457582c579be5c885}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Strain engineering is a promising technology with potential application in memory devices, electronic elements, photoactive materials, etc. Nanoscale imaging of the strain is therefore important to better understand the operating condition of the device, growth processes, and influences of other factors. X-rays offer the advantage over electron-based techniques in that they offer high spatial resolution and access to volumetric information within nanostructured materials. This paper describes the basic physics behind strain at the nanoscale and provides a concise summary of the efforts in coherent diffractive imaging for the imaging of the displacement fields in nanocrystals. Although the approach is still under development, with instruments being continuously improved, a number of important results have already been demonstrated.}
+      \field{annotation}{Nice review}
+      \field{issn}{10897550}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{number}{12}
+      \field{title}{{Bragg coherent diffractive imaging of strain at the nanoscale}}
+      \field{volume}{125}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1063/1.5054294
+      \endverb
+      \verb{file}
+      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Karpov, Fohtung - 2019 - Bragg coherent diffractive imaging of strain at the nanoscale.pdf:pdf
       \endverb
     \endentry
     \entry{Khaleghi2019}{article}{}
@@ -3451,6 +4149,89 @@
       \verb Marchesini - 2007 - Publisher's Note “Invited Article A unified eval.pdf:/Users/marieingridrichard/Zotero/storage/J9PUHBSA/Marchesini - 2007 - Publisher's Note “Invited Article A unified eval.pdf:application/pdf;Scitation\: Publisher's Note\: “Invited Article\: A unified evaluation of iterative projection algorithms for phase retrieval” [Rev. Sci. Instrum. 78, 011301 (2007)]:/Users/marieingridrichard/Zotero/storage/INFUMBCG/1.html:text/html
       \endverb
     \endentry
+    \entry{marchesini_x-ray_2003}{article}{}
+      \name{author}{8}{ul=1}{%
+        {{un=0,uniquepart=base,hash=83135380d80d77b3b36812e0f386fe1f}{%
+           family={Marchesini},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d48651e85ff8cb16f279fb6e67611552}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4903791d9620c95e674f60ed6b1c751b}{%
+           family={Chapman},
+           familyi={C\bibinitperiod},
+           given={H.\bibnamedelimi N.},
+           giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c2d7e518e93ac4943ab0783eae7ec38}{%
+           family={Hau-Riege},
+           familyi={H\bibinithyphendelim R\bibinitperiod},
+           given={S.\bibnamedelimi P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=040f8dc79dcf1a040677742a44a85a13}{%
+           family={Noy},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae780271fd82d6fdd2180861ab5a5d2a}{%
+           family={Howells},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=361fbbfa2626b503cc46d41c2370c37c}{%
+           family={Weierstall},
+           familyi={W\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e277d5806170a28529f4999ce6abe9a8}{%
+           family={Spence},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi C.\bibnamedelimi H.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ea8cc15866807c7d047e4263f5673554}
+      \strng{fullhash}{141b6d67fd35c89c81622bdfe585b3f9}
+      \strng{bibnamehash}{ea8cc15866807c7d047e4263f5673554}
+      \strng{authorbibnamehash}{ea8cc15866807c7d047e4263f5673554}
+      \strng{authornamehash}{ea8cc15866807c7d047e4263f5673554}
+      \strng{authorfullhash}{141b6d67fd35c89c81622bdfe585b3f9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A solution to the inversion problem of scattering would offer aberration-free diffraction-limited three-dimensional images without the resolution and depth-of-field limitations of lens-based tomographic systems. Powerful algorithms are increasingly being used to act as lenses to form such images. Current image reconstruction methods, however, require the knowledge of the shape of the object and the low spatial frequencies unavoidably lost in experiments. Diffractive imaging has thus previously been used to increase the resolution of images obtained by other means. Here we experimentally demonstrate an inversion method, which reconstructs the image of the object without the need for any such prior knowledge.}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{10}
+      \field{number}{14}
+      \field{title}{X-ray image reconstruction from a diffraction pattern alone}
+      \field{urlday}{8}
+      \field{urlmonth}{2}
+      \field{urlyear}{2019}
+      \field{volume}{68}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{140101}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.68.140101
+      \endverb
+      \verb{file}
+      \verb APS Snapshot:/Users/marieingridrichard/Zotero/storage/QK7J6Q2X/PhysRevB.68.html:text/html;Submitted Version:/Users/marieingridrichard/Zotero/storage/VCGVYK8J/Marchesini et al. - 2003 - X-ray image reconstruction from a diffraction patt.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{Martini2019a}{article}{}
       \name{author}{11}{}{%
         {{un=2,uniquepart=given,hash=fbdb1f55a2959b1efa5c01cb20cf03b0}{%
@@ -3773,6 +4554,69 @@
       \verb 10.1145/3219104.3219162
       \endverb
       \keyw{High performance computing,Jupyter,interfaces,management}
+    \endentry
+    \entry{Minkevich2007}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=17cda1d861792773d36f95347e44d2c7}{%
+           family={Minkevich},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8608467248756458670d0aa6534ddfe6}{%
+           family={Gailhanou},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86e7da93170818f9279cf906ac09bd88}{%
+           family={Micha},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c15239d0e46b8a5894d0c417909d606}{%
+           family={Charlet},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37bfab267f58778fcb6e6c9aa9a1eac8}{%
+           family={Chamard},
+           familyi={C\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18c7ea5ebe227dd6a381d07eeac8b4a3}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3669f364bdcd772487785eced70e5680}
+      \strng{fullhash}{be6909d09c0ea17d64ec5cb30e58df84}
+      \strng{bibnamehash}{3669f364bdcd772487785eced70e5680}
+      \strng{authorbibnamehash}{3669f364bdcd772487785eced70e5680}
+      \strng{authornamehash}{3669f364bdcd772487785eced70e5680}
+      \strng{authorfullhash}{be6909d09c0ea17d64ec5cb30e58df84}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The displacement field in highly nonuniformly strained crystals is obtained by addition of constraints to an iterative phase retrieval algorithm. These constraints include direct space density uniformity and also constraints to the sign and derivatives of the different components of the displacement field. This algorithm is applied to an experimental reciprocal space map measured using high-resolution x-ray diffraction from an array of silicon lines, and the obtained component of the displacement field is in very good agreement with the one calculated using a finite element model. © 2007 The American Physical Society.}
+      \field{issn}{10980121}
+      \field{issue}{10}
+      \field{journaltitle}{Physical Review B - Condensed Matter and Materials Physics}
+      \field{month}{9}
+      \field{title}{Inversion of the diffraction pattern from an inhomogeneously strained crystal using an iterative algorithm}
+      \field{volume}{76}
+      \field{year}{2007}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.76.104106
+      \endverb
     \endentry
     \entry{Munafo2017}{article}{}
       \name{author}{10}{}{%
@@ -4287,12 +5131,12 @@
     \endentry
     \entry{thesismark}{thesis}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=8a22dfbf0391def23bf034a44054a99f}{%
+        {{un=1,uniquepart=given,hash=8a22dfbf0391def23bf034a44054a99f}{%
            family={Pfeifer},
            familyi={P\bibinitperiod},
            given={Mark},
            giveni={M\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{8a22dfbf0391def23bf034a44054a99f}
       \strng{fullhash}{8a22dfbf0391def23bf034a44054a99f}
@@ -4309,6 +5153,64 @@
       \field{month}{01}
       \field{title}{Structural studies of lead nanocrystals using coherent X-ray diffraction}
       \field{year}{2005}
+    \endentry
+    \entry{Pfeifer2006}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=8e94d4d50a980581c49ed85de49e9a23}{%
+           family={Pfeifer},
+           familyi={P\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a230fc957a679b5a3067b9e1ca8ab0f2}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Garth\bibnamedelima J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa35e71651c9bc0421839c043e5e21a7}{%
+           family={Vartanyants},
+           familyi={V\bibinitperiod},
+           given={Ivan\bibnamedelima A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1604b5d5d9284f7dbd79c41b24ce52f8}{%
+           family={Harder},
+           familyi={H\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26ef2a244e00cf6b05a79490693f2994}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Ian\bibnamedelima K.},
+           giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a23377db1caa28061357d221c947b892}
+      \strng{fullhash}{0778787800e2e838fab54f726b871e95}
+      \strng{bibnamehash}{a23377db1caa28061357d221c947b892}
+      \strng{authorbibnamehash}{a23377db1caa28061357d221c947b892}
+      \strng{authornamehash}{a23377db1caa28061357d221c947b892}
+      \strng{authorfullhash}{0778787800e2e838fab54f726b871e95}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Coherent X-ray diffraction imaging is a rapidly advancing form of microscopy: diffraction patterns, measured using the latest third-generation synchrotron radiation sources, can be inverted to obtain full three-dimensional images of the interior density within nanocrystals. Diffraction from an ideal crystal lattice results in an identical copy of this continuous diffraction pattern at every Bragg peak. This symmetry is broken by the presence of strain fields, which arise from the epitaxial contact forces that are inevitable whenever nanocrystals are prepared on a substrate. When strain is present, the diffraction copies at different Bragg peaks are no longer identical and contain additional information, appearing as broken local inversion symmetry about each Bragg point. Here we show that one such pattern can nevertheless be inverted to obtain a 'complex' crystal density, whose phase encodes a projection of the lattice deformation. A lead nanocrystal was crystallized in ultrahigh vacuum from a droplet on a silica substrate and equilibrated close to its melting point. A three-dimensional image of the density, obtained by inversion of the coherent X-ray diffraction, shows the expected facetted morphology, but in addition reveals a real-space phase that is consistent with the three-dimensional evolution of a deformation field arising from interfacial contact forces. Quantitative three-dimensional imaging of lattice strain on the nanometre scale will have profound consequences for our fundamental understanding of grain interactions and defects in crystalline materials. Our method of measuring and inverting diffraction patterns from nanocrystals represents a vital step towards the ultimate goal of atomic resolution single-molecule imaging that is a prominent justification for development of X-ray free-electron lasers. © 2006 Nature Publishing Group.}
+      \field{issn}{14764687}
+      \field{issue}{7098}
+      \field{journaltitle}{Nature}
+      \field{title}{Three-dimensional mapping of a deformation field inside a nanocrystal}
+      \field{volume}{442}
+      \field{year}{2006}
+      \field{pages}{63\bibrangedash 66}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nature04867
+      \endverb
     \endentry
     \entry{Resta2020a}{article}{}
       \name{author}{13}{}{%
@@ -4823,12 +5725,12 @@
            given={Ian},
            giveni={I\bibinitperiod},
            givenun=1}}%
-        {{un=1,uniquepart=given,hash=1604b5d5d9284f7dbd79c41b24ce52f8}{%
+        {{un=2,uniquepart=given,hash=1604b5d5d9284f7dbd79c41b24ce52f8}{%
            family={Harder},
            familyi={H\bibinitperiod},
            given={Ross},
            giveni={R\bibinitperiod},
-           givenun=1}}%
+           givenun=2}}%
       }
       \list{language}{1}{%
         {en}%
@@ -4931,14 +5833,125 @@
       \endverb
       \keyw{X-ray diffraction,data analysis,data reduction,reciprocal-space mapping}
     \endentry
+    \entry{Takagi1969}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=be32b1d127f1bc119f12f57789224347}{%
+           family={Satio},
+           familyi={S\bibinitperiod},
+           given={Takagi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{be32b1d127f1bc119f12f57789224347}
+      \strng{fullhash}{be32b1d127f1bc119f12f57789224347}
+      \strng{bibnamehash}{be32b1d127f1bc119f12f57789224347}
+      \strng{authorbibnamehash}{be32b1d127f1bc119f12f57789224347}
+      \strng{authornamehash}{be32b1d127f1bc119f12f57789224347}
+      \strng{authorfullhash}{be32b1d127f1bc119f12f57789224347}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Journal of the Physical Societey of Japan}
+      \field{title}{A dynamical theory of diffraction for a Distorted Crystal}
+      \field{volume}{26}
+      \field{year}{1969}
+      \field{pages}{1239}
+      \range{pages}{1}
+    \endentry
+    \entry{Schlepütz2005}{article}{}
+      \name{author}{9}{}{%
+        {{un=2,uniquepart=given,hash=a5e088158013bdce2391df9c38b80a65}{%
+           family={Schlepütz},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=5068f3c3536347652742ab3a85a1d332}{%
+           family={Herger},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55aca2e1f05662633c4d3538edd6bc8c}{%
+           family={Willmott},
+           familyi={W\bibinitperiod},
+           given={P.\bibnamedelimi R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f59dd169a57408f9f77df8d664589b7}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad2f14bfd04eab17e09ee5b996ac1a13}{%
+           family={Bunk},
+           familyi={B\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56aa2c4fe8e1474fb804e97a89d0d091}{%
+           family={Brönnimann},
+           familyi={B\bibinitperiod},
+           given={Ch},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=352b57b636b7d2a98d35afea290b6c5e}{%
+           family={Henrich},
+           familyi={H\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a031c7fe8cee0d9a445432cce79cdad3}{%
+           family={Hülsen},
+           familyi={H\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d67a3ecd08f55cadbd8cba5e33f4d2d}{%
+           family={Eikenberry},
+           familyi={E\bibinitperiod},
+           given={E.\bibnamedelimi F.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dda12f97e3072a71308c7a0c59cbf952}
+      \strng{fullhash}{83c02b5f13e7f0c8753593f985fb4641}
+      \strng{bibnamehash}{dda12f97e3072a71308c7a0c59cbf952}
+      \strng{authorbibnamehash}{dda12f97e3072a71308c7a0c59cbf952}
+      \strng{authornamehash}{dda12f97e3072a71308c7a0c59cbf952}
+      \strng{authorfullhash}{83c02b5f13e7f0c8753593f985fb4641}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The use of an area detector in grazing-incidence X-ray experiments lends many advantages in terms of both speed and reliability. Here a discussion is given of the procedures established using the PILATUS pixel detector developed at the Swiss Light Source for optimizing data acquisition and analysis of surface diffraction data at the Materials Science beamline, especially with regard to reflectivity measurements, crystal truncation and fractional order rods, and grazing-incidence diffraction experiments. © 2005 International Union of Crystallography - all rights reserved.}
+      \field{issn}{01087673}
+      \field{issue}{4}
+      \field{journaltitle}{Acta Crystallographica Section A: Foundations of Crystallography}
+      \field{title}{Improved data acquisition in grazing-incidence X-ray scattering experiments using a pixel detector}
+      \field{volume}{61}
+      \field{year}{2005}
+      \field{pages}{418\bibrangedash 425}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1107/S0108767305014790
+      \endverb
+    \endentry
     \entry{Schleputz2011}{article}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=08f61de9685ca475e5ed67b75dba3351}{%
+        {{un=2,uniquepart=given,hash=08f61de9685ca475e5ed67b75dba3351}{%
            family={Schlepütz},
            familyi={S\bibinitperiod},
            given={Christian\bibnamedelima M.},
            giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=874d5482c3b281702f729e227bebe855}{%
            family={Mariager},
            familyi={M\bibinitperiod},
@@ -5319,6 +6332,38 @@
       \verb 10.1145/3311790.3396648
       \endverb
       \keyw{containers,Jupyter,reproducibility}
+    \endentry
+    \entry{Takagi1962}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d4371f6a0efdd38e51c0037f23110baa}{%
+           family={Takagi},
+           familyi={T\bibinitperiod},
+           given={Satio},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Akademische Verlagsgesellschaft. STURKEY, L}%
+      }
+      \strng{namehash}{d4371f6a0efdd38e51c0037f23110baa}
+      \strng{fullhash}{d4371f6a0efdd38e51c0037f23110baa}
+      \strng{bibnamehash}{d4371f6a0efdd38e51c0037f23110baa}
+      \strng{authorbibnamehash}{d4371f6a0efdd38e51c0037f23110baa}
+      \strng{authornamehash}{d4371f6a0efdd38e51c0037f23110baa}
+      \strng{authorfullhash}{d4371f6a0efdd38e51c0037f23110baa}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{SHORT COMMUNICATIONS ~V,o(r)/~So =-i:rK79i(r)v/n(r) , [ ~Y~n (r)/~sh =-izrKZh(r)y,o(r) + i2:rKflh~,h (r) I (8) which hold also for X-rays, if zh(r) is read as the Fourier coefficient of 4.~ times the polarizability of the crystal with appropriate polarization factor. The boundary conditions at the entrance surface are expressed in similar form as in the ordinary theory, namely V,o(re) = To(re) | y'h(re) 0 ] (9) where re is a position vector on the entrance surface, and T0(re) the amplitude of the incident wave in vacuum. The fact that both sides of (9) are slowly varying functions of position instead of constants is important; incident waves other than plane waves can be treated as well. One of the methods of solution of (8) is to convert ///, l) ko kh I Fig. 1. Schematic drawing showing methods of solution of equation (8). The upper arrows and one of the lower ones are in the direction of the incident wave or of ko, and the other lower one in that of k h. The solutions at P on the exit surface are determined by the part of the incident wave falling between A and B, and can be calculated either by the method of Riemann functions or by successive numerical calculations at each mesh point. it into second-order partial differential equations for Y'0 and Vh, each of which have a hyperbolic form which is capable of solution by the method of Riemann functions. This method gives the solution at a point P inside or on the exit surface of the crystal by a surface integral over AB (Fig. l) where A and B are points on the entrance surface such that AP and BP are, respectively , parallel to k 0 and kh. The integral involves T0(re) and the Riemann function for this particular point P given by the values of Xh, ~ and fla inside the triangle PAB, and its derivatives. This result is of theoretical importance, since it shows that only values of the amplitude of the incident wave falling between A and B contribute to the wave function at P, providing a theoretical basis for the column approximation in the electron case where the triangle PAB reduces to a thin column owing to the small Bragg angle. Equation (8) is also capable of a numerical solution. It includes only the derivatives ~Vo/~S o and ~a/~Sh out of four possible first-order ones. This shows that if we divide the triangle PAB by a fine mesh with axes parallel to k 0 and ka, as shown in Fig. 1, the value of Y'o at P, say, is determined by the values of V0 and v/h at Q, and that of V'n at P, by those of V0 and ~h at R and so on. The repetition of this process from the top surface AB to the bottom will give the solution at P.}
+      \field{journaltitle}{Phil. Trans. Roy. Soc. A}
+      \field{title}{Dynamical theory of diffraction applicable to crystals with any kind of small distortion.}
+      \field{volume}{23}
+      \field{year}{1962}
+      \field{pages}{1311\bibrangedash 1312}
+      \range{pages}{2}
     \endentry
     \entry{default_1925}{article}{}
       \name{author}{2}{}{%
@@ -6022,6 +7067,45 @@
       \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Wu et al. - 2021 - Complex imaging of phase domains by deep neural networks.pdf:pdf
       \endverb
       \keyw{are installed when editing,available from http,bragg coherent x-ray diffraction,data - to preserve,data integrity,docxtemplate,important,iucr,journals,machine learning,org,phase retrieval,please ensure where possible,services,that the iucr,this document,this document contains embedded,word tools}
+    \endentry
+    \entry{Yan2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1e2b5d72cbb17afe035f7da19758f549}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Hanfei},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=502de95c3193f5c283f4ef712520a97e}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{235d9b7323382bb871b858b67ed147ef}
+      \strng{fullhash}{235d9b7323382bb871b858b67ed147ef}
+      \strng{bibnamehash}{235d9b7323382bb871b858b67ed147ef}
+      \strng{authorbibnamehash}{235d9b7323382bb871b858b67ed147ef}
+      \strng{authornamehash}{235d9b7323382bb871b858b67ed147ef}
+      \strng{authorfullhash}{235d9b7323382bb871b858b67ed147ef}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The effects of dynamical diffraction in single crystals engender many unique diffraction phenomena that cannot be interpreted by the kinematical-diffraction theory, yet knowledge of them is vital to resolving a vast variety of scientific problems ranging from crystal optics to strain measurements in crystalline specimens. Although the fundamental dynamical-diffraction theory was established decades ago, modeling it remains a challenge in a general case wherein the crystal has complex boundaries and mixed diffraction geometries (Bragg or Laue). Here, we propose a universal approach for modeling x-ray dynamical diffraction from a single crystal with arbitrary shape and strain field that is based on the integral representation of the Takagi-Taupin equations. Using it, we can construct the solution iteratively via a converging series, independent of the diffraction geometry. Moreover, the integral equations offer additional insights into the diffraction physics that are not readily apparent in its differential counterparts. To demonstrate this approach, we studied the dynamical diffraction from a slab of single crystal with both Bragg and Laue diffraction excited on the entrance boundaries, a problem that is difficult to model by other methods. We also explored the mirage effect caused by the presence of a linear strain field and compared it to the Eikonal theory. Lastly, we derived a dynamical-diffraction equation correlating the structural properties of a particle to its far-field Bragg-diffraction pattern, shedding light on how dynamical diffraction affects these kinematical-diffraction-based inverse techniques for reconstructing the shape and the strain field. © 2014 American Physical Society.}
+      \field{issn}{10980121}
+      \field{issue}{1}
+      \field{journaltitle}{Physical Review B - Condensed Matter and Materials Physics}
+      \field{month}{1}
+      \field{title}{X-ray dynamical diffraction from single crystals with arbitrary shape and strain field: A universal approach to modeling}
+      \field{volume}{89}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.89.014104
+      \endverb
     \endentry
     \entry{jupyter_computing_4}{inproceedings}{}
       \name{author}{6}{}{%

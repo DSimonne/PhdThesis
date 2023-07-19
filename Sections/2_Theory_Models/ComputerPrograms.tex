@@ -1,18 +1,21 @@
 \newpage
 \section{Computer programs}
 
-With the upgrade of synchrotrons to more brilliant sources, imaging beamlines have received increasing attention from the scientific community and yield larger and more complex data that far exceed the basic diffraction pattern (a reconstructed BCDI measurement is a complex array in 3 dimensions) (cite new beamlines that do imaging techniques like SixS, Crystal, new beamline at esrf etc).
+With the upgrade of synchrotrons to more brilliant sources, imaging beamlines (ID01 - ESRF, P10 - PETRA III, SixS and CRISTAL - SOLEIL, NanoMAX - MAX IV, 34-ID-C - APS) have received increasing attention from the scientific community and yield larger and more complex data that far exceed the basic diffraction pattern (a reconstructed BCDI measurement consists of a complex array in 3 dimensions).
 In a more general frame, the increase in flux at synchrotrons leads to quicker experiments, which in turn leads to an increased data stream stored on the beamlines, often in different formats.
 
-Synchrotrons have effectively stepped in the wold of "big data" \parencite{Alizada2017, Wang2018}, which refers to a vast volume of structured, semi-structured, and unstructured data that is generated at a high velocity and comes from various sources.
+Synchrotrons have effectively stepped in the wold of "big data" \parencite{Alizada2017, Wang2018}, which refers to a vast volume of data that is generated at a high velocity and comes from various sources.
 This data is typically too complex or large to be processed and analyzed using traditional data management tools or methods that were originally written to simulate or fit only a few datasets at a time.
-In the specific case of Bragg coherent diffration imaging, new tools have been developed during the thesis (sec. \ref{sec:Gwaihir}, \cite{jerome_carnis_2021_5741935, Simonne2022}) to help create a fast and reproducible workflow, but it is a more general way of working that must be adopted in synchrotrons to adapt and profit from the transition to big data \parencite{Wang2018}.
+In the specific case of Bragg coherent diffration imaging, new tools have been developed during the thesis (sec. \ref{sec:Gwaihir}, \cite{jerome_carnis_2021_5741935, Simonne2022}) to help create a fast and reproducible workflow.
+Nevertheless, it is a more general way of working that must be adopted in synchrotrons to adapt and profit from the transition to big data \parencite{Wang2018}.
 This does not only concern scientific analysis but also the complexity of synchrotron beamlines that could benefit from the use of big data to upgrade their performance (cite projet maxime).
 
 First, synchrotron data must be stored in a comprehensive data format \parencite{Konnecke2015} that contains not only detector images but all of the important metadata linked to the experiment, providing a more comprehensive and detailed view.
 The fine selection of the beamline attributes that can be of interest for the discovery of hidden patterns, correlations, and trends that may not be apparent with smaller datasets is left to the beamline scientists.
 
-Secondly, synchrotrons must offer high performance computing (HPC) clusters \parencite{Wang2021} compatible with the most common integrated development environment (IDE) and either have an internal strategy or trust their users to be able to develop tools that can use their power to uncover valuable insights \parencite{WangIEEE2016, Khaleghi2019}.
+Secondly, synchrotrons must offer high performance computing (HPC) clusters \parencite{Wang2021} and render the data available to the users through an interface compatible with the most common integrated development environment (IDE).
+
+Finally, synchrotrons must either have an internal strategy or trust their users to be able to upgrade and develop tools that in a first stage are able to handle large volumes of data and in a second stage take advantage from that volume to uncover valuable insights \parencite{WangIEEE2016, Khaleghi2019}.
 These insights can lead to new discoveries and enhance our understanding of complex phenomena, driving scientific progress.
 
 % The use of big data expands research capabilities by allowing studies to be conducted on a much larger scale whereas traditional scientific experiments often rely on a limited number of observations or samples, which may not capture the full complexity of real-world phenomena.
@@ -21,7 +24,9 @@ These insights can lead to new discoveries and enhance our understanding of comp
 
 On one hand, linking reproducibility and big data is crucial for ensuring the credibility and reliability of the insights derived from large and complex datasets.
 Reproducibility in the context of big data refers to the ability to replicate or re-run data analysis processes to obtain consistent results.
-Achieving reproducibility with big data can be challenging due to the massive volume, velocity, and variety of the data involved, in the case of Bragg coherent diffraction imaging, if measurements took a few dozens of minutes a few years ago, we are now capable of measuring a single rocking curve in less than a minut at specialized beamlines such as ID01 at the upgraded european synchrotron \parencite{Richter2019}.
+Achieving reproducibility with big data can be challenging due to the massive volume, velocity, and variety of the data involved.
+For example, in the case of Bragg coherent diffraction imaging, if measurements can take up to an hour at 3rd generation synchrotrons such as SOLEIL, it is now possible to measure a single rocking curve in less than a minute at specialized beamlines such as ID01 at the upgraded european synchrotron \parencite{Richter2019}.
+%In that case, in order to maximize the output of experiments carried out at synchrotrons
 
 On the other hand, discussions about defining a set of rules that regulate research practice \parencite{Kretser2019} and reduce the grey zone that includes scientific misconduct at all levels of academia \parencite{Kornfeld2016} are growing, raising awareness on data reproducibility in the scientific community.
 
@@ -36,39 +41,40 @@ Reproducible data will result in a global improvement of confidence in new techn
 \subsection{The Jupyter environment}
 
 The Jupyter Notebook environment \parencite{IPython, Kluyver2016jupyter} was chosen for the development of data analysis tools during this thesis for its versatile, user-friendly and browser-based interface.
-To simplify the data analysis pipelines in fourth-generation synchrotrons, it is of critical importance to offer the possibility for external users to analyse the collected data remotely with access to computational environments
-Remote access to Jupyter Notebook or JupyterLab is provided by JupyterHub, while the sharing of ressources is handled by SLURM.
-
-Jupyter Notebook has proven to be an effective tool for the analysis of synchrotron data, in terms of graphical user interface \parencite{Martini2019a,Simonne2020}, but also in terms of supporting scientific communities looking for high-performance frameworks \parencite{jupyter_computing_4, jupyter_computing_1, jupyter_computing_3, jupyter_computing_2, 9307800}.
-Moreover, computational environments and resources can be accessed from any computer \textit{via} JupyterHub, a specific interface for computing clusters.
-JupyterHub offers the possibility to proceed to heavy computations without relying on specific hardware, \textit{e.g.} graphical processing units, mandatory for accelerated phase retrieval with \textit{PyNX}.
-
-The Notebook can be used to take notes on the experiment or to create custom Python functions.
+Notebooks can be used to take notes during experiments or to create custom \textit{Python} functions.
 They can be shared in the \textit{.ipynb} format or as \textit{.pdf} documents.
-%\textit{Gwaihir} transforms each data-set into a structured Python object that can be accessed and manipulated in the Notebook for e.g. personalized figures, parameter tests, \textit{etc.}
+Moreover, Jupyter Notebook has proven to be an effective tool for the analysis of synchrotron data, in terms of graphical user interface (GUI) \parencite{Martini2019a,Simonne2020}, but also in terms of supporting scientific communities looking for high-performance frameworks \parencite{jupyter_computing_4, jupyter_computing_1, jupyter_computing_3, jupyter_computing_2, 9307800}.
 
-Moreover, researchers can create their own work-spaces from shared resources, with direct access to tailored computational environments, without having to install multiple software, keeping in mind that the use of GPUs for scripts optimisation is far from accessible.
+Large scale facilities and institutions seek ways to provide remote-access to high performance computing services for their users, which combine existing solutions in an interactive and user-friendly environment.
+Indeed, to simplify the data analysis pipelines in fourth-generation synchrotrons, it is of critical importance to offer the possibility for external users to analyse the collected data remotely with access to computational environments.
+Jupyter (https://jupyter.org/) is particularly advantageous and was chosen by several institutions for such purposes, \textit{e.g}. Google (Google Colab), the EGI federation, or the European Synchrotron.
+
+Computational environments and resources as well as remote access to Jupyter Notebook or JupyterLab is provided by JupyterHub, a specific interface for computing clusters that offers the possibility to proceed to heavy computations without relying on specific hardware, \textit{e.g.} graphical processing units (GPUs), mandatory for accelerated phase retrieval with \textit{PyNX}.
+The sharing of high performance computing clusters ressources is handled by SLURM (Simple Linux Utility for Resource Management).
+
+Moreover, researchers can create their own work-spaces, with direct access to tailored computational environments, without having to install multiple software, keeping in mind that the use of GPUs for scripts optimisation is far from accessible.
 Thus, system administrators can efficiently manage complex environments accessible to all users.
 Finally, remotely accessing the data avoids data storage issues, which can quickly become problematic with current experiments.
+Note that with the latest version of Jupyter, Jupyter4, real-time collaboration (RTC) will be supported, which also pushes Jupyter Notebook forward as a tool for laboratory notebooks.
 
-Interactive data analysis/visualisation relies on the \textit{ipywidgets} library.
-Widgets are represented in the back-end by a single object linked to a single parameter.
-The front-end relies on \textit{JavaScript} code; each time a widget is displayed, a new representation of that same object is created.
-The widgets' style, orientation, and layout attributes can be edited to customize the final window, \textit{e.g.}, the layout attribute exposes a number of properties that impact how widgets are laid out, such as height and width.
+% For most of the GUIs, interactive data analysis/visualisation relies on the \textit{ipywidgets} library.
+% Widgets are represented in the back-end by a single object linked to a single parameter.
+% The front-end relies on \textit{JavaScript} code; each time a widget is displayed, a new representation of that same object is created.
+% The widgets' style, orientation, and layout attributes can be edited to customize the final window, \textit{e.g.}, the layout attribute exposes a number of properties that impact how widgets are laid out, such as height and width.
 
 \subsection{Thorondor} \label{sec:Thorondor}
 
 Due to the lack of available free data reduction and analysis software at the B07 beamline in the Diamond synchrotron, a modified version \parencite{Simonne_Thorondor_2022_Diamond} of Thorondor \parencite{Simonne2020}, a program originally written for the analysis of NEXAFS data, was used to process the XPS data.
 To facilitate data reproducibility and open-source analysis workflows, an example of the data recorded during this thesis is available directly in the GitHub repository \cite{Simonne_Thorondor_2022_Diamond}.
 
-Since the XPS measurements were performed at different total pressures, the raw data had first to be reduced in order to be be able to analyse the different spectra all together.
+Since the XPS measurements were performed at different total pressures, the raw data had first to be reduced in order to analyse the different spectra in a systematic way.
 The classical workflow for the analysis of XPS data is to first align the recorded spectra on the Fermi edge that corresponds to the kinetic energy of the first electron that escapes the sample.
-By doing so, one can be confident that any shift in the peak positions is due to chemical changes such as the oxidation state and not to charging effects of the sample.
+By doing so, one can be confident that any shift in the peak positions is due to chemical changes, such as the oxidation state of the sample, and not to charging effects of the sample (cite).
 
-Secondly, to be able to quantify and compare the evolution of the peak intensity, one must normalize the intensity of the detected electron beam since the electron mean free path depends on the pressure in the reaction chamber.
+Secondly, to be able to quantify and compare the evolution of the peak intensity, one must normalize the intensity of the detected electron beam since the electron mean free path depends on the pressure in the reaction chamber (cite).
 The range of kinetic energy just before the absorption edge of Pt 4f was chosen since it had the best signal to noise ratio and does not depend on any experimental parameter besides the pressure.
 
-Finally, for the peaks that showed a good signal to noise ratio, the fitting of the peak shape was realised thanks to the \textit{lmfit} \parencite{Newville2016} package by the means of the Doniach-equation which is the best approximation of the asymmetric peak shape that results partly from the convolution of the analyser function and the shape linked to the photoelectron process in metals \parencite{Doniach_1970}.
+Finally, for the peaks that showed a good signal to noise ratio, the fitting of the peak shape was realised thanks to the \textit{lmfit} \parencite{Newville2016} package by the means of the Doniach-equation which is the best approximation of the asymmetric peak shape resulting from the convolution of the analyser function and the photoelectron process in metals \parencite{Doniach_1970}.
 
 \subsection{Gwaihir} \label{sec:Gwaihir}
 
@@ -91,26 +97,23 @@ For example, \textit{PyNX} \parencite{pynx2020operators} focuses on the phase re
 A few graphical user interfaces (GUIs) also exist, such as \textit{Cohere} \parencite{cohere_2021}, \textit{Phasor} \parencite{dzhigaev_dzhigaevdphasor_2021}, and \textit{Bonsu} \parencite{newton_bonsu_2012}.
 Providing a workflow will reduce the time spent on data analysis for newcomers, and improve results reproducibility by facilitating sharing while keeping track of analysis parameters and metadata.
 
-Large scale facilities and institutions seek ways to provide remote-access high powered computing services to their users, which combine existing solutions in an interactive and user-friendly environment.
-Jupyter (https://jupyter.org/) is particularly advantageous and was chosen by several institutions for such purposes, \textit{e.g}. Google (Google Colab), the EGI federation, or the European Synchrotron (Simple Linux Utility for Resource Management - SLURM).
-
-\textit{Gwaihir} is a tool which brings together the functionality of the \textit{PyNX} package for phase retrieval and bcdi package for the pre- and post- processing in a graphical user interface (GUI) built for the Jupyter framework \parencite{Kluyver2016jupyter}.
+\textit{Gwaihir} is a tool developed by the author of this thesis which brings together the functionality of the \textit{PyNX} package for phase retrieval and bcdi package for the pre- and post- processing in a graphical user interface (GUI) built for the Jupyter framework \parencite{Kluyver2016jupyter}.
 It provides an interface to the bleeding edge of data analysis in BCDI, it can be used locally or remotely and offers an interactive and user-friendly interface with complex functionality satisfying both beginners and experts.
 
 \subsubsection{Software structure}
 
-A part of the BCDI community relies on Python, an accessible language that has gradually become one of the most popular, versatile \parencite{IPython, Newville2016} and widely-taught \parencite{Scopatz2015, McKinney2017, Boulle2019} programming languages in science.
-\textit{Gwaihir} followed this initiative by regrouping data visualisation tools, workflow guidelines, and a user-friendly interface around two Python packages (\textit{PyNX} and \textit{bcdi}), that together, offer a complete data analysis suite (fig. \ref{fig:Packages}).
+A part of the BCDI community relies on \textit{Python}, an accessible language that has gradually become one of the most popular, versatile \parencite{IPython, Newville2016} and widely-taught \parencite{Scopatz2015, McKinney2017, Boulle2019} programming languages in science.
+\textit{Gwaihir} followed this initiative by regrouping data visualisation tools, workflow guidelines, and a user-friendly interface around two \textit{Python} packages (\textit{PyNX} and \textit{bcdi}), that together, offer a complete data analysis suite (fig. \ref{fig:Packages}).
 
-\textit{Gwaihir} works with Python 3.9 and is licensed under the GNU General Public License v3.0.
-The source code as well as the latest developments are available on GitHub while each stable version will be released on the Python Package Index (PyPi), along with its documentation.
+\textit{Gwaihir} works with \textit{Python} 3.9 and is licensed under the GNU General Public License v3.0.
+The source code as well as the latest developments are available on GitHub while each stable version will be released on the \textit{Python} Package Index (PyPi), along with its documentation.
 
 \textit{bcdi} \parencite{jerome_carnis_2021_5741935} tackles the pre-processing and post-processing of the BCDI data (fig. \ref{fig:Packages}).
 Aside from the specific details of the experimental setup (diffractometer and setup geometry, detector type, file system), the majority of the pre-processing pipeline is actually beamline-independent.
 Based on this observation, \textit{bcdi} leverages inheritance and transforms the raw data to a common data format used for phase-retrieval.
 It frees the user from having to learn or remember the technical details for each beamline and sets a common strategy across beamlines.
 
-\textit{PyNX} \parencite{pynx2011} is a toolkit with assorted Python modules and command-line scripts which can be used for the analysis of coherent X-ray imaging data, including phase retrieval (fig. \ref{fig:Packages}).
+\textit{PyNX} \parencite{pynx2011} is a toolkit with assorted \textit{Python} modules and command-line scripts which can be used for the analysis of coherent X-ray imaging data, including phase retrieval (fig. \ref{fig:Packages}).
 All calculations can be executed and distributed on multiple graphical processing units (GPUs) for accelerated computing using MPI.
 Elementary algorithms can be easily tailored, built upon, and combined using an operator-based approach, allowing full flexibility with high-performance computing \parencite{pynx2020operators}.
 Some facilities have started to make computational resources available to their users; those machines are an ideal environment for \textit{PyNX} which is nowadays available through SLURM, at the ESRF - The European Synchrotron, or GRADES at the Optimized Light Source of Intermediate Energy of LURE (SOLEIL).
@@ -119,25 +122,15 @@ Some facilities have started to make computational resources available to their 
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/Workflow.png}
+    \includegraphics[width=0.7\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/Workflow.png}
     \caption{Workflow steps taken in \textit{Gwaihir}; the circular workflow illustrates data reproducibility, a key concept, facilitated by using the \textit{cxi} architecture.}
     \label{fig:Workflow}
 \end{figure}
 
-Data pre-processing aims at improving the quality of the phase retrieval by optimising the size and content of the 3D array used as input.
-The minimal processing consists in loading the raw data and stacking it together as an input for the phase retrieval.
-Intermediate optional steps can be added via a YAML (YAML Ain't Markup Language) configuration file.
-A more complete pre-processing is: loading the data (with flatfield correction and masking of damaged detector pixels and detector gaps), normalizing each frame by a monitor (sensor at the beamline measuring the incoming X-ray flux), binning pixels, centering the Bragg peak and cropping the dataset to a meaningful size, masking the parasitic scattering intensities coming from neighboring crystals (via the interactive user interface), interpolating missing intensities in damaged pixels, interpolating the data stack from the detector frame to an orthonormal frame (also called as geometric transformation).
-The geometric transformation can be realized using either the transformation matrix \parencite{thesismark} or the existing  \textit{xrayutilities} package \parencite{kriegner_xrayutilities_2013}, depending on which reference basis is needed.
-
-Post-processing regroups methods applied to the complex output of the phase retrieval. If the data is still in the detector frame (geometric transformation not applied during pre-processing), the data is interpolated in an orthonormal frame using the transformation matrix.
-After phase unwrapping, a refraction correction is optionally applied, and the phase ramp and phase offset are removed.
-At this point the displacement and the strain component are calculated from the phase.
-
 \textit{Gwaihir} offers an interactive workflow separated in three main groups, data pre-processing, phase retrieval, and data post-processing (fig. \ref{fig:Packages}). It is meant to be reproducible, simple to share, resulting in the phase and amplitude of the probed object. To illustrate this, the results of the following procedure on a data-set collected at the P10 beamline in at PETRA III are shown in fig. \ref{fig:GUI_file} (CXI dataset ID 195).
 
 The parameters used during the analysis are displayed in the GUI in an order following a typical workflow, to underline the evolution of the data processing.
-These parameters are ultimately saved as attributes of the Python data object, to keep track of the actions applied to the raw data to obtain the final result.
+These parameters are ultimately saved as attributes of the \textit{Python} data object, to keep track of the actions applied to the raw data to obtain the final result.
 
 \begin{figure}[!htb]
     \centering
@@ -152,9 +145,14 @@ These parameters are ultimately saved as attributes of the Python data object, t
 \end{figure}
 
 \subsubsection{Pre-processing}
-First, the correct beamline and instrumental parameters must be selected (\textit{e.g.} sample-detector distance, probing energy, detector pixel size, \textit{etc}...), usually constant throughout the experiment. For example, the orthogonalisation tab regroups the parameters needed to properly set up the transformation matrix between the sample frame and \textit{e.g.} the laboratory frame. By choosing to transform the final object in a common, orthogonal frame, it becomes easier to compare the object's evolution when probing different Bragg reflections \cite{crystal_sarah}.
 
-Once the raw data was collected, different pre-processing parameters can be modified to optimize the collected 3D diffraction intensity. For example, the size and center of the array to analyze (either fixed manually as the center of the Bragg peak if known, or determined as the center of mass of the 3D array during the analysis). The array can also be cropped to reduce its size, removing the points furthest from the Bragg peak where the signal-to-noise ratio is low (Figure \ref{fig:GUI_file}).
+Data pre-processing aims at improving the quality of the phase retrieval by optimising the size and content of the 3D array used as input.
+The minimal processing consists in loading the raw data and stacking it together as an input for the phase retrieval.
+Intermediate optional steps can be added via a YAML (YAML Ain't Markup Language) configuration file.
+
+Once the raw data is collected, different pre-processing parameters can be modified to optimize the 3D diffraction intensity.
+For example, the array must be centered for the Fourier transforms, the center is either fixed manually as the center of the Bragg peak if known, or determined as the center of mass of the 3D array during the analysis.
+The array can also be cropped to reduce its size and decrease the computing time during phase retrieval by removing the points furthest from the Bragg peak where the signal-to-noise ratio is low (fig. \ref{fig:GUI_file}).
 
 It is important to create a detector mask prior to the experiment to correct the raw data for hypothetical hot-pixels and background.
 Moreover, it is also possible to correct the raw data frame by frame for spurious data which taints the diffraction pattern.
@@ -163,28 +161,27 @@ For example, it is possible, while recording the 3D diffracted intensity of a gi
 Finally, it is possible to normalise the raw data by an intensity monitor, or compute the scattering vector $\vec{q}$ of the measurement, from the instrumental geometry and parameters.
 
 \subsubsection{Phase retrieval}
+
 The diffracted intensity collected by the detector is proportional to the squared modulus of the structure factor $F(\vec{q})$ (Equations \ref{eq:scat_int}-\ref{eq:int_detector}).
 To retrieve the phase from the diffracted intensity, \textit{PyNX} uses iterative algorithms (sec \ref{sec:BCDI}).
-
-The phase of the Bragg electronic density (Figure \ref{fig:GUI_file}) $\Phi_{hkl}$ is proportional to the scalar component of the displacement $\vec{u}(\vec{r})$ that is parallel to $ \vec{q_{hkl}}$. A phase value of $\pi$ is equivalent to a displacement from the equilibrium position of half the lattice spacing in the direction of $\vec{q_{hkl}}$.
-
 New methods such as convolution neural networks (CNN) are under study and have started to show some encouraging results, but are not yet sufficiently robust, particularly in the case of strained particles \cite{cherukara_real-time_2018,chan_rapid_2021,Wu2021}.
 
-The parameters necessary to phase retrieval can be modified in the GUI (Figure \ref{fig:PRT}.
-For example, the support threshold
-% (from 0 to 1, 1 corresponding to the maximum amplitude of the complex electronic density), under which a point is no longer considered as ``in" the object
-, the number of iterations for each algorithm, the object initialisation procedure (square, sphere, auto-correlation), and so on.
-Each parameter is detailed in the GUI and also discussed in the literature (see, for instance, Ref. \cite{fienup_phase_1982,fienup_reconstruction_1978,marchesini_publishers_2007,pynx2020operators}). Initial guesses are given for each parameter but must be refined by the user to optimize the results.
+The parameters necessary to phase retrieval \parencite{fienup_phase_1982,fienup_reconstruction_1978,marchesini_publishers_2007,pynx2020operators} \textit{e.g.} the support threshold, the number of iterations for each algorithm, the object initialisation procedure (square, sphere, auto-correlation), and so on can be modified in the GUI (fig. \ref{fig:PRT}.
+Initial guesses are given for each parameter but must be refined by the user to optimize the results.
 
-State-of-the-art GPUs available onsite where data collection occurs enables almost real time data reduction.
-This results in quick visualisation of the probed object's amplitude and phase offering the possibility to synchrotron users to optimize their data acquisition during the experiment. Such live feedback is critical to the success of an experiment and provides broader opportunities in the type of experiments that can be carried on.
+\textit{PyNX}'s recent update includes mathematical operators \parencite{pynx2020operators} which represent most of the reconstruction operations traditionally used in phase retrieval \parencite{gerchberg_practical_1972,fienup_reconstruction_1978,marchesini_publishers_2007} and is at the foundation of quick and interactive phase retrieval in \textit{Gwaihir}.
+Indeed, state-of-the-art GPUs available onsite where data collection occurs enables almost real time data reduction.
+This results in quick visualisation of the probed object's amplitude and phase offering the possibility to synchrotron users to optimize their data acquisition during the experiment.
+Such live feedback is critical to the success of an experiment and provides broader opportunities in the type of experiments that can be carried on.
 
-
-\textit{PyNX}'s recent update includes mathematical operators \cite{pynx2020operators} which represent most of the reconstruction operations traditionally used in phase retrieval \cite{gerchberg_practical_1972,fienup_reconstruction_1978,marchesini_publishers_2007} laid the foundation for quick and interactive phase retrieval in \textit{Gwaihir}.
-
-It is possible to refine the input parameters directly in the GUI by visualizing their impact on the reconstructed object. This allows to refine the phase retrieval input parameters before submitting a batch job, that will spawn a sub-process on the computing cluster for phase retrieval. With a single click, several dozens of solutions can be computed in the matter of minutes on computing clusters.
+It is possible to refine the input parameters directly in the GUI by visualizing their impact on the reconstructed object.
+This allows to refine the phase retrieval input parameters before submitting a batch job, that will spawn a sub-process on the computing cluster for phase retrieval.
+With a single click, several dozens of solutions can be computed in the matter of minutes on computing clusters.
 
 With well-tuned parameters and high quality data-sets, phase retrieval converges towards the same solution, but with minor differences between each reconstructed object, related to the phase retrieval process.
+The most important limiting factors for the convergence of the reconstruction algorithms are the quality of the measurement and the amout of strain going through the particle.
+A crystal which is well faceted and not strained will always converge towards the same solution.
+However, in the case of highly strained object, part of the intensity will be scattered in a direction that does not fit the area collected by the detector which will result in void areas inside the reconstructed electronic density.
 
 \begin{figure}[!htb]
     \centering
@@ -194,45 +191,35 @@ With well-tuned parameters and high quality data-sets, phase retrieval converges
 \end{figure}
 
 \textit{Gwaihir} provides a wide range of selection criteria to find the best solution.
-Each reconstructed object has a list of final attributes that can be used as a criteria for selection, such as the Free log-likelihood \cite{pynx2020FLLK} or the standard deviation of the modulus of the reconstructed object.
-%Another common criterion used to assess the quality of the phase retrieval is the phase retrieval transfer function (PRTF) that compares the experimental diffraction pattern with the Fourier transform of the reconstructed object
-%magenta{The PRTF is above all a tool to estimate the spatial resolution of the reconstruction. I agree it is to some extent linked to the quality of the reconstruction but I think it is a bit misleading to present it as a tool to assert the quality of phase retrieval. In this paragraph I would insist more on the traditional error metrics ("Figures of merit") used to assess the quality of phase retrieval (chi-square, sharp metric, max volume... }
-%\cite{chapman_high-resolution_2006,cherukara_anisotropic_2018}.
-In the case of crystallographic defects, specific metrics (Chi, Sharp, Max volume, ...) were derived that perform best depending on the type of defect in the object \cite{Ulvestad2017}.
-
+Each reconstructed object has a list of final attributes that can be used as a criteria for selection, such as the free log-likelihood \parencite{pynx2020FLLK} or the standard deviation of the modulus of the reconstructed object.
+In the case of crystallographic defects, specific metrics (Chi, Sharp, Max volume, ...) were derived that perform best depending on the type of defect in the object \parencite{Ulvestad2017}.
 Following the selection criteria, it is possible to quickly identify the solutions of poor quality that must be ignored to create a set of best solutions.
-\textit{PyNX} then offers a method that merges this set into a single solution by computing eigen-vectors for the selected solutions \cite{pynx2020FLLK}.
-An alternative approach also available in \textit{Gwaihir} is to take the average of the best solutions (see for example Ref. \cite{ulvestad_nanoscale_2014}).
-
+\textit{PyNX} then offers a method that merges this set into a single solution by computing eigen-vectors for the selected solutions \parencite{pynx2020FLLK}.
+An alternative approach also available in \textit{Gwaihir} is to take the average of the best solutions \parencite{ulvestad_nanoscale_2014}.
 
 \subsubsection{Post-processing}
 
-Once the solution with the best Figure of merit is selected, it is possible to use the \textit{bcdi} scripts to process the object's phase. The phase origin can first have an impact when comparing the lattice displacement between different reconstructions. In the case of weak strain, it can be sufficient to consider the center of mass of the object as the origin of phase.
-However, this can become quite complex in the case of defects or defaults in the object. Special methods are defined to target this issue in \textit{bcdi}. For example, Guizar-Sicairos \textit{et al.} \cite{guizar-sicairos_phase_2011} and Hofmann \textit{et al.} \cite{hofmann_nanoscale_2020} proposed a convenient method for the numerical calculation of phase gradients in the presence of phase jumps.  More detail and guidelines can be found in \cite{Carnis2019_scientific_reports,jerome_carnis_2021_5741935} as well as in the README tab.
-Different methods can be tested and their results directly compared via the visualization tab.
-
-\begin{figure}[!htb]
-   \centering
-   \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/norm_dist.png}
-   \caption{Histogram representing the distribution of the amplitude of the electronic density.
-   An empirical criterion to select the contour threshold is to take the base of the peak ($\mu - 2\sigma$), here around 0.75.
-   Thus, we ensure that we are on the outer surface of the reconstructed object.
-   Note that most points in the array have values close to zero, for they are not part of the reconstructed object, and are here ignored.
-   }
-   \label{fig:histo}
-\end{figure}
-
-%As seen in Figure \ref{fig:histo}, an empiric criterion to select the contour threshold is to take the value at the foot (left side) of the peak, here around 0.75, resulting in a clear distinction between surface and bulk.
-% why ? linked to the convolution such as between the object and beam. (better here)
+Post-processing regroups methods applied to the complex output of the phase retrieval.
+Once the solution with the best figure of merit is selected, it is possible to use the \textit{bcdi} scripts to process the object's phase.
+If the data is still in the detector frame (geometric transformation not applied during pre-processing), the data is interpolated in an orthonormal frame using the transformation matrix.
+First, the correct beamline and instrumental parameters must be selected (\textit{e.g.} sample-detector distance, probing energy, detector pixel size, \textit{etc}...), usually constant throughout the experiment.
+For example, the orthogonalisation tab regroups the parameters needed to properly set up the transformation matrix between the sample frame and \textit{e.g.} the laboratory frame.
+By choosing to transform the final object in a common, orthogonal frame, it becomes easier to compare the object's evolution when probing different Bragg reflections \parencite{crystal_sarah}.
+The geometric transformation can be realized using either the transformation matrix \parencite{thesismark} or the existing  \textit{xrayutilities} package \parencite{kriegner_xrayutilities_2013}, depending on which reference basis is needed.
+After phase unwrapping, a refraction and absorption correction are optionally applied, and possible phase ramp and phase offset are removed.
+At this point the displacement and the strain component are calculated from the phase.
+The phase origin can first have an impact when comparing the lattice displacement between different reconstructions \parencite{Atlan2023}.
+In the case of weak strain, it can be sufficient to consider the center of mass of the object as the origin of phase.
+However, this can become quite complex in the case of defects or defaults in the object.
+Special methods are defined to target this issue in \textit{bcdi}.
+For example, \cite{guizar-sicairos_phase_2011} and \cite{hofmann_nanoscale_2020} proposed a convenient method for the numerical calculation of phase gradients in the presence of phase jumps.
 
 \subsubsection{Graphical interface}
 
 \textit{Gwaihir} links in a unique user-friendly and interactive GUI the aforementioned packages whilst offering 2D/3D browser-based data visualisation tools.
-The interface is built with the \textit{ipywidgets} library, compatible with both Jupyter Notebook and JupyterLab, web-based interactive computing platforms, browser-based data visualisation is a key concept when functioning remotely.
-
-Further details behind these methods can be found in the packages' respective documentation.
-Therefore, the main purpose of \textit{Gwaihir}, is to offer a possibility for the user to work solely in the Jupyter environment with a unique interactive GUI.
-The graphical user interface is divided into 10 tabs (fig. \ref{fig:GUI_window}), separated into three groups: instrumental parameters, data processing and data analysis.
+Therefore, the main purpose of \textit{Gwaihir}, is to offer a possibility for the user to work solely in the Jupyter environment.
+The graphical user interface is divided into 10 tabs %(fig. \ref{fig:GUI_window})
+, separated into three groups: instrumental parameters, data processing and data analysis.
 The aim of this organization is to achieve a comprehensible but fluid workflow, whilst still separating each step.
 A final tab contains information about the different methods and parameters used in the workflow, as well as a tutorial on the GUI.
 
@@ -243,18 +230,21 @@ A final tab contains information about the different methods and parameters used
 %     \label{fig:GUI_window}
 % \end{figure}
 
-During the manipulation of the GUI, it is possible to quickly produce a final result thanks to those intuitive and interactive widgets, whose values are passed as arguments to the data analysis functions (fig \ref{fig:3D_object}).
-For example, to designate the type of detector used, a value must be selected in a dropdown list that comprises the following options: Eiger2M, Maxipix, Eiger4M, Merlin, Timepix.
-These correspond to the different detectors currently supported in the \textit{BCDI} package.
-The final interface is created by setting the different widgets on a grid, with the output of different functions printed below.
+% During the manipulation of the GUI, it is possible to quickly produce a final result thanks to those intuitive and interactive widgets, whose values are passed as arguments to the data analysis functions (fig \ref{fig:3D_object}).
+% For example, to designate the type of detector used, a value must be selected in a dropdown list that comprises the following options: Eiger2M, Maxipix, Eiger4M, Merlin, Timepix.
+% These correspond to the different detectors currently supported in the \textit{BCDI} package.
+% The final interface is created by setting the different widgets on a grid, with the output of different functions printed below.
 
-% \begin{figure}[!htb]
-%     \centering
-%     \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/3D_obj.png}
-%     %\includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/3D_peak.png}
-%     \caption{Widgets can be used to select folders and files, but also to tune the values of input parameters in functions. The selection of the data array, the colormap, and the contour of the resulting 3D object are performed through different widgets.}
-%     \label{fig:3D_object}
-% \end{figure}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/3D_obj.png}
+    %\includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/3D_peak.png}
+    \caption{
+    Widgets can be used to select folders and files, but also to tune the values of input parameters in functions.
+    The selection of the data array, the colormap, and the contour of the resulting 3D object are performed through different widgets.
+    }
+    \label{fig:3D_object}
+\end{figure}
 
 Jupyter natively offers multiple options for interactive data plotting.
 Most of the figures displayed in the GUI are based on the \textit{matplotlib} package \parencite{hunter2007matplotlib}.
@@ -262,9 +252,9 @@ For example, it is possible to select a list of 3D complex data arrays and to vi
 
 Moreover, an interactive 3D visualisation tool is provided that relies on the \textit{ipyvolume} library \parencite{ipyvolume}, itself built on top of \textit{ipywidgets}, and specifically designed to quickly render large 3D data arrays.
 In the specific case of single volume rendering for the reconstructed object, the object's surface is defined by a threshold of its maximum density (fig. \ref{fig:3D_object}).
-Finally, the object surface can be colour-mapped with the values of the displacement and strain retrieved during the data analysis (fig. 6).
+The object surface can be colour-mapped with the values of the displacement and strain retrieved during the data analysis.
 
-To further interact with the figures, \textit{e.g.} zoom, set the colorbar range... , tools were implemented that rely on \textit{Bokeh} \parencite{Bokeh}, a Python library that transforms figures in interactive web-pages (fig. \ref{fig:BokehDetector}), that can also be displayed in Jupyter Notebook.
+To further interact with the figures, (\textit{e.g.} zoom, set the colorbar range), tools were implemented that rely on \textit{Bokeh} \parencite{Bokeh}, a \textit{Python} library that transforms figures in interactive web-pages (fig. \ref{fig:BokehDetector}), that can also be displayed in Jupyter Notebook.
 
 To resume, the GUI regroups data reduction, analysis and visualisation tools in the Jupyter Notebook interface via interactive methods.
 
@@ -277,18 +267,22 @@ To resume, the GUI regroups data reduction, analysis and visualisation tools in 
 
 \subsubsection{Command line scripts}
 
-Nevertheless, the complete workflow for data processing can also be launched from the command-line using \textit{Python} scripts.
-In \textit{Gwaihir}, the link between each package is based on \textit{BASH} scripts. This approach is both fast and versatile, designed to quickly iterate on several data-sets to test parameters values, but less intuitive compared to the interactive GUI.
-cite clément
+The complete workflow for data processing can also be launched from the command-line using \textit{Python} scripts, whereas the link between each package is based on \textit{BASH} scripts.
+This approach is both fast and versatile, designed to quickly iterate on several data-sets to test parameters values, but less intuitive compared to the interactive GUI.
 
 A set of default parameters stored in a configuration file is used, that can also be overwritten by directly providing keywords directly in the command line, \textit{e.g.} the scan number.
 The configuration files are written in \textit{YAML} (fig. \ref{fig:YAML_file}).
-In that case, the workflow is less interactive. One may still manually mask the data or manually select the best reconstruction before post-processing. This option can yield a quick result that, with fine parameters, allows a quick visualisation of the probed object.
+One may still manually mask the data or manually select the best reconstruction before post-processing.
+This option allows a quick visualisation of the probed object.
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/yaml.png}
-    \caption{Configuration file in YAML, a human-readable data-serialization language with a minimalist syntax. Each parameter used for the analysis methods are stored. A configuration file is generated for the pre-processing and post-processing scripts, as well as for the phase retrieval.}
+    \caption{
+    Configuration file in YAML, a human-readable data-serialization language with a minimalist syntax.
+    Each parameter used for the analysis methods are stored.
+    A configuration file is generated for the pre-processing and post-processing scripts, as well as for the phase retrieval.
+    }
     \label{fig:YAML_file}
 \end{figure}
 
@@ -300,7 +294,7 @@ Both clarity and consistency in data formatting encourages the reproducibility o
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/tree.png}
+    \includegraphics[width=0.7\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/tree.png}
     \caption{
     Each parameter used during the data analysis is stored in the same \textit{.cxi} file, along with the results, in a  nested architecture.
     "instrument\_1" regroups parameters associated with the instrumental setup, "data\_1" is the collected diffraction pattern.
@@ -317,24 +311,89 @@ These two files are then used for phase retrieval, for which the final object is
 In the case of simulation, the simulated diffraction intensity can be stored as a NumPy array to start the workflow from phase retrieval.
 
 In \textit{Gwaihir}, data sharing across teams and team members is facilitated by the creation of a single output file, respecting the \textit{CXI} \cite{Maia2012}, and thus the NeXuS \cite{Konnecke2015} architectures.
-As written in \cite{Konnecke2015}, authors of data-reduction and data-analysis software can use NeXus to store processed data along with metadata and a processing log. This is illustrated in fig. \ref{fig:TREE}, in which the \textit{cxi} data-set tree is displayed. It regroups parameters from phase retrieval together with parameters from pre-processing and post-processing.
+As written in \cite{Konnecke2015}, authors of data-reduction and data-analysis software can use NeXus to store processed data along with metadata and a processing log.
+This is illustrated in fig. \ref{fig:TREE}, in which the \textit{cxi} data-set tree is displayed.
+The raw data, along with all the parameters associated to the analysis, and the final results are stored, allowing complete data analysis reproducibility (fig. \ref{fig:TREE}).
 
-The raw data, along with all the parameters associated to the analysis, and the final results are stored in a single \textit{cxi} file, allowing complete data analysis reproducibility (fig. \ref{fig:TREE}). This is possible at every step of the workflow. The aim is first to have a comprehensible architecture, and secondly to be able to reproduce anyone's result from this file. On a small scale, results are easier to share between collaborators and more understandable, while on a larger scale it will facilitate peer-review.
-
-Key parameters for data reproducibility are the transformation matrix used for the final interpolation, the voxel size of the resulting 3D array, the probed reciprocal space range after data pre-processing $(\delta q_x , \delta q_y , \delta q_z)$, the iso-surface threshold, \textit{etc}. By sharing those parameters along with the diffraction intensity and complex Bragg electronic density, we will push towards more transparency in the methods used to obtain the final results.
+Key parameters for data reproducibility are the transformation matrix used for the final interpolation, the voxel size of the resulting 3D array, the probed reciprocal space range after data pre-processing $(\delta q_x , \delta q_y , \delta q_z)$, the iso-surface threshold, \textit{etc}.
+By sharing those parameters along with the diffraction intensity and complex Bragg electronic density, there is a push towards more transparency in the methods used to obtain the final results.
 Comments or metadata, such as the horizontal and vertical coherence lengths, or beam size, if determined prior to the experiment, can also be saved.
-With \textit{Gwaihir} as an analysis tool, and a final \textit{cxi} file storing all the parameters and results, it becomes much more easier to review one's data and workflow.
-
-Nevertheless, it allows the user to share the values of many parameters which can be difficult to select and which have an important influence over the final results. As mentioned earlier, the threshold used to determine the surface layer of the object has an important impact on the strain and displacement values on this surface. The center of the array, at which the phase is set to zero for phase unwrapping, becomes difficult to fix for a highly strained object.
-
+The aim is first to have a comprehensible architecture, and secondly to be able to reproduce anyone's result from this file.
+On a small scale, results are easier to share between collaborators and more understandable, while on a larger scale peer-review is facilitated.
 
 \subsection{BINoculars} \label{sec:BINoculars}
 
+BINoculars \parencite{Roobol2015} is a data reduction software used first to concatenate together the scattering intensity from successive angular scans in the same region of the reciprocal space, and secondly to optionally change the data's reference frame from the angular space to another.
+Those two steps can be performed simultaneously by assigning to each voxel of the 3D scattered intensity a position in the new frame.
+From subsequent scans, it is possible that each position in the new frame was scanned multiple times, meaning that there were multiple contributions to the total scattered intensity at that position.
+The final intensity is therefore the division of the total scattering intensity in each voxel by the number of contribution to that voxel (eq. \ref{eq:BinocularsIntensity}).
+If there are no contributions, the intensity is set to NaN (Not a number).
+
+\begin{equation}
+    \label{eq:BinocularsIntensity}
+    Intensity =
+        \begin{cases}
+            counts \, /  \,contributions  & \text{if contributions != 0} \\
+            NaN & \text{if contributions == 0}
+        \end{cases}
+\end{equation}
+
+Different orthonormal frames can be of interest when analysing the data, the q-space ($q_x, q_y, q_z$) is useful to index Bragg peaks and to access the related inter-reticular spacing $d_{hkl}$.
+It also provides a non-distorted view of the reciprocal space in contrast with the ($h, k, l$) frame which directly depends on the crystal's Bravais lattice.
+Different lattices can be used to highlight the difference of geometry between the bulk structure and the surface structure (fig. \ref{fig:MapExampleBinoculars}).
+
+\begin{figure}[!htb]
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/Pt100/maps/Map_hkl_surf_or_2227-2283_patched.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/Pt100/maps/Map_hkl_hex_or_2227-2283_not_patched.png}
+    \caption{
+    Reciprocal space in-plane map projected on $l$.
+    The large high intensity peaks are Bragg peaks from the bulk structure, the low intensity peaks are surface reconstructions.
+    The left map is computed using the a cubic unit cell, two hexagonal unit cell corresponding to the surface reconstructions' structure are drawn as diamonds.
+    The right image is computed using the red diamong hexagonal unit cell that corresponds to the structure of one phase of the surface reconstructions.
+    }
+    \label{fig:MapExampleBinoculars}
+\end{figure}
+
+When analysing surface x-ray diffraction data, the in-plane maps in reciprocal space are usually projected perpendicular to $l$ (or $q_z$) to show possible Bragg peaks from surface reconstruction (fig. \ref{fig:MapExampleBinoculars}) and therefore contain the sum of the scattering intensity in a small layer $\delta l$ (or $\delta q_z$).
+It is of utmost importance to select a thin layer to not drown the surface signal with the background or bulk signal.
+
+BINoculars also contains a sub-module (\textit{fitaid}) that allows the integration of the scattered intensity in the reciprocal space as a function of one axis.
+Usually, to study the evolution of crystal truncation rods, the data is projected either in the ($h, k, l$) or ($q_x, q_y, q_z$) frame and then integrated in a square area around a Bragg peak as a function of $l$ or $q_z$.
+The voxel size in each direction is set through a parameter, which raises a compromise between array size, resolution, and an interpolation process.
+When in the ($q_x, q_y, q_z$) space, it is possible to go as low as $0.005 \, \si{\angstrom^{-1}}$ in each direction, the limit being set by instrumental parameters such as the detector pixel size, the amount of angular scans performed, the counting time or the number of iteration per scans.
+If the number of iteration is too low for the desired resolution, the process will yield an image with empty areas corresponding to voxels where no data could be recorded.
+This is often the case during the collection of crystal truncation rods, at high values of $l$, since the region probed by the detector becomes thinner in $l$ with every iteration \parencite{Drnec2014}.
+To avoid having to rely on an interpolation to fill these voxels, it is better to use a larger resolution when concatenating the images, and then to use the same step when integrating the data.
+
+The intensity integrated via \textit{fitaid} also contains the background signal.
+To quantitatively compare the integrated intensity with simulated structure factors, it is mandatory to subtract the background intensity from the total intensity.
+The background is calculated by taking the sum of all the values of selected background regions, around the CTR, corrected by the number of voxels in those area.
+The average background value per voxel is then subtracted to each voxel in the CTR region of interest (ROI), the structure factor $F$ can then be computed as follows:
+
+\begin{equation}
+    |F|^2 \propto I_{roi} - \frac{N_{roi}}{N_{bkg}} \times I_{bkg}
+\end{equation}
+
+$I_{roi}$ is the integrated intensity in the ROI, $N_{roi}$ the number of voxels in the ROI, $I_{bkg}$ the integrated background intensity and $N_{bkg}$ the number of voxels in the background.
+% This becomes more complicated when there are additional signals such as powder rings that cross the CTR at different $l$ values.
+
+A very fine resolution will result in extremely large arrays that can be difficult to manipulate on low ressources computer, for example the maps shown in fig. \ref{fig:MapExampleBinoculars} have a three dimentional shape equal to $(560, 953, 39)$ which results in $2.1 \times 10^7$ voxels in the array.
+Originally, this corresponds to the concatenation of 40 angular scans, each with 1010 steps, \textit{i.e.} containing 1010 2D detector images that have a shape equal to $(240, 560)$.
+This represents $5.5 \times 10^9$ pixels to process together to create such in-plane maps.
+High performance computing clusters are therefore needed for the reduction of surface x-ray diffraction data with BINoculars, the data analysis is performed in a second step with programs such as ROD \parencite{Vlieg2000}.
+
 \subsection{ROD} \label{sec:ROD}
 
-\subsection{GenX} \label{sec:GenX}
+The primary challenge associated with surface x-ray diffraction lies in the complexity of data analysis, as researchers are limited to a small portion of the reciprocal space due to the extended data acquisition time \parencite{Gustafson2014}.
+On one hand, a fine sampling of the reciprocal space will take hours which is hardly compatible with time-resolved experiments.
+On the other hand, skipping areas of the reciprocal space could lead to loss of critical information if the symmetry of the surface structure is not known prior to the experiment.
 
+SXRD data analysis consists of finding the 3D ($\vec{a}, \vec{b}$) surface unit cell structure from in-plane maps and crystal truncation rods by comparing the position and intensity of Bragg peaks with simulated peaks.
+For high symmetry structures, a small portion of the reciprocal space can sometimes be sufficient to have a final solution.
 
-\textcolor{Important}{
-NXS, CXI, , reproducibility, repositories, PEP
-}
+In a second step, it is possible to refine the position of each atom in the unit cell to take into account possible strain in $\vec{c}$ that will have a significant effect in the shape of the crystal truncation rods.
+The structure in $\vec{c}$ is refined by computing the shape of crystal truncation rods and comparing them with experimental data, the more rods were measured and the higher the extent of each rod in $l$, the more accurate the final structure.
+
+ROD is a computer program written in \textit{C} \parencite{Vlieg2000} that is used both to simulate structure factors from surface structures and to refine surface structure by fitting the crystal truncation rod intensity.
+Since ROD is written in \textit{C} and does not come with a graphical user interface, alternatives have been developped such as GenX \parencite{Bjorck2007,Glavic2022} written in \textit{Python} which mostly focuses on reflectometry.
+In the frame of this thesis, ROD was chosen for the analysis of SXRD data.
