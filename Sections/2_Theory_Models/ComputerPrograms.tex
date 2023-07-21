@@ -162,14 +162,14 @@ Finally, it is possible to normalise the raw data by an intensity monitor, or co
 
 \subsubsection{Phase retrieval}
 
-The diffracted intensity collected by the detector is proportional to the squared modulus of the structure factor $F(\vec{q})$ (Equations \ref{eq:scat_int}-\ref{eq:int_detector}).
+The diffracted intensity collected by the detector is proportional to the squared modulus of the structure factor $F(\vec{q})$ (Equations \ref{eq:ScatteredIntensity}-\ref{eq:DetectorIntensity}).
 To retrieve the phase from the diffracted intensity, \textit{PyNX} uses iterative algorithms (sec \ref{sec:BCDI}).
 New methods such as convolution neural networks (CNN) are under study and have started to show some encouraging results, but are not yet sufficiently robust, particularly in the case of strained particles \cite{cherukara_real-time_2018,chan_rapid_2021,Wu2021}.
 
-The parameters necessary to phase retrieval \parencite{fienup_phase_1982,fienup_reconstruction_1978,marchesini_publishers_2007,pynx2020operators} \textit{e.g.} the support threshold, the number of iterations for each algorithm, the object initialisation procedure (square, sphere, auto-correlation), and so on can be modified in the GUI (fig. \ref{fig:PRT}.
+The parameters necessary to phase retrieval \parencite{fienup_phase_1982,fienup_reconstruction_1978,Marchesini2007,pynx2020operators} \textit{e.g.} the support threshold, the number of iterations for each algorithm, the object initialisation procedure (square, sphere, auto-correlation), and so on can be modified in the GUI (fig. \ref{fig:PRT}.
 Initial guesses are given for each parameter but must be refined by the user to optimize the results.
 
-\textit{PyNX}'s recent update includes mathematical operators \parencite{pynx2020operators} which represent most of the reconstruction operations traditionally used in phase retrieval \parencite{gerchberg_practical_1972,fienup_reconstruction_1978,marchesini_publishers_2007} and is at the foundation of quick and interactive phase retrieval in \textit{Gwaihir}.
+\textit{PyNX}'s recent update includes mathematical operators \parencite{pynx2020operators} which represent most of the reconstruction operations traditionally used in phase retrieval \parencite{gerchberg_practical_1972,fienup_reconstruction_1978,Marchesini2007} and is at the foundation of quick and interactive phase retrieval in \textit{Gwaihir}.
 Indeed, state-of-the-art GPUs available onsite where data collection occurs enables almost real time data reduction.
 This results in quick visualisation of the probed object's amplitude and phase offering the possibility to synchrotron users to optimize their data acquisition during the experiment.
 Such live feedback is critical to the success of an experiment and provides broader opportunities in the type of experiments that can be carried on.

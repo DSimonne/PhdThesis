@@ -25,34 +25,30 @@
 \contentsline {subsection}{\numberline {2.3.2}Crystal truncation rods}{25}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Data collection}{27}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}X-ray reflectometry}{29}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}BCDI}{30}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Scattering by strained crystals}{30}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Data collection}{32}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Phase retrieval}{32}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Resolution}{34}{subsection.2.4.4}%
-\contentsline {subsubsection}{Facet analysis}{34}{section*.26}%
-\contentsline {subsubsection}{Oversampling}{35}{section*.30}%
-\contentsline {subsubsection}{Fast Fourier transform}{37}{section*.31}%
-\contentsline {subsubsection}{Support determination}{38}{section*.32}%
-\contentsline {subsubsection}{Patterson function}{38}{section*.33}%
-\contentsline {section}{\numberline {2.5}Synchrotron radiation and facility}{39}{section.2.5}%
+\contentsline {section}{\numberline {2.4}BCDI}{31}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Scattering by strained crystals}{31}{subsection.2.4.1}%
+\contentsline {subsubsection}{Data collection}{33}{section*.26}%
+\contentsline {subsection}{\numberline {2.4.2}Phase retrieval}{33}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Resolution}{36}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Facet analysis}{37}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Synchrotron radiation and facility}{38}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Tailored for the study of materials}{39}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}The SixS beamline}{39}{subsection.2.5.2}%
-\contentsline {subsubsection}{Diffractometer}{39}{section*.34}%
-\contentsline {subsubsection}{Mass flow controller}{39}{section*.35}%
-\contentsline {subsubsection}{Residual Gas Analyser}{39}{section*.36}%
+\contentsline {subsubsection}{Diffractometer}{39}{section*.32}%
+\contentsline {subsubsection}{Mass flow controller}{39}{section*.33}%
+\contentsline {subsubsection}{Residual Gas Analyser}{39}{section*.34}%
 \contentsline {section}{\numberline {2.6}Computer programs}{40}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Data reproducibility}{40}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}The Jupyter environment}{41}{subsection.2.6.2}%
 \contentsline {subsection}{\numberline {2.6.3}Thorondor}{41}{subsection.2.6.3}%
 \contentsline {subsection}{\numberline {2.6.4}Gwaihir}{42}{subsection.2.6.4}%
-\contentsline {subsubsection}{Software structure}{42}{section*.38}%
-\contentsline {subsubsection}{Workflow for Bragg coherent diffraction imaging}{44}{section*.39}%
-\contentsline {subsubsection}{Pre-processing}{45}{section*.42}%
-\contentsline {subsubsection}{Phase retrieval}{45}{section*.43}%
-\contentsline {subsubsection}{Post-processing}{47}{section*.45}%
-\contentsline {subsubsection}{Graphical interface}{47}{section*.46}%
-\contentsline {subsubsection}{Command line scripts}{48}{section*.49}%
-\contentsline {subsubsection}{Data storage}{49}{section*.51}%
+\contentsline {subsubsection}{Software structure}{42}{section*.36}%
+\contentsline {subsubsection}{Workflow for Bragg coherent diffraction imaging}{44}{section*.37}%
+\contentsline {subsubsection}{Pre-processing}{45}{section*.40}%
+\contentsline {subsubsection}{Phase retrieval}{45}{section*.41}%
+\contentsline {subsubsection}{Post-processing}{47}{section*.43}%
+\contentsline {subsubsection}{Graphical interface}{47}{section*.44}%
+\contentsline {subsubsection}{Command line scripts}{48}{section*.47}%
+\contentsline {subsubsection}{Data storage}{49}{section*.49}%
 \contentsline {subsection}{\numberline {2.6.5}BINoculars}{51}{subsection.2.6.5}%
 \contentsline {subsection}{\numberline {2.6.6}ROD}{52}{subsection.2.6.6}%

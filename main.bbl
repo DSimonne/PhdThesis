@@ -346,12 +346,6 @@
       \verb{doi}
       \verb 10.1039/D1CE00736J
       \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1039/D1CE00736J
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1039/D1CE00736J
-      \endverb
     \endentry
     \entry{NIST_cross_sections}{online}{}
       \name{author}{8}{}{%
@@ -470,12 +464,6 @@
       \range{pages}{5}
       \verb{doi}
       \verb 10.1107/S0021889807045086
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1107/S0021889807045086
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1107/S0021889807045086
       \endverb
       \keyw{X-ray reflectivity,neutron reflectivity,differential evolution algorithm,genetic algorithm}
     \endentry
@@ -1088,29 +1076,22 @@
       \field{month}{06}
       \field{number}{2}
       \field{title}{Rapid {3D} nanoscale coherent imaging via physics-aware deep learning}
-      \field{urlday}{21}
-      \field{urlmonth}{5}
-      \field{urlyear}{2021}
       \field{volume}{8}
       \field{year}{2021}
-      \field{urldateera}{ce}
       \field{pages}{021407}
       \range{pages}{1}
       \verb{doi}
       \verb 10.1063/5.0031486
       \endverb
-      \verb{file}
-      \verb Chan et al. - 2021 - Rapid 3D nanoscale coherent imaging via physics-aw.pdf:/Users/marieingridrichard/Zotero/storage/NL3ZZSTQ/Chan et al. - 2021 - Rapid 3D nanoscale coherent imaging via physics-aw.pdf:application/pdf
-      \endverb
     \endentry
     \entry{chapman_high-resolution_2006}{article}{}
       \name{author}{14}{}{%
-        {{un=0,uniquepart=base,hash=97c23d9bb413a96fe15c0a0f91ceda9e}{%
+        {{un=2,uniquepart=given,hash=97c23d9bb413a96fe15c0a0f91ceda9e}{%
            family={Chapman},
            familyi={C\bibinitperiod},
            given={Henry\bibnamedelima N.},
            giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=8ae6a60d966bb9aed25fc811ab0ba86f}{%
            family={Barty},
            familyi={B\bibinitperiod},
@@ -1331,6 +1312,127 @@
       \verb Cherukara et al. - 2018 - Real-time coherent diffraction inversion using dee.pdf:/Users/marieingridrichard/Zotero/storage/93E4YACY/Cherukara et al. - 2018 - Real-time coherent diffraction inversion using dee.pdf:application/pdf;Snapshot:/Users/marieingridrichard/Zotero/storage/PZJ6GYHH/s41598-018-34525-1.html:text/html
       \endverb
     \endentry
+    \entry{Cochran1967}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=449653e3df929c3b555124c581ca5d50}{%
+           family={Cochran},
+           familyi={C\bibinitperiod},
+           given={W.T.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=805a23d6ca48decdb8d2a55a27a14087}{%
+           family={Cooley},
+           familyi={C\bibinitperiod},
+           given={J.W.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abb9bccb6ac715fdae0ddccbe5f31dcb}{%
+           family={Favin},
+           familyi={F\bibinitperiod},
+           given={D.L.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90fa5fd53ababaea240933f183f8c7ff}{%
+           family={Helms},
+           familyi={H\bibinitperiod},
+           given={H.D.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65e613eeb9a1ecbfcece6b8a2980cf70}{%
+           family={Kaenel},
+           familyi={K\bibinitperiod},
+           given={R.A.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af2069e2798e80e03c5ce5ed537e2e79}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={W.W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc4cdcd6f45ec1b4751733f0dc8a8776}{%
+           family={Maling},
+           familyi={M\bibinitperiod},
+           given={G.C.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec5688412e8c9e9cbac7361cad0e0177}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={D.E.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb2dc8ea37c1231129a889eed1770d64}{%
+           family={Rader},
+           familyi={R\bibinitperiod},
+           given={C.M.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a193d62a6e7f1a06c2ce1a5e98272ddb}{%
+           family={Welch},
+           familyi={W\bibinitperiod},
+           given={P.D.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7e2e990d45d7875084cb17cef2120b64}
+      \strng{fullhash}{40ba333a95c53ea9fefcd85f3529e945}
+      \strng{bibnamehash}{7e2e990d45d7875084cb17cef2120b64}
+      \strng{authorbibnamehash}{7e2e990d45d7875084cb17cef2120b64}
+      \strng{authornamehash}{7e2e990d45d7875084cb17cef2120b64}
+      \strng{authorfullhash}{40ba333a95c53ea9fefcd85f3529e945}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{number}{10}
+      \field{title}{What is the fast Fourier transform?}
+      \field{volume}{55}
+      \field{year}{1967}
+      \field{pages}{1664\bibrangedash 1674}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/PROC.1967.5957
+      \endverb
+    \endentry
+    \entry{Cooley1965}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9a5cfe59165ea73852bf47c17612fc90}{%
+           family={Cooley},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9edab5dbc1987bcb98d6de058f00fc47}{%
+           family={Tukey},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee74374d9504fa6fb4aa57320b0e47fc}
+      \strng{fullhash}{ee74374d9504fa6fb4aa57320b0e47fc}
+      \strng{bibnamehash}{ee74374d9504fa6fb4aa57320b0e47fc}
+      \strng{authorbibnamehash}{ee74374d9504fa6fb4aa57320b0e47fc}
+      \strng{authornamehash}{ee74374d9504fa6fb4aa57320b0e47fc}
+      \strng{authorfullhash}{ee74374d9504fa6fb4aa57320b0e47fc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematics of computation}
+      \field{number}{90}
+      \field{title}{An algorithm for the machine calculation of complex Fourier series}
+      \field{volume}{19}
+      \field{year}{1965}
+      \field{pages}{297\bibrangedash 301}
+      \range{pages}{5}
+    \endentry
     \entry{DanielSarwitz2015}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2b93a824309bf2988c1962968296c5b5}{%
@@ -1457,6 +1559,136 @@
       \range{pages}{13}
       \verb{doi}
       \verb 10.1107/S1600576713032342
+      \endverb
+    \endentry
+    \entry{Dupraz2022}{article}{}
+      \name{author}{18}{}{%
+        {{un=0,uniquepart=base,hash=7812ec96d64e72c3272729b04125b734}{%
+           family={Dupraz},
+           familyi={D\bibinitperiod},
+           given={Maxime},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d75db9bec171a332f5fc52cb66a0829}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ni},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
+           family={Carnis},
+           familyi={C\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a48b53028a34ba769b8f9882df4ef594}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Longfei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3fe32d6ad4fbfd46998094d46facb33}{%
+           family={Labat},
+           familyi={L\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2a733f8919468cc8e9922ae24befbaf}{%
+           family={Chatelier},
+           familyi={C\bibinitperiod},
+           given={Corentin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba7fc08e723c67cd68e1d14ea811baf5}{%
+           family={Poll},
+           familyi={P\bibinitperiod},
+           given={Rim\bibnamedelimb Van\bibnamedelima De},
+           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6042288c2da48fd8587dbe2f4fed1c4d}{%
+           family={Hofmann},
+           familyi={H\bibinitperiod},
+           given={Jan\bibnamedelima P},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d20d588aa69377481af85a16ca052479}{%
+           family={Almog},
+           familyi={A\bibinitperiod},
+           given={Ehud},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bdd6ba8fe072a30a7985c29befc8446}{%
+           family={Leake},
+           familyi={L\bibinitperiod},
+           given={Steven\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff06ab97d6a3e8b35a7af38a18ad346a}{%
+           family={Watier},
+           familyi={W\bibinitperiod},
+           given={Yves},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c031e67c43c200b0288fc825954375b}{%
+           family={Lazarev},
+           familyi={L\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e3101a182a5698cb18f04c783140cc4}{%
+           family={Westermeier},
+           familyi={W\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f67d742a28b734db8dc8ef08f0dd9591}{%
+           family={Sprung},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99169d3cd97c79422a2dab69f61dd70e}{%
+           family={Hensen},
+           familyi={H\bibinitperiod},
+           given={Emiel\bibnamedelimb J\bibnamedelima M},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c9c63fbd972192f2090267690e2b16c}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b271749bc2e24b884c32a661ed39a31d}{%
+           family={Rabkin},
+           familyi={R\bibinitperiod},
+           given={Eugen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bcb5a0354e0b6196439518c05547451}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Marie-ingrid},
+           giveni={M\bibinithyphendelim i\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{73f96224bedcfdade94109fd703fe5ff}
+      \strng{fullhash}{a5845f3386ff9d21dc1ae25d21acc89f}
+      \strng{bibnamehash}{73f96224bedcfdade94109fd703fe5ff}
+      \strng{authorbibnamehash}{73f96224bedcfdade94109fd703fe5ff}
+      \strng{authornamehash}{73f96224bedcfdade94109fd703fe5ff}
+      \strng{authorfullhash}{a5845f3386ff9d21dc1ae25d21acc89f}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{title}{Imaging the facet surface strain state of supported multi-faceted Pt nanoparticles during reaction}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1038/s41467-022-30592-1
       \endverb
     \endentry
     \entry{dzhigaev_dzhigaevdphasor_2021}{misc}{}
@@ -1906,6 +2138,7 @@
       \strng{authorbibnamehash}{e218eed04a12d05f90c98eef3cf45e75}
       \strng{authornamehash}{e218eed04a12d05f90c98eef3cf45e75}
       \strng{authorfullhash}{e218eed04a12d05f90c98eef3cf45e75}
+      \field{extraname}{1}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -1918,15 +2151,92 @@
       \field{month}{07}
       \field{number}{1}
       \field{title}{Reconstruction of an object from the modulus of its {Fourier} transform}
-      \field{urlday}{8}
-      \field{urlmonth}{2}
-      \field{urlyear}{2019}
       \field{volume}{3}
       \field{year}{1978}
-      \field{urldateera}{ce}
       \field{pages}{27\bibrangedash 29}
       \range{pages}{3}
       \keyw{Fourier transforms,Atmospheric turbulence,Brightness,Coherence theory,Large telescopes,Spatial frequency}
+    \endentry
+    \entry{Fienup1982}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=e218eed04a12d05f90c98eef3cf45e75}{%
+           family={Fienup},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{e218eed04a12d05f90c98eef3cf45e75}
+      \strng{fullhash}{e218eed04a12d05f90c98eef3cf45e75}
+      \strng{bibnamehash}{e218eed04a12d05f90c98eef3cf45e75}
+      \strng{authorbibnamehash}{e218eed04a12d05f90c98eef3cf45e75}
+      \strng{authornamehash}{e218eed04a12d05f90c98eef3cf45e75}
+      \strng{authorfullhash}{e218eed04a12d05f90c98eef3cf45e75}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Iterative algorithms for phase retrieval from intensity data are compared to gradient search methods. Both the problem of phase retrieval from two intensity measurements (in electron microscopy or wave front sensing) and the problem of phase retrieval from a single intensity measurement plus a non-negativity constraint (in astronomy) are considered, with emphasis on the latter. It is shown that both the error-reduction algorithm for the problem of a single intensity measurement and the Gerchberg-Saxton algorithm for the problem of two intensity measurements converge. The error-reduction algorithm is also shown to be closely related to the steepest-descent method. Other algorithms, including the input-output algorithm and the conjugate-gradient method, are shown to converge in practice much faster than the error-reduction algorithm. Examples are shown.}
+      \field{issn}{0003-6935}
+      \field{journaltitle}{Applied Optics}
+      \field{number}{15}
+      \field{title}{{Phase retrieval algorithms: a comparison}}
+      \field{volume}{21}
+      \field{year}{1982}
+      \field{pages}{2758}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1364/ao.21.002758
+      \endverb
+      \verb{file}
+      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Fienup - 1982 - Phase retrieval algorithms a comparison.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Fienup1986}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=e218eed04a12d05f90c98eef3cf45e75}{%
+           family={Fienup},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=bcf1328b78e71672f53d40636715fa3f}{%
+           family={Wackerman},
+           familyi={W\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{452a1adf3dd9b917031eeaae300e2384}
+      \strng{fullhash}{452a1adf3dd9b917031eeaae300e2384}
+      \strng{bibnamehash}{452a1adf3dd9b917031eeaae300e2384}
+      \strng{authorbibnamehash}{452a1adf3dd9b917031eeaae300e2384}
+      \strng{authornamehash}{452a1adf3dd9b917031eeaae300e2384}
+      \strng{authorfullhash}{452a1adf3dd9b917031eeaae300e2384}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The iterative Fourier-transform algorithm has been demonstrated to be a practical method for reconstructing an object from the modulus of its Fourier transform (i.e., solving the problem of recovering phase from a single intensity measurement). In some circumstances the algorithm may stagnate. New methods are described that allow the algorithm to overcome three different modes of stagnation: those characterized by (1) twin images, (2) stripes, and (3) truncation of the image by the support constraint. Curious properties of Fourier transforms of images are also described: the zero reversal for the striped images and the relationship between the zero lines of the real and imaginary parts of the Fourier transform. A detailed description of the reconstruction method is given to aid those employing the iterative transform algorithm.}
+      \field{issn}{1084-7529}
+      \field{journaltitle}{Journal of the Optical Society of America A}
+      \field{number}{11}
+      \field{title}{{Phase-retrieval stagnation problems and solutions}}
+      \field{volume}{3}
+      \field{year}{1986}
+      \field{pages}{1897}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1364/josaa.3.001897
+      \endverb
+      \verb{file}
+      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Fienup, Wackerman - 1986 - Phase-retrieval stagnation problems and solutions.pdf:pdf
+      \endverb
     \endentry
     \entry{fienup_phase_1982}{article}{}
       \name{author}{1}{}{%
@@ -1965,6 +2275,62 @@
       \verb Snapshot:/Users/marieingridrichard/Zotero/storage/7VLY5DGF/abstract.html:text/html
       \endverb
       \keyw{Phase retrieval,Discrete Fourier transforms,Fast Fourier transforms,Fourier transforms,Point spread function,Wave front sensing}
+    \endentry
+    \entry{Fish1995}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fa2383532fbd8fbfc66cd8a6d3b372d9}{%
+           family={Fish},
+           familyi={F\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8dfff3aab71b4469fabf77dc76700715}{%
+           family={Brinicombe},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=649a695f3a62c82e1899643c9a313a11}{%
+           family={Pike},
+           familyi={P\bibinitperiod},
+           given={E.\bibnamedelimi R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eabc6246d9b96ca808ab8944695364c4}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{57330a2cf95e7080fef020f6e04152ff}
+      \strng{fullhash}{889c937e14433bb964981b589ea676f2}
+      \strng{bibnamehash}{57330a2cf95e7080fef020f6e04152ff}
+      \strng{authorbibnamehash}{57330a2cf95e7080fef020f6e04152ff}
+      \strng{authornamehash}{57330a2cf95e7080fef020f6e04152ff}
+      \strng{authorfullhash}{889c937e14433bb964981b589ea676f2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A blind deconvolution algorithm based on the Richardson--Lucy deconvolution algorithm is presented. Its performance in the presence of noise is found to be superior to that of other blind deconvolution algorithms. Results are presented and compared with results obtained from implementation of a Weiner filter blind deconvolution algorithm. The algorithm is developed further to incorporate functional forms of the point-spread function with unknown parameters. In the presence of noise the point-spread function can be evaluated with 1.0\% error, and the object can be reconstructed with a quality near that of the deconvolution process with a known point-spread function.}
+      \field{journaltitle}{J. Opt. Soc. Am. A}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{Blind deconvolution by means of the Richardson--Lucy algorithm}
+      \field{volume}{12}
+      \field{year}{1995}
+      \field{pages}{58\bibrangedash 65}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1364/JOSAA.12.000058
+      \endverb
+      \keyw{Algorithms; Blind deconvolution; Phase retrieval; Point spread function; Positron emission tomography; Space telescopes}
     \endentry
     \entry{cohere_2021}{misc}{}
       \name{author}{1}{}{%
@@ -2107,6 +2473,30 @@
       \endverb
       \keyw{algorithm,cgh,hologram,pingpong}
     \endentry
+    \entry{Girard2020}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e7bcb514ca8c55f5e8103df45944f077}{%
+           family={Girard},
+           familyi={G\bibinitperiod},
+           given={Gaétan},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e7bcb514ca8c55f5e8103df45944f077}
+      \strng{fullhash}{e7bcb514ca8c55f5e8103df45944f077}
+      \strng{bibnamehash}{e7bcb514ca8c55f5e8103df45944f077}
+      \strng{authorbibnamehash}{e7bcb514ca8c55f5e8103df45944f077}
+      \strng{authornamehash}{e7bcb514ca8c55f5e8103df45944f077}
+      \strng{authorfullhash}{e7bcb514ca8c55f5e8103df45944f077}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Development of Bragg coherent X-ray diffraction and Ptychography methods, application to the study of semiconductor nanostructures}
+      \field{year}{2020}
+    \endentry
     \entry{Glavic2022}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=efdd3f094fd889c86e99fedf728b4d7f}{%
@@ -2136,7 +2526,7 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Since its publication more than 15 years ago the {\it GenX} software has been continuously developed and has established itself as a standard package for analyzing X-ray and neutron reflectometry data. The evolution of the software during the last two major revisions is reported here. This includes a simplified model builder for beginners, simple samples, additional sample models, statistical error analysis and the use of just-in-time compilation modules for the reflectometry kernel to achieve higher performance. In addition, the influence of experimental errors on the reflectivity curve is discussed, and new features are described that allow the user to include these in the error statistics to improve the fitting and uncertainty estimation.}
       \field{journaltitle}{Journal of Applied Crystallography}
-      \field{month}{8}
+      \field{month}{08}
       \field{number}{4}
       \field{title}{{{\it GenX 3}: the latest generation of an established tool}}
       \field{volume}{55}
@@ -2145,12 +2535,6 @@
       \range{pages}{9}
       \verb{doi}
       \verb 10.1107/S1600576722006653
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1107/S1600576722006653
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1107/S1600576722006653
       \endverb
       \keyw{reflectometry,surface X-ray diffraction,neutron analysis,X-ray analysis}
     \endentry
@@ -2201,7 +2585,7 @@
       \verb 10.5555/3280489.3280518
       \endverb
     \endentry
-    \entry{Grothausmann_Beare2015}{article}{}
+    \entry{GrothausmannBeare2015}{article}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=ed050409d8ed45f001aa6a0860c7a457}{%
            family={Grothausmann},
@@ -2314,10 +2698,6 @@
       \verb{doi}
       \verb 10.1016/j.ultramic.2012.07.024
       \endverb
-      \verb{file}
-      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Grothausmann et al. - 2012 - Automated quantitative 3D analysis of faceting of particles in tomographic datasets.pdf:pdf
-      \endverb
-      \keyw{Automated 3D facet analysis,Catalysis,Focused Ion Beam (FIB),Metal foams,Spinel,Tomography}
     \endentry
     \entry{guizar-sicairos_phase_2011}{article}{}
       \name{author}{7}{}{%
@@ -4069,6 +4449,74 @@
       \verb :home/david/Documents/PhD/Papers/15bf682344fef5532a2c7020e7fe94d7.pdf:pdf
       \endverb
     \endentry
+    \entry{LucyAlgo1974}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4cb84dd858c4ec9dae881405f13f0f58}{%
+           family={{Lucy}},
+           familyi={L\bibinitperiod},
+           given={L.B.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4cb84dd858c4ec9dae881405f13f0f58}
+      \strng{fullhash}{4cb84dd858c4ec9dae881405f13f0f58}
+      \strng{bibnamehash}{4cb84dd858c4ec9dae881405f13f0f58}
+      \strng{authorbibnamehash}{4cb84dd858c4ec9dae881405f13f0f58}
+      \strng{authornamehash}{4cb84dd858c4ec9dae881405f13f0f58}
+      \strng{authorfullhash}{4cb84dd858c4ec9dae881405f13f0f58}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astronomical Journal}
+      \field{month}{06}
+      \field{title}{{An iterative technique for the rectification of observed distributions}}
+      \field{volume}{79}
+      \field{year}{1974}
+      \field{pages}{745}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1086/111605
+      \endverb
+    \endentry
+    \entry{Luke2005}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=59b7f5c95fc63c5acfe8967ee16a606c}{%
+           family={Luke},
+           familyi={L\bibinitperiod},
+           given={D.\bibnamedelimi Russell},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{59b7f5c95fc63c5acfe8967ee16a606c}
+      \strng{fullhash}{59b7f5c95fc63c5acfe8967ee16a606c}
+      \strng{bibnamehash}{59b7f5c95fc63c5acfe8967ee16a606c}
+      \strng{authorbibnamehash}{59b7f5c95fc63c5acfe8967ee16a606c}
+      \strng{authornamehash}{59b7f5c95fc63c5acfe8967ee16a606c}
+      \strng{authorfullhash}{59b7f5c95fc63c5acfe8967ee16a606c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We report on progress in algorithms for iterative phase retrieval. The theory of convex optimization is used to develop and to gain insight into counterparts for the nonconvex problem of phase retrieval. We propose a relaxation of averaged alternating reflectors and determine the fixed-point set of the related operator in the convex case. A numerical study supports our theoretical observations and demonstrates the effectiveness of the algorithm compared to the current state of the art.}
+      \field{annotation}{We report on progress in algorithms for iterative phase retrieval.}
+      \field{eprintclass}{math}
+      \field{issn}{02665611}
+      \field{journaltitle}{Inverse Problems}
+      \field{number}{1}
+      \field{title}{{Relaxed averaged alternating reflections for diffraction imaging}}
+      \field{volume}{21}
+      \field{year}{2005}
+      \field{pages}{37\bibrangedash 50}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1088/0266-5611/21/1/004
+      \endverb
+    \endentry
     \entry{Maia2012}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=0749df228f854b9136fb942082a6afea}{%
@@ -4108,7 +4556,7 @@
       \verb :home/david/Downloads/nmeth.2110.pdf:pdf
       \endverb
     \endentry
-    \entry{marchesini_publishers_2007}{article}{}
+    \entry{Marchesini2007}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=83135380d80d77b3b36812e0f386fe1f}{%
            family={Marchesini},
@@ -4128,28 +4576,20 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{00346748}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Iterative projection algorithms are successfully being used as a substitute of lenses to recombine, numerically rather than optically, light scattered by illuminated objects. Images obtained computationally allow aberration-free diffraction-limited imaging and the possibility of using radiation for which no lenses exist. The challenge of this imaging technique is transferred from the lenses to the algorithms. We evaluate these new computational "instruments" developed for the phase-retrieval problem, and discuss acceleration strategies. {©} 2007 American Institute of Physics.}
       \field{journaltitle}{Review of Scientific Instruments}
-      \field{number}{4}
-      \field{shorttitle}{Publisher's {Note}}
-      \field{title}{Publisher's {Note}: “{Invited} {Article}: {A} unified evaluation of iterative projection algorithms for phase retrieval” [{Rev}. {Sci}. {Instrum}. 78, 011301 (2007)]}
-      \field{urlday}{15}
-      \field{urlmonth}{10}
-      \field{urlyear}{2013}
+      \field{number}{1}
+      \field{title}{{A unified evaluation of iterative projection algorithms for phase retrieval}}
       \field{volume}{78}
       \field{year}{2007}
-      \field{urldateera}{ce}
-      \field{pages}{049901}
-      \range{pages}{1}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
       \verb{doi}
-      \verb 10.1063/1.2736942
-      \endverb
-      \verb{file}
-      \verb Marchesini - 2007 - Publisher's Note “Invited Article A unified eval.pdf:/Users/marieingridrichard/Zotero/storage/J9PUHBSA/Marchesini - 2007 - Publisher's Note “Invited Article A unified eval.pdf:application/pdf;Scitation\: Publisher's Note\: “Invited Article\: A unified evaluation of iterative projection algorithms for phase retrieval” [Rev. Sci. Instrum. 78, 011301 (2007)]:/Users/marieingridrichard/Zotero/storage/INFUMBCG/1.html:text/html
+      \verb 10.1063/1.2403783
       \endverb
     \endentry
-    \entry{marchesini_x-ray_2003}{article}{}
+    \entry{Marchesini2003}{article}{}
       \name{author}{8}{ul=1}{%
         {{un=0,uniquepart=base,hash=83135380d80d77b3b36812e0f386fe1f}{%
            family={Marchesini},
@@ -4163,17 +4603,17 @@
            given={H.},
            giveni={H\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4903791d9620c95e674f60ed6b1c751b}{%
+        {{un=0,uniquepart=base,hash=69d8a0c63e6b421295abdabb9a53c097}{%
            family={Chapman},
            familyi={C\bibinitperiod},
-           given={H.\bibnamedelimi N.},
-           giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=8c2d7e518e93ac4943ab0783eae7ec38}{%
+        {{un=0,uniquepart=base,hash=d59fedfc752e6c23af83278c9b594968}{%
            family={Hau-Riege},
            familyi={H\bibinithyphendelim R\bibinitperiod},
-           given={S.\bibnamedelimi P.},
-           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=040f8dc79dcf1a040677742a44a85a13}{%
            family={Noy},
@@ -4181,11 +4621,11 @@
            given={A.},
            giveni={A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=ae780271fd82d6fdd2180861ab5a5d2a}{%
+        {{un=0,uniquepart=base,hash=74a4d605d0029735524a8ef854038b41}{%
            family={Howells},
            familyi={H\bibinitperiod},
-           given={M.\bibnamedelimi R.},
-           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=361fbbfa2626b503cc46d41c2370c37c}{%
            family={Weierstall},
@@ -4193,43 +4633,36 @@
            given={U.},
            giveni={U\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=e277d5806170a28529f4999ce6abe9a8}{%
+        {{un=0,uniquepart=base,hash=068da1c9b357354d1f150fccfb6d52ec}{%
            family={Spence},
            familyi={S\bibinitperiod},
-           given={J.\bibnamedelimi C.\bibnamedelimi H.},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
            givenun=0}}%
       }
       \strng{namehash}{ea8cc15866807c7d047e4263f5673554}
-      \strng{fullhash}{141b6d67fd35c89c81622bdfe585b3f9}
+      \strng{fullhash}{0a72389d0b782d6b0523a00421256c76}
       \strng{bibnamehash}{ea8cc15866807c7d047e4263f5673554}
       \strng{authorbibnamehash}{ea8cc15866807c7d047e4263f5673554}
       \strng{authornamehash}{ea8cc15866807c7d047e4263f5673554}
-      \strng{authorfullhash}{141b6d67fd35c89c81622bdfe585b3f9}
+      \strng{authorfullhash}{0a72389d0b782d6b0523a00421256c76}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{A solution to the inversion problem of scattering would offer aberration-free diffraction-limited three-dimensional images without the resolution and depth-of-field limitations of lens-based tomographic systems. Powerful algorithms are increasingly being used to act as lenses to form such images. Current image reconstruction methods, however, require the knowledge of the shape of the object and the low spatial frequencies unavoidably lost in experiments. Diffractive imaging has thus previously been used to increase the resolution of images obtained by other means. Here we experimentally demonstrate an inversion method, which reconstructs the image of the object without the need for any such prior knowledge.}
-      \field{journaltitle}{Physical Review B}
-      \field{month}{10}
+      \field{abstract}{A solution to the inversion problem of scattering would offer aberration-free diffraction-limited three-dimensional images without the resolution and depth-of-field limitations of lens-based tomographic systems. Powerful algorithms are increasingly being used to act as lenses to form such images. Current image reconstruction methods, however, require the knowledge of the shape of the object and the low spatial frequencies unavoidably lost in experiments. Diffractive imaging has thus previously been used to increase the resolution of images obtained by other means. Here we experimentally demonstrate an inversion method, which reconstructs the image of the object without the need for any such prior knowledge. {©} 2003 The American Physical Society.}
+      \field{issn}{1550235X}
+      \field{journaltitle}{Physical Review B - Condensed Matter and Materials Physics}
       \field{number}{14}
-      \field{title}{X-ray image reconstruction from a diffraction pattern alone}
-      \field{urlday}{8}
-      \field{urlmonth}{2}
-      \field{urlyear}{2019}
+      \field{title}{{X-ray image reconstruction from a diffraction pattern alone}}
       \field{volume}{68}
       \field{year}{2003}
-      \field{urldateera}{ce}
-      \field{pages}{140101}
-      \range{pages}{1}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
       \verb{doi}
       \verb 10.1103/PhysRevB.68.140101
-      \endverb
-      \verb{file}
-      \verb APS Snapshot:/Users/marieingridrichard/Zotero/storage/QK7J6Q2X/PhysRevB.68.html:text/html;Submitted Version:/Users/marieingridrichard/Zotero/storage/VCGVYK8J/Marchesini et al. - 2003 - X-ray image reconstruction from a diffraction patt.pdf:application/pdf
       \endverb
     \endentry
     \entry{Martini2019a}{article}{}
@@ -4462,6 +4895,55 @@
       \endverb
       \verb{file}
       \verb Miao et Sayre - 2000 - On possible extensions of X-ray crystallography th.pdf:/Users/marieingridrichard/Zotero/storage/6RSGLER6/Miao et Sayre - 2000 - On possible extensions of X-ray crystallography th.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{Miao1998}{article}{}
+      \name{author}{3}{}{%
+        {{un=2,uniquepart=given,hash=3dc2501f1e0f42275e28746301861ff9}{%
+           family={Miao},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=4ef689061cf59bc36e502e1f749d5937}{%
+           family={Sayre},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=4903791d9620c95e674f60ed6b1c751b}{%
+           family={Chapman},
+           familyi={C\bibinitperiod},
+           given={H.\bibnamedelimi N.},
+           giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{8feaca59794aa49feb0fcd10a033d4e4}
+      \strng{fullhash}{8feaca59794aa49feb0fcd10a033d4e4}
+      \strng{bibnamehash}{8feaca59794aa49feb0fcd10a033d4e4}
+      \strng{authorbibnamehash}{8feaca59794aa49feb0fcd10a033d4e4}
+      \strng{authornamehash}{8feaca59794aa49feb0fcd10a033d4e4}
+      \strng{authorfullhash}{8feaca59794aa49feb0fcd10a033d4e4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Page 1. Phase retrieval from the magnitude of the Fourier transforms of nonperiodic objects J. Miao, D. Sayre,* and HN Chapman‚Ä† Department of Physics, State University of New York at Stony Brook, Stony Brook, New York 11794 ... \n}
+      \field{issn}{1084-7529}
+      \field{journaltitle}{Journal of the Optical Society of America A}
+      \field{number}{6}
+      \field{title}{{Phase retrieval from the magnitude of the Fourier transforms of nonperiodic objects}}
+      \field{volume}{15}
+      \field{year}{1998}
+      \field{pages}{1662}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1364/josaa.15.001662
+      \endverb
+      \verb{file}
+      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Miao, Sayre, Chapman - 1998 - Phase retrieval from the magnitude of the Fourier transforms of nonperiodic objects(2).pdf:pdf
       \endverb
     \endentry
     \entry{Miao1999}{article}{}
@@ -5430,6 +5912,44 @@
       \verb Richard et al. - 2018 - Crystallographic orientation of facets and planar .pdf:/Users/marieingridrichard/Zotero/storage/GC9IRK2I/Richard et al. - 2018 - Crystallographic orientation of facets and planar .pdf:application/pdf
       \endverb
     \endentry
+    \entry{Richardson1972}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e1b1d027c3152c629d71e3584256f356}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={William\bibnamedelima Hadley},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{e1b1d027c3152c629d71e3584256f356}
+      \strng{fullhash}{e1b1d027c3152c629d71e3584256f356}
+      \strng{bibnamehash}{e1b1d027c3152c629d71e3584256f356}
+      \strng{authorbibnamehash}{e1b1d027c3152c629d71e3584256f356}
+      \strng{authornamehash}{e1b1d027c3152c629d71e3584256f356}
+      \strng{authorfullhash}{e1b1d027c3152c629d71e3584256f356}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An iterative method of restoring degraded images was developed by treating images, point spread functions, and degraded images as probability-frequency functions and by applying Bayes's theorem. The method functions effectively in the presence of noise and is adaptable to computer operation.}
+      \field{journaltitle}{J. Opt. Soc. Am.}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{Bayesian-Based Iterative Method of Image Restoration$\ast$}
+      \field{volume}{62}
+      \field{year}{1972}
+      \field{pages}{55\bibrangedash 59}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1364/JOSA.62.000055
+      \endverb
+      \keyw{Arrays; Deconvolution; Image processing; Point spread function}
+    \endentry
     \entry{Richter2019}{article}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=7001fcd73bc59f6b139b178cb16bef32}{%
@@ -5862,6 +6382,47 @@
       \field{pages}{1239}
       \range{pages}{1}
     \endentry
+    \entry{sayre_implications_1952}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ef689061cf59bc36e502e1f749d5937}{%
+           family={Sayre},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4ef689061cf59bc36e502e1f749d5937}
+      \strng{fullhash}{4ef689061cf59bc36e502e1f749d5937}
+      \strng{bibnamehash}{4ef689061cf59bc36e502e1f749d5937}
+      \strng{authorbibnamehash}{4ef689061cf59bc36e502e1f749d5937}
+      \strng{authornamehash}{4ef689061cf59bc36e502e1f749d5937}
+      \strng{authorfullhash}{4ef689061cf59bc36e502e1f749d5937}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0365-110X}
+      \field{journaltitle}{Acta Crystallographica}
+      \field{month}{11}
+      \field{number}{6}
+      \field{title}{Some implications of a theorem due to {Shannon}}
+      \field{urlday}{15}
+      \field{urlmonth}{10}
+      \field{urlyear}{2013}
+      \field{volume}{5}
+      \field{year}{1952}
+      \field{urldateera}{ce}
+      \field{pages}{843\bibrangedash 843}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1107/S0365110X52002276
+      \endverb
+      \verb{file}
+      \verb Some implications of a theorem due to Shannon:/Users/marieingridrichard/Zotero/storage/X4XI4E67/paper.html:text/html;Some implications of a theorem due to Shannon - a00763.pdf:/Users/marieingridrichard/Zotero/storage/ENDQ42WT/a00763.pdf:application/pdf
+      \endverb
+    \endentry
     \entry{Schlepütz2005}{article}{}
       \name{author}{9}{}{%
         {{un=2,uniquepart=given,hash=a5e088158013bdce2391df9c38b80a65}{%
@@ -6038,6 +6599,38 @@
       \field{title}{{Effective computation in physics}}
       \field{year}{2015}
       \keyw{Computer software,Computer software Development,Physics,Physics Programming}
+    \endentry
+    \entry{Shannon1949}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=22e2130b8d96f93daba648ff62af869b}{%
+           family={Shannon},
+           familyi={S\bibinitperiod},
+           given={C.E.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{fullhash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{bibnamehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authorbibnamehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authornamehash}{22e2130b8d96f93daba648ff62af869b}
+      \strng{authorfullhash}{22e2130b8d96f93daba648ff62af869b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the IRE}
+      \field{number}{1}
+      \field{title}{Communication in the Presence of Noise}
+      \field{volume}{37}
+      \field{year}{1949}
+      \field{pages}{10\bibrangedash 21}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/JRPROC.1949.232969
+      \endverb
     \endentry
     \entry{Simonne_Thorondor_2022_Diamond}{software}{}
       \name{author}{1}{}{%
@@ -6365,7 +6958,7 @@
       \field{pages}{1311\bibrangedash 1312}
       \range{pages}{2}
     \endentry
-    \entry{default_1925}{article}{}
+    \entry{Taylor1925}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=28582c04682bdd38b044c5474efeb2b9}{%
            family={Taylor},
@@ -6392,7 +6985,6 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The problem of the mechanism of a catalytic action occurring at the surface of a solid catalyst can be studied in several ways. Kinetic studies of such reactions supply important information with regard to the manner by which the process is achieved. On the other hand, attention may be focussed, not on the reactions which occur at the catalyst surface, but on the properties of the surface itself, and, from the results of such studies, generalizations may be made with respect to a variety of reactions which occur at such a surface. It is this latter method of attack on the problem of contact catalysis which has been adopted in the last few years in a comprehensive series of investigations on the properties of solid catalytic surfaces conducted in Princeton by the author and his co-workers. Taken in conjunction with the results of other investigators in the field of reaction kinetics, these studies have led to a concept of the catalytic surface which is, perhaps, more comprehensive than earlier efforts and which leads to interesting general conclusions with reference to matter in the solid state. The theory of Bodenstein and Fink, based on kinetic studies, assumed that reaction velocity was determined by the rate of diffusion of reactant gases through a layer of gas adsorbed on the catalyst surface. More recent studies, especially those of Langmuir, have led to the conclusion that multi-molecular layers of gas do not occur on plane surfaces of an adsorbent. Langmuir’s view is that the surface of a catalyst is to be regarded as an area containing a definite number of elementary spaces in which some of the spaces are vacant, while others are covered with adsorbed atoms or molecules. The activity of the surface is conditioned by the nature of the arrangement, and the spacing of the atoms, in the surface layer. The velocity of reaction on such surfaces depends on the fraction of such surface which is covered by adsorbed substances. Langmuir developed two cases in detail, one in which the surface was relatively bare, the other in which the surface was nearly completely covered with adsorbed gases.}
       \field{journaltitle}{Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character}
       \field{number}{745}
       \field{title}{A theory of the catalytic surface}
@@ -6402,9 +6994,6 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.1098/rspa.1925.0061
-      \endverb
-      \verb{eprint}
-      \verb https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1925.0061
       \endverb
     \endentry
     \entry{ulvestad_nanoscale_2014}{article}{}
