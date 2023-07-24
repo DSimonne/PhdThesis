@@ -347,6 +347,122 @@
       \verb 10.1039/D1CE00736J
       \endverb
     \endentry
+    \entry{Basolo2005}{article}{}
+      \name{author}{15}{}{%
+        {{un=0,uniquepart=base,hash=e6232ca9a161e2711ceec7c2a808779f}{%
+           family={Basolo},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51dae8b481f82765d5df90511277ab9d}{%
+           family={Berar},
+           familyi={B\bibinitperiod},
+           given={J.-F.},
+           giveni={J\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38c309fb762eb7ed79919fadcb640279}{%
+           family={Boudet},
+           familyi={B\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b574ed5d39146c4a59ba156dfaf1e16}{%
+           family={Breugnon},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c0bc68e92d4880230aeaa489d5a1d29}{%
+           family={Caillot},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6039a936d58e9a30ba4a35e8ed8f7f6f}{%
+           family={Clemens},
+           familyi={C\bibinitperiod},
+           given={J.-C.},
+           giveni={J\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3423c397c288dc7d808e9d0d5e49ad77}{%
+           family={Delpierre},
+           familyi={D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e8381e19d9c406f0be7f218c82ccbe6a}{%
+           family={Dinkespiler},
+           familyi={D\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ab048aafdb07a1ff01aec4985d5e1d8}{%
+           family={Koudobine},
+           familyi={K\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d51abaa3c13bff54b7e2649dbf13e4fd}{%
+           family={Meessen},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efdfcab1fa4ac776900ffc9e7d87e0d9}{%
+           family={Menouni},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0950e3b4d9a0a6f6175c86993e9ad1a9}{%
+           family={Mouget},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6905f594545adff7d431be62353fd114}{%
+           family={Pangaud},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bab99ca0361387c70710adc885801890}{%
+           family={Potheau},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58a0bf5d26d19899bbbaee5b3fe133c1}{%
+           family={Vigeolas},
+           familyi={V\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5797c063414a9c7d795c8a87e451f45e}
+      \strng{fullhash}{9c2832047354fee90d5f10ce5bb81554}
+      \strng{bibnamehash}{5797c063414a9c7d795c8a87e451f45e}
+      \strng{authorbibnamehash}{5797c063414a9c7d795c8a87e451f45e}
+      \strng{authornamehash}{5797c063414a9c7d795c8a87e451f45e}
+      \strng{authorfullhash}{9c2832047354fee90d5f10ce5bb81554}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Nuclear Science}
+      \field{number}{5}
+      \field{title}{XPAD: pixel detector for material sciences}
+      \field{volume}{52}
+      \field{year}{2005}
+      \field{pages}{1994\bibrangedash 1998}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/TNS.2005.856818
+      \endverb
+    \endentry
     \entry{NIST_cross_sections}{online}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=00b1a7d674f6b696681df62ee4078dc7}{%
@@ -1312,6 +1428,58 @@
       \verb Cherukara et al. - 2018 - Real-time coherent diffraction inversion using dee.pdf:/Users/marieingridrichard/Zotero/storage/93E4YACY/Cherukara et al. - 2018 - Real-time coherent diffraction inversion using dee.pdf:application/pdf;Snapshot:/Users/marieingridrichard/Zotero/storage/PZJ6GYHH/s41598-018-34525-1.html:text/html
       \endverb
     \endentry
+    \entry{Clark2012}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=013a052a8b8fdf76a9786e80c2ce0761}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={J\bibnamedelima N},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf1afb45a50313a87b61c9f7a08f8989}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={X},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb97a112f61add4b5b941d11347f9a84}{%
+           family={Harder},
+           familyi={H\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=892104b4cadaea7613199fef90707a6c}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={I\bibnamedelima K},
+           giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{0d912d839c58dc58e8ad83cf1eca6e71}
+      \strng{fullhash}{92d327482731a2bf14be8dad63ab111a}
+      \strng{bibnamehash}{0d912d839c58dc58e8ad83cf1eca6e71}
+      \strng{authorbibnamehash}{0d912d839c58dc58e8ad83cf1eca6e71}
+      \strng{authornamehash}{0d912d839c58dc58e8ad83cf1eca6e71}
+      \strng{authorfullhash}{92d327482731a2bf14be8dad63ab111a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{note}{taking into account partial coherence using a point-spread function convolution kernel}
+      \field{title}{High-resolution three-dimensional partially coherent diffraction imaging}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/ncomms1994
+      \endverb
+    \endentry
     \entry{Cochran1967}{article}{}
       \name{author}{10}{}{%
         {{un=0,uniquepart=base,hash=449653e3df929c3b555124c581ca5d50}{%
@@ -1460,6 +1628,177 @@
       \range{pages}{1}
       \verb{file}
       \verb :home/david/Downloads/525159a.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Dawiec_2016}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=67cb51647d75481c3f53fcc8f47d36a6}{%
+           family={Dawiec},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=366d53a9e2dbd73d0a828ca5d5de0f68}{%
+           family={Garreau},
+           familyi={G\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03779bed849ef2f9980ff8982ead1f5d}{%
+           family={Bisou},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1795cda8ab5d2a2c40f72960dd8bcbb9}{%
+           family={Hustache},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=72f702336c109168838ef754ab853542}{%
+           family={Kanoute},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4b2144f8d1ece5628e581986c111ab6}{%
+           family={Picca},
+           familyi={P\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e34e49f2dad4d4faa1f017c6f6064e5}{%
+           family={Renaud},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e619090340623d556058c9252f299c86}{%
+           family={Coati},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{21bd00201d8986ac380d7fc895f467f4}
+      \strng{fullhash}{98495883a65227fdebe8791e4f52aa0c}
+      \strng{bibnamehash}{21bd00201d8986ac380d7fc895f467f4}
+      \strng{authorbibnamehash}{21bd00201d8986ac380d7fc895f467f4}
+      \strng{authornamehash}{21bd00201d8986ac380d7fc895f467f4}
+      \strng{authorfullhash}{98495883a65227fdebe8791e4f52aa0c}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In order to fully benefit from a beam produced by modern synchrotron light sources, characterised by a wide and continuous energy spectrum, high brightness and a very high intensity, advancement in detector technology has been made over the last decades. However, one of the main limitations of the state-of-the-art counting hybrid pixel detectors is the maximum count-rate that is very often few orders of magnitudes lower than of the incident, reflected or diffracted beam flux. Therefore, direct beam attenuation is mandatory in order to perform the measurements according to the detector's characteristics. In this work we present a major upgrade of a fast attenuation system developed at Synchrotron SOLEIL, which allows for a dynamical change of the beam attenuation as a function of the photon flux received by XPAD S140 photon counting detector. The system performs a cyclic real-time estimation of the flux received by every pixel during acquisition of an image and searches for clusters of at least two pixels that exceed user defined levels of counts/s. The beam attenuation is immediately and automatically changed in order to guarantee that the detector will always operate in its linear range even during a long continuous scan, by acting on the direct attenuators.}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Real-time control of the beam attenuation with XPAD hybrid pixel detector}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{pages}{P12018}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/11/12/P12018
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/1748-0221/11/12/P12018
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/1748-0221/11/12/P12018
+      \endverb
+    \endentry
+    \entry{diaz_coherent_2009}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=e5091ff4b22fd906359d4eb468c7dbe8}{%
+           family={Diaz},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70ca93c2ae25ce8e61219fd89cced283}{%
+           family={Mocuta},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b7faba389e5d5e50869931cc513bb29}{%
+           family={Stangl},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9976f0afed98c3222f5e8e99d2fffff9}{%
+           family={Mandl},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed1f15ca25a10ce2a7ea72a524a0a86f}{%
+           family={David},
+           familyi={D\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca42b9fad300e707757d88abf33955de}{%
+           family={Vila-Comamala},
+           familyi={V\bibinithyphendelim C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37bfab267f58778fcb6e6c9aa9a1eac8}{%
+           family={Chamard},
+           familyi={C\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bbe6cf1a540469289ec5be9848949149}{%
+           family={Metzger},
+           familyi={M\bibinitperiod},
+           given={T.\bibnamedelimi H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82d7ac8b64baab1f400efc2614dcac8e}{%
+           family={Bauer},
+           familyi={B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{84e494eae16a6e7905725828a2511b35}
+      \strng{fullhash}{7c9749b665c8670db085b3c9356c968b}
+      \strng{bibnamehash}{84e494eae16a6e7905725828a2511b35}
+      \strng{authorbibnamehash}{84e494eae16a6e7905725828a2511b35}
+      \strng{authornamehash}{84e494eae16a6e7905725828a2511b35}
+      \strng{authorfullhash}{7c9749b665c8670db085b3c9356c968b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The cross section of an InAs nanowire with a diameter of 150 nm epitaxially grown on a 111-oriented InP substrate was characterized using a combination of x-ray scanning microdiffraction and coherent diffraction imaging. Using an x-ray beam focused by a Fresnel zone plate, we were able to scan in real space and hence localize single nanowires on the substrate in the as-grown epitaxial state. For one single nanowire, the three-dimensional coherent intensity distribution in reciprocal space was mapped around the (111) InAs reflection. Using phase retrieval algorithms, the cross section of the wire was reconstructed with a spatial resolution of 8 nm along one direction.}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{03}
+      \field{number}{12}
+      \field{title}{Coherent diffraction imaging of a single epitaxial {InAs} nanowire using a focused x-ray beam}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2013}
+      \field{volume}{79}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{125324}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.79.125324
+      \endverb
+      \verb{file}
+      \verb APS Snapshot:/Users/marieingridrichard/Zotero/storage/J75QPSS4/e125324.html:text/html;APS Snapshot:/Users/marieingridrichard/Zotero/storage/5949VE3K/PhysRevB.79.html:text/html;Diaz et al. - 2009 - Coherent diffraction imaging of a single epitaxial.pdf:/Users/marieingridrichard/Zotero/storage/V3VV6JJW/Diaz et al. - 2009 - Coherent diffraction imaging of a single epitaxial.pdf:application/pdf
       \endverb
     \endentry
     \entry{Doniach_1970}{article}{}
@@ -1810,6 +2149,34 @@
       \field{year}{2010}
       \field{pages}{144101}
       \range{pages}{1}
+    \endentry
+    \entry{favre-nicolin_semiconductor_2011}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4f23b63dc664989677dd939328a04c5f}{%
+           family={Favre-Nicolin},
+           familyi={F\bibinithyphendelim N\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4f23b63dc664989677dd939328a04c5f}
+      \strng{fullhash}{4f23b63dc664989677dd939328a04c5f}
+      \strng{bibnamehash}{4f23b63dc664989677dd939328a04c5f}
+      \strng{authorbibnamehash}{4f23b63dc664989677dd939328a04c5f}
+      \strng{authornamehash}{4f23b63dc664989677dd939328a04c5f}
+      \strng{authorfullhash}{4f23b63dc664989677dd939328a04c5f}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Semiconductor nano-structures in the light of synchrotron radiation {Coherent} {Diffraction} {Imaging} and {Grazing}-{Incidence} {Diffraction} studies of semiconductor nano-structures}
+      \field{type}{phdthesis}
+      \field{year}{2011}
+      \verb{file}
+      \verb HDR-Vincent.pdf:/Users/marieingridrichard/Zotero/storage/6SS86FB4/HDR-Vincent.pdf:application/pdf
+      \endverb
     \endentry
     \entry{pynx2011}{article}{}
       \name{author}{4}{ul=2}{%
@@ -2932,7 +3299,7 @@
       \verb 10.1103/physrevb.76.115425
       \endverb
     \endentry
-    \entry{Harlow2020}{generic}{}
+    \entry{Harlow2020}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=fa88ab51c2cd67485197c63687da38c8}{%
            family={Harlow},
@@ -3037,7 +3404,7 @@
       \endverb
       \keyw{cryo-EM,Fourier shell correlation,Information,Resolution criteria,Single particles}
     \endentry
-    \entry{Hejral2021}{generic}{}
+    \entry{Hejral2021}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=4c4ce95dc59c6d354cb3a4a0de7c52e7}{%
            family={Hejral},
@@ -3263,6 +3630,31 @@
       \field{year}{2007}
       \field{pages}{90\bibrangedash 95}
       \range{pages}{6}
+    \endentry
+    \entry{vincentjacques2010}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=189d5a22548b363857711b78123ba1de}{%
+           family={Jacques},
+           familyi={J\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{189d5a22548b363857711b78123ba1de}
+      \strng{fullhash}{189d5a22548b363857711b78123ba1de}
+      \strng{bibnamehash}{189d5a22548b363857711b78123ba1de}
+      \strng{authorbibnamehash}{189d5a22548b363857711b78123ba1de}
+      \strng{authornamehash}{189d5a22548b363857711b78123ba1de}
+      \strng{authorfullhash}{189d5a22548b363857711b78123ba1de}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Application de la diffraction cohérente des rayons X à l’étude de défauts topologiques dans les structures atomiques et électroniques}
+      \field{type}{phdthesis}
+      \field{year}{2010}
     \endentry
     \entry{NielsenMcMorrow}{book}{}
       \name{author}{1}{}{%
@@ -4449,6 +4841,156 @@
       \verb :home/david/Documents/PhD/Papers/15bf682344fef5532a2c7020e7fe94d7.pdf:pdf
       \endverb
     \endentry
+    \entry{Li2020}{article}{}
+      \name{author}{19}{}{%
+        {{un=1,uniquepart=given,hash=9d75db9bec171a332f5fc52cb66a0829}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ni},
+           giveni={N\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=7812ec96d64e72c3272729b04125b734}{%
+           family={Dupraz},
+           familyi={D\bibinitperiod},
+           given={Maxime},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a48b53028a34ba769b8f9882df4ef594}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Longfei},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bdd6ba8fe072a30a7985c29befc8446}{%
+           family={Leake},
+           familyi={L\bibinitperiod},
+           given={Steven\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=095401660ec6b30ea5677c39096e8cae}{%
+           family={Resta},
+           familyi={R\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
+           family={Carnis},
+           familyi={C\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3fe32d6ad4fbfd46998094d46facb33}{%
+           family={Labat},
+           familyi={L\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d20d588aa69377481af85a16ca052479}{%
+           family={Almog},
+           familyi={A\bibinitperiod},
+           given={Ehud},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b271749bc2e24b884c32a661ed39a31d}{%
+           family={Rabkin},
+           familyi={R\bibinitperiod},
+           given={Eugen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f23b63dc664989677dd939328a04c5f}{%
+           family={Favre-Nicolin},
+           familyi={F\bibinithyphendelim N\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac664fb74cb18ba19a5a2e6ec93962f4}{%
+           family={Picca},
+           familyi={P\bibinitperiod},
+           given={Frédéric\bibnamedelima Emmanuel},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f8b805e643f0647154aa69e3ef8afc1}{%
+           family={Berenguer},
+           familyi={B\bibinitperiod},
+           given={Felisa},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=318359aedc4c690379aa7b7d4d701154}{%
+           family={Poll},
+           familyi={P\bibinitperiod},
+           given={Rim},
+           giveni={R\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima de},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=6042288c2da48fd8587dbe2f4fed1c4d}{%
+           family={Hofmann},
+           familyi={H\bibinitperiod},
+           given={Jan\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0210a78f5e50d5c663ed1743bdb42b0e}{%
+           family={Vlad},
+           familyi={V\bibinitperiod},
+           given={Alina},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c9c63fbd972192f2090267690e2b16c}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18e7474c259377953c3f9d7b79555403}{%
+           family={Garreau},
+           familyi={G\bibinitperiod},
+           given={Yves},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=116823dc16a2ffe740374b23c6bf69cf}{%
+           family={Coati},
+           familyi={C\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b44fced5fe7bc5bc5e0403d8167fba47}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Marie\bibnamedelima Ingrid},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{503c6789b23596296b7bd5ece65dc325}
+      \strng{fullhash}{44a5ca3442c1a6de92506ba0ee70e872}
+      \strng{bibnamehash}{503c6789b23596296b7bd5ece65dc325}
+      \strng{authorbibnamehash}{503c6789b23596296b7bd5ece65dc325}
+      \strng{authornamehash}{503c6789b23596296b7bd5ece65dc325}
+      \strng{authorfullhash}{44a5ca3442c1a6de92506ba0ee70e872}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We explore the use of continuous scanning during data acquisition for Bragg coherent diffraction imaging, i.e., where the sample is in continuous motion. The fidelity of continuous scanning Bragg coherent diffraction imaging is demonstrated on a single Pt nanoparticle in a flow reactor at 400∘C in an Ar-based gas flowed at 50 ml/min. We show a reduction of 30\% in total scan time compared to conventional step-by-step scanning. The reconstructed Bragg electron density, phase, displacement and strain fields are in excellent agreement with the results obtained from conventional step-by-step scanning. Continuous scanning will allow to minimise sample instability under the beam and will become increasingly important at diffraction-limited storage ring light sources.}
+      \field{annotation}{Continuous scanning --> We show a reduction of 30\% in total scan time compared to conventional step‑by‑step scanning.}
+      \field{isbn}{0123456789}
+      \field{issn}{20452322}
+      \field{journaltitle}{Scientific Reports}
+      \field{number}{1}
+      \field{title}{{Continuous scanning for Bragg coherent X-ray imaging}}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/s41598-020-69678-5
+      \endverb
+      \verb{file}
+      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Li et al. - 2020 - Continuous scanning for Bragg coherent X-ray imaging.pdf:pdf
+      \endverb
+    \endentry
     \entry{LucyAlgo1974}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4cb84dd858c4ec9dae881405f13f0f58}{%
@@ -4556,14 +5098,105 @@
       \verb :home/david/Downloads/nmeth.2110.pdf:pdf
       \endverb
     \endentry
+    \entry{Marchesini2003a}{report}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=83135380d80d77b3b36812e0f386fe1f}{%
+           family={Marchesini},
+           familyi={M\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4903791d9620c95e674f60ed6b1c751b}{%
+           family={Chapman},
+           familyi={C\bibinitperiod},
+           given={H\bibnamedelima N},
+           giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c2d7e518e93ac4943ab0783eae7ec38}{%
+           family={Hau-Riege},
+           familyi={H\bibinithyphendelim R\bibinitperiod},
+           given={S\bibnamedelima P},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fc29e08341fb63d915db4d11a193c05}{%
+           family={London},
+           familyi={L\bibinitperiod},
+           given={R\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9ef08f0bcd2a33b9b0932deabbef64c}{%
+           family={Szoke},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d48651e85ff8cb16f279fb6e67611552}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae780271fd82d6fdd2180861ab5a5d2a}{%
+           family={Howells},
+           familyi={H\bibinitperiod},
+           given={M\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d20666ad02a890d918f0c23dafab2f13}{%
+           family={Padmore},
+           familyi={P\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f3d8e620c92b356eeed92d69f02ac34}{%
+           family={Rosen},
+           familyi={R\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e277d5806170a28529f4999ce6abe9a8}{%
+           family={Spence},
+           familyi={S\bibinitperiod},
+           given={J\bibnamedelima C\bibnamedelima H},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=361fbbfa2626b503cc46d41c2370c37c}{%
+           family={Weierstall},
+           familyi={W\bibinitperiod},
+           given={U},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ea8cc15866807c7d047e4263f5673554}
+      \strng{fullhash}{a5370822af3464930893736b98a963bb}
+      \strng{bibnamehash}{ea8cc15866807c7d047e4263f5673554}
+      \strng{authorbibnamehash}{ea8cc15866807c7d047e4263f5673554}
+      \strng{authornamehash}{ea8cc15866807c7d047e4263f5673554}
+      \strng{authorfullhash}{a5370822af3464930893736b98a963bb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The inversion of a diffraction pattern offers aberration-free diffraction-limited 3D images without the resolution and depth-of-field limitations of lens-based tomographic systems, the only limitation being radiation damage. We review our recent experimental results, in which X-ray images were reconstructed from the diffraction pattern alone. A preliminary analysis of the radiation dose needed for CXDI imaging and the dose tolerance of frozen-hydrated life-science samples suggests}
+      \field{title}{Coherent X-ray diffractive imaging: applications and limitations}
+      \field{year}{2003}
+      \verb{urlraw}
+      \verb http://www-hasylab.desy.de/facility/fel/vuv/main.htm
+      \endverb
+      \verb{url}
+      \verb http://www-hasylab.desy.de/facility/fel/vuv/main.htm
+      \endverb
+    \endentry
     \entry{Marchesini2007}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=83135380d80d77b3b36812e0f386fe1f}{%
+        {{un=2,uniquepart=given,hash=83135380d80d77b3b36812e0f386fe1f}{%
            family={Marchesini},
            familyi={M\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \strng{namehash}{83135380d80d77b3b36812e0f386fe1f}
       \strng{fullhash}{83135380d80d77b3b36812e0f386fe1f}
@@ -4591,12 +5224,12 @@
     \endentry
     \entry{Marchesini2003}{article}{}
       \name{author}{8}{ul=1}{%
-        {{un=0,uniquepart=base,hash=83135380d80d77b3b36812e0f386fe1f}{%
+        {{un=2,uniquepart=given,hash=83135380d80d77b3b36812e0f386fe1f}{%
            family={Marchesini},
            familyi={M\bibinitperiod},
            given={S.},
            giveni={S\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=d48651e85ff8cb16f279fb6e67611552}{%
            family={He},
            familyi={H\bibinitperiod},
@@ -4761,6 +5394,82 @@
       \verb 10.1016/j.cpc.2019.107064
       \endverb
       \keyw{Direct and inverse approaches,Fit,Machine learning,PCA,Spectral decomposition,XANES}
+    \endentry
+    \entry{Mastropietro2011}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=8292f0e9f14588272f05c56f1ba4e34b}{%
+           family={Mastropietro},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bcddae384ed8a62d0600c434373f5ce}{%
+           family={Carbone},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5091ff4b22fd906359d4eb468c7dbe8}{%
+           family={Diaz},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b7158f0f85be6c9659dd4d8ab0898b2}{%
+           family={Eymery},
+           familyi={E\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24f2e5f9fdaff412b27f41a4d6986d27}{%
+           family={Sentenac},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bbe6cf1a540469289ec5be9848949149}{%
+           family={Metzger},
+           familyi={M\bibinitperiod},
+           given={T.\bibnamedelimi H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37bfab267f58778fcb6e6c9aa9a1eac8}{%
+           family={Chamard},
+           familyi={C\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=488d712aadce0c9f2b76a0a08766f449}{%
+           family={Favre-Nicolin},
+           familyi={F\bibinithyphendelim N\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bf7e355db6f93df5b2bbca1b76537bee}
+      \strng{fullhash}{e89e7471019dc590d6c50071c07e5455}
+      \strng{bibnamehash}{bf7e355db6f93df5b2bbca1b76537bee}
+      \strng{authorbibnamehash}{bf7e355db6f93df5b2bbca1b76537bee}
+      \strng{authornamehash}{bf7e355db6f93df5b2bbca1b76537bee}
+      \strng{authorfullhash}{e89e7471019dc590d6c50071c07e5455}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A detailed characterization of the coherent x-ray wavefront produced by a partially illuminated Fresnel zone plate is presented. We show, by numerical and experimental approaches, how the beam size and the focal depth are strongly influenced by the illumination conditions, while the phase of the focal spot remains constant. These results confirm that the partial illumination can be used for coherent diffraction experiments. Finally, we demonstrate the possibility of reconstructing the complex-valued illumination function by simple measurement of the far field intensity in the specific case of partial illumination.}
+      \field{issn}{1094-4087}
+      \field{issue}{20}
+      \field{journaltitle}{Optics Express}
+      \field{title}{Coherent x-ray wavefront reconstruction of a partially illuminated Fresnel zone plate}
+      \field{volume}{19}
+      \field{year}{2011}
+      \field{pages}{19223}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1364/oe.19.019223
+      \endverb
     \endentry
     \entry{McKinney2017}{book}{}
       \name{author}{1}{}{%
@@ -5694,6 +6403,79 @@
       \verb 10.1038/nature04867
       \endverb
     \endentry
+    \entry{ponchut_maxipix_2011}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=71b1e8e31bfdeb80ab060e9ae90e531d}{%
+           family={Ponchut},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d2b23c9e942d6d310c1c9a2b5a7d1ac}{%
+           family={Rigal},
+           familyi={R\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0241622c3361fe07dfd6dd845f02737}{%
+           family={Clément},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=772b244bd550b4efbdbb32f72311d1f9}{%
+           family={Papillon},
+           familyi={P\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ccfa77651d4802d6c91a9d0466a5d75}{%
+           family={Homs},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8546cbc17a9bb9506ed2a068848b54cf}{%
+           family={Petitdemange},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{dca813eef8893e9b50846096c4924d48}
+      \strng{fullhash}{0f7507452fc2393e419ca412799cc31e}
+      \strng{bibnamehash}{dca813eef8893e9b50846096c4924d48}
+      \strng{authorbibnamehash}{dca813eef8893e9b50846096c4924d48}
+      \strng{authornamehash}{dca813eef8893e9b50846096c4924d48}
+      \strng{authorfullhash}{0f7507452fc2393e419ca412799cc31e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A 2D photon-counting X-ray detector system with 1.4 kHz frame rate and 55 μm spatial resolution has been developed and commissionned on ESRF beamlines. The system called MAXIPIX (Multichip Area X-ray detector based on a photon-counting PIXel array) consists of a detector module implementing up to five MEDIPIX-2 or TIMEPIX photon-counting readout chips, a custom readout interface board and a Linux acquisition workstation. The detector module readout time is 290 microseconds, allowing the system to achieve sustained frame rates of 280 Hz to 1400 Hz depending on the number of connected chips. An effective time resolution of 60 ns was measured using the ESRF pulsed modes and a TIMEPIX module. The system architecture and characteristics are presented, as well as a summary of its applications on ESRF beamlines.}
+      \field{issn}{1748-0221}
+      \field{journaltitle}{Journal of Instrumentation}
+      \field{month}{01}
+      \field{number}{01}
+      \field{title}{{MAXIPIX}, a fast readout photon-counting {X}-ray area detector for synchrotron applications}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2013}
+      \field{volume}{6}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{C01069}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1748-0221/6/01/C01069
+      \endverb
+      \keyw{Hybrid detectors,Pixilated detectors and associated VLSI electronics,X-ray detectors,X-ray diffraction detectors}
+    \endentry
     \entry{Resta2020a}{article}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=095401660ec6b30ea5677c39096e8cae}{%
@@ -6423,6 +7205,77 @@
       \verb Some implications of a theorem due to Shannon:/Users/marieingridrichard/Zotero/storage/X4XI4E67/paper.html:text/html;Some implications of a theorem due to Shannon - a00763.pdf:/Users/marieingridrichard/Zotero/storage/ENDQ42WT/a00763.pdf:application/pdf
       \endverb
     \endentry
+    \entry{Schavkan2013}{inproceedings}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=123d2dd8eddb678765433096b52f0943}{%
+           family={Schavkan},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a600988fa3418f93d1d2fb9dd139626c}{%
+           family={Westermeier},
+           familyi={W\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddbaf83ca73edf130310ecf86ffd4a40}{%
+           family={Zozulya},
+           familyi={Z\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9702abb99c400b0ddfcfd7bf886c6c1a}{%
+           family={Bondarenko},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97ec08de3138dd46825b1ac27f4745d3}{%
+           family={Grübel},
+           familyi={G\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3229a3d8cc2f1f8a8882a10828da16e6}{%
+           family={Schroer},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85c7c148ff0487eba23e3eae2bce739b}{%
+           family={Sprung},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Institute of Physics Publishing}%
+      }
+      \strng{namehash}{f3ddc2756967f8dd42d51af5df9cb56a}
+      \strng{fullhash}{c296d54c326483cd73e423689e5af807}
+      \strng{bibnamehash}{f3ddc2756967f8dd42d51af5df9cb56a}
+      \strng{authorbibnamehash}{f3ddc2756967f8dd42d51af5df9cb56a}
+      \strng{authornamehash}{f3ddc2756967f8dd42d51af5df9cb56a}
+      \strng{authorfullhash}{c296d54c326483cd73e423689e5af807}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Possibilities to use the MAXIPIX 2×2 detector for coherent scattering applications are investigated. This study focuses on X-ray Photon Correlation Spectroscopy experiments. Flatfield measurements show that the MAXIPIX detector pixels respond very inhomogeneously in the X-ray range between 5 and 10 keV most commonly used for coherent scattering experiments. Two colloidal model sample systems are investigated using the MAXIPIX and a direct illumination CCD for comparison. It is demonstrated that the MAXIPIX 2×2 detector is applicable for static and dynamic coherent scattering experiments after flatfield correction.}
+      \field{issn}{17426596}
+      \field{issue}{PART 20}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{title}{Using the MAXIPIX detector for coherent X-ray scattering applications}
+      \field{volume}{425}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1088/1742-6596/425/20/202004
+      \endverb
+    \endentry
     \entry{Schlepütz2005}{article}{}
       \name{author}{9}{}{%
         {{un=2,uniquepart=given,hash=a5e088158013bdce2391df9c38b80a65}{%
@@ -6563,6 +7416,79 @@
       \verb 10.1107/S0021889810048922
       \endverb
       \keyw{angle calculations,diffractometers,pixel detectors,grazing-incidence diffraction,surface diffraction,reciprocal-space mapping}
+    \endentry
+    \entry{Schroer2008}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=fea16c7674cf219e280292ab9cc22ff3}{%
+           family={Schroer},
+           familyi={S\bibinitperiod},
+           given={C\bibnamedelima G},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=154b180d075b537d0ba2e37523cf1b00}{%
+           family={Boye},
+           familyi={B\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bab9f0d83f41eca05953f881cf64c0c}{%
+           family={Feldkamp},
+           familyi={F\bibinitperiod},
+           given={J\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0b947e4d15e29fe772a1c5f258ef62f}{%
+           family={Patommel},
+           familyi={P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cd5bb0019eaf6561673d3f2ef248caa}{%
+           family={Schropp},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a3b35125ee6383e4aeab54583c98cf7}{%
+           family={Schwab},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6820f34353f452d4f9805715bdc9d91c}{%
+           family={Stephan},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=addde88337c82329d444ed8b41578851}{%
+           family={Burghammer},
+           familyi={B\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d9fba359ca5353a5dc904f917f6ec429}
+      \strng{fullhash}{22a015bbc4d665d2c8a50d4f64875bb4}
+      \strng{bibnamehash}{d9fba359ca5353a5dc904f917f6ec429}
+      \strng{authorbibnamehash}{d9fba359ca5353a5dc904f917f6ec429}
+      \strng{authornamehash}{d9fba359ca5353a5dc904f917f6ec429}
+      \strng{authorfullhash}{22a015bbc4d665d2c8a50d4f64875bb4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{August}
+      \field{title}{Coherent X-Ray Diffraction Imaging with Nanofocused Illumination}
+      \field{volume}{090801}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.101.090801
+      \endverb
     \endentry
     \entry{Scopatz2015}{book}{}
       \name{author}{2}{}{%
@@ -7448,7 +8374,7 @@
       \verb https://doi.org/10.1107/S0021889899013655
       \endverb
     \endentry
-    \entry{Wang2018}{generic}{}
+    \entry{Wang2018}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=3a4719ce1c5e8800239ebd06176afe09}{%
            family={Wang},
@@ -7665,12 +8591,12 @@
            given={Hanfei},
            giveni={H\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=502de95c3193f5c283f4ef712520a97e}{%
+        {{un=1,uniquepart=given,hash=502de95c3193f5c283f4ef712520a97e}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={Li},
            giveni={L\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{235d9b7323382bb871b858b67ed147ef}
       \strng{fullhash}{235d9b7323382bb871b858b67ed147ef}

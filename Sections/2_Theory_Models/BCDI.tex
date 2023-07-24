@@ -62,7 +62,7 @@ To reduce the complexity in the second part of eq. \ref{eq:FcrystalBCDI2}, only 
 \end{align}
 
 The first part of eq. \ref{eq:FcrystalBCDI6} can be considered to be the Fourier transform of the unit cell $k$ of electronic density $\rho_k(\vec{r})$ in which all atoms have the same displacement vector $\vec{u}_k$, in this equation the electronic density is allowed to vary from one unit cell to another.
-Moreover, one can recognize the expression of a discrete Fourier transform (DFT) of frequency $\vec{G}$ in which $\rho_k(\vec{r})$ is the $k-th$ sample of the series that consist in $N_{uc}$ samples \parencite{Cooley1965, Cochran1967}.
+Moreover, one can recognize the expression of a discrete Fourier transform (DFT) of frequency $\vec{G}$ in which $\rho_k(\vec{r})$ is the $k-th$ sample of the series that consist in $N_{uc}$ samples \parencite{Cooley1965, Cochran1967, favre-nicolin_semiconductor_2011}.
 The reason for the approximation $\vec{q} \approx \vec{G}$ is simply to be able to use a Fast Fourier Transform (FFT) algorithm to compute the DFT that has a linearithmic time complexity $O(n \, log(n))$.
 This approximation breaks down far away from the Laue condition or if the strain is so important that the condition $(\vec{q}-\vec{G}).\vec{u}_k<<1$ is not anymore respected to move from eq. \ref{eq:FcrystalBCDI5} to eq. \ref{eq:FcrystalBCDI6}.
 
@@ -75,7 +75,7 @@ In the case of a strained crystal, the additional phase factor introduced in eq.
 The effect of the displacement can be seen in the distortion of the scattering intensity around Bragg peaks.
 It is important to notice that the phase in eq. \ref{eq:FcrystalBCDI7} is equal to the dot product between the displacement vector and the reciprocal space vector, which means that to possess the complete displacement field, one must collect the scattered intensity around three non-coplanar Bragg peaks that will yield the displacement field over an orthogonal base ($\vec{q_1}, \vec{q_2}, \vec{q_3}$).
 
-\subsubsection{Data collection}
+\subsubsection{Data collection} \label{sec:DataCollectionBCDI}
 
 The data collection during a BCDI measurement is performed by continuously rocking the sample around the incident angle, which will result in a tilt of the associated Ewald sphere and in the detector probing a different slice of the reciprocal space for each step.
 This measurement is called a rocking curve (fig. \ref{fig:3DDP} - left), the associated 3D scattering intensity is illutrated in fig. \ref{fig:3DDP} (right).
@@ -159,7 +159,7 @@ The error-metric used to follow the convergence of the algorithm is simply the m
 More algorithms have since then been developped that try to help converge towards the final solution without being stuck in local minima such as the hybrid input-output (HIO) and relaxed averaged alternating reflections (RAAR) algorithms, by introducing a new parameter, $\beta$, which relaxes the threshold condition in real space from the ER algorithm.
 Additional details can be found in \cite{Marchesini2003,Luke2005,Marchesini2007}.
 
-Finally, a major recent improvement of the phase retrieval algorithm is the possibility to take into account the partial coherence of the beam together with the point-spread function of the detector by using the deconvolution Richardson-Lucy algorithm \parencite{Richardson1972, LucyAlgo1974, Fish1995}.
+Finally, a major recent improvement of the phase retrieval algorithm is the possibility to take into account the partial coherence of the beam together with the point-spread function of the detector by using the deconvolution Richardson-Lucy algorithm \parencite{Richardson1972, LucyAlgo1974, Fish1995, Clark2012}.
 The point-spread function (PSF) must first be approximated with a 3D Gaussian, Lorentzian or pseudo-voigt shape depending on the expected coherence of the beam and is refined during the last steps of the phase retrieval when the support is already well determined, to avoid any divergence from simultaneously having to refine both the support and the PSF.
 
 Moreover, new methods such as convolution neural networks (CNN) are under study and have started to show some encouraging results, but are not yet sufficiently robust, particularly in the case of strained particles \parencite{cherukara_real-time_2018,chan_rapid_2021,Wu2021}.
@@ -169,7 +169,8 @@ Moreover, new methods such as convolution neural networks (CNN) are under study 
 The resolution of the reconstructed object, defined according to multiple parameters in the literature, is critical for an imaging technique.
 The voxel size in real space $2\pi / \delta q_x, 2\pi / \delta q_y, 2\pi / \delta q_z$ depends on the extent of the collected volume in the reciprocal space $\delta q_x, \delta q_y, \delta q_z$.
 However the voxel size would only be a good criteria to determine the resolution if the signal to noise ratio of the scattering intensity was high enough in all of the probed reciprocal space volume, so that all of the frequencies in the q-space could be effectively retrieved with the FFT algorithm.
-If this is the case in simulated data, it is not with experimental data and the community has therefore relied so far on three methods to estimate the spatial resolution of the reconstructed electronic density.
+If this is the case in simulated data, it is not with experimental data for which the noise starts to become important far away from the Bragg peak, keeping in mind that the intensity decreases as a function of $q^{-4}$ \parencite{Marchesini2003a} as a function of the distance from the Bragg peak.
+The community has therefore relied so far on three methods to estimate the spatial resolution of the reconstructed electronic density.
 
 First, the Phase Retrieval Transfer Function (PRTF) \parencite{chapman_high-resolution_2006} is the \textit{ratio} of the calculated structure factor $|F_k(\vec{q})|$ to the square-root of the measured intensity $\sqrt{I_k(\vec{q})}$ as a function of the resolution shell.
 The resolution shell $k$ is defined as all voxels of position $q=\sqrt{q_x^2 + q_y^2 +q_z^2}$ that satify the condition $q \in [q_k, q_{k+1}]$.

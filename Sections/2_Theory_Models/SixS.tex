@@ -1,19 +1,155 @@
-\section{Synchrotron radiation and facility} \label{sec:SIXS}
+\newpage
+\section{Synchrotron radiation for the study of materials} \label{sec:SIXS}
 
-Presentation of the MED environment ... 
+\subsection{Synchrotron radiation}
 
-give values for coherence lengths
+SOLEIL (Source Optimisée d’Énergie Intermédiaire du LURE (Laboratoire pour l’Utilisation du Rayonnement Électromagnétique)) is a 3rd generation synchrotron source facility build in 2006 and localized near Paris, France, which operates at an electron energy of $2.75 \, GeV$ with a storage ring diameter of $354 \, m$.
 
-detail for secondary slits in maxime's thesis
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sixs/RingSoleil.jpg}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sixs/BeamlineSoleil.jpg}
+    \caption{
+    	The storage ring alternates between straight and curved sections (left), insertion devices are situated at curves sections and deliver the synchrotron radiation to the beamline (right).
+    	Copyright by SOLEIL (\url{https://www.synchrotron-soleil.fr/en/research}).
+    }
+    \label{fig:SOLEIL}
+\end{figure}
 
-\subsection{Tailored for the study of materials}
+Synchrotron radiation is generated when electrons are accelerated to relativistic speeds and forced to travel in curved trajectories by strong magnetic fields.
+As these high-energy electrons move along their circular paths, they emit horizontally polarized electromagnetic radiation, known as synchrotron radiation.
+This radiation spans a broad spectrum, from infrared to X-rays, depending on the energy of the accelerated particles and the strength of the magnetic fields.
+
+First, electrons are produced by an electron gun and accelerated in a linear accelerator (LINAC), then by a booster ring.
+Secondly, once the electrons reach the desired energy, they are injected into a storage ring, which is a circular vacuum chamber surrounded by strong magnets.
+The magnetic fields in the ring act as a guiding force, bending the electrons' trajectories into circular paths (fig. \ref{fig:SOLEIL} - left).
+
+Due to their high energy, the electrons travel at speeds close to the speed of light, making them relativistic particles.
+As they move through the curved paths, they experience centripetal acceleration, continuously changing direction, and emitting electromagnetic radiation tangentially to their trajectory as a result of their acceleration \parencite{Willmott, NielsenMcMorrow}.
+
+By the use of insertion devices such as wiggler or undulators, synchrotron radiation is exceptionally bright and brilliant, with a high flux of photons and an excellent collimation, wigglers are best used when in the need of a broad energy range, whereas undulators produce beams with extremely high brilliance and narrow bandwidth.
+Each beamline at SOLEIL begins with one of those insertion devices (fig. \ref{fig:SOLEIL} - right).
 
 \subsection{The SixS beamline}
 
-\subsubsection{Diffractometer}
-theta two theta is mu gamma or omega delta
+SixS (Surfaces Interfaces X-ray Scattering) is a wide-energy range ($[5, \, 20] keV$) beamline dedicated to the structural characterization of surfaces and interfaces (solid-solid or solid-liquid), as well as nano-objects in controlled environments by the means of surface-sensitive x-ray scattering techniques.
 
-\subsubsection{Mass flow controller}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/sixs/SixSBeamline.png}
+    \caption{
+		Schematic view of SixS, the monochromator is situated in the optical hutch, the focusing mirrors, the attenuators and the MED end-station are in the first experimental hutch, additional mirrors and the UHV end-station are in the second experimental hutch.
+		Only the MED end-station was used in the frame of this thesis.
+    }
+    \label{fig:SixSBeamline}
+\end{figure}
 
-\subsubsection{Residual Gas Analyser}
+The beamline operates with a $U_{20}$ undulator situated before the front-end (shutter) which delivers a beam characterized by its horizontal and vertical full-width at half maximum (FWHM), respectively $\sigma_H = 900 \, \mu m$ and $\sigma_V = 20 \, \mu m$.
 
+A diaphragm is placed just after the undulator to cut any parasitic signal, a double crystal monochromator (DCM) of silicium (111) allows the selection of a monochromatic beam of thin bandwidth $\Delta \lambda$ after receiving the white beam, the first crystal is cooled by liquid nitrogen due to the high intensity of the white beam.
+The second crystal is slightly curved for the sagital focus of the beam whereas the tangential focus is handled by focusing mirrors (fig. \ref{fig:SixSBeamline}).
+The shape and width of the beam can be controlled by the use of slits which act as a secondary source, primary slits are placed just before the DCM, and secondary slits just before the focusing optics when performing BCDI measurements.
+The role of the primary slits is to select a homogeneous portion of the beam to work with to avoid fluctuations of the beam intensity.
+The distance between each element is recapitulated in tab. \ref{tab:DistanceSixS}.
+After the focusing optics are the attenuators that limit the intensity of the incident beam when working in the direct geometry, followed by the first experimental end-station, the multi-environment diffractometer (MED).
+
+\begin{table}[!htb]
+	\centering
+	\begin{tabular}{@{}llllllll@{}}
+	\toprule
+	$U_{20}$ & Diaphragm & Ring & Primary  & DCM      & Secondary  & Focusing &  MED \\
+	         &           & wall & slits    & Si (111) & slits      & optics   &  \\
+ 	\midrule
+ 	$0 \, m$ &$11.7 \, m$&$15 \, m$& $16.7 \, m$ & $18.8 \, m$ & $ 30 m$ &$\approx 30.5 \,  m$ & $31 \, m$
+	\end{tabular}
+	\caption{
+		Distance between each main element that allow the focusing of a monochromatic beam on the sample stage at SixS.
+	}
+    \label{tab:DistanceSixS}
+\end{table}
+
+\subsection{Multi environment diffractometer}
+
+The multi-environment diffractometer (MED) end-station at SixS can be used in either a vertical or horizontal configuration, and can accomodate a large variety of experimental chambers around the sample stage.
+
+Situated at a distance $R = 31 \, m$ from the source, we can compute the transverse coherence length at the sample stage when working with an energy of $8.5 \, keV$ following eq. \ref{eq:TransverseCoL}.
+For a Gaussian distribution, the FWHM is related to the standard deviation $\sigma$ by the relation $FWHM = 2\sqrt{2 ln (2) } \sigma$.
+We obtain for the transverse coherent lengths $L_{T,H} = 3.34 \, \mu m$, and $L_{T,V} = 150.20 \, \mu m$.
+The longitudinal coherence length can be computed from eq. \ref{eq:LongitudinalCoL}, the ratio $\lambda/\Delta\lambda$ approximately equal to $1\times10^{-4} \, keV$ at the energy of $8.5 \, keV$, which gives $L_L = 729 \, nm$.
+These corresponds to perfect coherent lengths without taking into account the focalisation of the beam by the mirrors which has the effective effect of increasing the virtual source size and decreasing the transverse coherence lengths \parencite{vincentjacques2010}.
+
+Secondary slits are placed just before the sample to remove any parasitic signal linked to the focalisation of the beam and to decrease the effective source size seen by the sample.
+However, since they also have the counter effect of decreasing the total photon flux on the sample, the width of these slits is subject to a compromise to increase the coherent flux on the sample.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{/home/david/Documents/PhD/Figures/sixs/OpticalSetup.png}
+    \caption{
+    	Optical setup used for Bragg coherent diffraction imaging at the MED end-station.
+    }
+    \label{fig:OpticalSetup}
+\end{figure}
+
+\begin{table}[!htb]
+    \centering
+	\begin{tabular}{l|l|l|l|l}
+	     & Beam stop & FZP & OSA & Beam\\ \hfill
+	    Diameter & $80 \, \mu m$ & $300 \, \mu m$ & $70 \, \mu m$ & $\approx 1 \, \mu m$\\
+	\end{tabular}
+	\caption{
+	Diameter of the coherence focusing optics used to increase the coherent flux on the sample.
+	}
+    \label{tab:OpticsBCDI}
+\end{table}
+
+The use of additional focusing optics such as coherent refractive lenses (CRL), Kirckpatrick-Baez (KB) mirrors or Fresnel zone plates that preserve the coherent wavefront together with secondary slits that match the transverse coherent length of the beam has been proven to increase the coherent flux \parencite{Schroer2008, diaz_coherent_2009, Mastropietro2011}.
+At SixS, Fresnel zone plates (FZP) are used together with an order-selecting aperture (OSA) and a beamstop that block the direct beam and the higher diffraction orders from the FZP (fig. \ref{fig:OpticalSetup}).
+
+\subsection{Catalysis chamber}
+
+A 3D view of the horizontal configuration with the high pressure surface diffraction reactor XCAT (X-ray CATalysis) mounted on the goniometer is illustrated in fig. \ref{fig:MEDDiffractometer}.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[trim=100 225 100 275, clip, width=0.9\textwidth]{/home/david/Documents/PhD/Figures/sixs/Diffractometer.pdf}
+    \caption{
+    	Diffractometer used at SixS at the multi-environment diffractometer (MED) in the horizontal configuration, accomodating the XCAT reactor.
+    	Copyright by Leiden Probe Microscopy (\url{https://leidenprobemicroscopy.com}).
+    }
+    \label{fig:MEDDiffractometer}
+\end{figure}
+
+This reactor is used for the study of heterogeneous catalysis with surface x-ray diffraction and includes an ion gun for the cleaning of the surface by sputtering.
+Sputtering is a process in which atoms or ions from a solid target material are ejected or "sputtered" from the surface of the target due to the impact of high-energy particles.
+The reactor also comes with a heater which can increase the temperature of the sample up to 800°C at ambient pressure.
+
+Moreover, the pressure and atmosphere inside the volume of the reactor can be controlled by a mass flow controller, from a few $m\si{bar}$ to $1 \, \si{bar}$ (fig. \ref{fig:GasSupplySystem}).
+The flow inside the reactor is set in standard cubic centimeters per minute (SCCM) for each gas, the standard bottles supported are argon ($Ar$), oxygen ($O_2$), nitrogen oxide ($NO$), carbon monoxide ($CO$) and hydrogen ($H_2$).
+It is possible to change the type of gas used by computing the correct conversion factor for the mass flow controller, originally set to work with specific gases.
+For example, the bottle of $H_2$ was replaced by a bottle of ammonia ($NH_3$) during the experiments involving the catalytic oxidation of ammonia.
+
+Finally, the evolution of the product and reactant pressure during the catalytic reaction is probed by a residual gas analyser (RGA) which is connected to a leak from the reactor output.
+The leak pressure is usually in the range of $1e^{-6} \, \si{bar}$ and the assumption is made that the partial pressure of each mass detected by the RGA after the leak is equal to the partial pressure in the reaction chamber multiplied by the same constant for all masses.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[trim=75 50 100 50, clip, width=\textwidth]{/home/david/Documents/PhD/Figures/sixs/GasSupplySystem.pdf}
+    \caption{
+    	Gas supply system used at SixS together with the multi-environment diffractometer (MED) for the high pressure surface diffraction reactor.
+    	The mixing of reacting gases is performed before the reaction chamber (MIX), and Argon is used as a carrier gas (MRS).
+    	The leak to the RGA is represented as a side circuit from the reactor output.
+    	Copyright by Leiden Probe Microscopy (\url{https://leidenprobemicroscopy.com}).
+    }
+    \label{fig:GasSupplySystem}
+\end{figure}
+
+When performing BCDI measurements, a smaller version of the XCAT is used which is light enough to be supported vertically by the goniometer.
+The volume in the reacting chamber is the same.
+Moreover, the same sample holder can be used which carries the graphite heater, the only setback being the lack of sputtering gun.
+
+The measurement process for the collection of the scattered intensity is detailed in sec. \ref{sec:DataCollectionSXRD} for surface x-ray diffraction and in sec. \ref{sec:DataCollectionBCDI} for Bragg coherent diffraction imaging.
+Different detectors can be accomodated on the diffractometer arm such as the Maxipix \parencite{ponchut_maxipix_2011} that, by combining a small pixel size ($55 \, \mu m$) with a large array $(515, 515)$ and a large dynamic counting range, is well situated for coherent experiments \parencite{Schavkan2013, Li2020}.
+
+The XPAD detector \parencite{Basolo2005, Dawiec_2016} is used for surface x-ray diffraction experiments, its pixel size is equal to $75 \, \mu m$.
+Different chips can be used that change the array size, respectively  $(515, 70)$ for the XPAD70 and $(515, 140)$ for the XPAD140.
+The XPAD detector is usually set with its largest side along $\vec{c}$ to collect the highest range in $l$ during the measurements.

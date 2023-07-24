@@ -505,10 +505,10 @@ The ability to effectively sample these fringes during experiments is at the roo
 \subsection{Coherence} \label{sec:Coherence}
 
 Every x-ray source can be described by several parameters.
-The brilliance is a measure of the distribution of flux in both space and angular range, it indicates how the flux is spread over the source area and solid angle.
+The brilliance $\mathcal{B}$ is a measure of the distribution of flux in both space and angular range, it indicates how the flux is spread over the source area and solid angle.
 
 \begin{equation}
-    Brilliance = \frac{photons/second}{(mm^2 source \; area)(mrad)^2(0.1\% \; bandwidth)}
+    \mathcal{B} = \frac{photons/second}{(mm^2 source \; area)(mrad)^2(0.1\% \; bandwidth)}
 \end{equation}
 
 The spectral flux, on the other hand, quantifies the number of photons passing through a defined area per unit bandwidth per second.
@@ -540,19 +540,26 @@ The bandwidth is linked to the quality of the monochromator used to obtain a mon
 \end{equation}
 
 The transverse coherence length $L_T$ describes the distance in the plane perpendicular to the beam after which two waves become out of phase due to the finite source size $D$ and to the angular divergence of the beam $\Delta\theta$ (fig. \ref{fig:CoherenceLengths} - b).
-By assuming that the source has a Gaussian profile, we can relate $D$ to the standard deviation of the beam $\sigma_{x,y}$ in the $\vec{x}$ and $\vec{y}$ directions perpendicular to the beam direction (\cite{Willmott}, eq. \ref{eq:TransverseCoL}).
+By assuming that the source has a Gaussian profile, we can relate $D$ to the standard deviation of the beam $\sigma_{H, V}$ in the horizontal and vertical directions perpendicular to the beam (\cite{Willmott}, eq. \ref{eq:TransverseCoL}).
 
 \begin{equation}
     \label{eq:TransverseCoL}
-    L_{T,(x,y)} = \frac{\lambda}{2\Delta\theta_{(x,y)}} = \frac{\lambda R}{2 D_{(x,y)}} = \frac{\lambda R}{2\sqrt{\pi}\sigma_{x,y}}
+    L_{T,(H, V)} = \frac{\lambda}{2\Delta\theta_{(H, V)}} = \frac{\lambda R}{2 D_{(H, V)}} = \frac{\lambda R}{2\sqrt{\pi}\sigma_{H, V}}
 \end{equation}
 
 At synchrotrons, the vertical and horizontal source size are significantly different due to the shape of the electron beam, much more extended in the horizontal plane.
-The horizontal coherence length is usually smaller and the limiting factor.
-By multiplying the two transverse coherence lengths $L_{T,x}$, $L_{T,y}$ and the longitudinal coherence length $L_L$ we obtain the coherent volume.
+The horizontal transverse coherence length is usually smaller and the limiting factor.
+By multiplying the two transverse coherence lengths $L_{T,H}$, $L_{T,V}$ and the longitudinal coherence length $L_L$ we obtain the coherent volume.
 An example if given in sec. \ref{sec:SIXS} for the SixS beamline of the synchrotron SOLEIL.
 
 To perform Bragg coherent diffraction imaging experiments for which the coherent volume must be larger than the sample, the beamline must have low vertical and horizontal emittances, high monochromaticity and a sample environment situated as far as possible from the source.
+Moreover, the coherent flux $F_{coh}$ as a function of the wavelength is directly related to the brilliance and bandwidth of the source \parencite{Willmott}:
+
+\begin{equation}
+    \label{eq:CoherentFlux}
+    F_{coh} = \mathcal{B} \lambda^2 \frac{\Delta \lambda}{\lambda}
+\end{equation}
+
 Indeed, to be able to resolve the interference fringes resulting from the lattice factor, a high brilliance is crucial since the intensity of the total scattered field, proportional to the scattering volume, is weak.
 A detailed explanation of how to optimize BCDI experiments is given in sec. \ref{sec:BCDI}.
 
