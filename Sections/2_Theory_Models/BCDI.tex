@@ -14,9 +14,10 @@ In this section, the scattering intensity of a single crystal of dimensions belo
 Note that the following derivations only apply if the diffraction pattern is viewed at a distance far away from the diffracting object in a region known as the far-field or Fraunhofer region where the scattered waves can be considered as plane waves.
 Moreover, the scattering volume is assumed to be in the focal plane of the focusing optics and far from the source so that the waves in the scattering volume can also be described as plane waves.
 Finally, the scattering volume is assumed to be small with dimensions below the x-ray extinction length to ignore multiple scattering and stay in the kinematical approach of diffraction.
+The amplitude of the incident field is considered to be homogeneous in the scattering volume.
 
-A dynamical approach to BCDI has been under recent study by the community \parencite{Yan2014, Hu2018, Gao2022} by the means of the Takagi-Taupin approach to dynamical diffraction \parencite{Takagi1962, Takagi1969} which tend to validate the kinematical approach when working with slightly strained sub-micron sized crystals \parencite{Karpov2019, Barringer2021}.
-The phase of the incoming and scattered waves must however be corrected for refraction and absorption \parencite{Harder2007, Gao2022} which does not contradict the main hypothesis of the kinematical approach which is that in the Born approximation,  the structure factor of the crystal is equal to the Fourier transform of its electronic density.
+A dynamical approach to BCDI has been under recent study by the community \parencite{Yan2014, Shabalin2017, Hu2018, Gao2022} by the means of the Takagi-Taupin approach to dynamical diffraction \parencite{Takagi1962, Takagi1969} which tend to validate the kinematical approach when working with slightly strained sub-micron sized crystals \parencite{Karpov2019, Barringer2021}.
+The phase of the incoming and scattered waves must however be corrected for refraction and absorption \parencite{Harder2007, Gao2022} which does not contradict the main hypothesis of the kinematical approach which is that in the Born approximation, the structure factor of the crystal is equal to the Fourier transform of its electronic density \parencite{Paganin}.
 
 Another approach is to write the structure factor as the sum over each atom present in the crystal of the atomic scattering factor multiplied by a phase component (eq. \ref{eq:FCrystal1}).
 In general, the Fourier transform approach is prefered since one can use quick algorithms such as the Fast Fourier Transform \parencite{Cooley1965, Cochran1967} to compute the structure factor as described below, whereas the atomistic approach relies on knowing the position of each atom in the crystal.
@@ -56,13 +57,13 @@ To reduce the complexity in the second part of eq. \ref{eq:FcrystalBCDI2}, only 
     \label{eq:FcrystalBCDI5}
     F(\vec{q}) & = F_{uc}^k(\vec{q}) \sum_k^{N_{uc}} e^{i\vec{q}.\vec{R_k}} e^{i\vec{G}.\vec{u}_k} \times e^{i(\vec{q}-\vec{G}).\vec{u}_k}\\
     \label{eq:FcrystalBCDI6}
-    F(\vec{q} \approx \vec{G}) & = \sum_k^{N_{uc}} F_{uc}^k(\vec{q}) e^{i\vec{q}.\vec{R_k}} e^{i\vec{G}.\vec{u}_k}\\
+    F(\vec{q} \approx \vec{G}) & = \sum_k^{N_{uc}} F_{uc}^k(\vec{G}) e^{i\vec{q}.\vec{R_k}} e^{i\vec{G}.\vec{u}_k}\\
     \label{eq:FcrystalBCDI7}
     F(\vec{q} \approx \vec{G}) & = DFT[\rho_k(\vec{r}) e^{i\vec{G}.\vec{u}_k}]
 \end{align}
 
 The first part of eq. \ref{eq:FcrystalBCDI6} can be considered to be the Fourier transform of the unit cell $k$ of electronic density $\rho_k(\vec{r})$ in which all atoms have the same displacement vector $\vec{u}_k$, in this equation the electronic density is allowed to vary from one unit cell to another.
-Moreover, one can recognize the expression of a discrete Fourier transform (DFT) of frequency $\vec{G}$ in which $\rho_k(\vec{r})$ is the $k-th$ sample of the series that consist in $N_{uc}$ samples \parencite{Cooley1965, Cochran1967, favre-nicolin_semiconductor_2011}.
+Moreover, one can recognize the expression of a discrete Fourier transform (DFT) of frequency $\vec{G}$ in which $\rho_k(\vec{r})$ is the $k-th$ sample of the series that consist in $N_{uc}$ samples \parencite{Cooley1965, Cochran1967, favre-nicolin_semiconductor_2011, Godard2021}.
 The reason for the approximation $\vec{q} \approx \vec{G}$ is simply to be able to use a Fast Fourier Transform (FFT) algorithm to compute the DFT that has a linearithmic time complexity $O(n \, log(n))$.
 This approximation breaks down far away from the Laue condition or if the strain is so important that the condition $(\vec{q}-\vec{G}).\vec{u}_k<<1$ is not anymore respected to move from eq. \ref{eq:FcrystalBCDI5} to eq. \ref{eq:FcrystalBCDI6}.
 
@@ -95,7 +96,7 @@ This measurement is called a rocking curve (fig. \ref{fig:3DDP} - left), the ass
 The collected volume is usually in the angular space and can be transformed to the q-space to correct for any possible visual distortion linked to how the detector cuts the Ewald sphere, and to be able to compare different Bragg peaks in the reciprocal space.
 However, this step is usually avoided since the intermediate interpolation process can be unaccurate, especially when the scattering intensity is low.
 
-\subsection{Phase retrieval}
+\subsection{Phase retrieval}\label{sec:PhaseRetrieval}
 
 As seen in sec. \ref{sec:DataCollectionSXRD}, the diffracted intensity collected by the detector is proportional to the squared modulus of the structure factor $F(\vec{q})$ (eq. \ref{eq:ScatteredIntensity} - \ref{eq:DetectorIntensity}), the phase of the scattered x-rays is lost during the measurement.
 
@@ -150,6 +151,8 @@ By iterating between the real and reciprocal space, the algorithm converges towa
 \end{figure}
 
 The error-metric used to follow the convergence of the algorithm is simply the mean squared error between the square root of the measured intensity and the structure factor computed from the Fourier transform of the electronic density $A(\vec{q})$ (eq. \ref{eq:MSE}).
+The main drawback of this error-metric is that each voxel is given the same weight, in this assumption is not a problem when working near the Bragg peak, 4th generation synchrotron that possess a higher flux make it possible to sample the signal in region further away from the Bragg peak.
+A detailed study of the impact of trying to improve the image resolution by increasing the distance from the center of the Bragg peak by combining simulations and experimental reconstructions would be of great interest to the community to understand the impact of the $(\vec{q}-\vec{G}).\vec{u}_k<<1$ approximation.
 
 \begin{equation}
     \label{eq:MSE}

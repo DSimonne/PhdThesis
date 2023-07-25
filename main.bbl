@@ -19,6 +19,64 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{AHMAD2015599}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=918f4a296d45a84541aa48fa7441f567}{%
+           family={Ahmad},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=110537056225b204dd25c738704390d8}{%
+           family={Kamarudin},
+           familyi={K\bibinitperiod},
+           given={S.K.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a9a9c13c3812fd6542d3bc1607440bb}{%
+           family={Minggu},
+           familyi={M\bibinitperiod},
+           given={L.J.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=faec8778680802e549e4855ff33484a7}{%
+           family={Kassim},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dde3d0952b3c814df8ad99fb4464aa7c}
+      \strng{fullhash}{3ddabb1fb75ecd2815ac58cf52a4bb19}
+      \strng{bibnamehash}{dde3d0952b3c814df8ad99fb4464aa7c}
+      \strng{authorbibnamehash}{dde3d0952b3c814df8ad99fb4464aa7c}
+      \strng{authornamehash}{dde3d0952b3c814df8ad99fb4464aa7c}
+      \strng{authorfullhash}{3ddabb1fb75ecd2815ac58cf52a4bb19}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recently, great attention has been focused on hydrogen as a potential energy vector and on the use of water-splitting technology as a clean and renewable means to generate hydrogen using solar energy. Numerous attempts have been made to develop photo-catalysts that work not only under UV light but also under visible-light illumination to efficiently utilize solar energy. One of the most well-known photo-catalysts used in the past forty years is TiO2. Despite having excellent characteristics as a photo-catalyst, TiO2 also has some limitations. This paper presents modification techniques that can be used to improve the drawbacks of TiO2, such as the addition of sacrificial agents into the solution. The role of sacrificial agents, such as methanol and several recent achievements by previous researchers have also been included.}
+      \field{issn}{1364-0321}
+      \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+      \field{title}{Hydrogen from photo-catalytic water splitting process: A review}
+      \field{volume}{43}
+      \field{year}{2015}
+      \field{pages}{599\bibrangedash 610}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.rser.2014.10.101
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1364032114009265
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1364032114009265
+      \endverb
+      \keyw{Photo-catalytic,Water splitting,Hydrogen,Methanol}
+    \endentry
     \entry{ahrens2005paraview}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=65098aea2cdfbcc039bbe90d7c894133}{%
@@ -57,6 +115,37 @@
       \field{title}{Paraview: An end-user tool for large data visualization}
       \field{volume}{717}
       \field{year}{2005}
+    \endentry
+    \entry{AirParis}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb8c6be43404b07f98cbcd82b226d695}{%
+           family={AirParif},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb8c6be43404b07f98cbcd82b226d695}
+      \strng{fullhash}{fb8c6be43404b07f98cbcd82b226d695}
+      \strng{bibnamehash}{fb8c6be43404b07f98cbcd82b226d695}
+      \strng{authorbibnamehash}{fb8c6be43404b07f98cbcd82b226d695}
+      \strng{authornamehash}{fb8c6be43404b07f98cbcd82b226d695}
+      \strng{authorfullhash}{fb8c6be43404b07f98cbcd82b226d695}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{État de la qualité de l'air à Paris}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.paris.fr/pages/etat-des-lieux-de-la-qualite-de-l-air-a-paris-7101
+      \endverb
+      \verb{url}
+      \verb https://www.paris.fr/pages/etat-des-lieux-de-la-qualite-de-l-air-a-paris-7101
+      \endverb
     \endentry
     \entry{Alizada2017}{inproceedings}{}
       \name{author}{2}{}{%
@@ -463,6 +552,47 @@
       \verb 10.1109/TNS.2005.856818
       \endverb
     \endentry
+    \entry{Baxter2002}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1aed507145de1146326799ff92d30c2e}{%
+           family={Baxter},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=7ebd959a1c9799dfeac863b98020944b}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{538fc9653b9ea45c5819a1729b68bed6}
+      \strng{fullhash}{538fc9653b9ea45c5819a1729b68bed6}
+      \strng{bibnamehash}{538fc9653b9ea45c5819a1729b68bed6}
+      \strng{authorbibnamehash}{538fc9653b9ea45c5819a1729b68bed6}
+      \strng{authornamehash}{538fc9653b9ea45c5819a1729b68bed6}
+      \strng{authorfullhash}{538fc9653b9ea45c5819a1729b68bed6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{In heterogeneous catalysis, the two main reaction mechanisms which have been proposed are the Langmuir–Hinshelwood and the Eley–Rideal. For the vast majority of surface catalytic reactions, it has been accepted that the Langmuir–Hinshelwood mechanism is preferred. In this study, we investigate catalytic CO oxidation on Pt(111). It is found that reaction barriers for Langmuir–Hinshelwood mechanisms actually tend to be higher than those for Eley–Rideal ones. An explanation is presented as to why it is still more probable for the reaction to proceed via the Langmuir–Hinshelwood mechanism, despite its higher reaction barrier.}}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{03}
+      \field{number}{11}
+      \field{title}{{Insight into why the Langmuir–Hinshelwood mechanism is generally preferred}}
+      \field{volume}{116}
+      \field{year}{2002}
+      \field{pages}{4379\bibrangedash 4381}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1063/1.1458938
+      \endverb
+    \endentry
     \entry{NIST_cross_sections}{online}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=00b1a7d674f6b696681df62ee4078dc7}{%
@@ -541,6 +671,88 @@
       \verb{url}
       \verb https://www.nist.gov/pml/xcom-photon-cross-sections-database
       \endverb
+    \endentry
+    \entry{BEWLEY20061029}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=f07d3cf5e5ff844710e6b04e402470aa}{%
+           family={Bewley},
+           familyi={B\bibinitperiod},
+           given={R.I.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8f62722720fe68c6eecca8fc74b85c2}{%
+           family={Eccleston},
+           familyi={E\bibinitperiod},
+           given={R.S.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b7a1fb3ba830372361bfaeb6b637c60}{%
+           family={McEwen},
+           familyi={M\bibinitperiod},
+           given={K.A.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f457348d9793cece5d68689634794a6}{%
+           family={Hayden},
+           familyi={H\bibinitperiod},
+           given={S.M.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5d128f121f5f23262f39bf7464019dd}{%
+           family={Dove},
+           familyi={D\bibinitperiod},
+           given={M.T.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abd1d7d9ee8fce46c4aaecf446f10037}{%
+           family={Bennington},
+           familyi={B\bibinitperiod},
+           given={S.M.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00a60d35aaad5296cb3a55292f164992}{%
+           family={Treadgold},
+           familyi={T\bibinitperiod},
+           given={J.R.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11addf33f58519e17626159acd596bfa}{%
+           family={Coleman},
+           familyi={C\bibinitperiod},
+           given={R.L.S.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a943e43948b6ef3ac308437abbb693ec}
+      \strng{fullhash}{d52c0adadba299ea09978dd7fe486f12}
+      \strng{bibnamehash}{a943e43948b6ef3ac308437abbb693ec}
+      \strng{authorbibnamehash}{a943e43948b6ef3ac308437abbb693ec}
+      \strng{authornamehash}{a943e43948b6ef3ac308437abbb693ec}
+      \strng{authorfullhash}{d52c0adadba299ea09978dd7fe486f12}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{MERLIN is designed to be a high intensity, medium energy resolution spectrometer. As such, it will complement the high-resolution MAPS spectrometer at ISIS. MERLIN will utilise all the latest advances in technology with a supermirror guide to enhance flux as well as 3m long position-sensitive detectors in a vacuum making it ideal for single-crystal users. The detector bank will cover a massive π steradians of solid angle with an angular range from -45° to +135° degrees in the horizontal plane and ±30° degrees in the vertical plane. This will allow large swathes of Q,ω space to be accessed in a single run. The instrument will be ready for commissioning in February 2006. This paper presents details of design and performance of this new instrument.}
+      \field{issn}{0921-4526}
+      \field{journaltitle}{Physica B: Condensed Matter}
+      \field{title}{MERLIN, a new high count rate spectrometer at ISIS}
+      \field{volume}{385-386}
+      \field{year}{2006}
+      \field{pages}{1029\bibrangedash 1031}
+      \range{pages}{3}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.physb.2006.05.328
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0921452606012336
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0921452606012336
+      \endverb
+      \keyw{Neutron instruments,Time of flight,Direct geometry}
     \endentry
     \entry{Bjorck2007}{article}{}
       \name{author}{2}{}{%
@@ -2150,6 +2362,84 @@
       \field{pages}{144101}
       \range{pages}{1}
     \endentry
+    \entry{Fang2022}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=d0b2613449400528ff9acd743e72f3e9}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Huihuang},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b32d3cb374ea13d5441b19af42aebb9}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78fbe46f8fb763daef158e511a35dbb2}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65c9742a06d3e1f57e2ad15ec2560ce5}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yanliang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69d34d493cc58d421fb135664e8b2531}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Shijing},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af35acf0d53fdd808422b92604936413}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiuyun},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7a7bbcd2d4a0f315bab42783a0082b0}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Bingyu},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4b8b7172b7b50bff662d142eaea3b3a}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Lilong},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{ad75f80e10e83642f5dfb7f51770c053}
+      \strng{fullhash}{73d31a538276c391f2a99ee4bc03f0d5}
+      \strng{bibnamehash}{ad75f80e10e83642f5dfb7f51770c053}
+      \strng{authorbibnamehash}{ad75f80e10e83642f5dfb7f51770c053}
+      \strng{authornamehash}{ad75f80e10e83642f5dfb7f51770c053}
+      \strng{authorfullhash}{73d31a538276c391f2a99ee4bc03f0d5}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACS Catalysis}
+      \field{month}{04}
+      \field{number}{7}
+      \field{title}{Challenges and Opportunities of Ru-Based Catalysts toward the Synthesis and Utilization of Ammonia}
+      \field{volume}{12}
+      \field{year}{2022}
+      \field{pages}{3938\bibrangedash 3954}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1021/acscatal.2c00090
+      \endverb
+    \endentry
     \entry{favre-nicolin_semiconductor_2011}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4f23b63dc664989677dd939328a04c5f}{%
@@ -2172,11 +2462,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Semiconductor nano-structures in the light of synchrotron radiation {Coherent} {Diffraction} {Imaging} and {Grazing}-{Incidence} {Diffraction} studies of semiconductor nano-structures}
-      \field{type}{phdthesis}
       \field{year}{2011}
-      \verb{file}
-      \verb HDR-Vincent.pdf:/Users/marieingridrichard/Zotero/storage/6SS86FB4/HDR-Vincent.pdf:application/pdf
-      \endverb
     \endentry
     \entry{pynx2011}{article}{}
       \name{author}{4}{ul=2}{%
@@ -2375,6 +2661,54 @@
       \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Favre-Nicolin, Leake, Chushkin - 2020 - Free log-likelihood as an unbiased metric for coherent diffraction imaging.pdf:pdf
       \endverb
     \endentry
+    \entry{FECHETE20122}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ac57d258430ad600ceeb36c9e7c21846}{%
+           family={Fechete},
+           familyi={F\bibinitperiod},
+           given={Ioana},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=33f1f8102ae8d032fb301ab80a09459d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Ye},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=43a832c1f1b0aac41963f040c45442b3}{%
+           family={Védrine},
+           familyi={V\bibinitperiod},
+           given={Jacques\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b67e6422419a62894ad7968b19e1b381}
+      \strng{fullhash}{b67e6422419a62894ad7968b19e1b381}
+      \strng{bibnamehash}{b67e6422419a62894ad7968b19e1b381}
+      \strng{authorbibnamehash}{b67e6422419a62894ad7968b19e1b381}
+      \strng{authornamehash}{b67e6422419a62894ad7968b19e1b381}
+      \strng{authorfullhash}{b67e6422419a62894ad7968b19e1b381}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This review highlights key catalytic discoveries and the main industrial catalytic processes over the last 300 years that involved commodities, fine chemicals, petrochemicals, petroleum transformation for fuels and energy supply, emission control, and so forth. In the past, discoveries have often followed events such as wars or embargos, whereas the current driving forces of studies, researches and then discoveries aim at a better understanding of catalytic processes, at reducing the costs of raw materials and processes, at developing new catalytic materials and at addressing environmental issues. This review focuses on the history of many catalytic industrial processes, environmental issues, catalytic materials, especially their expected catalytic properties, on catalyst characterisation by physical methods and development of in situ conditions, i.e., characterisation under actual working conditions with reactants and products analyzed on-line. Emphasis is also placed on high selectivity in catalytic reactions and the major challenges for the future, such as environmental issues, energy supply, pollution control for vehicles and industrial plants, air/VOCs/water purification, hydrogen sources and carbon dioxide storage/up grading, transformation of biomass as a promising source of raw materials, and catalytic water splitting perspectives. This review is a survey of heterogeneous catalysis and is not comprehensive but leads to the conclusion that, although many catalysts and catalytic processes have already been discovered and developed over the past century, many opportunities nevertheless exist for new developments, new processes and new catalytic materials. It follows that substantial challenges exist for the younger generation of researchers and engineers, as emphasized at the end of the manuscript.}
+      \field{issn}{0920-5861}
+      \field{journaltitle}{Catalysis Today}
+      \field{note}{Catalytic Materials for Energy: Past, Present and Future}
+      \field{number}{1}
+      \field{title}{The past, present and future of heterogeneous catalysis}
+      \field{volume}{189}
+      \field{year}{2012}
+      \field{pages}{2\bibrangedash 27}
+      \range{pages}{26}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cattod.2012.04.003
+      \endverb
+      \keyw{Heterogeneous catalysis,History,Industrial realisations,Future,Challenges,New materials,Chemicals,Energy,Environment}
+    \endentry
     \entry{fernandez_situ_2019}{article}{}
       \name{author}{12}{}{%
         {{un=0,uniquepart=base,hash=66c72a8cb09bfcd01b64148fa678a285}{%
@@ -2486,6 +2820,118 @@
       \verb{file}
       \verb Fern\'{a}ndez et al. - 2019 - iIn situi structural evolution of single part.pdf:/Users/marieingridrichard/Zotero/storage/ZHIXFACS/Fern\'{a}ndez et al. - 2019 - iIn situi structural evolution of single part.pdf:application/pdf
       \endverb
+    \endentry
+    \entry{Fertey2013}{article}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=1ffa191924199078975a3e6b96cd7fc0}{%
+           family={Fertey},
+           familyi={F\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65d0c2a75f0e9a4baaf4b06017b93186}{%
+           family={Alle},
+           familyi={A\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8370944fd7cf77e98573d626136a3e9e}{%
+           family={Wenger},
+           familyi={W\bibinitperiod},
+           given={Emmanuel},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b12f98150210ad8a0d6f76b7e23a2f1}{%
+           family={Dinkespiler},
+           familyi={D\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=105bbf6b109af9b81ac39f147bc1d638}{%
+           family={Cambon},
+           familyi={C\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28c2a8c65fe223eb388a11697bc4f2e7}{%
+           family={Haines},
+           familyi={H\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a21af6845fec68f39cd4c73bba2b8f86}{%
+           family={Hustache},
+           familyi={H\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fabdf2e9c7b78adc82ce4e1223f9970d}{%
+           family={Medjoubi},
+           familyi={M\bibinitperiod},
+           given={Kadda},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21b00dbecc208ce8a20065d6605d5ab5}{%
+           family={Picca},
+           familyi={P\bibinitperiod},
+           given={Frederic},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21021a93e3f0cf8ae0672bdf39f23bfe}{%
+           family={Dawiec},
+           familyi={D\bibinitperiod},
+           given={Arkadiusz},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5eb8777473a274a2dacad122c7a0c126}{%
+           family={Breugnon},
+           familyi={B\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4497ee8a1da21ffc51a61b04f96fb888}{%
+           family={Delpierre},
+           familyi={D\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=758262ad4383d01997fcdcde4a1cbdcb}{%
+           family={Mazzoli},
+           familyi={M\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=166dd1759b9eb3761595c10db36b8e09}{%
+           family={Lecomte},
+           familyi={L\bibinitperiod},
+           given={Claude},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8ffa0071a2a86fa05e2bf0c6fdf1464}
+      \strng{fullhash}{c279722c53079c9da031f9b31728a7ab}
+      \strng{bibnamehash}{a8ffa0071a2a86fa05e2bf0c6fdf1464}
+      \strng{authorbibnamehash}{a8ffa0071a2a86fa05e2bf0c6fdf1464}
+      \strng{authornamehash}{a8ffa0071a2a86fa05e2bf0c6fdf1464}
+      \strng{authorfullhash}{c279722c53079c9da031f9b31728a7ab}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{month}{08}
+      \field{number}{4}
+      \field{title}{{Diffraction studies under in situ electric field using a large-area hybrid pixel XPAD detector}}
+      \field{volume}{46}
+      \field{year}{2013}
+      \field{pages}{1151\bibrangedash 1161}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1107/S0021889813013903
+      \endverb
+      \keyw{X-ray diffraction,in situ electric field,X-ray detectors,hybrid pixel detectors}
     \endentry
     \entry{fienup_reconstruction_1978}{article}{}
       \name{author}{1}{}{%
@@ -2738,6 +3184,54 @@
       \verb https://github.com/AdvancedPhotonSource/cohere
       \endverb
     \endentry
+    \entry{GANDHI2003433}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5280df548eff35335f710f358a13cff5}{%
+           family={Gandhi},
+           familyi={G\bibinitperiod},
+           given={H.S.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5c45ced40932837005b242565fdf39e}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={G.W.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2268de8d3479656860affd80824302ea}{%
+           family={McCabe},
+           familyi={M\bibinitperiod},
+           given={R.W.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ef6f0c6045af2f7067cdd7d03ecee7f4}
+      \strng{fullhash}{ef6f0c6045af2f7067cdd7d03ecee7f4}
+      \strng{bibnamehash}{ef6f0c6045af2f7067cdd7d03ecee7f4}
+      \strng{authorbibnamehash}{ef6f0c6045af2f7067cdd7d03ecee7f4}
+      \strng{authornamehash}{ef6f0c6045af2f7067cdd7d03ecee7f4}
+      \strng{authorfullhash}{ef6f0c6045af2f7067cdd7d03ecee7f4}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Research in the field of automotive exhaust catalysis has paralleled the broader growth in heterogeneous catalysis research—beginning in the 1960s, progressing through commercialization in the mid-1970s, and continuing today. The general trend has been one of increasingly complex catalyst formulations in response to increasingly stringent emission standards. Nowhere is this more evident than in the various means that have been employed to most effectively utilize the noble metal components. These efforts will continue, but with greater emphasis on optimizing catalyst formulations for lean-burn applications and reducing catalyst cost and complexity without sacrificing performance.}
+      \field{issn}{0021-9517}
+      \field{journaltitle}{Journal of Catalysis}
+      \field{note}{40th Anniversary Commemorative Issue}
+      \field{number}{1}
+      \field{title}{Automotive exhaust catalysis}
+      \field{volume}{216}
+      \field{year}{2003}
+      \field{pages}{433\bibrangedash 442}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0021-9517(02)00067-2
+      \endverb
+      \keyw{Automative exhaust catalyst,TWC,Oxygen storage capacity,Platinum,Palladium,Rhodium,Ceria,Zirconia}
+    \endentry
     \entry{Gao2022}{article}{}
       \name{author}{6}{}{%
         {{un=1,uniquepart=given,hash=a85dcf731e772b177341998a236d587a}{%
@@ -2862,6 +3356,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Development of Bragg coherent X-ray diffraction and Ptychography methods, application to the study of semiconductor nanostructures}
+      \field{type}{phdthesis}
       \field{year}{2020}
     \endentry
     \entry{Glavic2022}{article}{}
@@ -2951,6 +3446,36 @@
       \verb{doi}
       \verb 10.5555/3280489.3280518
       \endverb
+    \endentry
+    \entry{Godard2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c932e8eb1ba12841d580b2c06ddebd2c}{%
+           family={Godard},
+           familyi={G\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c932e8eb1ba12841d580b2c06ddebd2c}
+      \strng{fullhash}{c932e8eb1ba12841d580b2c06ddebd2c}
+      \strng{bibnamehash}{c932e8eb1ba12841d580b2c06ddebd2c}
+      \strng{authorbibnamehash}{c932e8eb1ba12841d580b2c06ddebd2c}
+      \strng{authornamehash}{c932e8eb1ba12841d580b2c06ddebd2c}
+      \strng{authorfullhash}{c932e8eb1ba12841d580b2c06ddebd2c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On the use of the scattering amplitude in coherent X-ray Bragg diffraction imaging research papers}
+      \field{year}{2021}
+      \field{pages}{797\bibrangedash 802}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1107/S1600576721003113
+      \endverb
+      \keyw{amplitudes,bragg ptychography,coherent x-ray bragg diffraction,imaging,lens-less imaging of crystals,offers some unique,scattering,strain,structure factors,with coherent x-ray diffraction}
     \endentry
     \entry{GrothausmannBeare2015}{article}{}
       \name{author}{2}{}{%
@@ -3146,6 +3671,47 @@
       \endverb
       \verb{file}
       \verb Full Text PDF:/Users/marieingridrichard/Zotero/storage/BNWICKLC/Guizar-Sicairos et al. - 2011 - Phase tomography from x-ray coherent diffractive i.pdf:application/pdf;Snapshot:/Users/marieingridrichard/Zotero/storage/2WSG55QU/fulltext.html:text/html
+      \endverb
+    \endentry
+    \entry{Gunay2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fda40d94477056e67a2ab3e9f2d94d60}{%
+           family={Günay},
+           familyi={G\bibinitperiod},
+           given={M.\bibnamedelimi Erdem},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=176b7e925975559ab003e65b660ceb5d}{%
+           family={Yıldırım},
+           familyi={Y\bibinitperiod},
+           given={Ramazan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor & Francis}%
+      }
+      \strng{namehash}{1a9830aae61f931acf08d1e0642a0f09}
+      \strng{fullhash}{1a9830aae61f931acf08d1e0642a0f09}
+      \strng{bibnamehash}{1a9830aae61f931acf08d1e0642a0f09}
+      \strng{authorbibnamehash}{1a9830aae61f931acf08d1e0642a0f09}
+      \strng{authornamehash}{1a9830aae61f931acf08d1e0642a0f09}
+      \strng{authorfullhash}{1a9830aae61f931acf08d1e0642a0f09}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Catalysis Reviews}
+      \field{number}{1}
+      \field{title}{Recent advances in knowledge discovery for heterogeneous catalysis using machine learning}
+      \field{volume}{63}
+      \field{year}{2021}
+      \field{pages}{120\bibrangedash 164}
+      \range{pages}{45}
+      \verb{doi}
+      \verb 10.1080/01614940.2020.1770402
       \endverb
     \endentry
     \entry{Gustafson2014}{article}{}
@@ -3550,12 +4116,12 @@
     \endentry
     \entry{Hu2018}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=89d998e310410d2237a7a4b26f88ea0b}{%
+        {{un=1,uniquepart=given,hash=89d998e310410d2237a7a4b26f88ea0b}{%
            family={Hu},
            familyi={H\bibinitperiod},
            given={Wen},
            giveni={W\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=8c3b8ecb506d81c42b6429a865282a94}{%
            family={Huang},
            familyi={H\bibinitperiod},
@@ -4022,6 +4588,60 @@
       \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Kim et al. - 2019 - Defect Dynamics at a Single Pt Nanoparticle during Catalytic Oxidation.pdf:pdf
       \endverb
       \keyw{3D strain imaging,Bragg coherent diffraction imaging,catalyst,platinum nanoparticle,strain dynamics}
+    \endentry
+    \entry{Kitchin2004}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d7cd43d45a87b2125178d76312f7b69f}{%
+           family={Kitchin},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ae731ce41a114f67899c33dc2c13dfe}{%
+           family={N{ø}rskov},
+           familyi={N\bibinitperiod},
+           given={J.\bibnamedelimi K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c9f924a19b274ce60b472dd762d6aae}{%
+           family={Barteau},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd8093bd7aef8cca2f76e45eb991d575}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a164e5447f65fde985f61620963d3ed9}
+      \strng{fullhash}{e730419eb38a8e232109f1b784d45bde}
+      \strng{bibnamehash}{a164e5447f65fde985f61620963d3ed9}
+      \strng{authorbibnamehash}{a164e5447f65fde985f61620963d3ed9}
+      \strng{authornamehash}{a164e5447f65fde985f61620963d3ed9}
+      \strng{authorfullhash}{e730419eb38a8e232109f1b784d45bde}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00319007}
+      \field{journaltitle}{Physical Review Letters}
+      \field{number}{15}
+      \field{title}{{Role of strain and ligand effects in the modification of the electronic and chemical Properties of bimetallic surfaces}}
+      \field{volume}{93}
+      \field{year}{2004}
+      \field{pages}{4\bibrangedash 7}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.93.156801
+      \endverb
+      \verb{file}
+      \verb :home/david/Documents/PhD/Papers/physrevlett.93.156801.pdf:pdf
+      \endverb
     \endentry
     \entry{Kluyver2016jupyter}{inproceedings}{}
       \name{author}{14}{}{%
@@ -4602,6 +5222,76 @@
       \verb 10.1021/acsnano.5b03857
       \endverb
     \endentry
+    \entry{Lange2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0105aa72fabdda477927a4364f8babeb}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={Jean-Paul},
+           giveni={J\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0105aa72fabdda477927a4364f8babeb}
+      \strng{fullhash}{0105aa72fabdda477927a4364f8babeb}
+      \strng{bibnamehash}{0105aa72fabdda477927a4364f8babeb}
+      \strng{authorbibnamehash}{0105aa72fabdda477927a4364f8babeb}
+      \strng{authornamehash}{0105aa72fabdda477927a4364f8babeb}
+      \strng{authorfullhash}{0105aa72fabdda477927a4364f8babeb}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This Comment articulates simple metrics that can guide early catalysis research to make the manufacture of fuels and chemicals sustainable and affordable. These metrics cover resource efficiency (waste/CO2 production, selectivity) as well as conversion performances that look at different aspects of the process.}
+      \field{issn}{2520-1158}
+      \field{journaltitle}{Nature Catalysis}
+      \field{month}{03}
+      \field{number}{3}
+      \field{title}{Performance metrics for sustainable catalysis in industry}
+      \field{volume}{4}
+      \field{year}{2021}
+      \field{pages}{186\bibrangedash 192}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/s41929-021-00585-2
+      \endverb
+    \endentry
+    \entry{Langmuir1922}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e7d22a8c99140f9e1a0a08c12643914f}{%
+           family={Langmuir},
+           familyi={L\bibinitperiod},
+           given={Irving},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{e7d22a8c99140f9e1a0a08c12643914f}
+      \strng{fullhash}{e7d22a8c99140f9e1a0a08c12643914f}
+      \strng{bibnamehash}{e7d22a8c99140f9e1a0a08c12643914f}
+      \strng{authorbibnamehash}{e7d22a8c99140f9e1a0a08c12643914f}
+      \strng{authornamehash}{e7d22a8c99140f9e1a0a08c12643914f}
+      \strng{authorfullhash}{e7d22a8c99140f9e1a0a08c12643914f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{0}
+      \field{journaltitle}{Trans. Faraday Soc.}
+      \field{title}{Part II.—“Heterogeneous reactions”. Chemical reactions on surfaces}
+      \field{volume}{17}
+      \field{year}{1922}
+      \field{pages}{607\bibrangedash 620}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1039/TF9221700607
+      \endverb
+    \endentry
     \entry{Lauraux2020}{article}{}
       \name{author}{10}{}{%
         {{un=2,uniquepart=given,hash=f9886e284f72cd08cd586e335696826a}{%
@@ -5021,6 +5711,45 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1086/111605
+      \endverb
+    \endentry
+    \entry{LUDWIG2017313}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a8f2d4ef1382c0891e102d437f4c053a}{%
+           family={Ludwig},
+           familyi={L\bibinitperiod},
+           given={Jacob\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4cb0d1ee5eb2471042400c97d4b8a8d}{%
+           family={Schindler},
+           familyi={S\bibinitperiod},
+           given={Corinna\bibnamedelima S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abd88cff238259338fb78728a69a8fe5}
+      \strng{fullhash}{abd88cff238259338fb78728a69a8fe5}
+      \strng{bibnamehash}{abd88cff238259338fb78728a69a8fe5}
+      \strng{authorbibnamehash}{abd88cff238259338fb78728a69a8fe5}
+      \strng{authornamehash}{abd88cff238259338fb78728a69a8fe5}
+      \strng{authorfullhash}{abd88cff238259338fb78728a69a8fe5}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2451-9294}
+      \field{journaltitle}{Chem}
+      \field{number}{3}
+      \field{title}{Catalyst: Sustainable Catalysis}
+      \field{volume}{2}
+      \field{year}{2017}
+      \field{pages}{313\bibrangedash 316}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.chempr.2017.02.014
       \endverb
     \endentry
     \entry{Luke2005}{article}{}
@@ -5469,6 +6198,53 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1364/oe.19.019223
+      \endverb
+    \endentry
+    \entry{Mavrikakis1998}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c1e5b6cc152ab03d71136b875dc2289f}{%
+           family={Mavrikakis},
+           familyi={M\bibinitperiod},
+           given={Manos},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4479c9971d09a8f94f6dbef3cdf9cb0e}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c933fbd3e5f577729a2be9a8434ce38}{%
+           family={Norskov},
+           familyi={N\bibinitperiod},
+           given={J.K.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{33fbeae4f9e9f100999c65d58f59d0c9}
+      \strng{fullhash}{33fbeae4f9e9f100999c65d58f59d0c9}
+      \strng{bibnamehash}{33fbeae4f9e9f100999c65d58f59d0c9}
+      \strng{authorbibnamehash}{33fbeae4f9e9f100999c65d58f59d0c9}
+      \strng{authornamehash}{33fbeae4f9e9f100999c65d58f59d0c9}
+      \strng{authorfullhash}{33fbeae4f9e9f100999c65d58f59d0c9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Self-consistent density functional calculations for the adsorption of O and CO, and the dissociation of CO on strained and unstrained Ru(0001) surfaces are used to show how strained metal surfaces have chemical properties that are significantly different from those of unstrained surfaces. Surface reactivity increases with lattice expansion, following a concurrent up-shift of the metal d states. Consequences for the catalytic activity of thin metal overlayers are discussed.}
+      \field{issn}{10902694}
+      \field{journaltitle}{Physical Review Letters}
+      \field{number}{13}
+      \field{title}{{Effect of Strain on the Reactivity of Metal Surfaces}}
+      \field{volume}{81}
+      \field{year}{1998}
+      \verb{doi}
+      \verb 10.1016/j.jcat.2020.07.030
+      \endverb
+      \verb{file}
+      \verb :home/david/Documents/PhD/Papers/PhysRevLett.81.2819.pdf:pdf
       \endverb
     \endentry
     \entry{McKinney2017}{book}{}
@@ -6150,6 +6926,39 @@
       \verb Öztürk et al. - 2017 - Performance evaluation of Bragg coherent diffracti.pdf:/Users/marieingridrichard/Zotero/storage/HSD99UC3/Öztürk et al. - 2017 - Performance evaluation of Bragg coherent diffracti.pdf:application/pdf
       \endverb
     \endentry
+    \entry{Paganin}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=65facfe420cb6ad046b139aaded75264}{%
+           family={Paganin},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{65facfe420cb6ad046b139aaded75264}
+      \strng{fullhash}{65facfe420cb6ad046b139aaded75264}
+      \strng{bibnamehash}{65facfe420cb6ad046b139aaded75264}
+      \strng{authorbibnamehash}{65facfe420cb6ad046b139aaded75264}
+      \strng{authornamehash}{65facfe420cb6ad046b139aaded75264}
+      \strng{authorfullhash}{65facfe420cb6ad046b139aaded75264}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Coherent X-Ray Optics}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://global.oup.com/academic/product/coherent-x-ray-optics-9780199673865?cc=ro&lang=en&
+      \endverb
+      \verb{url}
+      \verb https://global.oup.com/academic/product/coherent-x-ray-optics-9780199673865?cc=ro&lang=en&
+      \endverb
+    \endentry
     \entry{9307800}{inproceedings}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=fe1e453a55df923c4bd6c17c77e2bbe4}{%
@@ -6476,6 +7285,41 @@
       \endverb
       \keyw{Hybrid detectors,Pixilated detectors and associated VLSI electronics,X-ray detectors,X-ray diffraction detectors}
     \endentry
+    \entry{Prins2018}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7c4e7c773db5c036e85de819d795bcfb}{%
+           family={Prins},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7c4e7c773db5c036e85de819d795bcfb}
+      \strng{fullhash}{7c4e7c773db5c036e85de819d795bcfb}
+      \strng{bibnamehash}{7c4e7c773db5c036e85de819d795bcfb}
+      \strng{authorbibnamehash}{7c4e7c773db5c036e85de819d795bcfb}
+      \strng{authornamehash}{7c4e7c773db5c036e85de819d795bcfb}
+      \strng{authorfullhash}{7c4e7c773db5c036e85de819d795bcfb}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In 2016, it was 100 years ago that Langmuir formulated the famous Langmuir equation $\theta${\thinspace}={\thinspace}KP/(1{\thinspace}+{\thinspace}KP) for the adsorption of molecules on surfaces, which is used in the description of catalytic reactions between two chemisorbed molecules. Also in 2016, it was 75 years ago that Eley and Rideal studied the mechanism of the reaction between a chemisorbed molecule and a physisorbed molecule. However, they studied a very special case of adsorption, whereas the more general interaction of a chemisorbed molecule and a molecule colliding with it from the gas phase had already been proposed by Langmuir in addition to the reaction between two chemisorbed molecules. Therefore, the reaction between a chemisorbed molecule and a gaseous colliding molecule should be called Langmuir--Rideal reaction rather than Eley--Rideal reaction, as it is often called in surface science, catalysis and astronomy. The mechanism that Eley and Rideal really studied some 75 years ago is important in heterogeneous as well as homogeneous catalysis in the liquid-phase and is related to outer-sphere reactions.}
+      \field{issn}{1572-9028}
+      \field{journaltitle}{Topics in Catalysis}
+      \field{month}{06}
+      \field{number}{9}
+      \field{title}{Eley--Rideal, the Other Mechanism}
+      \field{volume}{61}
+      \field{year}{2018}
+      \field{pages}{714\bibrangedash 721}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/s11244-018-0948-8
+      \endverb
+    \endentry
     \entry{Resta2020a}{article}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=095401660ec6b30ea5677c39096e8cae}{%
@@ -6798,7 +7642,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The ID01 beamline has been built to combine Bragg diffraction with imaging techniques to produce a strain and mosaicity microscope for materials in their native or operando state. A scanning probe with nano-focused beams, objective-lens-based full-field microscopy and coherent diffraction imaging provide a suite of tools which deliver micrometre to few nanometre spatial resolution combined with 10−5 strain and 10−3 tilt sensitivity. A detailed description of the beamline from source to sample is provided and serves as a reference for the user community. The anticipated impact of the impending upgrade to the ESRF – Extremely Brilliant Source is also discussed.}
+      \field{abstract}{The ID01 beamline has been built to combine Bragg diffraction with imaging techniques to produce a strain and mosaicity microscope for materials in their native or operando state. A scanning probe with nano-focused beams, objective-lens-based full-field microscopy and coherent diffraction imaging provide a suite of tools which deliver micrometre to few nanometre spatial resolution combined with 10-5 strain and 10-3 tilt sensitivity. A detailed description of the beamline from source to sample is provided and serves as a reference for the user community. The anticipated impact of the impending upgrade to the ESRF – Extremely Brilliant Source is also discussed.}
       \field{journaltitle}{Journal of Synchrotron Radiation}
       \field{title}{{The Nanodiffraction beamline ID01 / ESRF : a microscope for imaging strain and structure}}
       \field{year}{2019}
@@ -6811,6 +7655,146 @@
       \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Richter et al. - 2019 - The Nanodiffraction beamline ID01 ESRF a microscope for imaging strain and structure.pdf:pdf
       \endverb
       \keyw{been built to combine,bragg diffraction,bragg diffraction with imaging,coherent diffraction imaging,full-field microscopy,scanning microscopy,the id01 beamline has,x-ray}
+    \endentry
+    \entry{rideal_1939}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0a2b45a776ce5f0087b0a0649727e5c}{%
+           family={Rideal},
+           familyi={R\bibinitperiod},
+           given={E.\bibnamedelimi K.},
+           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{d0a2b45a776ce5f0087b0a0649727e5c}
+      \strng{fullhash}{d0a2b45a776ce5f0087b0a0649727e5c}
+      \strng{bibnamehash}{d0a2b45a776ce5f0087b0a0649727e5c}
+      \strng{authorbibnamehash}{d0a2b45a776ce5f0087b0a0649727e5c}
+      \strng{authornamehash}{d0a2b45a776ce5f0087b0a0649727e5c}
+      \strng{authorfullhash}{d0a2b45a776ce5f0087b0a0649727e5c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Proceedings of the Cambridge Philosophical Society}
+      \field{number}{1}
+      \field{title}{A note on a simple molecular mechanism for heterogeneous catalytic reactions}
+      \field{volume}{35}
+      \field{year}{1939}
+      \field{pages}{130\bibrangedash 132}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1017/S030500410002082X
+      \endverb
+    \endentry
+    \entry{VanRijn2010}{article}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=30e67a998406c0d4fdb687857ec9be41}{%
+           family={Rijn},
+           familyi={R\bibinitperiod},
+           given={R.\bibnamedelimi Van},
+           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=915c494aa1795973fa32943a5792f3b6}{%
+           family={Ackermann},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75bb4745c07c3655a276bcdfdfcb27db}{%
+           family={Balmes},
+           familyi={B\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57f127d5f88cd9689388e1d820086a20}{%
+           family={Dufrane},
+           familyi={D\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=453667acce4fc55ede53721fce1679d9}{%
+           family={Geluk},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e59df44a3770a457fae145afd43a20b}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a7393cb599b33d4fe684ba623b7203e}{%
+           family={Isern},
+           familyi={I\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11404c570d772a0be95846fde2b348fa}{%
+           family={Kuyper},
+           familyi={K\bibinitperiod},
+           given={E.\bibnamedelimi De},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55964e2480e2641342fec2bbe2e765d3}{%
+           family={Petit},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7e7e776640f3d9afdd048605fe4594d}{%
+           family={Sole},
+           familyi={S\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c18c4762b808ea5642c9ea4fe0a566a4}{%
+           family={Wermeille},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3eef529197cd64b877955bfdccf88e0}{%
+           family={Felici},
+           familyi={F\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=afd0f4c279d28543e233698dd8558cc5}{%
+           family={Frenken},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi W.M.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{165464b3985ae0920329b67562f3c609}
+      \strng{fullhash}{4d2b24200802a385d93ac92a1ff1cb0d}
+      \strng{bibnamehash}{165464b3985ae0920329b67562f3c609}
+      \strng{authorbibnamehash}{165464b3985ae0920329b67562f3c609}
+      \strng{authornamehash}{165464b3985ae0920329b67562f3c609}
+      \strng{authorfullhash}{4d2b24200802a385d93ac92a1ff1cb0d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A versatile instrument for the in situ study of catalyst surfaces by surface x-ray diffraction and grazing incidence small angle x-ray scattering in a 13 ml flow reactor combined with reaction product analysis by mass spectrometry has been developed. The instrument bridges the so-called "pressure gap" and "materials gap" at the same time, within one experimental setup. It allows for the preparation and study of catalytically active single crystal surfaces and is also equipped with an evaporator for the deposition of thin, pure metal films, necessary for the formation of small metal particles on oxide supports. Reactions can be studied in flow mode and batch mode in a pressure range of 100-1200 mbar and temperatures up to 950 K. The setup provides a unique combination of sample preparation, characterization, and in situ experiments where the structure and reactivity of both single crystals and supported nanoparticles can be simultaneously determined. © 2010 American Institute of Physics.}
+      \field{issn}{00346748}
+      \field{issue}{1}
+      \field{journaltitle}{Review of Scientific Instruments}
+      \field{month}{1}
+      \field{title}{Ultrahigh vacuum/high-pressure flow reactor for surface x-ray diffraction and grazing incidence small angle x-ray scattering studies close to conditions for industrial catalysis}
+      \field{volume}{81}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.1063/1.3290420
+      \endverb
     \endentry
     \entry{Robach2000}{article}{}
       \name{author}{4}{}{%
@@ -7417,6 +8401,40 @@
       \endverb
       \keyw{angle calculations,diffractometers,pixel detectors,grazing-incidence diffraction,surface diffraction,reciprocal-space mapping}
     \endentry
+    \entry{Schlogl2015}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7d74d011fb0161695e222884a82e03f2}{%
+           family={Schlögl},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7d74d011fb0161695e222884a82e03f2}
+      \strng{fullhash}{7d74d011fb0161695e222884a82e03f2}
+      \strng{bibnamehash}{7d74d011fb0161695e222884a82e03f2}
+      \strng{authorbibnamehash}{7d74d011fb0161695e222884a82e03f2}
+      \strng{authornamehash}{7d74d011fb0161695e222884a82e03f2}
+      \strng{authorfullhash}{7d74d011fb0161695e222884a82e03f2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract A heterogeneous catalyst is a functional material that continually creates active sites with its reactants under reaction conditions. These sites change the rates of chemical reactions of the reactants localized on them without changing the thermodynamic equilibrium between the materials.}
+      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{number}{11}
+      \field{title}{Heterogeneous Catalysis}
+      \field{volume}{54}
+      \field{year}{2015}
+      \field{pages}{3465\bibrangedash 3520}
+      \range{pages}{56}
+      \verb{doi}
+      \verb https://doi.org/10.1002/anie.201410738
+      \endverb
+      \keyw{heterogeneous catalysis,reaction kinetics,surface chemistry}
+    \endentry
     \entry{Schroer2008}{article}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=fea16c7674cf219e280292ab9cc22ff3}{%
@@ -7525,6 +8543,66 @@
       \field{title}{{Effective computation in physics}}
       \field{year}{2015}
       \keyw{Computer software,Computer software Development,Physics,Physics Programming}
+    \endentry
+    \entry{Shabalin2017}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=fed5137c35a98627a62136f3b13ff338}{%
+           family={Shabalin},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7bf494ecd1c2efc2e5dca727573f6e4}{%
+           family={Yefanov},
+           familyi={Y\bibinitperiod},
+           given={O.\bibnamedelimi M.},
+           giveni={O\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a22f87103a703d29e78445ddac58d624}{%
+           family={Nosik},
+           familyi={N\bibinitperiod},
+           given={V.\bibnamedelimi L.},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34cd538e83384f8600b0827737a75ce5}{%
+           family={Bushuev},
+           familyi={B\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cbae162c43a6f89a75ec5ed2890da8c}{%
+           family={Vartanyants},
+           familyi={V\bibinitperiod},
+           given={I.\bibnamedelimi A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{26527541834169ab6440f96bb852b4d9}
+      \strng{fullhash}{dd5659330a6bdebb4cd7f8d6fc103b11}
+      \strng{bibnamehash}{26527541834169ab6440f96bb852b4d9}
+      \strng{authorbibnamehash}{26527541834169ab6440f96bb852b4d9}
+      \strng{authornamehash}{26527541834169ab6440f96bb852b4d9}
+      \strng{authorfullhash}{dd5659330a6bdebb4cd7f8d6fc103b11}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{08}
+      \field{title}{Dynamical effects in Bragg coherent x-ray diffraction imaging of finite crystals}
+      \field{volume}{96}
+      \field{year}{2017}
+      \field{pages}{064111}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.96.064111
+      \endverb
     \endentry
     \entry{Shannon1949}{article}{}
       \name{author}{1}{}{%
@@ -7851,6 +8929,70 @@
       \verb 10.1145/3311790.3396648
       \endverb
       \keyw{containers,Jupyter,reproducibility}
+    \endentry
+    \entry{Keisuke2019}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=70e5a73111c1b00017a3853078abff6d}{%
+           family={Suzuki},
+           familyi={S\bibinitperiod},
+           given={Keisuke},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62d02af1b69de5d293f53dab4bfa10c5}{%
+           family={Toyao},
+           familyi={T\bibinitperiod},
+           given={Takashi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b1a28bf8d509e2293ee17854e21e471}{%
+           family={Maeno},
+           familyi={M\bibinitperiod},
+           given={Zen},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46b71419be731ac6e37f3b14f0908897}{%
+           family={Takakusagi},
+           familyi={T\bibinitperiod},
+           given={Satoru},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=066a9a499fb4682deb53f7d436637fa3}{%
+           family={Shimizu},
+           familyi={S\bibinitperiod},
+           given={Ken-ichi},
+           giveni={K\bibinithyphendelim i\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=671398627a260a1d65663af630109710}{%
+           family={Takigawa},
+           familyi={T\bibinitperiod},
+           given={Ichigaku},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5f96912041ea9f8fa2bd30067e0dd840}
+      \strng{fullhash}{6de1547406e267c43289bc10a70abaa4}
+      \strng{bibnamehash}{5f96912041ea9f8fa2bd30067e0dd840}
+      \strng{authorbibnamehash}{5f96912041ea9f8fa2bd30067e0dd840}
+      \strng{authornamehash}{5f96912041ea9f8fa2bd30067e0dd840}
+      \strng{authorfullhash}{6de1547406e267c43289bc10a70abaa4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The literature provides insights for catalyst design and discovery. Effective analysis of reported data using machine learning (ML) methods offers the ability to gain valuable information. However, utilizing the literature in this way has obstacles such as lack of compositional overlaps, bias from prior published data, and low sample counts for many elements. The present study describes an ML approach that considers elemental features as input representations instead of inputting catalyst compositions directly. This ML method has the potential for catalyst discovery, including catalytic reactions with limited catalyst composition overlap in the available data. Oxidative coupling of methane (OCM), water gas shift (WGS), and CO oxidation reactions were chosen to confirm the effectiveness of the proposed method by analysis using several state-of-the-art ML methods. Among the ML methods tested, gradient boosting regression with XGBoost (XGB) provided the best results, and prediction accuracy was improved by the proposed approach for all three reaction types. In addition, a quantitative value of “feature importance score” was calculated to evaluate the most influential input variables on catalyst performance. Finally, catalyst optimization was explored using ML as a “surrogate” model, and the top 20 promising candidate catalysts were identified for the OCM reaction based on the optimization. The advantages of ML in catalysis analysis as well as the difficulties and limitations originating from the complexity of heterogeneous catalysis were explored.}
+      \field{journaltitle}{ChemCatChem}
+      \field{number}{18}
+      \field{title}{Statistical Analysis and Discovery of Heterogeneous Catalysts Based on Machine Learning from Diverse Published Data}
+      \field{volume}{11}
+      \field{year}{2019}
+      \field{pages}{4537\bibrangedash 4547}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1002/cctc.201900971
+      \endverb
+      \keyw{Machine learning,Catalysis informatics,Methane oxidative coupling,Water gas shift,CO oxidation}
     \endentry
     \entry{Takagi1962}{report}{}
       \name{author}{1}{}{%
@@ -8374,14 +9516,64 @@
       \verb https://doi.org/10.1107/S0021889899013655
       \endverb
     \endentry
+    \entry{DeVries2012}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=787039d422edc530af59174c564c51a1}{%
+           family={Vries},
+           familyi={V\bibinitperiod},
+           given={Johannes\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=453711a64c5c983b9b973857ba773d98}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={S.\bibnamedelimi David},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{ef78c3b0f80ef33eaa68c657fbb0fd7d}
+      \strng{fullhash}{ef78c3b0f80ef33eaa68c657fbb0fd7d}
+      \strng{bibnamehash}{ef78c3b0f80ef33eaa68c657fbb0fd7d}
+      \strng{authorbibnamehash}{ef78c3b0f80ef33eaa68c657fbb0fd7d}
+      \strng{authornamehash}{ef78c3b0f80ef33eaa68c657fbb0fd7d}
+      \strng{authorfullhash}{ef78c3b0f80ef33eaa68c657fbb0fd7d}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{Catal. Sci. Technol.}
+      \field{title}{Homogeneous and heterogeneous catalysis in industry}
+      \field{volume}{2}
+      \field{year}{2012}
+      \field{pages}{2009\bibrangedash 2009}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1039/C2CY90039D
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1039/C2CY90039D
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1039/C2CY90039D
+      \endverb
+    \endentry
     \entry{Wang2018}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=3a4719ce1c5e8800239ebd06176afe09}{%
+        {{un=1,uniquepart=given,hash=3a4719ce1c5e8800239ebd06176afe09}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Chunpeng},
            giveni={C\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=040fc3624bdb1f7f01cf848c4c5c822b}{%
            family={Steiner},
            familyi={S\bibinitperiod},
@@ -8425,12 +9617,12 @@
     \endentry
     \entry{Wang2021}{article}{}
       \name{author}{7}{ul=2}{%
-        {{un=0,uniquepart=base,hash=3a4719ce1c5e8800239ebd06176afe09}{%
+        {{un=1,uniquepart=given,hash=3a4719ce1c5e8800239ebd06176afe09}{%
            family={Wang},
            familyi={W\bibinitperiod},
            given={Chunpeng},
            giveni={C\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=e5059546a94ddc303eaa2dfd70c25157}{%
            family={Yu},
            familyi={Y\bibinitperiod},
@@ -8495,6 +9687,127 @@
       \verb 10.1088/2632-2153/abe193
       \endverb
       \keyw{Big Data,Superfacility,high-performance computing,large facilities,machine learning,scientific computation,synchrotron,user platform}
+    \endentry
+    \entry{Weinberg1996}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b24d64792e975ceacd815aff9feb7006}{%
+           family={Weinberg},
+           familyi={W\bibinitperiod},
+           given={W.\bibnamedelimi Henry},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{b24d64792e975ceacd815aff9feb7006}
+      \strng{fullhash}{b24d64792e975ceacd815aff9feb7006}
+      \strng{bibnamehash}{b24d64792e975ceacd815aff9feb7006}
+      \strng{authorbibnamehash}{b24d64792e975ceacd815aff9feb7006}
+      \strng{authornamehash}{b24d64792e975ceacd815aff9feb7006}
+      \strng{authorfullhash}{b24d64792e975ceacd815aff9feb7006}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-4842}
+      \field{journaltitle}{Accounts of Chemical Research}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Eley-Rideal Surface Chemistry:{\thinspace} Direct Reactivity of Gas Phase Atomic Hydrogen with Adsorbed Species}
+      \field{volume}{29}
+      \field{year}{1996}
+      \field{pages}{479\bibrangedash 487}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1021/ar9500980
+      \endverb
+    \endentry
+    \entry{WEINER1998915}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1f9114b8279325b5096a2a671120c10a}{%
+           family={Weiner},
+           familyi={W\bibinitperiod},
+           given={Steven\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=01b495b14bccd0bd55d60645140ddb87}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{1f9114b8279325b5096a2a671120c10a}
+      \strng{fullhash}{1f9114b8279325b5096a2a671120c10a}
+      \strng{bibnamehash}{1f9114b8279325b5096a2a671120c10a}
+      \strng{authorbibnamehash}{1f9114b8279325b5096a2a671120c10a}
+      \strng{authornamehash}{1f9114b8279325b5096a2a671120c10a}
+      \strng{authorfullhash}{1f9114b8279325b5096a2a671120c10a}
+      \strng{editorbibnamehash}{01b495b14bccd0bd55d60645140ddb87}
+      \strng{editornamehash}{01b495b14bccd0bd55d60645140ddb87}
+      \strng{editorfullhash}{01b495b14bccd0bd55d60645140ddb87}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Publisher Summary The U.S. chemical industry's future and its key technology needs and pathways are the subject of a joint effort of the Chemical Manufacturers Association, American Chemical Society, American Institute of Chemical Engineers, Council for Chemical Research, the Synthetic Organic Chemical Manufacturers Association, and the chemical industry to (1) provide technology vision and establish technical priorities in areas critical for improving the chemical industry's competitiveness, (2) develop recommendations to strengthen cooperation among industry, government, and academe, and (3) provide direction for continuous improvement through step-change technology. The chemical industry provides the building blocks of a modern society, and its products are essential to a broad range of manufacturing industries and service sectors. These products meet the most fundamental needs for food, shelter, and health, and they are vital to the high technology world of computing, telecommunications and biotechnology. Chemicals are a keystone of U.S. manufacturing, essential to a large range of industries, such as pharmaceuticals, automobiles, textiles, furniture, paint, paper, electronics, agriculture, construction, appliances, and services. The driving forces that are changing the nature of the business environment and impacting other industries, as well, stimulated this effort to think about the future of the chemical industry include increasing globalization, sustainability, financial performance, customer expectations, and changing work force requirements}
+      \field{booktitle}{Air pollution in the 21st century}
+      \field{issn}{0166-1116}
+      \field{series}{Studies in Environmental Science}
+      \field{title}{Technology vision 2020: The U.S. chemical industry}
+      \field{volume}{72}
+      \field{year}{1998}
+      \field{pages}{915\bibrangedash 921}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0166-1116(98)80054-X
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S016611169880054X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S016611169880054X
+      \endverb
+    \endentry
+    \entry{WHOAirPollution}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9ed1e9f759b27c20c0ee8a56113c84e3}{%
+           family={WHO},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ed1e9f759b27c20c0ee8a56113c84e3}
+      \strng{fullhash}{9ed1e9f759b27c20c0ee8a56113c84e3}
+      \strng{bibnamehash}{9ed1e9f759b27c20c0ee8a56113c84e3}
+      \strng{authorbibnamehash}{9ed1e9f759b27c20c0ee8a56113c84e3}
+      \strng{authornamehash}{9ed1e9f759b27c20c0ee8a56113c84e3}
+      \strng{authorfullhash}{9ed1e9f759b27c20c0ee8a56113c84e3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Air pollution}
+      \field{urlday}{25}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.who.int/health-topics/air-pollution
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/health-topics/air-pollution
+      \endverb
     \endentry
     \entry{Willmott}{book}{}
       \name{author}{1}{}{%
@@ -8689,6 +10002,99 @@
       \verb 10.1145/3093338.3093378
       \endverb
       \keyw{flood mapping,geospatial big data,computational reproducibility,CyberGIS,science gateway}
+    \endentry
+    \entry{Zhong2021}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=d46c3494946e8b18f00969a0d985cde1}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Liping},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2da6de50df320aaa14d74879f1b1575e}{%
+           family={Barreau},
+           familyi={B\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ea40f73df43d5771c574b1baad54893}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Dingkai},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37e39636c1e31653d4141b6ca627ff0a}{%
+           family={Caps},
+           familyi={C\bibinitperiod},
+           given={Valérie},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03adb9a2a543d5b162cb8573443c99a8}{%
+           family={Haevecker},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0c50ce538c8a27fd24747ae3fe57546}{%
+           family={Teschner},
+           familyi={T\bibinitperiod},
+           given={Detre},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=032f36febc30106a8013c16909feaf16}{%
+           family={Simonne},
+           familyi={S\bibinitperiod},
+           given={David\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=869ff6fc1ed97fad4a4fe9179b9c2e94}{%
+           family={Borfecchia},
+           familyi={B\bibinitperiod},
+           given={Elisa},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9207f96b449333b306cf4bbdba290998}{%
+           family={Baaziz},
+           familyi={B\bibinitperiod},
+           given={Walid},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67c4da40eeac8ca9f661d2a7d5b5ca18}{%
+           family={Šmíd},
+           familyi={Š\bibinitperiod},
+           given={Břetislav},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc69ef15ae9919229fb833c0b3e9d313}{%
+           family={Zafeiratos},
+           familyi={Z\bibinitperiod},
+           given={Spyridon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f06b6032b6e7b6bb28fb24398d913b10}
+      \strng{fullhash}{42a111d5ca28666872bfa60fd9c07775}
+      \strng{bibnamehash}{f06b6032b6e7b6bb28fb24398d913b10}
+      \strng{authorbibnamehash}{f06b6032b6e7b6bb28fb24398d913b10}
+      \strng{authornamehash}{f06b6032b6e7b6bb28fb24398d913b10}
+      \strng{authorfullhash}{42a111d5ca28666872bfa60fd9c07775}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The preferential oxidation of CO in H2-rich mixtures (COPrOx) is a major catalytic reaction utilized for hydrogen purification. In the exploration of alternatives to noble metals, cobalt-based catalysts appear to be a very promising choice. The activity and stability of cobalt in the COPrOx reaction can be improved by the addition of transition metals and manganese is maybe the most prominent among them. Yet, the arrangement of the two components in the catalytically active state is largely unknown, which hinders in-depth understanding of the manganese promotion effect. Here, we compare pure and Mn-modified cobalt catalysts and correlate their structural and chemical characteristics with their COPrOx performance. The Mn-promoted cobalt catalyst is significantly more active than pure cobalt especially at intermediate reaction temperatures (around 200 °C). The addition of Mn improves the structural stability of the catalyst and helps to maintain higher specific surface areas. Chemical and microstructural analysis using various operando and in situ techniques revealed that Mn promotes CO conversion by partially stabilizing CoO phase during reaction conditions. It is also suggested that at high temperature, Mn suppress CO methanation reaction but promotes H2 oxidation. Apart of the particular interest in COPrOx reaction, in a general context, this work shows how the spatial distribution of the different catalyst components at nanoscopic level, may affect the surface chemistry and consequently control the reactivity.}
+      \field{issn}{09263373}
+      \field{issue}{June}
+      \field{journaltitle}{Applied Catalysis B: Environmental}
+      \field{title}{Effect of manganese promotion on the activity and selectivity of cobalt catalysts for CO preferential oxidation}
+      \field{volume}{297}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1016/j.apcatb.2021.120397
+      \endverb
+      \keyw{COPrOx,Cobalt oxides,Manganese oxides,Mixed oxides,NAP-XPS,NEXAFS,Operando spectroscopy,Selectivity}
     \endentry
   \enddatalist
 \endrefsection

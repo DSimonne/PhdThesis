@@ -1,26 +1,98 @@
 \section{Heterogeneous Catalysis}\label{sec:Catalysis}
 
-Detail found in Corentin thesis and dutch guy thesis
+\textit{
+A catalyst is a substance that speeds up a chemical reaction, or lowers the temperature or pressure needed to start one, without itself being consumed during the reaction.
+Catalysis is the process of adding a catalyst to facilitate a reaction.
+}
+
+Chemical reactions involve the breaking, rearranging, and rebuilding of bonds between atoms in molecules, resulting in the formation of new molecules.
+Catalysts play a crucial role in enhancing the efficiency of these reactions by lowering the \textit{activation energy}, the energy barrier that must be overcome for the reaction to take place.
+This process facilitates the breaking and formation of chemical bonds, leading to the creation of new combinations and substances \parencite{Schlogl2015}.
+
+The use of catalysts has several advantages, including faster, selective, and more energy-efficient chemical reactions, enabling them to direct reactions towards producing higher amounts of the desired product while reducing unwanted byproducts \parencite{Schlogl2015}.
+Over the years, scientists have developed specialized catalysts for various real-world applications, today 90\% of chemical processes involve catalysts in at least one of their steps \parencite{WEINER1998915, DeVries2012}.
+Notable advancements in catalysis have led to the production of biodegradable plastics, novel pharmaceuticals, and eco-friendly fuels and fertilizers \parencite{FECHETE20122}.
+
+Today, several challenges have emerged in the field of heterogeneous catalysis related to improving efficiency, reducing environmental impact, and developing sustainable processes.
+First, environmental challenges concern minimizing and/or managing by-products, reducing contamination in effluents/wastewaters, and using sustainable sources of raw materials \parencite{LUDWIG2017313, Lange2021} and energy supplies.
+Secondly, economical challenges which imply using cheaper, readily available raw materials, increased productivity, and decreased lag-time between discovery to commercialization \parencite{Keisuke2019, Gunay2021}.
+For example, recent studies suggest that alternative, more economical catalysts, such as non-noble metals \parencite{Zhong2021} and other derived metal-based compounds, need to be tested as possible substitutes for the most frequently used noble metals, which are very efficient but expensive.
+
+Catalysis also has a role to play to combat pollution and create cleaner energy with for example the development of efficient water-splitting technologies \parencite{AHMAD2015599}, and enhancing the use of biomass and other energy vectors such as ammonia \parencite{Fang2022}.
+Finally, challenges also arise in automotive exhaust where catalyst participate in the reduction of the emissions of toxis gases and particles \parencite{WHOAirPollution, GANDHI2003433}.
+Some of the major air pollutants such as nitrogen oxides, $NO_x$ ($NO$ and $NO_2$), and particulate matter (PM) are emitted by road traffic (65\% of $NO_x$, $\approx 35\%$ of PM), mainly by diesel vehicles, and directly inhaled by nearby major city inhanbitants.
+To set a striking example, in Paris in 2018, 700 000 inhabitants were exposed to $NO_2$ concentrations exceeding the regulations (fig. \ref{fig:NO2Paris}), 60 000 inhabitants for PM$_{10}$, and all Parisians were concerned by exceeding the WHO recommendations for PM$_{2.5}$ \parencite{AirParis}.
+Air quality is the main environmental concern of Ile-de-France residents (65\% of total mentions) ahead of climate change (63\%) and food (38\%) \parencite{AirParis}.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/ammonia/ParisNO2.png}
+    \caption{
+        $NO_2$ levels in Paris are on average twice superior to the annual limit of $40 \, \mu g / m^3$ \parencite{AirParis}.
+    }
+    \label{fig:NO2Paris}
+\end{figure}
 
 \subsection{Mechanisms}
 
-In heterogeneous catalysis, two mechanisms are generally considered : the Langmuir–Hinshelwood mechanism [44, 45, 46] and the Eley–Rideal mechanism [47]. In the first mechanism both reactants are adsorbed at the surface of the catalyst, react at the surface and then happen the desorption of the product. In Eley–Rideal mechanism, only one of the reactant is adsorbed while the other one reacts with it directly from the gas phase. The first mechanism (Langmuir–Hinshelwood) appears to be generally preferred [48] (Fig. 1.1).
+Heterogeneous catalysis is a type of catalytic process where the catalyst exists in a different phase (solid, liquid, or gas) from the reactants.
+In other words, the catalyst and the reactants are present in distinct physical states.
+Most commonly, the catalyst is in the solid phase, while the reactants are in either the gas or liquid phase.
+This distinction sets heterogeneous catalysis apart from homogeneous catalysis, where the catalyst and reactants are in the same phase.
 
-Last mechanism is Mars - Van Krevelen (MvK) mechanism
+One of the key advantages of heterogeneous catalysis is the ease of catalyst separation and reuse.
+Since the catalyst is in a different phase, it can be easily separated from the reaction mixture once the reaction is complete.
+This makes the catalyst recyclable and economically attractive for industrial processes \parencite{FECHETE20122}.
 
-The overall heterogeneous catalytic reaction generally consists of a series of elementary
-steps : adsorption of the reactants, diffusion on the surface, breaking of reactants bonds, creation of new bonds to form products and finally desorption of these new chemicals. Catalysts are usually complex systems in powder form (presenting different surface orientation, i.e. facets) coupled with promoters (chemicals that improve the catalytic activity). It is therefore difficult to provide a molecular-level understanding of such processes. Model catalysts can therefore be used to simplify the investigation. A well-built theory has been proposed by Hammer and Nørskov [49] and lays down the basic rules behind catalysis. Some key parameters are used to rationalize and describe a catalytic process and catalysts performances. More recent approaches involving the use of machine learning can help predict the key descriptors for catalysis [50, 51]. Hammer and Nørskov theory is more of a model theoretical approach that could be experimentally questioned by model catalysts.
+The Sabatier principle, at the origin of the Nobel price of chemistry of 1912 \parencite{Che2013}, states that when a heterogeneous catalyst is used, there exists an optimum catalyst binding energy for the reactant on the catalyst surface.
+If the catalyst binding energy is too weak, the reactant molecules do not adsorb strongly enough on the catalyst, leading to low reaction rates.
+On the other hand, if the catalyst binding energy is too strong, the reactant molecules bind too tightly and do not easily react with the other reactants, resulting in low selectivity and efficiency.
 
-Catalysis is described by key parameters such as the stability (the propensity of the catalyst to stay unchanged after the reaction), the activity and the turn-over frequency (TOF, number of mole of reactant that can be converted per mole of catalyst over time), the selectivity (for example targeting the production of one particular isomer), the propensity to deactivation of the catalyst (for instance due to its oxidation). Depending on the chemical reaction, one wishes to have an active catalyst that is very stable and very selective towards a unique product, and doing so for a long time. However, it is difficult to meet all the requirements at once. A high activity is unfortunately often linked to a poor selectivity
+In a founding study in 1922, Langmuir detailed three possible mechanism of actions for heterogeneous catalysis \parencite{Langmuir1922, Prins2018}.
+In the first mechanism both reactants are adsorbed in adjacent spaces at the surface of the catalyst, react at the surface to form the product which is subsequently desorbed from the surface.
+This is the Langmuir–Hinshelwood mechanism.
 
-Hammer and Nørskov [49] have compiled and provided a well-built theory of adsorbates
-surface interactions for simple transition metals. As shown in Fig. 1.2, the model predicts that as the d-band of the metal shifts up towards the Fermi level (the filling of the band is kept fixed so that as the center of the d-band is shifted up, the band width decreases), the electron density of states of the adsorbate is modified and antibonding states appear above the Fermi level. Therefore they are empty and the bonds become stronger as the number of empty antibonding states increases. In short, the closer to the Fermi level and the narrower the d-band, the stronger the bonding i.e. the chemisorption.
+In the second mechanism, it is a molecule from the gas phase that comes and interact with the adsorbed reactant without being itself adsorbed.
+This is called the Eley–Rideal mechanism for which the product is directly in the gas phase \parencite{rideal_1939, Weinberg1996}.
 
-This model seems to work fine for simple transition metals (3d, 4d and 5d) [38, 39] for chemisorption (e.g. oxygen adsorption [49]) and also for molecular dissociation (e.g. CO
-dissociation [53], NO dissociation on Ru(0001) [42]). A clear linear correlation between adsorption energies and d-band position is determined both experimentally and theoretically. This is similar to the Brønsted-Evans-Polanyi linear relation between the activation and reaction energies. In the case of a monolayer of a transition metal over a substrate, a similar behavior is observed and the model still works fine (e.g. 5d metals on Pt(111) [54])
+The first mechanism (Langmuir–Hinshelwood) appears to be generally preferred, the bonding of the molecule to the atoms weakening its bonds and preparing the molecule for reactionby reducing the activation energy required for the reaction to occur \parencite{Baxter2002, Prins2018}.
+
+A heterogeneous catalytic reaction consists is a series of elementary steps such as reactant dissociation, adsorption, surface diffusion, surface chemical reactions, and desorption that are nowadays extensively studied via different theoretical computing methods such as density-functional theory (DFT - \cite{Reuter2004, Molenbroek2009, Yawei2015, Gaggioli2019, Chatelier2020}) as a function of the reaction parameters.
+
+Thanks to the increase of interest in the field of catalysis, new experimental methods have also been developped to be able to observe \textit{in-situ} and \textit{operando} the reaction
+
+Catalysts are usually complex systems in powder form (presenting different surface orientation, i.e. facets) coupled with promoters (chemicals that improve the catalytic activity).
+It is therefore difficult to provide a molecular-level understanding of such processes.
+Model catalysts can therefore be used to simplify the investigation.
+A well-built theory has been proposed by Hammer and Nørskov [49] and lays down the basic rules behind catalysis.
+Some key parameters are used to rationalize and describe a catalytic process and catalysts performances.
+More recent approaches involving the use of machine learning can help predict the key descriptors for catalysis [50, 51].
+Hammer and Nørskov theory is more of a model theoretical approach that could be experimentally questioned by model catalysts.
+
+Catalysis is described by key parameters such as the stability (the propensity of the catalyst to stay unchanged after the reaction), the activity and the turn-over frequency (TOF, number of mole of reactant that can be converted per mole of catalyst over time), the selectivity (for example targeting the production of one particular isomer), the propensity to deactivation of the catalyst (for instance due to its oxidation).
+Depending on the chemical reaction, one wishes to have an active catalyst that is very stable and very selective towards a unique product, and doing so for a long time.
+However, it is difficult to meet all the requirements at once.
+A high activity is unfortunately often linked to a poor selectivity
 
 
-Role of strain : 
+The turnover frequency TOF quantifies the specific activity of a catalytic centre for a special reaction under defined reaction conditions by the number of molecular reactions or catalytic cycles occurring at the centre per unit time.
+For heterogeneous catalysts the number of active centres is derived usually from sorption methods.
+
+Separate from the TOF, evaluating the catalytic activity, the turnover number (TON) value is an important parameter to evaluate the stability of the catalyst. In homogeneous and heterogeneous catalysis, the TON is a dimensionless number,24,25 which is defined as the number of the molecules produced per catalytic site before deactivation under given reaction conditions.
+That is to say, the catalyst can achieve the total number of turnovers until it is totally dead, regardless of the reaction time. In this respect, an ideal catalyst should have an infinite TON.
+Thus, the TON represents the maximum yield of products attained from an active catalytic site up to the decay of activity for a specific reaction.
+The TON of a catalyst for water oxidation is calculated according to Eq. (5):
+
+Create new phases in the catalyst
+
+\subsection{Linking strain and reactivity}
+
+
+
+Hammer and Noskrov blabla
+
+
+Role of strain :
 
 \cite{Kitchin2004}
 
@@ -28,53 +100,31 @@ Role of strain :
 
 We define a system where a (metal) sample, consisting of a surface and a bulk is in contact with a gaseous environment.
 
+Hammer and Nørskov [49] have compiled and provided a well-built theory of adsorbates
+surface interactions for simple transition metals.
+As shown in Fig. 1.2, the model predicts that as the d-band of the metal shifts up towards the Fermi level (the filling of the band is kept fixed so that as the center of the d-band is shifted up, the band width decreases), the electron density of states of the adsorbate is modified and antibonding states appear above the Fermi level.
+herefore they are empty and the bonds become stronger as the number of empty antibonding states increases.
+In short, the closer to the Fermi level and the narrower the d-band, the stronger the bonding i.e. the chemisorption.
 
+This model seems to work fine for simple transition metals (3d, 4d and 5d) [38, 39] for chemisorption (e.g. oxygen adsorption [49]) and also for molecular dissociation (e.g. CO dissociation [53], NO dissociation on Ru(0001) [42]).
+A clear linear correlation between adsorption energies and d-band position is determined both experimentally and theoretically.
+This is similar to the Brønsted-Evans-Polanyi linear relation between the activation and reaction energies.
+In the case of a monolayer of a transition metal over a substrate, a similar behavior is observed and the model still works fine (e.g. 5d metals on Pt(111) [54])
 
+\subsection{Active sites in heterogeneous catalysis}
 
-\subsubsection{Materials}
-
-\subsubsection{Conditions}
-
-This reaction is considered as a classic example of a strongly exothermic, heterogeneous, catalytic reaction [4]. Due to the very fast kinetics of oxidation reactions, a direct experimental investigation of several reaction steps is difficult at realistic conditions.
-
-nitrous oxide is a powerful oxidiser similar to molecular oxygen. 
-
-Selectivity to nitrous oxide at low temperature was reported in the following order: $Pt > Pd > Ni > Fe > W > Ti $[6].
-
-N2O selectivity for us ?
-
-NH3 oxidation requires surface sites for the adsorption of two ammonia molecules and two oxygen atoms.
-
-Furthermore, the importance of availability of oxygen vacant sites near N-containing adspecies was demonstrated by the decrease of the reaction rate when a surface oxide was formed [31–33].
-Finally, adsorbed oxygen did not block the ammonia adsorption [12]. All these facts led to the conclusion that a dual-site mechanism is operative. A similar conclusion on the reaction mechanism was made for ammonia oxidation on a supported ruthenium catalyst [34].
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=\textwidth]{ammonia/ReactionScheme.png}
-    \caption{\cite{Rebrov2002}}
-    \label{fig:my_label}
-\end{figure}
-
-Relation to nanoparticle size
-It was also reported that the stoichiometry of oxygen chemisorption increases by a factor 2.7 with increasing platinum crystallite size. This could also lead to an increase of the reaction rate if the oxygen adsorption is the rate-determining step in this system.
-
-\subsection{Particle-Size Effect in Catalytic Oxidation Over Pt Nanoparticles}
+The size of the catalyst particles can affect the surface area, the number of active sites, and the diffusion of reactants and products.
+In general, smaller particles have a higher surface area-to-volume ratio, which can increase the number of active sites available for catalysis.
+However, smaller particles can also be more prone to agglomeration and deactivation. Therefore, controlling the particle size and morphology is an important aspect of catalyst design.
 
 Alexandr Yu. Stakheev, ..., Valerii I. Bukhtiyarov, in Advanced Nanomaterials for Catalysis and Energy, 2019
 
-Relationships between turnover frequency and the size of supported Pt clusters are discussed for oxidation of hydrocarbons, CO, and NO by molecular oxygen. Analysis of the experimental data indicates that TOF tends to increase for bigger platinum particles. This tendency is particularly pronounced for the nanoparticles smaller than 4–5 nm. According to the most realistic models, the observed tendency stems from the deactivation of edge, corner, and neighboring atoms by two processes: (1) strong oxygen adsorption on edge and corner atoms with high degree of coordinative unsaturation, and (2) oxidation of Pt to PtOx, which is facilitated over undercoordinated sites. As the metal clusters grow in size, the fraction of undercoordinated edge and corner atoms decreases leading to the increase in experimentally observed TOF.
+Relationships between turnover frequency and the size of supported Pt clusters are discussed for oxidation of hydrocarbons, CO, and NO by molecular oxygen.
+Analysis of the experimental data indicates that TOF tends to increase for bigger platinum particles.
+This tendency is particularly pronounced for the nanoparticles smaller than 4–5 nm. According to the most realistic models, the observed tendency stems from the deactivation of edge, corner, and neighboring atoms by two processes: (1) strong oxygen adsorption on edge and corner atoms with high degree of coordinative unsaturation, and (2) oxidation of Pt to PtOx, which is facilitated over undercoordinated sites.
+As the metal clusters grow in size, the fraction of undercoordinated edge and corner atoms decreases leading to the increase in experimentally observed TOF.
 
+The increase of supported platinum particle size led also to considerable changes in selectivity in the ammonia oxidation over a Pt/Al2O3 catalyst [7,22,26].
+Large crystallites of 15.5 nm, for which over 98\% of the surface atoms are plane atoms [28], exhibited low selectivity to nitrogen formation. Selectivity to nitrogen increased with decreasing platinum loading
 
-The increase of supported platinum particle size led also
-to considerable changes in selectivity in the ammonia oxidation over a Pt/Al2O3 catalyst [7,22,26]. Large crystallites of 15.5 nm, for which over 98\% of the surface atoms are plane atoms [28], exhibited low selectivity to nitrogen formation. Selectivity to nitrogen increased with decreasing platinum loading
-
-\subsection{Stability}
-
-The turnover frequency TOF quantifies the specific activity of a catalytic centre for a special reaction under defined reaction conditions by the number of molecular reactions or catalytic cycles occurring at the centre per unit time. For heterogeneous catalysts the number of active centres is derived usually from sorption methods.
-
-Separate from the TOF, evaluating the catalytic activity, the turnover number (TON) value is an important parameter to evaluate the stability of the catalyst. In homogeneous and heterogeneous catalysis, the TON is a dimensionless number,24,25 which is defined as the number of the molecules produced per catalytic site before deactivation under given reaction conditions. That is to say, the catalyst can achieve the total number of turnovers until it is totally dead, regardless of the reaction time.26 In this respect, an ideal catalyst should have an infinite TON. Thus, the TON represents the maximum yield of products attained from an active catalytic site up to the decay of activity for a specific reaction. The TON of a catalyst for water oxidation is calculated according to Eq. (5):
-
-
-\subsection{Linking strain and reactivity}
-
-Hammer and Noskrov blabla
+It was also reported that the stoichiometry of oxygen chemisorption increases by a factor 2.7 with increasing platinum crystallite size. This could also lead to an increase of the reaction rate if the oxygen adsorption is the rate-determining step in this system.
