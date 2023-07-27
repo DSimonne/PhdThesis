@@ -46,7 +46,7 @@
 
 \colorlet{shadecolor}{gray!40}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Page layout %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% Page layout %%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage[
     a4paper,
@@ -62,7 +62,8 @@
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
 
-\fancypagestyle{main}{% Define fancy style for thesis
+% Define fancy style for thesis
+\fancypagestyle{main}{
     \fancyhead[L]{\chaptername \, \thechapter:  \small{\textsf{\leftmark}}}
     \fancyhead[R]{\small{\textsf{\rightmark}}}
     \fancyfoot[R]{\small{\thepage}}
@@ -73,7 +74,8 @@
 }
 \appto\mainmatter{\pagestyle{main}}
 
-\fancypagestyle{plain}{% Define plain style for table of contents and acknowledgements
+% Define plain style for table of contents and acknowledgements
+\fancypagestyle{plain}{
     \fancyhf{}
     \fancyfoot[C]{\thepage}
     \renewcommand{\headrulewidth}{0pt}%
@@ -87,7 +89,7 @@
 \subsectionfont{\color{LUGrey}}
 \subsubsectionfont{\color{LUGrey}}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Citation %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%% Citation %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage[utf8]{inputenc} % Use accents in source code, load before biblatex
 \usepackage[T1]{fontenc} % Show accents in output
@@ -103,7 +105,7 @@
 %    none Do not sort at all. All entries are processed in citation order.
 \addbibresource{/home/david/Documents/PhD/PhdThesis/references.bib}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Other packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% Other packages %%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{lipsum} % Latin blabla
 \usepackage{lmodern} % to avoid errors in font size
 \usepackage[british]{babel}
@@ -149,7 +151,7 @@
     anchorcolor = LightBlue,
 ]{hyperref} % load last to avoid errors
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% Commands %%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\argon}{\ce{Ar}\,}
 %{\textcolor{ArgonColor}
@@ -185,7 +187,7 @@
 \newcommand{\no}{{\textcolor{red}{x}}}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% Document %%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
@@ -199,7 +201,6 @@
     % \input{Sections/0_Acknowledgements}
 
 \frontmatter
-% Table of contents, list of figures, and list of tables
 {\hypersetup{linkcolor=black}
     \tableofcontents
     \listoffigures
@@ -220,14 +221,13 @@
     \input{Sections/2_Theory_Models/SixS}
     \input{Sections/2_Theory_Models/ComputerPrograms}
     
-% % Results
-%     \chapter{Results}
-%     \input{Sections/3_Results/Results}
+% Results
+    \chapter{Results}
+    \input{Sections/3_Results/BCDI}
+    \input{Sections/3_Results/SXRD}
+    \input{Sections/3_Results/EmpiricalAnalysis}
     
-%     \section{Empirical Analysis}
-%     \input{Sections/3_Results/EmpiricalAnalysis}
-    
-% % Conclusion
+% Conclusion
 %     \chapter{Conclusion}
 %     \input{Sections/4_Conclusion/Conclusion}
     
@@ -245,4 +245,4 @@
 \input{Sections/99_4eme_couverture}
 \end{document}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

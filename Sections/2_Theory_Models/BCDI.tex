@@ -1,4 +1,3 @@
-\newpage
 \section{BCDI} \label{sec:BCDI}
 
 Bragg Coherent Diffraction Imaging (BCDI) \parencite{robinson_coherent_2009} is a powerful technique for the non-destructive characterisation of material structure in three dimensions with unparalleled spatial and strain resolution, few nanometers \parencite{labat_inversion_2015,cherukara_anisotropic_2018} and $10^{-4 }$ respectively \parencite{Newton2010,Lauraux2020}.
@@ -7,7 +6,7 @@ The BCDI method is reliant on the coherence (sec. \ref{sec:Coherence}) of the li
 Since then it was developed into a characterisation tool for \textit{in situ / operando} studies of materials structure \parencite{ulvestad_situ_2016,Kim2019,Carnis2021} and will gain significantly (several orders of magnitude) from further source and beamline improvements as many synchrotrons have recently completed or are in the process of an upgrade from $3^{rd}$ to $4^{th}$ generation synchrotrons.
 Focusing optics that allowed the development of coherent imaging techniques by increasing the coherent flux on the probed sample are discussed in sec. \ref{sec:SIXS}.
 
-\subsection{Scattering by strained crystals}
+\subsection{Scattering by strained crystals}\label{sec:StrainBCDI}
 
 In this section, the scattering intensity of a single crystal of dimensions below the coherent volume of the source is considered, the waves scattered from the crystal interfere with each other and maximum intensity is observed when the scattering vector satisfies the Laue condition.
 
@@ -205,7 +204,7 @@ This method is then called the strain shell correlation \parencite{Girard2020}.
 However, one must keep in mind that the upper threshold for the strain resolution exists based on the $(\vec{q}-\vec{G}).\vec{u}_k<<1$ condition, which mostly affect the quality of the phase retrieval, highly strained crystals are very difficult to reconstruct and represent the next milestone in Bragg coherent diffraction imaging.
 One could imagine a future in which the atomistic computation of the scattering factor has been so optimized that phase retrieval algorithms would only be needed to provide an initial guess to the electronic density, and be replaced in the final steps by a simple fitting of the computed structure factor to the square root of the measured intensities.
 
-\subsection{Facet analysis}
+\subsection{Facet analysis} \label{sec:FacetAnalysis}
 
 After phase retrieval, it is possible to manipulate the electronic density of the reconstructed crystal.
 The surface of the crystal corresponds to a layer of voxels in the three dimensional array defined by a threshold of its maximum density.
