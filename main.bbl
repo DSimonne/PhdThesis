@@ -147,6 +147,38 @@
       \verb https://www.paris.fr/pages/etat-des-lieux-de-la-qualite-de-l-air-a-paris-7101
       \endverb
     \endentry
+    \entry{Alexander1920}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6a4b815ef109fa4516b3dcb5b2dd8ae7}{%
+           family={Alexander},
+           familyi={A\bibinitperiod},
+           given={Jerome},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a4b815ef109fa4516b3dcb5b2dd8ae7}
+      \strng{fullhash}{6a4b815ef109fa4516b3dcb5b2dd8ae7}
+      \strng{bibnamehash}{6a4b815ef109fa4516b3dcb5b2dd8ae7}
+      \strng{authorbibnamehash}{6a4b815ef109fa4516b3dcb5b2dd8ae7}
+      \strng{authornamehash}{6a4b815ef109fa4516b3dcb5b2dd8ae7}
+      \strng{authorfullhash}{6a4b815ef109fa4516b3dcb5b2dd8ae7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{1318}
+      \field{title}{The Award of the Nobel Prize to Professor Haber}
+      \field{volume}{51}
+      \field{year}{1920}
+      \field{pages}{348\bibrangedash 348}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1126/science.51.1318.348.a
+      \endverb
+    \endentry
     \entry{Alizada2017}{inproceedings}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=674b22a1be5c4b9ed17946175429462e}{%
@@ -256,7 +288,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{1089-5639}
       \field{journaltitle}{The Journal of Physical Chemistry A}
-      \field{month}{3}
+      \field{month}{03}
       \field{number}{11}
       \field{title}{Machine Learning Interatomic Potentials and Long-Range Physics}
       \field{volume}{127}
@@ -2049,6 +2081,82 @@
       \verb https://doi.org/10.1016/j.cattod.2013.07.006
       \endverb
       \keyw{Catalysis,Hydrogenation,Nickel,Theory,Agriculture,Space technology}
+    \endentry
+    \entry{CHEN201931}{book}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=69a2decfbd857053b571602ad635713b}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shiming},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36b8aa698aad89bb580398e95d5275af}{%
+           family={Perathoner},
+           familyi={P\bibinitperiod},
+           given={Siglinda},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a250ae90342669d22f0d83f82e15b19}{%
+           family={Ampelli},
+           familyi={A\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09e1d1c95e4c8a629b47c4ea7e994437}{%
+           family={Centi},
+           familyi={C\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=b6f0475795e4724551eb928f14422c6c}{%
+           family={Albonetti},
+           familyi={A\bibinitperiod},
+           given={Stefania},
+           giveni={S\bibinitperiod}}}%
+        {{hash=36b8aa698aad89bb580398e95d5275af}{%
+           family={Perathoner},
+           familyi={P\bibinitperiod},
+           given={Siglinda},
+           giveni={S\bibinitperiod}}}%
+        {{hash=249f2796d7546ba833f26177baed6d7f}{%
+           family={Quadrelli},
+           familyi={Q\bibinitperiod},
+           given={Elsje\bibnamedelima Alessandra},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5507a72f7e6bb771152271228dbcb6ea}
+      \strng{fullhash}{03b0ff2fe2663a728e57805b3a40906d}
+      \strng{bibnamehash}{5507a72f7e6bb771152271228dbcb6ea}
+      \strng{authorbibnamehash}{5507a72f7e6bb771152271228dbcb6ea}
+      \strng{authornamehash}{5507a72f7e6bb771152271228dbcb6ea}
+      \strng{authorfullhash}{03b0ff2fe2663a728e57805b3a40906d}
+      \strng{editorbibnamehash}{3456e0ed56a5a4f67e3f5092fc6d56a8}
+      \strng{editornamehash}{3456e0ed56a5a4f67e3f5092fc6d56a8}
+      \strng{editorfullhash}{3456e0ed56a5a4f67e3f5092fc6d56a8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A major challenge facing chemistry, in order to move to a sustainable, low-carbon future, is to avoid the use of fossil fuels to supply energy to drive chemical processes, which accounts for the largest part of carbon oxides emissions. A major effort is underway to develop novel synthetic paths using directly renewable energy (RE) sources to drive industrial processes [1]. With ammonia being the second largest-scale chemical (>150Mtonsy−1) with the top largest chemical process in terms of energy consumption (about 2.5EJ on a world scale), it does not surprise the fast emerging interest to develop new solutions to synthesize NH3 from N2 using RE for the process [2]. Between the various solutions under development, the electrocatalytic conversion of N2 is one of the most attracting and one of the challenging directions is the possibility of N2 and H2O co-electrolysis in very mild conditions, around room temperature and atmospheric pressure [2], [3], [4], [5], [6]. This solution also offers attractive possibilities for a distributed production of fertilizers [2].}
+      \field{booktitle}{Horizons in Sustainable Industrial Chemistry and Catalysis}
+      \field{issn}{0167-2991}
+      \field{series}{Studies in Surface Science and Catalysis}
+      \field{title}{Chapter 2 - Electrochemical Dinitrogen Activation: To Find a Sustainable Way to Produce Ammonia}
+      \field{volume}{178}
+      \field{year}{2019}
+      \field{pages}{31\bibrangedash 46}
+      \range{pages}{16}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-0-444-64127-4.00002-1
+      \endverb
+      \keyw{Ammonia,Electrocatalytic ammonia synthesis,Room temperature,Atmospheric pressure,Water}
     \endentry
     \entry{cherukara_anisotropic_2018}{article}{}
       \name{author}{3}{}{%
