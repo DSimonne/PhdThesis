@@ -26,46 +26,75 @@ Air quality is the main environmental concern of Ile-de-France residents (65\% o
 
 \section{The oxidation of Ammonia}
 
-The story of ammonia begins in the early 20th century \parencite{Alexander1920,CHEN201931} with the discovery of the Ostwald process in 1902 that permitted the synthesis of fertilizers from ammonia.
+The story of ammonia begins in the early 20th century with the discovery of the Ostwald process in 1902 that permitted the synthesis of fertilizers from ammonia.
 Wilhelm Ostwald latter received the Nobel price in 1909 \textit{"in recognition of his work on catalysis and for his investigations into the fundamental principles governing chemical equilibria and rates of reaction"}.
 Seven years later, in 1909, Fritz Haber designed a process for the synthesis of ammonia which was later improved by Carl Bosch.
 It is today known as the Haber-Bosch process and is at the origin of the mass production of ammonia using metallic catalysts.
-First Haber received the Nobel prize in 1918 \textit{"for the synthesis of ammonia from its elements"} and Carl Bosch in 1931 \textit{“in recognition of their contributions to the invention and development of chemical high pressure methods”}.
+First Haber received the Nobel prize in 1918 \textit{"for the synthesis of ammonia from its elements"} \parencite{Alexander1920} and Carl Bosch in 1931 \textit{“in recognition of their contributions to the invention and development of chemical high pressure methods”}.
 
 \begin{figure}
 \centering
-\begin{tikzpicture}
-    \node (image) [anchor=south west, inner sep=0pt] {\includegraphics[width=0.99\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/worldindata/world-population-with-and-without-fertilizer.png}};
-    \begin{scope}[x={(image.south east)}, y={(image.north west)}]
-        \node [text width=2.2cm,align=right] at (0.18, 0.7) (OP) {\textcolor{Ostwald}{Ostwald} process\\(1902)\\ \textrightarrow Nobel prize\\(1909)};
-        \draw [-latex, ultra thick, Ostwald] (0.10,0.75) to (0.10,0.12);
-        \node [text width=2cm,align=right] at (0.19, 0.45) (HBP) {\textcolor{Haber}{Haber-Bosch}\\process (1908)\\ \textrightarrow Nobel prize\\(1918)};
-        \draw [-latex, ultra thick, Haber] (0.13,0.4) to (0.13,0.12);
-    \end{scope}
-\end{tikzpicture}
+    \begin{tikzpicture}
+        \node (image) [anchor=south west, inner sep=0pt] {\includegraphics[width=0.99\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/worldindata/world-population-with-and-without-fertilizer.png}};
+        \begin{scope}[x={(image.south east)}, y={(image.north west)}]
+            \node [text width=4cm,align=right] at (0.18, 0.7) (OP) {\textcolor{Ostwald}{Ostwald} process\\(1902)\\ \textrightarrow Nobel prize\\(1909)};
+            \draw [-latex, ultra thick, Ostwald] (0.10,0.75) to (0.10,0.12);
+            \node [text width=4cm,align=right] at (0.19, 0.45) (HBP) {\textcolor{Haber}{Haber-Bosch}\\process (1908)\\ \textrightarrow Nobel prize\\(1918)};
+            \draw [-latex, ultra thick, Haber] (0.13,0.4) to (0.13,0.12);
+        \end{scope}
+    \end{tikzpicture}
+    \caption{
+    Since the discovery of the Ostwald and Haber-Bosch process that allowed the mass production of nitrogen-based fertilizers, the world population increase has been relying on the production of those fertilizers.
+    Today, about 50\% of the worlds population relies on nitrogen-based fertilizer to produce the food necessary to their alimentation.
+    Taken from \cite{WorldDataFertilizer}.
+    }
+    \label{fig:FertilizerWID}
 \end{figure}
 
+Today, the ammonia oxidation is an essential catalytic reaction used in the production of artificial fertilizers and in environmental applications.
+In both cases, particular focus is on two products of the reaction, namely, \nitricoxide and \nitrogen.
+The selectivity toward either one is dictated by reaction parameters, that is, by temperature, \ammonia and \dioxygen partial pressures, and the type of catalyst.
+
 \begin{align}
-    \label{eq:AmmoniaOxidation}
+    \label{eq:AmmoniaOxidation1}
     4 \ammonia + 3 \dioxygen & \rightarrow 6 \water + 2 \nitrogen \\
+    \label{eq:AmmoniaOxidation2}
     4 \ammonia + 4 \dioxygen & \rightarrow 6 \water + 2 \nitrousoxide \\
+    \label{eq:AmmoniaOxidation3}
     4 \ammonia + 5 \dioxygen & \rightarrow 6 \water + 4 \nitricoxide
 \end{align}
 
+The reaction between oxygen and ammonia can be described by three stochiometric equations that, depending on the ratio between \ammonia and \dioxygen, have different products.
+The first equation (eq. \ref{eq:AmmoniaOxidation1}) yields nitrogen (\nitrogen), a gas that constitutes 70\% of the earth's atmosphere.
+
+The second equation (eq. \ref{eq:AmmoniaOxidation2}) yields nitrous oxide (\nitrousoxide), a powerful greenhouse effect gas.
+For an equal amount of \nitrousoxide and \carbondioxide, the amount of \nitrousoxide will trap 298 (298 Ceq) times more heat than the amount of \carbondioxide over the next 100 years \parencite{MITCLIMATE}.
+Nitrous oxide is also famous for being the laughing gas, which in reality only constitutes a small amount of its utilisation, the most important contribution to the nitrous oxide in the atmosphere comes from growing crops using nitrogen-based fertilizers.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/ammonia/NO2pie.pdf}
+    \caption{Pie charts underlining the contribution of nitrogen-based fertilizers to the greenhouse gases in the USA.
+    Adapted from \cite{EPAGreenhouseGases}.}
+    \label{fig:PieGreenhouseNO2}
+\end{figure}
+
+The third equation (eq. \ref{eq:AmmoniaOxidation3}) yields nitric oxide (\nitricoxide), which is the main interest for the future production of nitrogen-based fertilizers.
+Nitric oxide is a poisonous and colorless gas
+
 \begin{align}
     \label{eq:Stage2}
-    2 \nitricoxide + \dioxygen \rightarrow \nitrogendioxide \\
-    3 \nitrogendioxide + \water \rightarrow \nitricacid + \nitricoxide
+    2 \nitricoxide + \dioxygen & \rightarrow \nitrogendioxide \\
+    3 \nitrogendioxide + \water & \rightarrow \nitricacid + \nitricoxide
 \end{align}
 
 \begin{align}
     \label{eq:Stage3}
-    \nitricacid + \ammonia \rightarrow \ammoniumnitrate
+    \nitricacid + \ammonia & \rightarrow \ammoniumnitrate
 \end{align}
 
-Ammonia oxidation is an essential catalytic reaction used in the production of artificial fertilizers and in environmental applications. In both cases, particular focus is on two products of the reaction, namely, \nitricoxide and \nitrogen. The selectivity toward either one is dictated by reaction parameters, that is, by temperature, \ammonia and \dioxygen partial pressures, and the type of catalyst.
 
-Detail and literature about the oxidation of Ammonia on Platinum nano-catalyst can be found here \parencite{Resta2020a}.
+The most efficient catalyst for the oxidation of ammonia is a Pt-Rh alloy.
 
 
 This reaction is considered as a classic example of a strongly exothermic, heterogeneous, catalytic reaction [4].
@@ -85,6 +114,9 @@ All these facts led to the conclusion that a dual-site mechanism is operative.
 A similar conclusion on the reaction mechanism was made for ammonia oxidation on a supported ruthenium catalyst [34].
 
 has been well optimized in industry reaching up to 99\% efficiency towards the production of nitrous oxide,
+
+Depending on the application of the ammonia oxidation, the catalytic reaction must be tuned towards a specific product.
+This \textit{selectivity} is controlled by the reaction temperature, pressure, the  reactant ratio, and the type of catalyst
 
 \section{From industry to model catalysis}
 

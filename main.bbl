@@ -77,44 +77,67 @@
       \endverb
       \keyw{Photo-catalytic,Water splitting,Hydrogen,Methanol}
     \endentry
-    \entry{ahrens2005paraview}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=65098aea2cdfbcc039bbe90d7c894133}{%
+    \entry{Ahrens2001}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=2f569d7de3343f2c737686918536bc6b}{%
            family={Ahrens},
            familyi={A\bibinitperiod},
-           given={James},
+           given={J.},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=6b6bb20418c130d93def4b0ea853b915}{%
+        {{un=0,uniquepart=base,hash=454cdc350ec52a1f3c35fe593e6927e9}{%
+           family={Brislawn},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e3d526fa3102d5e36cab7bf90bdb99b}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a91013378311db12e645b272ddcb8d9}{%
            family={Geveci},
            familyi={G\bibinitperiod},
-           given={Berk},
+           given={B.},
            giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=fccc27e382691f773ce3e2ffff306181}{%
+        {{un=0,uniquepart=base,hash=2130b532fae4cafd8662cf6c6e3c71c8}{%
            family={Law},
            familyi={L\bibinitperiod},
-           given={Charles},
+           given={C.C.},
            giveni={C\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=234e0755e3dd20bfa6999c75ce4b1135}{%
+           family={Papka},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{9bcecb3a228cc2121553483bf468b7c6}
-      \strng{fullhash}{9bcecb3a228cc2121553483bf468b7c6}
-      \strng{bibnamehash}{9bcecb3a228cc2121553483bf468b7c6}
-      \strng{authorbibnamehash}{9bcecb3a228cc2121553483bf468b7c6}
-      \strng{authornamehash}{9bcecb3a228cc2121553483bf468b7c6}
-      \strng{authorfullhash}{9bcecb3a228cc2121553483bf468b7c6}
+      \strng{namehash}{f714789931f56ca8f75b0e510f4579f8}
+      \strng{fullhash}{b93bb160e8e629409b67afe306627041}
+      \strng{bibnamehash}{f714789931f56ca8f75b0e510f4579f8}
+      \strng{authorbibnamehash}{f714789931f56ca8f75b0e510f4579f8}
+      \strng{authornamehash}{f714789931f56ca8f75b0e510f4579f8}
+      \strng{authorfullhash}{b93bb160e8e629409b67afe306627041}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{The visualization handbook}
-      \field{number}{8}
-      \field{title}{Paraview: An end-user tool for large data visualization}
-      \field{volume}{717}
-      \field{year}{2005}
+      \field{journaltitle}{IEEE Computer Graphics and Applications}
+      \field{number}{4}
+      \field{title}{Large-scale data visualization using parallel data streaming}
+      \field{volume}{21}
+      \field{year}{2001}
+      \field{pages}{34\bibrangedash 41}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/38.933522
+      \endverb
     \endentry
     \entry{AirParis}{online}{}
       \name{author}{1}{}{%
@@ -2082,82 +2105,6 @@
       \endverb
       \keyw{Catalysis,Hydrogenation,Nickel,Theory,Agriculture,Space technology}
     \endentry
-    \entry{CHEN201931}{book}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=69a2decfbd857053b571602ad635713b}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Shiming},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=36b8aa698aad89bb580398e95d5275af}{%
-           family={Perathoner},
-           familyi={P\bibinitperiod},
-           given={Siglinda},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5a250ae90342669d22f0d83f82e15b19}{%
-           family={Ampelli},
-           familyi={A\bibinitperiod},
-           given={Claudio},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=09e1d1c95e4c8a629b47c4ea7e994437}{%
-           family={Centi},
-           familyi={C\bibinitperiod},
-           given={Gabriele},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{3}{}{%
-        {{hash=b6f0475795e4724551eb928f14422c6c}{%
-           family={Albonetti},
-           familyi={A\bibinitperiod},
-           given={Stefania},
-           giveni={S\bibinitperiod}}}%
-        {{hash=36b8aa698aad89bb580398e95d5275af}{%
-           family={Perathoner},
-           familyi={P\bibinitperiod},
-           given={Siglinda},
-           giveni={S\bibinitperiod}}}%
-        {{hash=249f2796d7546ba833f26177baed6d7f}{%
-           family={Quadrelli},
-           familyi={Q\bibinitperiod},
-           given={Elsje\bibnamedelima Alessandra},
-           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{5507a72f7e6bb771152271228dbcb6ea}
-      \strng{fullhash}{03b0ff2fe2663a728e57805b3a40906d}
-      \strng{bibnamehash}{5507a72f7e6bb771152271228dbcb6ea}
-      \strng{authorbibnamehash}{5507a72f7e6bb771152271228dbcb6ea}
-      \strng{authornamehash}{5507a72f7e6bb771152271228dbcb6ea}
-      \strng{authorfullhash}{03b0ff2fe2663a728e57805b3a40906d}
-      \strng{editorbibnamehash}{3456e0ed56a5a4f67e3f5092fc6d56a8}
-      \strng{editornamehash}{3456e0ed56a5a4f67e3f5092fc6d56a8}
-      \strng{editorfullhash}{3456e0ed56a5a4f67e3f5092fc6d56a8}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A major challenge facing chemistry, in order to move to a sustainable, low-carbon future, is to avoid the use of fossil fuels to supply energy to drive chemical processes, which accounts for the largest part of carbon oxides emissions. A major effort is underway to develop novel synthetic paths using directly renewable energy (RE) sources to drive industrial processes [1]. With ammonia being the second largest-scale chemical (>150Mtonsy−1) with the top largest chemical process in terms of energy consumption (about 2.5EJ on a world scale), it does not surprise the fast emerging interest to develop new solutions to synthesize NH3 from N2 using RE for the process [2]. Between the various solutions under development, the electrocatalytic conversion of N2 is one of the most attracting and one of the challenging directions is the possibility of N2 and H2O co-electrolysis in very mild conditions, around room temperature and atmospheric pressure [2], [3], [4], [5], [6]. This solution also offers attractive possibilities for a distributed production of fertilizers [2].}
-      \field{booktitle}{Horizons in Sustainable Industrial Chemistry and Catalysis}
-      \field{issn}{0167-2991}
-      \field{series}{Studies in Surface Science and Catalysis}
-      \field{title}{Chapter 2 - Electrochemical Dinitrogen Activation: To Find a Sustainable Way to Produce Ammonia}
-      \field{volume}{178}
-      \field{year}{2019}
-      \field{pages}{31\bibrangedash 46}
-      \range{pages}{16}
-      \verb{doi}
-      \verb https://doi.org/10.1016/B978-0-444-64127-4.00002-1
-      \endverb
-      \keyw{Ammonia,Electrocatalytic ammonia synthesis,Room temperature,Atmospheric pressure,Water}
-    \endentry
     \entry{cherukara_anisotropic_2018}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=7d51044b8998110cfd06050e8e2faa58}{%
@@ -2930,6 +2877,37 @@
       \range{pages}{17}
       \verb{doi}
       \verb 10.1002/andp.19053220607
+      \endverb
+    \endentry
+    \entry{EPAGreenhouseGases}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=de3b5f3f3e4dcccb9bdf618270327bf0}{%
+           family={EPA},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{de3b5f3f3e4dcccb9bdf618270327bf0}
+      \strng{fullhash}{de3b5f3f3e4dcccb9bdf618270327bf0}
+      \strng{bibnamehash}{de3b5f3f3e4dcccb9bdf618270327bf0}
+      \strng{authorbibnamehash}{de3b5f3f3e4dcccb9bdf618270327bf0}
+      \strng{authornamehash}{de3b5f3f3e4dcccb9bdf618270327bf0}
+      \strng{authorfullhash}{de3b5f3f3e4dcccb9bdf618270327bf0}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Greenhouse gases overview}
+      \field{urlday}{20}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.epa.gov/ghgemissions/overview-greenhouse-gases
+      \endverb
+      \verb{url}
+      \verb https://www.epa.gov/ghgemissions/overview-greenhouse-gases
       \endverb
     \endentry
     \entry{Fadenberger2010InSO}{article}{}
@@ -6546,6 +6524,53 @@
       \verb 10.1039/C5NR00092K
       \endverb
     \endentry
+    \entry{Lorensen1987}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=966edb0a4087f42b3518503987e61399}{%
+           family={Lorensen},
+           familyi={L\bibinitperiod},
+           given={William\bibnamedelima E.},
+           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74f056f6ffac9cb2f26904eca44820de}{%
+           family={Cline},
+           familyi={C\bibinitperiod},
+           given={Harvey\bibnamedelima E.},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{c04f319f1cd4852327f00c52da26c78e}
+      \strng{fullhash}{c04f319f1cd4852327f00c52da26c78e}
+      \strng{bibnamehash}{c04f319f1cd4852327f00c52da26c78e}
+      \strng{authorbibnamehash}{c04f319f1cd4852327f00c52da26c78e}
+      \strng{authornamehash}{c04f319f1cd4852327f00c52da26c78e}
+      \strng{authorfullhash}{c04f319f1cd4852327f00c52da26c78e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a new algorithm, called marching cubes, that creates triangle models of constant density surfaces from 3D medical data. Using a divide-and-conquer approach to generate inter-slice connectivity, we create a case table that defines triangle topology. The algorithm processes the 3D medical data in scan-line order and calculates triangle vertices using linear interpolation. We find the gradient of the original data, normalize it, and use it as a basis for shading the models. The detail in images produced from the generated surface models is the result of maintaining the inter-slice connectivity, surface data, and gradient information present in the original 3D data. Results from computed tomography (CT), magnetic resonance (MR), and single-photon emission computed tomography (SPECT) illustrate the quality and functionality of marching cubes. We also discuss improvements that decrease processing time and add solid modeling capabilities.}
+      \field{issn}{0097-8930}
+      \field{journaltitle}{SIGGRAPH Comput. Graph.}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{Marching Cubes: A High Resolution 3D Surface Construction Algorithm}
+      \field{volume}{21}
+      \field{year}{1987}
+      \field{pages}{163\bibrangedash 169}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1145/37402.37422
+      \endverb
+    \endentry
     \entry{LucyAlgo1974}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4cb84dd858c4ec9dae881405f13f0f58}{%
@@ -7488,6 +7513,37 @@
       \verb 10.1103/PhysRevB.76.104106
       \endverb
     \endentry
+    \entry{MITCLIMATE}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7abc1a233092fc104c7af72a89c0829c}{%
+           family={MIT},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{fullhash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{bibnamehash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{authorbibnamehash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{authornamehash}{7abc1a233092fc104c7af72a89c0829c}
+      \strng{authorfullhash}{7abc1a233092fc104c7af72a89c0829c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Greenhouse gases}
+      \field{urlday}{20}
+      \field{urlmonth}{4}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://climate.mit.edu/explainers/greenhouse-gases
+      \endverb
+      \verb{url}
+      \verb https://climate.mit.edu/explainers/greenhouse-gases
+      \endverb
+    \endentry
     \entry{Molenbroek2009}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=7c4b7c0b81c53529ccc8daa792acc89b}{%
@@ -7808,6 +7864,37 @@
       \field{title}{{Lmfit: Non-Linear Least-Square Minimization and Curve-Fitting for Python}}
       \field{year}{2016}
       \keyw{Software}
+    \endentry
+    \entry{WorldDataFertilizer}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f9ce29f2a19fc99695682ca393709b87}{%
+           family={OWID},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9ce29f2a19fc99695682ca393709b87}
+      \strng{fullhash}{f9ce29f2a19fc99695682ca393709b87}
+      \strng{bibnamehash}{f9ce29f2a19fc99695682ca393709b87}
+      \strng{authorbibnamehash}{f9ce29f2a19fc99695682ca393709b87}
+      \strng{authornamehash}{f9ce29f2a19fc99695682ca393709b87}
+      \strng{authorfullhash}{f9ce29f2a19fc99695682ca393709b87}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fertilizers}
+      \field{urlday}{15}
+      \field{urlmonth}{2}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://ourworldindata.org/fertilizers
+      \endverb
+      \verb{url}
+      \verb https://ourworldindata.org/fertilizers
+      \endverb
     \endentry
     \entry{ozturk_performance_2017}{article}{}
       \name{author}{6}{}{%
@@ -11458,6 +11545,7 @@
       \keyw{COPrOx,Cobalt oxides,Manganese oxides,Mixed oxides,NAP-XPS,NEXAFS,Operando spectroscopy,Selectivity}
     \endentry
   \enddatalist
+  \missing{ahrens2005paraview}
 \endrefsection
 \endinput
 

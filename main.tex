@@ -117,6 +117,7 @@
 % \usepackage{minted} % Format code
 \usepackage[version=4]{mhchem}
 \usepackage{animate} % for animations in 3D
+\usepackage{pdfpages}
 
 \usepackage{textcomp} % To avoid warnings in gensymb
 \usepackage{gensymb} % for degree symbol
@@ -167,7 +168,7 @@
 \newcommand{\nitrogen}{\ce{N_2}\,}
 %{\textcolor{NitrogenColor}
 
-\newcommand{\nitricacid}{ce{HNO_3}\,}
+\newcommand{\nitricacid}{\ce{HNO_3}\,}
 %{\textcolor{DarkOrange}
 
 \newcommand{\nitricoxide}{\ce{NO}\,}
@@ -175,10 +176,12 @@
 
 \newcommand{\nitrogendioxide}{\ce{NO_2}\,}
 
+\newcommand{\carbondioxide}{\ce{CO_2}\,}
+
 \newcommand{\dioxygen}{\ce{O_2}\,}
 %{\textcolor{OxygenColor}
 
-\newcommand{\ptthreeofour}{P$_3$O$_4$\,}
+\newcommand{\ptthreeofour}{\ce{Pt_3O_4}\,}
 %{\textcolor{Important}
 
 \newcommand{\ammoniumnitrate}{\ce{NH_4NO_3}\,}
@@ -239,10 +242,11 @@
     \printbibliography
 
 % Appendices
-    % \appendix
-    % \chapter{(Appendix A)}
-    % \input{Sections/5_Appendix/Papers}
-    % \input{Sections/5_Appendix/PythonScripts}
+    \appendix
+    \chapter{3D BCDI \textit{operando} measurements}
+    \input{Sections/5_Appendix/OperandoBCDI}
+
+
 
 % 4ème de couverture
 \input{Sections/99_4eme_couverture}
