@@ -27,7 +27,7 @@ Air quality is the main environmental concern of Ile-de-France residents (65\% o
 \section{The oxidation of Ammonia}
 
 The story of ammonia begins in the early 20th century with the discovery of the Ostwald process in 1902 that permitted the synthesis of fertilizers from ammonia.
-Wilhelm Ostwald latter received the Nobel price in 1909 \textit{"in recognition of his work on catalysis and for his investigations into the fundamental principles governing chemical equilibria and rates of reaction"}.
+Wilhelm Ostwald later received the Nobel price in 1909 \textit{"in recognition of his work on catalysis and for his investigations into the fundamental principles governing chemical equilibria and rates of reaction"}.
 Seven years later, in 1909, Fritz Haber designed a process for the synthesis of ammonia which was later improved by Carl Bosch.
 It is today known as the Haber-Bosch process and is at the origin of the mass production of ammonia using metallic catalysts.
 First Haber received the Nobel prize in 1918 \textit{"for the synthesis of ammonia from its elements"} \parencite{Alexander1920} and Carl Bosch in 1931 \textit{“in recognition of their contributions to the invention and development of chemical high pressure methods”}.
@@ -35,7 +35,7 @@ First Haber received the Nobel prize in 1918 \textit{"for the synthesis of ammon
 \begin{figure}
 \centering
     \begin{tikzpicture}
-        \node (image) [anchor=south west, inner sep=0pt] {\includegraphics[width=0.99\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/worldindata/world-population-with-and-without-fertilizer.png}};
+        \node (image) [anchor=south west, inner sep=0pt] {\includegraphics[width=0.95\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/worldindata/world-population-with-and-without-fertilizer.png}};
         \begin{scope}[x={(image.south east)}, y={(image.north west)}]
             \node [text width=4cm,align=right] at (0.18, 0.7) (OP) {\textcolor{Ostwald}{Ostwald} process\\(1902)\\ \textrightarrow Nobel prize\\(1909)};
             \draw [-latex, ultra thick, Ostwald] (0.10,0.75) to (0.10,0.12);
@@ -44,32 +44,76 @@ First Haber received the Nobel prize in 1918 \textit{"for the synthesis of ammon
         \end{scope}
     \end{tikzpicture}
     \caption{
-    Since the discovery of the Ostwald and Haber-Bosch process that allowed the mass production of nitrogen-based fertilizers, the world population increase has been relying on the production of those fertilizers.
+    Since the discovery of the Ostwald and Haber-Bosch process that allowed the mass production of nitrogen-based fertilizers, the world population increase has been relying on their production and use for agriculture.
     Today, about 50\% of the worlds population relies on nitrogen-based fertilizer to produce the food necessary to their alimentation.
     Taken from \cite{WorldDataFertilizer}.
     }
     \label{fig:FertilizerWID}
 \end{figure}
 
+The oxidation of ammonia can be described by three stochiometric equations that, depending on the stoechiometric ratio between \ammonia and \dioxygen, have different products.
+
+\begin{align}
+    \label{eq:AmmoniaOxidationNitrogen}
+    4 \ammonia (g) + 3 \dioxygen (g) & \rightarrow 6 \water (g) + 2 \nitrogen (g) \\
+    \label{eq:AmmoniaOxidationNitrousOxide}
+    4 \ammonia (g) + 4 \dioxygen (g) & \rightarrow 6 \water (g) + 2 \nitrousoxide (g) \\
+    \label{eq:AmmoniaOxidationNitricOxide}
+    4 \ammonia (g) + 5 \dioxygen (g) & \rightarrow 6 \water (g) + 4 \nitricoxide (g)
+\end{align}
+
+The first equation (eq. \ref{eq:AmmoniaOxidationNitrogen}) yields nitrogen (\nitrogen), a naturally occuring gas that does not pollute the environment nor shows any toxic behavious towards humans (tab. \ref{tab:NitrogenGases}).
+The second equation (eq. \ref{eq:AmmoniaOxidationNitrousOxide}) yields nitrous oxide (\nitrousoxide), a powerful greenhouse effect gas (tab. \ref{tab:NitrogenGases}).
+For an equal amount of \nitrousoxide and \carbondioxide, the amount of \nitrousoxide will trap 298 (298 Ceq) times more heat than the amount of \carbondioxide over the next 100 years \parencite{MITCLIMATE}.
+The third equation (eq. \ref{eq:AmmoniaOxidationNitricOxide}) yields nitric oxide, also called nitrogen monoxide (\nitricoxide), which is the main interest for the production of nitrogen-based fertilizers (tab. \ref{tab:NitrogenGases}) via the Ostwald process.
+
+\begin{align}
+    \label{eq:SideReactions1}
+    4 \ammonia (g) + 6 \nitricoxide (g) & \rightarrow 5 \nitrogen (g) + 6 \water (g)\\
+    \label{eq:SideReactions2}
+    2 \nitricoxide (g) & \rightarrow \nitrogen (g) + \dioxygen (g)
+\end{align}
+
+Known side reactions to the oxidation of ammonia are first the recombination of nitric oxide with unreacted ammonia that leads to the production of water and nitrogen (eq. \ref{eq:SideReactions1}), and secondly the thermal decomposition of nitric oxide (eq. \ref{eq:SideReactions2}), that both lower the total yield of the reaction when aiming at the production of nitric oxide.
+Reactions \ref{eq:AmmoniaOxidation1}, \ref{eq:AmmoniaOxidation2}, \ref{eq:AmmoniaOxidation3} and \ref{eq:SideReactions1} are strongly exothermic.
+At low temperature or in the absence of catalyst, the production if \nitrogen is favoured \parencite{Hatscher2008}.
+
+The second (eq. \ref{eq:Stage2}) and third (eq. \ref{eq:Stage2}) stages of the Ostwald process stem from \nitricoxide.
+It is therefore important to achieve important selectivity towards the production of \nitricoxide when aiming at the production of fertilizers.
+Since the 1930s, the presence of platinum-rhodium ($\approx 10 \% Rh$) knitted gauzes catalyst and favourable reaction conditions (900 °C - 5 bar - excess \dioxygen) allowed a 98 \% yield to be achieved \parencite{Handforth1934, Heck1982}.
+The reaction pathways has been proven to follow a step-by-step decomposition of ammonia on the catalyst surface by stripping the hydrogen atoms of adsorbed ammonia by dissociated surface oxygen atoms, which confirms the existence of a heterogenous catalytic process \parencite{Bradley1995,PEREZRAMIREZ2004}.
+The final pathway towards the production of \nitrogen, \nitrousoxide or \nitricoxide depends on the oxygen density and binding on the surface.
+However the exact mechanism of action is not yet exactly understood.
+The role of metal-oxides has been underlined by several studies, after a few hours of catalytic reaction, the catalyst undergoes an \textit{activation process} which leads to an increase selectivity towards \nitricoxide while the gauzes undergo a transformation towards a roughened surface with the presence of \ce{PtO_2} and \ce{Rh_2O_3}.
+The rough surface has an increased area compared to the smooth surface and is responsible for the formation of metallic oxides in step and pits, \ce{PtO_2} increases the reaction rate while \ce{Rh_2O_3} leads towards the deactivation of the catalyst.
+The volatile platinum oxide is considered to be primary responsible for mass losses and the progressive deactivation of the catalyst due to the ever increasing presence of \ce{Rh_2O_3} \parencite{McCabe1986}.
+
+
+\begin{align}
+    \label{eq:Stage2}
+    2 \nitricoxide (g) + \dioxygen (g) & \rightarrow \nitrogendioxide (g) \\
+    3 \nitrogendioxide (g) + \water (l) & \rightarrow 2\nitricacid (aq) + \nitricoxide (g)
+\end{align}
+
+\begin{align}
+    \label{eq:Stage3}
+    \nitricacid + \ammonia & \rightarrow \ammoniumnitrate
+\end{align}
+
+Nevertheless, it can also be interresting to be able to remove \ammonia, a colourless gas with a pungent odour, from the atmosphere since it irritates the eyes, nose, throat, and respiratory tract if inhaled in small amounts due to its corrosive nature and is poisonous in large quantities.
+It also pollutes and contributes to the eutrophication and acidification of terrestrial and aquatic ecosystems (cite), and forms secondary particulate matter (PM2.5) when combined with other pollutants in the atmosphere (cite).
+In that case, the reaction must be tuned towards the production of \nitrogen which is the only non polluant and toxic gas.
+
 Today, the ammonia oxidation is an essential catalytic reaction used in the production of artificial fertilizers and in environmental applications.
 In both cases, particular focus is on two products of the reaction, namely, \nitricoxide and \nitrogen.
 The selectivity toward either one is dictated by reaction parameters, that is, by temperature, \ammonia and \dioxygen partial pressures, and the type of catalyst.
 
-\begin{align}
-    \label{eq:AmmoniaOxidation1}
-    4 \ammonia + 3 \dioxygen & \rightarrow 6 \water + 2 \nitrogen \\
-    \label{eq:AmmoniaOxidation2}
-    4 \ammonia + 4 \dioxygen & \rightarrow 6 \water + 2 \nitrousoxide \\
-    \label{eq:AmmoniaOxidation3}
-    4 \ammonia + 5 \dioxygen & \rightarrow 6 \water + 4 \nitricoxide
-\end{align}
+Excessive nitrogen can cause environmental issues.
+The most important contribution to the nitrous oxide in the atmosphere comes from growing crops using nitrogen-based fertilizers (fig. \ref{fig:PieGreenhouseNO2}).
+Nitrogen-based fertilizers and other human activities can lead to nitrogen runoff into water bodies, contributing to eutrophication (excessive growth of algae) and causing harm to aquatic ecosystems.
+Moreover, approximately half of the production of ammonia is lost to the environment \parencite{ERISMAN2007}
 
-The reaction between oxygen and ammonia can be described by three stochiometric equations that, depending on the ratio between \ammonia and \dioxygen, have different products.
-The first equation (eq. \ref{eq:AmmoniaOxidation1}) yields nitrogen (\nitrogen), a gas that constitutes 70\% of the earth's atmosphere.
-
-The second equation (eq. \ref{eq:AmmoniaOxidation2}) yields nitrous oxide (\nitrousoxide), a powerful greenhouse effect gas.
-For an equal amount of \nitrousoxide and \carbondioxide, the amount of \nitrousoxide will trap 298 (298 Ceq) times more heat than the amount of \carbondioxide over the next 100 years \parencite{MITCLIMATE}.
-Nitrous oxide is also famous for being the laughing gas, which in reality only constitutes a small amount of its utilisation, the most important contribution to the nitrous oxide in the atmosphere comes from growing crops using nitrogen-based fertilizers.
+Excessive use of fertilizers can contribute to pollution, and one of the consequences is the formation of nitrous oxide (N2O), a potent greenhouse gas. Fertilizers can be either ammonium- or nitrate-based, and when plants don't fully absorb all the nutrients, a series of microbe-mediated transformations occur. These processes lead to the release of nitrogen back into the atmosphere, primarily as nitrogen gas (N2) and, to a lesser extent, as N2O. Nitrous oxide is known for its strong impact on climate change as a greenhouse gas.
 
 \begin{figure}[!htb]
     \centering
@@ -79,20 +123,33 @@ Nitrous oxide is also famous for being the laughing gas, which in reality only c
     \label{fig:PieGreenhouseNO2}
 \end{figure}
 
-The third equation (eq. \ref{eq:AmmoniaOxidation3}) yields nitric oxide (\nitricoxide), which is the main interest for the future production of nitrogen-based fertilizers.
-Nitric oxide is a poisonous and colorless gas
+\begin{table}[]
+\centering
+\resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}l|l|lll|l|l|ll@{}}
+    \toprule
+    Formula & \ammonia & \nitrogen & \nitrousoxide & \nitricoxide & \nitrogendioxide & \nitricacid & \ammoniumnitrate & \urea \\
+    \midrule
+    Name & Ammonia & Nitrogen & \begin{tabular}[c]{@{}l@{}}Nitrous oxide,\\ Laughing gas\end{tabular} & \begin{tabular}[c]{@{}l@{}}Nitrogen oxide,\\ Nitric oxide\\ Nitrogen monoxide\end{tabular} & Nitrogen dioxide & Nitric acid & \begin{tabular}[c]{@{}l@{}}Ammonium\\ nitrate\end{tabular} & Urea \\
+    Origin & \begin{tabular}[c]{@{}l@{}}Haber-Bosch\\ process\end{tabular} & \begin{tabular}[c]{@{}l@{}}Naturally present\\ in the atmosphere,\\ Ammonia \\ oxidation,\\ Selective catalytic\\ reaction (SCR)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Ammonia \\ oxidation,\\ Emissions from\\ nitrogen-based\\ fertilizers\end{tabular} & \begin{tabular}[c]{@{}l@{}}Ammonia oxidation,\\ Anthropogenic sources \\ (combustion process, \\ industry, agriculture, ...)\\ Naturally produced \\ from lightning or\\ volcanoes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Ostwald process (step 1)\\ Anthropogenic sources \\ (combustion process, \\ industry, agriculture, ...)\\ Naturally produced \\ from lightning or \\ volcanoes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Ostwald process\\ (step 2)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Nitric acid\\ neutralization \\ with ammonia\end{tabular} & Ammonia \\
+    Major use & \begin{tabular}[c]{@{}l@{}}Ostwald process\\ (fertilizers),\\ Direct use in soil,\\ Fuel,\\ Hydrogen \\ carrier,\\ Cooling in liquid\\  form\end{tabular} & \begin{tabular}[c]{@{}l@{}}Ammonia \\ production\end{tabular} & \begin{tabular}[c]{@{}l@{}}Medicine,\\ Propellant\end{tabular} & Production of nitric acid & Production of nitric acid & \begin{tabular}[c]{@{}l@{}}Fertilizer production,\\ Nitration (explosives,\\ dyes, ...),\\ Propellant,\\ Etching\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fertilizing \\ agent,\\ Explosives\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fertilizing \\ agent,\\ SCR to reduce\\ NOx into N2\end{tabular} \\
+    Toxicity & \begin{tabular}[c]{@{}l@{}}Dangerous for\\ the environment\\ Toxic, \\ Corrosive\end{tabular} & \begin{tabular}[c]{@{}l@{}}Asphyxiation by\\ displacing O2\end{tabular} & \begin{tabular}[c]{@{}l@{}}Anesthetic, \\ euphoric\end{tabular} & \begin{tabular}[c]{@{}l@{}}Oxidizing, Corrosive,\\ Toxic\end{tabular} & \begin{tabular}[c]{@{}l@{}}Oxidizing, Corrosive,\\ Toxic, Health hazard\end{tabular} & Oxidizing, Corrosive &  &  \\
+    Pollution & PM formation &  & \begin{tabular}[c]{@{}l@{}}Ozone\\ depletion\end{tabular} & \begin{tabular}[c]{@{}l@{}}Smog, acid rains, \\ ozone depletion,\\ Precursor to NO2 in\\ the atmosphere\end{tabular} & \begin{tabular}[c]{@{}l@{}}Smog, acid rains, \\ ozone formation\end{tabular} & \begin{tabular}[c]{@{}l@{}}Decomposes towards\\ NO2\end{tabular} & \begin{tabular}[c]{@{}l@{}}Decomposes \\ into NO2 when\\ used as fertilizer,\\ Eutrophication\end{tabular} & \begin{tabular}[c]{@{}l@{}}Decomposes \\ into NH3 when\\ used as fertilizer,\\ Eutrophication\end{tabular} \\
+    \begin{tabular}[c]{@{}l@{}}Greenhouse \\ effect\end{tabular} &  &  & \begin{tabular}[c]{@{}l@{}}Very important\\ (298 CO2 eq.)\end{tabular} &  &  &  & \begin{tabular}[c]{@{}l@{}}Nitrogen-based\\ fertilizer release\\ N2O in the \\ atmosphere\end{tabular} & \begin{tabular}[c]{@{}l@{}}Nitrogen-based\\ fertilizer release\\ N2O in the \\ atmosphere\end{tabular} \\ \bottomrule
+    \end{tabular}%
+    }
+    \caption{
+        Nitrogen based molecules that are involved in the oxidation of ammonia, the Haber-Bosch process, the Ostwald process or nitrogen-based fertilizers.
+        Information compiled from various sources\parencite{Thiemann2000, HARRISON2001, Baerns2005, Imbihl2007, Hatscher2008, Davidson2009, Resta2020a,Borodin2021,Pottbacker2022}
+    }
+    \label{tab:NitrogenGases}
+\end{table}
 
-\begin{align}
-    \label{eq:Stage2}
-    2 \nitricoxide + \dioxygen & \rightarrow \nitrogendioxide \\
-    3 \nitrogendioxide + \water & \rightarrow \nitricacid + \nitricoxide
-\end{align}
+\section{From industry to model catalysis}
 
-\begin{align}
-    \label{eq:Stage3}
-    \nitricacid + \ammonia & \rightarrow \ammoniumnitrate
-\end{align}
+"A long standing conundrum in the catalysis community emerged at the interface between surface science and heterogeneous catalysis, better known as the pressure and materials gap."
 
+Nature Catalysis editorial, 2018.
 
 The most efficient catalyst for the oxidation of ammonia is a Pt-Rh alloy.
 
@@ -117,12 +174,6 @@ has been well optimized in industry reaching up to 99\% efficiency towards the p
 
 Depending on the application of the ammonia oxidation, the catalytic reaction must be tuned towards a specific product.
 This \textit{selectivity} is controlled by the reaction temperature, pressure, the  reactant ratio, and the type of catalyst
-
-\section{From industry to model catalysis}
-
-"A long standing conundrum in the catalysis community emerged at the interface between surface science and heterogeneous catalysis, better known as the pressure and materials gap."
-
-Nature Catalysis editorial, 2018.
 
 
 However, there has been a gap between the size of the nanoparticles studied for heterogeneous catalysis by computer methods (a few nm - linked to computational limits) and the size of the particles studied with synchrotron techniques ($>100 nm$) for a simple reason which is that in both diffraction and spectroscopy techniques, the outcoming photon or electron flux is proportionnal to the sample volume (e.g. eq. \ref{eq:ScatteredIntensity}).

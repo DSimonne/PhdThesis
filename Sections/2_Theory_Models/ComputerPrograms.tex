@@ -163,7 +163,7 @@ Finally, it is possible to normalise the raw data by an intensity monitor, or co
 
 The diffracted intensity collected by the detector is proportional to the squared modulus of the structure factor $F(\vec{q})$ (Equations \ref{eq:ScatteredIntensity}-\ref{eq:DetectorIntensity}).
 To retrieve the phase from the diffracted intensity, \textit{PyNX} uses iterative algorithms (sec \ref{sec:BCDI}).
-New methods such as convolution neural networks (CNN) are under study and have started to show some encouraging results, but are not yet sufficiently robust, particularly in the case of strained particles \cite{cherukara_real-time_2018,chan_rapid_2021,Wu2021}.
+New methods such as convolution neural networks (CNN) are under study and have started to show some encouraging results, but are not yet sufficiently robust, particularly in the case of strained particles \cite{cherukara_real-time_2018,chan_rapid_2021,Wu2021a}.
 
 The parameters necessary to phase retrieval \parencite{fienup_phase_1982,fienup_reconstruction_1978,Marchesini2007,pynx2020operators} \textit{e.g.} the support threshold, the number of iterations for each algorithm, the object initialisation procedure (square, sphere, auto-correlation), and so on can be modified in the GUI (fig. \ref{fig:PRT}.
 Initial guesses are given for each parameter but must be refined by the user to optimize the results.

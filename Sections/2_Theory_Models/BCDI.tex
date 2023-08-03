@@ -164,7 +164,7 @@ Additional details can be found in \cite{Marchesini2003,Luke2005,Marchesini2007}
 Finally, a major recent improvement of the phase retrieval algorithm is the possibility to take into account the partial coherence of the beam together with the point-spread function of the detector by using the deconvolution Richardson-Lucy algorithm \parencite{Richardson1972, LucyAlgo1974, Fish1995, Clark2012}.
 The point-spread function (PSF) must first be approximated with a 3D Gaussian, Lorentzian or pseudo-voigt shape depending on the expected coherence of the beam and is refined during the last steps of the phase retrieval when the support is already well determined, to avoid any divergence from simultaneously having to refine both the support and the PSF.
 
-Moreover, new methods such as convolution neural networks (CNN) are under study and have started to show some encouraging results, but are not yet sufficiently robust, particularly in the case of strained particles \parencite{cherukara_real-time_2018,chan_rapid_2021,Wu2021}.
+Moreover, new methods such as convolution neural networks (CNN) are under study and have started to show some encouraging results, but are not yet sufficiently robust, particularly in the case of strained particles \parencite{cherukara_real-time_2018,chan_rapid_2021,Wu2021a}.
 
 \subsection{Resolution}
 
@@ -221,7 +221,7 @@ Guidelines on how to select this threshold are given in \cite{Carnis2019_scienti
    \label{fig:histo}
 \end{figure}
 
-Once the threshold for the iso-surface is selected, it is possible to visualize a contour of the object with specialized solutions such as \textit{Paraview} (\cite{ahrens2005paraview} - fig. \ref{fig:facets_paraview}) or \textit{Gwaihir} (\cite{Simonne2022} - fig. \ref{fig:3D_object}).
+Once the threshold for the iso-surface is selected, it is possible to visualize a contour of the object with specialized solutions such as \textit{Paraview} (\cite{Ahrens2001} - fig. \ref{fig:facets_paraview}) or \textit{Gwaihir} (\cite{Simonne2022} - fig. \ref{fig:3D_object}).
 Crystallographic facets can be identified on the surface of the reconstructed object when studying faceted objects with a highly coherent beam \parencite{richard_crystallographic_2018}, allowing in-depth studies of facet dependent strain and displacement.
 As described in sec. \ref{sec:Catalysis}, lattice strain and displacement are key factors in fields such as heterogeneous catalysis \parencite{ulvestad_situ_2016,kim_active_2018,fernandez_situ_2019,Passos2020,Carnis2021} or electrochemistry \parencite{vicente_bragg_2021}.
 
