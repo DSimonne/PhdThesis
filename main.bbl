@@ -486,9 +486,6 @@
       \verb{doi}
       \verb 10.1016/j.jcat.2005.03.002
       \endverb
-      \verb{file}
-      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Baerns et al. - 2005 - Bridging the pressure and material gap in the catalytic ammonia oxidation Structural and catalytic properties of.pdf:pdf
-      \endverb
       \keyw{Ammonia oxidation,Microstructured reactor,N2O,NH3,Platinum,SEM,Surface restructuring of Pt catalysts,TAP reactor,UHV reactor}
     \endentry
     \entry{Baker2016}{article}{}
@@ -1364,6 +1361,55 @@
       \field{journaltitle}{IEEE}
       \field{title}{Deep learning for analysing synchrotron data streams}
       \field{year}{2016}
+    \endentry
+    \entry{Bradley1995}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0e6e10476510cf270fd24d2aa7e86c6e}{%
+           family={Bradley},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b64c8e66abdc509210b69db6b0a5d184}{%
+           family={Hopkinson},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=860fb2bd57c0e833b34685c49186ee98}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{e8c4c0c016138566243f08ee11af998c}
+      \strng{fullhash}{6bb7013c774fe9ae0fcbeb7cc3bbe78c}
+      \strng{bibnamehash}{6bb7013c774fe9ae0fcbeb7cc3bbe78c}
+      \strng{authorbibnamehash}{6bb7013c774fe9ae0fcbeb7cc3bbe78c}
+      \strng{authornamehash}{e8c4c0c016138566243f08ee11af998c}
+      \strng{authorfullhash}{6bb7013c774fe9ae0fcbeb7cc3bbe78c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-3654}
+      \field{journaltitle}{The Journal of Physical Chemistry}
+      \field{month}{11}
+      \field{number}{46}
+      \field{title}{Control of a Biphasic Surface Reaction by Oxygen Coverage: The Catalytic Oxidation of Ammonia over Pt{\{}100{\}}}
+      \field{volume}{99}
+      \field{year}{1995}
+      \field{pages}{17032\bibrangedash 17042}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1021/j100046a032
+      \endverb
     \endentry
     \entry{catal12101134}{article}{}
       \name{author}{4}{}{%
@@ -2820,7 +2866,7 @@
       \field{abstract}{Atmospheric nitrous oxide concentrations have been increasing since the industrial revolution and currently account for 6{\%} of total anthropogenic radiative forcing. Microbial production in soils is the dominant nitrous oxide source; this has increased with increasing use of nitrogen fertilizers. However, fertilizer use alone cannot account for the historical trends of atmospheric concentrations of nitrous oxide. Here, I analyse atmospheric concentrations, industrial sources of nitrous oxide, and fertilizer and manure production since 1860. Before 1960, agricultural expansion, including livestock production, may have caused globally significant mining of soil nitrogen, fuelling a steady increase in atmospheric nitrous oxide. After 1960, the rate of the increase rose, due to accelerating use of synthetic nitrogen fertilizers. Using a regression model, I show that 2.0{\%} of manure nitrogen and 2.5{\%} of fertilizer nitrogen was converted to nitrous oxide between 1860 and 2005; these percentage contributions explain the entire pattern of increasing nitrous oxide concentrations over this period. Consideration of processes that re-concentrate soil nitrogen, such as manure production by livestock, improved `hind-casting' of nitrous oxide emissions. As animal protein consumption in human diets increases globally, management of manure will be an important component of future efforts to reduce anthropogenic nitrous oxide sources.}
       \field{issn}{1752-0908}
       \field{journaltitle}{Nature Geoscience}
-      \field{month}{9}
+      \field{month}{09}
       \field{number}{9}
       \field{title}{The contribution of manure and fertilizer nitrogen to atmospheric nitrous oxide since 1860}
       \field{volume}{2}
@@ -5084,6 +5130,107 @@
       \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Hammer, N{\o}rskov - 2000 - Theoretical surface science and catalysis—calculations and concepts.pdf:pdf
       \endverb
     \endentry
+    \entry{Handforth1934}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ab781c803d8c10a3e870e0c92c2a0c2a}{%
+           family={Handforth},
+           familyi={H\bibinitperiod},
+           given={S.\bibnamedelimi L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=976b6fe41dc94836f79bf58f3293a9b5}{%
+           family={Tilley},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{1cb25586d411b3faeb0ac7ad482b6598}
+      \strng{fullhash}{1cb25586d411b3faeb0ac7ad482b6598}
+      \strng{bibnamehash}{1cb25586d411b3faeb0ac7ad482b6598}
+      \strng{authorbibnamehash}{1cb25586d411b3faeb0ac7ad482b6598}
+      \strng{authornamehash}{1cb25586d411b3faeb0ac7ad482b6598}
+      \strng{authorfullhash}{1cb25586d411b3faeb0ac7ad482b6598}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0019-7866}
+      \field{journaltitle}{Industrial {\&} Engineering Chemistry}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Catalysts for Oxidation of Ammonia to Oxides of Nitrogen}
+      \field{volume}{26}
+      \field{year}{1934}
+      \field{pages}{1287\bibrangedash 1292}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1021/ie50300a016
+      \endverb
+    \endentry
+    \entry{HANNEVOLD2005}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ae3149b161b341cc7bfbc767fd439409}{%
+           family={Hannevold},
+           familyi={H\bibinitperiod},
+           given={Lenka},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aed99fafdd429490e04622555dfa09e0}{%
+           family={Nilsen},
+           familyi={N\bibinitperiod},
+           given={Ola},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40678e6096d998ebd18ae5d21f45508e}{%
+           family={Kjekshus},
+           familyi={K\bibinitperiod},
+           given={Arne},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7756771fc3aa2826641cbd4343aaf53}{%
+           family={Fjellvåg},
+           familyi={F\bibinitperiod},
+           given={Helmer},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{530ac1daa01ade4bfb08e835b35be562}
+      \strng{fullhash}{92b2ccbe962748ffde87d1e1ef2b9e69}
+      \strng{bibnamehash}{530ac1daa01ade4bfb08e835b35be562}
+      \strng{authorbibnamehash}{530ac1daa01ade4bfb08e835b35be562}
+      \strng{authornamehash}{530ac1daa01ade4bfb08e835b35be562}
+      \strng{authorfullhash}{92b2ccbe962748ffde87d1e1ef2b9e69}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0926-860X}
+      \field{journaltitle}{Applied Catalysis A: General}
+      \field{number}{1}
+      \field{title}{Reconstruction of platinum–rhodium catalysts during oxidation of ammonia}
+      \field{volume}{284}
+      \field{year}{2005}
+      \field{pages}{163\bibrangedash 176}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.apcata.2005.01.033
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0926860X05000669
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0926860X05000669
+      \endverb
+      \keyw{Platinum–rhodium catalyst reconstruction,Ammonia oxidation,Catalytic etching,“Cauliflower”-shaped excrescences}
+    \endentry
     \entry{Harder2007}{article}{}
       \name{author}{5}{}{%
         {{un=2,uniquepart=given,hash=bb97a112f61add4b5b941d11347f9a84}{%
@@ -5289,6 +5436,61 @@
       \verb https://doi.org/10.1002/9783527610044.hetcat0130
       \endverb
       \keyw{ammonia oxidation,reaction mechanism,platinum,rhodium,palladium,gauzes,reaction engineering}
+    \endentry
+    \entry{Heck1982}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d9404421269e77e2bba4b67aaec74a42}{%
+           family={Heck},
+           familyi={H\bibinitperiod},
+           given={Ronald\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=123a1d446d492c091a5498c5dad48fd6}{%
+           family={Bonacci},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f35122995dcb829c537781a6ee50aba}{%
+           family={Hatfield},
+           familyi={H\bibinitperiod},
+           given={W.\bibnamedelimi Robert},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3970d9a137e0ecc9a6aff0a2d5fccd5e}{%
+           family={Hsiung},
+           familyi={H\bibinitperiod},
+           given={Thomas\bibnamedelima H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{8c88178c71176f2bbf7cc233c421e0f9}
+      \strng{fullhash}{583d5e6495a9a6ff76d1252fafc8f2f4}
+      \strng{bibnamehash}{8c88178c71176f2bbf7cc233c421e0f9}
+      \strng{authorbibnamehash}{8c88178c71176f2bbf7cc233c421e0f9}
+      \strng{authornamehash}{8c88178c71176f2bbf7cc233c421e0f9}
+      \strng{authorfullhash}{583d5e6495a9a6ff76d1252fafc8f2f4}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0196-4305}
+      \field{journaltitle}{Industrial {\&} Engineering Chemistry Process Design and Development}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{A new research pilot plant unit for ammonia oxidation processes and some gauze data comparisons for nitric acid process}
+      \field{volume}{21}
+      \field{year}{1982}
+      \field{pages}{73\bibrangedash 79}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1021/i200016a014
+      \endverb
     \endentry
     \entry{van_heel_fourier_2005}{article}{}
       \name{author}{2}{}{%
@@ -7960,6 +8162,55 @@
       \verb 10.1016/j.jcat.2020.07.030
       \endverb
     \endentry
+    \entry{McCabe1986}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6d2597d340b4fe3c880636976f88eec0}{%
+           family={McCabe},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd70b91d27c82d1d4da7310feb4383ae}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi D.\bibnamedelimi W.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b34070b95106a2056b5884c6948114b6}{%
+           family={Pratt},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6215d704610dc83d5f00aa72c7d95209}
+      \strng{fullhash}{37ffea5ef1413ee8ea65780440ea10c4}
+      \strng{bibnamehash}{37ffea5ef1413ee8ea65780440ea10c4}
+      \strng{authorbibnamehash}{37ffea5ef1413ee8ea65780440ea10c4}
+      \strng{authornamehash}{6215d704610dc83d5f00aa72c7d95209}
+      \strng{authorfullhash}{37ffea5ef1413ee8ea65780440ea10c4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The surface reconstruction on rhodium-platinum catalyst gauzes has been examined using scanning electron microscope techniques. The nucleation and growth of the large cage-like features which develop on the gauze surfaces during operation in the ammonia oxidation process have been studied in detail. It is concluded that a vapour phase mechanism involving transport of platinum oxide is responsible for the observed reaction, and the reason why this process operates only over a limited range of temperature and pressure is explained. Some comments are also made on the related reconstruction observed on gauzes used during the production of hydrogen cyanide by the Andrussow process.}
+      \field{issn}{0032-1400}
+      \field{journaltitle}{Platinum Metals Review}
+      \field{number}{2}
+      \field{title}{The Mechanism of Reconstruction of Rhodium-Platinum Catalyst Gauzes}
+      \field{volume}{30}
+      \field{year}{1986}
+      \field{pages}{54\bibrangedash 62}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb https://www.ingentaconnect.com/content/matthey/pmr/1986/00000030/00000002/art00001
+      \endverb
+      \verb{url}
+      \verb https://www.ingentaconnect.com/content/matthey/pmr/1986/00000030/00000002/art00001
+      \endverb
+    \endentry
     \entry{McKinney2017}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=27ca77940a5e8c07c5d89d0f3fb11d75}{%
@@ -8275,6 +8526,23 @@
       \verb 10.1145/3219104.3219162
       \endverb
       \keyw{High performance computing,Jupyter,interfaces,management}
+    \endentry
+    \entry{NatureEditorial2018}{article}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{issue}{November}
+      \field{journaltitle}{Nature Catalysis}
+      \field{title}{Mind the gap}
+      \field{volume}{1}
+      \field{year}{2018}
+      \field{pages}{807\bibrangedash 808}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1038/s41929-018-0188-0
+      \endverb
     \endentry
     \entry{Minkevich2007}{article}{}
       \name{author}{6}{}{%
@@ -9109,6 +9377,65 @@
       \verb 10.1109/MCSE.2007.53
       \endverb
       \keyw{data visualisation,natural sciences computing,obje}
+    \endentry
+    \entry{PEREZRAMIREZ2004}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=432b47002e3fa885ca914e5a630cb525}{%
+           family={Pérez-Ramírez},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52c97ffe23dc36200f25a0ddd64a6ee6}{%
+           family={Kondratenko},
+           familyi={K\bibinitperiod},
+           given={E.V.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=29d05f1c1705c89ef29343747f478e04}{%
+           family={Kondratenko},
+           familyi={K\bibinitperiod},
+           given={V.A.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa4fd0c8e8c81558285e82ecf7e50b24}{%
+           family={Baerns},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f41738947cd5a85f063e1f2b6ca7e355}
+      \strng{fullhash}{e7c9f879d979941e1cfd764894c9bd1d}
+      \strng{bibnamehash}{f41738947cd5a85f063e1f2b6ca7e355}
+      \strng{authorbibnamehash}{f41738947cd5a85f063e1f2b6ca7e355}
+      \strng{authornamehash}{f41738947cd5a85f063e1f2b6ca7e355}
+      \strng{authorfullhash}{e7c9f879d979941e1cfd764894c9bd1d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Temporal Analysis of Products (TAP) reactor has been applied to study selectivity-directing factors of the high-temperature NH3 oxidation to NO, N2O, and N2 over commercial knitted Pt and woven Pt–Rh alloy gauzes at 973–1173 K. The unique features of the TAP technique enable investigation of the mechanism of this highly exothermic process under isothermal conditions over catalysts of industrial relevance, and the applicaton of much higher peak pressures as compared to surface science techniques in ultrahigh vacuum. This article focuses on the investigation of primary interactions of NH3 and O2. The overall reaction mechanism was found to be very similar over both Pt and Pt–Rh gauzes. NH3 activation is favored over O2-pretreated gauzes, while the as-received gauzes are virtually inactive for NH3 decomposition to N2. The selectivity to NO primarily depends on the concentration of adsorbed oxygen species. A high ratio of adsorbed O/NHx species favors NO formation, confirming that undesirable secondary reaction paths are minimized at a high O coverage. Besides, our results suggest that the nature of oxygen species influences the distribution of NO and N2 in the product. It is put forward that weakly bounded oxygen species lead to a high NO selectivity, while strongly bounded oxidize NH3 into N2. The interaction of NH3 and NO also contributes to N2 formation, while direct NO decomposition is practically suppressed over the oxidized gauzes. Application of isotopically labeled 15NH3 and high peak pressures were essential for detecting N2O formation during ammonia oxidation. Analysis of secondary interactions of NH3 and NO in the authors' next project is required to further unravel the origins of reaction by-products like N2O and N2.}
+      \field{issn}{0021-9517}
+      \field{journaltitle}{Journal of Catalysis}
+      \field{number}{1}
+      \field{title}{Selectivity-directing factors of ammonia oxidation over PGM gauzes in the Temporal Analysis of Products reactor: Primary interactions of NH3 and O2}
+      \field{volume}{227}
+      \field{year}{2004}
+      \field{pages}{90\bibrangedash 100}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jcat.2004.06.023
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0021951704003276
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0021951704003276
+      \endverb
+      \keyw{NH oxidation,Platinum,Rhodium,Gauze,Selectivity,NO,N,NO,Mechanism,Transient experiments,TAP reactor,Isotopes}
     \endentry
     \entry{thesismark}{thesis}{}
       \name{author}{1}{}{%

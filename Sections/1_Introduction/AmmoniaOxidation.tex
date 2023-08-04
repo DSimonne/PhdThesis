@@ -1,13 +1,6 @@
-% \textcolor{red}{(The Introduction chapter should contain background information as appropriate, plus definitions of all special and general terms. Your topic should be: clearly stated and defined; have a clear overall purpose; and have clear, relevant and coherent aims and objectives. It is also informative to give a brief description of the contents of the remaining chapters of the thesis. This alerts the reader and prepares them for the rest of the thesis.)}
-
-The use of catalysts has several advantages, including faster, selective, and more energy-efficient chemical reactions, enabling them to direct reactions towards producing higher amounts of the desired product while reducing unwanted byproducts \parencite{Schlogl2015}.
+The use of catalysts has several advantages, including faster, selective, and more energy-efficient chemical reactions, directes towards producing higher amounts of the desired product while reducing unwanted byproducts \parencite{Schlogl2015}.
 Over the years, scientists have developed specialized catalysts for various real-world applications, today 90\% of chemical processes involve catalysts in at least one of their steps \parencite{WEINER1998915, DeVries2012}.
 Notable advancements in catalysis have led to the production of biodegradable plastics, novel pharmaceuticals, and eco-friendly fuels and fertilizers \parencite{FECHETE20122}.
-
-Several new challenges have emerged in the field of catalysis related to improving efficiency, reducing environmental impact, and developing sustainable processes.
-First, environmental challenges concern minimizing and/or managing by-products, reducing contamination in effluents/wastewaters, and using sustainable sources of raw materials \parencite{LUDWIG2017313, Lange2021} and energy supplies.
-Secondly, economical challenges which imply using cheaper, readily available raw materials, increased productivity, and decreased lag-time between discovery to commercialization \parencite{Keisuke2019, Gunay2021}.
-For example, recent studies suggest that alternative, more economical catalysts, such as non-noble metals \parencite{Zhong2021} and other derived metal-based compounds, need to be tested as possible substitutes for the most frequently used noble metals, which are very efficient but expensive.
 
 \begin{figure}[!htb]
     \centering
@@ -18,21 +11,30 @@ For example, recent studies suggest that alternative, more economical catalysts,
     \label{fig:NO2Paris}
 \end{figure}
 
+Several new challenges have emerged in the field of catalysis related to improving efficiency, reducing environmental impact, and developing sustainable processes.
+First, environmental challenges concern minimizing and/or managing by-products, reducing contamination in effluents/wastewaters, and using sustainable sources of raw materials \parencite{LUDWIG2017313, Lange2021} and energy supplies.
+Secondly, economical challenges which imply using cheaper, readily available raw materials, increased productivity, and decreased lag-time between discovery to commercialization \parencite{Keisuke2019, Gunay2021}.
+For example, recent studies suggest that alternative, more economical catalysts, such as non-noble metals \parencite{Zhong2021} and other derived metal-based compounds, need to be tested as possible substitutes for the most frequently used noble metals, which are very efficient but expensive.
+
 Catalysis also has a role to play to combat pollution and create cleaner energy with for example the development of efficient water-splitting technologies \parencite{AHMAD2015599}, and enhancing the use of biomass and other energy vectors such as ammonia \parencite{Fang2022}.
 Finally, challenges also arise in automotive exhaust where catalysts participate in the reduction of the emissions of toxis gases and particles \parencite{WHOAirPollution, GANDHI2003433}.
-Some of the major air pollutants such as nitrogen oxides, ($NO_x$), and particulate matter (PM) are emitted by road traffic (65\% of $NO_x$, $\approx 35\%$ of PM), mainly by diesel vehicles, and directly inhaled by nearby major city inhanbitants.
+Some of the major air pollutants such as nitrogen oxides, ($NO_x$), and particulate matter (PM) are emitted by road traffic (65\% of $NO_x$, $\approx 35\%$ of PM), mainly by diesel vehicles, and directly inhaled by nearby major city inhabitants.
 To set a striking example, in Paris in 2018, 700 000 inhabitants were exposed to $NO_2$ concentrations exceeding the regulations (fig. \ref{fig:NO2Paris}), 60 000 inhabitants for PM$_{10}$, and all Parisians were concerned by exceeding the WHO recommendations for PM$_{2.5}$ \parencite{AirParis}.
-Air quality is the main environmental concern of Ile-de-France residents (65\% of total mentions) ahead of climate change (63\%) and food (38\%) \parencite{AirParis}.
+Air quality is the main environmental concern of Ile-de-France residents (65\% of total mentions) ahead of climate change (63\%) and food (38\% - \cite{AirParis}).
 
 \section{The oxidation of Ammonia}
+
+\subsection{The Haber-Bosch and Ostwald processes}
+
+\epigraph{Today, about 50\% of the worlds population relies on nitrogen-based fertilizer to produce the food necessary to their alimentation.}%{\textit{Nature Catalysis editorial, \cite*{NatureEditorial2018}.}}
 
 The story of ammonia begins in the early 20th century with the discovery of the Ostwald process in 1902 that permitted the synthesis of fertilizers from ammonia.
 Wilhelm Ostwald later received the Nobel price in 1909 \textit{"in recognition of his work on catalysis and for his investigations into the fundamental principles governing chemical equilibria and rates of reaction"}.
 Seven years later, in 1909, Fritz Haber designed a process for the synthesis of ammonia which was later improved by Carl Bosch.
 It is today known as the Haber-Bosch process and is at the origin of the mass production of ammonia using metallic catalysts.
-First Haber received the Nobel prize in 1918 \textit{"for the synthesis of ammonia from its elements"} \parencite{Alexander1920} and Carl Bosch in 1931 \textit{“in recognition of their contributions to the invention and development of chemical high pressure methods”}.
+Fritz Haber received the Nobel prize in 1918 \textit{"for the synthesis of ammonia from its elements"} \parencite{Alexander1920} and Carl Bosch in 1931 \textit{“in recognition of their contributions to the invention and development of chemical high pressure methods”}.
 
-\begin{figure}
+\begin{figure}[!htb]
 \centering
     \begin{tikzpicture}
         \node (image) [anchor=south west, inner sep=0pt] {\includegraphics[width=0.95\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/worldindata/world-population-with-and-without-fertilizer.png}};
@@ -51,7 +53,7 @@ First Haber received the Nobel prize in 1918 \textit{"for the synthesis of ammon
     \label{fig:FertilizerWID}
 \end{figure}
 
-The oxidation of ammonia can be described by three stochiometric equations that, depending on the stoechiometric ratio between \ammonia and \dioxygen, have different products.
+The oxidation of ammonia can be described by three equations that, depending on the stoechiometric ratio between \ammonia and \dioxygen, have different products.
 
 \begin{align}
     \label{eq:AmmoniaOxidationNitrogen}
@@ -64,8 +66,10 @@ The oxidation of ammonia can be described by three stochiometric equations that,
 
 The first equation (eq. \ref{eq:AmmoniaOxidationNitrogen}) yields nitrogen (\nitrogen), a naturally occuring gas that does not pollute the environment nor shows any toxic behavious towards humans (tab. \ref{tab:NitrogenGases}).
 The second equation (eq. \ref{eq:AmmoniaOxidationNitrousOxide}) yields nitrous oxide (\nitrousoxide), a powerful greenhouse effect gas (tab. \ref{tab:NitrogenGases}).
-For an equal amount of \nitrousoxide and \carbondioxide, the amount of \nitrousoxide will trap 298 (298 Ceq) times more heat than the amount of \carbondioxide over the next 100 years \parencite{MITCLIMATE}.
-The third equation (eq. \ref{eq:AmmoniaOxidationNitricOxide}) yields nitric oxide, also called nitrogen monoxide (\nitricoxide), which is the main interest for the production of nitrogen-based fertilizers (tab. \ref{tab:NitrogenGases}) via the Ostwald process.
+For an equal amount of \nitrousoxide and \carbondioxide, the amount of \nitrousoxide will trap 298 times (298 Ceq) more heat than the amount of \carbondioxide over the next 100 years \parencite{MITCLIMATE}, responsible for 6.2\% of the total U.S.A. greenhouse gases emissions in 2021 (fig. \ref{fig:PieGreenhouseNO2}).
+The third equation (eq. \ref{eq:AmmoniaOxidationNitricOxide}) yields nitric oxide, also called nitrogen monoxide (\nitricoxide), which is the main desired product for the subsequent production of nitrogen-based fertilizers (tab. \ref{tab:NitrogenGases}) via the synthetization of nitric acid from nitric oxide with the Ostwald process.
+
+Known side reactions to the oxidation of ammonia are first the recombination of nitric oxide with unreacted ammonia that leads to the production of water and nitrogen (eq. \ref{eq:SideReactions1}), and secondly the thermal decomposition of nitric oxide (eq. \ref{eq:SideReactions2}), that both lower the total yield of the reaction when aiming at the production of nitric oxide.
 
 \begin{align}
     \label{eq:SideReactions1}
@@ -74,56 +78,64 @@ The third equation (eq. \ref{eq:AmmoniaOxidationNitricOxide}) yields nitric oxid
     2 \nitricoxide (g) & \rightarrow \nitrogen (g) + \dioxygen (g)
 \end{align}
 
-Known side reactions to the oxidation of ammonia are first the recombination of nitric oxide with unreacted ammonia that leads to the production of water and nitrogen (eq. \ref{eq:SideReactions1}), and secondly the thermal decomposition of nitric oxide (eq. \ref{eq:SideReactions2}), that both lower the total yield of the reaction when aiming at the production of nitric oxide.
-Reactions \ref{eq:AmmoniaOxidation1}, \ref{eq:AmmoniaOxidation2}, \ref{eq:AmmoniaOxidation3} and \ref{eq:SideReactions1} are strongly exothermic.
-At low temperature or in the absence of catalyst, the production if \nitrogen is favoured \parencite{Hatscher2008}.
+Reactions \ref{eq:AmmoniaOxidationNitrogen}, \ref{eq:AmmoniaOxidationNitrousOxide}, \ref{eq:AmmoniaOxidationNitricOxide} and \ref{eq:SideReactions1} are strongly exothermic, leading to a significant increase of the catalyst temperature during the reaction \parencite{Hatscher2008}.
 
-The second (eq. \ref{eq:Stage2}) and third (eq. \ref{eq:Stage2}) stages of the Ostwald process stem from \nitricoxide.
-It is therefore important to achieve important selectivity towards the production of \nitricoxide when aiming at the production of fertilizers.
-Since the 1930s, the presence of platinum-rhodium ($\approx 10 \% Rh$) knitted gauzes catalyst and favourable reaction conditions (900 °C - 5 bar - excess \dioxygen) allowed a 98 \% yield to be achieved \parencite{Handforth1934, Heck1982}.
+
+\subsection{The importance of heterogeneous catalysis}
+
+The second (eq. \ref{eq:Stage2}) and third (eq. \ref{eq:Stage3}) stages of the Ostwald process stem from the production of \nitricoxide via the first stage, \textit{i.e.} the oxidation of ammonia (eq. \ref{eq:AmmoniaOxidationNitricOxide}).
+
+\begin{align}
+    \label{eq:Stage2}
+    2 \nitricoxide (g) + \dioxygen (g) & \rightarrow \nitrogendioxide (g) \\
+    \label{eq:Stage3}
+    3 \nitrogendioxide (g) + \water (l) & \rightarrow 2\nitricacid (aq) + \nitricoxide (g)
+\end{align}
+
+Nitrogen dioxide (\nitrogendioxide) is produced from \nitricoxide and hydrolysed to nitric acid (\nitricacid), an important actor in multiple industrial process (tab. \ref{tab:NitrogenGases}), including fertlizers such as ammonium nitrate (eq. \ref{eq:AmmoniumNitrate}).
+
+\begin{align}
+    \label{eq:AmmoniumNitrate}
+    \nitricacid + \ammonia & \rightarrow \ammoniumnitrate
+\end{align}
+
+Hence, important selectivity towards the production of \nitricoxide must be achieved in the first stage when aiming at the production of fertilizers.
+However, at low temperature or in the absence of catalyst, the production of \nitrogen is favoured (eq. \ref{eq:AmmoniaOxidationNitrogen} - \cite{Hatscher2008}).
+
+Since the 1930s, the presence of a platinum-rhodium ($\approx 10 \% Rh$) knitted gauzes catalyst and favourable reaction conditions (e.g. 900°C - 5 bar - excess \dioxygen) allowed a 98 \nitricoxide \% yield to be achieved \parencite{Handforth1934, Heck1982}.
 The reaction pathways has been proven to follow a step-by-step decomposition of ammonia on the catalyst surface by stripping the hydrogen atoms of adsorbed ammonia by dissociated surface oxygen atoms, which confirms the existence of a heterogenous catalytic process \parencite{Bradley1995,PEREZRAMIREZ2004}.
 The final pathway towards the production of \nitrogen, \nitrousoxide or \nitricoxide depends on the oxygen density and binding on the surface.
+HAVE TO DETAIL MORE HERE
+
 However the exact mechanism of action is not yet exactly understood.
 The role of metal-oxides has been underlined by several studies, after a few hours of catalytic reaction, the catalyst undergoes an \textit{activation process} which leads to an increase selectivity towards \nitricoxide while the gauzes undergo a transformation towards a roughened surface with the presence of \ce{PtO_2} and \ce{Rh_2O_3}.
 The rough surface has an increased area compared to the smooth surface and is responsible for the formation of metallic oxides in step and pits, \ce{PtO_2} increases the reaction rate while \ce{Rh_2O_3} leads towards the deactivation of the catalyst.
 The volatile platinum oxide is considered to be primary responsible for mass losses and the progressive deactivation of the catalyst due to the ever increasing presence of \ce{Rh_2O_3} \parencite{McCabe1986}.
 
+\subsection{Environmental impact}
 
-\begin{align}
-    \label{eq:Stage2}
-    2 \nitricoxide (g) + \dioxygen (g) & \rightarrow \nitrogendioxide (g) \\
-    3 \nitrogendioxide (g) + \water (l) & \rightarrow 2\nitricacid (aq) + \nitricoxide (g)
-\end{align}
-
-\begin{align}
-    \label{eq:Stage3}
-    \nitricacid + \ammonia & \rightarrow \ammoniumnitrate
-\end{align}
-
-Nevertheless, it can also be interresting to be able to remove \ammonia, a colourless gas with a pungent odour, from the atmosphere since it irritates the eyes, nose, throat, and respiratory tract if inhaled in small amounts due to its corrosive nature and is poisonous in large quantities.
-It also pollutes and contributes to the eutrophication and acidification of terrestrial and aquatic ecosystems (cite), and forms secondary particulate matter (PM2.5) when combined with other pollutants in the atmosphere (cite).
-In that case, the reaction must be tuned towards the production of \nitrogen which is the only non polluant and toxic gas.
-
-Today, the ammonia oxidation is an essential catalytic reaction used in the production of artificial fertilizers and in environmental applications.
-In both cases, particular focus is on two products of the reaction, namely, \nitricoxide and \nitrogen.
-The selectivity toward either one is dictated by reaction parameters, that is, by temperature, \ammonia and \dioxygen partial pressures, and the type of catalyst.
-
-Excessive nitrogen can cause environmental issues.
-The most important contribution to the nitrous oxide in the atmosphere comes from growing crops using nitrogen-based fertilizers (fig. \ref{fig:PieGreenhouseNO2}).
-Nitrogen-based fertilizers and other human activities can lead to nitrogen runoff into water bodies, contributing to eutrophication (excessive growth of algae) and causing harm to aquatic ecosystems.
-Moreover, approximately half of the production of ammonia is lost to the environment \parencite{ERISMAN2007}
-
-Excessive use of fertilizers can contribute to pollution, and one of the consequences is the formation of nitrous oxide (N2O), a potent greenhouse gas. Fertilizers can be either ammonium- or nitrate-based, and when plants don't fully absorb all the nutrients, a series of microbe-mediated transformations occur. These processes lead to the release of nitrogen back into the atmosphere, primarily as nitrogen gas (N2) and, to a lesser extent, as N2O. Nitrous oxide is known for its strong impact on climate change as a greenhouse gas.
+If, as illustrated in fig. \ref{fig:FertilizerWID}, nitrogen-based fertilizers have permitted an industrial development of agriculture, they are also the most important contribution to nitrous oxide in the atmosphere from unused volumes of nutrients (fig. \ref{fig:PieGreenhouseNO2}).
+Fertilizers can be either ammonium- or nitrate-based, when plants don't fully absorb all the nutrients, a series of microbe-mediated transformations occur (CHECK).
+These processes lead to the release of nitrogen back into the atmosphere, primarily as nitrogen gas (\nitrogen) and, to a lesser extent, as \nitrousoxide.
+Moreover, nitrogen-based fertilizers and other human activities can lead to nitrogen runoff into water bodies, contributing to eutrophication (excessive growth of algae) and causing harm to aquatic ecosystems (tab. \ref{tab:NitrogenGases}).
+Approximately half of the production of ammonia is lost to the environment \parencite{ERISMAN2007}
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/ammonia/NO2pie.pdf}
-    \caption{Pie charts underlining the contribution of nitrogen-based fertilizers to the greenhouse gases in the USA.
+    \caption{Pie charts underlining the contribution of nitrogen-based fertilizers to the total U.S.A. greenhouse gases emissions in 2021.
     Adapted from \cite{EPAGreenhouseGases}.}
     \label{fig:PieGreenhouseNO2}
 \end{figure}
 
-\begin{table}[]
+Nevertheless, it can also be interresting to be able to remove \ammonia from the atmosphere, a colourless gas with a pungent odour, that irritates the eyes, nose, throat, and respiratory tract if inhaled in small amounts due to its corrosive nature and is poisonous in large quantities.
+Ammonia also pollutes and contributes to the eutrophication and acidification of terrestrial and aquatic ecosystems, and forms secondary particulate matter (PM2.5) when combined with other pollutants in the atmosphere (tab. \ref{tab:NitrogenGases}).
+In that case, the reaction must be tuned towards the production of \nitrogen which is the only non polluant and toxic gas.
+
+Finally, the important effect of nitrogen oxides (NOx, \nitricoxide and \nitrogendioxide) on the environment has brought forward the necessity to control their emissions, especially from the exhaust of diesel engines that are responsible for 65\% of their emissions.
+The selective catalytic reaction (SCR) with urea has proven to be effective and to remove
+
+\begin{table}[!htb]
 \centering
 \resizebox{\textwidth}{!}{%
     \begin{tabular}{@{}l|l|lll|l|l|ll@{}}
@@ -145,64 +157,59 @@ Excessive use of fertilizers can contribute to pollution, and one of the consequ
     \label{tab:NitrogenGases}
 \end{table}
 
+Today, the ammonia oxidation is an essential catalytic reaction used in the production of nitrogen-based fertilizers and in environmental applications.
+In both cases, particular focus is on two products of the reaction, namely, \nitricoxide and \nitrogen.
+Depending on the application of the ammonia oxidation, the catalytic reaction must be tuned towards a specific product, this \textit{selectivity} is controlled by the reaction temperature, pressure, the  reactant ratio, and the type of catalyst.
+To be able to drive the reaction, the impact of each parameter \textit{at relevant industrial conditions} on the product pressure must be studied.
+
 \section{From industry to model catalysis}
 
-"A long standing conundrum in the catalysis community emerged at the interface between surface science and heterogeneous catalysis, better known as the pressure and materials gap."
-
-Nature Catalysis editorial, 2018.
-
-The most efficient catalyst for the oxidation of ammonia is a Pt-Rh alloy.
-
-
-This reaction is considered as a classic example of a strongly exothermic, heterogeneous, catalytic reaction [4].
-Due to the very fast kinetics of oxidation reactions, a direct experimental investigation of several reaction steps is difficult at realistic conditions.
-
-nitrous oxide is a powerful oxidiser similar to molecular oxygen.
-
-Selectivity to nitrous oxide at low temperature was reported in the following order: $Pt > Pd > Ni > Fe > W > Ti $[6].
-
-N2O selectivity for us ?
-
-NH3 oxidation requires surface sites for the adsorption of two ammonia molecules and two oxygen atoms.
-
-Furthermore, the importance of availability of oxygen vacant sites near N-containing adspecies was demonstrated by the decrease of the reaction rate when a surface oxide was formed [31–33].
-Finally, adsorbed oxygen did not block the ammonia adsorption [12].
-All these facts led to the conclusion that a dual-site mechanism is operative.
-A similar conclusion on the reaction mechanism was made for ammonia oxidation on a supported ruthenium catalyst [34].
-
-has been well optimized in industry reaching up to 99\% efficiency towards the production of nitrous oxide,
-
-Depending on the application of the ammonia oxidation, the catalytic reaction must be tuned towards a specific product.
-This \textit{selectivity} is controlled by the reaction temperature, pressure, the  reactant ratio, and the type of catalyst
-
-
-However, there has been a gap between the size of the nanoparticles studied for heterogeneous catalysis by computer methods (a few nm - linked to computational limits) and the size of the particles studied with synchrotron techniques ($>100 nm$) for a simple reason which is that in both diffraction and spectroscopy techniques, the outcoming photon or electron flux is proportionnal to the sample volume (e.g. eq. \ref{eq:ScatteredIntensity}).
-
-In the frame of this thesis, the difference in activity between different crystalline facets for the oxidation of ammonia will be studied with different samples.
-BCDI allows the 3D exploration of a single faceted nanoparticle which comes with a compromise in the strain resolution, whereas SXRD yields information about specific facets since the samples are large monocrystals.
+\epigraph{"A long standing conundrum in the catalysis community emerged at the interface between surface science and heterogeneous catalysis, better known as the pressure and materials gap."}{\textit{Nature Catalysis editorial, \cite*{NatureEditorial2018}.}}
 
 \begin{table}[!htb]
     \centering
     \begin{tabular}{l|l|l|l}
     \toprule
-                & Pressure    & Material       &     Temperature \\
+                & Pressure    & Material                         &     Temperature \\
     \midrule
-    Industry {\color{DarkOrange}[[Insert references]]}  & 1-12 bar & Wires (diameter $\approx 80 \, \mu m$) & \textgreater 1000 K \\
+    Industry   & 1-12 bar     & Knitted gauzes wires             & 750 - 900°C \\
+               &              & (diameter $\approx 80 \, \mu m$) & \\
     \midrule
-    Literature {\color{DarkOrange}[[Insert references]]} & UHV, mbar & Single crystals & RT - 1000 K \\ \midrule
-    This study & Near ambient    & Single crystals  & $\approx$ 750 K \\
+    Literature & UHV, mbar    & Single crystals                  & RT - 900°C \\
+    \midrule
+    This study & Near ambient & Single crystals                  & RT - 450°C \\
                & pressure (0.5 bar)  & and nanoparticles & \\
     \bottomrule
     \end{tabular}
-    \caption{Material and pressure gap in heterogenous catalysis.}
-    \label{tab:gap}
+    \caption{
+        The difficulty in understanding the mechanisms at play during industrial reactions is highlighted with the example of the oxidation of ammonia using heterogenous catalysis.
+        Reproducing the same exact industrial reaction conditions \parencite{Hatscher2008} and sample can be difficult in a laboratory due to the nature of the probe, the sensitivity of the technique, and the design of reactor cells for synchrotrons.
+        This is the so-called material and pressure gap in heterogenous catalysis.
+    }
+    \label{tab:Gap}
 \end{table}
+
+The size of crystalline samples for x-ray studies is typically limited by the technique if not by the synthetization process.
+For Bragg coherent diffraction imaging (BCDI), the coherent lengths of the instrument, the need to sample the interfringes with the detector (inversely proportional to the crystal size until not visible anymore), and the need for the beam to fully iluminate the particle are most important (sec. \ref{sec:BCDI}).
+The advantage of BCDI is that the sub-micron-scale particles exhibit a various amount of active sites such as clear facets, edges, corners and defects.
+They are thus considered to be a good approximation of real catalysts (cite).
+Moreover, the particle can be imaged in three dimensions that allows the visalization and study of both the surface and bulk structure.
+
+For surface x-ray diffraction (SXRD) and x-ray photoelectron spectroscopy (XPS), the single-crystal sample is much larger ($\approx 1 cm$) and tends more towards a model sample than to real samples since it only exhibits a single facet on its surface.
+However, this specific shape allows an improved sensitivity to the single facet's surface structure compared to BCDI, by increasing its scattered signal (sec. \ref{sec:SXRD}).
+Following the same line of thought, if working at ambient pressure is not a problem with x-rays that have a long penetration depth, the electrons that escape the probed surface in XPS are quickly absorbed by the atmosphere and a large sample yields increased statistics.
+Nanoparticles are very well suited to BCDI and theoretical studies with dynamical field theory (DFT) or molecular dynamics (MD), limited by the current computationnal power, but are not easily measured experimentally for a simple reason which is that in both diffraction and spectroscopy techniques, the outcoming photon or electron flux is proportionnal to the sample volume (sec. \ref{eq:SXRD}).
+
+Most of the catalytic contribution of the single crystal can be considered to origin from its top surface, whereas in the case of BCDI, the sample is constituted of thousands of particles that all together contribute to the catalytic activity, despite only a few being imaged.
+
+In the frame of this thesis, the material and pressure gap will be lowered by operating at temperatures after the catalyst light-off at an almost industrial pressure.
+The difference in activity between different crystalline facets for the oxidation of ammonia will be studied with different samples.
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[height=4cm]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/pt_gazes.png}
-    \includegraphics[trim=0 100 0 75, clip, height=4cm]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/B7/B7_facets.png}
-    \includegraphics[height=4cm]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/sxrd_sample.png}
+    \includegraphics[height=3.5cm]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/pt_gazes.png}
+    \includegraphics[trim=0 100 0 75, clip, height=3.5cm]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/B7/B7_facets.png}
+    \includegraphics[height=3.5cm]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/sxrd_sample.png}
     \caption{Platinum gazes used in industry (left), Reconstructed phase of a Pt particle measured at SixS, its diameter is of about 300 nm (middle), Pt 111 single crystal used in SXRD and XPS experiments, its diameter is of about 8 mm (right).}
 \end{figure}
 
@@ -212,11 +219,11 @@ The oxidation of ammonia is a catalytic reaction that has had an extremely high 
 
 In this first chapter, the importance of the oxidation of ammonia has been underlined.
 It was shown that despite being a major catalytic process in a multi-billion industry, the exact mechanisms of action are not yet understood.
-If in the frame of this thesis, the focus will be set on the sole oxidation of ammonia that evidently, the goal is also to develop experimental methods that can speak to and attract the synchrotron neophyte to the study of heterogeneous catalysis with synchrotron radiation, together with efficient and reliable computer methods that allow good data reduction and analysis.
+If in the frame of this thesis, the focus will be set on the sole oxidation of ammonia, the goal is also to develop experimental methods that can speak to and attract the synchrotron neophyte to the study of heterogeneous catalysis with synchrotron radiation, together with efficient and reliable computer methods that allow good data reduction and analysis.
 
 Indeed, if it is of prime interest for a scientist to always be able to understand the fundamentals and to be ready to answer to the question \textit{why ?}, one must also realize that the impact one has strongly depends on the application and reach of his work.
 Keeping this idea in mind, this thesis aims first at bridging the material and pressure gap to bring forth the possibility for synchrotron users to study catalytic reactions at conditions tending to 'real' industry conditions.
-Secondly, a focus has also been set on explaining the origin, advantages, drawbacks and workflows of each technique, especially for Bragg coherent diffraction imaging, a technique that has yet to reach its full potential through the development of 4th generation synchrotrons and powerful computing clusters.
+Secondly, a focus has also been set on explaining the origin, advantages, drawbacks and workflows of each technique, especially for Bragg coherent diffraction imaging, a technique that has yet to reach its full potential through the development of 4th-generation synchrotrons and powerful computing clusters.
 
 \section{Outline of the Thesis}
 
