@@ -1030,9 +1030,6 @@
       \verb{doi}
       \verb 10.1107/S1600577519010385
       \endverb
-      \verb{file}
-      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Bj{\"{o}}rling et al. - 2019 - Coherent Bragg imaging of 60 nm Au nanoparticles under electrochemical control at the NanoMAX beamline.pdf:pdf
-      \endverb
       \keyw{coherent diffraction imaging,electrocatalysis,nanodiffraction}
     \endentry
     \entry{Bokeh}{manual}{}
@@ -2053,9 +2050,6 @@
       \verb{doi}
       \verb 10.1039/d1nr01806j
       \endverb
-      \verb{file}
-      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Carnis et al. - 2021 - Exploring the 3D structure and defects of a self-assembled gold mesocrystal by coherent X-ray diffraction imaging.pdf:pdf
-      \endverb
     \endentry
     \entry{Carnis2021a}{article}{}
       \name{author}{21}{ul=2}{%
@@ -2813,6 +2807,57 @@
       \field{pages}{297\bibrangedash 301}
       \range{pages}{5}
     \endentry
+    \entry{croset_form_2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=769e33573238d805970d80bb74445ca2}{%
+           family={Croset},
+           familyi={C\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{769e33573238d805970d80bb74445ca2}
+      \strng{fullhash}{769e33573238d805970d80bb74445ca2}
+      \strng{bibnamehash}{769e33573238d805970d80bb74445ca2}
+      \strng{authorbibnamehash}{769e33573238d805970d80bb74445ca2}
+      \strng{authornamehash}{769e33573238d805970d80bb74445ca2}
+      \strng{authorfullhash}{769e33573238d805970d80bb74445ca2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1600-5767}
+      \field{journaltitle}{Journal of Applied Crystallography}
+      \field{month}{10}
+      \field{number}{5}
+      \field{shorttitle}{Form factor of any polyhedron}
+      \field{title}{Form factor of any polyhedron: a general compact formula and its singularities}
+      \field{urlday}{2}
+      \field{urlmonth}{7}
+      \field{urlyear}{2018}
+      \field{volume}{50}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{1245\bibrangedash 1255}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1107/S1600576717010147
+      \endverb
+      \verb{file}
+      \verb Croset - 2017 - Form factor of any polyhedron a general compact f.pdf:/Users/marieingridrichard/Zotero/storage/H6D7Q8IJ/Croset - 2017 - Form factor of any polyhedron a general compact f.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://scripts.iucr.org/cgi-bin/paper?S1600576717010147
+      \endverb
+      \verb{url}
+      \verb http://scripts.iucr.org/cgi-bin/paper?S1600576717010147
+      \endverb
+    \endentry
     \entry{DanielSarwitz2015}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2b93a824309bf2988c1962968296c5b5}{%
@@ -3422,12 +3467,6 @@
       \range{pages}{10}
       \verb{doi}
       \verb https://doi.org/10.1016/j.envpol.2007.06.033
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0269749107003089
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0269749107003089
       \endverb
       \keyw{Reduced nitrogen,Emission,Nitrogen cycle,Ammonia,Effects,Abatement}
     \endentry
@@ -7631,7 +7670,7 @@
       \verb 10.1086/111605
       \endverb
     \endentry
-    \entry{LUDWIG2017313}{article}{}
+    \entry{LUDWIG2017}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a8f2d4ef1382c0891e102d437f4c053a}{%
            family={Ludwig},
@@ -8209,6 +8248,40 @@
       \endverb
       \verb{url}
       \verb https://www.ingentaconnect.com/content/matthey/pmr/1986/00000030/00000002/art00001
+      \endverb
+    \endentry
+    \entry{RLMcGreevy_2001}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=820ba6edb6d62c2331d564264f332447}{%
+           family={McGreevy},
+           familyi={M\bibinitperiod},
+           given={R\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{820ba6edb6d62c2331d564264f332447}
+      \strng{fullhash}{820ba6edb6d62c2331d564264f332447}
+      \strng{bibnamehash}{820ba6edb6d62c2331d564264f332447}
+      \strng{authorbibnamehash}{820ba6edb6d62c2331d564264f332447}
+      \strng{authornamehash}{820ba6edb6d62c2331d564264f332447}
+      \strng{authorfullhash}{820ba6edb6d62c2331d564264f332447}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Reverse Monte Carlo (RMC) modelling is a general method of structural modelling based on experimental data. RMC modelling can be applied to many different sorts of data, simultaneously if wished. Powder and single-crystal neutron diffraction (including isotopic substitution), x-ray diffraction (including anomalous scattering) and electron diffraction, extended x-ray absorption fine structure and nuclear magnetic resonance (magic angle spinning and second moment) have already been used to provide data. RMC modelling can also be applied to many different types of system - liquids, glasses, polymers, crystals and magnetic materials. This article outlines the RMC method and discusses some of the common misconceptions about it. It is stressed that RMC models are neither unique nor `correct'. However, they are often useful for aiding our understanding either of the structure itself, or of the relationships between local structure and other physical properties. Examples are given and the possibilities for further development of the RMC method are discussed.}
+      \field{journaltitle}{Journal of Physics: Condensed Matter}
+      \field{month}{11}
+      \field{number}{46}
+      \field{title}{Reverse Monte Carlo modelling}
+      \field{volume}{13}
+      \field{year}{2001}
+      \field{pages}{R877}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0953-8984/13/46/201
       \endverb
     \endentry
     \entry{McKinney2017}{book}{}
@@ -9719,6 +9792,25 @@
       \verb 10.1007/s11244-018-0948-8
       \endverb
     \endentry
+    \entry{Thermofischer}{online}{}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{Reducing ammonia slip in selective catalytic reduction}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.thermofisher.com/blog/identifying-threats/reducing-nh3-slip-in-selective-catalytic-reduction-scr/
+      \endverb
+      \verb{url}
+      \verb https://www.thermofisher.com/blog/identifying-threats/reducing-nh3-slip-in-selective-catalytic-reduction-scr/
+      \endverb
+    \endentry
     \entry{Resta2020a}{article}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=095401660ec6b30ea5677c39096e8cae}{%
@@ -11176,6 +11268,25 @@
       \field{title}{{Effective computation in physics}}
       \field{year}{2015}
       \keyw{Computer software,Computer software Development,Physics,Physics Programming}
+    \endentry
+    \entry{MitsubishiSCR}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{Selective Catalytic Reduction System}
+      \field{urlday}{6}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://power.mhi.com/products/aqcs/lineup/flue-gas-denitration/
+      \endverb
+      \verb{url}
+      \verb https://power.mhi.com/products/aqcs/lineup/flue-gas-denitration/
+      \endverb
     \endentry
     \entry{Shabalin2017}{article}{}
       \name{author}{5}{}{%

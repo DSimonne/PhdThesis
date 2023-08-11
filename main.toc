@@ -4,59 +4,63 @@
 \contentsline {subsection}{\numberline {1.1.1}The Haber-Bosch and Ostwald processes}{10}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}The importance of heterogeneous catalysis}{11}{subsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.1.3}Environmental impact}{12}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2}From industry to model catalysis}{14}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Aim and Scope}{15}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Outline of the Thesis}{15}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Theory and methods}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Heterogeneous Catalysis}{17}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Mechanisms}{17}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Active sites in heterogeneous catalysis}{19}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Linking strain and reactivity}{19}{subsection.2.1.3}%
-\contentsline {section}{\numberline {2.2}X-ray interaction with matter}{20}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Scattering from electrons and atoms}{21}{subsection.2.2.1}%
-\contentsline {subsubsection}{Cross-sections}{21}{section*.14}%
-\contentsline {subsubsection}{Scattering from an electron}{21}{section*.16}%
-\contentsline {subsubsection}{Scattering from a single atom}{24}{section*.18}%
-\contentsline {subsection}{\numberline {2.2.2}Refraction, reflection and absorption effects}{25}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}Scattering from crystals}{27}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Bragg's Law}{29}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Structure factor}{30}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Lattice factor}{31}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Coherence}{32}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}SXRD}{34}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Surface reconstructions}{34}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Crystal truncation rods}{35}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Data collection}{37}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}X-ray reflectometry}{39}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}BCDI}{40}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Scattering by strained crystals}{40}{subsection.2.5.1}%
-\contentsline {subsubsection}{Data collection}{43}{section*.32}%
-\contentsline {subsection}{\numberline {2.5.2}Phase retrieval}{43}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Resolution}{45}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Facet analysis}{47}{subsection.2.5.4}%
+\contentsline {section}{\numberline {1.2}From industry to model catalysis}{15}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Aim and Scope}{16}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Outline of the Thesis}{16}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Theory and methods}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Heterogeneous Catalysis}{18}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Mechanisms}{18}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Active sites in heterogeneous catalysis}{20}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Linking strain and reactivity}{20}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}X-ray interaction with matter}{21}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Scattering from electrons and atoms}{22}{subsection.2.2.1}%
+\contentsline {subsubsection}{Cross-sections}{22}{section*.14}%
+\contentsline {subsubsection}{Scattering from an electron}{22}{section*.16}%
+\contentsline {subsubsection}{Scattering from a single atom}{25}{section*.18}%
+\contentsline {subsection}{\numberline {2.2.2}Refraction, reflection and absorption effects}{26}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Scattering from crystals}{28}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Bragg's law}{30}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Structure factor}{31}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Lattice factor}{32}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Coherence}{33}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}SXRD}{35}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Surface reconstructions}{35}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Crystal truncation rods}{36}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Data collection}{38}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}X-ray reflectometry}{40}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}BCDI}{41}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Scattering by strained crystals}{42}{subsection.2.5.1}%
+\contentsline {subsubsection}{Data collection}{44}{section*.32}%
+\contentsline {subsection}{\numberline {2.5.2}Phase retrieval}{44}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Resolution}{47}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Facet analysis}{48}{subsection.2.5.4}%
 \contentsline {section}{\numberline {2.6}Synchrotron radiation for the study of materials}{49}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Synchrotron radiation}{49}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}The SixS beamline}{49}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Multi environment diffractometer}{51}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}Catalysis reactor}{52}{subsection.2.6.4}%
-\contentsline {section}{\numberline {2.7}Computer programs}{55}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Data reproducibility}{55}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}The Jupyter environment}{56}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Thorondor}{57}{subsection.2.7.3}%
-\contentsline {subsection}{\numberline {2.7.4}Gwaihir}{57}{subsection.2.7.4}%
-\contentsline {subsubsection}{Software structure}{58}{section*.48}%
-\contentsline {subsubsection}{Workflow for Bragg coherent diffraction imaging}{59}{section*.49}%
-\contentsline {subsubsection}{Pre-processing}{59}{section*.52}%
-\contentsline {subsubsection}{Phase retrieval}{60}{section*.53}%
-\contentsline {subsubsection}{Post-processing}{61}{section*.55}%
-\contentsline {subsubsection}{Graphical interface}{62}{section*.56}%
-\contentsline {subsubsection}{Command line scripts}{63}{section*.59}%
-\contentsline {subsubsection}{Data storage}{64}{section*.61}%
-\contentsline {subsection}{\numberline {2.7.5}BINoculars}{66}{subsection.2.7.5}%
-\contentsline {subsection}{\numberline {2.7.6}ROD}{67}{subsection.2.7.6}%
-\contentsline {chapter}{\numberline {3}Results}{69}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Bragg coherent diffraction imaging on Pt nanoparticles}{69}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Improving BCDI at SixS}{69}{subsection.3.1.1}%
-\contentsline {section}{\numberline {3.2}Surface x-ray diffraction on single crystals}{69}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Empirical Analysis}{69}{section.3.3}%
-\contentsline {chapter}{\numberline {A}3D BCDI \textit {operando} measurements}{83}{appendix.A}%
+\contentsline {subsection}{\numberline {2.6.1}Synchrotron radiation}{50}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}The SixS beamline}{50}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Multi environment diffractometer}{52}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Catalysis reactor}{53}{subsection.2.6.4}%
+\contentsline {section}{\numberline {2.7}Computer programs}{56}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Data reproducibility}{57}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}The Jupyter environment}{57}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Thorondor}{58}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Gwaihir}{58}{subsection.2.7.4}%
+\contentsline {subsubsection}{Software structure}{59}{section*.48}%
+\contentsline {subsubsection}{Workflow for Bragg coherent diffraction imaging}{60}{section*.49}%
+\contentsline {subsubsection}{Pre-processing}{61}{section*.52}%
+\contentsline {subsubsection}{Phase retrieval}{61}{section*.53}%
+\contentsline {subsubsection}{Post-processing}{62}{section*.55}%
+\contentsline {subsubsection}{Graphical interface}{64}{section*.56}%
+\contentsline {subsubsection}{Command line scripts}{65}{section*.59}%
+\contentsline {subsubsection}{Data storage}{65}{section*.61}%
+\contentsline {subsection}{\numberline {2.7.5}BINoculars}{67}{subsection.2.7.5}%
+\contentsline {subsection}{\numberline {2.7.6}ROD}{69}{subsection.2.7.6}%
+\contentsline {chapter}{\numberline {3}Results}{70}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Study of the structural behaviour of multi-faceted particle during the oxidation of ammonia.}{70}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Experimental setup}{70}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Synthetizing platinum nanoparticle}{71}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Dependance of the nanoparticle catalytic activity on the temperature}{71}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}}{71}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Near-ambient pressure single crystal surface study during the oxidation of ammonia}{71}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Surface x-ray diffraction on single crystals}{72}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Empirical Analysis}{72}{section.3.4}%
+\contentsline {chapter}{\numberline {A}3D BCDI \textit {operando} measurements}{86}{appendix.A}%

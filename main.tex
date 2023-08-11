@@ -125,8 +125,10 @@
 \usepackage{gensymb} % for degree symbol
 
 \usepackage{siunitx} % Units
-\DeclareSIUnit\angstrom{\text {Å}}
+\DeclareSIUnit\angstrom{\text{Å}}
 \DeclareSIUnit\barn{b}
+\DeclareSIUnit\photons{\text{photons}}
+\DeclareSIUnit\bar{bar}
 \usepackage{wasysym} % for diameter symbol
 
 \usepackage{graphicx} % Insert images
@@ -142,7 +144,7 @@
 \usepackage{array} % Create tables as arrays
 \usepackage{csquotes}
 \usepackage{booktabs} % for \midrule and such
-
+\usepackage{lscape}
 \usepackage{amsmath} % for maths
 \usepackage{amssymb}
 
@@ -156,40 +158,40 @@
 
 %%%%%%%%%%%%%%%%%%%%%% Commands %%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\argon}{\ce{Ar}\,}
+\newcommand{\argon}{\ce{Ar}}
 %{\textcolor{ArgonColor}
-\newcommand{\ammonia}{\ce{NH_3}\,}
+\newcommand{\ammonia}{\ce{NH_3}}
 %{\textcolor{AmmoniaColor}
 
-\newcommand{\nitrousoxide}{\ce{N_2O}\,}
+\newcommand{\nitrousoxide}{\ce{N_2O}}
 %{\textcolor{NitrousOxideColor}
 
-\newcommand{\water}{\ce{H_2O}\,}
+\newcommand{\water}{\ce{H_2O}}
 %{\textcolor{WaterColor}
 
-\newcommand{\nitrogen}{\ce{N_2}\,}
+\newcommand{\nitrogen}{\ce{N_2}}
 %{\textcolor{NitrogenColor}
 
-\newcommand{\nitricacid}{\ce{HNO_3}\,}
+\newcommand{\nitricacid}{\ce{HNO_3}}
 %{\textcolor{DarkOrange}
 
-\newcommand{\nitricoxide}{\ce{NO}\,}
+\newcommand{\nitricoxide}{\ce{NO}}
 %{\textcolor{NitrogenOxideColor}
 
-\newcommand{\nitrogendioxide}{\ce{NO_2}\,}
+\newcommand{\nitrogendioxide}{\ce{NO_2}}
 
-\newcommand{\carbondioxide}{\ce{CO_2}\,}
+\newcommand{\carbondioxide}{\ce{CO_2}}
 
-\newcommand{\dioxygen}{\ce{O_2}\,}
+\newcommand{\dioxygen}{\ce{O_2}}
 %{\textcolor{OxygenColor}
 
-\newcommand{\ptthreeofour}{\ce{Pt_3O_4}\,}
+\newcommand{\ptthreeofour}{\ce{Pt_3O_4}}
 %{\textcolor{Important}
 
-\newcommand{\ammoniumnitrate}{\ce{NH_4NO_3}\,}
+\newcommand{\ammoniumnitrate}{\ce{NH_4NO_3}}
 %{\textcolor{Blue}
 
-\newcommand{\urea}{\ce{CO(NH_2)_2}\,}
+\newcommand{\urea}{\ce{CO(NH_2)_2}}
 
 \newcommand{\yes}{{\textcolor{green}{0}}}
 
@@ -233,6 +235,7 @@
 % Results
     \chapter{Results}
     \input{Sections/3_Results/BCDI}
+    \section{Near-ambient pressure single crystal surface study during the oxidation of ammonia}
     \input{Sections/3_Results/111}
     \input{Sections/3_Results/100}
     \input{Sections/3_Results/EmpiricalAnalysis}

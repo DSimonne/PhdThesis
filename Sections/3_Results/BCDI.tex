@@ -7,9 +7,67 @@ Apart from a presentation of the sources of your data, this chapter allows you t
 \end{enumerate}
 }
 
-\section{Bragg coherent diffraction imaging on Pt nanoparticles}
+\section{Study of the structural behaviour of multi-faceted particle during the oxidation of ammonia.}
 
-\subsection{Improving BCDI at SixS}
+\subsection{Experimental setup}
 
-The experimental setup of the SixS beamline was ex
+The BCDI experiment was performed at the SixS (Surface Interface X-ray Scattering) beamline of synchrotron SOLEIL, France (sec. \ref{sec:SixS}).
 
+The experimental setup of the SixS beamline was improved during the frame of this thesis to increase the coherent flux on the sample.
+Prior study focused on decreasing the dead-time during BCDI measurements \parencite{Li2020}.
+
+The required beam size was obtained with a Fresnel zone-plate (focal distance of 20 cm), which focused the beam down to $1\, \mu m$ (horizontally) $\times 2\, \mu m$ (vertically).
+A coherent portion of the beam was selected with high precision slits by matching their horizontal and vertical gaps with the transverse coherence lengths of the beamline: 20µm (horizontally) and 100µm (vertically).
+A circular beam-stop, and a circular order-sorting aperture, were used to block the transmitted beam, and higher diffraction orders, respectively.
+The BCDI experiment was performed at a beam energy of 8.5 keV (wavelength of 1.46 Å). The sample was mounted in a dedicated reactor with the substrate surface oriented in the horizontal plane on a hexapod that was mounted on a 6-circle z-axis diffractometer.
+The study has been performed in grazing incidence geometry.
+The incident angle was fixed to 3° and the asymmetric 111 Pt reflection was measured.
+The diffracted beam was recorded with a 2D MAXIPIX photon-counting detector ( $516 \times 516$ pixels with pixel size of $55 \, \mu m \times 55 \, \mu m$) positioned on the detector arm at a distance of $1.22 \, \si{meter}$.
+The in-plane ($\Gamma$) and out-of-plane ($\delta$) angles of the detector were 35.7°
+and 10.2°, respectively.
+Three-dimensional (3D) diffraction data were collected as rocking curves of the rotation angle around the normal of the sample (here, $\mu$-angle of the diffractometer).
+Measurements have been performed, when the sample was at 400°C in a Ar-based gas flowed at 50 ml/min and at a pressure of 500 mbar.
+
+\subsection{Synthetizing platinum nanoparticle}
+
+The platinum nanoparticles were synthetized thanks to a collaboration with the Israel Institute of Technology (Technion).
+A 30 nm thick homogeneous layer of platinum is deposited at room temperature on a (100) oriented alumina ($\alpha-$\ce{Al_2O_3}) substrate.
+The Pt nanocrystals have their c-axis oriented along the [111] direction normal to the (0001) sapphire substrate.
+A mask is then applied on the sample and a lithographic process route ensures that the platinum layer transform to nanoparticles that are between 100 and 1000 nm large,  epitaxied on the substrate surface.
+After dewetting and heating at 1100°C for 30 minutes, the platinum nanoparticles exhibit a well-faceted shape.
+The room temperature lattice parameter of platinum ($3.924 \, \si{angstrom}$) is close to that of (100) alumina ($4.122 \, \si{angstrom}$) resulting in $\approx 5 \%$ in-plane lattice strain.
+The mask yields isolated nanoparticles in the middle of $100 \, \mu m$ large squares (fig . \ref{fig:Mask}).
+The position of the squares is designated with arabic numbers (row), letters (column) and roman numbers (large rectangle).
+The hole diameter in the mask changes in different rectangle and has a direct impact on the nanoparticle size since more matter is deposited.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sample/mask.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sample/litho1.png}
+    \caption{
+    	Mask applied during sample preparation (left) and resulting pattern on the sample surface (right).
+    }
+    \label{fig:Mask}
+\end{figure}
+
+All of the position indicators are constituted of platinum nanoparticle as well, which allows the scanning of the sample's surface in Bragg condition to map an area and find the nanoparticles' positions.
+
+\subsection{Dependance of the nanoparticle catalytic activity on the temperature}
+
+The activity of the platinum nanoparticles as a function of the temperature was tested during two temperature ramps at a reactor pressure of $0.3 \si{bar}$ (fig. \ref{fig:TempRamps}) to make certain that the nanoparticles were first catalytically active and secondly suffienctly active for the reactant partial pressure to be detected by the mass spectrometer.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/Test_Reactor_CO2_2021_01/Figures/TempRamp1.pdf}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/Test_Reactor_CO2_2021_01/Figures/TempRamp2.pdf}
+    \caption{
+    	Increasing (full lines) and decreasing (low transparency) temperature ramps under a constant gas flow (41 mL/min of Ar, 8 mL/min of \dioxygen, 1 mL/min of \ammonia) at a reactor pressure of 0.3 bar.
+    	Ramp to 525°C with 150 steps, each lasting 10 seconds (left).
+    	Ramp to 650°C with 100 steps, each lasting 10 seconds (right).
+    }
+    \label{fig:TempRamps}
+\end{figure}
+
+
+
+\subsection{}

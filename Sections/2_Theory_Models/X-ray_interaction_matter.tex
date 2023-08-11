@@ -1,7 +1,7 @@
 \section{X-ray interaction with matter} \label{sec:XRIntMatter}
 
 Understanding the different mechanisms at play when photons interact with matter is of crucial importance to be able to decide how to use x-rays as a probe in material science.
-Each phenomenon is at the source of different techniques, scattering brings surface x-ray diffraction (SXRD) and Bragg coherent diffraction imaging (BCDI), two techniques used in the frame of this thesis that give complementary information about the sample structure bulk and surface.
+Each phenomenon is at the source of different techniques (tab. \ref{tab:techniques} - fig. \ref{fig:TechniquesDataExamples}), scattering brings surface x-ray diffraction (SXRD) and Bragg coherent diffraction imaging (BCDI), two techniques used in the frame of this thesis that give complementary information about the sample structure bulk and surface.
 
 X-ray absorption together with the photoelectric effect explained by Einstein in \cite*{Einstein1905} are at the source of a third technique used, x-ray photoelectron spectroscopy, which yields information specific to the nature of the adsorbates on the sample's surface.
 
@@ -31,21 +31,25 @@ X-ray absorption together with the photoelectric effect explained by Einstein in
     \includegraphics[height=0.25\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/gwaihir/dp_pr.png}
     \includegraphics[height=0.25\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sxrd_data/Pt100/maps/Map_hkl_surf_or_2227-2283_not_patched.png}
     \includegraphics[height=0.25\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/xps_data/transition_xps.png}
-    \caption{Slice of 3D diffraction pattern collected at the SixS beamline at the SOLEIL synchrotron (left). Reciprocal space map in HK plane collected at the SixS beamline at the SOLEIL synchrotron (middle). Ambient pressure XPS spectra collected during a transition between two atmospheres (Ar and O$_2$), collected at the B07 beamline at the Diamond synchrotron (right).}
+    \caption{
+    Slice of 3D diffraction pattern collected at the SixS beamline at the SOLEIL synchrotron (left).
+    Reciprocal space map in HK plane collected at the SixS beamline at the SOLEIL synchrotron (middle).
+    Ambient pressure XPS spectra measured during a transition between two atmospheres (\argon and \dioxygen), collected at the B07 beamline at the Diamond synchrotron (right).}
+    \label{fig:TechniquesDataExamples}
 \end{figure}
 
 In this chapter we will discuss the origin of each technique from fundamentals that not only tailor their experimental design but also their operability and sensitivity.
 
 \subsection{Scattering from electrons and atoms}
 
-The duality between wave and particles was first mentionned by Max Planck and Albert Einstein in the early 20$^{th}$ century and generalized to all matter by Louis-Victor de Broglie in 1924 with the famous formula:
+The duality between wave and particles was first mentionned by Max Planck and Albert Einstein in the early $20^{th}$ century and generalized to all matter by Louis-Victor de Broglie in 1924 with the famous formula:
 
 \begin{equation}
 	\lambda = \frac{h}{p}
 \end{equation}
 
-Electromagnetic waves, \textit{i.e.} light or photons can be characterized by their energy $E$ in \si{\electronvolt} and wavelength $\lambda$ in \si{\meter}. $p$ corresponds to the momentum transfer.
-The conversion between is realized thanks to Planck's constant $h = 6.626 \times 10^{-34}$ \si{\joule.\second} and the speed of light in vacuum $c = 2.9979 \times 10^{8}$ \si{\meter.\per \second} (eq. \ref{eq:EnergyLambda}).
+Electromagnetic waves, \textit{i.e.} light or photons can be characterized by their energy $E$ in \unit{\eV} and wavelength $\lambda$ in \unit{\meter}. $p$ corresponds to the momentum transfer.
+The conversion between is realized thanks to Planck's constant $h = \qty{6.626e-34}{\joule.\second}$ and the speed of light in vacuum $c = \qty{2.9979e8}{\meter.\per \second}$ (eq. \ref{eq:EnergyLambda}).
 
 \begin{equation}
     \label{eq:EnergyLambda}
@@ -53,15 +57,15 @@ The conversion between is realized thanks to Planck's constant $h = 6.626 \times
 \end{equation}
 
 The properties of the photon and its use in our society depends on its energy and wavelength.
-If visible light is situated between $500 \, \si{\electronvolt}$ and $900 \, \si{\electronvolt}$, micro-waves used in our everyday life are situated between $10^{-6} \si{\electronvolt}$ and $10^{-4}\si{\electronvolt}$.
-On the other side of the electromagnetic spectrum, we have higher energy photons such as x-rays ($\in [10^{2}, 10^{6}] \si{\electronvolt}$) and $\gamma$-rays (above $10^{6}$ $\si{\electronvolt}$).
+If visible light is situated between \qty{500}{\eV} and \qty{900}{\eV}, micro-waves used in our everyday life are situated between \qty{e-6}{\eV} and \qty{e-4}{\eV}.
+On the other side of the electromagnetic spectrum, we have higher energy photons such as x-rays (\qtyrange{e2}{e6}{\eV}) and $\gamma$-rays (\qty{>e6}{\eV}).
 
-x-rays have a wavelength of a few \si{\angstrom} ($10^{-10} \:\si{\meter}$) making them the perfect probe to study the structures of materials at the atomic scale thanks to different interactions with matter.
+X-rays have a wavelength of a few \unit{\angstrom} (\SI{e-10}{\m}) making them the perfect probe to study the structures of materials at the atomic scale thanks to different interactions with matter.
 \textcolor{Important}{Explain why this particular wl is the best}
 
 \subsubsection{Cross-sections}
 
-When an electromagnectic wave interacts with matter it will be attenuated by absorption, reflection or scattering.
+When an electromagnetic wave interacts with matter it will be attenuated by absorption, reflection or scattering.
 Each process can be quantified depending on the atoms (and thus on the electronic cloud) the beam interacts with and the energy on the incident photon, this is illustrated in figure \ref{fig:cross_sections}.
 The cross-section for a particuliar process $p$ is defined as follows \parencite{Willmott}:
 
@@ -69,7 +73,7 @@ The cross-section for a particuliar process $p$ is defined as follows \parencite
 	\sigma_p = (\Lambda_p N_i)^{-1}
 \end{equation}
 
-$\Lambda_p$ is the attenuation length in \si{\meter}, \textit{i.e.} the length after which the beam's intensity is reduced to $1/e$, $N_i$ is the atomic number-density in atoms/unit volume.
+$\Lambda_p$ is the attenuation length in \unit{\meter}, \textit{i.e.} the length after which the beam's intensity is reduced to $1/e$, $N_i$ is the atomic number-density in atoms/unit volume.
 
 \begin{figure}[!htb]
     \centering
@@ -83,7 +87,7 @@ This results in a lower energy for the scattered photon (and therefore a higher 
 %This effect has a low cross-section compared to the two other processes and is therefore not taken account during the experiments.
 
 In the frame of this thesis, the (elastic) Thomson scattering cross-sections is the most important, at the origin of x-ray diffraction.
-This process is dominant for energies below $200 \si{k\electronvolt}$, together with photoelectric absorption.% for which the K, L and M edges are shown.
+This process is dominant for energies below \qty{200}{\keV}, together with photoelectric absorption.% for which the K, L and M edges are shown.
 
 \subsubsection{Scattering from an electron}
 
@@ -135,7 +139,7 @@ The effect of the polarization of the incident beam is illustrated in figure \re
 At synchrotron sources where the incident beam is horizontally polarized, working in the vertical plane becomes more effective since the polarization factor is always equal to one.
 
 The total cross-section for the scattering event by a single free electron can be computed by integrating the differential cross-section over all the possible scattering angles, \textit{i.e.} by averaging all possible polarization directions \parencite{Willmott}.
-This yields $\sigma_{ts} = 8 \pi r_0^2 /3 = 0.665 \:\si{\barn}$, the total Thomson scattering cross-section is constant, independent of the incoming photon energy. This results holds for x-rays for which the scatterer \textit{i.e.} the electron can be considered as free \parencite{Willmott}.
+This yields $\sigma_{ts} = 8 \pi r_0^2 /3 = \SI{0.665}{\barn}$, (\SI{1}{barn} is equal to \SI{e-28}{\m^2}) the total Thomson scattering cross-section is constant, independent of the incoming photon energy. This results holds for x-rays for which the scatterer \textit{i.e.} the electron can be considered as free \parencite{Willmott}.
 
 \subsubsection{Scattering from a single atom}\label{sec:scattering}
 
@@ -193,7 +197,7 @@ It decreases with $\vec{q}$ (or $\sin(\theta) / \lambda)$ as illustrated in figu
 \end{equation}
 
 The scattering intensity is equal to the square of the scattering amplitude.
-For example, the scattering intensity of palladium atoms at $|\vec{q}| \approx 2.75 \AA^{-1}$ is only $\approx 31\%$ of that of platinum atoms. In the case of oxygen, the intensity falls down to $\approx 6.7\%$.
+For example, the scattering intensity of palladium atoms at $|\vec{q}| \SI{\approx 2.75}{\angstrom^{-1}}$ is only $\approx 31\%$ of that of platinum atoms. In the case of oxygen, the intensity falls down to $\approx 6.7\%$.
 This difference in scattering intensity between elements becomes crucial when working with small objects that have a small scattering volume such as nanoparticles.
 
 \begin{figure}[!htb]
@@ -234,7 +238,7 @@ $\delta$ is the refractive index and $\beta$ the absorption index.
 During simple experiments, when x-rays impinge on a plane surface between air ($n$=1) and another medium of refractive index $n$, x-rays are refracted, the wavelength changes to $\lambda/n$ and the direction of propagation becomes closer to the surface between both mediums.
 Below a certain incident angle known as the \textit{critical angle} $\alpha_c$ between the direction of the incident x-rays and the plane interface, the x-rays will be totally reflected.
 This effect is used in focussing mirrors for optics but also in techniques used to probe the surface of materials to obtain information about the surface density since the critical angle is approximately equal to $\sqrt{2\rho}$ \parencite{Willmott}.
-Moreover, during surface x-ray diffraction, the incoming angle perpendicular to the surface is kept to very low values approaching the critical angle to limit the volume probed by the x-rays to increase the contrast between the amplitude of the x-rays scattered from the bulk in regard to the x-rays scattered from the latest surface layers.
+Moreover, during surface x-ray diffraction, the incoming angle perpendicular to the surface is kept to very low values approaching the critical angle to limit the volume probed by the x-rays to increase the contrast between the amplitude of the x-rays scattered from the latest surface layers in regard to the x-rays scattered from the bulk.
 The penetration depth of the x-rays in the material is detailed is sec. \ref{sec:SXRD}.
 
 Far from the binding energies of the electron in the system, the correction factor $f'$ in the expression of $\delta$ can be ignored and the sum in eq. \ref{eq:delta} is then equal to the electronic density of the system.
@@ -254,8 +258,7 @@ The kinetic energy of the electrons released from the material in the latter sce
 \end{equation}
 
 Measuring the kinetic energy of the photoelectron that escaped the material yields direct information about the different binding energies present in the material, \textit{i.e.} about its electronic structure.
-The study of these kinetic energy is known as x-ray photoelectron spectroscopy (XPS),
-a technique used in this thesis to study the electronic structure of the latest atomic layers of a surface, electrons released from atoms in deeper layers being ultimately absorbed(more like cancelled due to the interraction with the e cloud of) by the surrounding atoms.
+The study of these binding/binding energy is known as x-ray photoelectron spectroscopy (XPS), a technique used in this thesis to study the electronic structure of the latest atomic layers of a surface, electrons released from atoms in deeper layers being ultimately absorbed by the surrounding atoms.
 The cross-section for XPS is directly proportional to the absorption cross-section $\sigma_a$ (eq. \ref{eq:AbsorptionCrossSection}, fig. \ref{fig:cross_sections}) which can be derived from the imaginary atomic form factor:
 
 \begin{equation}
@@ -273,7 +276,7 @@ The \textit{primitive} unit cell is the smallest cell with which you can describ
 
 The structure of the Bravais lattice (cubic, hexagonal, ...) combined with the position of the patterns in the lattice and the symmetry relations between them defines the crystal \textit{space group}.
 In total there exist 230 space group in crystallography.
-In the simplest case the pattern consists of a single atom, for example pure platinum (Z=78) cristallizes at room temperature in a cubic Bravais lattice (fig. \ref{fig:fcc}).
+In the simplest case the pattern consists of a single atom, for example pure platinum ($Z=78$) cristallizes at room temperature in a cubic Bravais lattice (fig. \ref{fig:fcc}).
 
 We can define the scattering factor $F_{crystal}$ of the crystal, that describes the amplitude of the scattered waves, by the sum of the atomic scattering factor $f_j(\vec{q})$ of each atom present in the crystal, while the phases between the scattered waves depend on the positions of the atoms $\vec{R}_j$ in the direction that is perpendicular to the scattering vector $\vec{q}$ (eq. \ref{eq:FCrystal1}).
 In other words, each atom can be described as a small volume $d^3\vec{r}$ in the electronic density $\rho(\vec{r})$, and the scattered field by the superposition of the contribution from the electronic cloud surrounding the atoms.
@@ -291,7 +294,10 @@ The Thomson scattering length is left apart for simplicity.
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/Drawing/blender/FCC.png}
-    \caption{Face centered cubic (FCC) lattice of Pt (space group 225). Atoms are represented as solid balls and situated on the corners and at the middle of the faces. The lattice parameter at room temperature is $a = 3.9254 \:\AA$. Close packed direction is achieved along the diagonal of the lateral faces, the distance between the atoms then becomes is $2.71 \:\si{\angstrom}.$}
+    \caption{
+    Face centered cubic (FCC) lattice of Pt (space group 225).
+    Atoms are represented as solid balls and situated on the corners and at the middle of the faces.
+    The lattice parameter at room temperature is $a = \SI{3.9254}{\angstrom}$. Close packed direction is achieved along the diagonal of the lateral faces, the distance between the atoms then becomes is \SI{2.71}{\angstrom}}
     \label{fig:fcc}
 \end{figure}
 
@@ -360,7 +366,7 @@ These specific scattering vectors determine the scattering angles of the peaks o
     \vec{q} = \vec{G}  = h\vec{a}^* + k\vec{b}^* + l\vec{c}^*
 \end{equation}
 
-\subsection{Bragg's Law}\label{sec:BraggLaw}
+\subsection{Bragg's law}\label{sec:BraggLaw}
 
 The intensity scattered from a crystal as a function of the scattering vector $\vec{q}$ provides information about the arrangement and spacing of crystalline planes perpendicular to $\vec{q}$.
 The Miller indices are a set of integers used to represent the planes' orientation and spacing.
@@ -370,12 +376,14 @@ The direction perpendicular to the $(hkl)$ plane is written as $[hkl]$, the dist
 \begin{figure}[!htb]
     \centering
     \includegraphics[scale=0.6]{Figures/introduction/BraggLaw.pdf}
-    \caption{The difference in the path length between plane waves scattered at an angle $\theta$ must be an integer multiple of wavelengths for constructive interference to occur. NOT FINISHED}
+    \caption{
+    The difference in the path length between plane waves scattered at an angle $\theta$ must be an integer multiple of wavelengths for constructive interference to occur. NOT FINISHED
+    }
     \label{fig:BraggLaw}
 \end{figure}
 
-A Bragg peak results from the constructive interference between scattered waves at discrete values of the incident angle $2\theta$ on a specific set of crystalline planes.
-From fig. \ref{fig:BraggLaw} we can retrieve the condition to have constructive interference, also known as Bragg law and given by eq. \eqref{eq:Bragglaw}.
+A Bragg peak results from the constructive interference between scattered waves at discrete values of the incident angle $\theta$ on a specific set of crystalline planes.
+From fig. \ref{fig:BraggLaw} we can retrieve the condition to have constructive interference, also known as Bragg's law and given by eq. \eqref{eq:Bragglaw}.
 
 \begin{equation}
     \label{eq:Bragglaw}
@@ -396,7 +404,8 @@ In the case of a cubic Bravais lattice, the distance between Miller planes can b
     d_{hkl}=\frac{2\pi}{|\vec{a^*}|\sqrt{h^2 + k^2 + l^2}}=\frac{|\vec{a}|}{\sqrt{h^2 + k^2 + l^2}}
 \end{equation}
 
-From eqs. \ref{eq:QSinTheta} and \ref{eq:Bragglaw}, we fall back on the Laue condition which is a generalization of Bragg law. The diffraction order ($n$) in the Bragg's law equation can be omitted since it is implicitly determined by the Miller indices (hkl) representing the crystalline planes involved in the diffraction.
+From eqs. \ref{eq:QSinTheta} and \ref{eq:Bragglaw}, we fall back on the Laue condition which is a generalization of Bragg's law.
+The diffraction order ($n$) in the Bragg's law equation can be omitted since it is implicitly determined by the Miller indices (hkl) representing the crystalline planes involved in the diffraction.
 
 \begin{gather}
     \label{eq:QandD}
@@ -495,10 +504,9 @@ Minor peaks appear when the numerator is equal to one: $N\frac{\vec{q}.\vec{a}_j
 
 To resume, the lattice factor $F_{lat}(\vec{q})$ defines the shape of Bragg peaks.
 For a large crystal (\textit{i.e.} a large number of unit cells in three directions), ideal Bragg peaks will look like Dirac functions (in reality they are widened due to different experimental factors).
-For a small crystal such as nanoparticles, the fringes of the lattice factor will be further apart and their intensity more visible in contrast to the intensity of the main peak (fig. ).
-In a more general sense, the lattice factor is the Fourier transform of the crystal's lattice, the effect of the Fourier transform is that fringes will be visible in the reciprocal space in directions perpendicular to the crystal's surface (fig. ).
+For a small crystal such as nanoparticles, the fringes of the lattice factor will be further apart and their intensity more visible in contrast to the intensity of the main peak (fig. \ref{3DDP}).
+In a more general sense, the lattice factor is the Fourier transform of the crystal's lattice, the effect of the Fourier transform is that fringes will be visible in the reciprocal space in directions perpendicular to the crystal's surface.
 The ability to effectively sample these fringes during experiments is at the root of the BCDI technique, to be able to perform the inverse Fourier transform of the Bragg peak to then retrieve the crystal shape (sec. \ref{sec:BCDI}).
-
 
 \subsection{Coherence} \label{sec:Coherence}
 
@@ -506,12 +514,12 @@ Every x-ray source can be described by several parameters.
 The brilliance $\mathcal{B}$ is a measure of the distribution of flux in both space and angular range, it indicates how the flux is spread over the source area and solid angle.
 
 \begin{equation}
-    \mathcal{B} = \frac{photons/second}{(mm^2 source \; area)(mrad)^2(0.1\% \; bandwidth)}
+    \mathcal{B} = \frac{\unit{\photons \per \second}}{(\unit{\mm^2} \text{source area})(\unit{\milli\radian})^2(0.1\% \; \text{bandwidth})}
 \end{equation}
 
 The spectral flux, on the other hand, quantifies the number of photons passing through a defined area per unit bandwidth per second.
 Synchrotron facilities aim to optimize both the photon flux and brilliance, a higher flux meaning faster experiments whereas a high brilliance is important for those that need a coherent beam.
-To do so, the source size which is the convolution of the size of the photon source and the transverse size of the electron beam has been reduced by an order of magnitude in 4th generation synchrotrons compared to 3rd generation synchrotrons \parencite{Willmott}.
+To do so, the source size which is the convolution of the size of the photon source and the transverse size of the electron beam has been reduced by an order of magnitude in $4^{th}$ generation synchrotrons compared to $3^{rd}$ generation synchrotrons \parencite{Willmott}.
 
 \begin{equation}
     \label{eq:Emittance}
@@ -529,7 +537,7 @@ The emittance $\epsilon$ is defined as the product of the source size $D$ and th
     \label{fig:CoherenceLengths}
 \end{figure}
 
-The longitudinal coherence length $L_L$ describes the distance in the direction of the beam after which two waves of slighly different wavelength become out of phase due to the small extent of the beam bandwidth $\Delta\lambda$ (fig. \ref{fig:CoherenceLengths} - a).
+The longitudinal coherence length $L_L$ describes the distance in the direction of the beam after which two waves of slightly different wavelength become out of phase due to the small extent of the beam bandwidth $\Delta\lambda$ (fig. \ref{fig:CoherenceLengths} - a).
 The bandwidth is linked to the quality of the monochromator used to obtain a monochromatic beam through the relation $\lambda/\Delta\lambda$ (eq. \ref{eq:LongitudinalCoL}).
 
 \begin{equation}
@@ -545,7 +553,7 @@ By assuming that the source has a Gaussian profile, we can relate $D$ to the sta
     L_{T,(H, V)} = \frac{\lambda}{2\Delta\theta_{(H, V)}} = \frac{\lambda R}{2 D_{(H, V)}} = \frac{\lambda R}{2\sqrt{\pi}\sigma_{H, V}}
 \end{equation}
 
-At synchrotrons, the vertical and horizontal source size are significantly different due to the shape of the electron beam, much more extended in the horizontal plane.
+At synchrotrons, the vertical and horizontal source sizes are significantly different due to the shape of the electron beam, much more extended in the horizontal plane.
 The horizontal transverse coherence length is usually smaller and the limiting factor.
 By multiplying the two transverse coherence lengths $L_{T,H}$, $L_{T,V}$ and the longitudinal coherence length $L_L$ we obtain the coherent volume.
 An example if given in sec. \ref{sec:SIXS} for the SixS beamline of the synchrotron SOLEIL.
