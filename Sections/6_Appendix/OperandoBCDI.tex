@@ -1,0 +1,24 @@
+The following images represent the surface of the D-6 and B-7 nanoparticles measured during two ammonia oxidation cycles at 300°C and 400°C.
+The surface is created by using the Marching-Cubes algorithm \parencite{Lorensen1987} in \textit{Paraview} \parencite{Ahrens2001}, which works by first assigning a scalar value to each voxel of the data (in our case the amplitude of the retrieved complex Bragg electronic density), and secondly selecting an isovalue which acts as a threshold, separating the regions of the volume that have values above it from those with values below it.
+Finally, by "marching" over the volume of the array, the algorithm derives a surface representation by assigning a configuration to each point in the array that depends on whether or not the 8 neighbouring cubes have values above or below the isovalue (fig. \ref{fig:MarchingCubes}).
+
+As mentionned in sec. \ref{sec:BCDI}, the isovalue must be carefully chosen since it depends on the amplitude of the electronic density, \textit{i.e.} theoretically on the structure factor of each voxel in real space.
+Therefore, there should be a clean drop of amplitude when a voxel is not in the reconstructed object, in the case of large strain or bad measurements this is not as clear as seen in the surface of particle B-7.
+
+The view perpendicular to the three axes of the laboratory frame is then represented, the particle is tilted due to the incoming angle $\theta$ for the measurement of the [111] Bragg peak.
+Both the retrieved displacement and strain fields are represented with the same respective colorbar.
+The ammonia to oxygen ration is represented on the right part of the figure.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/MarchingCubes.png}
+    \caption{
+    The Marching-cubes algorithm generates triangles connecting the vertices to form the mesh surface.
+    Each selected configuration has a specific arrangement of vertices that dictate how to form triangles to create a smooth surface.
+    Image taken from \url{https://fr.wikipedia.org/wiki/Marching_cubes}
+    }
+    \label{fig:MarchingCubes}
+\end{figure}
+
+\includepdf[pages=-]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/3D_B7.pdf}
+\includepdf[pages=-]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/3D_D6.pdf}

@@ -11,11 +11,11 @@
 \contentsline {section}{\numberline {2.1}Heterogeneous Catalysis}{18}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Mechanisms}{18}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Active sites in heterogeneous catalysis}{20}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Linking strain and reactivity}{20}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.3}Linking strain and reactivity}{21}{subsection.2.1.3}%
 \contentsline {section}{\numberline {2.2}X-ray interaction with matter}{21}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Scattering from electrons and atoms}{22}{subsection.2.2.1}%
 \contentsline {subsubsection}{Cross-sections}{22}{section*.14}%
-\contentsline {subsubsection}{Scattering from an electron}{22}{section*.16}%
+\contentsline {subsubsection}{Scattering from an electron}{23}{section*.16}%
 \contentsline {subsubsection}{Scattering from a single atom}{25}{section*.18}%
 \contentsline {subsection}{\numberline {2.2.2}Refraction, reflection and absorption effects}{26}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}Scattering from crystals}{28}{section.2.3}%
@@ -31,36 +31,39 @@
 \contentsline {section}{\numberline {2.5}BCDI}{41}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Scattering by strained crystals}{42}{subsection.2.5.1}%
 \contentsline {subsubsection}{Data collection}{44}{section*.32}%
-\contentsline {subsection}{\numberline {2.5.2}Phase retrieval}{44}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.2}Phase retrieval}{45}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}Resolution}{47}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}Facet analysis}{48}{subsection.2.5.4}%
 \contentsline {section}{\numberline {2.6}Synchrotron radiation for the study of materials}{49}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}Synchrotron radiation}{50}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}The SixS beamline}{50}{subsection.2.6.2}%
 \contentsline {subsection}{\numberline {2.6.3}Multi environment diffractometer}{52}{subsection.2.6.3}%
+\contentsline {subsubsection}{BCDI configuration}{52}{section*.42}%
 \contentsline {subsection}{\numberline {2.6.4}Catalysis reactor}{53}{subsection.2.6.4}%
 \contentsline {section}{\numberline {2.7}Computer programs}{56}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Data reproducibility}{57}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}The Jupyter environment}{57}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Thorondor}{58}{subsection.2.7.3}%
-\contentsline {subsection}{\numberline {2.7.4}Gwaihir}{58}{subsection.2.7.4}%
-\contentsline {subsubsection}{Software structure}{59}{section*.48}%
-\contentsline {subsubsection}{Workflow for Bragg coherent diffraction imaging}{60}{section*.49}%
-\contentsline {subsubsection}{Pre-processing}{61}{section*.52}%
+\contentsline {subsection}{\numberline {2.7.1}Result reproducibility}{57}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}\textit {Python} in the \textit {Jupyter} environment}{58}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}\textit {Gwaihir}}{58}{subsection.2.7.3}%
+\contentsline {subsubsection}{Workflow for Bragg coherent diffraction imaging}{59}{section*.49}%
+\contentsline {subsubsection}{Pre-processing}{60}{section*.52}%
 \contentsline {subsubsection}{Phase retrieval}{61}{section*.53}%
-\contentsline {subsubsection}{Post-processing}{62}{section*.55}%
-\contentsline {subsubsection}{Graphical interface}{64}{section*.56}%
-\contentsline {subsubsection}{Command line scripts}{65}{section*.59}%
-\contentsline {subsubsection}{Data storage}{65}{section*.61}%
-\contentsline {subsection}{\numberline {2.7.5}BINoculars}{67}{subsection.2.7.5}%
-\contentsline {subsection}{\numberline {2.7.6}ROD}{69}{subsection.2.7.6}%
-\contentsline {chapter}{\numberline {3}Results}{70}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Study of the structural behaviour of multi-faceted particle during the oxidation of ammonia.}{70}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Experimental setup}{70}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Synthetizing platinum nanoparticle}{71}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Dependance of the nanoparticle catalytic activity on the temperature}{71}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}}{71}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Near-ambient pressure single crystal surface study during the oxidation of ammonia}{71}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Surface x-ray diffraction on single crystals}{72}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Empirical Analysis}{72}{section.3.4}%
-\contentsline {chapter}{\numberline {A}3D BCDI \textit {operando} measurements}{86}{appendix.A}%
+\contentsline {subsubsection}{Post-processing}{63}{section*.55}%
+\contentsline {subsubsection}{Graphical interface}{63}{section*.56}%
+\contentsline {subsubsection}{Command line scripts}{63}{section*.59}%
+\contentsline {subsubsection}{The CXI database}{64}{section*.61}%
+\contentsline {subsection}{\numberline {2.7.4}BINoculars}{66}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.5}ROD}{68}{subsection.2.7.5}%
+\contentsline {chapter}{\numberline {3}Bragg coherent diffraction imaging study of Pt nanoparticles during the oxidation of ammonia}{69}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Experimental setup}{69}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Synthetizing platinum nanoparticle}{71}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Catalysis reactor calibration}{71}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}BCDI results}{72}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Facet analysis}{72}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Strain field energy}{73}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Empirical Analysis}{73}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Structural and chemical evolution of single Pt facets during the oxidation of ammonia}{75}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Surface x-ray diffraction on a Pt 111 single crystal}{75}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}XPS results}{75}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Empirical Analysis}{75}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Surface x-ray diffraction on a Pt 100 single crystal}{76}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Empirical Analysis}{76}{subsection.4.2.1}%

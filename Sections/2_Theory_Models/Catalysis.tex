@@ -31,15 +31,16 @@ Since the catalyst is in a different phase, it can be easily separated from the 
 This makes the catalyst recyclable and economically attractive for industrial processes \parencite{FECHETE20122}.
 
 There are a few key parameters to take into account when comparing the efficiency and performance between different catalysts \parencite{Boudart1995, ZHANG2019, WACHS2022}.
-On one hand, the \textit{turnover frequency} (TOF) refers to the number of reactant molecules catalyzed into product molecules by a single catalyst site per unit of time, expressed in units of moles of product formed per second per mole of active catalyst site.
-On the other hand, the \textit{turnover number} (TON) refers to the total number of reactant molecules that are converted into product molecules by a single catalyst site over the entire course of a reaction, and provides a measure of the catalyst's overall \textit{activity} and \textit{stability} throughout the entire reaction before deactivation.
-Finally, the \textit{selectivity} of the catalyst refers to its ability to favor the formation of a specific desired product or products over undesired side products.
+The \textit{turnover frequency} (TOF) refers to the number of reactant molecules catalyzed into product molecules by a single catalyst site per unit of time, expressed in units of moles of product formed per second per mole of active catalyst site, it is an indicator of the catalyst activity.
+The \textit{turnover number} (TON) refers to the total number of reactant molecules that are converted into product molecules by a single catalyst site over the entire course of a reaction, and provides a measure of the catalyst's overall \textit{activity} and \textit{stability} before deactivation.
+Finally, the \textit{selectivity} of the catalyst refers to its ability to favor the formation of a specific product or products over undesired products.
 
 Developing a catalyst that simultaneously fulfills all the desired requirements of high stability, selectivity, and activity for every chemical reaction remains an ongoing scientific pursuit \parencite{Hagen2016}.
 
 The Sabatier principle, at the origin of the Nobel price of chemistry of 1912 \parencite{Che2013}, states that when a heterogeneous catalyst is used, there exists an optimum catalyst binding energy for the reactant on the catalyst surface.
-If the catalyst binding energy is too weak, the reactant molecules do not adsorb strongly enough on the catalyst, leading to low reaction rates.
-On the other hand, if the catalyst binding energy is too strong, the reactant molecules bind too tightly and do not easily react with the other reactants, resulting in low selectivity and efficiency.
+On one hand, if the catalyst binding energy is too weak, the reactant molecules do not adsorb strongly enough on the catalyst, leading to low reaction rates.
+On the other hand, if the catalyst binding energy is too strong, the reactant molecules bind too tightly and do not easily react with the other reactant, resulting in low selectivity and efficiency.
+Moreover, if the adsorption is too strong, the product of the reaction is not able to desorb from the active site.
 
 \begin{figure}[!htb]
     \centering
@@ -47,13 +48,14 @@ On the other hand, if the catalyst binding energy is too strong, the reactant mo
     \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/ammonia/LH.png}
     \caption{
         In the Elley Rideal mechanisms (a) one of the reactants interacts directly from the gas phase with an adsorbed layer of the other reactant, whereas for the Langmuir Hinshelwood mechanism (b) both of the reactants are adsorbed on the catalyst's surface.
+        \textcolor{Important}{ADD ARROWS, ENERGY PATH FOR REAGENTS; ETC ...}
     }
     \label{fig:Mechanisms}
 \end{figure}
 
 In a founding study in \cite*{Langmuir1922}, Langmuir detailed the possible mechanisms of actions for heterogeneous catalysis.
-When studying bimolecular reactions, we are interested in two mechanims \parencite{catal12101134}.
-In the Langmuir–Hinshelwood mechanism, both reactants are adsorbed in adjacent spaces at the surface of the catalyst, and react on the surface to form the product which is subsequently desorbed from the surface \parencite{Prins2018, ROSS2019}.
+When studying bimolecular reactions, the Langmuir–Hinshelwood and Elley-Rideal mechanisms are two main mechanisms of interest \parencite{catal12101134}.
+In the Langmuir–Hinshelwood mechanism, both reactants are adsorbed in nearby sites at the surface of the catalyst, and react on the surface to form the product which is subsequently desorbed from the surface \parencite{Prins2018, ROSS2019}.
 In the Eley–Rideal mechanism, a reactant in the gas phase comes and interacts with the adsorbed reactant without being itself adsorbed, followed by the desorption of the product \parencite{rideal_1939, Weinberg1996}  (fig. \ref{fig:Mechanisms}).
 
 % In the third mechanism, an atom from the surface layer of the catalyst reacts with an adsorbed reactant, which creates a vacancy in his original position on the surface when the products is desorbed.
@@ -70,17 +72,23 @@ The first step towards the use of these experimental methods is to understand wh
 
 \subsection{Active sites in heterogeneous catalysis}
 
-In general, smaller catalysts have a higher surface area to volume ratio, which can increase the number of active sites available for catalysis, strongly related to the coordination geometry of the surface atoms \parencite{Vogt2022}.
+Heterogeneous catalysis being a surface process, the tendency is to use small particles which maximize the surface area to volume ratio, increasing the number of available active sites for catalysis \parencite{Vogt2022}.
 This statement is at the origin of the push towards ever smaller samples for heterogeneous catalysis, and at the origin of the increase of interest on nanoparticle catalysis \parencite{CHE1989, Molenbroek2009, Schauermann2013}.
-The surface of nanoparticles can be understood as covered by facets (fig. \ref{fig:Samples}) whose crystallographic orientation depends on the nanoparticle synthesis route, its size, and on the absence (Wulff construction) or not (Winterbottom construction) of substrate \parencite{Boukouvala2021}.
+The surface of nanoparticles can be understood as constituted of facets (fig. \ref{fig:Samples}) whose crystallographic orientation depends on the nanoparticle synthesis route, its size, and on the absence (Wulff construction) or not (Winterbottom construction) of substrate \parencite{Boukouvala2021}.
 The orientation and structure of each facet on the nanoparticle surface can be described by its Miller (hkl) indices.
-Between facets are the nanoparticle edges and corners, notorious for being very favorable adsorption sites due to a low local coordination geometry \parencite{Jiang2009, CalleVallejo2014, CalleVallejo2018}.
+Between facets are the nanoparticle edges and corners, notorious for being very favorable adsorption sites due to a low local coordination geometry \parencite{Jiang2009}.
+\cite{CalleVallejo2014}, \cite*{CalleVallejo2018} have used density dunctional theory (DFT) to show an approximate linear trend between the generalised coordination number $\bar{CN(i)}$ of a nanoparticle surface atom $i$ with $n_i$ neighbours (eq. \ref{eq:CN}) and its adsorption properties.
 The \textit{Taylor ratio} translates this effect by defining the fraction between active sites and the total exposed surface \parencite{Taylor1925}.
-WRITE ABOUT GENERALIZED COOR NB.
+
+\begin{equation}
+    \bar{CN(i)} = \sum_{j=1}^{n_i} \frac{cn(j) n_j}{cn_{max}}
+    \label{eq:CN}
+\end{equation}
+where \textit{cn} is the usual coordination number.%, \textit{i.e.} the number of neighbouring atoms.
 
 However, strong adsorption sites are not always the most active sites, following the Sabatier principle, it is possible that if the adsorption is too strong, there is no subsequent desorption of the reaction product \parencite{Nilsson2005, Jiang2009}.
 
-The activity of single facets can also be studied with \textit{single crystals}, much larger crystals, synthetized in a way so that their surface consists in a single facet (fig. \ref{fig:Samples}).
+The activity of single facets can also be studied with \textit{single crystals}, much larger crystals, synthetized in a way so that their macroscopic surface consists of a single crystallographic plane (fig. \ref{fig:Samples}).
 
 \begin{figure}[!htb]
     \centering
@@ -97,8 +105,10 @@ The activity of single facets can also be studied with \textit{single crystals},
 
 \subsection{Linking strain and reactivity}
 
-An early theoretical approach to the interaction between surface and adsorbates in heterogeneous catalysis has been proposed by Hammer, Norskov and Mavrikakis \parencite*{Hammer1995, Mavrikakis1998, Hammer2000} for transition metals, which is the main focus of this thesis.
+A modern theoretical approach to the interaction between surface and adsorbates in heterogeneous catalysis has been proposed by Hammer, Norskov and Mavrikakis \parencite*{Hammer1995, Mavrikakis1998, Hammer2000} for transition metals, which is the main focus of this thesis.
 
-In a crystalline lattice, the energy levels of electrons are so close that they form bands, the study considers that the energy levels of the \textit{d}-bands in transition metals is responsible for bonding and adsorption in catalytic reactions, the main conclusion being that there is a direct relation between tensile lattice strain, adsorption energy and surface reactivity, which has been confirmed by later studies \parencite{Kitchin2004, Kibler2005, Ontaneda2015}.
+In a crystalline lattice, the energy levels of electrons are so close that they form bands \parencite{Ashcroft76}, the study considers that the energy levels of the \textit{d}-bands in transition metals is responsible for bonding and adsorption in catalytic reactions, the main conclusion being that there is a direct relation between lattice strain, adsorption energy and surface reactivity, which has been confirmed by later studies \parencite{Kitchin2004, Kibler2005, Ontaneda2015}.
+Moreover, d-bands narrowing effect also justifies the difference between bulk, surfaces steps and kinks in terms of reactivity \parencite{Haydock1972, DESJONQUERES1975, EGELHOFF1987, Hammer2006}.
+\textcolor{Important}{Check ref}
 The application of this work has been demonstrated by Wang et al. in \cite*{Wang2016} and is at the origin of many scientific studies for strain engineering in catalysis, probed with techniques sensitive to the catalyst structure, \textit{i.e} to the lattice strain if the resolution is good enough, such as surface x-ray diffraction \parencite{Resta2020a}, and Bragg coherent diffraction imaging \parencite{Sneed2015, ulvestad_situ_2016, Kim2019, Bjorling2019, Passos2020, Carnis2021a, Carnis2021b, Dupraz2022} in which strain has been proven to impact the catalytic properties of the catalyst.
 

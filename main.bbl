@@ -322,6 +322,39 @@
       \verb 10.1021/acs.jpca.2c06778
       \endverb
     \endentry
+    \entry{Ashcroft76}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=61250c14134c39a8345b4a271c7df68e}{%
+           family={Ashcroft},
+           familyi={A\bibinitperiod},
+           given={N.\bibnamedelimi W.},
+           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5f10f77e7a1e023c7eacaca5e364c2c}{%
+           family={Mermin},
+           familyi={M\bibinitperiod},
+           given={N.\bibnamedelimi D.},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Saunders College Publishing}%
+      }
+      \strng{namehash}{f724088525104ebfbe2bb91ea281c2e7}
+      \strng{fullhash}{f724088525104ebfbe2bb91ea281c2e7}
+      \strng{bibnamehash}{f724088525104ebfbe2bb91ea281c2e7}
+      \strng{authorbibnamehash}{f724088525104ebfbe2bb91ea281c2e7}
+      \strng{authornamehash}{f724088525104ebfbe2bb91ea281c2e7}
+      \strng{authorfullhash}{f724088525104ebfbe2bb91ea281c2e7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Solid State Physics}
+      \field{year}{1976}
+    \endentry
     \entry{Atlan2023}{article}{}
       \name{author}{12}{}{%
         {{un=0,uniquepart=base,hash=2475b895ff7be1c11645602be8fbba26}{%
@@ -2997,11 +3030,45 @@
       \verb{doi}
       \verb 10.1088/1748-0221/11/12/P12018
       \endverb
-      \verb{urlraw}
-      \verb https://dx.doi.org/10.1088/1748-0221/11/12/P12018
-      \endverb
-      \verb{url}
-      \verb https://dx.doi.org/10.1088/1748-0221/11/12/P12018
+    \endentry
+    \entry{DESJONQUERES1975}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ad939b470c699ea7e1545bc3d127dc07}{%
+           family={Desjonquères},
+           familyi={D\bibinitperiod},
+           given={M.C.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aefb10bbe7bbce0b8587fc93f603d7aa}{%
+           family={Cyrot-Lackmann},
+           familyi={C\bibinithyphendelim L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9cf973d680ab43a6c1bc31ee48bbdd7d}
+      \strng{fullhash}{9cf973d680ab43a6c1bc31ee48bbdd7d}
+      \strng{bibnamehash}{9cf973d680ab43a6c1bc31ee48bbdd7d}
+      \strng{authorbibnamehash}{9cf973d680ab43a6c1bc31ee48bbdd7d}
+      \strng{authornamehash}{9cf973d680ab43a6c1bc31ee48bbdd7d}
+      \strng{authorfullhash}{9cf973d680ab43a6c1bc31ee48bbdd7d}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The local densities of states (LDS) on clean low-index surfaces of fcc Ni and bcc Fe are presented. They are calculated within the tight-binding approximation using a moment method and a continued fraction analysis. The d band degeneracy and the charge rearrangement occurring near the surface when cleaving the crystal are fully taken into account by computing exactly a large number of moments (22–26). The surface LDS are found to be strongly dependent on the cleavage plane. Indeed, whereas the LDS on dense planes are rather bulk like, sharp peaks arising from states localized near the surface are obtained near the atomic level of the metal on non-dense planes of cleavage. In addition, the bandwidth is broadened by surface states for Ni. On the contrary, for bcc Fe the surface potential is not strong enough to modify the bandwidth. A comparison is made with spectroscopic observations. The method lends itself to other interesting applications in the surface physics field and, as an example, we present the results of calculations of the spatial distribution of the electronic charge near the surface and its deviation from spherical symmetry. The charge asphericity is slightly increased when going from a bulk to a surface site as the difference between the occupations of two surface orbitals can reach 0.34 ē instead of 0.15 −c for a bulk site. Diagrams are shown for (100) and (110) cleaved Ni to illustrate the results. The consequences upon preferred adsorption sites according to the electronic affinity and size of the adsorbate are discussed.}
+      \field{issn}{0039-6028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{1}
+      \field{title}{Electronic surface states in cleaved transition metals}
+      \field{volume}{53}
+      \field{year}{1975}
+      \field{pages}{429\bibrangedash 442}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0039-6028(75)90142-9
       \endverb
     \endentry
     \entry{diaz_coherent_2009}{article}{}
@@ -3091,6 +3158,25 @@
       \endverb
       \verb{file}
       \verb APS Snapshot:/Users/marieingridrichard/Zotero/storage/J75QPSS4/e125324.html:text/html;APS Snapshot:/Users/marieingridrichard/Zotero/storage/5949VE3K/PhysRevB.79.html:text/html;Diaz et al. - 2009 - Coherent diffraction imaging of a single epitaxial.pdf:/Users/marieingridrichard/Zotero/storage/V3VV6JJW/Diaz et al. - 2009 - Coherent diffraction imaging of a single epitaxial.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{Diadem}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{Dispositifs Intégrés pour l’Accélération du DEploiement de Matériaux Emergents}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://anr.fr/fr/france-2030/france2030/call/pepr-diadem-appel-a-projets-dispositifs-integres-pour-lacceleration-du-deploiement-de-materiaux/
+      \endverb
+      \verb{url}
+      \verb https://anr.fr/fr/france-2030/france2030/call/pepr-diadem-appel-a-projets-dispositifs-integres-pour-lacceleration-du-deploiement-de-materiaux/
       \endverb
     \endentry
     \entry{Doniach_1970}{article}{}
@@ -3192,8 +3278,33 @@
       \verb 10.1107/S1600576713032342
       \endverb
     \endentry
+    \entry{Dupraz2016}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7812ec96d64e72c3272729b04125b734}{%
+           family={Dupraz},
+           familyi={D\bibinitperiod},
+           given={Maxime},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7812ec96d64e72c3272729b04125b734}
+      \strng{fullhash}{7812ec96d64e72c3272729b04125b734}
+      \strng{bibnamehash}{7812ec96d64e72c3272729b04125b734}
+      \strng{authorbibnamehash}{7812ec96d64e72c3272729b04125b734}
+      \strng{authornamehash}{7812ec96d64e72c3272729b04125b734}
+      \strng{authorfullhash}{7812ec96d64e72c3272729b04125b734}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Coherent X-ray diffraction applied to metal physics}
+      \field{type}{phdthesis}
+      \field{year}{2015}
+    \endentry
     \entry{Dupraz2022}{article}{}
-      \name{author}{18}{}{%
+      \name{author}{18}{ul=1}{%
         {{un=0,uniquepart=base,hash=7812ec96d64e72c3272729b04125b734}{%
            family={Dupraz},
            familyi={D\bibinitperiod},
@@ -3353,6 +3464,40 @@
       \field{year}{2021}
       \field{urldateera}{ce}
       \keyw{3d-graphics,bcdi-reconstruction,coherent-diffraction-imaging,data-processing,data-visualization,matlab-toolbox,phase-retrieval,phasing,phasor,x-ray}
+    \endentry
+    \entry{EGELHOFF1987}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9d5c5cc5f12ed4262751996a206bf714}{%
+           family={Egelhoff},
+           familyi={E\bibinitperiod},
+           given={W.F.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d5c5cc5f12ed4262751996a206bf714}
+      \strng{fullhash}{9d5c5cc5f12ed4262751996a206bf714}
+      \strng{bibnamehash}{9d5c5cc5f12ed4262751996a206bf714}
+      \strng{authorbibnamehash}{9d5c5cc5f12ed4262751996a206bf714}
+      \strng{authornamehash}{9d5c5cc5f12ed4262751996a206bf714}
+      \strng{authorfullhash}{9d5c5cc5f12ed4262751996a206bf714}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This review presents an overview of the theory and of various successful approaches to the interpretation of core-level binding-energy shifts observed in photoelectron spectroscopy. The review concentrates specifically on shifts since most of the chemical and physical insights provided by core levels are derived not from the core-level binding energies themselves but from shifts they exhibit. The theoretical background is presented at a level readily accessible to the general reader. Particular attention is paid to relative merits of the two basically different conceptual frameworks for interpreting core-level binding-energy shifts, the initial-state-final-state approach and the equivalent-core approach.}
+      \field{issn}{0167-5729}
+      \field{journaltitle}{Surface Science Reports}
+      \field{number}{6}
+      \field{title}{Core-level binding-energy shifts at surfaces and in solids}
+      \field{volume}{6}
+      \field{year}{1987}
+      \field{pages}{253\bibrangedash 415}
+      \range{pages}{163}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0167-5729(87)90007-0
+      \endverb
     \endentry
     \entry{Einstein1905}{article}{}
       \name{author}{1}{}{%
@@ -3904,6 +4049,43 @@
       \verb https://doi.org/10.1016/j.cattod.2012.04.003
       \endverb
       \keyw{Heterogeneous catalysis,History,Industrial realisations,Future,Challenges,New materials,Chemicals,Energy,Environment}
+    \endentry
+    \entry{FEIDENHANSL1989105}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d43018381f560ea89173f330594ca97b}{%
+           family={Feidenhans'l},
+           familyi={F\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d43018381f560ea89173f330594ca97b}
+      \strng{fullhash}{d43018381f560ea89173f330594ca97b}
+      \strng{bibnamehash}{d43018381f560ea89173f330594ca97b}
+      \strng{authorbibnamehash}{d43018381f560ea89173f330594ca97b}
+      \strng{authornamehash}{d43018381f560ea89173f330594ca97b}
+      \strng{authorfullhash}{d43018381f560ea89173f330594ca97b}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{X-ray diffraction has become an important tool for studying surfaces. We review the basic principles, the necessary instrumentation and show examples of successful structure determinations. Both the analysis of fractional-order reflections as well as the analysis of integer-order reflections, the crystal truncation rods, are discussed. The emphasis is put on the semiconductor (111) surfaces, which have been studied intensively.}
+      \field{issn}{0167-5729}
+      \field{journaltitle}{Surface Science Reports}
+      \field{number}{3}
+      \field{title}{Surface structure determination by X-ray diffraction}
+      \field{volume}{10}
+      \field{year}{1989}
+      \field{pages}{105\bibrangedash 188}
+      \range{pages}{84}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0167572989900022
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0167572989900022
+      \endverb
     \endentry
     \entry{fernandez_situ_2019}{article}{}
       \name{author}{12}{}{%
@@ -4964,6 +5146,48 @@
       \verb 10.1080/01614940.2020.1770402
       \endverb
     \endentry
+    \entry{Gupta1981}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bb50cedddff175bb639c26bb9b5271d8}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Raju\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{bb50cedddff175bb639c26bb9b5271d8}
+      \strng{fullhash}{bb50cedddff175bb639c26bb9b5271d8}
+      \strng{bibnamehash}{bb50cedddff175bb639c26bb9b5271d8}
+      \strng{authorbibnamehash}{bb50cedddff175bb639c26bb9b5271d8}
+      \strng{authornamehash}{bb50cedddff175bb639c26bb9b5271d8}
+      \strng{authorfullhash}{bb50cedddff175bb639c26bb9b5271d8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{12}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{06}
+      \field{title}{Lattice relaxation at a metal surface}
+      \field{volume}{23}
+      \field{year}{1981}
+      \field{pages}{6265\bibrangedash 6270}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.23.6265
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.23.6265
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.23.6265
+      \endverb
+    \endentry
     \entry{Gustafson2014}{article}{}
       \name{author}{10}{}{%
         {{un=0,uniquepart=base,hash=e9ef202445b76157c20fdf45a21dacb0}{%
@@ -5083,6 +5307,41 @@
       \field{year}{2016}
       \verb{doi}
       \verb 10.1002/3527607684
+      \endverb
+    \endentry
+    \entry{Hammer2006}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4479c9971d09a8f94f6dbef3cdf9cb0e}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4479c9971d09a8f94f6dbef3cdf9cb0e}
+      \strng{fullhash}{4479c9971d09a8f94f6dbef3cdf9cb0e}
+      \strng{bibnamehash}{4479c9971d09a8f94f6dbef3cdf9cb0e}
+      \strng{authorbibnamehash}{4479c9971d09a8f94f6dbef3cdf9cb0e}
+      \strng{authornamehash}{4479c9971d09a8f94f6dbef3cdf9cb0e}
+      \strng{authorfullhash}{4479c9971d09a8f94f6dbef3cdf9cb0e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An overview of recent advancements in density functional theory modeling of particularly reactive sites at noble and late transition metal surfaces is given. Such special sites include sites at the flat surfaces of thin metal films, sites at stepped surfaces, sites at the metal/oxide interface boundary for oxide-supported metal clusters, and sites at the perimeter of oxide islands grown on metal surfaces. The Newns--Anderson model of the electronic interaction underlying chemisorption is described. This provides the grounds for introducing the Hammer--N{ø}rskov d-band model that correlates changes in the energy center of the valence d-band density of states at the surface sites with their ability to form chemisorption bonds. A reactivity change described by this model is characterized as an electronic structure effect. Br{ø}nsted plots of energy barriers versus reaction energies are discussed from the surface reaction perspective and are used to analyze the trends in the calculated changes. Deviations in the relation between energy barriers and reaction energies in Br{ø}nsted plots are identified as due to atomic structure effects. The reactivity change from pure Pd surfaces to Pd thin films supported on MgO can be assigned to an electronic effect. Likewise for the reactivity change from flat Au surfaces, over Au thin films to Au edges and the Au/MgO interface boundary. The reactivity enhancement at atomic step sites is of both electronic and atomic structure nature for NO dissociation at Ru, Rh and Pd surfaces. The enhancement of the CO oxidation reactivity when moving from a CO+O coadsorption structure on Pt(111) to the PtO2 oxide island edges supported by Pt(111) is, however, identified as mainly an atomic structure effect. As such, it is linked to the occurrence of favorable pathways at the oxide island edges and is occurring despite of stronger adsorbate binding of the oxygen within the oxide edge, i.e. despite of an opposing electronic effect. As a final topic, a discussion is given of the accuracy of density functional theory in conjunction with surface reactions; adsorption, desorption, diffusion, and dissociation. Energy barriers are concluded to be more robust with respect to changes in the exchange-correlation functional than are molecular bond and adsorption energies.}
+      \field{issn}{1572-9028}
+      \field{journaltitle}{Topics in Catalysis}
+      \field{month}{03}
+      \field{number}{1}
+      \field{title}{Special Sites at Noble and Late Transition Metal Catalysts}
+      \field{volume}{37}
+      \field{year}{2006}
+      \field{pages}{3\bibrangedash 16}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/s11244-006-0004-y
       \endverb
     \endentry
     \entry{Hammer1995}{article}{}
@@ -5476,6 +5735,60 @@
       \endverb
       \keyw{ammonia oxidation,reaction mechanism,platinum,rhodium,palladium,gauzes,reaction engineering}
     \endentry
+    \entry{Haydock1972}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f6a0b580b3ca272cb81b3105bb794d29}{%
+           family={Haydock},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=244be42250499d7461572f010cbc9195}{%
+           family={Heine},
+           familyi={H\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b80dc199182182d817f0333444191630}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11a2dbaedd13decd42e5049497685d9d}{%
+           family={Pendry},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{eafb82d2f8717e87079ced3a7001c3f8}
+      \strng{fullhash}{160f88f671516ce41d23b0fb0a98bf04}
+      \strng{bibnamehash}{eafb82d2f8717e87079ced3a7001c3f8}
+      \strng{authorbibnamehash}{eafb82d2f8717e87079ced3a7001c3f8}
+      \strng{authornamehash}{eafb82d2f8717e87079ced3a7001c3f8}
+      \strng{authorfullhash}{160f88f671516ce41d23b0fb0a98bf04}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{13}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{09}
+      \field{title}{Electronic Density of States at Transition-Metal Surfaces}
+      \field{volume}{29}
+      \field{year}{1972}
+      \field{pages}{868\bibrangedash 871}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.29.868
+      \endverb
+    \endentry
     \entry{Heck1982}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=d9404421269e77e2bba4b67aaec74a42}{%
@@ -5781,6 +6094,44 @@
       \endverb
       \keyw{Bragg coherent diffractive imaging,dynamic diffraction,iterative phase reconstruction}
     \endentry
+    \entry{ThermalConductivityOfGases}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9b8699e54d228df3c99a32c19af69e0e}{%
+           family={Huber\bibnamedelimb M.\bibnamedelimi L.},
+           familyi={H\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Harvey\bibnamedelimb .\bibnamedelimi H.},
+           giveni={H\bibinitperiod\bibinitdelim .\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {National Institute of Standards}%
+        {Technology}%
+      }
+      \strng{namehash}{9b8699e54d228df3c99a32c19af69e0e}
+      \strng{fullhash}{9b8699e54d228df3c99a32c19af69e0e}
+      \strng{bibnamehash}{9b8699e54d228df3c99a32c19af69e0e}
+      \strng{authorbibnamehash}{9b8699e54d228df3c99a32c19af69e0e}
+      \strng{authornamehash}{9b8699e54d228df3c99a32c19af69e0e}
+      \strng{authorfullhash}{9b8699e54d228df3c99a32c19af69e0e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thermal conductivity of gases}
+      \field{urlday}{20}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=907540
+      \endverb
+      \verb{url}
+      \verb https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=907540
+      \endverb
+    \endentry
     \entry{hunter2007matplotlib}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a2f53dcc6bb05a06b8ad94176f80fe26}{%
@@ -6032,6 +6383,25 @@
       \verb 10.1021/jp811185g
       \endverb
     \endentry
+    \entry{JupyterNotebook7}{online}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{Jupyter Notebook 7}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.jupyter.org/announcing-jupyter-notebook-7-8d6d66126dcf
+      \endverb
+      \verb{url}
+      \verb https://blog.jupyter.org/announcing-jupyter-notebook-7-8d6d66126dcf
+      \endverb
+    \endentry
     \entry{Kaganer2007}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=63454c49ddced68bfd7f7b70db4ae2ea}{%
@@ -6202,6 +6572,44 @@
       \verb https://doi.org/10.1002/anie.200462127
       \endverb
       \keyw{adsorption,electrochemistry,heterogeneous catalysis,monolayers,oxidation,surface chemistry}
+    \endentry
+    \entry{Kiessig1931}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b76f735bd36fcc0416c7543976dfca7c}{%
+           family={Kiessig},
+           familyi={K\bibinitperiod},
+           given={Heinz},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{fullhash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{bibnamehash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{authorbibnamehash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{authornamehash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{authorfullhash}{b76f735bd36fcc0416c7543976dfca7c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annalen der Physik}
+      \field{number}{7}
+      \field{title}{Interferenz von Röntgenstrahlen an dünnen Schichten}
+      \field{volume}{402}
+      \field{year}{1931}
+      \field{pages}{769\bibrangedash 788}
+      \range{pages}{20}
+      \verb{doi}
+      \verb https://doi.org/10.1002/andp.19314020702
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/andp.19314020702
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/andp.19314020702
+      \endverb
     \endentry
     \entry{kim_active_2018}{article}{}
       \name{author}{16}{ul=3}{%
@@ -7525,8 +7933,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We explore the use of continuous scanning during data acquisition for Bragg coherent diffraction imaging, i.e., where the sample is in continuous motion. The fidelity of continuous scanning Bragg coherent diffraction imaging is demonstrated on a single Pt nanoparticle in a flow reactor at 400∘C in an Ar-based gas flowed at 50 ml/min. We show a reduction of 30\% in total scan time compared to conventional step-by-step scanning. The reconstructed Bragg electron density, phase, displacement and strain fields are in excellent agreement with the results obtained from conventional step-by-step scanning. Continuous scanning will allow to minimise sample instability under the beam and will become increasingly important at diffraction-limited storage ring light sources.}
-      \field{annotation}{Continuous scanning --> We show a reduction of 30\% in total scan time compared to conventional step‑by‑step scanning.}
+      \field{abstract}{We explore the use of continuous scanning during data acquisition for Bragg coherent diffraction imaging, i.e., where the sample is in continuous motion. The fidelity of continuous scanning Bragg coherent diffraction imaging is demonstrated on a single Pt nanoparticle in a flow reactor at 400∘C in an Ar-based gas flowed at 50ml/min. We show a reduction of 30\% in total scan time compared to conventional step-by-step scanning. The reconstructed Bragg electron density, phase, displacement and strain fields are in excellent agreement with the results obtained from conventional step-by-step scanning. Continuous scanning will allow to minimise sample instability under the beam and will become increasingly important at diffraction-limited storage ring light sources.}
       \field{isbn}{0123456789}
       \field{issn}{20452322}
       \field{journaltitle}{Scientific Reports}
@@ -7538,9 +7945,6 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1038/s41598-020-69678-5
-      \endverb
-      \verb{file}
-      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Li et al. - 2020 - Continuous scanning for Bragg coherent X-ray imaging.pdf:pdf
       \endverb
     \endentry
     \entry{Yawei2015}{article}{}
@@ -7591,51 +7995,99 @@
       \verb 10.1039/C5NR00092K
       \endverb
     \endentry
-    \entry{Lorensen1987}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=966edb0a4087f42b3518503987e61399}{%
-           family={Lorensen},
+    \entry{Lim2021}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=de8c87f38de33f400411d366edb9e231}{%
+           family={Lim},
            familyi={L\bibinitperiod},
-           given={William\bibnamedelima E.},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Bruce},
+           giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=74f056f6ffac9cb2f26904eca44820de}{%
-           family={Cline},
+        {{un=0,uniquepart=base,hash=d98241a78b01a1b1584f88b9810be43a}{%
+           family={Bellec},
+           familyi={B\bibinitperiod},
+           given={Ewen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7812ec96d64e72c3272729b04125b734}{%
+           family={Dupraz},
+           familyi={D\bibinitperiod},
+           given={Maxime},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=099fdebca478a0a5ef972975b74a20bb}{%
+           family={Leake},
+           familyi={L\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=095401660ec6b30ea5677c39096e8cae}{%
+           family={Resta},
+           familyi={R\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=116823dc16a2ffe740374b23c6bf69cf}{%
+           family={Coati},
            familyi={C\bibinitperiod},
-           given={Harvey\bibnamedelima E.},
-           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={Alessandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f67d742a28b734db8dc8ef08f0dd9591}{%
+           family={Sprung},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d20d588aa69377481af85a16ca052479}{%
+           family={Almog},
+           familyi={A\bibinitperiod},
+           given={Ehud},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b271749bc2e24b884c32a661ed39a31d}{%
+           family={Rabkin},
+           familyi={R\bibinitperiod},
+           given={Eugen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bad0e06edd7d13a4117bca4ca5cd6f88}{%
+           family={Schulli},
+           familyi={S\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8337e20d13dbfa35881a3b2044706fc4}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Marie-Ingrid},
+           giveni={M\bibinithyphendelim I\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {New York, NY, USA}%
-      }
-      \list{publisher}{1}{%
-        {Association for Computing Machinery}%
-      }
-      \strng{namehash}{c04f319f1cd4852327f00c52da26c78e}
-      \strng{fullhash}{c04f319f1cd4852327f00c52da26c78e}
-      \strng{bibnamehash}{c04f319f1cd4852327f00c52da26c78e}
-      \strng{authorbibnamehash}{c04f319f1cd4852327f00c52da26c78e}
-      \strng{authornamehash}{c04f319f1cd4852327f00c52da26c78e}
-      \strng{authorfullhash}{c04f319f1cd4852327f00c52da26c78e}
+      \strng{namehash}{856d943718d850f2d3a19fceea16f901}
+      \strng{fullhash}{891f94649ff13063caedb81421927ad0}
+      \strng{bibnamehash}{856d943718d850f2d3a19fceea16f901}
+      \strng{authorbibnamehash}{856d943718d850f2d3a19fceea16f901}
+      \strng{authornamehash}{856d943718d850f2d3a19fceea16f901}
+      \strng{authorfullhash}{891f94649ff13063caedb81421927ad0}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We present a new algorithm, called marching cubes, that creates triangle models of constant density surfaces from 3D medical data. Using a divide-and-conquer approach to generate inter-slice connectivity, we create a case table that defines triangle topology. The algorithm processes the 3D medical data in scan-line order and calculates triangle vertices using linear interpolation. We find the gradient of the original data, normalize it, and use it as a basis for shading the models. The detail in images produced from the generated surface models is the result of maintaining the inter-slice connectivity, surface data, and gradient information present in the original 3D data. Results from computed tomography (CT), magnetic resonance (MR), and single-photon emission computed tomography (SPECT) illustrate the quality and functionality of marching cubes. We also discuss improvements that decrease processing time and add solid modeling capabilities.}
-      \field{issn}{0097-8930}
-      \field{journaltitle}{SIGGRAPH Comput. Graph.}
-      \field{month}{8}
-      \field{number}{4}
-      \field{title}{Marching Cubes: A High Resolution 3D Surface Construction Algorithm}
-      \field{volume}{21}
-      \field{year}{1987}
-      \field{pages}{163\bibrangedash 169}
-      \range{pages}{7}
+      \field{abstract}{Coherent diffraction imaging enables the imaging of individual defects, such as dislocations or stacking faults, in materials. These defects and their surrounding elastic strain fields have a critical influence on the macroscopic properties and functionality of materials. However, their identification in Bragg coherent diffraction imaging remains a challenge and requires significant data mining. The ability to identify defects from the diffraction pattern alone would be a significant advantage when targeting specific defect types and accelerates experiment design and execution. Here, we exploit a computational tool based on a three-dimensional (3D) parametric atomistic model and a convolutional neural network to predict dislocations in a crystal from its 3D coherent diffraction pattern. Simulated diffraction patterns from several thousands of relaxed atomistic configurations of nanocrystals are used to train the neural network and to predict the presence or absence of dislocations as well as their type (screw or edge). Our study paves the way for defect-recognition in 3D coherent diffraction patterns for material science.}
+      \field{issn}{2057-3960}
+      \field{journaltitle}{npj Computational Materials}
+      \field{month}{07}
+      \field{number}{1}
+      \field{title}{A convolutional neural network for defect classification in Bragg coherent X-ray diffraction}
+      \field{volume}{7}
+      \field{year}{2021}
+      \field{pages}{115}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1145/37402.37422
+      \verb 10.1038/s41524-021-00583-9
       \endverb
     \endentry
     \entry{LucyAlgo1974}{article}{}
@@ -8199,6 +8651,60 @@
       \field{year}{1998}
       \verb{doi}
       \verb 10.1016/j.jcat.2020.07.030
+      \endverb
+    \endentry
+    \entry{MCALISTER2003629}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=493cad986283bc425554ac0be93414a8}{%
+           family={McAlister},
+           familyi={M\bibinitperiod},
+           given={Harold\bibnamedelima A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=7f936ba7a00efb9cbc751c65eb2fd482}{%
+           family={Meyers},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{493cad986283bc425554ac0be93414a8}
+      \strng{fullhash}{493cad986283bc425554ac0be93414a8}
+      \strng{bibnamehash}{493cad986283bc425554ac0be93414a8}
+      \strng{authorbibnamehash}{493cad986283bc425554ac0be93414a8}
+      \strng{authornamehash}{493cad986283bc425554ac0be93414a8}
+      \strng{authorfullhash}{493cad986283bc425554ac0be93414a8}
+      \strng{editorbibnamehash}{7f936ba7a00efb9cbc751c65eb2fd482}
+      \strng{editornamehash}{7f936ba7a00efb9cbc751c65eb2fd482}
+      \strng{editorfullhash}{7f936ba7a00efb9cbc751c65eb2fd482}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Encyclopedia of Physical Science and Technology (Third Edition)}
+      \field{edition}{Third Edition}
+      \field{isbn}{978-0-12-227410-7}
+      \field{title}{Speckle Interferometry}
+      \field{year}{2003}
+      \field{pages}{629\bibrangedash 636}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B0-12-227410-5/00719-5
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B0122274105007195
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B0122274105007195
       \endverb
     \endentry
     \entry{McCabe1986}{article}{}
@@ -8765,6 +9271,45 @@
       \endverb
       \keyw{Heterogeneous catalysis,In situ characterization techniques,Nano-particles}
     \endentry
+    \entry{moritz_van_hove_2022}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1fefef7eaa74142e021be86cc56fccb5}{%
+           family={Moritz},
+           familyi={M\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef38553e511c09b947d2ccc2611c0799}{%
+           family={Van\bibnamedelima Hove},
+           familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Michel\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{60428c30e7e239349be3f0775b9e01c6}
+      \strng{fullhash}{60428c30e7e239349be3f0775b9e01c6}
+      \strng{bibnamehash}{60428c30e7e239349be3f0775b9e01c6}
+      \strng{authorbibnamehash}{60428c30e7e239349be3f0775b9e01c6}
+      \strng{authornamehash}{60428c30e7e239349be3f0775b9e01c6}
+      \strng{authorfullhash}{60428c30e7e239349be3f0775b9e01c6}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Surface Structure Determination by LEED and X-rays}
+      \field{title}{Surface X-ray Diffraction}
+      \field{year}{2022}
+      \field{pages}{285\bibrangedash 361}
+      \range{pages}{77}
+      \verb{doi}
+      \verb 10.1017/9781108284578.009
+      \endverb
+    \endentry
     \entry{Munafo2017}{article}{}
       \name{author}{10}{}{%
         {{un=0,uniquepart=base,hash=7779737cd6ea333b790b0db9eb198bd1}{%
@@ -8858,6 +9403,64 @@
       \endverb
       \verb{file}
       \verb :home/david/Downloads/s41562-016-0021.pdf:pdf
+      \endverb
+    \endentry
+    \entry{MUSKET1982143}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=71756d91aede57d4d572d55930eb0bea}{%
+           family={Musket},
+           familyi={M\bibinitperiod},
+           given={R.G.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f97a6413c9a7118acc4aea3e37f0c183}{%
+           family={McLean},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3392821eb1b55cf9774ad33ecca7b4c}{%
+           family={Colmenares},
+           familyi={C\bibinitperiod},
+           given={C.A.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f61e790e0254545036bb9ac577080cad}{%
+           family={Makowiecki},
+           familyi={M\bibinitperiod},
+           given={D.M.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b197718e3e275120f226b1724d1fbcd}{%
+           family={Siekhaus},
+           familyi={S\bibinitperiod},
+           given={W.J.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1326a5f4ede2abeaf6b0ef8dd1ddbb22}
+      \strng{fullhash}{eadb9a8f951160fdc80baf3b1436c900}
+      \strng{bibnamehash}{1326a5f4ede2abeaf6b0ef8dd1ddbb22}
+      \strng{authorbibnamehash}{1326a5f4ede2abeaf6b0ef8dd1ddbb22}
+      \strng{authornamehash}{1326a5f4ede2abeaf6b0ef8dd1ddbb22}
+      \strng{authorfullhash}{eadb9a8f951160fdc80baf3b1436c900}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Surface cleaning procedures for seventy four of the elements having vapor pressures below 1.3 × 10−7 Pa at room temperature have been reviewed and evaluated. The emphasis was on in-situ procedures used to produce a clean surface on a macroscopic bulk sample in an ultra-high vacuum environment. In this review an atomically clean surface was defined to be an annealed surface (except where noted) at ambient temperature with a total surface contamination level of less than a few percent of a monolater. Wherever possible only cleaning methods documented by element- specific, surface-analytical techniques were reviewed and subsequently incorporated into the table of recommended procedures. For some elements a variety of procedures was deemed acceptable. Any differences in methods for polycrystalline and single-crystalline surfaces of the same element have been detailed. References to the reviewed literature are grouped by element.}
+      \field{issn}{0378-5963}
+      \field{journaltitle}{Applications of Surface Science}
+      \field{number}{2}
+      \field{title}{Preparation of atomically clean surfaces of selected elements: A review}
+      \field{volume}{10}
+      \field{year}{1982}
+      \field{pages}{143\bibrangedash 207}
+      \range{pages}{65}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0378-5963(82)90142-8
       \endverb
     \endentry
     \entry{Newton2010}{article}{}
@@ -9792,6 +10395,44 @@
       \verb 10.1007/s11244-018-0948-8
       \endverb
     \endentry
+    \entry{RaschkaMirjalili2019}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bb679961e3f3f4bba79fc1cf3aa7df1c}{%
+           family={Raschka},
+           familyi={R\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea5b3d38b4b9dc9c54ee2a9c3d6c7437}{%
+           family={Mirjalili},
+           familyi={M\bibinitperiod},
+           given={Vahid},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Birmingham, UK}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing}%
+      }
+      \strng{namehash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{fullhash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{bibnamehash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{authorbibnamehash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{authornamehash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \strng{authorfullhash}{70b021b69c6a4d9d9ffa597a634487d5}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{isbn}{978-1789955750}
+      \field{title}{{Python Machine Learning, 3rd Ed.}}
+      \field{year}{2019}
+    \endentry
     \entry{Thermofischer}{online}{}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -10432,7 +11073,6 @@
       \strng{authorbibnamehash}{e196a9bb69ed22c754ed65fc9062cd3c}
       \strng{authornamehash}{e196a9bb69ed22c754ed65fc9062cd3c}
       \strng{authorfullhash}{53c451f64feab69b22277563c4ea1ae6}
-      \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -10485,7 +11125,7 @@
       \range{pages}{7}
     \endentry
     \entry{robinson_coherent_2005}{article}{}
-      \name{author}{4}{ul=1}{%
+      \name{author}{4}{ul=2}{%
         {{un=2,uniquepart=given,hash=892104b4cadaea7613199fef90707a6c}{%
            family={Robinson},
            familyi={R\bibinitperiod},
@@ -10514,13 +11154,12 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{e196a9bb69ed22c754ed65fc9062cd3c}
+      \strng{namehash}{58645c2895f47bf8b336b81a3935b366}
       \strng{fullhash}{a1f0106225b924ae73f802e1d3ad691e}
-      \strng{bibnamehash}{e196a9bb69ed22c754ed65fc9062cd3c}
-      \strng{authorbibnamehash}{e196a9bb69ed22c754ed65fc9062cd3c}
-      \strng{authornamehash}{e196a9bb69ed22c754ed65fc9062cd3c}
+      \strng{bibnamehash}{58645c2895f47bf8b336b81a3935b366}
+      \strng{authorbibnamehash}{58645c2895f47bf8b336b81a3935b366}
+      \strng{authornamehash}{58645c2895f47bf8b336b81a3935b366}
       \strng{authorfullhash}{a1f0106225b924ae73f802e1d3ad691e}
-      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -10547,6 +11186,41 @@
       \verb{file}
       \verb Robinson et al. - 2005 - Coherent diffraction patterns of individual disloc.pdf:/Users/marieingridrichard/Zotero/storage/23ARZPKG/Robinson et al. - 2005 - Coherent diffraction patterns of individual disloc.pdf:application/pdf;Snapshot:/Users/marieingridrichard/Zotero/storage/XPXVIUAU/002.html:text/html
       \endverb
+    \endentry
+    \entry{Robinson1991}{incollection}{}
+      \name{author}{2}{}{%
+        {{un=2,uniquepart=given,hash=892104b4cadaea7613199fef90707a6c}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={I.\bibnamedelimi K.},
+           giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=2b70813fab9534b1ce68f411afe16264}{%
+           family={Tweet},
+           familyi={T\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{84197f0f583ebeba9e23ec7878edeb53}
+      \strng{fullhash}{84197f0f583ebeba9e23ec7878edeb53}
+      \strng{bibnamehash}{84197f0f583ebeba9e23ec7878edeb53}
+      \strng{authorbibnamehash}{84197f0f583ebeba9e23ec7878edeb53}
+      \strng{authornamehash}{84197f0f583ebeba9e23ec7878edeb53}
+      \strng{authorfullhash}{84197f0f583ebeba9e23ec7878edeb53}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A general introduction to x-ray diffraction and its application to the study of surfaces and interfaces is presented. The application of x-ray diffractkm to various problems in surface and interface science is illustrated through five different techniques: crystal truncation rod analysis, two-dimensional crystallography, three-dimensional structure analysis, the evanescent wave method and lineshape analysis. These techniques are explained with numerous examples from recent experiments and with the aid of an extensive bibliography.}
+      \field{booktitle}{Rep. Prog. Phys}
+      \field{title}{{Surface X-ray diffraction}}
+      \field{volume}{55}
+      \field{year}{1991}
+      \field{pages}{599\bibrangedash 651}
+      \range{pages}{53}
     \endentry
     \entry{robinson_coherent_2009}{article}{}
       \name{author}{2}{}{%
@@ -11380,41 +12054,6 @@
       \verb 10.1109/JRPROC.1949.232969
       \endverb
     \endentry
-    \entry{Simonne_Thorondor_2022_Diamond}{software}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=72d1584b3a2339e60f032d44ade9b7bb}{%
-           family={Simonne},
-           familyi={S\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{72d1584b3a2339e60f032d44ade9b7bb}
-      \strng{fullhash}{72d1584b3a2339e60f032d44ade9b7bb}
-      \strng{bibnamehash}{72d1584b3a2339e60f032d44ade9b7bb}
-      \strng{authorbibnamehash}{72d1584b3a2339e60f032d44ade9b7bb}
-      \strng{authornamehash}{72d1584b3a2339e60f032d44ade9b7bb}
-      \strng{authorfullhash}{72d1584b3a2339e60f032d44ade9b7bb}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{08}
-      \field{title}{Thorondor}
-      \field{version}{0.4.0}
-      \field{year}{2022}
-      \verb{doi}
-      \verb https://doi.org/10.1107/S1600577520011388
-      \endverb
-      \verb{urlraw}
-      \verb https://github.com/DSimonne/thorondor/tree/diamond
-      \endverb
-      \verb{url}
-      \verb https://github.com/DSimonne/thorondor/tree/diamond
-      \endverb
-    \endentry
     \entry{Simonne2022}{article}{}
       \name{author}{11}{ul=2}{%
         {{un=0,uniquepart=base,hash=72d1584b3a2339e60f032d44ade9b7bb}{%
@@ -11783,6 +12422,41 @@
       \verb https://doi.org/10.1002/cctc.201900971
       \endverb
       \keyw{Machine learning,Catalysis informatics,Methane oxidative coupling,Water gas shift,CO oxidation}
+    \endentry
+    \entry{Taglauer1990}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b31af3b7d42649ae7adf56e061c2f22b}{%
+           family={Taglauer},
+           familyi={T\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b31af3b7d42649ae7adf56e061c2f22b}
+      \strng{fullhash}{b31af3b7d42649ae7adf56e061c2f22b}
+      \strng{bibnamehash}{b31af3b7d42649ae7adf56e061c2f22b}
+      \strng{authorbibnamehash}{b31af3b7d42649ae7adf56e061c2f22b}
+      \strng{authornamehash}{b31af3b7d42649ae7adf56e061c2f22b}
+      \strng{authorfullhash}{b31af3b7d42649ae7adf56e061c2f22b}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this article sputtering phenomena as related to the removal of contaminant layers from surfaces are reviewed. Basic relations for sputtering of adsorbed layers by ion bombardment and the corresponding cross sections are discussed in the introductory part. The following section presents models for the sputtering of overlayers with the intention of understanding the relevant physical processes and to obtain quantitative estimates. Subsequently, undesirable by-products of ion bombardment, such as surface damage, particle implantation and preferential sputtering are considered. A concise experimental section deals with ion beam and glow discharge techniques applied for surface cleaning as well as with some surface analytical methods (Auger electron spectroscopy, low-energy ion scattering, secondary ion mass spectroscopy) which are useful and necessary to check the obtained cleaning effect. In the final section various examples are given and some conclusions are drawn for the efficiency of surface cleaning by sputtering.}
+      \field{issn}{1432-0630}
+      \field{journaltitle}{Applied Physics A}
+      \field{month}{09}
+      \field{number}{3}
+      \field{title}{Surface cleaning using sputtering}
+      \field{volume}{51}
+      \field{year}{1990}
+      \field{pages}{238\bibrangedash 251}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/BF00324008
+      \endverb
     \endentry
     \entry{Takagi1962}{report}{}
       \name{author}{1}{}{%
@@ -12848,6 +13522,41 @@
       \verb 10.1002/9781119280453
       \endverb
     \endentry
+    \entry{Wood1964}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=83ac13d2b86bfaa352136bba9699193e}{%
+           family={Wood},
+           familyi={W\bibinitperiod},
+           given={Elizabeth\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{83ac13d2b86bfaa352136bba9699193e}
+      \strng{fullhash}{83ac13d2b86bfaa352136bba9699193e}
+      \strng{bibnamehash}{83ac13d2b86bfaa352136bba9699193e}
+      \strng{authorbibnamehash}{83ac13d2b86bfaa352136bba9699193e}
+      \strng{authornamehash}{83ac13d2b86bfaa352136bba9699193e}
+      \strng{authorfullhash}{83ac13d2b86bfaa352136bba9699193e}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{The recent increase of activity in the field of slow‐electron diffraction has resulted in a need for agreement on conventions of terminology in the description of a diperiodic surface structure relative to a triperiodic substrate. Vector description of the surface structure net in terms of the substrate surface net is suggested. Fractional Miller indices result when the surface structure mesh is larger than the substrate surface mesh. The surface structure may be either that of a deposit or that of the selvedge of the substrate.With the relaxation of one of the diffraction conditions in the diperiodic structure the reciprocal lattice becomes a set of parallel rods intersecting the Ewald sphere continuously with change of wavelength of the incident radiation or change of orientation of the crystal.The paper discusses the applicability of the seventeen two‐dimensional space groups and the eighty diperiodic groups in three dimensions to these diperiodic structures. A comparison is made between the different effects of surface symmetry on etch pits and epitaxial deposits on the cleavage face of muscovite.}}
+      \field{issn}{0021-8979}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{month}{07}
+      \field{number}{4}
+      \field{title}{{Vocabulary of Surface Crystallography}}
+      \field{volume}{35}
+      \field{year}{1964}
+      \field{pages}{1306\bibrangedash 1312}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1063/1.1713610
+      \endverb
+    \endentry
     \entry{Wu2021a}{article}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=613da3dfad9727fd4db360b7b5c91375}{%
@@ -13079,6 +13788,91 @@
       \range{pages}{8}
       \verb{doi}
       \verb https://doi.org/10.1016/j.joule.2019.11.005
+      \endverb
+    \endentry
+    \entry{Zhdanov1997}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b9e84b61420eb0bd4ca192d921ccaf9e}{%
+           family={Zhdanov},
+           familyi={Z\bibinitperiod},
+           given={V.\bibnamedelimi P.},
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c138c0391ce7e0cbaabc1addcc3d33a2}{%
+           family={Kasemo},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{23cd095870a1e41624f0e84d66e4013a}
+      \strng{fullhash}{23cd095870a1e41624f0e84d66e4013a}
+      \strng{bibnamehash}{23cd095870a1e41624f0e84d66e4013a}
+      \strng{authorbibnamehash}{23cd095870a1e41624f0e84d66e4013a}
+      \strng{authornamehash}{23cd095870a1e41624f0e84d66e4013a}
+      \strng{authorfullhash}{23cd095870a1e41624f0e84d66e4013a}
+      \field{extraname}{1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{16}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{10}
+      \field{title}{Effect of adsorption on surface roughening}
+      \field{volume}{56}
+      \field{year}{1997}
+      \field{pages}{R10067\bibrangedash R10070}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.56.R10067
+      \endverb
+    \endentry
+    \entry{Zhdanov1998}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b9e84b61420eb0bd4ca192d921ccaf9e}{%
+           family={Zhdanov},
+           familyi={Z\bibinitperiod},
+           given={V.\bibnamedelimi P.},
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c138c0391ce7e0cbaabc1addcc3d33a2}{%
+           family={Kasemo},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{23cd095870a1e41624f0e84d66e4013a}
+      \strng{fullhash}{23cd095870a1e41624f0e84d66e4013a}
+      \strng{bibnamehash}{23cd095870a1e41624f0e84d66e4013a}
+      \strng{authorbibnamehash}{23cd095870a1e41624f0e84d66e4013a}
+      \strng{authornamehash}{23cd095870a1e41624f0e84d66e4013a}
+      \strng{authorfullhash}{23cd095870a1e41624f0e84d66e4013a}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{Using the Monte Carlo (MC) technique, we have analyzed the kinetics of roughening of a clean surface at T\\&gt;TR (TR is the roughening temperature), the kinetics of relaxation from a roughened to a flat surface at T\\&lt;TR, the effect of adsorption on surface roughening, and the influence of adsorbate-induced roughening on the kinetics of the catalytic 2A+B2→2AB reaction. (i) For a clean surface, the results were obtained by employing the standard restricted-solid-on-solid (RSOS) model with surface diffusion occurring via jumps to nearest-neighbor and next-nearest-neighbor sites. The kinetics of surface roughening at T\\&gt;TR and of surface relaxation at T\\&lt;TR are found to be logarithmic in time. In particular, the mean-square height difference at T\\&gt;TR increases with time as w2∝ln t. (ii) Complementing the RSOS model by terms describing adsorption, we demonstrate that adsorbate-induced surface roughening may occur with significant lowering of TR, due, respectively, to indirect next-nearest-neighbor adsorbate–substrate repulsion, attractive nearest- neighbor adsorbate–substrate lateral interaction, and/or repulsive adsorbate-adsorbate lateral interaction. In all these cases, the ratio of TRnear adsorbate saturation and for the clean surface, respectively, is given by an analytical expression that is a simple combination of the corresponding interactions. The coverage dependence of TR in MC simulations is nonlinear and slightly different compared to the mean-field-type prediction. (iii) The effect of adsorbate-induced roughening on a catalytic reaction can be dramatic even at weak roughening, with qualitative and quantitative changes in the kinetics. For example, the absolute conversion rate at maximum rate, and the reactant mixture corresponding to this maximum can be very different on the flat and roughened surface. The behavior of the adsorbate coverages near the points corresponding to the kinetic phase transitions can change character qualitatively.}}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{03}
+      \field{number}{11}
+      \field{title}{{Surface roughening: Kinetics, adsorbate-induced effects, and manifestation in catalytic reactions}}
+      \field{volume}{108}
+      \field{year}{1998}
+      \field{pages}{4582\bibrangedash 4590}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1063/1.476504
       \endverb
     \endentry
     \entry{Zhong2021}{article}{}

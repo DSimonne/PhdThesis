@@ -1,0 +1,210 @@
+\textcolor{red}{This Chapter should demonstrate that you have conducted a thorough and critical investigation of relevant sources.
+Apart from a presentation of the sources of your data, this chapter allows you to critically discuss the data (whatever these data are, ‘quantitative’ or ‘qualitative’, primary or secondary), which is proof of good research. You can even do good research with poor data but you must demonstrate that you are aware of the data quality and accordingly are careful in your interpretations. Essentially, there are three aspects to consider:
+\begin{enumerate}
+\item	Reliability, which, for example, could depend on whether they are estimates or more direct evidence;
+\item	Representativity, which is about how typical the data are; for example, you may have arguments why the very few cases are typical or you may carry out statistical tests;
+\item Validity, which is about the relevance of the data for your case. Strictly speaking, sometimes no valid data are available but one may argue that there are other data which could be used as ‘proxies’.) 
+\end{enumerate}
+}
+
+\section{Experimental setup}
+
+The BCDI experiment was performed at the SixS (Surface Interface X-ray Scattering) beamline of synchrotron SOLEIL, France (sec. \ref{sec:SIXS}).
+As detailed in sec. \ref{sec:Gwaihir}, one of the bottlenecks of the BCDI technique is its slow data reduction and analysis process.
+Moreover, on $3^{rd}$ generation synchrotrons that offer a lower coherent flux (eq. \ref{eq:CoherentFlux}) than $4^{th}$ generation synchrotrons, the measurement time can also be very long.
+For example, at SixS, a rocking curve lasts between \qtyrange{30}{90}{\min} depending on the particle size, the quality of the alignment, the strain of the particle, \textit{etc.}
+Once the raw data is obtained, the particle must be \textit{reconstructed} (sec. \ref{sec:PhaseRetrieval}), and - if of interest - the displacement and strain arrays can be retrieved.
+The analysis workflow can take up to an hour, which totals to an average of two hours from the start of the measurement to the moment when the user has a good idea of the sample shape and structure.
+
+SixS is a beamline that does not only carry out BCDI experiment, but also SXRD experiments, in the same experimental end-station (sec. \ref{sec:MED}).
+When aiming at performing \textit{operando} catalysis experiments, switching from one setup to another can take up to a few days.
+This leaves only a limited remaining amount of time to align the sample, find a suitable nanoparticle, and carry out the experimental plan.
+
+Li \textit{et al.} \parencite*{Li2020}, who have first shown that the SixS beamline could be used to carry out BCDI experiment, also started to work on improving the BCDI measurement process.
+By comparing continuous and step-by-step measurements, they have shown that continous scanning would result in the same data quality while decreasing the measurement dead-time by \qty{30}{\percent}, thereby paving the way for quicker BCDI measurements.
+
+During this thesis, the measurement process was further improved by taking advantage of the new possibility to perform continuous \textit{on-the-fly} scans at SixS, while moving the hexapod holding the sample.
+When using the coherence setup (fig. \ref{fig:OpticalSetup}) in the vertical geometry fig. \ref{fig:Diffractometer}), the beam is focused on the sample and is about \qty{1}{\um} large vertically, the horizontal footprint depending on the incident angle between the beam and the sample.
+By satisfying Bragg's law in a specular geometry, the incoming angle is set to the Bragg angle $\theta$ (eq. \ref{eq:Bragglaw}).
+The scattered x-rays are then collected by setting the out-of-plane detector angle $\gamma$ at a position $2\theta$ (similar to fig. \ref{fig:EwaldSphereSpecular}).
+Finally, by simultaneously moving the sample with the hexapod and recording the Bragg scattered intensity with the detector, it is possible to map the sample surface with a sub-micron resolution (fig. \ref{fig:SampleMapping}).
+A nanoparticle with a width equal to \qty{300}{\nm} was identified with this technique, which is a good estimate of the spatial resolution that can be attained, limited by the hexapod resolution and the beam size.
+
+Both in-plane angles are kept to zero in this case, this is the simplest possible measurement since the nanoparticles on the sample have their c-axis oriented along the [111] direction, parallel to the normal of the sample holder.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[height=5cm]{/home/david/Documents/PhD/Figures/sample/microscope_image.png}
+    \includegraphics[height=5cm]{/home/david/Documents/PhD/Figures/sample/microscope_image_photon.png}
+    \caption{
+        Microscope image of the sample seen through the sapphire window of the PEEK dome (left).
+        Map of the sample performed in Bragg condition (right), the high intensity (red) areas correspond to platinum nanoparticles.
+        The letters, numbers and isolated nanoparticles in the centre of squares can be recognized on the sample.
+    }
+    \label{fig:SampleMapping}
+\end{figure}
+
+On the other hand, \textit{Gwaihir} (sec. \ref{sec:Gwaihir}) was developped primarily for the SixS beamline to counter the long analysis process, which allowed a significant reduction in the analysis time from around an hour to a dozen of minutes.
+The following beamtimes profit from the new software by having a more \textit{solution}-driven experimental process.
+Indeedd, to be measured, a nanoparticle must be isolated, not too small (weak scattered intensity), not too big (loss of coherence, fringes not visible), and not too initially strained (difficult to obtain a good guess of the support).
+These conditions are sometimes difficult to assert by simply looking at the diffraction pattern.
+Therefore, quick inversion using \textit{Gwaihir} allowed a faster decision process regarding the continuation or not of the nanoparticles measurement.
+
+Successfull measurements by \cite{Lim2021} have permitted the simulatenous use of BCDI measurements from SixS with measurements from other imaging beamlines (ID01, P09), designing a robust method to identify defects in the real space with convolutional neural networks (CNN).
+
+In the frame of this thesis, the required beam size was obtained with a Fresnel zone-plate (focal distance of \qty{20}{\cm}), which focused the beam down to \qty{1}{\um} (horizontally) $\times$ \qty{2}{\um} (vertically).
+A coherent portion of the beam was selected with high precision slits by matching their horizontal and vertical gaps with the transverse coherence lengths of the beamline: \qty{20}{\um} (horizontally) and \qty{100}{\um} (vertically).
+A circular beam-stop, and a circular order-sorting aperture, were used to block the transmitted beam, and higher diffraction orders, respectively.
+The BCDI experiment was performed at a beam energy of \qty{8.5}{\keV} (wavelength of \qty{1.46}{\angstrom}). The sample was mounted in a dedicated reactor with the substrate surface oriented in the horizontal plane on a hexapod mounted on the MED diffractometer.
+The diffracted beam was recorded with a 2D MAXIPIX photon-counting detector (\numproduct{515 x 515} square pixels, \qtyproduct{55 x 55}{\um} wide) positioned on the detector arm at a distance of \qty{1.22}{\meter}.
+The in-plane ($\gamma$) and out-of-plane ($\delta$) angles of the detector were \ang{35.7} and \ang{10.2}, respectively.
+Three-dimensional (3D) diffraction data were collected with rocking curves of the rotation angle around the normal of the sample (here, $\mu$-angle of the diffractometer).
+
+\subsection{Synthetizing platinum nanoparticle}
+
+The platinum nanoparticles were synthetized thanks to a collaboration with the Israel Institute of Technology (Technion).
+A 30 nm thick homogeneous layer of platinum is deposited at room temperature on a (100) oriented alumina ($\alpha-$\ce{Al_2O_3}) substrate.
+The Pt nanocrystals have their c-axis oriented along the [111] direction normal to the (0001) sapphire substrate.
+A mask is then applied on the sample and a lithographic process route ensures that the platinum layer transform to nanoparticles that are between 100 and 1000 nm large,  epitaxied on the substrate surface.
+After dewetting and heating at 1100°C for 30 minutes, the platinum nanoparticles exhibit a well-faceted shape.
+The room temperature lattice parameter of platinum (\qty{3.924}{\angstrom}) is close to that of (100) alumina (\qty{4.122}{\angstrom}) resulting in \qty{\approx 5}{\percent} in-plane lattice strain.
+The mask yields isolated nanoparticles in the middle of \qty{100}{\um} large squares (fig. \ref{fig:Mask}).
+The position of the squares is designated with arabic numbers (row), letters (column) and roman numbers (large rectangle).
+The hole diameter in the mask changes in different rectangle and has a direct impact on the nanoparticle size since more matter is deposited.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sample/mask.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sample/litho1.png}
+    \caption{
+    	Mask applied during sample preparation (left) and resulting pattern on the sample surface (right).
+    }
+    \label{fig:Mask}
+\end{figure}
+
+All of the position indicators are constituted of platinum nanoparticle as well, which allows the scanning of the sample's surface in Bragg condition to map an area and find the nanoparticles' positions (fig. \ref{fig:SampleMapping}).
+
+\subsection{Catalysis reactor calibration}
+
+The catalytic activity of the platinum nanoparticles as a function of the temperature was studied to make certain that the nanoparticles were sufficently catalytically active for the reaction products to be detected by the mass spectrometer.
+The catalytic activity of the reactor without any sample was also monitored and proven to be nul (sec. \ref{sec:SXRD100}), to make certain that no reaction occurs without the sample.
+
+The heater temperature was first calibrated by measuring the temperature in the reactor at different atmospheres, as a function of the current intensity (fig. \ref{fig:TempRamps} - a).
+The experimental data points were then fit using a polynomial of degree four to be able to set the reactor to any temperature from \qtyrange{0}{600}{\degreeCelsius} (fig. \ref{fig:TempRamps} - b) when working under vacuum or at ambient pressure (\qty{0.3}{\bar} or \qty{0.5}{\bar} of \argon).
+The thermal conductivity of the gases involved in the oxidation of ammonia is in the similar order of magnitude (tab. \ref{tab:ThermalConductivity}).
+Moreover, using Argon as a carrier gas during the experiments, which constitutes at least \qty{80}{\percent} of the gas flow, allows us to assume that the temperature in the reaction chamber is well approximated.
+
+\begin{table}[!htb]
+\centering
+    \begin{tabular}{@{}llllllll@{}}
+    \toprule
+     & \argon & \ammonia & \dioxygen & \nitricoxide & \nitrousoxide & \nitrogen & \water \\
+    \midrule
+    \qty{300}{\kelvin} & \num{17.7} & \num{25.1} & \num{26.5} & \num{25.9} & \num{17.4} & \num{26.0} & \num{18.6} \\
+    \qty{400}{\kelvin} & \num{22.4} & \num{37.2} & \num{34.0} & \num{33.1} & \num{26.0} & \num{32.8} & \num{26.1} \\
+    \qty{500}{\kelvin} & \num{26.5} & \num{53.1} & \num{41.0} & \num{39.6} & \num{34.1} & \num{39.0} & \num{35.6} \\
+    \qty{600}{\kelvin} & \num{30.3} & \num{68.6} & \num{47.7} & \num{46.2} & \num{41.8} & \num{44.8} & \num{46.2} \\
+    \bottomrule
+    \end{tabular}%
+\caption{Thermal conductivity in \unit{\mW \per \meter \per \kelvin} of gases \parencite{ThermalConductivityOfGases}.}
+\label{tab:ThermalConductivity}
+\end{table}
+
+Two temperature ramps at a reactor pressure of \qty{0.3}{\bar} (fig. \ref{fig:TempRamps} - c, d) were carried out to probe the evolution of the reaction product as a function of the temperature.
+The gas flow was constant, using Argon as a carrier gas (\qty{41}{\ml\per\min} of \argon, \qty{8}{\ml\per\min} of \dioxygen, \qty{1}{\ml\per\min} of \ammonia).
+The excess of oxygen compared to ammonia is expected to favour the production of \nitricoxide at high temperatures (sec. \ref{sec:AmoOxiHC}).
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/figures/ThermocoupleCalibration.pdf}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/figures/ThermocoupleFit03bar.pdf}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/Test_Reactor_CO2_2021_01/Figures/TempRamp1.pdf}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/Test_Reactor_CO2_2021_01/Figures/TempRamp2.pdf}
+    \caption{
+        a) Temperature inside the reactor cell measured with a type C thermocouple under vacuum and different \argon pressures.
+        b) Polynomial fit of the temperature as a function of the heater current.
+        Partial pressures evolution under a constant gas flow (\qty{41}{\ml\per\min} of \argon, \qty{8}{\ml\per\min} of \dioxygen, \qty{1}{\ml\per\min} of \ammonia) at a reactor pressure of \qty{0.3}{\bar} during increasing and decreasing (low transparency) temperature ramps to c) \qty{525}{\degreeCelsius} with 150 steps, each lasting \qty{10}{\second}, and d) to \qty{650}{\degreeCelsius} with 100 steps, each lasting \qty{10}{\second}.
+        Oxygen is omitted for simplicity.
+    }
+    \label{fig:TempRamps}
+\end{figure}
+
+The first temperature ramp to \qty{525}{\degreeCelsius} shows that the air present in the cell was not well extracted before reaching a temperature of \qty{300}{\degreeCelsius} \qty{14}{\min} after starting heating, the pressure of \nitrogen and \water continuously decreasing until then.
+Above \qty{300}{\degreeCelsius}, the pressure of \nitrogen and \nitricoxide starts to increase, with a sligtly lower activation temperature for \nitrogen.
+No production of \nitrousoxide can be detected during this temperature ramp.
+
+A second temperature ramp was carried out to \qty{650}{\degreeCelsius} to see if the the activation temperature for the production of \nitrousoxide could be achieved.
+The partial pressure of each reaction product is lower at the beginning of the temperature ramp which shows that the remaining air was well extracted.
+The activation temperature for the production of \nitrogen can be more easily identified to be around \qty{300}{\degreeCelsius} and near \qty{450}{\degreeCelsius} for \nitricoxide, which is in accord with the data from the first temperature ramp.
+
+However, the activation temperature for \nitrousoxide is lower in the second temperature ramp, at about \qty{450}{\degreeCelsius}, a temperature that was reached during the first temperature ramp as well.
+This could be linked to either an activation process of the catalyst or to a very low signal to noise ratio that hides the evolution of the partial pressure due to the remaining air in the reactor.
+
+According to these primary results, the study of the oxidation of ammonia with BCDI was originally decided to be carried out at \qtylist{300;500;600}{\degreeCelsius}, temperatures before and after the catalyst light off.
+
+\begin{table}[!htb]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}cccc@{}}
+    \toprule
+    Gas flow (constant: & \multicolumn{1}{c}{25} & \multicolumn{1}{c}{300} & \multicolumn{1}{c}{400} \\ \midrule
+    \argon & \multicolumn{3}{c}{Catalyst state without reactants (unactive)} \\
+    1 \ammonia & \multicolumn{3}{c}{NH3 introduction influence} \\
+    1 \ammonia + 0.5 \dioxygen &  &  &  \\
+    1 \ammonia + 1 \dioxygen & \multicolumn{3}{c}{Influence of NH3 / O2 ratio as a function} \\
+    1 \ammonia + 2 \dioxygen & \multicolumn{3}{l}{of the temperature and vice-versa} \\
+    1 \ammonia + 8 \dioxygen & \multicolumn{1}{l}{} &  &
+    \end{tabular}%
+    }
+    \caption{}
+    \label{tab:my-table}
+\end{table}
+
+
+\section{BCDI results}
+
+Measurements have been performed, when the sample was at \qty{400}{\degreeCelsius} in a \argon-based gas flowed at \qty{50}{\ml\per\min} and at a pressure of \qty{500}{\milli\bar}.
+
+\begin{table}[!htb]
+\centering
+\resizebox{\textwidth}{!}{%
+    \begin{tabular}{@{}ll@{}}
+    \toprule
+    Symbol & Description \\
+    \midrule
+    a, b, c & Lengths of real space unit cell edges.\\
+    $\vec{a},\vec{b},\vec{c}$ & Real space unit cell vectors. \\
+    $\alpha, \beta, \gamma$ & Real space unit cell angles, respectively [$\angle (\vec{b}, \vec{c})$],  [$\angle (\vec{c}, \vec{a})$], [$\angle (\vec{a}, \vec{b})$]. \\
+    $a*, b*, c*$ & Lengths of reciprocal space unit cell edges. \\
+    $\vec{a}^*,\vec{b}^*,\vec{c}^*$ & Reciprocal space unit cell vectors. \\
+    $\alpha^*, \beta^*, \gamma^*$ & Reciprocal space unit cell angles, respectively [$\angle (\vec{b}^*, \vec{c}^*)$],  [$\angle (\vec{c}^*, \vec{a}^*)$], [$\angle (\vec{a}^*, \vec{b}^*)$] \\
+    (x, y, z) & Coordinates of any point within the unit cell, expressed in terms of a, b and c units.\\
+    & z is negative when situated below the surface. \\
+    {[}u v w{]} & Specific crystal axis, normal to a crystal plane. \\
+    \textless{}u v w\textgreater{} & Sets of equivalent crystal axes, due to lattice symmetry. \\
+    (hkl) & Miller indices of a specific set of crystal planes. \\
+    \{hkl\} & Equivalent planes. \\
+    hkl & Indices of the reflection from a set of parallel interplanar rows.\\
+    & Coordinates of a rod in the reciprocal lattice as measured on any plane normal to the rods. \\
+    $d_{hkl}$ & Interplanar spacing between (hkl) crystal planes.
+    \end{tabular}%
+}
+\caption{
+    Symbols used in crystallography for the description of real and reciprocal space structures.
+    Subscript $_s$ used to distinguish surface from underlying structure  \parencite{Wood1964, Willmott}.
+    }
+\label{tab:Vocab}
+\end{table}
+
+\subsection{Facet analysis}
+
+
+\subsection{Strain field energy}
+
+
+\section{Empirical Analysis}
+
+\textcolor{red}{This chapter covers three areas: analysis of the data; discussion of the results of the analysis; and how your findings relate to the literature. The analysis of the data can be discussed here but the details of any analysis, such as statistical calculations, should be shown in the appendices. You should present any discussion clearly and logically and it should be relevant to your research questions/hypotheses or aims and objectives. Insert any tables or figures that you decide are important in a relevant part of the text not in the appendices, and discuss them fully. Make sure that you relate the findings of your primary research to your literature review. You can do this by comparison: discussing similarities and particularly differences. If you think your findings have confirmed some literature findings, say so and say why. If you think your findings are at variance with the literature, say so and say why.}
+
+
+PtO2 plays a role \cite{McCabe1986, HANNEVOLD2005}
