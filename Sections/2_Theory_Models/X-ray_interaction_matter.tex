@@ -11,7 +11,7 @@ X-ray absorption together with the photoelectric effect explained by Einstein in
     \begin{tabular}{l|l|l|l|l}
         Phenomena & Technique & Sample & Information \\
         \toprule
-        Scattering & Bragg Coherent & Pt nanoparticles & Shape, 3D strain \\
+        Scattering & Bragg Coherent & Pt particles & Shape, 3D strain \\
         & Diffraction Imaging & (111), (110), (100), ... & and displacement \\
         & (BCDI) & & \\
         \midrule
@@ -158,7 +158,7 @@ To describe the phase of the scattered field, which depends on the phase of each
 
 \begin{equation}
     \label{eq:Q}
-    \vec{q}=\vec{k_s}-\vec{k_i}.
+    \vec{q}=\vec{k}_s-\vec{k}_i.
 \end{equation}
 
 \begin{figure}[!htb]
@@ -171,10 +171,10 @@ To describe the phase of the scattered field, which depends on the phase of each
     \label{fig:q}
 \end{figure}
 
-Therefore, the phase difference between a wave scattered at a position $O$ and a wave scattered at a distance $\vec{r}$ from $O$ is equal to $(\vec{k_i} - \vec{k_s}).\vec{r} = \vec{q}.\vec{r}$ (fig. \ref{fig:q}).
+Therefore, the phase difference between a wave scattered at a position $O$ and a wave scattered at a distance $\vec{r}$ from $O$ is equal to $(\vec{k}_i - \vec{k}_s).\vec{r} = \vec{q}.\vec{r}$ (fig. \ref{fig:q}).
 
-From fig. \ref{fig:q} and the relation between wavevector and wavelength ($k = 2 \pi/\lambda$), the scattering vector can be written as a function of the wavelength of the incident beam $\lambda$, and of the direction of detection defined by the scattering angle $2\theta$ (eq. \ref{eq:QSinTheta}) between the wavevector of the incident photon $\vec{k_i}$ and the wavevector of the scattered photon $\vec{k_s}$.
-We assume here that the scattering event is elastic ($|\vec{k_i}|=|\vec{k_s}|$) and that the waves are plane waves parallel to each other when in the small scattering volume $d^3\vec{r}$.
+From fig. \ref{fig:q} and the relation between wavevector and wavelength ($k = 2 \pi/\lambda$), the scattering vector can be written as a function of the wavelength of the incident beam $\lambda$, and of the direction of detection defined by the scattering angle $2\theta$ (eq. \ref{eq:QSinTheta}) between the wavevector of the incident photon $\vec{k}_i$ and the wavevector of the scattered photon $\vec{k}_s$.
+We assume here that the scattering event is elastic ($|\vec{k}_i|=|\vec{k}_s|$) and that the waves are plane waves parallel to each other when in the small scattering volume $d^3\vec{r}$.
 
 \begin{equation}
     \label{eq:QSinTheta}
@@ -297,7 +297,7 @@ The Thomson scattering length is left apart for simplicity.
 \begin{figure}[!htb]
     \centering
     \includegraphics[height=4cm]{/home/david/Documents/PhDScripts/Drawing/blender/FCC.png}
-    \includegraphics[height=4cm]{/home/david/Documents/PhD/Figures/introduction/ptunitcell.pdf}
+    \includegraphics[height=4cm]{/home/david/Documents/PhD/Figures/introduction/PtClean.png}
     \caption{
     Face centered cubic (FCC) lattice of Pt (space group 225).
     Atoms are represented as solid balls and situated on the corners and at the middle of the faces.
@@ -312,26 +312,26 @@ The position of any atom in the crystal $\vec{R}_j$ is equal to the sum of the p
 For a crystals made of $N_{uc}$ unit cells each composed of $N_{atoms,uc}$ we have:
 
 \begin{equation}
-    F_{crystal}(\vec{q}) = \sum_j^{N_{atoms,uc}} f_j(\vec{q}) e^{i\vec{q}.\vec{r}_j} \sum_k^{N_{uc}} e^{i\vec{q}.\vec{R_k}}
+    F_{crystal}(\vec{q}) = \sum_j^{N_{atoms,uc}} f_j(\vec{q}) e^{i\vec{q}.\vec{r}_j} \sum_k^{N_{uc}} e^{i\vec{q}.\vec{R}_k}
     \label{eq:Fcrystal}
 \end{equation}
 
 The Bravais lattice is defined by three basis vectors $\vec{a},\ \vec{b},\ \vec{c}$ and three angles $\alpha$ [$\angle (\vec{b}, \vec{c})$] , $\beta$ [$\angle (\vec{c}, \vec{a})$] and $\gamma$ [$\angle (\vec{a}, \vec{b})$].
-Any vector $\vec{R_k}$ describing the position of a node in the real space can be created by a linear combination of these three vectors:
+Any vector $\vec{R}_k$ describing the position of a node in the real space can be created by a linear combination of these three vectors:
 
 \begin{equation}
     \label{eq:R_k}
-    \vec{R_k}=n_1\vec{a} + n_2\vec{b} + n_3\vec{c}, \quad \ (n_1,n_2,n_3) \in \mathbb{Z}^3
+    \vec{R}_k=n_1\vec{a} + n_2\vec{b} + n_3\vec{c}, \quad \ (n_1,n_2,n_3) \in \mathbb{Z}^3
 \end{equation}
 
 To understand the contribution of the second sum in eq. \ref{eq:Fcrystal} to the scattering amplitude, it is convenient to introduce the \textit{reciprocal space} which is the Fourier transform of the real space.
-It is defined by three basis vectors $\vec{a*},\ \vec{b*},\ \vec{c*}$.
+It is defined by three basis vectors $\vec{a}^*,\ \vec{b}^*,\ \vec{c}^*$.
 Similarly, the nodes of the reciprocal space can be accessed from its origin by a linear combination $\vec{G}$ of these three vectors.
 
 \begin{equation}
-    \vec{a^*}=\frac{2\pi}{V}(\vec{b}\times \vec{c}), \qquad
-    \vec{b^*}=\frac{2\pi}{V}(\vec{c}\times \vec{a}), \qquad
-    \vec{c^*}=\frac{2\pi}{V}(\vec{a}\times \vec{b}), \qquad
+    \vec{a}^*=\frac{2\pi}{V}(\vec{b}\times \vec{c}), \qquad
+    \vec{b}^*=\frac{2\pi}{V}(\vec{c}\times \vec{a}), \qquad
+    \vec{c}^*=\frac{2\pi}{V}(\vec{a}\times \vec{b}), \qquad
     \vec{a}_i . \vec{a}_j^* = \delta_{i,j}
 \end{equation}
 
@@ -340,11 +340,11 @@ Similarly, the nodes of the reciprocal space can be accessed from its origin by 
     \vec{G}=h\vec{a}^* + k\vec{b}^* + l\vec{c}^*, \quad \ (h,k,l) \in \mathbb{Z}^3
 \end{equation}
 
-By combining eq. \ref{eq:R_k} and eq. \ref{eq:G} we find that the solution to the second sum in eq. \ref{eq:Fcrystal}, \textit{i.e.} to the equation $\vec{q}.\vec{R_k} = n \times 2\pi$ $(\ n \in \mathbb{Z})$ is to write $\vec{q}$ as a linear combination of the reciprocal space vectors, \textit{i.e.} as $\vec{G}$.
+By combining eq. \ref{eq:R_k} and eq. \ref{eq:G} we find that the solution to the second sum in eq. \ref{eq:Fcrystal}, \textit{i.e.} to the equation $\vec{q}.\vec{R}_k = n \times 2\pi$ $(\ n \in \mathbb{Z})$ is to write $\vec{q}$ as a linear combination of the reciprocal space vectors, \textit{i.e.} as $\vec{G}$.
 
 \begin{equation}
     \label{eq:LaueCond}
-    \vec{G} . \vec{R_k} = hn_1 + kn_2 + ln_3 = n \quad  with \ n \in \mathbb{Z}
+    \vec{G} . \vec{R}_k = hn_1 + kn_2 + ln_3 = n \quad  with \ n \in \mathbb{Z}
 \end{equation}
 
 This is also known as the Laue condition, that ensures that only certain scattering vectors, corresponding to the reciprocal lattice points, fulfill the condition for constructive interference between the scattered waves.
@@ -379,29 +379,23 @@ From fig. \ref{fig:BraggLaw} we can retrieve the condition to have constructive 
     n\lambda = 2d_{hkl} \sin{\theta}, \quad \ n \in \mathbb{Z}
 \end{equation}
 
-% \begin{gather}
-%     \frac{(2\pi)^2}{d_{hkl}^2} = h^2 \, (\Vec{a^*}.\Vec{a^*}) + k^2 \,
-%     \label{eq:dsquare}(\Vec{b^*}.\Vec{b^*}) + l^2 \, (\Vec{c^*}.\Vec{c^*}) + 2hk \, (\Vec{a^*}.\Vec{b^*}) + 2hl \, (\Vec{a^*}.\Vec{c^*}) + 2kl \, (\Vec{b^*}.\Vec{c^*})\\
-%      \frac{(2\pi)^2}{d_{hkl}^2} = h^2 \, {a^*}^2 + k^2 \, {b^*}^2 + l^2 \, {c^*}^2 + 2hk \, {a^*}.{b^*}\cos{\gamma^*} + 2hl \, {a^*}.{c^*}\cos{\beta^*} + 2kl \, {b^*}.{c^*}\cos{\alpha^*}\\
-%      \frac{(2\pi)^2}{d_{hkl}^2} = Ah^2 + Bk^2 + Cl^2 + Dhk + Ehl + Fkl
-%      \label{eq:RecSpaceMetricTensor}
-% \end{gather}{}
-
 In the case of a cubic Bravais lattice, the distance between Miller planes can be written as:
 \begin{equation}
     \label{eq:Interplanarspacing}
-    d_{hkl}=\frac{2\pi}{|\vec{a^*}|\sqrt{h^2 + k^2 + l^2}}=\frac{|\vec{a}|}{\sqrt{h^2 + k^2 + l^2}}
+    d_{hkl}=\frac{2\pi}{|\vec{a}^*|\sqrt{h^2 + k^2 + l^2}}=\frac{|\vec{a}|}{\sqrt{h^2 + k^2 + l^2}}
 \end{equation}
 
 From eqs. \ref{eq:QSinTheta} and \ref{eq:Bragglaw}, we fall back on the Laue condition which is a generalization of Bragg's law.
 The diffraction order ($n$) in the Bragg's law equation can be omitted since it is implicitly determined by the Miller indices (hkl) representing the crystalline planes involved in the diffraction.
 
-\begin{gather}
-    \label{eq:QandD}
-    |\vec{Q}| = \frac{4\pi \sin(\theta)}{\lambda},\\
-    \sin(\theta) / \lambda = \frac{1}{2d_{hkl}},\\
-    |\vec{Q}| = \frac{2\pi}{d_{hkl}}
-\end{gather}{}
+\begin{align}
+    \label{eq:QandD1}
+    |\vec{Q}| & = \frac{4\pi \sin(\theta)}{\lambda},\\
+    \label{eq:QandD2}
+    \sin(\theta) / \lambda & = \frac{1}{2d_{hkl}},\\
+    \label{eq:QandD3}
+    |\vec{Q}| & = \frac{2\pi}{d_{hkl}}
+\end{align}{}
 
 When fulfilling the Laue (or Bragg) condition, the direction of the scattering vector is perpendicular to the crystalline planes represented by the ($h, k, l$) Miller indices, and its magnitude is inversely proportional to the distance between consecutive crystalline planes.
 
@@ -436,7 +430,7 @@ The superposition of these sinusoidal waves, representing the diffraction peaks 
 
 To summarize, the diffraction peaks in the scattering pattern represent the Fourier components of the crystal's electron density distribution, and their spatial frequencies and phase relationships carry information about the crystal structure.
 %The first sum is the unit cell structure factor, that modulates the scattered beam amplitude depending on what atoms are in the unit cell (amplitude) and their positions (phase).
-%The second sum is the lattice factor that takes the value of $N_{uc}$ if $\vec{q}.\vec{R_k} = n \times 2\pi$ $(\ n \in \mathbb{Z})$.
+%The second sum is the lattice factor that takes the value of $N_{uc}$ if $\vec{q}.\vec{R}_k = n \times 2\pi$ $(\ n \in \mathbb{Z})$.
 
 The structure factor $F_{uc}$ is the summation of the contribution of each atom $j$ at the position $\vec{r}_j$ of atomic form factor $f_j(\vec{q})$ in the unit cell for a given scattering vector $\vec{q}$.
 The position of each atom is defined in the unit cell by eq. \ref{eq:AtomPos}, an example with the platinum atoms in its primitive unit cell is given in tab. \ref{tab:PtAtoms}.
@@ -473,7 +467,7 @@ In the case of a simple cubic arrangement of unit cells in three directions perp
 
 \begin{gather}
     \label{eq:LatFactor}
-    F_{lat} = \sum_k^{N_{uc}} e^{i\vec{q}.\vec{R_k}} = \sum_{n_x}^{N_{uc, x}} e^{i n_x\vec{q}.\vec{a}} \times \sum_{n_y}^{N_{uc, y}} e^{i n_y\vec{q}.\vec{b}} \times \sum_{n_y}^{N_{uc, z}} e^{i n_y\vec{q}.\vec{c}}\\
+    F_{lat} = \sum_k^{N_{uc}} e^{i\vec{q}.\vec{R}_k} = \sum_{n_x}^{N_{uc, x}} e^{i n_x\vec{q}.\vec{a}} \times \sum_{n_y}^{N_{uc, y}} e^{i n_y\vec{q}.\vec{b}} \times \sum_{n_y}^{N_{uc, z}} e^{i n_y\vec{q}.\vec{c}}\\
     F_{lat} = \prod_{j=\{x,y,z\}} \Bigg( \sum_{n_j}^{N_{uc, j}} e^{i n_j\vec{q}.\vec{a}_j} \Bigg)\\
     F_{lat} = \prod_{j=\{x,y,z\}} S_{N_{uc, j}}(\vec{q}.\vec{a}_j)
 \end{gather}
@@ -493,7 +487,7 @@ Minor peaks appear when the numerator is equal to one: $N\frac{\vec{q}.\vec{a}_j
 
 To resume, the lattice factor $F_{lat}(\vec{q})$ defines the shape of Bragg peaks.
 For a large crystal (\textit{i.e.} a large number of unit cells in three directions), ideal Bragg peaks will look like Dirac functions (in reality they are widened due to different experimental factors).
-For a small crystal such as nanoparticles, the fringes of the lattice factor will be further apart and their intensity more visible in contrast to the intensity of the main peak (fig. \ref{fig:3DDP}).
+For small crystals such as nanoparticles, the fringes of the lattice factor will be further apart and their intensity more visible in contrast to the intensity of the main peak (fig. \ref{fig:3DDP}).
 In a more general sense, the lattice factor is the Fourier transform of the crystal's lattice, the effect of the Fourier transform is that fringes will be visible in the reciprocal space in directions perpendicular to the crystal's surface.
 The ability to effectively sample these fringes during experiments is at the root of the BCDI technique, to be able to perform the inverse Fourier transform of the Bragg peak to then retrieve the crystal shape (sec. \ref{sec:BCDI}).
 

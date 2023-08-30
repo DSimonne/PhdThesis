@@ -1,0 +1,153 @@
+\section{Measuring the average and ensemble behaviour of Pt nanoparticles}
+
+Following the loss of the particle positions during the measurement at \qty{600}{\degreeCelsius} under reaction conditions, we intend to measure the average signal of the particles by taking advantage of the possibility to carry out grazing-incidence diffraction measurements at SixS.
+By having a low incidence angle in the horizontal geometry (fig. \ref{fig:Diffractometer}), the beam recovers the entire sample, the scattered beam being then proportionnal to the ensemble behaviour of the nanoparticles \parencite{Hejral2013}.
+
+The goal of this experiment is two-fold, first to make sure that the nanoparticles are stable on the sample surface at different temperature and atmospheres to repeat the BCDI experiment, and secondly to probe the average nanoparticle shape by studying crystal truncation rods in direction perpendicular to the expected facets (e.g. [111], [100], [113], ...)
+Indeed, the intensity of the CTR as a function of the scattering vector is proportionnal to the surface size, roughness and strain (sec. \ref{sec:SXRD}).
+By having the incident beam recovering all of the particles, the scattered CTR signal will be the sum of the scattered CTR signal from the facets of every nanoparticle on the sample.
+For example, a global reshaping of the particles at a given condition reducing the amount of $\{1\bar{1}0\}$ facets is for example expected to increase the signal of the CTR in the corresponding directions.
+A slightly different sample was used, without any isolated nanoparticles, to have a more homogeneous surface.
+
+This experiment proved to be difficult to realise experimentally, the graphite layer used to heat the sample is covered by a Boron Nitride solid surface with 4 holes.
+Two holes are used with small screws to fix the sample while the two others are used to fix the heater to the sample holder.
+Despite an extra layer of Boron Nitride that was applied around these screws and holde, the high temperature and highly oxidating atmosphere managed twice to corrode the conducting screws which resulted in a contact loss with the heater.
+However, most of the experimental plan was still carried out, lacking only the measurements at \qty{600}{\degreeCelcius} under \qty{8}{\ml\per\min} of oxygen and \qty{50}{\ml\per\min} of ammonia (tab. \ref{tab:Conditions}), which is the very condition at which we lost the nanoparticle before.
+
+\subsection{Crystal truncation rods}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR_together.png}
+    % \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR_300.png}
+    % \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR_500.png}
+    % \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR_600.png}
+    \caption{
+        Integrated crystal truncation rod signal in the $[111]$ direction, collected perpendicular to the $[-11]$ Bragg peak, for different atmospheres and temperatures.
+        $\vec{c}$ is in the $[111]$ direction so that the CTR is reprensented as a function of L, weak CTR signals in the $[\bar{1}11]$ and $[1\bar{1}\bar{1}]$ directions can be seen.
+        The peak at $l=1.55$ is from the substrate.
+    }
+    \label{fig:CTR111Particles}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR111_together.png}
+    \caption{
+        Crystal truncation rod signal in the $[111]$ direction, collected perpendicular to the $[-11]$ Bragg peak, represented with different intensity scales.
+        $\vec{c}$ is in the $[111]$ direction so that the CTR is reprensented as a function of L, weak CTR signals in the $[\bar{1}11]$ and $[1\bar{1}\bar{1}]$ directions can be seen.
+        The peak at $l=1.55$ is from the substrate.
+    }
+    \label{fig:CTR111Particles}
+\end{figure}
+
+
+
+However, we were not able to quantify the average amount, size and strain of facets (proportionnal to the CTR signal in the direction perpendicular to the facets) other than in the [111] direction due to a low signal to noise ratio far away from Bragg peaks, to large Bragg peaks covering the CTR signal and to issues with the automatic attenuators.
+
+
+\subsection{Particle stability}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/QxQyMap.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/delta_vs_omega.png}
+    \caption{
+        In-plane reciprocal space map at room temperature (left).
+        Starting from the center of the map are 6 peaks corresponding the bottom of crystal truncation rods going through \{111\} peaks, a thin powder signal for the [111] reflection.
+    }
+    \label{fig:QxQyMap}
+\end{figure}
+
+From the first BCDI results, we expect the particles on the sample to all have their [111] direction oriented along the normal of the sample.
+The main advantage of this orientation is that all the particles contribute to the scattered signal when in a specular geometry (detector only moving perpendicularly to the sample) independently of the value of the in-plane angle, which rotates around the [111] axis.
+We take advantage of this particularity when mapping the sample surface by looking at the intensity of the [111] Bragg peak (sec. \ref{sec:BCDISetup}, fig. \ref{fig:SampleMapping}).
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhD/Figures/introduction/FacetOrientationView1.png}
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/CubicPeaks.png}
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/HexPeaks.png}
+    \caption{
+        a) The six $[\bar{1}10]$, $[0\bar{1}1]$, $[10\bar{1}]$, $[1\bar{1}0]$, $[01\bar{1}]$ and $[\bar{1}01]$ directions are perpendicular to the $[111]$ direction, which is not the case for the $\{100\}$ directions.
+        b) Measuring the in-plane scattered intensity in an area around the $(100)$ scattering angle by rotating the sample of \ang{120} is expected to yield 2 or 3 peaks (separated by \ang{90}) if the crystal has the $[001]$ axis out-of plane.
+        c) Measuring the in-plane scattered intensity in an area around the $(110)$ scattering angle by rotating the sample of \ang{120} is expected to yield 3 or 4 peaks (separated by \ang{60}) if the crystal has the $[111]$ axis out-of plane.
+    }
+    \label{fig:Orientations}
+\end{figure}
+
+However, it is unclear if all the particles show the same orientation in the ($\vec{x}, \vec{y}$) plane of the sample, and if they are stable on the substrate during the oxidation of ammonia.
+
+This can be verified by measuring the scattering intensity in the plane perpendicular to the [111] direction, where we expect to observe the signal of six $[\bar{1}10]$, $[0\bar{1}1]$, $[10\bar{1}]$, $[1\bar{1}0]$, $[01\bar{1}]$ and $[\bar{1}01]$ Bragg peaks, corresponding to planes perpendicular to the [111] direction (fig. \ref{fig:Orientations}).
+
+If the particles do not have a fixed but a random in-plane orientation, a signal similar to that of a powder will be observed at the scattering angle corresponding to the [110] planes (not a single peak but a ring as a function of the scattering angle).
+If distincts peaks are observed, it will be possible to understand if the particles have the same in-plane orientation.
+Finally, the scattered intensity at the scattering angle corresponding to the [100] reflection will also be measured to ensure that the all particles have their [111] (and none their [001]) direction perpendicular to the sample, and that there is no switching of orientation during the experiment.
+
+\begin{table}[htb!]
+\centering
+    \begin{tabular}{@{}lllll@{}}
+    \toprule
+    (h k l) & $2\theta$ & |Q| & |Int & Int (\%) \\
+    \midrule
+    (1, 1, 1) & 17.0619 & 2.773 & 6275.71 & 100.00 \\
+    (2, 0, 0) & 19.7260 & 3.202 & 3208.26 & 51.12 \\
+    (2, 2, 0) & 28.0381 & 4.529 & 2371.06 & 37.78 \\
+    (3, 1, 1) & 33.0049 & 5.310 & 2880.36 & 45.90 \\
+    (2, 2, 2) & 34.5175 & 5.547 & 833.68 & 13.28 \\
+    (4, 0, 0) & 40.0689 & 6.405 & 385.91 & 6.15 \\
+    (3, 3, 1) & 43.8414 & 6.979 & 1143.42 & 18.22 \\
+    (4, 2, 0) & 45.0420 & 7.161 & 1043.56 & 16.63 \\
+    (2, 2, -4) & 49.6160 & 7.844 & 748.80 & 11.93 \\
+    (5, 1, 1) & 52.8506 & 8.320 & 800.82 & 12.76 \\
+    (4, 4, 0) & 57.9579 & 9.057 & 216.64 & 3.45 \\
+    \bottomrule
+    \end{tabular}%
+    \caption{
+    Scattering angle $\theta$, scattering vector magnitude and intensity of the scattered waves as a function of the increasing scattering angle $\theta$ (up to $\theta = \ang{60}$), computed for an energy of \qty{8.5}{\keV} using eq. \ref{eq:Bragglaw} and eq. \ref{eq:Fcrystal}.
+    }
+\label{tab:PtReflections}
+\end{table}
+
+% \begin{figure}[!htb]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/111.pdf}
+%     \caption{
+%         Integrated intensity in a \ang{1} range around the value of the (111) scattering angle, as a function of the in-plane sample angle $\omega$.
+%     }
+%     \label{fig:Epitaxy111}
+% \end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/200.pdf}
+    \caption{
+        Integrated intensity in a \ang{1} range around the value of the (200) scattering angle, as a function of the in-plane sample angle $\omega$.
+    }
+    \label{fig:Epitaxy200}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/220.pdf}
+    \caption{
+        Integrated intensity in a \ang{1} range around the value of the (220) scattering angle, as a function of the in-plane sample angle $\omega$.
+    }
+    \label{fig:Epitaxy220}
+\end{figure}
+
+The scattered intensity was measured in the plane parallel to the sample by rotating the sample in-plane angle ($\omega$ - fig. \ref{fig:Diffractometer}) from \ang{-110} to \ang{10}, while the in-plane detector angle ($\delta$) was kept to a fixed angular value.
+Multiple $\omega$ scans were performed while changing the value of $\delta$ from \ang{15} to \ang{30} so as to map an area of the reciprocal space.
+The same measurement was performed at \qty{300}{\degreeCelsius}, \qty{500}{\degreeCelsius} and \qty{600}{\degreeCelsius} at different atmosphere as detailed in tab. \ref{tab:Conditions}.
+
+The intensity was then integrated along a thin region in $\delta$ around the value of the (200) and (220) scattering angles (multiplied by two since we are in a $\theta$-$2\theta$ geometry as illustrated in fig. \ref{fig:EwaldSphere}, the detector angle is twice the scattering angle).
+The (100) and (110) are forbidden reflections of the space group and cannot thus be measured.
+
+These results are presented in fig. \ref{fig:Epitaxy200} and fig. \ref{fig:Epitaxy220}.
+Three \{220\} peaks and zero \{200\} Bragg peaks are measured in either condition.
+The position and shape of the \{220\} Bragg peaks is stable which shows that the crystals are do not rotate around their [111] axis on the surface, and that they all share not only the same out-of-plane [111] orientation but also the exact same in-plane orientation.
+The intensity decreases as a function of the temperature which could be due to the Debye-Waller factor, the thermally induced movements of the atoms around their equilibrium position resulting in a lower intensity of Bragg peaks at higher temperatures \parencite{Willmott}.
+
+More importantly, these measurements confirm that the particles are stable on the substrate as different temperatures and atmospheres and prove that surface x-ray diffraction measurements with grazing incidence can yield information on the average nanoparticle behaviour.
+This could mean that loosing the particle at \qty{600}{\degreeCelsius} under \ammonia was either a singular event, or that the combination of the focused beam on the particle and the reaction at \qty{600}{\degreeCelsius} is the critical limit.
+This very condition is the only one that could not be measured during this experiment due to time limitations.

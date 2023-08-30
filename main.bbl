@@ -355,6 +355,55 @@
       \field{title}{Solid State Physics}
       \field{year}{1976}
     \endentry
+    \entry{Astruc2005}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=6d272b14cc297df8da68e0afed2827ac}{%
+           family={Astruc},
+           familyi={A\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26353fd4a07f1e2ed79dc2e99fae4956}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21e76ede5db28c79017cfce6faccdbf2}{%
+           family={Aranzaes},
+           familyi={A\bibinitperiod},
+           given={Jaime\bibnamedelima Ruiz},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca504bb2c7708095c95868a7d1bfbd43}
+      \strng{fullhash}{ea7812b7dc49022ee7d5f1f8dcba778c}
+      \strng{bibnamehash}{ea7812b7dc49022ee7d5f1f8dcba778c}
+      \strng{authorbibnamehash}{ea7812b7dc49022ee7d5f1f8dcba778c}
+      \strng{authornamehash}{ca504bb2c7708095c95868a7d1bfbd43}
+      \strng{authorfullhash}{ea7812b7dc49022ee7d5f1f8dcba778c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Interest in catalysis by metal nanoparticles (NPs) is increasing dramatically, as reflected by the large number of publications in the last five years. This field, “semi-heterogeneous catalysis”, is at the frontier between homogeneous and heterogeneous catalysis, and progress has been made in the efficiency and selectivity of reactions and recovery and recyclability of the catalytic materials. Usually NP catalysts are prepared from a metal salt, a reducing agent, and a stabilizer and are supported on an oxide, charcoal, or a zeolite. Besides the polymers and oxides that used to be employed as standard, innovative stabilizers, media, and supports have appeared, such as dendrimers, specific ligands, ionic liquids, surfactants, membranes, carbon nanotubes, and a variety of oxides. Ligand-free procedures have provided remarkable results with extremely low metal loading. The Review presents the recent developments and the use of NP catalysis in organic synthesis, for example, in hydrogenation and CC coupling reactions, and the heterogeneous oxidation of CO on gold NPs.}
+      \field{journaltitle}{Angewandte Chemie International Edition}
+      \field{number}{48}
+      \field{title}{Nanoparticles as Recyclable Catalysts: The Frontier between Homogeneous and Heterogeneous Catalysis}
+      \field{volume}{44}
+      \field{year}{2005}
+      \field{pages}{7852\bibrangedash 7872}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1002/anie.200500766
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/anie.200500766
+      \endverb
+      \keyw{CC coupling,dendrimers,gold,nanoparticles,palladium,supported catalysts}
+    \endentry
     \entry{Atlan2023}{article}{}
       \name{author}{12}{}{%
         {{un=0,uniquepart=base,hash=2475b895ff7be1c11645602be8fbba26}{%
@@ -2239,9 +2288,6 @@
       \verb{doi}
       \verb 10.1038/s41467-021-25625-0
       \endverb
-      \verb{file}
-      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Carnis et al. - 2021 - Twin boundary migration in an individual platinum nanocrystal during catalytic CO oxidation.pdf:pdf
-      \endverb
     \endentry
     \entry{chan_rapid_2021}{article}{}
       \name{author}{7}{}{%
@@ -3058,7 +3104,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The local densities of states (LDS) on clean low-index surfaces of fcc Ni and bcc Fe are presented. They are calculated within the tight-binding approximation using a moment method and a continued fraction analysis. The d band degeneracy and the charge rearrangement occurring near the surface when cleaving the crystal are fully taken into account by computing exactly a large number of moments (22–26). The surface LDS are found to be strongly dependent on the cleavage plane. Indeed, whereas the LDS on dense planes are rather bulk like, sharp peaks arising from states localized near the surface are obtained near the atomic level of the metal on non-dense planes of cleavage. In addition, the bandwidth is broadened by surface states for Ni. On the contrary, for bcc Fe the surface potential is not strong enough to modify the bandwidth. A comparison is made with spectroscopic observations. The method lends itself to other interesting applications in the surface physics field and, as an example, we present the results of calculations of the spatial distribution of the electronic charge near the surface and its deviation from spherical symmetry. The charge asphericity is slightly increased when going from a bulk to a surface site as the difference between the occupations of two surface orbitals can reach 0.34 ē instead of 0.15 −c for a bulk site. Diagrams are shown for (100) and (110) cleaved Ni to illustrate the results. The consequences upon preferred adsorption sites according to the electronic affinity and size of the adsorbate are discussed.}
+      \field{abstract}{The local densities of states (LDS) on clean low-index surfaces of fcc Ni and bcc Fe are presented. They are calculated within the tight-binding approximation using a moment method and a continued fraction analysis. The d band degeneracy and the charge rearrangement occurring near the surface when cleaving the crystal are fully taken into account by computing exactly a large number of moments (22–26). The surface LDS are found to be strongly dependent on the cleavage plane. Indeed, whereas the LDS on dense planes are rather bulk like, sharp peaks arising from states localized near the surface are obtained near the atomic level of the metal on non-dense planes of cleavage. In addition, the bandwidth is broadened by surface states for Ni. On the contrary, for bcc Fe the surface potential is not strong enough to modify the bandwidth. A comparison is made with spectroscopic observations. The method lends itself to other interesting applications in the surface physics field and, as an example, we present the results of calculations of the spatial distribution of the electronic charge near the surface and its deviation from spherical symmetry. The charge asphericity is slightly increased when going from a bulk to a surface site as the difference between the occupations of two surface orbitals can reach 0.34 ē instead of 0.15 -c for a bulk site. Diagrams are shown for (100) and (110) cleaved Ni to illustrate the results. The consequences upon preferred adsorption sites according to the electronic affinity and size of the adsorbate are discussed.}
       \field{issn}{0039-6028}
       \field{journaltitle}{Surface Science}
       \field{number}{1}
@@ -3278,14 +3324,121 @@
       \verb 10.1107/S1600576713032342
       \endverb
     \endentry
-    \entry{Dupraz2016}{thesis}{}
+    \entry{Dupraz2017}{article}{}
+      \name{author}{13}{}{%
+        {{un=2,uniquepart=given,hash=70bddb4ef754e7a197a2ef68477cae91}{%
+           family={Dupraz},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=b0309a2e49b4025f484553d7b246255e}{%
+           family={Beutier},
+           familyi={B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70e97c149411705d9a88b0d8e85eae84}{%
+           family={Cornelius},
+           familyi={C\bibinitperiod},
+           given={T.\bibnamedelimi W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c568c2ca000adadb9f0f4459b5bcdc04}{%
+           family={Parry},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07d0026ba35104b23c69c71e8289c06b}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=286771e3cd93e7de76ddedfe167ced67}{%
+           family={Labat},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=868de139c5ea5fcc5409bcb4ac3428d9}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60f5ed63a5c6b9dec197176958cd79fa}{%
+           family={Chahine},
+           familyi={C\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7737ba0b3691cbccb900bdc23a81164}{%
+           family={Kovalenko},
+           familyi={K\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32a6a8ba8ae91f3378f28d29fd0f5d5b}{%
+           family={{De Boissieu}},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=222e24e320cf60285cfa5d1aea77804e}{%
+           family={Rabkin},
+           familyi={R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14e14daafe7a553d506b8ca39386e9f3}{%
+           family={Verdier},
+           familyi={V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18c7ea5ebe227dd6a381d07eeac8b4a3}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ae7c23e6076aa40379ea2689e238b8c4}
+      \strng{fullhash}{f1f3ef5b140afcef3a794e70c5775b98}
+      \strng{bibnamehash}{ae7c23e6076aa40379ea2689e238b8c4}
+      \strng{authorbibnamehash}{ae7c23e6076aa40379ea2689e238b8c4}
+      \strng{authornamehash}{ae7c23e6076aa40379ea2689e238b8c4}
+      \strng{authorfullhash}{f1f3ef5b140afcef3a794e70c5775b98}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Structural quality and stability of nanocrystals are fundamental problems that bear important consequences for the performances of small-scale devices. Indeed, at the nanoscale, their functional properties are largely influenced by elastic strain and depend critically on the presence of crystal defects. It is thus of prime importance to be able to monitor, by noninvasive means, the stability of the microstructure of nano-objects against external stimuli such as mechanical load. Here we demonstrate the potential of Bragg coherent diffraction imaging for such measurements, by imaging in 3D the evolution of the microstructure of a nanocrystal exposed to in situ mechanical loading. Not only could we observe the evolution of the internal strain field after successive loadings, but we also evidenced a transient microstructure hosting a stable dislocation loop. The latter is fully characterized from its characteristic displacement field. The mechanical behavior of this small crystal is clearly at odds with what happens in bulk materials where many dislocations interact. Moreover, this original in situ experiment opens interesting possibilities for the investigation of plastic deformation at the nanoscale.}
+      \field{issn}{15306992}
+      \field{journaltitle}{Nano Letters}
+      \field{number}{11}
+      \field{title}{{3D Imaging of a Dislocation Loop at the Onset of Plasticity in an Indented Nanocrystal}}
+      \field{volume}{17}
+      \field{year}{2017}
+      \field{pages}{6696\bibrangedash 6701}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1021/acs.nanolett.7b02680
+      \endverb
+      \keyw{Nanocrystal,coherent diffraction imaging,dislocations,nanoindentation}
+    \endentry
+    \entry{Dupraz2015}{thesis}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7812ec96d64e72c3272729b04125b734}{%
+        {{un=2,uniquepart=given,hash=7812ec96d64e72c3272729b04125b734}{%
            family={Dupraz},
            familyi={D\bibinitperiod},
            given={Maxime},
            giveni={M\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \strng{namehash}{7812ec96d64e72c3272729b04125b734}
       \strng{fullhash}{7812ec96d64e72c3272729b04125b734}
@@ -3305,12 +3458,12 @@
     \endentry
     \entry{Dupraz2022}{article}{}
       \name{author}{18}{ul=1}{%
-        {{un=0,uniquepart=base,hash=7812ec96d64e72c3272729b04125b734}{%
+        {{un=2,uniquepart=given,hash=7812ec96d64e72c3272729b04125b734}{%
            family={Dupraz},
            familyi={D\bibinitperiod},
            given={Maxime},
            giveni={M\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=9d75db9bec171a332f5fc52cb66a0829}{%
            family={Li},
            familyi={L\bibinitperiod},
@@ -3781,6 +3934,70 @@
       \verb 10.1021/acscatal.2c00090
       \endverb
     \endentry
+    \entry{FAVIER2007}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=5881ee1e8cf63ed88fc203926d3f87d6}{%
+           family={Favier},
+           familyi={F\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdf73bdab1475a57634f5a54b4ee7d24}{%
+           family={Louche},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3038ad9b914046859a011c2d3eed1b1}{%
+           family={Schlosser},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89106af3dcaf2aa4e606322efb4f93ea}{%
+           family={Orgéas},
+           familyi={O\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70409855b5c4795c5838ee97aa0ecb80}{%
+           family={Vacher},
+           familyi={V\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf9ef9da55af0ef83c1ab17818f39161}{%
+           family={Debove},
+           familyi={D\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1f3513d14a6e970d4e85d603c22a8c9c}
+      \strng{fullhash}{51b6208a8a3dfb9fb48a055bbdc2375a}
+      \strng{bibnamehash}{1f3513d14a6e970d4e85d603c22a8c9c}
+      \strng{authorbibnamehash}{1f3513d14a6e970d4e85d603c22a8c9c}
+      \strng{authornamehash}{1f3513d14a6e970d4e85d603c22a8c9c}
+      \strng{authorfullhash}{51b6208a8a3dfb9fb48a055bbdc2375a}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1359-6454}
+      \field{journaltitle}{Acta Materialia}
+      \field{number}{16}
+      \field{title}{Homogeneous and heterogeneous deformation mechanisms in an austenitic polycrystalline Ti-50.8at.\% Ni thin tube under tension. Investigation via temperature and strain fields measurements}
+      \field{volume}{55}
+      \field{year}{2007}
+      \field{pages}{5310\bibrangedash 5322}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.actamat.2007.05.027
+      \endverb
+      \keyw{NiTi shape memory alloys,Tension test,Localisation,Phase transformations,Strain and temperature fields}
+    \endentry
     \entry{favre-nicolin_semiconductor_2011}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4f23b63dc664989677dd939328a04c5f}{%
@@ -4195,8 +4412,109 @@
       \verb{doi}
       \verb 10.1039/C8NR08414A
       \endverb
-      \verb{file}
-      \verb Fern\'{a}ndez et al. - 2019 - iIn situi structural evolution of single part.pdf:/Users/marieingridrichard/Zotero/storage/ZHIXFACS/Fern\'{a}ndez et al. - 2019 - iIn situi structural evolution of single part.pdf:application/pdf
+    \endentry
+    \entry{Fernandez2019}{article}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=b438ea321da7a33f902133fb6668ca66}{%
+           family={Fernàndez},
+           familyi={F\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ba4dc44e20a33d79eeaf44e36851156}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d22515c3617170a3e618b79470270bb6}{%
+           family={Hofmann},
+           familyi={H\bibinitperiod},
+           given={Jan\bibnamedelima Philipp},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
+           family={Carnis},
+           familyi={C\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3fe32d6ad4fbfd46998094d46facb33}{%
+           family={Labat},
+           familyi={L\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6412b11e487c517350071d0167f59b2}{%
+           family={Chahine},
+           familyi={C\bibinitperiod},
+           given={Gilbert\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a2508745d14d458845a279515d79a8f3}{%
+           family={Van\bibnamedelima Hoof},
+           familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Arno\bibnamedelima J.F.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23ccc14fe5dab1c7eb1878b9dac2f190}{%
+           family={Verhoeven},
+           familyi={V\bibinitperiod},
+           given={M.\bibnamedelimi W.G.M.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=658daad814e9f7e747304d667d76959a}{%
+           family={Schülli},
+           familyi={S\bibinitperiod},
+           given={Tobias\bibnamedelima U.},
+           giveni={T\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99169d3cd97c79422a2dab69f61dd70e}{%
+           family={Hensen},
+           familyi={H\bibinitperiod},
+           given={Emiel\bibnamedelima J.M.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c9c63fbd972192f2090267690e2b16c}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b44fced5fe7bc5bc5e0403d8167fba47}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Marie\bibnamedelima Ingrid},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Royal Society of Chemistry}%
+      }
+      \strng{namehash}{b9359cd1d4bd0df8808af73a719d7459}
+      \strng{fullhash}{d8d448c2b8c6a4803b6b9866998b4276}
+      \strng{bibnamehash}{b9359cd1d4bd0df8808af73a719d7459}
+      \strng{authorbibnamehash}{b9359cd1d4bd0df8808af73a719d7459}
+      \strng{authornamehash}{b9359cd1d4bd0df8808af73a719d7459}
+      \strng{authorfullhash}{d8d448c2b8c6a4803b6b9866998b4276}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The catalytic activity of metal nanoparticles can be altered by applying strain, which changes the crystalline lattice spacing and modifies the electronic properties of the metal. Understanding the role of elastic strain during catalytic reactions is thus crucial for catalyst design. Here, we show how single highly faceted Pt nanoparticles expand or contract upon interaction with different gas atmospheres using in situ nano-focused coherent X-ray diffraction imaging. We also demonstrate inter-particle heterogeneities, as they differ in development of strain under CO oxidation reaction conditions. The reported observations offer new insights into the design of catalysts exploiting strain effects.}
+      \field{issn}{20403372}
+      \field{journaltitle}{Nanoscale}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{In situ structural evolution of single particle model catalysts under ambient pressure reaction conditions}
+      \field{volume}{11}
+      \field{year}{2019}
+      \field{pages}{331\bibrangedash 338}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1039/c8nr08414a
       \endverb
     \endentry
     \entry{Fertey2013}{article}{}
@@ -4616,7 +4934,7 @@
       \verb 10.1021/acscatal.9b01775
       \endverb
     \endentry
-    \entry{GANDHI2003433}{article}{}
+    \entry{GANDHI2003}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5280df548eff35335f710f358a13cff5}{%
            family={Gandhi},
@@ -4908,6 +5226,42 @@
       \verb 10.1107/S1600576721003113
       \endverb
       \keyw{amplitudes,bragg ptychography,coherent x-ray bragg diffraction,imaging,lens-less imaging of crystals,offers some unique,scattering,strain,structure factors,with coherent x-ray diffraction}
+    \endentry
+    \entry{GREDIAC1996}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80a1319356b4329cb8fac751ca28c230}{%
+           family={Grédiac},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{80a1319356b4329cb8fac751ca28c230}
+      \strng{fullhash}{80a1319356b4329cb8fac751ca28c230}
+      \strng{bibnamehash}{80a1319356b4329cb8fac751ca28c230}
+      \strng{authorbibnamehash}{80a1319356b4329cb8fac751ca28c230}
+      \strng{authornamehash}{80a1319356b4329cb8fac751ca28c230}
+      \strng{authorfullhash}{80a1319356b4329cb8fac751ca28c230}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper deals with the measurement of parameters governing anisotropic elastic properties from mechanical tests which give rise to heterogeneous strain fields. The main interest of the procedure presented here is to test a single plate specimen. The link between the measurements and the unknown parameters is direct. This feature avoids the recursive finite element calculations usually used. One example shows the relevance of this approach.}
+      \field{issn}{0266-3538}
+      \field{journaltitle}{Composites Science and Technology}
+      \field{note}{9th French National Colloquium on Composite Materials}
+      \field{number}{7}
+      \field{title}{The use of heterogeneous strain fields for the characterization of composite materials}
+      \field{volume}{56}
+      \field{year}{1996}
+      \field{pages}{841\bibrangedash 846}
+      \range{pages}{6}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0266-3538(96)00030-9
+      \endverb
+      \keyw{heterogeneous strain fields,mechanical tests,anisotropic elastic properties}
     \endentry
     \entry{GrothausmannBeare2015}{article}{}
       \name{author}{2}{}{%
@@ -5790,7 +6144,7 @@
       \endverb
     \endentry
     \entry{Heck1982}{article}{}
-      \name{author}{4}{}{%
+      \name{author}{4}{ul=2}{%
         {{un=0,uniquepart=base,hash=d9404421269e77e2bba4b67aaec74a42}{%
            family={Heck},
            familyi={H\bibinitperiod},
@@ -5819,11 +6173,11 @@
       \list{publisher}{1}{%
         {American Chemical Society}%
       }
-      \strng{namehash}{8c88178c71176f2bbf7cc233c421e0f9}
+      \strng{namehash}{fa984655e5e9233d5a045f8a4fe01f88}
       \strng{fullhash}{583d5e6495a9a6ff76d1252fafc8f2f4}
-      \strng{bibnamehash}{8c88178c71176f2bbf7cc233c421e0f9}
-      \strng{authorbibnamehash}{8c88178c71176f2bbf7cc233c421e0f9}
-      \strng{authornamehash}{8c88178c71176f2bbf7cc233c421e0f9}
+      \strng{bibnamehash}{fa984655e5e9233d5a045f8a4fe01f88}
+      \strng{authorbibnamehash}{fa984655e5e9233d5a045f8a4fe01f88}
+      \strng{authornamehash}{fa984655e5e9233d5a045f8a4fe01f88}
       \strng{authorfullhash}{583d5e6495a9a6ff76d1252fafc8f2f4}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
@@ -5843,6 +6197,48 @@
       \verb{doi}
       \verb 10.1021/i200016a014
       \endverb
+    \endentry
+    \entry{HECK2001}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d9404421269e77e2bba4b67aaec74a42}{%
+           family={Heck},
+           familyi={H\bibinitperiod},
+           given={Ronald\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f8c822872bfb90eed256a8d10e9947df}{%
+           family={Farrauto},
+           familyi={F\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7a73044b9e7e2ea9e2c07bbf0731e978}
+      \strng{fullhash}{7a73044b9e7e2ea9e2c07bbf0731e978}
+      \strng{bibnamehash}{7a73044b9e7e2ea9e2c07bbf0731e978}
+      \strng{authorbibnamehash}{7a73044b9e7e2ea9e2c07bbf0731e978}
+      \strng{authornamehash}{7a73044b9e7e2ea9e2c07bbf0731e978}
+      \strng{authorfullhash}{7a73044b9e7e2ea9e2c07bbf0731e978}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It has now been over 25 years since the introduction of the catalytic converter to reduce emissions from the internal combustion engine. It is considered one of the greatest environmental successes of the 20th century, however, new emission control technologies are still being developed to meet ever more stringent mobile source (gasoline and diesel) emissions. This short review will discuss the basis for improvements and highlight technology area, which will require further improvements in emissions and fuel economy. Some of the issues related to fuel cells which some believe may replace the internal combustion engines for automobile applications is also be briefly discussed.}
+      \field{issn}{0926-860X}
+      \field{journaltitle}{Applied Catalysis A: General}
+      \field{note}{Hoelderich Special Issue}
+      \field{number}{1}
+      \field{title}{Automobile exhaust catalysts}
+      \field{volume}{221}
+      \field{year}{2001}
+      \field{pages}{443\bibrangedash 457}
+      \range{pages}{15}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0926-860X(01)00818-3
+      \endverb
+      \keyw{Catalytic converters,Gasoline,Diesel,Lean-burn engines,Lean-NO,Fuel cells}
     \endentry
     \entry{van_heel_fourier_2005}{article}{}
       \name{author}{2}{}{%
@@ -5900,7 +6296,7 @@
       \keyw{cryo-EM,Fourier shell correlation,Information,Resolution criteria,Single particles}
     \endentry
     \entry{Hejral2021}{article}{}
-      \name{author}{5}{}{%
+      \name{author}{5}{ul=2}{%
         {{un=0,uniquepart=base,hash=4c4ce95dc59c6d354cb3a4a0de7c52e7}{%
            family={Hejral},
            familyi={H\bibinitperiod},
@@ -5935,11 +6331,11 @@
       \list{publisher}{1}{%
         {IOP Publishing Ltd}%
       }
-      \strng{namehash}{56a9f72583c82d19b599b25321eefea5}
+      \strng{namehash}{7ac5bd06092b4c64955146df1930d3d2}
       \strng{fullhash}{85757ae4e0ef2bbf11a6c212c0d2e02f}
-      \strng{bibnamehash}{56a9f72583c82d19b599b25321eefea5}
-      \strng{authorbibnamehash}{56a9f72583c82d19b599b25321eefea5}
-      \strng{authornamehash}{56a9f72583c82d19b599b25321eefea5}
+      \strng{bibnamehash}{7ac5bd06092b4c64955146df1930d3d2}
+      \strng{authorbibnamehash}{7ac5bd06092b4c64955146df1930d3d2}
+      \strng{authornamehash}{7ac5bd06092b4c64955146df1930d3d2}
       \strng{authorfullhash}{85757ae4e0ef2bbf11a6c212c0d2e02f}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
@@ -5959,6 +6355,60 @@
       \verb 10.1088/1361-648X/abb17c
       \endverb
       \keyw{High energy surface x-ray diffraction,Laser-induced fluorescence,Model catalysts,Nanoparticles,Operando catalysis,Surface optical reflectance,Vicinal surfaces}
+    \endentry
+    \entry{Hejral2013}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=4c4ce95dc59c6d354cb3a4a0de7c52e7}{%
+           family={Hejral},
+           familyi={H\bibinitperiod},
+           given={Uta},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0210a78f5e50d5c663ed1743bdb42b0e}{%
+           family={Vlad},
+           familyi={V\bibinitperiod},
+           given={Alina},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1fb94d4a82ea37bdd8c4033cf0523e6}{%
+           family={Philipp},
+           familyi={P\bibinitperiod},
+           given={Nolte},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d766a3a04d700f500a117978cf58e49}{%
+           family={Stierle},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{573e31a308eaa9d9443b90863290259a}
+      \strng{fullhash}{49f8d5ce4d257b87981a0a8f373b2c0b}
+      \strng{bibnamehash}{573e31a308eaa9d9443b90863290259a}
+      \strng{authorbibnamehash}{573e31a308eaa9d9443b90863290259a}
+      \strng{authornamehash}{573e31a308eaa9d9443b90863290259a}
+      \strng{authorfullhash}{49f8d5ce4d257b87981a0a8f373b2c0b}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Noble metal nanoparticles supported by oxide carriers are widely employed in heterogeneous catalysis. To improve catalyst efficiency, it is important to understand oxidation processes on the atomic scale. Here, we studied oxygen-induced shape changes of Pt nanoparticles on MgO(001) by means of in situ surface X-ray diffraction and X-ray reflectivity measurements. The X-ray results on the particle morphology were complemented by transmission electron microscopy studies. The samples were prepared by means of physical vapor deposition and differed in average particle size and lateral particle size distribution. The oxygen-induced particle shape changes were found to be independent of particle size and were characterized by the emergence of higher indexed facets. We find the bulk oxide formation to be kinetically hindered and particle size-dependent. The formed bulk oxide structures were concluded to be (110)-oriented Pt3O4 and a modified structure of (0001)-oriented $\alpha$-PtO2.CO exposure of the oxidized particles did not lead to a shape change reversibility.}
+      \field{issn}{14639076}
+      \field{journaltitle}{Journal of Physical Chemistry C}
+      \field{number}{117}
+      \field{title}{{In Situ Oxidation Study of Pt Nanoparticles on MgO(001)}}
+      \field{year}{2013}
+      \field{pages}{19955\bibrangedash 19966}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1039/c4cp01271b
+      \endverb
+      \verb{file}
+      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Hejral et al. - 2013 - In Situ Oxidation Study of Pt Nanoparticles on MgO(001).pdf:pdf
+      \endverb
     \endentry
     \entry{hofmann_nanoscale_2020}{article}{}
       \name{author}{8}{}{%
@@ -7649,12 +8099,9 @@
       \verb{doi}
       \verb 10.1107/S1600576719017163
       \endverb
-      \verb{file}
-      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Lauraux et al. - 2020 - Multi-wavelength Bragg coherent X-ray diffraction imaging of Au particles Multi-wavelength BCDI imaging of Au pa.pdf:pdf
-      \endverb
       \keyw{Au nanoparticles,Bragg coherent X-ray diffraction imaging,energy scanning}
     \endentry
-    \entry{crystal_sarah}{article}{}
+    \entry{Lauraux2021}{article}{}
       \name{author}{13}{}{%
         {{un=2,uniquepart=given,hash=31a146c87629df06a90d020aab6d14b0}{%
            family={Lauraux},
@@ -8088,6 +8535,53 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1038/s41524-021-00583-9
+      \endverb
+    \endentry
+    \entry{Lorensen1987}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=966edb0a4087f42b3518503987e61399}{%
+           family={Lorensen},
+           familyi={L\bibinitperiod},
+           given={William\bibnamedelima E.},
+           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74f056f6ffac9cb2f26904eca44820de}{%
+           family={Cline},
+           familyi={C\bibinitperiod},
+           given={Harvey\bibnamedelima E.},
+           giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{c04f319f1cd4852327f00c52da26c78e}
+      \strng{fullhash}{c04f319f1cd4852327f00c52da26c78e}
+      \strng{bibnamehash}{c04f319f1cd4852327f00c52da26c78e}
+      \strng{authorbibnamehash}{c04f319f1cd4852327f00c52da26c78e}
+      \strng{authornamehash}{c04f319f1cd4852327f00c52da26c78e}
+      \strng{authorfullhash}{c04f319f1cd4852327f00c52da26c78e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a new algorithm, called marching cubes, that creates triangle models of constant density surfaces from 3D medical data. Using a divide-and-conquer approach to generate inter-slice connectivity, we create a case table that defines triangle topology. The algorithm processes the 3D medical data in scan-line order and calculates triangle vertices using linear interpolation. We find the gradient of the original data, normalize it, and use it as a basis for shading the models. The detail in images produced from the generated surface models is the result of maintaining the inter-slice connectivity, surface data, and gradient information present in the original 3D data. Results from computed tomography (CT), magnetic resonance (MR), and single-photon emission computed tomography (SPECT) illustrate the quality and functionality of marching cubes. We also discuss improvements that decrease processing time and add solid modeling capabilities.}
+      \field{issn}{0097-8930}
+      \field{journaltitle}{SIGGRAPH Comput. Graph.}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{Marching Cubes: A High Resolution 3D Surface Construction Algorithm}
+      \field{volume}{21}
+      \field{year}{1987}
+      \field{pages}{163\bibrangedash 169}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1145/37402.37422
       \endverb
     \endentry
     \entry{LucyAlgo1974}{article}{}
@@ -9450,7 +9944,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Surface cleaning procedures for seventy four of the elements having vapor pressures below 1.3 × 10−7 Pa at room temperature have been reviewed and evaluated. The emphasis was on in-situ procedures used to produce a clean surface on a macroscopic bulk sample in an ultra-high vacuum environment. In this review an atomically clean surface was defined to be an annealed surface (except where noted) at ambient temperature with a total surface contamination level of less than a few percent of a monolater. Wherever possible only cleaning methods documented by element- specific, surface-analytical techniques were reviewed and subsequently incorporated into the table of recommended procedures. For some elements a variety of procedures was deemed acceptable. Any differences in methods for polycrystalline and single-crystalline surfaces of the same element have been detailed. References to the reviewed literature are grouped by element.}
+      \field{abstract}{Surface cleaning procedures for seventy four of the elements having vapor pressures below 1.3 × 10-7 Pa at room temperature have been reviewed and evaluated. The emphasis was on in-situ procedures used to produce a clean surface on a macroscopic bulk sample in an ultra-high vacuum environment. In this review an atomically clean surface was defined to be an annealed surface (except where noted) at ambient temperature with a total surface contamination level of less than a few percent of a monolater. Wherever possible only cleaning methods documented by element- specific, surface-analytical techniques were reviewed and subsequently incorporated into the table of recommended procedures. For some elements a variety of procedures was deemed acceptable. Any differences in methods for polycrystalline and single-crystalline surfaces of the same element have been detailed. References to the reviewed literature are grouped by element.}
       \field{issn}{0378-5963}
       \field{journaltitle}{Applications of Surface Science}
       \field{number}{2}
@@ -10720,9 +11214,6 @@
       \verb{doi}
       \verb 10.1039/C7NR07990G
       \endverb
-      \verb{file}
-      \verb Richard et al. - 2018 - Crystallographic orientation of facets and planar .pdf:/Users/marieingridrichard/Zotero/storage/GC9IRK2I/Richard et al. - 2018 - Crystallographic orientation of facets and planar .pdf:application/pdf
-      \endverb
     \endentry
     \entry{Richardson1972}{article}{}
       \name{author}{1}{}{%
@@ -10752,7 +11243,7 @@
       \field{journaltitle}{J. Opt. Soc. Am.}
       \field{month}{01}
       \field{number}{1}
-      \field{title}{Bayesian-Based Iterative Method of Image Restoration$\ast$}
+      \field{title}{Bayesian-Based Iterative Method of Image Restoration}
       \field{volume}{62}
       \field{year}{1972}
       \field{pages}{55\bibrangedash 59}
@@ -11386,6 +11877,58 @@
       \verb https://doi.org/10.1016/B978-0-444-63474-0.00007-2
       \endverb
       \keyw{Kinetics of unimolecular catalytic reactions,enzyme kinetics,Michaelis–Menton kinetics,inhibition by product,kinetics of bimolecular catalytic reactions,Langmuir–Hinshelwood mechanism,true and apparent activation energies,Eley–Rideal mechanism,Mars–van Krevelen mechanism,kinetics of hydrocarbon oxidation,pressure functions,kinetics of ammonia synthesis and decomposition,kinetics of ethane hydrogenolysis,kinetics of methanation,kinetics of formic acid decomposition}
+    \endentry
+    \entry{vanSanten2010}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5ace04cd5dc544a500d7212ad274e003}{%
+           family={Santen},
+           familyi={S\bibinitperiod},
+           given={Rutger\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=32364caaed2db43829c04ee73ea728f2}{%
+           family={Neurock},
+           familyi={N\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1811b6d150953ae40919476e1af74583}{%
+           family={Shetty},
+           familyi={S\bibinitperiod},
+           given={Sharan\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{4cbd0fa69e73aa22ad3d5110fe5d094c}
+      \strng{fullhash}{367d48407e3509d22c3032c2d53576b5}
+      \strng{bibnamehash}{367d48407e3509d22c3032c2d53576b5}
+      \strng{authorbibnamehash}{367d48407e3509d22c3032c2d53576b5}
+      \strng{authornamehash}{4cbd0fa69e73aa22ad3d5110fe5d094c}
+      \strng{authorfullhash}{367d48407e3509d22c3032c2d53576b5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0009-2665}
+      \field{journaltitle}{Chemical Reviews}
+      \field{month}{04}
+      \field{number}{4}
+      \field{title}{Reactivity Theory of Transition-Metal Surfaces: A Br{ø}nsted-Evans-Polanyi Linear Activation Energy-Free-Energy Analysis}
+      \field{volume}{110}
+      \field{year}{2010}
+      \field{pages}{2005\bibrangedash 2048}
+      \range{pages}{44}
+      \verb{doi}
+      \verb 10.1021/cr9001808
+      \endverb
     \endentry
     \entry{Takagi1969}{article}{}
       \name{author}{1}{}{%
@@ -13522,6 +14065,40 @@
       \verb 10.1002/9781119280453
       \endverb
     \endentry
+    \entry{WINTERBOTTOM1967}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c4dfc60235b929e0f97abeef374c629c}{%
+           family={Winterbottom},
+           familyi={W\bibinitperiod},
+           given={W.L},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c4dfc60235b929e0f97abeef374c629c}
+      \strng{fullhash}{c4dfc60235b929e0f97abeef374c629c}
+      \strng{bibnamehash}{c4dfc60235b929e0f97abeef374c629c}
+      \strng{authorbibnamehash}{c4dfc60235b929e0f97abeef374c629c}
+      \strng{authornamehash}{c4dfc60235b929e0f97abeef374c629c}
+      \strng{authorfullhash}{c4dfc60235b929e0f97abeef374c629c}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A general solution has been developed for predicting the equilibrated shapes of small particles resting upon solid substrates. The solution describes the dependence of the particle shape upon the anisotropy of the surface tension of the particle and upon the binding between the particle and the substrate. These capillary forces can be determined from the shapes of small particles under certain specified conditions. The results of some studies of the behavior of silver films on BeO substrates are interpreted in terms of this shape theory. Résumé L'auteur a établi une théorie générale permettant de prévoir la forme à l'équilibre de petites particules reposant sur un substrat solide. Cette théorie décrit les effets qu'auront sur la forme de la particule, l'anisotropie de la tension superficielle et la liaison entre la particule et le substrat. Ces forces capillaires peuvent être déterminées dans certaines conditions spécifiques sur la base des formes des particules. L'auteur interprète enfin par sa théorie de la forme des particules, les résultats de quelques études se rapportant au comportement de films d'argent sur un substrat de BeO. Zusammenfassung Es wurde eine allgemeine Lösung zur Vorhersage der Gleichgewichtsform eines kleinen Teilchens auf einer festen Unterlage hergeleitet. Die Lösung beschreibt die Abhängkeit der Teilchengestalt von der Anisotropie der Oberflächenspannung des Teilchens und von der Bindung zwischen Teilchen und Substrat. Diese Kapilarkräfte können aus der Gestalt kleiner Teilchen unter gewissen besonderen Bedingungen bestimmt werden. Die Ergebnisse einiger Untersuchungen zum Verhalten von Silberschichten auf BeO-ünterlagen werden im Rahmen dieser Gestalttheorie gedeutet.}
+      \field{issn}{0001-6160}
+      \field{journaltitle}{Acta Metallurgica}
+      \field{number}{2}
+      \field{title}{Equilibrium shape of a small particle in contact with a foreign substrate}
+      \field{volume}{15}
+      \field{year}{1967}
+      \field{pages}{303\bibrangedash 310}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0001-6160(67)90206-4
+      \endverb
+    \endentry
     \entry{Wood1964}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=83ac13d2b86bfaa352136bba9699193e}{%
@@ -13740,12 +14317,12 @@
     \endentry
     \entry{ZHANG2019}{article}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=4b9e02770ea6f2a2ff82c1f1435cfd79}{%
+        {{un=1,uniquepart=given,hash=4b9e02770ea6f2a2ff82c1f1435cfd79}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Mengtao},
            giveni={M\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=00b734eb3fb588e4c6c94e4271080d0b}{%
            family={Wang},
            familyi={W\bibinitperiod},
@@ -13788,6 +14365,85 @@
       \range{pages}{8}
       \verb{doi}
       \verb https://doi.org/10.1016/j.joule.2019.11.005
+      \endverb
+    \endentry
+    \entry{Zhang2014}{article}{}
+      \name{author}{8}{}{%
+        {{un=1,uniquepart=given,hash=f3c76778f33adcfedc8b05d4af2271bd}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Sen},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=1e623f79370754172ef56c2cf87e1cf5}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb9b80f1eb726929d1215c09aae520c5}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Guangming},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca555f296b3f065e6e7e995f43b2dcdc}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Huiyuan},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6074b650e8b3d8e9b60595d2c29d8be}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Shaojun},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5b2027bcfd3d18f5afb62ce44957714}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Dong},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=651d8ad1075af9edde09d25bdff48fc1}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f64d21cde9194c43190d07f53300e63}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Shouheng},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{833c6496e9f39e03280bd312340b0ac2}
+      \strng{fullhash}{1333f96bd44b0f673301963a1ce13d98}
+      \strng{bibnamehash}{833c6496e9f39e03280bd312340b0ac2}
+      \strng{authorbibnamehash}{833c6496e9f39e03280bd312340b0ac2}
+      \strng{authornamehash}{833c6496e9f39e03280bd312340b0ac2}
+      \strng{authorfullhash}{1333f96bd44b0f673301963a1ce13d98}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-7863}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{month}{05}
+      \field{number}{21}
+      \field{title}{Tuning Nanoparticle Structure and Surface Strain for Catalysis Optimization}
+      \field{volume}{136}
+      \field{year}{2014}
+      \field{pages}{7734\bibrangedash 7739}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1021/ja5030172
       \endverb
     \endentry
     \entry{Zhdanov1997}{article}{}
@@ -13969,6 +14625,7 @@
       \keyw{COPrOx,Cobalt oxides,Manganese oxides,Mixed oxides,NAP-XPS,NEXAFS,Operando spectroscopy,Selectivity}
     \endentry
   \enddatalist
+  \missing{Resta2020}
 \endrefsection
 \endinput
 

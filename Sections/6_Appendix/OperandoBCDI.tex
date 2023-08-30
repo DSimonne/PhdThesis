@@ -1,3 +1,5 @@
+\section{3D views of reconstructed Pt nanoparticles during the oxidation of ammonia}\label{sec:3DAmmoniaOxidation}
+
 The following images represent the surface of the D-6 and B-7 nanoparticles measured during two ammonia oxidation cycles at 300°C and 400°C.
 The surface is created by using the Marching-Cubes algorithm \parencite{Lorensen1987} in \textit{Paraview} \parencite{Ahrens2001}, which works by first assigning a scalar value to each voxel of the data (in our case the amplitude of the retrieved complex Bragg electronic density), and secondly selecting an isovalue which acts as a threshold, separating the regions of the volume that have values above it from those with values below it.
 Finally, by "marching" over the volume of the array, the algorithm derives a surface representation by assigning a configuration to each point in the array that depends on whether or not the 8 neighbouring cubes have values above or below the isovalue (fig. \ref{fig:MarchingCubes}).
@@ -20,5 +22,5 @@ The ammonia to oxygen ration is represented on the right part of the figure.
     \label{fig:MarchingCubes}
 \end{figure}
 
-\includepdf[pages=-]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/3D_B7.pdf}
-\includepdf[pages=-]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/3D_D6.pdf}
+\includepdf[pages=-]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/3D_B7.pdf}\label{ref:AppendixB7}
+\includepdf[pages=-]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/3D_D6.pdf}\label{ref:AppendixD6}

@@ -186,7 +186,7 @@ An alternative approach also available in \textit{Gwaihir} is to take the averag
 
 Post-processing regroups methods applied to the complex output of the phase retrieval.
 Once the solution with the best figure of merit is selected, it is possible to use the \textit{bcdi} scripts to process the object.
-If the data is still in the detector frame (geometric transformation not applied during pre-processing), the data is interpolated in the orthogonal laboratory frame ($\vec{z}$ downstream, $\vec{y}$ vertical up, $\vec{x}$ outboard) using a transformation matrix, so that it becomes easier to compare the object's evolution when probing different Bragg reflections \parencite{crystal_sarah}.
+If the data is still in the detector frame (geometric transformation not applied during pre-processing), the data is interpolated in the orthogonal laboratory frame ($\vec{z}$ downstream, $\vec{y}$ vertical up, $\vec{x}$ outboard) using a transformation matrix, so that it becomes easier to compare the object's evolution when probing different Bragg reflections \parencite{Lauraux2021}.
 First, the correct beamline and instrumental parameters must be selected (\textit{e.g.} sample-detector distance, probing energy, detector pixel size, \textit{etc}...), usually constant throughout the experiment.
 The geometric transformation can be realized using either the transformation matrix \parencite{thesismark} or the \textit{xrayutilities} package \parencite{kriegner_xrayutilities_2013}, depending on which reference basis is needed.
 
@@ -351,7 +351,7 @@ High performance computing clusters are therefore needed for the reduction of su
 \subsection{ROD} \label{sec:ROD}
 
 The aim of SXRD data analysis is to find the 3D ($\vec{a}, \vec{b}$, $\vec{c}$) surface unit cell structure from in-plane maps and crystal truncation rods by comparing the position and intensity of the scattered intensity with simulations.
-It is also possible to refine the atomic position of the surface atoms or to look at the relaxation changes, depending on the complexity of the analysis and the quality of the dataset.
+It is also possible to refine the atomic position of the surface atoms or to look at the surface relaxation changes, depending on the complexity of the analysis and the quality of the dataset.
 
 ROD is a computer program written in \textit{C} \parencite{Vlieg2000} that is used both to simulate structure factors from surface structures and to refine the atomic positions by fitting the crystal truncation rod intensity.
 Since ROD is written in \textit{C} and does not come with a graphical user interface, alternatives have been developped such as GenX \parencite{Bjorck2007,Glavic2022} written in \textit{Python} which mostly focuses on reflectometry.

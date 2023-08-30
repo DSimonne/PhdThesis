@@ -1,15 +1,17 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'main.blg'
-[67] biber:340> INFO - === lun. août 21, 2023, 09:23:18
-[79] Biber.pm:418> INFO - Reading 'main.bcf'
-[175] Biber.pm:978> INFO - Found 245 citekeys in bib section 0
-[185] Biber.pm:4401> INFO - Processing section 0
-[193] Biber.pm:4592> INFO - Looking for bibtex file '/home/david/Documents/PhD/PhdThesis/references.bib' for section 0
-[259] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1073] bibtex.pm:1518> INFO - Found BibTeX data source '/home/david/Documents/PhD/PhdThesis/references.bib'
-[2992] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2992] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2992] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
-[2992] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-GB'
-[3209] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[3471] bbl.pm:757> INFO - Output to main.bbl
+[75] biber:340> INFO - === mar. août 29, 2023, 20:48:00
+[91] Biber.pm:418> INFO - Reading 'main.bcf'
+[208] Biber.pm:978> INFO - Found 257 citekeys in bib section 0
+[219] Biber.pm:4401> INFO - Processing section 0
+[229] Biber.pm:4592> INFO - Looking for bibtex file '/home/david/Documents/PhD/PhdThesis/references.bib' for section 0
+[301] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1227] bibtex.pm:1518> INFO - Found BibTeX data source '/home/david/Documents/PhD/PhdThesis/references.bib'
+[3460] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3460] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3460] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
+[3460] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-GB'
+[3740] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[4060] bbl.pm:757> INFO - Output to main.bbl
+[4060] Biber.pm:130> WARN - I didn't find a database entry for 'Resta2020' (section 0)
+[4060] Biber.pm:132> INFO - WARNINGS: 1

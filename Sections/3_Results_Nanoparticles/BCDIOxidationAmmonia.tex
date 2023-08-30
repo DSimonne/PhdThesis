@@ -1,0 +1,99 @@
+\section{Measuring the oxidation of ammonia}
+
+% Lattice parameter - homogeneous strain evolution: OK
+% 3D plots: OK
+% strain field energy: OK
+% Peak width :kinda OK
+% Field data tables : prob too many so no
+% Facet strain evolution plots just like temp ramp: (no disp, useless unless seen in bulk)
+% Strain histogram ? useless we want to see the evolution of specific facets, good id not too many facets, also too many scans
+% need to do smtg with edges and corners, plot as a fct of the coordination nb ?
+% explain how exactly a single voxel was found when getting the surface voxels in python
+
+After having shown that the Pt particles epitaxied on alumina are stable under different atmospheres at \qty{300}{\degreeCelsius}, \qty{500}{\degreeCelsius} and \qty{600}{\degreeCelsius}, the oxidation of ammonia was measured using BCDI starting at \qty{300}{\degreeCelsius}.
+
+The same sample, experimental setup, type of measurements and phase retrieval algorithms were used as detailed in the previous section for the temperature ramp.
+Two well faceted nanoparticles were successully measured and reconstructed at room temperature (fig. \ref{fig:IsanagiSusanooFacets}).
+Isanagi exhibits a round shape with many low index facets, \qty{40}{\percent} of its surface covered by \{113\} facets, \qty{40}{\percent} by \{111\} facets, \qty{40}{\percent} by \{110\} facets, and \qty{40}{\percent} by \{100\} facets.
+The particle is at the largest \qty{300}{\nm} wide.
+On the contraty, Susanoo exhibits a more rectangular shape without any \{113\} facets, \qty{40}{\percent} of its surface is covered by \{111\} facets, \qty{40}{\percent} by \{110\} facets, and \qty{40}{\percent} by \{100\} facets.
+The particle is at the largest \qty{800}{\nm} wide.
+
+Together with the Amaterasu nanoparticle, we have measured three nanoparticles that have a different size, shape and facets exhibited on the surface.
+The smallest nanoparticle (Isanagi) is the one with the most \{113\} facets, whereas the largest (Susanoo) does not have any.
+Amaterasu which is about \qty{600}{\nm} wide does only exhibits small \{113\} facets depending on the temperature.
+Overall, the sample is covered with thousands of nanoparticles that all together contribute to the catalytic activity and that probably show an even greater variance of shape and size.
+Therefore, this analysis using BCDI can only aim to reveal the structure variation during a catalytic reaction of a few nanoparticles without statistically representing the population on the sample, the measurement process being far too time extensive to probe more than a few nanoparticles.
+
+\textcolor{Important}{Need to say that we did this in a experiment}
+proven to be able to bring a more
+
+Three scans were recorded under each condition (tab. \ref{tab:Conditions}) at \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} for each nanoparticle to probe for any evolution of the particles surface structure during a fixed atmosphere as a function of time, and to otherwise demonstrate the reproducibility of the measurements.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/B7_facets.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/D6_facets.png}
+    \caption{
+        3D view of the Isanagi (left) and Susanoo (right) particles measured at room temperature showing a highly faceted surface.
+    }
+    \label{fig:IsanagiSusanooFacets}
+\end{figure}
+
+The 3D diffraction patterns were orthogonalised from the laboratory frame ($\vec{z}$ downstream, $\vec{y}$ vertical up, $\vec{x}$ outboard) to the $\hat{q_x}, \hat{q_y}, \hat{q_z}$ following the cxi convention ($\vec{z}$ perpendicular to the sample holder, $\vec{y}$ parallel to the beam direction and $\vec{x}$ in the sample plane).
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/DP_not_ortho.png}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/DP_ortho.png}
+    \caption{
+        Sum of the diffracted intensity in the $\vec{x}$, $\vec{y}$ and $\vec{z}$ directions of the laboratory frame before (top) and after orthogonalisation (bottom) in the $\hat{q_x}, \hat{q_y}, \hat{q_z}$ directions.
+    }
+    \label{fig:IsanagiOrtho}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/DP_not_ortho.png}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/DP_ortho.png}
+    \caption{
+        Sum of the diffracted intensity in the $\vec{x}$, $\vec{y}$ and $\vec{z}$ directions of the laboratory frame before (top) and after orthogonalisation (bottom) in the $\hat{q_x}, \hat{q_y}, \hat{q_z}$ directions.
+    }
+    \label{fig:SusanooOrtho}
+\end{figure}
+
+A 3D view of the reconstructed nanoparticles is presented in \ref{sec:3DAmmoniaOxidation}.
+
+After having successfully reconstructed the Pt nanoparticles, the facets at their surface were retrieved using the \textit{FacetAnalyzer} script written for \textit{Paraview} (sec. \ref{sec:FacetAnalysis}).
+No surface
+
+\subsection{Mass spectromety results}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/figures/homo_strain_vs_condition.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/figures/homo_strain_vs_condition_no_25.png}
+    \caption{
+        Evolution of the homogeneous strain computed from the 3D Bragg peak center of mass.
+    }
+    \label{fig:AmaterasuStrainSlices}
+\end{figure}
+
+\subsection{Strain field energy}
+
+
+
+\section{Conclusion and perspectives}
+
+\textcolor{red}{This chapter covers three areas: analysis of the data; discussion of the results of the analysis; and how your findings relate to the literature. The analysis of the data can be discussed here but the details of any analysis, such as statistical calculations, should be shown in the appendices. You should present any discussion clearly and logically and it should be relevant to your research questions/hypotheses or aims and objectives. Insert any tables or figures that you decide are important in a relevant part of the text not in the appendices, and discuss them fully. Make sure that you relate the findings of your primary research to your literature review. You can do this by comparison: discussing similarities and particularly differences. If you think your findings have confirmed some literature findings, say so and say why. If you think your findings are at variance with the literature, say so and say why.}
+
+This experiment has both demonstrated the value and limits of Bragg coherent diffraction imaging when studying heterogeneous catalytic reactions.
+The instrumental procedure is very time-consuming, especially at the SixS beamline for which two weeks of beamtime are in general needed to perform an experiment, the first week being used to install the BCDI setup and to align the sample in the focal plane of the beam.
+The recent improvement of the instrumental setup (rocking curves performed in Fly mode instead of step-by-step mode, sample scanning in Bragg conditions to find the nanoparticles, sapphire window in the dome) tend in the right direction since, as was demonstrated in this study, BCDI is of little use if one does not have the time to measure multiple reflections during an experiment.
+The planned upgrade of SOLEIL to a $4^{th}$ generation synchrotron will also play a key role in the hierarchy of SixS in the very competitive list of coherent imaging beamlines, the current resolution of the experiment being too low to properly resolve the smallest facets present of the particles, to distinguish between facets with similar orientations,to observe the growth of surface oxides or the strain in the topmost atomic layers.
+
+Nevertheless, we have successfully measured the evolution of Pt nanoparticles during a temperature ramp from \qty{25}{\degreeCelsius} to \qty{600}{\degreeCelsius} in which the reshaping of the particles as a function of temperature was put into evidence, with the apperance of dislocation loops and facets, together with the importance of the presence of a substrate on the displacement field.
+The importance of probing different nanoparticles before drawing a conclusion to their global behaviour was also put into perspective by the study of the oxidation of ammonia at \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius}, as a function of the ratio between \argon and \ammonia.
+The role of different facets in the stability of the particle was shown.
+
+An upgraded beamline could allow future BCDI studies of the oxidation of ammonia, revealing the 3D structural dynamics of the hysteresis cycle identified on single crystal by \cite{Resta2020a}, or give additionnal detail regarding the presence of surface oxides on specfic facets, as seen in the next chapter.
