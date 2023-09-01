@@ -10194,6 +10194,78 @@
       \verb 10.1007/s10562-004-3434-9
       \endverb
     \endentry
+    \entry{Nolte2008}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=46344e78244b8987033eb116acf8bd4c}{%
+           family={Nolte},
+           familyi={N\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca186b9331e31ae7e4d40803735136ae}{%
+           family={Stierle},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4965968ec429225e19407fae324dd1da}{%
+           family={Jin-Phillipp},
+           familyi={J\bibinithyphendelim P\bibinitperiod},
+           given={N.\bibnamedelimi Y.},
+           giveni={N\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f9089bb7775143af5d8cf9ac16b32ea}{%
+           family={Kasper},
+           familyi={K\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a785c375d4681da29d376c41a9c4c4ae}{%
+           family={Schulli},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi U.},
+           giveni={T\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00a3423a63f4a82a8a5249087fba517b}{%
+           family={Dosch},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3f00727d39e47494d14a49f0312f6bf6}
+      \strng{fullhash}{ec38a803231907d479a5c26a5ce95b23}
+      \strng{bibnamehash}{3f00727d39e47494d14a49f0312f6bf6}
+      \strng{authorbibnamehash}{3f00727d39e47494d14a49f0312f6bf6}
+      \strng{authornamehash}{3f00727d39e47494d14a49f0312f6bf6}
+      \strng{authorfullhash}{ec38a803231907d479a5c26a5ce95b23}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The microscopic insight into how and why catalytically active nanoparticles change their shape during oxidation and reduction reactions is a pivotal challenge in the fundamental understanding of heterogeneous catalysis. We report an oxygen-induced shape transformation of rhodium nanoparticles on magnesium oxide (001) substrates that is lifted upon carbon monoxide exposure at 600 kelvin. A Wulff analysis of high-resolution in situ x-ray diffraction, combined with transmission electron microscopy, shows that this phenomenon is driven by the formation of a oxygen–rhodium–oxygen surface oxide at the rhodium nanofacets. This experimental access into the behavior of such nanoparticles during a catalytic cycle is useful for the development of improved heterogeneous catalysts.}
+      \field{journaltitle}{Science}
+      \field{number}{5896}
+      \field{title}{Shape Changes of Supported Rh Nanoparticles During Oxidation and Reduction Cycles}
+      \field{volume}{321}
+      \field{year}{2008}
+      \field{pages}{1654\bibrangedash 1658}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1126/science.1160845
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.1160845
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.1160845
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.1160845
+      \endverb
+    \endentry
     \entry{Ontaneda2015}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=21faa6edd2638fb46b9f8dd54a30a6f7}{%
