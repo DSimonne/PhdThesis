@@ -5,17 +5,17 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces X-ray techniques carried out in the frame of this thesis. \relax }}{24}{table.caption.12}%
 \contentsline {table}{\numberline {2.2}{\ignorespaces Position of platinum atoms in the face-centered cubic (FCC) unit cell. Illustrated in fig. \ref {fig:fcc}. The first four atomic positions lead to the other positions by symmetry (space group 225).\relax }}{35}{table.caption.23}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces The output of facet analysis is a list of values for each facet. The accessible features are the facet size, the average strain and displacement (along the [111] direction), the facet center and the facet normal. The uncertainty on the average displacement and strain corresponds to the standard deviation of the displacement and strain distribution, respectively. \relax }}{52}{table.caption.37}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces The output of \text {FacetAnalyser} is a list of values for each facet. The accessible features are the facet size, the average strain and displacement (along the [111] direction), and the coordinates of the normal to the facet surface.. The uncertainty on the average displacement and strain corresponds to the standard deviation of the displacement and strain distribution, respectively. \relax }}{52}{table.caption.37}%
 \contentsline {table}{\numberline {2.4}{\ignorespaces Distance between each main element that allows the focusing of a monochromatic beam on the multi environment diffractometer (MED) sample stage at SixS. \relax }}{54}{table.caption.40}%
 \contentsline {table}{\numberline {2.5}{\ignorespaces Diameter of the coherence focusing optics used to increase the coherent flux on the sample. \relax }}{56}{table.caption.44}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Thermal conductivity in \unit {\mW \per \meter \per \kelvin } of gases \blx@tocontentsinit {0}\parencite {ThermalConductivityOfGases}.\relax }}{76}{table.caption.66}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces \relax }}{77}{table.caption.68}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Example of algorithm chain used in BCDI for the phase retrieval.\relax }}{78}{table.caption.69}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Scattering angle $\theta $, scattering vector magnitude $q$ and intensity of the scattered waves for different Bragg peaks as a function of the increasing scattering angle (up to $2\theta = \ang {30}$), computed for an energy of \qty {18.45}{\keV } using eq. \ref {eq:Bragglaw} and eq. \ref {eq:Fcrystal}. \relax }}{92}{table.caption.89}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Thermal conductivity in \unit {\mW \per \meter \per \kelvin } of gases \blx@tocontentsinit {0}\parencite {ThermalConductivityOfGases}.\relax }}{77}{table.caption.67}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces \relax }}{78}{table.caption.69}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Example of algorithm chain used in BCDI for the phase retrieval.\relax }}{79}{table.caption.70}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Scattering angle $\theta $, scattering vector magnitude $q$ and intensity of the scattered waves for different Bragg peaks as a function of the increasing scattering angle (up to $2\theta = \ang {30}$), computed for an energy of \qty {18.45}{\keV } using eq. \ref {eq:Bragglaw} and eq. \ref {eq:Fcrystal}. \relax }}{95}{table.caption.91}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Symbols used in crystallography for the description of real and reciprocal space structures. Subscript $_s$ used to distinguish surface from underlying structure \blx@tocontentsinit {0}\parencite {Wood1964, Willmott}. \relax }}{117}{table.caption.100}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Symbols used in crystallography for the description of real and reciprocal space structures. Subscript $_s$ used to distinguish surface from underlying structure \blx@tocontentsinit {0}\parencite {Wood1964, Willmott}. \relax }}{120}{table.caption.101}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces Output of the \textit {FacetAnalyzer} plugin used in \textit {Paraview} when extracting the facets on different particle surfaces for the scan 1414 at \qty {25}{\degreeCelsius } under Argon atmosphere. \relax }}{118}{table.caption.101}%
+\contentsline {table}{\numberline {B.1}{\ignorespaces Output of the \textit {FacetAnalyzer} plugin used in \textit {Paraview} when extracting the facets on different particle surfaces for the scan 1414 at \qty {25}{\degreeCelsius } under Argon atmosphere. \relax }}{121}{table.caption.102}%
 \addvspace {10\p@ }

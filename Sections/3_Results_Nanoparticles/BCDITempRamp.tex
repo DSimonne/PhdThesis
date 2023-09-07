@@ -2,67 +2,15 @@
 
 % strain field energy: kinda useless
 % peak width:
-% rotate so z is good ...
 % could add scans at 200, 250, 300 and 350 °C,
-% 600°C actually ok under argon...
 % need to put scan table in appendix
-
-Two temperature ramps at a reactor pressure of \qty{0.3}{\bar} (fig. \ref{fig:TempRamps} - c, d) were carried out to probe the evolution of the reaction product as a function of the temperature under a constant gas flow (\qty{41}{\ml\per\min} of \argon, \qty{8}{\ml\per\min} of \dioxygen, \qty{1}{\ml\per\min} of \ammonia).
-The excess of oxygen compared to ammonia is expected to favour the production of \nitricoxide at high temperatures (sec. \ref{sec:AmoOxiHC}).
-
-\begin{figure}[!htb]
-    \centering
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/figures/ThermocoupleCalibration.pdf}
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/figures/ThermocoupleFit03bar.pdf}
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/Test_Reactor_CO2_2021_01/Figures/TempRamp1.pdf}
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/Test_Reactor_CO2_2021_01/Figures/TempRamp2.pdf}
-    \caption{
-        a) Temperature inside the reactor cell measured with a type C thermocouple under vacuum and different \argon pressures.
-        b) Polynomial fit of the temperature as a function of the heater current.
-        Partial pressures evolution under a constant gas flow (\qty{41}{\ml\per\min} of \argon, \qty{8}{\ml\per\min} of \dioxygen, \qty{1}{\ml\per\min} of \ammonia) at a reactor pressure of \qty{0.3}{\bar} during increasing and decreasing (low transparency) temperature ramps to c) \qty{525}{\degreeCelsius} with 150 steps, each lasting \qty{10}{\second}, and d) to \qty{650}{\degreeCelsius} with 100 steps, each lasting \qty{10}{\second}.
-        Oxygen is omitted for simplicity.
-    }
-    \label{fig:TempRamps}
-\end{figure}
-
-The first temperature ramp to \qty{525}{\degreeCelsius} shows that the air present in the cell was not well extracted before reaching a temperature of \qty{300}{\degreeCelsius} \qty{14}{\min} after starting heating, the pressure of \nitrogen and \water continuously decreasing until then.
-Above \qty{300}{\degreeCelsius}, the pressure of \nitrogen and \nitricoxide starts to increase, with a sligtly lower activation temperature for \nitrogen.
-No production of \nitrousoxide can be detected during this temperature ramp.
-
-A second temperature ramp was carried out to \qty{650}{\degreeCelsius} to see if the the activation temperature for the production of \nitrousoxide could be achieved.
-The partial pressure of each reaction product is lower at the beginning of the temperature ramp which shows that the remaining air was well extracted.
-The activation temperature for the production of \nitrogen can be more easily identified to be around \qty{300}{\degreeCelsius} and near \qty{450}{\degreeCelsius} for \nitricoxide, which is in accord with the data from the first temperature ramp.
-
-However, the activation temperature for \nitrousoxide in the second temperature ramp is at about \qty{450}{\degreeCelsius}, a temperature that was reached during the first temperature ramp as well, but without the detection of \nitrousoxide.
-This could be linked to either an activation process of the catalyst that lowers the activation temperature for the production of nitrous oxide, or more probably to a very low signal to noise ratio that hides the evolution of the partial pressure due to the remaining air in the reactor, the partial pressure on \nitrousoxide being the lowest of all the detected gases.
-
-According to these primary results, the study of the oxidation of ammonia with BCDI was originally decided to be carried out at \qtylist{300;500;600}{\degreeCelsius}, temperatures before and after the catalyst light off (tab. \ref{tab:Conditions}).
-
-\begin{table}[!htb]
-    \centering
-    %\resizebox{\textwidth}{!}{%
-    \begin{tabular}{@{}cclc@{}}
-    \toprule
-    \multicolumn{3}{c}{Gas flow (\unit{\ml\per\min})} & Targeted information \\
-    \multicolumn{1}{l}{\argon} & \multicolumn{1}{l}{\ammonia} & \dioxygen & \multicolumn{1}{l}{} \\
-    \midrule
-    50 & 0 & 0 & Catalyst state without reactants (unactive) \\
-    49 & 1 & 0 & \ammonia introduction influence \\
-    48.5 & 1 & 0.5 & \multirow{4}{*}{\begin{tabular}[c]{@{}c@{}}Influence of \ammonia / \dioxygen ratio as a function\\ of the temperature and vice-versa\end{tabular}} \\
-    48 & 1 & 1 &  \\
-    47 & 1 & 2 &  \\
-    41 & 1 & 8 &  \\
-    \bottomrule
-    \end{tabular}%
-    %}
-    \caption{}
-    \label{tab:Conditions}
-\end{table}
 
 To de-corellate the effect of temperature from the effect of the catalytic reaction on the nanoparticle structure, the alumina-supported nanoparticles were gradually heated from \qtyrange{25}{600}{\degreeCelsius} under a constant \argon-based gas flow (\qty{50}{\ml\per\min}) and at a pressure of \qty{0.3}{\bar}.
 
 The same nanoparticle (so-forth called nanoparticle Amaterasu) was tracked during the heating process, rocking-curves around the [111] Bragg peak were measured every \qty{50}{\degreeCelsius} to probe its structural evolution, with \qty{201}{steps}, each counting for \qty{5}{\second}, resulting in an angular step equal to \ang{0.005}.
 The measurement of a rocking curve took approximately \qty{22}{\minute}, with \qty{25}{\percent} of dead time.
+
+\textit{Gwaihir} was used to process the data using the workflow detailed in sec. \ref{sec:Gwaihir}, each dataset was saved as a \textit{cxi} file containing all of the data and metadate related to the data reduction process, available on request.
 The use of iterative algorithm for phase retrieval is detailed in tab. \ref{tab:ReconstructionProcess}.
 
 \begin{table}[!htb]
@@ -84,8 +32,8 @@ The use of iterative algorithm for phase retrieval is detailed in tab. \ref{tab:
 \label{tab:ReconstructionProcess}
 \end{table}
 
-The surface of the Pt nanoparticle coloured by the surface voxel strain values is presented in fig. \ref{fig:Amaterasu}, only 4 temperatures are shown because the shape and strain of the nanoparticle does not evolve between \qty{25}{\degreeCelsius} and \qty{400}{\degreeCelsius} besides the removal of the defect.
-A dislocation identified at the interface with the substrate at \qty{25}{\degreeCelsius} from its strain signature and missing pipe of electronic density \parencite{Dupraz2015} was removed by an instrumental mistake which resulted in a flash heating procedure, the heater going from \qtyrange{150}{800}{\degreeCelsius} for a few minutes before coming back to \qty{150}{\degreeCelsius}.
+The surface of the Pt nanoparticle coloured by the surface voxel strain values is presented in fig. \ref{fig:Amaterasu}, only 4 temperatures are shown because the shape and strain of the nanoparticle does not evolve between \qty{150}{\degreeCelsius} and \qty{450}{\degreeCelsius} besides the removal of the defect.
+A dislocation identified at the interface with the substrate at \qty{150}{\degreeCelsius} from its strain signature and missing pipe of electronic density \parencite{Dupraz2015} was removed by an instrumental mistake which resulted in a flash heating procedure, the heater going from \qtyrange{150}{800}{\degreeCelsius} for a few minutes before coming back to \qty{150}{\degreeCelsius}.
 
 The displacement field could not be perfectly unwrapped around the dislocation, resulting in two positive strain regions (in red) in the surrounding low strain region.
 
@@ -290,6 +238,15 @@ The use of padding during the reconstruction algorithm decreases the voxel size,
         Angles between the $[111]$ direction (normal to the top facet and opposite to the bottom facet of the particle) and other crystallographic directions that describe the normals to the other facets of the particle.
     }
     \label{fig:Angles}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering   % left x right y
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/introduction/stereographic_projection_bottom.pdf}
+    \caption{
+        Stereographic projection perpendicular to $[\bar{1}\bar{1}\bar{1}]$ crystallographic orientation.
+    }
+    \label{fig:StereoBottom}
 \end{figure}
 
 The crystallographic orientation of a facet can be determined by computing the angle between the [111] direction and its normal, which is then related to a direction in real space (fig. \ref{fig:Angles}).

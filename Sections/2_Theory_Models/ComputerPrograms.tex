@@ -323,21 +323,35 @@ The in-plane maps in reciprocal space collected during surface x-ray diffraction
 It is of utmost importance to select a thin layer to not drown the surface signal with the background or bulk signal.
 
 BINoculars also contains a sub-module (\textit{fitaid}) that allows the integration of the scattered intensity in the reciprocal space as a function of one axis.
-Usually, to study the evolution of crystal truncation rods, the data is projected either in the ($h, k, l$) or ($q_x, q_y, q_z$) frame and then integrated in a square area around the CTR signal as a function of $l$ or $q_z$.
+Usually, to study the evolution of crystal truncation rods, the data is projected either in the ($h, k, l$) or ($q_x, q_y, q_z$) frame and then integrated in a square area around the CTR signal as a function of $l$ or $q_z$ (fig. \ref{fig:BinocularsBackground}).
+
 The voxel size in each direction is set through a parameter, which raises a compromise between array size, resolution, and an interpolation process.
 Moreover, to compare different maps, it is better to use the same resolution so that the intensities of the different signals are on the same scale.
+
 When in the ($q_x, q_y, q_z$) space, it is possible to go as low as \qty{0.005}{\angstrom^{-1}} in each direction, the limit being set by instrumental parameters such as the detector pixel size, the amount of angular scans performed, the counting time or the number of iteration per scans (and by the computer memory when computing or visualising the final space).
+
 If the number of iteration is too low for the desired resolution, the process will yield an image with empty areas corresponding to voxels where no data could be recorded.
 This is often the case during the collection of crystal truncation rods, at high values of $l$, since the region probed by the detector becomes thinner in $l$ with every iteration (sec. \ref{sec:DataCollectionSXRD} - \cite{Drnec2014}).
 To avoid having to rely on an interpolation to fill these voxels, it is better to use a larger resolution when concatenating the images, and then to use the same step when integrating the data.
 
+\begin{figure}[!htb]
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/background_fitaid.png}
+    \caption{
+        Graphical user interface for the \text{fitaid} module of binoculars.
+        The CTR structure factor is computed using eq. \ref{eq:BinocSF} using a rectangular region of interest around the CTR signal.
+        Four rectangular regions of interests around the signal are used to compute the background.
+    }
+    \label{fig:BinocularsBackground}
+\end{figure}
+
 The intensity integrated \textit{via} \textit{fitaid} also contains the background signal.
 To quantitatively compare the integrated intensity with simulated structure factors, it is mandatory to subtract the background intensity from the total intensity.
-The background is calculated by taking the sum of all the values of selected background regions, around the CTR, corrected by the number of voxels in those area.
+The background is calculated by taking the sum of all the values of selected background regions (fig. \ref{fig:BinocularsBackground}), around the CTR, corrected by the number of voxels in those area.
 The average background value per voxel is then subtracted to each voxel in the CTR region of interest (ROI), the structure factor $F$ can then be computed as follows:
 
 \begin{equation}
     |F|^2 \propto I_{roi} - \frac{N_{roi}}{N_{bkg}} \times I_{bkg}
+    \label{eq:BinocSF}
 \end{equation}
 
 $I_{roi}$ is the integrated intensity in the ROI, $N_{roi}$ the number of voxels in the ROI, $I_{bkg}$ the integrated background intensity and $N_{bkg}$ the number of voxels in the background.

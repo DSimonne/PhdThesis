@@ -1,17 +1,17 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'main.blg'
-[88] biber:340> INFO - === ven. sept.  1, 2023, 12:58:22
-[105] Biber.pm:418> INFO - Reading 'main.bcf'
-[269] Biber.pm:978> INFO - Found 258 citekeys in bib section 0
-[283] Biber.pm:4401> INFO - Processing section 0
-[293] Biber.pm:4592> INFO - Looking for bibtex file '/home/david/Documents/PhD/PhdThesis/references.bib' for section 0
-[378] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1339] bibtex.pm:1518> INFO - Found BibTeX data source '/home/david/Documents/PhD/PhdThesis/references.bib'
-[3983] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3983] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3983] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
-[3983] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-GB'
-[4260] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[4604] bbl.pm:757> INFO - Output to main.bbl
-[4604] Biber.pm:130> WARN - I didn't find a database entry for 'Resta2020' (section 0)
-[4604] Biber.pm:132> INFO - WARNINGS: 1
+[74] biber:340> INFO - === mer. sept.  6, 2023, 20:55:37
+[87] Biber.pm:418> INFO - Reading 'main.bcf'
+[190] Biber.pm:978> INFO - Found 258 citekeys in bib section 0
+[200] Biber.pm:4401> INFO - Processing section 0
+[208] Biber.pm:4592> INFO - Looking for bibtex file '/home/david/Documents/PhD/PhdThesis/references.bib' for section 0
+[278] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1092] bibtex.pm:1518> INFO - Found BibTeX data source '/home/david/Documents/PhD/PhdThesis/references.bib'
+[3023] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3023] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3023] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
+[3024] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-GB'
+[3238] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[3485] bbl.pm:757> INFO - Output to main.bbl
+[3485] Biber.pm:130> WARN - I didn't find a database entry for 'Resta2020' (section 0)
+[3485] Biber.pm:132> INFO - WARNINGS: 1

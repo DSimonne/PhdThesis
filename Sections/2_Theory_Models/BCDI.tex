@@ -246,6 +246,7 @@ As described in sec. \ref{sec:Catalysis}, lattice strain and displacement are ke
 
 Retrieving the facets can be achieved by analysing the probability distributions of the orientations of triangle normals on a mesh representation of the object \parencite{Grothausmann2012}.
 This method is used in the \textit{Paraview} plugin FacetAnalyser \parencite{GrothausmannBeare2015}, and yields a list of features detailed in tab. \ref{tab:facets}.
+The orientation of each facet is retrieved by analysing the angles between the normal of each facet and a reference direction such as the [111] direction.
 
 In the case of highly resoluted measurement, another approach could be inspired from  image processing and convolutional neural networks in which 3D convolutions kernels could help identify the object surface \parencite{RaschkaMirjalili2019}.
 By tuning the kernel size and values, it is possible to be sensitive to boundaries in specific directions.
@@ -281,9 +282,9 @@ The result depends on the algorithm input parameters, such as the minimum relati
     }
     \end{center}
     \caption{
-    The output of facet analysis is a list of values for each facet.
-    The accessible features are the facet size, the average strain and displacement (along the [111] direction), the facet center and the facet normal.
-    The uncertainty on the average displacement and strain corresponds to the standard deviation of  the displacement and strain distribution, respectively.
+    The output of \text{FacetAnalyser} is a list of values for each facet.
+    The accessible features are the facet size, the average strain and displacement (along the [111] direction), and the coordinates of the normal to the facet surface..
+    The uncertainty on the average displacement and strain corresponds to the standard deviation of the displacement and strain distribution, respectively.
     }
     \label{tab:facets}
 \end{table}{}
