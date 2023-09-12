@@ -1,21 +1,70 @@
-\section{Experimental setup}
+\textcolor{red}{This Chapter should demonstrate that you have conducted a thorough and critical investigation of relevant sources.
+Apart from a presentation of the sources of your data, this chapter allows you to critically discuss the data (whatever these data are, ‘quantitative’ or ‘qualitative’, primary or secondary), which is proof of good research. You can even do good research with poor data but you must demonstrate that you are aware of the data quality and accordingly are careful in your interpretations. Essentially, there are three aspects to consider:
+\begin{enumerate}
+\item   Reliability, which, for example, could depend on whether they are estimates or more direct evidence;
+\item   Representativity, which is about how typical the data are; for example, you may have arguments why the very few cases are typical or you may carry out statistical tests;
+\item Validity, which is about the relevance of the data for your case. Strictly speaking, sometimes no valid data are available but one may argue that there are other data which could be used as ‘proxies’.)
+\end{enumerate}
+}
 
-Past ammonia oxidation experiments on \ce{Pt_{25}Rh_{75}} (100) \parencite{Resta2020} single-crystals gave significant new insights on the relaxation dynamics when the system crosses the catalyst activation barrier.
+\section{Introduction}
+
+Past ammonia oxidation experiments on \ce{Pt_{25}Rh_{75}} (100) \parencite{Resta2020a} single-crystals gave significant new insights on the relaxation dynamics when the system crosses the catalyst activation barrier.
 The experiment focused on measuring before and after the catalyst light off temperature, it was found that the transition from a nitrogen-rich to oxygen-rich input mixture coincides with a relaxation change in the topmost metallic layer: moving from outward to inward, but only for temperatures above the light off.
 Thanks to NAP-XPS experiments, nitrogen rich species (such as \nitrogen) were associated to positive relaxation of the topmost layer, expansion; while oxidative species (such as NO and oxygen) were linked to negative relaxation, contraction.
 This change in relaxation has an impact on the band structure and therefore on the catalytic properties as proposed in the d-band model as detailed in sec. \ref{sec:Catalysis}.
 It is therefore our intent to study if this modification in the relaxation is present only in the \ce{PtRh} alloy or if it has a more general value also on the constituent elements of the alloy to fully understand the impact of the Pt surface orientation on the catalyst selectivity.
-Moreover, different relaxation state and transient structures are expected to exist as a function of the ammonia to oxygen ratio.
+Different relaxation state and transient structures are expected to exist as a function of the ammonia to oxygen ratio.
 
-Moreover, we have recently probed the relaxation of single multi-faceted nanoparticles at SixS under the same conditions using Bragg Coherent Diffraction Imaging.
+Moreover, we have recently probed the relaxation of single multi-faceted nanoparticles at SixS under the oxidation of ammonia using surface x-ray diffraction, which showed a global reshaping of the nanoparticles at \qty{600}{\degreeCelsius} under reacting conditions, favouring \{111\} and \{100\} facets over \{110\} and \{113\} facets.
+The evolution of two single nanoparticles exhibiting different type of facets on their surface was probed with Bragg coherent diffraction imaging, highlighting the importance of the particle structure
 The 3D displacement and strain evolution of two different facets (\{100\} and \{111\}) will be compared to our results obtained on Pt 100 and 111 crystal surfaces.
 
-\section{Crystal structures}
+We first intend to measure the total signal scattered from \ce{Al_2O_3}-supported platinum particles by taking advantage of the possibility to carry out grazing-incidence diffraction measurements at the SixS beamline of synchrotron SOLEIL.
+By having a low incidence angle, the incident beam recovers the whole sample surface, the scattered beam being then proportionnal to the ensemble behaviour of the nanoparticles \parencite{Nolte2008, Hejral2013}.
+
+The goal of this experiment is two-fold.
+First, the nanoparticles epitaxy must be ensured to be stable at different temperatures and atmospheres, before measuring a single nanoparticle with Bragg coherent diffraction imaging, where the beam is reduced to micrometric size.
+Secondly, the average nanoparticle shape and structure will be probed by studying the intensity of crystal truncation rods (CTR) in directions perpendicular to the expected facets on the nanoparticle surface.
+Prior experiments with similar samples \parencite{Dupraz2017, Li2020, Lim2021, Dupraz2022} have shown that the particles exhibit a Winterbottom shape \parencite{WINTERBOTTOM1967, Boukouvala2021}, typical of nanoparticles epitaxied on a substrate, with mainly \{111\}, \{110\}, and \{100\}-type facets, and a [111] orientation perpendicular to the substrate.
+
+We have seen in sec. \ref{sec:SXRD} that truncated surfaces such as facets give rise to crystal truncation rods in the reciprocal space, the intensity of which is proportionnal to the size, roughness and strain of the related surface, as a function of the scattering vector.
+By having the incident beam covering all of the particles, the CTR signal in e.g. the [111] direction will be the sum of the contribution from the [111] facet of every nanoparticle on the sample (as well as their [$\bar{1}\bar{1}\bar{1}$] facets).
+Therefore, phenomena inducing structural change such as particle refaceting/reshaping at a given condition are expected to be visible by an evolution of the different CTR.
+
+To have a more important scattered intensity, a slightly different sample was used from the sample used in BCDI, with the only difference being a surface homogenously covered with Pt particles.
+
+\subsection{Experimental setup for SXRD experiments in the horizontal geometry}\label{sec:SXRDSetupH}
+
+The diffractometer was used in a horizontal geometry (fig. \ref{fig:Diffractometer}), so that is it possible to clean the sample surface by sputtering and annealing.
+There is no need for high incident angles when performing surface x-ray diffraction, the incident beam is set at a grazing angle to cover the entire sample surface.
+No cleaning process was applied to this sample that has the same history as the sample with isolated nanoparticles used for BCDI experiments, \textit{i.e.} annealing at \qty{1100}{\degreeCelsius} for \qty{30}{\minute} before cooling to room temperature.
+The temperature in the MED end-station is of about \qty{25}{\degreeCelsius}.
+
+The incident beam was fixed to \ang{0.3} with the angle $\mu$, so that the beam recovers the entire sample surface.
+In-plane measurements were perfomed by rotating the in-plane sample angle $\omega$ together with the in-plane detector angle $\delta$.
+Out-of-plane measurements were performed by rotating the in-plane sample angle $\omega$ together with the in-plane and out-of-plane detector angles $\delta$ and $\gamma$, the incoming angle $\mu$ must stay at a low value to keep the grazing incidence of the beam as detailed in sec. \ref{sec:DataCollectionSXRD}.
+
+The alignement of the beam was performed with the direct beam (all angles at \ang{0})
+% to ensure that the sample surface is parallel to the direct beam at $\mu=0$ when $\omega = \ang{0}$ and when $\omega = \ang{90}$.
+First, to place the sample in the beam, its position was gradually increased in the direction perpendicular to the sample plane while recording the intensity of the direct beam.
+The sample was then moved to the position at which the intensity of the direct beam was equal to half of its intensity without the sample in the beam path, so that when incresing the incidence angle to \ang{0.3}, the beam covers the entire sample surface.
+Secondly, any possible tilt of the sample surface was corrected by recording the intensity of the \textit{reflected} beam as a function of the $u$ (when $\omega=\ang{0}$) or $v$ (when $\omega=\ang{90}$) angles (fig. \ref{fig:Diffractometer}).
+
+This experiment proved to be difficult to realise experimentally.
+The graphite layer used to heat the sample is covered by a Boron Nitride solid surface with 4 holes (fig. \ref{fig:SampleHolder}), two holes are used with small screws to fix the sample on top of the heater, while the two others are used to fix the heater to the sample holder.
+Despite an extra layer of Boron Nitride that was applied around these screws and holes, the high temperature and highly oxidating atmosphere managed twice to corrode the conducting screws which resulted in a contact loss with the heater, thus a change of heater and realignment of the sample surface.
+However, most of the experimental plan was still carried out, lacking only in-plane measurements at \qty{600}{\degreeCelsius} under \qty{8}{\ml\per\min} of oxygen and \qty{1}{\ml\per\min} of ammonia (tab. \ref{tab:Conditions}), due to a lack of experimental time.
+
+
+\subsection{Crystal structures}
 
 Platinum crystallizes in a face-centered cubic structure with a lattice parameter $|\vec{a}|$ equal to \qty{3.9254}{\angstrom} at room temperature.
 The structure of the [001] and [111] planes differ greatly as shown in fig. \ref{fig:Cubic100Hex111}.
-The shortest distance between the atoms on the [001] and [111] surfaces is $a/\sqrt{2} = \qty{2.78}{\angstrom}$.
-However, the atoms on the [001] plane still follow a cubic structure whereas the atoms on the [111] plane follow a hexagonal structure.
+The shortest distance between the atoms on the [001] and [111] surfaces is $a/\sqrt{2} = \qty{2.78}{\angstrom}$, which is the magnitude of the \textit{in-plane} vectors used to describe the two surfaces.
+However, the atoms on the [001] plane follow a cubic structure, whereas the atoms on the [111] plane follow a hexagonal structure, therefore the angle $\gamma$ between the two in-plane vectors is equal to \ang{90} for the [100] surface and to \ang{120} for the [111] surface.
+The \textit{out-of-plane} vector, which is in both case perpendicular to the two surfaces, changes magnitude since there are 3 [111] planes contained in a classic unit cell (fig. \ref{fig:Cubic100Hex111}).
+The different structures are resumed in tab. \ref{tab:Structures}.
 
 \begin{figure}[!htb]
     \centering
@@ -23,15 +72,35 @@ However, the atoms on the [001] plane still follow a cubic structure whereas the
     \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/introduction/111.pdf}
     \caption{
         Face-centered cubic unit cell of Pt with two [001] crystallographic planes drawn in green at z=0 and z=1 (left).
-        The $\vec{a}$, $\vec{b}$, and $\vec{c}$ vectors are used classically to decribe the cubic structure, the $\vec{a}_s$ and $\vec{b}_s$ in-plane vectors separated by \ang{90} and of magnitude \qty{2.78}{\angstrom} can also be used specifically to describe the structure of the [001] planes.
+        The $\vec{a}$, $\vec{b}$, and $\vec{c}$ vectors are used classically to decribe the FCC cubic structure, the $\vec{a}_s$ and $\vec{b}_s$ in-plane vectors separated by \ang{90} and of magnitude \qty{2.78}{\angstrom} can also be used specifically to describe the structure of the [001] planes.
         Face-centered cubic unit cell of Pt with $[111]$ crystallographic plane drawn in green (right).
-        The arrangement of the Pt atoms on the $[111]$ crystal planes is hexagonal, which leads to a new definition of the unit cell with the $\vec{a}$ and $\vec{b}$ in-plane vectors separated by \ang{60} and of magnitude \qty{2.78}{\angstrom} and $\vec{c}$ perpendicular to the $[111]$ plane of magnitude \qty{6.81}{\angstrom}.
+        The arrangement of the Pt atoms on the $[111]$ crystal planes is hexagonal, which leads to a new definition of the surface unit cell with the $\vec{a}$ and $\vec{b}$ in-plane vectors separated by \ang{120} of magnitude \qty{2.78}{\angstrom}, and $\vec{c}$ perpendicular to the $[111]$ plane of magnitude \qty{6.81}{\angstrom}.
         There are three $[111]$ planes spanned by the magnitude of $\vec{c}$ (blue, red and green on the figure).
     }
     \label{fig:Cubic100Hex111}
 \end{figure}
 
-\subsection{XPS results} \label{sec:XPS111}
+\begin{table}[]
+\centering
+% \resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llllll@{}}
+\toprule
+     & $\alpha$ & $\beta$ & $\gamma$ & $|\vec{a}|$ & $|\vec{c}|$ \\
+\midrule
+FCC & \ang{90} & \ang{90} & \ang{90} & \qty{3.9242}{\angstrom} & \qty{3.9242}{\angstrom} \\
+$[100]$ & \ang{90} & \ang{90} & \ang{90} & \qty{2.78}{\angstrom} & \qty{3.9242}{\angstrom} \\
+$[111]$ & \ang{90} & \ang{90} & \ang{120} & \qty{2.78}{\angstrom} & \qty{6.81}{\angstrom} \\
+\bottomrule
+\end{tabular}%
+% }
+\caption{
+    Different structures used in the frame of this thesis.
+    Surface unit cells are used to simplify the study of surface relaxations
+    }
+\label{tab:Structures}
+\end{table}
+
+\subsection{X-ray photoelectron spectroscopy measurements} \label{sec:XPS111}
 
 On the Pt-Rh alloy an important body of work has been
 already carried out, revealing two oxide structures present in the temperature and
@@ -76,3 +145,10 @@ Secondly, to be able to quantify and compare the evolution of the peak intensity
 The range of kinetic energy just before the absorption edge of Pt 4f was chosen since it had the best signal to noise ratio and does not depend on any experimental parameter besides the pressure.
 
 Finally, for the peaks that showed a good signal to noise ratio, the fitting of the peak shape was realised thanks to the \textit{lmfit} \parencite{Newville2016} package by the means of the Doniach-equation which is the best approximation of the asymmetric peak shape resulting from the convolution of the analyser function and the photoelectron process in metals \parencite{Doniach_1970}.
+
+\subsection{Experimental plan}\label{sec:SXRDPlan}
+
+The oxidation of ammonia was measured at \qty{450}{\degreeCelsius} with less conditions than in sec. \ref{sec:BCDIAmmoniaOxidation} due to long measuring time necessary to collect a large volume of the reciprocal space.
+To make certain that any possible surface relaxation effect was related to the presence of both ammonia and oxygen in the reactor, the sample was first exposed to \qty{80}{\milli\bar} of oxygen (i), followed by the introduction of \qty{10}{\milli\bar} ammonia (ii).
+The pressure of oxygen in the reactor was then reduced to \qty{5}{\milli\bar} (ii), and to \qty{0}{\milli\bar} of oxygen (iv), keeping only \qty{10}{\milli\bar} of ammonia in the reactor (v).
+The sample was characterized under \qty{500}{\milli\bar} of argon before and after the oxidation cycle, the total pressure in the reactor was kept to \qty{500}{\milli\bar} by adjusting the amount of argon.

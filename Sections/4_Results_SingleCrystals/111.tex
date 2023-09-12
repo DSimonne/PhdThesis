@@ -1,16 +1,101 @@
 \section{Surface x-ray diffraction on a Pt 111 single crystal} \label{sec:SXRD111}
 
-
-\subsection{Empirical Analysis}
-
 \textcolor{red}{This chapter covers three areas: analysis of the data; discussion of the results of the analysis; and how your findings relate to the literature. The analysis of the data can be discussed here but the details of any analysis, such as statistical calculations, should be shown in the appendices. You should present any discussion clearly and logically and it should be relevant to your research questions/hypotheses or aims and objectives. Insert any tables or figures that you decide are important in a relevant part of the text not in the appendices, and discuss them fully. Make sure that you relate the findings of your primary research to your literature review. You can do this by comparison: discussing similarities and particularly differences. If you think your findings have confirmed some literature findings, say so and say why. If you think your findings are at variance with the literature, say so and say why.}
 
+\subsection{Reciprocal space map}
+
+Reciprocal space maps were collected using the experimental setup described in sec. \ref{sec:SXRDSetupH}, at different atmospheres detailed in tab. to probe the structural evolution of the sample during the oxidation of ammonia.
+The in-plane reciprocal space maps were collected by rotating the in-plane angle $\omega$ from \ang{0} to \ang{120}, to collect a third of the reciprocal space in the ($\vec{q}_x$, $\vec{q}_y$) plane, expecting a hexagonal symmetry in the position of the Bragg peaks.
+The reciprocal space maps are presented in fig. \ref{fig:MapsPt111A} and \ref{fig:MapsPt111B}, the $h$ and $k$ values are computed using the hexagonal surface unit cell that describes the Pt [111] surface (fig. \ref{fig:Cubic100Hex111}, tab. \ref{tab:Structures}).
+
+The experiment proved difficult to carry out, the alignment of the sample was often lost during reciprocal space maps which prevented long continuous measurements.
+The sample was realigned at the beginning of each condition.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_hkl_76-115.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_hkl_285-320.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_hkl_481-516_patched.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_hkl_681-689_patched.pdf}
+    \caption{
+        Reciprocal space maps collected at different atmospheres at \qty{450}{\degreeCelsius}.
+    }
+    \label{fig:MapsPt111A}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_hkl_830-865.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_hkl_1041-1076.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_hkl_1413-1448.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_hkl_1458-1493.pdf}
+    \caption{
+        Reciprocal space maps collected at different atmospheres at \qty{450}{\degreeCelsius}.
+    }
+    \label{fig:MapsPt111B}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/maps_05O2.pdf}
+    \caption{
+        Reciprocal space maps collected under \qty{49.5}{\ml\per\min} of argon and \qty{0.5}{\ml\per\min} of oxygen at \qty{450}{\degreeCelsius}, for different exposure times.
+    }
+    \label{fig:MapsPt111LowOxygen}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/intensity_comparison_hex_reconstructions.pdf}
+    \caption{
+        Evolution of Bragg peaks corresponding to the hexagonal surface structure and to the surface oxide.
+    }
+    \label{fig:MapsPt111B}
+\end{figure}
+
+
+\begin{table}[!htb]
+	\centering
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{@{}|l|lllllllllll|@{}}
+		\toprule
+		 & \multicolumn{11}{c|}{Oxygen pressure} \\ \midrule
+		 & \multicolumn{2}{l|}{80 mbar}		& \multicolumn{9}{l|}{5 mbar} \\ \midrule
+		 & \multicolumn{11}{c|}{Time since gas introduction}	\\ \midrule
+		 & 03h23 & 10h45 & \multicolumn{1}{|l}{00h34} & 04h03 & 08h00 & 15h57 & 22h56 & 24h08 & 25h43 & 26h36 & 27h28 \\ \midrule
+		 & \multicolumn{11}{c|}{Interplanar spacing (A)} \\ \midrule
+		$3.010 \pm 0.012$ & \yes & \yes & \multicolumn{1}{|l}{\no} & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \yes \\ \midrule % first struc split low O2
+
+		$2.919 \pm 0.030$ & \yes & \yes & \multicolumn{1}{|l}{\no} & \no & \no & \no & \no & \no & \yes & \no & \no \\ \midrule % first struc not split high O2
+
+		$2.873 \pm 0.015$ & \no & \no & \multicolumn{1}{|l}{\yes} & \yes & \yes & \yes & \yes & \yes & \yes & \yes & \yes \\ \midrule % first struc not split low O2
+
+		$2.788 \pm 0.067$ & \no & \no & \multicolumn{1}{|l}{\no} & \no & \yes & \yes & \yes & \yes & \yes & \yes & \yes \\ \midrule % first struc split low O2
+
+		$2.688 \pm 0.022$ & \no & \yes & \multicolumn{1}{|l}{\no} & \no & \no & \no & \no & \yes & \yes & \yes & \yes \\ \midrule % hex struct
+
+		$2.312 \pm 0.040$ & \no & \yes & \multicolumn{1}{|l}{\no} & \no & \no & \yes & \yes & \yes & \yes & \yes & \yes \\ \midrule % surf oxide
+
+		$1.550 \pm 0.000$ & \yes & nv & \multicolumn{1}{|l}{nv} & \no & nv & nv & nv & nv & nv & nv & nv \\ \midrule % first struc not split high O2
+
+		$1.528 \pm 0.000$ & \no & nv & \multicolumn{1}{|l}{nv} & \yes & nv & nv & nv & nv & nv & nv & nv \\ \bottomrule % first struc not split low O2
+	\end{tabular}
+	}
+	\caption{
+		Interplanar spacing values observed in reciprocal maps for different oxygen pressure and exposition times (\yes).
+		Non observed peaks are in red (\no), non visible peaks are represented by the acronym \text{nv}.
+	}
+	\label{tab:InterplanarSpacingsPt111Oxygen}
+\end{table}
 
 PtO2 plays a role \cite{McCabe1986, HANNEVOLD2005}
-
 
 check hejral 111 2013
 
 also contains literature about the dft simulation for the oxides
 
 two $\alpha$PtO2 domains as well
+
+\subsection{Crystal truncation rods}
+
+\subsection{Reflectivity}
