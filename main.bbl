@@ -3934,6 +3934,71 @@
       \verb 10.1021/acscatal.2c00090
       \endverb
     \endentry
+    \entry{Farrow1993}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=bc5cb51343202d557b6ae9c114a220ed}{%
+           family={Farrow},
+           familyi={F\bibinitperiod},
+           given={R\bibnamedelima F\bibnamedelima C},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e68ed5c514bd427c237d2269f3aaa6fb}{%
+           family={Harp},
+           familyi={H\bibinitperiod},
+           given={G\bibnamedelima R},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c349ed8ae74453e3fedec5b91b46201}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={R\bibnamedelima F},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c41e8da957aabc832af4e361df99521}{%
+           family={Rabedeau},
+           familyi={R\bibinitperiod},
+           given={T\bibnamedelima A},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f9477987f0c7540fe7dd7e48d8d6182}{%
+           family={Toney},
+           familyi={T\bibinitperiod},
+           given={M\bibnamedelima F},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fe82eb7a62f772a120b7681c601fb16}{%
+           family={Weller},
+           familyi={W\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=515532d07eb39d6b6ad2fc58246373ce}{%
+           family={Parkin},
+           familyi={P\bibinitperiod},
+           given={S\bibnamedelima S\bibnamedelima P},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{88803fa5a2e9aa4ecedb1969b22547e3}
+      \strng{fullhash}{bac3c2792a50a83d6ff6827bc6e5ca22}
+      \strng{bibnamehash}{88803fa5a2e9aa4ecedb1969b22547e3}
+      \strng{authorbibnamehash}{88803fa5a2e9aa4ecedb1969b22547e3}
+      \strng{authornamehash}{88803fa5a2e9aa4ecedb1969b22547e3}
+      \strng{authorfullhash}{bac3c2792a50a83d6ff6827bc6e5ca22}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The epitaxial growth of Pt on basal-plane sapphire, i.e. sapphire (0001), by molecular beam epitaxy is described. Growth is monitored in situ using X-ray photoelectron diffraction (XPD), reflection high energy electron diffraction (RHEED) and low energy electron diffraction (LEED). The structural perfection of thin (<250 A) films of Pt is studied using X-ray diffraction and electron microscopy. We find that Pt nucleates on the sapphire surface at 600°Cas islands which are rotationally twinned about the Pt[111] axis. The epitaxial relationship is: Pt[111111A1 203[0001] and Pt(110)11A1203 (1010). Island coalescence occurs at a thickness of 15 A and X-ray diffraction shows that the Pt films have a high structural perfection. Such films are nearly ideal as seed films for a variety of epitaxial magnetic multilayers and alloys.}
+      \field{journaltitle}{Journal of Crystal Growth}
+      \field{title}{Epitaxial growth of Pt on basal-plane sapphire: a seed film for artificially layered magnetic metal structures *}
+      \field{volume}{133}
+      \field{year}{1993}
+      \field{pages}{47\bibrangedash 58}
+      \range{pages}{12}
+    \endentry
     \entry{FAVIER2007}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=5881ee1e8cf63ed88fc203926d3f87d6}{%
@@ -11181,14 +11246,114 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.93.116105
       \endverb
     \endentry
+    \entry{Richard2018}{article}{}
+      \name{author}{12}{}{%
+        {{un=1,uniquepart=given,hash=b44fced5fe7bc5bc5e0403d8167fba47}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Marie\bibnamedelima Ingrid},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=66c72a8cb09bfcd01b64148fa678a285}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cc48041a8d030de729d62ebb933fd24}{%
+           family={Eymery},
+           familyi={E\bibinitperiod},
+           given={Joël},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d22515c3617170a3e618b79470270bb6}{%
+           family={Hofmann},
+           familyi={H\bibinitperiod},
+           given={Jan\bibnamedelima Philipp},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ba4dc44e20a33d79eeaf44e36851156}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
+           family={Carnis},
+           familyi={C\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3fe32d6ad4fbfd46998094d46facb33}{%
+           family={Labat},
+           familyi={L\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f23b63dc664989677dd939328a04c5f}{%
+           family={Favre-Nicolin},
+           familyi={F\bibinithyphendelim N\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99169d3cd97c79422a2dab69f61dd70e}{%
+           family={Hensen},
+           familyi={H\bibinitperiod},
+           given={Emiel\bibnamedelima J.M.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c9c63fbd972192f2090267690e2b16c}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=658daad814e9f7e747304d667d76959a}{%
+           family={Schülli},
+           familyi={S\bibinitperiod},
+           given={Tobias\bibnamedelima U.},
+           giveni={T\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bdd6ba8fe072a30a7985c29befc8446}{%
+           family={Leake},
+           familyi={L\bibinitperiod},
+           given={Steven\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cbef8c4418863aa7d7b1e8bfc2ccb786}
+      \strng{fullhash}{2191ae3da6a9c32a041eb6853d31fc46}
+      \strng{bibnamehash}{cbef8c4418863aa7d7b1e8bfc2ccb786}
+      \strng{authorbibnamehash}{cbef8c4418863aa7d7b1e8bfc2ccb786}
+      \strng{authornamehash}{cbef8c4418863aa7d7b1e8bfc2ccb786}
+      \strng{authorfullhash}{2191ae3da6a9c32a041eb6853d31fc46}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The physical and chemical properties of nanostructures depend on their surface facets. Here, we exploit a pole figure approach to determine the three-dimensional orientation matrix of a nanostructure from a single Bragg reflection measured with a coherent nano-focused X-ray beam. The signature of any truncated (faceted) crystal produces a crystal truncation rod, which corresponds to a streak of intensity in reciprocal space normal to the surface. When two or more non-parallel facets are present, both the crystal orientation and the crystal facets can be identified. This enables facets to be rapidly indexed and uncommon facets, and planar defects, that have been difficult to study before to be identified. We demonstrate the technique with (i) epitaxial core-shell InGaN/GaN multiple quantum-wells grown on GaN nanowires, where surface facets and planar defects are determined, and (ii) single randomly oriented highly faceted tetrahedrahexal Pt nanoparticles. The methodology is applicable to a broad range of nanocrystals and provides a unique insight into the connection between structure and properties of nanomaterials.}
+      \field{issn}{20403372}
+      \field{journaltitle}{Nanoscale}
+      \field{number}{10}
+      \field{title}{{Crystallographic orientation of facets and planar defects in functional nanostructures elucidated by nano-focused coherent diffractive X-ray imaging}}
+      \field{volume}{10}
+      \field{year}{2018}
+      \field{pages}{4833\bibrangedash 4840}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1039/c7nr07990g
+      \endverb
+    \endentry
     \entry{richard_crystallographic_2018}{article}{}
       \name{author}{12}{}{%
-        {{un=0,uniquepart=base,hash=8337e20d13dbfa35881a3b2044706fc4}{%
+        {{un=1,uniquepart=given,hash=8337e20d13dbfa35881a3b2044706fc4}{%
            family={Richard},
            familyi={R\bibinitperiod},
            given={Marie-Ingrid},
            giveni={M\bibinithyphendelim I\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=66c72a8cb09bfcd01b64148fa678a285}{%
            family={Fernández},
            familyi={F\bibinitperiod},

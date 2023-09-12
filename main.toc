@@ -56,38 +56,38 @@
 \contentsline {chapter}{\numberline {3}Structural evolution of Pt nanoparticles during the oxidation of ammonia}{73}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduction}{73}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Synthetizing platinum nanoparticle}{74}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Experimental setup for BCDI experiments in the vertical geometry}{75}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Catalysis reactor calibration}{76}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Temperature ramp}{77}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Shape evolution}{79}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Strain evolution}{81}{subsection.3.2.2}%
-\contentsline {subsubsection}{Determination of strain}{82}{section*.75}%
-\contentsline {subsubsection}{Homogeneous strain}{83}{section*.76}%
-\contentsline {subsubsection}{Heterogeneous strain}{84}{section*.79}%
-\contentsline {section}{\numberline {3.3}Measuring the average and ensemble behaviour of Pt nanoparticles}{88}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Experimental setup for SXRD experiments in the vertical geometry}{88}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Crystal truncation rods}{89}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Facet signal}{90}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Particle stability}{94}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Measuring the oxidation of ammonia}{97}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Mass spectromety results}{98}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Strain field energy}{98}{subsection.3.4.2}%
-\contentsline {section}{\numberline {3.5}Conclusion and perspectives}{98}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Structural and chemical evolution of single Pt facets during the oxidation of ammonia}{101}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Experimental setup}{101}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Crystal structures}{101}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}XPS results}{101}{subsection.4.2.1}%
-\contentsline {subsubsection}{Experimental setup}{103}{section*.98}%
-\contentsline {section}{\numberline {4.3}Surface x-ray diffraction on a Pt 111 single crystal}{103}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Empirical Analysis}{103}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Surface x-ray diffraction on a Pt 100 single crystal}{104}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Conclusion and perspectives}{104}{subsection.4.4.1}%
-\contentsline {chapter}{\numberline {A}Diffraction vocabulary}{120}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Nanoparticles study}{121}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Temperature ramp}{121}{section.B.1}%
-\contentsline {section}{\numberline {B.2}SXRD on Pt nanoparticles}{121}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Mass spectrometer data during ammonia oxidation on Pt nanoparticles}{121}{section.B.3}%
-\contentsline {subsection}{\numberline {B.3.1}Non patterned sample}{121}{subsection.B.3.1}%
-\contentsline {subsection}{\numberline {B.3.2}Non patterned sample}{121}{subsection.B.3.2}%
-\contentsline {section}{\numberline {B.4}3D views of reconstructed Pt nanoparticles during the oxidation of ammonia}{121}{section.B.4}%
-\contentsline {chapter}{\numberline {C}Single crystals study}{136}{appendix.C}%
+\contentsline {subsection}{\numberline {3.1.2}Catalysis reactor calibration}{74}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Measuring the average and ensemble behaviour of Pt nanoparticles}{76}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Experimental setup for SXRD experiments in the vertical geometry}{77}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Crystal truncation rods}{78}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Facet signal}{79}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Particle stability}{83}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Temperature ramp}{86}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Experimental setup for BCDI experiments in the vertical geometry}{86}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Shape evolution}{88}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Strain evolution}{93}{subsection.3.3.3}%
+\contentsline {subsubsection}{Determination of strain}{93}{section*.86}%
+\contentsline {subsubsection}{Homogeneous strain}{94}{section*.87}%
+\contentsline {subsubsection}{Heterogeneous strain}{96}{section*.89}%
+\contentsline {section}{\numberline {3.4}Measuring the oxidation of ammonia}{99}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Mass spectromety results}{99}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Strain field energy}{99}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Conclusion and perspectives}{100}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Structural and chemical evolution of single Pt facets during the oxidation of ammonia}{103}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Experimental setup}{103}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Crystal structures}{103}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}XPS results}{103}{subsection.4.2.1}%
+\contentsline {subsubsection}{Experimental setup}{105}{section*.97}%
+\contentsline {section}{\numberline {4.3}Surface x-ray diffraction on a Pt 111 single crystal}{105}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Empirical Analysis}{105}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Surface x-ray diffraction on a Pt 100 single crystal}{106}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Conclusion and perspectives}{106}{subsection.4.4.1}%
+\contentsline {chapter}{\numberline {A}Diffraction vocabulary}{122}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Nanoparticles study}{123}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Temperature ramp}{123}{section.B.1}%
+\contentsline {section}{\numberline {B.2}SXRD on Pt nanoparticles}{123}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Mass spectrometer data during ammonia oxidation on Pt nanoparticles}{123}{section.B.3}%
+\contentsline {subsection}{\numberline {B.3.1}Non patterned sample}{123}{subsection.B.3.1}%
+\contentsline {subsection}{\numberline {B.3.2}Non patterned sample}{123}{subsection.B.3.2}%
+\contentsline {section}{\numberline {B.4}3D views of reconstructed Pt nanoparticles during the oxidation of ammonia}{123}{section.B.4}%
+\contentsline {chapter}{\numberline {C}Single crystals study}{138}{appendix.C}%
