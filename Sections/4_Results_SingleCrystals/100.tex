@@ -1,2 +1,198 @@
-\section{Surface x-ray diffraction on a Pt 100 single crystal} \label{sec:SXRD100}
+\section{Surface x-ray diffraction on a Pt (100) single crystal} \label{sec:SXRD100}
 
+% time since oxidation
+
+The arrangement of the Pt atoms on the (100) surface is cubic, as for the regular unit cell of platinum, with the difference that the distance between in-plane neighbouring Pt atoms is smaller than between out-of-plane atoms and that there are no atoms in the middle of the faces of the cube.
+A surface unit cell must be derived, shown in fig. \ref{fig:SurfaceUnitCellPt100}, to be able to better represent the surface arrangement of the Pt atoms.
+The in-plane vectors $\vec{a}_{(100)}$ and $\vec{b}_{(100)}$ are of equal magnitude ($a_{Pt} / \sqrt{2} = \qty{2.78}{\angstrom})$, separated by \ang{90}.
+The out-of-plane vector $\vec{c}_{(100)}$ is perpendicular to the (100) plane, and of magnitude $a_{Pt} = \qty{3.94}{\angstrom}$.
+
+\begin{SCfigure}
+    \centering
+    \includegraphics[trim=0 2cm 0 2cm, clip, width=0.70\textwidth]{/home/david/Documents/PhD/Figures/introduction/100.pdf}
+    \caption{
+        Face-centered cubic unit cell of Pt with $(100)$ crystallographic plane drawn in green.
+        $\vec{a}_{(100)}$, $\vec{b}_{(100)}$ and $\vec{c}_{(100)}$ are the (100) surface unit cell vectors.
+    }
+    \label{fig:SurfaceUnitCellPt100}
+\end{SCfigure}
+
+\subsection{Ammonia oxidation cycle}
+
+Reciprocal space maps were collected using the experimental setup described in sec. \ref{sec:SXRDSetupH}, at different atmospheres detailed in tab. \ref{tab:ConditionsSingleCrystals} to probe the structural evolution of the sample during the oxidation of ammonia.
+The in-plane reciprocal space maps were collected by rotating the in-plane angle $\omega$ from \ang{0} to \ang{90} to collect a quarter of the reciprocal space in the ($\vec{q}_x$, $\vec{q}_y$) plane, considering a cubic symmetry in the position of the Bragg peaks.
+
+The reciprocal space map were computed in both $q$-space (to obtain the interplanar spacing related to the observed signals) and ($hkl$)-space (fig. \ref{fig:MapsPt100A} and \ref{fig:MapsPt100B}) to visualize the arrangement of surface structures or surface relaxations in comparison with the cubic structure of the Pt atoms on the (100) surface, the $h$ and $k$ values being computed using the cubic surface unit cell of the Pt (100) surface described in fig. \ref{fig:Cubic100Hex100} and tab. \ref{tab:PtStructures}.
+
+The sample plane was realigned at the beginning of each condition in the direct beam, the orientation matrix $U$ of the crystal \parencite{Schleputz2011} was also recomputed by measuring two different Bragg peaks.
+
+The first map was collected under \qty{500}{\milli\bar} of Ar, after the cleaning of the sample by sputtering and annealing.
+The (200), (1$\bar{1}$0) and (0$\bar{2}$0) Bragg peaks can be observed, together with the extremity of [100] crystal truncation rods going through the [0, 1, 0] and [0, $\bar{1}$, 0] positions in reciprocal space.
+
+To different type of peaks can be observed under \qty{80}{\milli\bar} of oxygen, identified by red and green circles in fig. \ref{fig:MapsPt100A}, the corresponding interplanar spacings are given in tab. \ref{tab:InterplanarSpacingsPt100Oxygen}.
+The red peaks are situated at intermediate positions in reciprocal space in comparison with the Pt (100) lattice (H, K) = (1, $\bar{0.5}$), (H, K) = (1, $\bar{1.5}$), (H, K) = (0.5, $\bar{1}$) and (H, K) = (0.5, $\bar{1.5}$).
+The green peaks are slighty shifted from the red peaks by the same amount in either H or K ($\Delta_{H,K} = 0.09$).
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1335-1375.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1596-1635_patched.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1880-1902_patched.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1930-1936_patched.pdf}
+    \caption{
+        Reciprocal space maps collected under different atmospheres measured at \qty{450}{\degreeCelsius}, computed using the surface lattice of Pt (100).
+    }
+    \label{fig:MapsPt100A}
+\end{figure}
+
+Four consecutive out-of-plane measurements were performed perpendicular to two peaks at (H, K) = (1, $\bar{1.5}$) and (H, K) = (0.5, $\bar{1}$), as well as perpendicular to the nearby shifted peaks at (H, K) = (0.93, $\bar{1.5}$), (H, K) = (0.5, $\bar{0.93}$), up to $L=3.5$ to probe the related out-of-plane structure.
+The scattered intensity was integrated as a function of $L$ using the \textit{fitaid} module of \textit{binoculars} (fig. \ref{fig:LScansHighOxygenPt100}), the background around the peak in the ($H, K$) plane was subtracted.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_scans_high_oxygen.pdf}
+    \caption{
+        In-plane map at $L=0$ (a-b-c) and out-of plane measurements for three different positions under \qty{80}{\milli\bar} of \dioxygen.
+    }
+    \label{fig:LScansHighOxygenPt100}
+\end{figure}
+
+Four peaks at different $L$ values are visible on both $L$-scans perpendicular to the red circled peak in, including at $L=0$, which is characteristic of a bulk structure, \textit{i.e.} more than a few unit cells thick.
+The peaks were fitted using a model with four Gaussian peaks and a constant background, the same full width at half maxima was used for all four peaks.
+Corresponding interplanar spacing were computed from the position of the peaks, which were found to coincide with a distorted primitive cubic unit cell of in-plane lattice parameter equal to \qty{5.5969}{\angstrom} and out-of-plane lattice parameter equal to \qty{5.635}{\angstrom}, used to index each Bragg peak in the figure.
+
+\ce{Pt_3O_4} was reported to crystallize in a primitive cubic unit cell with a lattice parameter equal to \qty{5.59}{\angstrom} \parencite{Moore1941, Galloni1952, MULLER1968, Seriani2006}, similarly to the parameters reported in this study.
+The higher value of the out-of-plane lattice parameter can come from the epitaxial strain at the interface between bulk platinum and \ce{Pt_3O_4}.
+The epitaxial relationship between both is \ce{Pt_3O_4}[001]||Pt[001], the lattice parameter of \ce{Pt_3O_4} being approximately twice that of Pt allows the formation of a coherent interface.
+
+A first guess of the height of the oxide layer can be obtained by measuring the FWHM $\sigma$ of each peak in the $\vec{z}$ direction and thereby computing the layer thickness in the $\vec{z}$ direction using the equation $2\pi/\sigma$ \parencite{Warren1990}.
+A thickness of \qty{162.65}{\angstrom} and \qty{60.18}{\angstrom} is found for the first and second measurement.
+For Pt$_3$O$_4$ this would correspond to approximately 11 unit cells.
+
+On the contrary, the intensity as a function of $L$ for the two other peaks is near zero and constant, characteristic of a monolayer with no out-of-plane periodicity.
+
+Adding ammonia in the reactor
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr_reconstructions_fitting_result}
+    \caption{
+        Reciprocal space maps collected under different atmospheres measured at \qty{450}{\degreeCelsius}, computed using the surface lattice of Pt (100).
+    }
+    \label{fig:FitPt100LScans}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1953-1981_patched.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2227-2283_patched.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2520-2570_patched.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2719-2767.pdf}
+    \caption{
+        Reciprocal space maps collected under different atmospheres measured at \qty{450}{\degreeCelsius}, computed using the surface lattice of Pt (100).
+    }
+    \label{fig:MapsPt100B}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_scans_high_oxygen_ammonia.pdf}
+    \caption{
+        In-plane map at $L=0$ (a-b-c) and out-of plane measurements for three different positions under \qty{80}{\milli\bar} of \dioxygen.
+    }
+    \label{fig:LScansHighOxygenAmmoniaPt100}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_scans_low_oxygen_ammonia.pdf}
+    \caption{
+        In-plane map at $L=0$ (a-b-c) and out-of plane measurements for three different positions under \qty{80}{\milli\bar} of \dioxygen.
+    }
+    \label{fig:LScansLowOxygenAmmoniaPt100}
+\end{figure}
+
+
+
+
+\subsection{Oxide growth monitored under \qty{5}{\milli\bar} of \dioxygen}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2905-2953_patched.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_3154-3169.pdf}
+    \caption{
+        Reciprocal space maps collected under different atmospheres measured at \qty{450}{\degreeCelsius}, computed using the surface lattice of Pt (100).
+    }
+    \label{fig:MapsLowOxygen}
+\end{figure}
+
+
+\subsection{Surface roughness and surface relaxation effects}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr_a.pdf}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr_b.pdf}
+    \caption{
+        Evolution of [100] crystal truncation rods measured perpendicular to three different Bragg peaks under different atmospheres.
+    }
+    \label{fig:CTRPt100}
+\end{figure}
+
+\subsection{Surface species presence}
+
+\begin{table}[!htb]
+\centering
+\resizebox{\textwidth}{!}{%
+	\begin{tabular}{@{}lllllllll@{}}
+	\toprule
+	\multirow{3}{*}{Partial pressures (mbar)} & Ar & 1 & 0 & 0 & 0 & 0 & 1 & 0 \\
+	 & NH3 & 0 & 0 & 1.1 & 1.1 & 1.1 & 0 & 0 \\
+	 & O2 & 0 & 8.8 & 8.8 & 0.55 & 0 & 0 & 0.55 \\
+	\midrule
+	\multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Peak position in N1s spectra (eV)\\ $E_{photon}$ = \qty{550}{\eV}\end{tabular}} & 403.56 & No peak & 404.32 & 404.32, 400.00 & 404.85, 400.60 & No peak & No peak \\
+	\multicolumn{2}{l}{Corresponding surface moieties} &  &  & N, NH, NH2, NO ? & N, NH, NH2, NO ? & N, NH, NH2 ? &  &  \\
+	\midrule
+	\multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Peak position in N1s spectra (eV)\\ $E_{photon}$ = \qty{700}{\eV} \end{tabular}} & No peak & No peak & No peak & No peak & 404.3, 399.99 & 404.93, 400.61 & No peak \\
+	\multicolumn{2}{l}{Corresponding surface moieties} &  &  &  & N, NH, NH2, NO ? & N, NH, NH2, NO ? & N, NH, NH2 ? &  \\
+	\midrule
+	\multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Peak position in O1s spectra (eV)\\ $E_{photon}$ = \qty{700}{\eV} \end{tabular}} & No peak & 529.64 & 533.72, 529.64 & 534.28, 532.04 & 532.38 & 531.27, 529.62 &  \\
+	\multicolumn{2}{l}{Corresponding surface moieties} &  &  &  &  &  &  &  \\
+	\midrule
+	\multicolumn{2}{l}{\begin{tabular}[c]{@{}l@{}}Peak position in Pt4f spectra (eV)\\ Eph = 550 eV\end{tabular}} &  &  &  &  &  &  &  \\
+	\multicolumn{2}{l}{Corresponding surface moieties} &  &  &  &  &  &  &  \\ \bottomrule
+	\end{tabular}%
+}
+\caption{}
+\label{tab:XPSPt100}
+\end{table}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/B07_2022_04_XPS/Figures/Pt100/O1sN1s_700.pdf}
+    \caption{
+        Spectra collected around the N1s edge (tabulated binding energy equal to \qty{409.9}{\eV}) under different atmospheres at \qty{450}{\degreeCelsius} with an incoming photon energy of \qty{700}{\eV}.
+        The spectra are normalized and shifted in intensity to highlight the presence of different peaks.
+    }
+    \label{fig:O1sN1sPt100}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/B07_2022_04_XPS/Figures/Pt100/Pt4f_550_no_fit.pdf}
+    \caption{
+    	Spectra collected around the Pt4f edge doublet (tabulated binding energy equal to \qty{74.5}{\eV} and \qty{71.2}{\eV}) under different atmospheres at \qty{450}{\degreeCelsius} with an incoming photon energy of \qty{550}{\eV}.
+    }
+    \label{fig:Pt4fPt100}
+\end{figure}
+
+Secondly, to be able to quantify and compare the evolution of the peak intensity, one must normalize the intensity of the detected electron beam since the electron mean free path depends on the pressure in the reaction chamber \parencite{Willmott}.
+The range of kinetic energy just before the absorption edge of Pt 4f was chosen since it had the best signal to noise ratio and does not depend on any experimental parameter besides the pressure.
+
+Finally, for the peaks that showed a good signal to noise ratio, the fitting of the peak shape was realised thanks to the \textit{lmfit} \parencite{Newville2016} package by the means of the Doniach-equation which is the best approximation of the asymmetric peak shape resulting from the convolution of the analyser function and the photoelectron process in metals \parencite{Doniach_1970}.
+
+% http://www.casaxps.com/help_manual/line_shapes.htm
+
+On pure Pt, an important body of work has been already carried out, revealing several bulk oxide structures present in the temperature and
+pressure ranges we intend to study, as well as the presence of surface oxides depending on the structure of the crystal surface.

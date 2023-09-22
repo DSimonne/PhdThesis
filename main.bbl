@@ -19,6 +19,154 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{Abuin2019}{article}{}
+      \name{author}{15}{}{%
+        {{un=0,uniquepart=base,hash=a19aa7caa1cd000114e002f511daad7b}{%
+           family={Abuin},
+           familyi={A\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9afded6a2d714dab15307105b1eb4b0}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Young\bibnamedelima Yong},
+           giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6667c1b34e29cd59cc54e2d142d867d2}{%
+           family={Runge},
+           familyi={R\bibinitperiod},
+           given={Henning},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bc287a5586ee44497aed4bfc279e094}{%
+           family={Kulkarni},
+           familyi={K\bibinitperiod},
+           given={Satishkumar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4be034c06b0031571017f27a91347c8c}{%
+           family={Maier},
+           familyi={M\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3500ed066b20db3f1a575e8522a3006f}{%
+           family={Dzhigaev},
+           familyi={D\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c031e67c43c200b0288fc825954375b}{%
+           family={Lazarev},
+           familyi={L\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7871cfc6b26f828644e0d7129f120f2}{%
+           family={Gelisio},
+           familyi={G\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4be742843d8391dc18adeeac1a348bc5}{%
+           family={Seitz},
+           familyi={S\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b44fced5fe7bc5bc5e0403d8167fba47}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Marie\bibnamedelima Ingrid},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb43f8d049da79757ef659dd18d8ef7a}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b5fd7c0e0e90ae071a658874e87eaad}{%
+           family={Vonk},
+           familyi={V\bibinitperiod},
+           given={Vedran},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9833926d7bfb4a6d9c2f2057aa7ea9ac}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={Thomas\bibnamedelima F.},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa35e71651c9bc0421839c043e5e21a7}{%
+           family={Vartanyants},
+           familyi={V\bibinitperiod},
+           given={Ivan\bibnamedelima A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d766a3a04d700f500a117978cf58e49}{%
+           family={Stierle},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{f222ecd3771ac769908c645a21fc64b8}
+      \strng{fullhash}{2d85df235b1408214e92da842ffc8dfc}
+      \strng{bibnamehash}{f222ecd3771ac769908c645a21fc64b8}
+      \strng{authorbibnamehash}{f222ecd3771ac769908c645a21fc64b8}
+      \strng{authornamehash}{f222ecd3771ac769908c645a21fc64b8}
+      \strng{authorfullhash}{2d85df235b1408214e92da842ffc8dfc}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using coherent X-ray diffraction imaging (CXDI) as an in situ tool, we determined the shape and strain state of a platinum nanoparticle with ≈160 nm diameter supported by a strontium titanate substrate. The experiment was performed at a temperature of 400 K under continuous gas flow conditions of pure Ar and Ar/CO mixtures. The nanoparticle was preselected by scanning electron microscopy (SEM) and postanalyzed by atomic force microscopy (AFM). We obtain a very good agreement between the overall nanoparticle size, shape, and defect structure as determined by CXDI and AFM. In addition, we compare the strain state in the nanoparticle near surface region and its bulk: For pure Ar flow, we find a slight compressive strain in the nanoparticle bulk compared to an expansion in the near surface region. We ascribe the latter to the presence of high index vicinal surfaces. Our analysis suggests that under mixed Ar/CO flow at 400 K reshaping of the nanoparticle occurred. New high index facets developed, leading to a stronger lattice expansion, also propagating into the nanoparticle bulk. Our high-resolution experiments pave the way for future CXDI experiments under operando catalytic reaction conditions.}
+      \field{issn}{25740970}
+      \field{journaltitle}{ACS Applied Nano Materials}
+      \field{number}{8}
+      \field{title}{{Coherent X-ray Imaging of CO-Adsorption-Induced Structural Changes in Pt Nanoparticles: Implications for Catalysis}}
+      \field{volume}{2}
+      \field{year}{2019}
+      \field{pages}{4818\bibrangedash 4824}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1021/acsanm.9b00764
+      \endverb
+      \keyw{catalysis,coherent diffraction imaging,hierarchical marker strategies,in situ conditions,single nanoparticle}
+    \endentry
+    \entry{Ackermann2007}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=915c494aa1795973fa32943a5792f3b6}{%
+           family={Ackermann},
+           familyi={A\bibinitperiod},
+           given={M.D.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{915c494aa1795973fa32943a5792f3b6}
+      \strng{fullhash}{915c494aa1795973fa32943a5792f3b6}
+      \strng{bibnamehash}{915c494aa1795973fa32943a5792f3b6}
+      \strng{authorbibnamehash}{915c494aa1795973fa32943a5792f3b6}
+      \strng{authornamehash}{915c494aa1795973fa32943a5792f3b6}
+      \strng{authorfullhash}{915c494aa1795973fa32943a5792f3b6}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9789090224893}
+      \field{title}{{Operando SXRD: A New View on Catalysis}}
+      \field{type}{phdthesis}
+      \field{year}{2007}
+    \endentry
     \entry{AHMAD2015599}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=918f4a296d45a84541aa48fa7441f567}{%
@@ -1113,6 +1261,55 @@
       \verb 10.1107/S1600577519010385
       \endverb
       \keyw{coherent diffraction imaging,electrocatalysis,nanodiffraction}
+    \endentry
+    \entry{Boden2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d8a96036af3cb53035df8481f8bb6fee}{%
+           family={Boden},
+           familyi={B\bibinitperiod},
+           given={Dajo},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe47d354f27d57a228d0207b62a011b8}{%
+           family={Groot},
+           familyi={G\bibinitperiod},
+           given={Irene\bibnamedelimb M.\bibnamedelimi N.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f808f6d868051d3bb3b666681c37a7c}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Jörg},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{7dfc9a84c7592ada4c8ad5804e29b42a}
+      \strng{fullhash}{d9df9d8e3a3998a6ba5c24b227edb5d9}
+      \strng{bibnamehash}{d9df9d8e3a3998a6ba5c24b227edb5d9}
+      \strng{authorbibnamehash}{d9df9d8e3a3998a6ba5c24b227edb5d9}
+      \strng{authornamehash}{7dfc9a84c7592ada4c8ad5804e29b42a}
+      \strng{authorfullhash}{d9df9d8e3a3998a6ba5c24b227edb5d9}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1932-7447}
+      \field{journaltitle}{The Journal of Physical Chemistry C}
+      \field{month}{12}
+      \field{number}{47}
+      \field{title}{Elucidating the Initial Oxidation of Pt(111) Using Large-Scale Atomistic Thermodynamics: A ReaxFF Study}
+      \field{volume}{126}
+      \field{year}{2022}
+      \field{pages}{20020\bibrangedash 20027}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/acs.jpcc.2c05769
+      \endverb
     \endentry
     \entry{Bokeh}{manual}{}
       \name{author}{1}{}{%
@@ -2713,6 +2910,70 @@
       \verb Cherukara et al. - 2018 - Real-time coherent diffraction inversion using dee.pdf:/Users/marieingridrichard/Zotero/storage/93E4YACY/Cherukara et al. - 2018 - Real-time coherent diffraction inversion using dee.pdf:application/pdf;Snapshot:/Users/marieingridrichard/Zotero/storage/PZJ6GYHH/s41598-018-34525-1.html:text/html
       \endverb
     \endentry
+    \entry{Chung2021}{article}{}
+      \name{author}{7}{}{%
+        {{un=1,uniquepart=given,hash=1dcfd65c3e1c3ff7f9e5eb65795fcd0b}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=b4f7972b7e80c116e992726e0f61f08c}{%
+           family={Schober},
+           familyi={S\bibinitperiod},
+           given={Jan-christian},
+           giveni={J\bibinithyphendelim c\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d67d8cf0c11995175e99c8f63889a34c}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4028a14439e3334cea03a04915b282b0}{%
+           family={Khadiev},
+           familyi={K\bibinitperiod},
+           given={Azat},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9a903f56630ede43c04efe73f70e91e}{%
+           family={Novikov},
+           familyi={N\bibinitperiod},
+           given={Dmitri\bibnamedelima V},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b5fd7c0e0e90ae071a658874e87eaad}{%
+           family={Vonk},
+           familyi={V\bibinitperiod},
+           given={Vedran},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d766a3a04d700f500a117978cf58e49}{%
+           family={Stierle},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3026258005db490a586ad62001abac45}
+      \strng{fullhash}{8772301ff6b89e780662362b40904c6c}
+      \strng{bibnamehash}{3026258005db490a586ad62001abac45}
+      \strng{authorbibnamehash}{3026258005db490a586ad62001abac45}
+      \strng{authornamehash}{3026258005db490a586ad62001abac45}
+      \strng{authorfullhash}{8772301ff6b89e780662362b40904c6c}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Epitaxy and Shape Heterogeneity of a Nanoparticle Ensemble during Redox Cycles}}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1021/acsnano.1c03002
+      \endverb
+      \keyw{catalysis,catalysts for a variety,epitaxy,etal nanoparticles on oxide,faceting,ff raction,in situ x-ray di,including co oxidation,nanoparticle ensemble,no x reduction,of heterogeneous catalytic,processes,redox cycling,shape changes,supports are common}
+    \endentry
     \entry{Clark2012}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=013a052a8b8fdf76a9786e80c2ce0761}{%
@@ -3225,46 +3486,6 @@
       \verb https://anr.fr/fr/france-2030/france2030/call/pepr-diadem-appel-a-projets-dispositifs-integres-pour-lacceleration-du-deploiement-de-materiaux/
       \endverb
     \endentry
-    \entry{Doniach_1970}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=69b878b14fb73c948f8c2c41fcc089ea}{%
-           family={Doniach},
-           familyi={D\bibinitperiod},
-           given={S},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7077e9257b6794b418ad1cd9d8f0cf57}{%
-           family={Sunjic},
-           familyi={S\bibinitperiod},
-           given={M},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1019e6736f6bf3d86cb88ab383b1534c}
-      \strng{fullhash}{1019e6736f6bf3d86cb88ab383b1534c}
-      \strng{bibnamehash}{1019e6736f6bf3d86cb88ab383b1534c}
-      \strng{authorbibnamehash}{1019e6736f6bf3d86cb88ab383b1534c}
-      \strng{authornamehash}{1019e6736f6bf3d86cb88ab383b1534c}
-      \strng{authorfullhash}{1019e6736f6bf3d86cb88ab383b1534c}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{It is pointed out that the spectra of X-ray induced fast photoelectrons from metal should have a characteristic skew line shape resulting from Kondo-like many-electron interactions of the metallic conduction electrons with the accompanying deep hole in the final state. The same line shape should also occur for the discrete line spectra of X-rays emitted from metals. This mechanism could account for the well-known asymmetries observed for K alpha lines.}
-      \field{journaltitle}{Journal of Physics C: Solid State Physics}
-      \field{month}{02}
-      \field{number}{2}
-      \field{title}{Many-electron singularity in X-ray photoemission and X-ray line spectra from metals}
-      \field{volume}{3}
-      \field{year}{1970}
-      \field{pages}{285}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/0022-3719/3/2/010
-      \endverb
-    \endentry
     \entry{Drnec2014}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=3848738924ea9119a43046a0b7356ecb}{%
@@ -3685,6 +3906,67 @@
       \verb 10.1002/andp.19053220607
       \endverb
     \endentry
+    \entry{Ellinger2008}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=a9fbeef282e5ec0c607a5f750f47edff}{%
+           family={Ellinger},
+           familyi={E\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca186b9331e31ae7e4d40803735136ae}{%
+           family={Stierle},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=892104b4cadaea7613199fef90707a6c}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={I.\bibnamedelimi K.},
+           giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d9f156c5ce2ca4a24423edf7f3b4e08}{%
+           family={Nefedov},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00a3423a63f4a82a8a5249087fba517b}{%
+           family={Dosch},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c8beace8bc7fed1647bfbad228ff8250}
+      \strng{fullhash}{7c2946614540965a75d752da7749744e}
+      \strng{bibnamehash}{c8beace8bc7fed1647bfbad228ff8250}
+      \strng{authorbibnamehash}{c8beace8bc7fed1647bfbad228ff8250}
+      \strng{authornamehash}{c8beace8bc7fed1647bfbad228ff8250}
+      \strng{authorfullhash}{7c2946614540965a75d752da7749744e}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The oxidation of the platinum (111) single crystal surface and the formation of platinum dioxide have been studied by in situ surface x-ray diffraction and x-ray reflectivity. At an oxygen partial pressure of 500mbar and at temperatures from 520 to 910K, the experiments disclose the growth of two atomic layers of a bulk-like, strongly distorted $\alpha$-PtO2. The epitaxial Pt oxide layer is oriented hexagon on hexagon with respect to the Pt(111) surface leading to a (8 × 8) superstructure surface unit cell. In a second set of experiments, a 100 thick epitaxial Pt(111) film on sapphire was exposed to oxygen. At 670K and near atmospheric oxygen pressures we find the formation of a several angstrom thick oxide layer. After annealing the sample at 720K in a vacuum the oxide layer desorbs, recovering the 100 thick Pt film. Subsequent oxidation at 720K and reduction cycles lead to a slight increase in surface roughness and the formation of macroscopically visible holes in the Pt film. These results point to a Pt re-dispersion which sets in during chemical reactions at atmospheric pressures. {©} 2008 IOP Publishing Ltd.}
+      \field{issn}{09538984}
+      \field{journaltitle}{Journal of Physics Condensed Matter}
+      \field{number}{18}
+      \field{title}{{Atmospheric pressure oxidation of Pt(111)}}
+      \field{volume}{20}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1088/0953-8984/20/18/184013
+      \endverb
+      \verb{file}
+      \verb :home/david/Documents/PhD/Papers/Pt_AR/Stierle_JPCM_2008.pdf:pdf
+      \endverb
+    \endentry
     \entry{EPAGreenhouseGases}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=de3b5f3f3e4dcccb9bdf618270327bf0}{%
@@ -3933,6 +4215,163 @@
       \verb{doi}
       \verb 10.1021/acscatal.2c00090
       \endverb
+    \endentry
+    \entry{Fantauzzi2017}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=fbf2b0774ae2eb279ad3c5c823f42d1b}{%
+           family={Fantauzzi},
+           familyi={F\bibinitperiod},
+           given={Donato},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0a1d482e913338aa114a75ac25d3fdb}{%
+           family={{Krick Calderón}},
+           familyi={K\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=feef6d982db829b20a0963bc54209a02}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Jonathan\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa6438a7f769ed16051c725bae4d2ffa}{%
+           family={Grabau},
+           familyi={G\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f512b8ea40116ab42bbfc9e7411526ea}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8180560bc42e066bdbb6997bbd8d8ee1}{%
+           family={Steinrück},
+           familyi={S\bibinitperiod},
+           given={Hans\bibnamedelima Peter},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9aaa36f41e400f319eea89e962d0c4f6}{%
+           family={Senftle},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima P.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56b50d20bffbcd711913968d9234ee71}{%
+           family={Duin},
+           familyi={D\bibinitperiod},
+           given={Adri\bibnamedelima C.T.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=3055aceeeee688300ecc2014ade9bb7e}{%
+           family={Jacob},
+           familyi={J\bibinitperiod},
+           given={Timo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aa78c13294ea9f040131cb967213391f}
+      \strng{fullhash}{6fc9389b945b447d8d84d52ba7ffb6e6}
+      \strng{bibnamehash}{aa78c13294ea9f040131cb967213391f}
+      \strng{authorbibnamehash}{aa78c13294ea9f040131cb967213391f}
+      \strng{authornamehash}{aa78c13294ea9f040131cb967213391f}
+      \strng{authorfullhash}{6fc9389b945b447d8d84d52ba7ffb6e6}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Detailed knowledge of the structure and degree of oxidation of platinum surfaces under operando conditions is essential for understanding catalytic performance. However, experimental investigations of platinum surface oxides have been hampered by technical limitations, preventing in situ investigations at relevant pressures. As a result, the time-dependent evolution of oxide formation has only received superficial treatment. In addition, the amorphous structures of many surface oxides have hindered realistic theoretical studies. Using near-ambient pressure X-ray photoelectron spectroscopy (NAP-XPS) we show that a time scale of hours (t≥4 h) is required for the formation of platinum surface oxides. These experimental observations are consistent with ReaxFF grand canonical Monte Carlo (ReaxFF-GCMC) calculations, predicting the structures and coverages of stable, amorphous surface oxides at temperatures between 430–680 K and an O2partial pressure of 1 mbar.}
+      \field{issn}{15213773}
+      \field{journaltitle}{Angewandte Chemie - International Edition}
+      \field{number}{10}
+      \field{title}{{Growth of Stable Surface Oxides on Pt(111) at Near-Ambient Pressures}}
+      \field{volume}{56}
+      \field{year}{2017}
+      \field{pages}{2594\bibrangedash 2598}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1002/anie.201609317
+      \endverb
+      \keyw{interfaces,kinetics,oxidation,phase transitions,surface chemistry}
+    \endentry
+    \entry{FARKAS2017}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=ca88f097e72e72cfeb7544369e8b860f}{%
+           family={Farkas},
+           familyi={F\bibinitperiod},
+           given={Attila},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbf2b0774ae2eb279ad3c5c823f42d1b}{%
+           family={Fantauzzi},
+           familyi={F\bibinitperiod},
+           given={Donato},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=feef6d982db829b20a0963bc54209a02}{%
+           family={Mueller},
+           familyi={M\bibinitperiod},
+           given={Jonathan\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0fb5403937f33f281829e242c7b860f}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Tianwei},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f512b8ea40116ab42bbfc9e7411526ea}{%
+           family={Papp},
+           familyi={P\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba24058855dc16b8aa542fa8787464e6}{%
+           family={Steinrück},
+           familyi={S\bibinitperiod},
+           given={Hans-Peter},
+           giveni={H\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3055aceeeee688300ecc2014ade9bb7e}{%
+           family={Jacob},
+           familyi={J\bibinitperiod},
+           given={Timo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6e9e84fb75ef8f89864a8e0ba8dad3e7}
+      \strng{fullhash}{f77afc2e06d7c2695a44ecfa70835b2f}
+      \strng{bibnamehash}{6e9e84fb75ef8f89864a8e0ba8dad3e7}
+      \strng{authorbibnamehash}{6e9e84fb75ef8f89864a8e0ba8dad3e7}
+      \strng{authornamehash}{6e9e84fb75ef8f89864a8e0ba8dad3e7}
+      \strng{authorfullhash}{f77afc2e06d7c2695a44ecfa70835b2f}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We summarize our recent results on the oxidation of platinum surfaces, stressing the close connection between theory and experiment. The present theoretical approach is based on ab-initio quantum mechanics methods, such as density functional theory (DFT), ab-initio atomistic thermodynamics, Monte-Carlo methods and reactive molecular dynamics (RMD). Experimentally, photoelectron spectroscopy (XPS) under UHV and in-situ conditions (NAP-XPS) provides most of the discussed results. The oxidation of an extended variety of platinum surfaces is reviewed, starting from atomically flat Pt(111) over stepped surfaces to regularly shaped nanoparticles, under conditions ranging from UHV through ambient pressures up to electrochemical interfaces.}
+      \field{issn}{0368-2048}
+      \field{journaltitle}{Journal of Electron Spectroscopy and Related Phenomena}
+      \field{note}{Spectroscopy of Liquid/Solid Interfaces: Detailed insights into electrochemical energy converters}
+      \field{title}{On the platinum-oxide formation under gas-phase and electrochemical conditions}
+      \field{volume}{221}
+      \field{year}{2017}
+      \field{pages}{44\bibrangedash 57}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.elspec.2017.06.005
+      \endverb
+      \keyw{Multi-scale modeling,Quantum-mechanics,Density functional theory,thermodynamics,Reactive molecular dynamics,XPS,Near ambient-pressure XPS,Core-level shifts,TPD,Catalysis,Electrocatalysis,Platinum,Surface oxides,Nanoparticles,Stepped surfaces}
     \endentry
     \entry{Farrow1993}{article}{}
       \name{author}{7}{}{%
@@ -4999,6 +5438,45 @@
       \verb 10.1021/acscatal.9b01775
       \endverb
     \endentry
+    \entry{Galloni1952}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=266eb0062df08f2992e04c63e40ab385}{%
+           family={Galloni},
+           familyi={G\bibinitperiod},
+           given={Ernesto\bibnamedelima E.},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=72ada5df99a80b6a88d67f2c2f45c8a9}{%
+           family={Busch},
+           familyi={B\bibinitperiod},
+           given={Rodolfo\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76aa5fb3a00a9529084ae6ed2a33259e}
+      \strng{fullhash}{76aa5fb3a00a9529084ae6ed2a33259e}
+      \strng{bibnamehash}{76aa5fb3a00a9529084ae6ed2a33259e}
+      \strng{authorbibnamehash}{76aa5fb3a00a9529084ae6ed2a33259e}
+      \strng{authornamehash}{76aa5fb3a00a9529084ae6ed2a33259e}
+      \strng{authorfullhash}{76aa5fb3a00a9529084ae6ed2a33259e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00219606}
+      \field{issue}{1}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{title}{The structure of platinum oxides}
+      \field{volume}{20}
+      \field{year}{1952}
+      \field{pages}{198\bibrangedash 199}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1063/1.1700179
+      \endverb
+    \endentry
     \entry{GANDHI2003}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5280df548eff35335f710f358a13cff5}{%
@@ -5890,64 +6368,6 @@
       \verb 10.1021/ie50300a016
       \endverb
     \endentry
-    \entry{HANNEVOLD2005}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=ae3149b161b341cc7bfbc767fd439409}{%
-           family={Hannevold},
-           familyi={H\bibinitperiod},
-           given={Lenka},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=aed99fafdd429490e04622555dfa09e0}{%
-           family={Nilsen},
-           familyi={N\bibinitperiod},
-           given={Ola},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=40678e6096d998ebd18ae5d21f45508e}{%
-           family={Kjekshus},
-           familyi={K\bibinitperiod},
-           given={Arne},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c7756771fc3aa2826641cbd4343aaf53}{%
-           family={Fjellvåg},
-           familyi={F\bibinitperiod},
-           given={Helmer},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{530ac1daa01ade4bfb08e835b35be562}
-      \strng{fullhash}{92b2ccbe962748ffde87d1e1ef2b9e69}
-      \strng{bibnamehash}{530ac1daa01ade4bfb08e835b35be562}
-      \strng{authorbibnamehash}{530ac1daa01ade4bfb08e835b35be562}
-      \strng{authornamehash}{530ac1daa01ade4bfb08e835b35be562}
-      \strng{authorfullhash}{92b2ccbe962748ffde87d1e1ef2b9e69}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0926-860X}
-      \field{journaltitle}{Applied Catalysis A: General}
-      \field{number}{1}
-      \field{title}{Reconstruction of platinum–rhodium catalysts during oxidation of ammonia}
-      \field{volume}{284}
-      \field{year}{2005}
-      \field{pages}{163\bibrangedash 176}
-      \range{pages}{14}
-      \verb{doi}
-      \verb https://doi.org/10.1016/j.apcata.2005.01.033
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0926860X05000669
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0926860X05000669
-      \endverb
-      \keyw{Platinum–rhodium catalyst reconstruction,Ammonia oxidation,Catalytic etching,“Cauliflower”-shaped excrescences}
-    \endentry
     \entry{Harder2007}{article}{}
       \name{author}{5}{}{%
         {{un=2,uniquepart=given,hash=bb97a112f61add4b5b941d11347f9a84}{%
@@ -6360,6 +6780,63 @@
       \endverb
       \keyw{cryo-EM,Fourier shell correlation,Information,Resolution criteria,Single particles}
     \endentry
+    \entry{Hejral2016}{article}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=4c4ce95dc59c6d354cb3a4a0de7c52e7}{%
+           family={Hejral},
+           familyi={H\bibinitperiod},
+           given={Uta},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ad54432893e016dadf0c23b58906171}{%
+           family={Mu},
+           familyi={M\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0839a748a6381acc6cda686055559666}{%
+           family={Balmes},
+           familyi={B\bibinitperiod},
+           given={Olivier},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d5cbcfe016fa72914f509ac43d2ed6d}{%
+           family={Pontoni},
+           familyi={P\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d766a3a04d700f500a117978cf58e49}{%
+           family={Stierle},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2395df11290ed9762f7890dae7af9969}
+      \strng{fullhash}{456df8a36359c77a16b00dd397e38bb8}
+      \strng{bibnamehash}{2395df11290ed9762f7890dae7af9969}
+      \strng{authorbibnamehash}{2395df11290ed9762f7890dae7af9969}
+      \strng{authornamehash}{2395df11290ed9762f7890dae7af9969}
+      \strng{authorfullhash}{456df8a36359c77a16b00dd397e38bb8}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Communications}
+      \field{title}{{Tracking the shape-dependent sintering of platinum–rhodium model catalysts under operando conditions}}
+      \field{year}{2016}
+      \field{pages}{5\bibrangedash 12}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/ncomms10964
+      \endverb
+      \verb{file}
+      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Hejral et al. - 2016 - Tracking the shape-dependent sintering of platinum–rhodium model catalysts under operando conditions.pdf:pdf
+      \endverb
+    \endentry
     \entry{Hejral2021}{article}{}
       \name{author}{5}{ul=2}{%
         {{un=0,uniquepart=base,hash=4c4ce95dc59c6d354cb3a4a0de7c52e7}{%
@@ -6474,6 +6951,161 @@
       \verb{file}
       \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Hejral et al. - 2013 - In Situ Oxidation Study of Pt Nanoparticles on MgO(001).pdf:pdf
       \endverb
+    \endentry
+    \entry{Held2020}{article}{}
+      \name{author}{20}{}{%
+        {{un=0,uniquepart=base,hash=bcedb7b0a6051e6e17c9bd6df61f71eb}{%
+           family={Held},
+           familyi={H\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89470d3e6176a633563dd08779a4f8ba}{%
+           family={Venturini},
+           familyi={V\bibinitperiod},
+           given={Federica},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d64c71deffdadacbad03c24a69458241}{%
+           family={Grinter},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5ea6cfeaf9ea5321e46321abaacafa3}{%
+           family={Ferrer},
+           familyi={F\bibinitperiod},
+           given={Pilar},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=639548c39b233c90c5ec10f228a67c06}{%
+           family={Arrigo},
+           familyi={A\bibinitperiod},
+           given={Rosa},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c1c1ebc14d3620f17c515fda966bddc}{%
+           family={Deacon},
+           familyi={D\bibinitperiod},
+           given={Liam},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=563b0e8c816b978b49bcff8d22897368}{%
+           family={Quevedo\bibnamedelima Garzon},
+           familyi={Q\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Wilson},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98ab14129c23019ba97e18ef67daaeef}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={Kanak},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=185bd31a113bfa3528413cc58aae9c30}{%
+           family={Large},
+           familyi={L\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80ff8c904e544ab8656aec5d2ee818c2}{%
+           family={Stephens},
+           familyi={S\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31eae34fbf21389cc08cd3a37ebb5536}{%
+           family={Watts},
+           familyi={W\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a59df4693dd3dd993f9d81ed48ed446}{%
+           family={Larkin},
+           familyi={L\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=392ed87f9c4f03c1ea0923a1050d2926}{%
+           family={Hand},
+           familyi={H\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55ae7445e9f19f68d892fc5d6d6287db}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hongchang},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4bad9d71b9b7d27f25417ce9095ea43}{%
+           family={Pratt},
+           familyi={P\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a1479ff52cc4be2b3fb92eb5f0d27da}{%
+           family={Mudd},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0e5270b30b6f4e037559d4f80e278dd}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40c72cc11cd7e87c88d17cf540d8002a}{%
+           family={Patel},
+           familyi={P\bibinitperiod},
+           given={Suren},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92a7586bdd861fcaa394fc71ca95d323}{%
+           family={Hillman},
+           familyi={H\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff96956ce67379c9872c9a23b6b90ce2}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={Stewart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{22eba2d71f623415f5307b6e8d549a21}
+      \strng{fullhash}{fe886fc0f19d7e7677c63fd6fd8f464b}
+      \strng{bibnamehash}{22eba2d71f623415f5307b6e8d549a21}
+      \strng{authorbibnamehash}{22eba2d71f623415f5307b6e8d549a21}
+      \strng{authornamehash}{22eba2d71f623415f5307b6e8d549a21}
+      \strng{authorfullhash}{fe886fc0f19d7e7677c63fd6fd8f464b}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ambient-pressure endstation and branchline of the Versatile Soft X-ray (VerSoX) beamline B07 at Diamond Light Source serves a very diverse user community studying heterogeneous catalysts, pharmaceuticals and biomaterials under realistic conditions, liquids and ices, and novel electronic, photonic and battery materials. The instrument facilitates studies of the near-surface chemical composition, electronic and geometric structure of a variety of samples using X-ray photoelectron spectroscopy (XPS) and near-edge X-ray absorption fine-structure (NEXAFS) spectroscopy in the photon energy range from 170eV to 2800eV. The beamline provides a resolving power {\it h}{$\nu$}/{$\Delta$}({\it h}{$\nu$}) > 5000 at a photon flux > 10${\sp 10}$photonss${\sp {$-$}1}$ over most of its energy range. By operating the optical elements in a low-pressure oxygen atmosphere, carbon contamination can be almost completely eliminated, which makes the beamline particularly suitable for carbon {\it K}-edge NEXAFS. The endstation can be operated at pressures up to 100mbar, whereby XPS can be routinely performed up to 30mbar. A selection of typical data demonstrates the capability of the instrument to analyse details of the surface composition of solid samples under ambient-pressure conditions using XPS and NEXAFS. In addition, it offers a convenient way of analysing the gas phase through X-ray absorption spectroscopy. Short XPS spectra can be measured at a time scale of tens of seconds. The shortest data acquisition times for NEXAFS are around 0.5s per data point.}
+      \field{journaltitle}{Journal of Synchrotron Radiation}
+      \field{month}{09}
+      \field{number}{5}
+      \field{title}{{Ambient-pressure endstation of the Versatile Soft X-ray (VerSoX) beamline at Diamond Light Source}}
+      \field{volume}{27}
+      \field{year}{2020}
+      \field{pages}{1153\bibrangedash 1166}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1107/S1600577520009157
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1107/S1600577520009157
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1107/S1600577520009157
+      \endverb
+      \keyw{soft X-ray beamline,ambient-pressure XPS,X-ray absorption,catalysis,carbon contamination}
     \endentry
     \entry{hofmann_nanoscale_2020}{article}{}
       \name{author}{8}{}{%
@@ -6987,6 +7619,121 @@
       \verb 10.1063/1.5054294
       \endverb
     \endentry
+    \entry{Kawaguchi2019}{article}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=307b06107d5339bd84214c9a3561163c}{%
+           family={Kawaguchi},
+           familyi={K\bibinitperiod},
+           given={Tomoya},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9833926d7bfb4a6d9c2f2057aa7ea9ac}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={Thomas\bibnamedelima F.},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6667c1b34e29cd59cc54e2d142d867d2}{%
+           family={Runge},
+           familyi={R\bibinitperiod},
+           given={Henning},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7871cfc6b26f828644e0d7129f120f2}{%
+           family={Gelisio},
+           familyi={G\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4be742843d8391dc18adeeac1a348bc5}{%
+           family={Seitz},
+           familyi={S\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9afded6a2d714dab15307105b1eb4b0}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Young\bibnamedelima Yong},
+           giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=239ac9d550c76f38df2a7e0c8c255f39}{%
+           family={Maxey},
+           familyi={M\bibinitperiod},
+           given={Evan\bibnamedelima R.},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cfb6a661ec68e28b40c5745834b6353}{%
+           family={Cha},
+           familyi={C\bibinitperiod},
+           given={Wonsuk},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d786e96f68775db92980288601162a6}{%
+           family={Ulvestad},
+           familyi={U\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=927a175cdc6b2640dabffd318ff1b4c0}{%
+           family={Hruszkewycz},
+           familyi={H\bibinitperiod},
+           given={Stephan\bibnamedelima O.},
+           giveni={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1604b5d5d9284f7dbd79c41b24ce52f8}{%
+           family={Harder},
+           familyi={H\bibinitperiod},
+           given={Ross},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa35e71651c9bc0421839c043e5e21a7}{%
+           family={Vartanyants},
+           familyi={V\bibinitperiod},
+           given={Ivan\bibnamedelima A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d766a3a04d700f500a117978cf58e49}{%
+           family={Stierle},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=384be7faa74e0f15b1748144317d7063}{%
+           family={You},
+           familyi={Y\bibinitperiod},
+           given={Hoydoo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{39a6e0f1dfed4eaf8e5d1815bbe50506}
+      \strng{fullhash}{0730c94bb481d80e1951677d1a754ecc}
+      \strng{bibnamehash}{39a6e0f1dfed4eaf8e5d1815bbe50506}
+      \strng{authorbibnamehash}{39a6e0f1dfed4eaf8e5d1815bbe50506}
+      \strng{authornamehash}{39a6e0f1dfed4eaf8e5d1815bbe50506}
+      \strng{authorfullhash}{0730c94bb481d80e1951677d1a754ecc}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bimetallic catalysts can undergo segregation or redistribution of the metals driven by oxidizing and reducing environments. Bragg coherent diffraction imaging (BCDI) was used to relate displacement fields to compositional distributions in crystalline Pt-Rh alloy nanoparticles. Three-dimensional images of internal composition showed that the radial distribution of compositions reverses partially between the surface shell and the core when gas flow changes between O2 and H2. Our observation suggests that the elemental segregation of nanoparticle catalysts should be highly active during heterogeneous catalysis and can be a controlling factor in synthesis of electrocatalysts. In addition, our study exemplifies applications of BCDI for in situ 3D imaging of internal equilibrium compositions in other bimetallic alloy nanoparticles.}
+      \field{issn}{10797114}
+      \field{journaltitle}{Physical Review Letters}
+      \field{number}{24}
+      \field{title}{{Gas-Induced Segregation in Pt-Rh Alloy Nanoparticles Observed by in Situ Bragg Coherent Diffraction Imaging}}
+      \field{volume}{123}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.123.246001
+      \endverb
+      \verb{file}
+      \verb :home/david/Documents/PhD/Papers/Kawaguchi et al. - 2019 - Gas-Induced Segregation in Pt-Rh Alloy Nanoparticl.pdf:pdf
+      \endverb
+    \endentry
     \entry{Khaleghi2019}{article}{}
       \name{author}{3}{}{%
         {{un=2,uniquepart=given,hash=5be65b26622bc646c406a7c50d9808c4}{%
@@ -7134,12 +7881,12 @@
            given={Dongjin},
            giveni={D\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=830b9f7def7946f2dcb98ae828b2153d}{%
+        {{un=1,uniquepart=given,hash=830b9f7def7946f2dcb98ae828b2153d}{%
            family={Chung},
            familyi={C\bibinitperiod},
            given={Myungwoo},
            giveni={M\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
            family={Carnis},
            familyi={C\bibinitperiod},
@@ -7269,12 +8016,12 @@
            given={Dongjin},
            giveni={D\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=830b9f7def7946f2dcb98ae828b2153d}{%
+        {{un=1,uniquepart=given,hash=830b9f7def7946f2dcb98ae828b2153d}{%
            family={Chung},
            familyi={C\bibinitperiod},
            given={Myungwoo},
            giveni={M\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=1,uniquepart=given,hash=3aaa9ddabdbbcd28cc8923c2c7da5827}{%
            family={Kim},
            familyi={K\bibinitperiod},
@@ -7338,6 +8085,96 @@
       \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Kim et al. - 2019 - Defect Dynamics at a Single Pt Nanoparticle during Catalytic Oxidation.pdf:pdf
       \endverb
       \keyw{3D strain imaging,Bragg coherent diffraction imaging,catalyst,platinum nanoparticle,strain dynamics}
+    \endentry
+    \entry{Kim2021}{article}{}
+      \name{author}{11}{}{%
+        {{un=1,uniquepart=given,hash=e9afded6a2d714dab15307105b1eb4b0}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Young\bibnamedelima Yong},
+           giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=9833926d7bfb4a6d9c2f2057aa7ea9ac}{%
+           family={Keller},
+           familyi={K\bibinitperiod},
+           given={Thomas\bibnamedelima F},
+           giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=905213d6dc01d19b35429ce85e08d275}{%
+           family={Goncalves},
+           familyi={G\bibinitperiod},
+           given={Tiago\bibnamedelima J},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a19aa7caa1cd000114e002f511daad7b}{%
+           family={Abuin},
+           familyi={A\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6667c1b34e29cd59cc54e2d142d867d2}{%
+           family={Runge},
+           familyi={R\bibinitperiod},
+           given={Henning},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7871cfc6b26f828644e0d7129f120f2}{%
+           family={Gelisio},
+           familyi={G\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
+           family={Carnis},
+           familyi={C\bibinitperiod},
+           given={Jérôme},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b5fd7c0e0e90ae071a658874e87eaad}{%
+           family={Vonk},
+           familyi={V\bibinitperiod},
+           given={Vedran},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cb5fa6c7663573d98d23ae6bdd80274}{%
+           family={Plessow},
+           familyi={P\bibinitperiod},
+           given={Philipp\bibnamedelima N},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c060b52d8c7254813ab87d19664d93ca}{%
+           family={Vartaniants},
+           familyi={V\bibinitperiod},
+           given={Ivan\bibnamedelima A},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d766a3a04d700f500a117978cf58e49}{%
+           family={Stierle},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3089fad41030bf7858bf2bb09cc94325}
+      \strng{fullhash}{876c46970db1c791b9009b739025a7f0}
+      \strng{bibnamehash}{3089fad41030bf7858bf2bb09cc94325}
+      \strng{authorbibnamehash}{3089fad41030bf7858bf2bb09cc94325}
+      \strng{authornamehash}{3089fad41030bf7858bf2bb09cc94325}
+      \strng{authorfullhash}{876c46970db1c791b9009b739025a7f0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{111}
+      \field{title}{{Single alloy nanoparticle x-ray imaging during a catalytic reaction}}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{file}
+      \verb :home/david/Documents/PhD/Papers/sciadv.abh0757.pdf:pdf
+      \endverb
     \endentry
     \entry{Kitchin2004}{article}{}
       \name{author}{4}{}{%
@@ -8459,6 +9296,45 @@
       \verb 10.1038/s41598-020-69678-5
       \endverb
     \endentry
+    \entry{LI2005}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=9c8461bef3ba8122d8067619bc435062}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={W.X.},
+           giveni={W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=4479c9971d09a8f94f6dbef3cdf9cb0e}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee14c6f4ba36cf2b82f38ecabe5cb4d0}
+      \strng{fullhash}{ee14c6f4ba36cf2b82f38ecabe5cb4d0}
+      \strng{bibnamehash}{ee14c6f4ba36cf2b82f38ecabe5cb4d0}
+      \strng{authorbibnamehash}{ee14c6f4ba36cf2b82f38ecabe5cb4d0}
+      \strng{authornamehash}{ee14c6f4ba36cf2b82f38ecabe5cb4d0}
+      \strng{authorfullhash}{ee14c6f4ba36cf2b82f38ecabe5cb4d0}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0009-2614}
+      \field{journaltitle}{Chemical Physics Letters}
+      \field{number}{1}
+      \field{title}{Reactivity of a gas/metal/metal-oxide three-phase boundary: CO oxidation at the Pt(111)–c(4×2)-2CO/alpha-PtO2 phase boundary}
+      \field{volume}{409}
+      \field{year}{2005}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cplett.2005.04.064
+      \endverb
+    \endentry
     \entry{Yawei2015}{article}{}
       \name{author}{3}{}{%
         {{un=1,uniquepart=given,hash=08662729fa958c632a10ef8553fb7e24}{%
@@ -9266,6 +10142,59 @@
       \verb https://www.sciencedirect.com/science/article/pii/B0122274105007195
       \endverb
     \endentry
+    \entry{McBride1991}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6f26eb3020c4ed824725bcb332fe87f3}{%
+           family={McBride},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5c45ced40932837005b242565fdf39e}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={G.\bibnamedelimi W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d5a3755270d2121808eb9c2f8523948}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69d776ba137f79a5e2463f1bbf0d5ff3}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={W.\bibnamedelimi H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c24e8830a38213c6a5ce0f3b8fcbc3b1}
+      \strng{fullhash}{4bcef6ffdd907e0af4b67679c350137b}
+      \strng{bibnamehash}{c24e8830a38213c6a5ce0f3b8fcbc3b1}
+      \strng{authorbibnamehash}{c24e8830a38213c6a5ce0f3b8fcbc3b1}
+      \strng{authornamehash}{c24e8830a38213c6a5ce0f3b8fcbc3b1}
+      \strng{authorfullhash}{4bcef6ffdd907e0af4b67679c350137b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{Thin‐film oxides of platinum have been prepared by reactive sputtering and characterized primarily by x‐ray diffraction (XRD) and Raman scattering. Different phases of the Pt‐O system were obtained by adjusting sputtering parameters such as gas composition, deposition rate, and substrate temperature. Optimum conditions for producing crystalline alpha‐PtO2 and PtO were identified. Raman spectra of alpha‐PtO2 films show two sharp lines at 514 and 560 cm−1, in agreement with those from commercially available powders. XRD and high‐resolution scanning electron microscopy (HRSEM) analyses indicate that these samples have a poorly crystallized structure with lack of order along the c axis. The Raman spectra from PtO show two broad peaks at 438 and 657 cm−1, close to the lines seen in PdO, which has the same structure as PtO. Estimates from XRD line broadening and HRSEM photographs indicate mean crystallite sizes on the order of 300 Å. Infrared reflectivity spectra yield two of the three ir‐active phonons, and along with scanning tunneling microscopy measurements suggest that PtO is a semiconductor. Thermoelectric measurements show that the predominant carriers are p‐type, and ir reflectivity data indicate a carrier concentration of ∼4×1018 cm−3.}}
+      \field{issn}{0021-8979}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{month}{02}
+      \field{number}{3}
+      \field{title}{{Growth and characterization of reactively sputtered thin‐film platinum oxides}}
+      \field{volume}{69}
+      \field{year}{1991}
+      \field{pages}{1596\bibrangedash 1604}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1063/1.347255
+      \endverb
+    \endentry
     \entry{McCabe1986}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=6d2597d340b4fe3c880636976f88eec0}{%
@@ -9623,8 +10552,163 @@
       \verb{doi}
       \verb 10.1063/1.1291749
       \endverb
-      \verb{file}
-      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Miao et al. - 2003 - Extending the methodology of X-ray crystallography to non-crystalline specimens.pdf:pdf
+    \endentry
+    \entry{Miller2011}{article}{}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=f11a3eda13e4afd0ed8ee4a779db36ce}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=b9ce59d5708cf2f0de3f20884daaaf96}{%
+           family={Öberg},
+           familyi={Ö\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df07baff5b6c7aa2402545ca2648d0b7}{%
+           family={Kaya},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26e676c938fd73b10283630d94d6b1b4}{%
+           family={Sanchez\bibnamedelima Casalongue},
+           familyi={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41b61599b442c4f8e7d58453405869d4}{%
+           family={Friebel},
+           familyi={F\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1297e3fe18f73802548aa37cfad082c9}{%
+           family={Anniyev},
+           familyi={A\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=297ba8874326427caad17d867cc79a9b}{%
+           family={Ogasawara},
+           familyi={O\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db709a6382debac96c1cc07d88d5355b}{%
+           family={Bluhm},
+           familyi={B\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ba2c0759f3a322ee1e9e7f124ce5780}{%
+           family={Pettersson},
+           familyi={P\bibinitperiod},
+           given={L.\bibnamedelimi G.\bibnamedelimi M.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=236d9b5e24b69debfb3226762c219db2}{%
+           family={Nilsson},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{0faca0fc82d64c4fbb4fcd25fa3a2132}
+      \strng{fullhash}{533b4806322e8a9d87321bd8a282cb20}
+      \strng{bibnamehash}{0faca0fc82d64c4fbb4fcd25fa3a2132}
+      \strng{authorbibnamehash}{0faca0fc82d64c4fbb4fcd25fa3a2132}
+      \strng{authornamehash}{0faca0fc82d64c4fbb4fcd25fa3a2132}
+      \strng{authorfullhash}{533b4806322e8a9d87321bd8a282cb20}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{19}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{title}{Oxidation of Pt(111) under Near-Ambient Conditions}
+      \field{volume}{107}
+      \field{year}{2011}
+      \field{pages}{195502}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.107.195502
+      \endverb
+    \endentry
+    \entry{Miller2014}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=8350c644f429801520f6eca87614b150}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=9981e93e28dbe077f2135c90d4eea62d}{%
+           family={Casalongue},
+           familyi={C\bibinitperiod},
+           given={Hernan\bibnamedelima Sanchez},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2987659a3af947d61c0dc42c8916f8f1}{%
+           family={Bluhm},
+           familyi={B\bibinitperiod},
+           given={Hendrik},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b08d97b52d627b7d5efcc88c3945634}{%
+           family={Ogasawara},
+           familyi={O\bibinitperiod},
+           given={Hirohito},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ebea92000814d81e995879232e78799}{%
+           family={Nilsson},
+           familyi={N\bibinitperiod},
+           given={Anders},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db70f1f9300564005a19d28cb7f8e68a}{%
+           family={Kaya},
+           familyi={K\bibinitperiod},
+           given={Sarp},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{4198e6c27f0f943583189d7f2db0b161}
+      \strng{fullhash}{64662601814fa1ce36110f3c55ec41a0}
+      \strng{bibnamehash}{4198e6c27f0f943583189d7f2db0b161}
+      \strng{authorbibnamehash}{4198e6c27f0f943583189d7f2db0b161}
+      \strng{authornamehash}{4198e6c27f0f943583189d7f2db0b161}
+      \strng{authorfullhash}{64662601814fa1ce36110f3c55ec41a0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have used X-ray photoelectron spectroscopy and polarization-resolved O K-edge X-ray absorption spectroscopy to investigate the reactivity of various oxygen covered Pt(111) surfaces, which emerge under high temperature and pressure conditions, toward CO. We find that the reactivity of the O/Pt(111) system decreases monotonically with increasing oxygen coverage. Of the three surface oxygen phases, viz., chemisorbed oxygen (Oad), a PtO-like surface oxide, and α-PtO2 trilayers, Oad exhibits the highest reactivity toward CO, whereas α-PtO2 trilayers exhibit the lowest. Pt(111) surfaces fully terminated by α-PtO2 trilayers are inert to CO. Here it is proposed that the reactive phase is either Oad or PtO-like surface oxide phase on bare non-CO poisoned Pt regions with PtO2 as majority spectator species. © 2014 American Chemical Society.}
+      \field{issn}{15205126}
+      \field{issue}{17}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{month}{4}
+      \field{title}{Different reactivity of the various platinum oxides and chemisorbed oxygen in CO oxidation on Pt(111)}
+      \field{volume}{136}
+      \field{year}{2014}
+      \field{pages}{6340\bibrangedash 6347}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/ja413125q
       \endverb
     \endentry
     \entry{jupyter_computing_3}{inproceedings}{}
@@ -9830,6 +10914,55 @@
       \endverb
       \keyw{Heterogeneous catalysis,In situ characterization techniques,Nano-particles}
     \endentry
+    \entry{Moore1941}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=36e931dcef8a811df7e60f658f0dcb80}{%
+           family={Moore\bibnamedelima Jr.},
+           familyi={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Walter\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57002dec049d71166a4985e677fc4d28}{%
+           family={Pauling},
+           familyi={P\bibinitperiod},
+           given={Linus},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{3b5befc42b8c54f832976c5baa413d81}
+      \strng{fullhash}{3b5befc42b8c54f832976c5baa413d81}
+      \strng{bibnamehash}{3b5befc42b8c54f832976c5baa413d81}
+      \strng{authorbibnamehash}{3b5befc42b8c54f832976c5baa413d81}
+      \strng{authornamehash}{3b5befc42b8c54f832976c5baa413d81}
+      \strng{authorfullhash}{3b5befc42b8c54f832976c5baa413d81}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0002-7863}
+      \field{journaltitle}{Journal of the American Chemical Society}
+      \field{month}{05}
+      \field{number}{5}
+      \field{title}{The Crystal Structures of the Tetragonal Monoxides of Lead, Tin, Palladium, and Platinum}
+      \field{volume}{63}
+      \field{year}{1941}
+      \field{pages}{1392\bibrangedash 1394}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1021/ja01850a074
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/ja01850a074
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/ja01850a074
+      \endverb
+    \endentry
     \entry{moritz_van_hove_2022}{inbook}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=1fefef7eaa74142e021be86cc56fccb5}{%
@@ -9867,6 +11000,46 @@
       \range{pages}{77}
       \verb{doi}
       \verb 10.1017/9781108284578.009
+      \endverb
+    \endentry
+    \entry{MULLER1968}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a365a93f3039bbd0f3831868d09a0dac}{%
+           family={Muller},
+           familyi={M\bibinitperiod},
+           given={Olaf},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0469f5f4e83c7f5f41aea7332755ce63}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={Rustum},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1bc13b7d8439d04fc495cfb7556e5e5d}
+      \strng{fullhash}{1bc13b7d8439d04fc495cfb7556e5e5d}
+      \strng{bibnamehash}{1bc13b7d8439d04fc495cfb7556e5e5d}
+      \strng{authorbibnamehash}{1bc13b7d8439d04fc495cfb7556e5e5d}
+      \strng{authornamehash}{1bc13b7d8439d04fc495cfb7556e5e5d}
+      \strng{authorfullhash}{1bc13b7d8439d04fc495cfb7556e5e5d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The systems Pt-O and Rh-O have been investigated at high oxygen pressures (up to 3500 atm) and temperatures ranging from 400 ° to nearly 900 °C. Three platinum oxide phases were found: the hexagonal alpha-PtO2, already described in the literature, a new phase, $\beta$-PtO2 (CaCl2 structure), and Pt3O4 (NaxPt3O4 structure). $\beta$-PtO2 andPt3O4 are black, highly insoluble solids, which can be easily synthesized in bulk at high oxygen pressures. The tetragonal PtO phase reported by Moore and Pauling was not encountered in this study and neither was the b.c.c. Pt3O4 found by Galloni and Roffo. In the system Rh-O we found (besides the already-known, two Rh2O3 polymorphs) a new RhO2 phase with the rutile structure. RhO2 is a black, easily synthesized solid, which is highly insoluble even in hot aqua regia. “Goldschmidt radii” were derived for Pt4+ and Rh4+ and found to be 0.66 Å and 0.64 Å, respectively.}
+      \field{issn}{0022-5088}
+      \field{journaltitle}{Journal of the Less Common Metals}
+      \field{number}{2}
+      \field{title}{Formation and stability of the platinum and rhodium oxides at high oxygen pressures and the structures of Pt3O4, $\beta$-PtO2 and RhO2}
+      \field{volume}{16}
+      \field{year}{1968}
+      \field{pages}{129\bibrangedash 146}
+      \range{pages}{18}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0022-5088(68)90070-2
       \endverb
     \endentry
     \entry{Munafo2017}{article}{}
@@ -12115,6 +13288,46 @@
       \endverb
       \keyw{Kinetics of unimolecular catalytic reactions,enzyme kinetics,Michaelis–Menton kinetics,inhibition by product,kinetics of bimolecular catalytic reactions,Langmuir–Hinshelwood mechanism,true and apparent activation energies,Eley–Rideal mechanism,Mars–van Krevelen mechanism,kinetics of hydrocarbon oxidation,pressure functions,kinetics of ammonia synthesis and decomposition,kinetics of ethane hydrogenolysis,kinetics of methanation,kinetics of formic acid decomposition}
     \endentry
+    \entry{Doniach_1970}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2dca086839a50d8fe012027b1e0dbe82}{%
+           family={S},
+           familyi={S\bibinitperiod},
+           given={Doniach},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4bdf985c6b485ea2b1e3b610498469ae}{%
+           family={M},
+           familyi={M\bibinitperiod},
+           given={Sunjic},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{021adab5eacea1d83a93e4db2b7992ef}
+      \strng{fullhash}{021adab5eacea1d83a93e4db2b7992ef}
+      \strng{bibnamehash}{021adab5eacea1d83a93e4db2b7992ef}
+      \strng{authorbibnamehash}{021adab5eacea1d83a93e4db2b7992ef}
+      \strng{authornamehash}{021adab5eacea1d83a93e4db2b7992ef}
+      \strng{authorfullhash}{021adab5eacea1d83a93e4db2b7992ef}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It is pointed out that the spectra of X-ray induced fast photoelectrons from metal should have a characteristic skew line shape resulting from Kondo-like many-electron interactions of the metallic conduction electrons with the accompanying deep hole in the final state. The same line shape should also occur for the discrete line spectra of X-rays emitted from metals. This mechanism could account for the well-known asymmetries observed for K alpha lines.}
+      \field{journaltitle}{Journal of Physics C: Solid State Physics}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{Many-electron singularity in X-ray photoemission and X-ray line spectra from metals}
+      \field{volume}{3}
+      \field{year}{1970}
+      \field{pages}{285}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0022-3719/3/2/010
+      \endverb
+    \endentry
     \entry{vanSanten2010}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5ace04cd5dc544a500d7212ad274e003}{%
@@ -12740,6 +13953,95 @@
       \endverb
       \verb{url}
       \verb https://power.mhi.com/products/aqcs/lineup/flue-gas-denitration/
+      \endverb
+    \endentry
+    \entry{Seriani2008}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1fdabfe5fbffc9ec781d05b661a7ee71}{%
+           family={Seriani},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52571211c81ebe880eeea841076bee2b}{%
+           family={Mittendorfer},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{591a29739a365e42526eeed652b4301f}
+      \strng{fullhash}{591a29739a365e42526eeed652b4301f}
+      \strng{bibnamehash}{591a29739a365e42526eeed652b4301f}
+      \strng{authorbibnamehash}{591a29739a365e42526eeed652b4301f}
+      \strng{authornamehash}{591a29739a365e42526eeed652b4301f}
+      \strng{authorfullhash}{591a29739a365e42526eeed652b4301f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Platinum-group metals and noble metals play an important role in catalysis, for total oxidation as well as for partial oxidation reactions. Only in recent years have advances in microscopic, spectroscopic and computer simulation techniques made it possible to investigate the interaction of oxygen with metallic substrates at an atomistic level. We present an overview on the formation of adsorption structures and surface oxides on Rh, Pd, Ag, Cu and Pt surfaces, with particular focus on the phase diagrams calculated from first-principles thermodynamics. The low-index (111), (100) and (110) surfaces as well as selected high-index surfaces have been considered. We predict the stability of novel structures such as the c(4 × 6) on Cu(100) and the alpha-PtO2 trilayer on Pt(100). The knowledge of the Gibbs free surface energies allows us to predict the adsorbate-induced changes in the thermodynamic equilibrium shape of metal nanoparticles. At low oxygen chemical potential, corresponding to clean surfaces, the (111) facets dominate the particle shape, with a significant contribution from (100) facets. But even under these conditions a small fraction of the overall surface corresponds to more open facets. As oxygen adsorption sets in, their contribution becomes larger. At high oxygen partial pressures, surface oxides form on the platinum-group metals. They do not only display different chemical properties than the metal, but also determine the exposed surface orientations of the particles. The latter effect might play an important role for the catalytic activity of transition metal nanoparticles.}
+      \field{journaltitle}{Journal of Physics: Condensed Matter}
+      \field{month}{04}
+      \field{number}{18}
+      \field{title}{Platinum-group and noble metals under oxidizing conditions}
+      \field{volume}{20}
+      \field{year}{2008}
+      \field{pages}{184023}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0953-8984/20/18/184023
+      \endverb
+    \endentry
+    \entry{Seriani2006}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{un=0,uniquepart=base,hash=1fdabfe5fbffc9ec781d05b661a7ee71}{%
+           family={Seriani},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e86cfd0ef6b2a579a06ba20b4bb691d1}{%
+           family={Pompe},
+           familyi={P\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8832a53ef5d7bc6808fa27f1239e1d60}{%
+           family={Ciacchi},
+           familyi={C\bibinitperiod},
+           given={L.\bibnamedelimi C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{f83c5e4af11c97b14dea9fd7a9898e82}
+      \strng{fullhash}{6ec30a7bd27f8a86bd0eea6ef39be491}
+      \strng{bibnamehash}{6ec30a7bd27f8a86bd0eea6ef39be491}
+      \strng{authorbibnamehash}{6ec30a7bd27f8a86bd0eea6ef39be491}
+      \strng{authornamehash}{f83c5e4af11c97b14dea9fd7a9898e82}
+      \strng{authorfullhash}{6ec30a7bd27f8a86bd0eea6ef39be491}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{15206106}
+      \field{issue}{30}
+      \field{journaltitle}{Journal of Physical Chemistry B}
+      \field{month}{8}
+      \field{title}{Catalytic oxidation activity of Pt3O4 surfaces and thin films}
+      \field{volume}{110}
+      \field{year}{2006}
+      \field{pages}{14860\bibrangedash 14869}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1021/jp063281r
       \endverb
     \endentry
     \entry{Shabalin2017}{article}{}
@@ -13664,10 +14966,54 @@
       \verb{doi}
       \verb 10.1109/MCSE.2011.37
       \endverb
-      \verb{file}
-      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Van der Walt, Colbert, Varoquaux - 2011 - The NumPy Array A Structure for Efficient Numerical Computation.pdf:pdf
-      \endverb
       \keyw{data structures,high level languages,mathematics c}
+    \endentry
+    \entry{VanSpronsen2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=75047e164f3790bcf90282b54c0d75bd}{%
+           family={{Van Spronsen}},
+           familyi={V\bibinitperiod},
+           given={Matthijs\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=886b74250a662992820e233b2d2d2d68}{%
+           family={Frenken},
+           familyi={F\bibinitperiod},
+           given={Joost\bibnamedelima W.M.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe47d354f27d57a228d0207b62a011b8}{%
+           family={Groot},
+           familyi={G\bibinitperiod},
+           given={Irene\bibnamedelima M.N.},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{a931933f6f318cad35ab3bb5585e94f1}
+      \strng{fullhash}{ff4cd656e5e01cb865e7648c5f2c1657}
+      \strng{bibnamehash}{ff4cd656e5e01cb865e7648c5f2c1657}
+      \strng{authorbibnamehash}{ff4cd656e5e01cb865e7648c5f2c1657}
+      \strng{authornamehash}{a931933f6f318cad35ab3bb5585e94f1}
+      \strng{authorfullhash}{ff4cd656e5e01cb865e7648c5f2c1657}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Despite its importance in oxidation catalysis, the active phase of Pt remains uncertain, even for the Pt(111) single-crystal surface. Here, using a ReactorSTM, the catalytically relevant structures are identified as two surface oxides, different from bulk $\alpha$-PtO2, previously observed. They are constructed from expanded oxide rows with a lattice constant close to that of $\alpha$-PtO2, either assembling into spoked wheels, 1-5 bar O2, or closely packed in parallel lines, above 2.2 bar. Both are only ordered at elevated temperatures (400-500 K). The triangular oxide can also form on the square lattice of Pt(100). Under NO and CO oxidation conditions, similar features are observed. Furthermore, both oxides are unstable outside the O2 atmosphere, indicating the presence of active O atoms, crucial for oxidation catalysts.}
+      \field{issn}{20411723}
+      \field{journaltitle}{Nature Communications}
+      \field{number}{1}
+      \field{title}{{Observing the oxidation of platinum}}
+      \field{volume}{8}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1038/s41467-017-00643-z
+      \endverb
     \endentry
     \entry{vicente_bragg_2021}{article}{}
       \name{author}{5}{}{%
@@ -14149,6 +15495,88 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.1126/science.aaf7680
+      \endverb
+    \endentry
+    \entry{Warren1990}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6e04082299f418c8860175819a1f0862}{%
+           family={Warren},
+           familyi={W\bibinitperiod},
+           given={BE},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Dover Publications}%
+      }
+      \strng{namehash}{6e04082299f418c8860175819a1f0862}
+      \strng{fullhash}{6e04082299f418c8860175819a1f0862}
+      \strng{bibnamehash}{6e04082299f418c8860175819a1f0862}
+      \strng{authorbibnamehash}{6e04082299f418c8860175819a1f0862}
+      \strng{authornamehash}{6e04082299f418c8860175819a1f0862}
+      \strng{authorfullhash}{6e04082299f418c8860175819a1f0862}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{3}
+      \field{title}{X-Ray Diffraction}
+      \field{year}{1990}
+    \endentry
+    \entry{Weber1990}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=69d776ba137f79a5e2463f1bbf0d5ff3}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={W.\bibnamedelimi H.},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5c45ced40932837005b242565fdf39e}{%
+           family={Graham},
+           familyi={G\bibinitperiod},
+           given={G.\bibnamedelimi W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f26eb3020c4ed824725bcb332fe87f3}{%
+           family={McBride},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c04ab5dab245329b2b7ab262cfd73c63}
+      \strng{fullhash}{5f5cb0e4d60beb322b7dd88427cc1d56}
+      \strng{bibnamehash}{5f5cb0e4d60beb322b7dd88427cc1d56}
+      \strng{authorbibnamehash}{5f5cb0e4d60beb322b7dd88427cc1d56}
+      \strng{authornamehash}{c04ab5dab245329b2b7ab262cfd73c63}
+      \strng{authorfullhash}{5f5cb0e4d60beb322b7dd88427cc1d56}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{17}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{12}
+      \field{title}{Raman spectrum of \ensuremath{\beta}-${\mathrm{PtO}}_{2}$: Evidence for the ${\mathit{D}}_{2\mathit{h}}^{12}$-to-${\mathit{D}}_{4\mathit{h}}^{14}$ phase transition}
+      \field{volume}{42}
+      \field{year}{1990}
+      \field{pages}{10969\bibrangedash 10975}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.42.10969
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.42.10969
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevB.42.10969
       \endverb
     \endentry
     \entry{Weinberg1996}{article}{}

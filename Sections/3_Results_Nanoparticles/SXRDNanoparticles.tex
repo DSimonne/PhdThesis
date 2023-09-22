@@ -38,10 +38,150 @@ First, to place the sample in the beam, its position was gradually increased in 
 The sample was then moved to the position at which the intensity of the direct beam was equal to half of its intensity without the sample in the beam path, so that when incresing the incidence angle to \ang{0.3}, the beam covers the entire sample surface.
 Secondly, any possible tilt of the sample surface was corrected by recording the intensity of the \textit{reflected} beam as a function of the $u$ (when $\omega=\ang{0}$) or $v$ (when $\omega=\ang{90}$) angles (fig. \ref{fig:Diffractometer}).
 
+% (all angles at \ang{0}), used also to calibrate the detector and to find the position of the central pixel (pixel on which the direct beam hits the detector).
+% % to ensure that the sample surface is parallel to the direct beam at $\mu=0$ when $\omega = \ang{0}$ and when $\omega = \ang{90}$.
+% First, to place the sample in the beam, its position was gradually increased in the direction perpendicular to the sample plane while recording the intensity of the direct beam.
+% The sample was then moved to the position at which the intensity of the direct beam was equal to half of its intensity without the sample in the beam path, so that the beam covers the entire sample surface at grazing incidence.
+% Secondly, any possible tilt of the sample surface was corrected by recording the intensity of the \textit{reflected} beam as a function of the $u$ (when $\omega=\ang{0}$) or $v$ (when $\omega=\ang{90}$) angles (fig. \ref{fig:Diffractometer}).
+
 This experiment proved to be difficult to realise experimentally.
 The graphite layer used to heat the sample is covered by a Boron Nitride solid surface with 4 holes (fig. \ref{fig:SampleHolder}), two holes are used with small screws to fix the sample on top of the heater, while the two others are used to fix the heater to the sample holder.
 Despite an extra layer of Boron Nitride that was applied around these screws and holes, the high temperature and highly oxidating atmosphere managed twice to corrode the conducting screws which resulted in a contact loss with the heater, thus a change of heater and realignment of the sample surface.
-However, most of the experimental plan was still carried out, lacking only in-plane measurements at \qty{600}{\degreeCelsius} under \qty{8}{\ml\per\min} of oxygen and \qty{1}{\ml\per\min} of ammonia (tab. \ref{tab:Conditions}), due to a lack of experimental time.
+However, most of the experimental plan was still carried out, lacking only in-plane measurements at \qty{600}{\degreeCelsius} under \qty{8}{\ml\per\min} of oxygen and \qty{1}{\ml\per\min} of ammonia (tab. \ref{tab:ConditionsNanoparticles}), due to a lack of experimental time.
+
+\subsection{Epitaxial relationship between Pt and $\alpha$-\ce{Al_2O_3}}
+
+The epitaxial relationship between platinum and $\alpha$-\ce{Al_2O_3} (also known as sapphire) has been shown to consist into the superposition of the Pt [111] plane on top of the $\alpha$-\ce{Al_2O_3} [0001] plane, \textit{i.e.} Pt[111]||Al$_2$O$_3$[0001] (fig. \ref{fig:Epitaxy} - \cite{Farrow1993}).
+The {110}-type platinum planes are perpendicular to the Pt [111] plane, the second-neighbour Pt atoms are arranged in a hexagonal pattern that is only \qty{0.9}{\percent} larger than the basal-plane unit of sapphire.
+
+Lattice strain in diffraction is usually defined as the difference between the reference and experimental lattice parameter values, respectively $a_{ref}$ and $a$ (eq. \ref{eq:StrainDiffraction}).
+
+\begin{equation}
+    \epsilon = \frac{a - a_{ref}}{a_{ref}}
+    \label{eq:StrainDiffraction}
+\end{equation}
+
+In this case, the misfit strain can be computed using eq. \ref{eq:MisfitStrain}, the reference lattice parameter is equaled to the in-plane lattice parameter of sapphire.
+
+\begin{minipage}{0.55\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{/home/david/Documents/PhD/Figures/introduction/Epitaxy.pdf}
+    \captionof{figure}{
+    Pt[111]||Al$_2$O$_3$[0001] epitaxy relationship.
+    }
+    \label{fig:Epitaxy}
+\end{minipage}%
+\hfill% Add horizontal space between minipages
+\begin{minipage}{0.44\linewidth}
+    \begin{equation}
+        \epsilon = \big( a_{Pt} \frac{\sqrt{3}}{\sqrt{2}} - a_{Sapphire} \big) / a_{Sapphire}
+        \label{eq:MisfitStrain}
+    \end{equation}
+\end{minipage}%
+
+\subsection{Particle stability}
+
+To ensure that the \ce{Al_2O_3} supported particles have a stable epitaxy relation with the substrate as a function of the different atmospheres, the scattering intensity in the sample plane, perpendicular to the [111] direction, was measured.
+The signal of six (220)-type Bragg peaks is expected to be measured, corresponding to the six [$\bar{1}10$]-type planes perpendicular to the [111] direction (fig. \ref{fig:StereoTop}).
+The h, k, and l Miller indices must have the same parity for the Bragg reflection to be allowed for face-centered cubic crystals.
+
+The scattered intensity was measured by rotating the sample in-plane angle ($\omega$ - fig. \ref{fig:Diffractometer}) from \ang{0} to \ang{360}, while the in-plane detector angle ($\delta$) was kept to a fixed angular value.
+Multiple $\omega$ scans were performed while changing the value of $\delta$ from \ang{15} to \ang{30} so as to map an area of the reciprocal space.
+
+This first map of the reciprocal space was recorded under inert argon atmosphere (fig. \ref{fig:QxQyMap}) at room temperature, and shows the six expected (220)-type in-plane peaks for [111] oriented nanoparticles.
+From the average position of these peaks in q-space is computed the in-plane lattice parameter for platinum $a_{Pt}=\qty{3.909}{\angstrom}$
+% (\qty{0.440}{\percent} in-plane strain from literature value of \qty{3.9242}{\angstrom})
+, from which the scattering angle of the (200)-type and (111)-type Bragg peaks is computed (tab. \ref{tab:Reflections}).
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/map/qxqyqz_38_40.pdf}
+    \caption{
+        In-plane reciprocal space map at room temperature.
+        Starting from the center of the map are 6 peaks corresponding to six (1$\bar{2}$0)-type Bragg peak from the substrate, thin circular powder signal for the $(111)$, $(200)$ and $(220)$ Bragg peaks, and 6 isolated $(220)$ Bragg peaks.
+    }
+    \label{fig:QxQyMap}
+\end{figure}
+
+Three arcs are drawn in fig. \ref{fig:QxQyMap} to underline the (111), (200) and (220) scattering angles.
+If no (200) and (111) Bragg peaks are observed, powder signals are visible for each reflection, which shows that some of the nanoparticles have a random orientation.
+Six (1$\bar{2}$0)-type Bragg peaks coming from the \ce{Al_2O_3} substrate are also observed at the lowest magnitude of the scattering vector ($q = \qty{2.637}{\angstrom}$, tab. \ref{tab:Reflections}).
+From the average position of these peaks in q-space is also computed the in-plane lattice parameter of the substrate, $a_{Sapphire}=\qty{4.766}{\angstrom}$ and the in-plane misfit strain at the interface of the nanoparticles ([$\bar{1}\bar{1}\bar{1}$] facet) with the substrate, following the equation eq. \ref{eq:MisfitStrain} detailed in sec. \ref{sec:Structures}.
+
+\begin{table}[htb!]
+    \begin{minipage}{.45\linewidth}
+        \centering
+        \begin{tabular}{@{}lllll@{}}
+        \toprule
+        (h k l) & $2\theta$ & q & Int & Int (\%) \\
+        \midrule
+        (1, 1, 1) & \ang{17.1255} & \qty{2.784}{\angstrom} & \num{6362.52}  & \num{100.0} \\
+        (2, 0, 0) & \ang{19.7996} & \qty{3.215}{\angstrom} & \num{3251.30}  & \num{51.10} \\
+        (2, 2, 0) & \ang{28.1439} & \qty{4.546}{\angstrom} & \num{2399.87}  & \num{37.72} \\
+        (3, 1, 1) & \ang{33.1305} & \qty{5.331}{\angstrom} & \num{2913.37}  & \num{45.79} \\
+        (2, 2, 2) & \ang{34.6492} & \qty{5.568}{\angstrom} & \num{843.07}   & \num{13.25} \\
+        (4, 0, 0) & \ang{40.2235} & \qty{6.430}{\angstrom} & \num{390.01}   & \num{6.13}  \\
+        (3, 3, 1) & \ang{44.0121} & \qty{7.007}{\angstrom} & \num{1155.08}  & \num{18.15} \\
+        (4, 2, 0) & \ang{45.2178} & \qty{7.189}{\angstrom} & \num{1054.07}  & \num{16.57} \\
+        (4, 2, 2) & \ang{49.8120} & \qty{7.875}{\angstrom} & \num{755.99}   & \num{11.88} \\
+        (5, 1, 1) & \ang{53.0614} & \qty{8.352}{\angstrom} & \num{808.25}   & \num{12.70} \\
+        \bottomrule
+        \end{tabular}%
+    \end{minipage}%
+    \hfill
+    \begin{minipage}{.45\linewidth}
+        \centering
+        \begin{tabular}{@{}lllll@{}}
+        \toprule
+        (h k l) & $2\theta$ & q & Int & Int (\%) \\
+        \midrule
+        (1, -1, 2)   & \ang{11.0698} & \qty{1.804}{\angstrom} & \num{21.50} & \num{49.52} \\
+        (1, -1, -4)  & \ang{15.1285} & \qty{2.461}{\angstrom} & \num{35.60} & \num{82.01} \\
+        (2, -1, 0)   & \ang{16.2125} & \qty{2.637}{\angstrom} & \num{16.81} & \num{38.73} \\
+        (0, 0, 6)    & \ang{17.8528} & \qty{2.901}{\angstrom} & \num{0.18}  & \num{0.42}  \\
+        (2, -1, 3)   & \ang{18.5233} & \qty{3.009}{\angstrom} & \num{38.90} & \num{89.60} \\
+        (2, -2, -2)  & \ang{19.6734} & \qty{3.195}{\angstrom} & \num{0.59}  & \num{1.35}  \\
+        (2, -2, 4)   & \ang{22.2446} & \qty{3.607}{\angstrom} & \num{20.98} & \num{48.32} \\
+        (2, -1, -6)  & \ang{24.2056} & \qty{3.921}{\angstrom} & \num{43.41} & \num{100.0} \\
+        (3, -2, -1)  & \ang{25.0589} & \qty{4.057}{\angstrom} & \num{1.15}  & \num{2.65}  \\
+        (3, -1, -2)  & \ang{25.5964} & \qty{4.142}{\angstrom} & \num{1.47}  & \num{3.39}  \\
+        \bottomrule
+        \end{tabular}%
+    \end{minipage}%
+    \caption{
+        Scattering angle $\theta$, scattering vector magnitude $q$ and intensity of the scattered waves for different Bragg peaks as a function of the increasing scattering angle, computed for an energy of \qty{18.45}{\keV} using eq. \ref{eq:Bragglaw} and eq. \ref{eq:Fcrystal}.
+    }
+    \label{tab:Reflections}
+\end{table}
+
+The same in-plane maps were recorded on a smaller angular range (\ang{110} are sufficient to measure three Bragg peaks, fig. \ref{fig:QxQyMap}) at \qty{300}{\degreeCelsius}, \qty{500}{\degreeCelsius} and \qty{600}{\degreeCelsius} under different atmospheres as detailed in tab. \ref{tab:ConditionsNanoparticles}.
+The intensity was then integrated along a thin region in $\delta$ around the value of the (111), (200) and (220) scattering angles.
+These measurements are presented in fig. \ref{fig:Epitaxy111}, fig. \ref{fig:Epitaxy200} and fig. \ref{fig:Epitaxy220}.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/220.pdf}
+    \caption{
+        Integrated intensity in a \ang{1} range around the value of the (220) scattering angle, as a function of the in-plane sample angle $\omega$.
+    }
+    \label{fig:Epitaxy220}
+\end{figure}
+
+Three (220)-type Bragg peaks are measured in either condition, with a stable position and shape (fig. \ref{fig:Epitaxy220}), which shows that the crystals do not rotate around their [111] axis on the surface, and that they all share not only the same out-of-plane [111] orientation but also the exact same in-plane orientation.
+The intensity decreases as a function of the temperature which could be due to the Debye-Waller factor, the thermally induced movements of the atoms around their equilibrium position resulting in a lower intensity of Bragg peaks at higher temperatures \parencite{Willmott}.
+There is no increase of the powder signal corresponding to the (220) Bragg peak during the measurements.
+
+No (200) or (111)-type Bragg peaks have been seen to appear during the different measurements (figures visible in the appendix \ref{fig:Epitaxy200}, and \ref{fig:Epitaxy111}).
+Moreover, there is no variation of the powder signal for the (200) Bragg peak, there is a slight decrease of the powder signal for the (111) Bragg peak which cannot be observed on the other powder signals which could be linked to instrumental effects.
+Additionnal powder diffractograms are visible in the appendix \ref{fig:PowderNanoparticles}, on which it is also clear that the powder and nanoparticles do not have the same in-plane lattice parameter (two peaks near the expected (220) Bragg peak), and that there is no variation of the in-plane lattice parameter of the nanoparticles as a function of the atmosphere.
+
+Most importantly, these measurements confirm that the particles are stable on the substrate as different temperatures and atmospheres and prove that surface x-ray diffraction measurements with grazing incidence can yield information on the average nanoparticle behaviour.
+Bragg peaks originating from the \ce{Al_2O_3} substrate together with very important powder signals prevented us from a more precise analysis of the facet signal.
+
+The size distribution of the particles could have been measured before the experiment with other techniques such as TEM \parencite{Hejral2013}, to simulate an average diffraction pattern and compare its intensity with the experimental data.
+
+Reflectivity measurements have been carried out as during the experiment to extract additionnal quantitative information such as the percentage of the surface covered by the nanoparticles from the values of the fitted electronic density, or the average height of the platinum nanoparticles.
+However, repeated loss of contact with the heater resulted in experimental difficulties to keep the sample surface perfectly aligned and prevented us from measuring high quality reflectivity curves.
 
 \subsection{Crystal truncation rods}
 
@@ -179,112 +319,3 @@ Moreover, the reversibility of this effect and the formation of possible platinu
 
 To be certain of the combined effect of ammonia and oxygen, the same experiment could be carried without ammonia at the same temperature and oxygen pressure.
 Similar experiments on Pt nanoparticles (average size about \qty{50}{\nm}) have been carried at \qty{6.5e-6}{\bar} and \qty{0.5}{\bar} of oxygen by \cite{Hejral2013} which show the formation of \ce{Pt_3O_4} and $\alpha-$\ce{PtO_2} bulk oxides, the formation of high indices facets, a decrease of (111)-type facet signals and an increase of (100)-type facet signals, neither contrary not similarly to what has been observed during this study.
-
-\subsection{Particle stability}
-
-To ensure that the \ce{Al_2O_3} supported particles have a stable epitaxy relation with the substrate as a function of the different atmospheres, the scattering intensity in the sample plane, perpendicular to the [111] direction, was measured.
-The signal of six (220)-type Bragg peaks is expected to be measured, corresponding to the six [$\bar{1}10$]-type planes perpendicular to the [111] direction (fig. \ref{fig:StereoTop}).
-The h, k, and l Miller indices must have the same parity for the Bragg reflection to be allowed for face-centered cubic crystals.
-
-The scattered intensity was measured by rotating the sample in-plane angle ($\omega$ - fig. \ref{fig:Diffractometer}) from \ang{0} to \ang{360}, while the in-plane detector angle ($\delta$) was kept to a fixed angular value.
-Multiple $\omega$ scans were performed while changing the value of $\delta$ from \ang{15} to \ang{30} so as to map an area of the reciprocal space.
-
-This first map of the reciprocal space was recorded under inert argon atmosphere (fig. \ref{fig:QxQyMap}) at room temperature, and shows the six expected (220)-type in-plane peaks for [111] oriented nanoparticles.
-From the average position of these peaks in q-space is computed the in-plane lattice parameter for platinum $a_{Pt}=\qty{3.909}{\angstrom}$
-% (\qty{0.440}{\percent} in-plane strain from literature value of \qty{3.9242}{\angstrom})
-, from which the scattering angle of the (200)-type and (111)-type Bragg peaks is computed (tab. \ref{tab:Reflections}).
-
-\begin{figure}[!htb]
-    \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/map/qxqyqz_38_40.pdf}
-    \caption{
-        In-plane reciprocal space map at room temperature.
-        Starting from the center of the map are 6 peaks corresponding to six (1$\bar{2}$0)-type Bragg peak from the substrate, thin circular powder signal for the $(111)$, $(200)$ and $(220)$ Bragg peaks, and 6 isolated $(220)$ Bragg peaks.
-    }
-    \label{fig:QxQyMap}
-\end{figure}
-
-Three arcs are drawn in fig. \ref{fig:QxQyMap} to underline the (111), (200) and (220) scattering angles.
-If no (200) and (111) Bragg peaks are observed, powder signals are visible for each reflection, which shows that some of the nanoparticles have a random orientation.
-Six (1$\bar{2}$0)-type Bragg peaks coming from the \ce{Al_2O_3} substrate are also observed at the lowest magnitude of the scattering vector ($q = \qty{2.637}{\angstrom}$, tab. \ref{tab:Reflections}).
-From the average position of these peaks in q-space is also computed the in-plane lattice parameter of the substrate, $a_{Sapphire}=\qty{4.766}{\angstrom}$ and the in-plane misfit strain at the interface of the nanoparticles ([$\bar{1}\bar{1}\bar{1}$] facet) with the substrate, following the relation detailed in \cite{Farrow1993}:
-
-\begin{equation}
-    \epsilon = \big( a_{Pt} \frac{\sqrt{3}}{\sqrt{2}} - a_{Sapphire} \big) / a_{Sapphire} = \qty{0.45}{\percent}
-    \label{eq:MisfitStrain}
-\end{equation}
-
-\begin{table}[htb!]
-    \begin{minipage}{.45\linewidth}
-        \centering
-        \begin{tabular}{@{}lllll@{}}
-        \toprule
-        (h k l) & $2\theta$ & q & Int & Int (\%) \\
-        \midrule
-        (1, 1, 1) & \ang{17.1255} & \qty{2.784}{\angstrom} & \num{6362.52}  & \num{100.0} \\
-        (2, 0, 0) & \ang{19.7996} & \qty{3.215}{\angstrom} & \num{3251.30}  & \num{51.10} \\
-        (2, 2, 0) & \ang{28.1439} & \qty{4.546}{\angstrom} & \num{2399.87}  & \num{37.72} \\
-        (3, 1, 1) & \ang{33.1305} & \qty{5.331}{\angstrom} & \num{2913.37}  & \num{45.79} \\
-        (2, 2, 2) & \ang{34.6492} & \qty{5.568}{\angstrom} & \num{843.07}   & \num{13.25} \\
-        (4, 0, 0) & \ang{40.2235} & \qty{6.430}{\angstrom} & \num{390.01}   & \num{6.13}  \\
-        (3, 3, 1) & \ang{44.0121} & \qty{7.007}{\angstrom} & \num{1155.08}  & \num{18.15} \\
-        (4, 2, 0) & \ang{45.2178} & \qty{7.189}{\angstrom} & \num{1054.07}  & \num{16.57} \\
-        (4, 2, 2) & \ang{49.8120} & \qty{7.875}{\angstrom} & \num{755.99}   & \num{11.88} \\
-        (5, 1, 1) & \ang{53.0614} & \qty{8.352}{\angstrom} & \num{808.25}   & \num{12.70} \\
-        \bottomrule
-        \end{tabular}%
-    \end{minipage}%
-    \hfill
-    \begin{minipage}{.45\linewidth}
-        \centering
-        \begin{tabular}{@{}lllll@{}}
-        \toprule
-        (h k l) & $2\theta$ & q & Int & Int (\%) \\
-        \midrule
-        (1, -1, 2)   & \ang{11.0698} & \qty{1.804}{\angstrom} & \num{21.50} & \num{49.52} \\
-        (1, -1, -4)  & \ang{15.1285} & \qty{2.461}{\angstrom} & \num{35.60} & \num{82.01} \\
-        (2, -1, 0)   & \ang{16.2125} & \qty{2.637}{\angstrom} & \num{16.81} & \num{38.73} \\
-        (0, 0, 6)    & \ang{17.8528} & \qty{2.901}{\angstrom} & \num{0.18}  & \num{0.42}  \\
-        (2, -1, 3)   & \ang{18.5233} & \qty{3.009}{\angstrom} & \num{38.90} & \num{89.60} \\
-        (2, -2, -2)  & \ang{19.6734} & \qty{3.195}{\angstrom} & \num{0.59}  & \num{1.35}  \\
-        (2, -2, 4)   & \ang{22.2446} & \qty{3.607}{\angstrom} & \num{20.98} & \num{48.32} \\
-        (2, -1, -6)  & \ang{24.2056} & \qty{3.921}{\angstrom} & \num{43.41} & \num{100.0} \\
-        (3, -2, -1)  & \ang{25.0589} & \qty{4.057}{\angstrom} & \num{1.15}  & \num{2.65}  \\
-        (3, -1, -2)  & \ang{25.5964} & \qty{4.142}{\angstrom} & \num{1.47}  & \num{3.39}  \\
-        \bottomrule
-        \end{tabular}%
-    \end{minipage}%
-    \caption{
-        Scattering angle $\theta$, scattering vector magnitude $q$ and intensity of the scattered waves for different Bragg peaks as a function of the increasing scattering angle, computed for an energy of \qty{18.45}{\keV} using eq. \ref{eq:Bragglaw} and eq. \ref{eq:Fcrystal}.
-    }
-    \label{tab:Reflections}
-\end{table}
-
-The same in-plane maps were recorded on a smaller angular range (\ang{110} are sufficient to measure three Bragg peaks, fig. \ref{fig:QxQyMap}) at \qty{300}{\degreeCelsius}, \qty{500}{\degreeCelsius} and \qty{600}{\degreeCelsius} under different atmospheres as detailed in tab. \ref{tab:Conditions}.
-The intensity was then integrated along a thin region in $\delta$ around the value of the (111), (200) and (220) scattering angles.
-These measurements are presented in fig. \ref{fig:Epitaxy111}, fig. \ref{fig:Epitaxy200} and fig. \ref{fig:Epitaxy220}.
-
-\begin{figure}[!htb]
-    \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/220.pdf}
-    \caption{
-        Integrated intensity in a \ang{1} range around the value of the (220) scattering angle, as a function of the in-plane sample angle $\omega$.
-    }
-    \label{fig:Epitaxy220}
-\end{figure}
-
-Three (220)-type Bragg peaks are measured in either condition, with a stable position and shape (fig. \ref{fig:Epitaxy220}), which shows that the crystals do not rotate around their [111] axis on the surface, and that they all share not only the same out-of-plane [111] orientation but also the exact same in-plane orientation.
-The intensity decreases as a function of the temperature which could be due to the Debye-Waller factor, the thermally induced movements of the atoms around their equilibrium position resulting in a lower intensity of Bragg peaks at higher temperatures \parencite{Willmott}.
-There is no increase of the powder signal corresponding to the (220) Bragg peak during the measurements.
-
-No (200) or (111)-type Bragg peaks have been seen to appear during the different measurements (figures visible in the appendix \ref{fig:Epitaxy200}, and \ref{fig:Epitaxy111}).
-Moreover, there is no variation of the powder signal for the (200) Bragg peak, there is a slight decrease of the powder signal for the (111) Bragg peak which cannot be observed on the other powder signals which could be linked to instrumental effects.
-Additionnal powder diffractograms are visible in the appendix \ref{fig:PowderNanoparticles}, on which it is also clear that the powder and nanoparticles do not have the same in-plane lattice parameter (two peaks near the expected (220) Bragg peak), and that there is no variation of the in-plane lattice parameter of the nanoparticles as a function of the atmosphere.
-
-Most importantly, these measurements confirm that the particles are stable on the substrate as different temperatures and atmospheres and prove that surface x-ray diffraction measurements with grazing incidence can yield information on the average nanoparticle behaviour.
-Bragg peaks originating from the \ce{Al_2O_3} substrate together with very important powder signals prevented us from a more precise analysis of the facet signal.
-
-The size distribution of the particles could have been measured before the experiment with other techniques such as TEM \parencite{Hejral2013}, to simulate an average diffraction pattern and compare its intensity with the experimental data.
-
-Reflectivity measurements have been carried out as during the experiment to extract additionnal quantitative information such as the percentage of the surface covered by the nanoparticles from the values of the fitted electronic density, or the average height of the platinum nanoparticles.
-However, repeated loss of contact with the heater resulted in experimental difficulties to keep the sample surface perfectly aligned and prevented us from measuring high quality reflectivity curves.

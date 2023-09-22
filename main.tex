@@ -138,6 +138,9 @@
 \usepackage[hypcap=true,font={small,it},justification=centering]{caption}
 \captionsetup{belowskip=2pt,aboveskip=2pt}
 
+%\usepackage{floatrow}
+\usepackage{sidecap}
+\sidecaptionvpos{figure}{c}
 \usepackage{scrextend} % Forcer la 4eme  de couverture en page pair
 \usepackage{mdframed} % Entourer un paragraphe
 \usepackage{multirow} % Mettre un texte sur plusieurs rangées
@@ -161,6 +164,7 @@
 
 \newcommand{\argon}{\ce{Ar}}
 %{\textcolor{ArgonColor}
+
 \newcommand{\ammonia}{\ce{NH_3}}
 %{\textcolor{AmmoniaColor}
 
@@ -231,6 +235,7 @@
     \input{Sections/2_Theory_Models/SXRD}
     \input{Sections/2_Theory_Models/BCDI}
     \input{Sections/2_Theory_Models/SixS}
+    % \input{Sections/2_Theory_Models/CrystalStructures}
     \input{Sections/2_Theory_Models/ComputerPrograms}
     
 % Results BCDI
@@ -242,7 +247,7 @@
     \input{Sections/3_Results_Nanoparticles/Conclusion}
 
 % Results SXRD
-    \chapter{Structural and chemical evolution of single Pt facets during the oxidation of ammonia}
+    \chapter{Structural and chemical evolution of Pt single crystals during the oxidation of ammonia}
     \input{Sections/4_Results_SingleCrystals/Introduction}
     \input{Sections/4_Results_SingleCrystals/111}
     \input{Sections/4_Results_SingleCrystals/100}
