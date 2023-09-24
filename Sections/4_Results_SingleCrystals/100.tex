@@ -1,132 +1,194 @@
+\newpage
 \section{Surface x-ray diffraction on a Pt (100) single crystal} \label{sec:SXRD100}
 
+% check values for in plane lattice parameter from orientation matrix
 % time since oxidation
+% keep the same notation for [H, K]
 
-The arrangement of the Pt atoms on the (100) surface is cubic, as for the regular unit cell of platinum, with the difference that the distance between in-plane neighbouring Pt atoms is smaller than between out-of-plane atoms and that there are no atoms in the middle of the faces of the cube.
+A similar experiment was carried out on a different surface of platinum, namely the Pt (100) surface.
+The arrangement of the Pt atoms on the (100) surface is square, the distance between in-plane neighbouring Pt atoms is smaller than between out-of-plane atoms.
 A surface unit cell must be derived, shown in fig. \ref{fig:SurfaceUnitCellPt100}, to be able to better represent the surface arrangement of the Pt atoms.
-The in-plane vectors $\vec{a}_{(100)}$ and $\vec{b}_{(100)}$ are of equal magnitude ($a_{Pt} / \sqrt{2} = \qty{2.78}{\angstrom})$, separated by \ang{90}.
-The out-of-plane vector $\vec{c}_{(100)}$ is perpendicular to the (100) plane, and of magnitude $a_{Pt} = \qty{3.94}{\angstrom}$.
+The in-plane vectors $\vec{a}_{(100)}$ and $\vec{b}_{(100)}$ are of equal magnitude ($a_{Pt} / \sqrt{2} = \qty{2.775}{\angstrom})$, separated by \ang{90}.
+The out-of-plane vector $\vec{c}_{(100)}$ is perpendicular to the (100) plane, and of magnitude $a_{Pt} = \qty{3.9242}{\angstrom}$.
 
 \begin{SCfigure}
     \centering
     \includegraphics[trim=0 2cm 0 2cm, clip, width=0.70\textwidth]{/home/david/Documents/PhD/Figures/introduction/100.pdf}
     \caption{
         Face-centered cubic unit cell of Pt with $(100)$ crystallographic plane drawn in green.
-        $\vec{a}_{(100)}$, $\vec{b}_{(100)}$ and $\vec{c}_{(100)}$ are the (100) surface unit cell vectors.
+        $\vec{a}_{(100)}$, $\vec{b}_{(100)}$ and $\vec{c}_{(100)}$ are the $(100)$ surface unit cell vectors.
     }
     \label{fig:SurfaceUnitCellPt100}
 \end{SCfigure}
 
 \subsection{Ammonia oxidation cycle}
 
-Reciprocal space maps were collected using the experimental setup described in sec. \ref{sec:SXRDSetupH}, at different atmospheres detailed in tab. \ref{tab:ConditionsSingleCrystals} to probe the structural evolution of the sample during the oxidation of ammonia.
-The in-plane reciprocal space maps were collected by rotating the in-plane angle $\omega$ from \ang{0} to \ang{90} to collect a quarter of the reciprocal space in the ($\vec{q}_x$, $\vec{q}_y$) plane, considering a cubic symmetry in the position of the Bragg peaks.
+Reciprocal space maps were collected using the same experimental setup and at the same atmospheres detailed in tab. \ref{tab:ConditionsSXRD}, to probe the structural evolution of the sample during the oxidation of ammonia.
+The total pressure is always kept to \qty{500}{\milli\bar}.
+Considering the square symmetry in the position of the Bragg peaks, the in-plane reciprocal space maps were collected by rotating the in-plane sample and detector angles ($\omega$ and $\gamma$) from \ang{0} to \ang{90} to collect a quarter of the reciprocal space in the ($\vec{q}_x$, $\vec{q}_y$) plane
 
-The reciprocal space map were computed in both $q$-space (to obtain the interplanar spacing related to the observed signals) and ($hkl$)-space (fig. \ref{fig:MapsPt100A} and \ref{fig:MapsPt100B}) to visualize the arrangement of surface structures or surface relaxations in comparison with the cubic structure of the Pt atoms on the (100) surface, the $h$ and $k$ values being computed using the cubic surface unit cell of the Pt (100) surface described in fig. \ref{fig:Cubic100Hex100} and tab. \ref{tab:PtStructures}.
-
-The sample plane was realigned at the beginning of each condition in the direct beam, the orientation matrix $U$ of the crystal \parencite{Schleputz2011} was also recomputed by measuring two different Bragg peaks.
-
-The first map was collected under \qty{500}{\milli\bar} of Ar, after the cleaning of the sample by sputtering and annealing.
-The (200), (1$\bar{1}$0) and (0$\bar{2}$0) Bragg peaks can be observed, together with the extremity of [100] crystal truncation rods going through the [0, 1, 0] and [0, $\bar{1}$, 0] positions in reciprocal space.
-
-To different type of peaks can be observed under \qty{80}{\milli\bar} of oxygen, identified by red and green circles in fig. \ref{fig:MapsPt100A}, the corresponding interplanar spacings are given in tab. \ref{tab:InterplanarSpacingsPt100Oxygen}.
-The red peaks are situated at intermediate positions in reciprocal space in comparison with the Pt (100) lattice (H, K) = (1, $\bar{0.5}$), (H, K) = (1, $\bar{1.5}$), (H, K) = (0.5, $\bar{1}$) and (H, K) = (0.5, $\bar{1.5}$).
-The green peaks are slighty shifted from the red peaks by the same amount in either H or K ($\Delta_{H,K} = 0.09$).
+The reciprocal space map were computed in both $q$-space (to obtain the interplanar spacing related to the observed signals) and ($hkl$)-space to visualize the arrangement of surface structures or surface relaxations in comparison with the structure of the Pt atoms on the (100) surface, the $h$ and $k$ values being computed using the square surface unit cell of the Pt (100) surface.
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1335-1375.pdf}
     \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1596-1635_patched.pdf}
-    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1880-1902_patched.pdf}
-    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1930-1936_patched.pdf}
     \caption{
         Reciprocal space maps collected under different atmospheres measured at \qty{450}{\degreeCelsius}, computed using the surface lattice of Pt (100).
     }
     \label{fig:MapsPt100A}
 \end{figure}
 
-Four consecutive out-of-plane measurements were performed perpendicular to two peaks at (H, K) = (1, $\bar{1.5}$) and (H, K) = (0.5, $\bar{1}$), as well as perpendicular to the nearby shifted peaks at (H, K) = (0.93, $\bar{1.5}$), (H, K) = (0.5, $\bar{0.93}$), up to $L=3.5$ to probe the related out-of-plane structure.
-The scattered intensity was integrated as a function of $L$ using the \textit{fitaid} module of \textit{binoculars} (fig. \ref{fig:LScansHighOxygenPt100}), the background around the peak in the ($H, K$) plane was subtracted.
+The first map was collected under \qty{500}{\milli\bar} of Ar, after the cleaning of the sample by sputtering and annealing.
+The (200), (1$\bar{1}$0) and (0$\bar{2}$0) Bragg peaks can be observed, together with the extremity of [100]-oriented crystal truncation rods going through the [0, 1, 0] and [0, $\bar{1}$, 0] positions in reciprocal space.
+
+Two different types of peaks can be observed under \qty{80}{\milli\bar} of oxygen, identified by red and green circles in fig. \ref{fig:MapsPt100A}.
+The red peaks are situated at intermediate positions in reciprocal space in comparison with the Pt (100) lattice (H, K) = (1, $\bar{0.5}$), (H, K) = (1, $\bar{1.5}$), (H, K) = (0.5, $\bar{1}$) and (H, K) = (0.5, $\bar{1.5}$).
+The green peaks are slighty shifted from the red peaks by the same amount $\delta = 0.07$ in either H or K.
+
+Four consecutive out-of-plane measurements were performed perpendicular to four peaks, two of each type, up to $L=3.5$ to probe the related out-of-plane structure.
+The background-subtracted intensity was integrated as a function of $L$ using the \textit{fitaid} module of \textit{binoculars} (fig. \ref{fig:LScansHighOxygenPt100}).
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_scans_high_oxygen.pdf}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_scans_high_oxygen_no_map.pdf}
     \caption{
-        In-plane map at $L=0$ (a-b-c) and out-of plane measurements for three different positions under \qty{80}{\milli\bar} of \dioxygen.
+        Out-of plane measurements for four different positions under \qty{80}{\milli\bar} of \dioxygen, and \qty{420}{\milli\bar} of \argon.
     }
     \label{fig:LScansHighOxygenPt100}
 \end{figure}
 
-Four peaks at different $L$ values are visible on both $L$-scans perpendicular to the red circled peak in, including at $L=0$, which is characteristic of a bulk structure, \textit{i.e.} more than a few unit cells thick.
-The peaks were fitted using a model with four Gaussian peaks and a constant background, the same full width at half maxima was used for all four peaks.
-Corresponding interplanar spacing were computed from the position of the peaks, which were found to coincide with a distorted primitive cubic unit cell of in-plane lattice parameter equal to \qty{5.5969}{\angstrom} and out-of-plane lattice parameter equal to \qty{5.635}{\angstrom}, used to index each Bragg peak in the figure.
+The intensity as a function of $L$ for the shifted peaks was found to quickly decrease down to zero, which shows that they do not correspond to 3D structures but are more characteristic of monolayers with no out-of-plane periodicity \parencite{Robinson1991}.
+No corresponding surface unit cell could be derived from their in-plane positions.
 
-\ce{Pt_3O_4} was reported to crystallize in a primitive cubic unit cell with a lattice parameter equal to \qty{5.59}{\angstrom} \parencite{Moore1941, Galloni1952, MULLER1968, Seriani2006}, similarly to the parameters reported in this study.
-The higher value of the out-of-plane lattice parameter can come from the epitaxial strain at the interface between bulk platinum and \ce{Pt_3O_4}.
-The epitaxial relationship between both is \ce{Pt_3O_4}[001]||Pt[001], the lattice parameter of \ce{Pt_3O_4} being approximately twice that of Pt allows the formation of a coherent interface.
+However, four peaks at different $L$ values are visible on both $L$-scans perpendicular to the red circled peak, including at $L=0$, which is characteristic of a bulk structure, \textit{i.e.} more than a few unit cells thick \parencite{Robinson1991}.
+The peaks were fitted using a model with four Gaussian peaks and a constant background, the same full width at half maxima was used for all four peaks (\ref{fig:FitPt100LScans}).
 
-A first guess of the height of the oxide layer can be obtained by measuring the FWHM $\sigma$ of each peak in the $\vec{z}$ direction and thereby computing the layer thickness in the $\vec{z}$ direction using the equation $2\pi/\sigma$ \parencite{Warren1990}.
-A thickness of \qty{162.65}{\angstrom} and \qty{60.18}{\angstrom} is found for the first and second measurement.
-For Pt$_3$O$_4$ this would correspond to approximately 11 unit cells.
-
-On the contrary, the intensity as a function of $L$ for the two other peaks is near zero and constant, characteristic of a monolayer with no out-of-plane periodicity.
-
-Adding ammonia in the reactor
+Corresponding interplanar spacings were computed from the position of the peaks, which were found to coincide with a slightly distorted cubic unit cell of in-plane lattice parameter equal to \qty{5.60}{\angstrom} and out-of-plane lattice parameter equal to \qty{5.64}{\angstrom}, used to index each Bragg peak in the figure.
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr_reconstructions_fitting_result}
     \caption{
-        Reciprocal space maps collected under different atmospheres measured at \qty{450}{\degreeCelsius}, computed using the surface lattice of Pt (100).
+        Fit result for the two $L$-scans performed perpendicular to (H, K) = (0.5, $\bar{1}$) and (H, K) = (1, $\bar{1.5}$).
+        The different peaks were indexed using a distorted cubic structure, corresponding to bulk \ce{Pt_3O_4}.
     }
     \label{fig:FitPt100LScans}
 \end{figure}
 
+Bulk \ce{Pt_3O_4} was reported to crystallize in a simple cubic structure with a lattice parameter equal to \qty{5.65}{\angstrom} \parencite{Galloni1941, Galloni1952, MULLER1968}, more recent studies have proposed a theoretical value of \qty{5.59}{\angstrom} \parencite{Seriani2006}, already presented in tab. \ref{tab:PtOxides}, similarly to the parameters reported in this study.
+The 3D structure of bulk \ce{Pt_3O_4} is presented in fig. \ref{fig:Pt3O4}.
+It is not yet clear why the (212) and (232) peaks are missing from the out-of-plane measurements.
+
+\begin{SCfigure}
+    \centering
+    \includegraphics[trim=0 2.5cm 0 2.5cm, clip, width=0.35\textwidth]{/home/david/Documents/PhD/Figures/introduction/Pt3O4.pdf}
+    \caption{
+        \ce{Pt_3O_4} bulk unit cell.
+        Platinum atoms are situated on the faces on the cubic unit cell (e.g. $(0, 1/2, 1/4)$, $(0, 1/2, 3/4)$), while the eight oxygen atoms are inside the unit cell at the positions $(1/4, 1/4, z)$, $(1/4, 2/4, z)$, $(2/4, 1/4, z)$, $(2/4, 2/4, z)$ for $z=1/4$ and $z=3/4$.
+    }
+    \label{fig:Pt3O4}
+\end{SCfigure}
+
+The epitaxial relationship between both is \ce{Pt_3O_4}[001]||Pt[001], the in-plane lattice parameter of \ce{Pt_3O_4} being approximately twice that of the Pt (100) surface lattice parameter, which allows the formation of a cubic on cubic coherent interface.
+%In the current experiment, the misfit strain computed with eq. \ref{eq:StrainDiffraction} is equal to \qty{1.7}{\percent}, which can be the reason for the distorted structure.
+
+A first guess of the height of the oxide layer can be obtained by measuring the FWHM $\sigma$ of each peak in the $\vec{z}$ direction and thereby computing the layer thickness using the equation $2\pi/\sigma$ \parencite{Warren1990}.
+A thickness of \qty{62.65}{\angstrom} and \qty{60.18}{\angstrom} is found for the first and second measurement.
+For bulk \ce{Pt_3O_4} this would correspond to approximately 11 unit cells.
+
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1953-1981_patched.pdf}
-    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2227-2283_patched.pdf}
-    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2520-2570_patched.pdf}
-    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2719-2767.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1880-1902_patched.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1930-1936_patched.pdf}
     \caption{
         Reciprocal space maps collected under different atmospheres measured at \qty{450}{\degreeCelsius}, computed using the surface lattice of Pt (100).
     }
     \label{fig:MapsPt100B}
 \end{figure}
 
+Introducing ammonia in the reactor has resulted in the loss of contact with the sample heater, from the corrosion of the screws responsible for the contact on the sample holder.
+Nevertheless, half of the large reciprocal space could be measured prior to the loss of alignement (fig. \ref{fig:MapsPt100B}), in which the red circled peaks corresponding to \ce{Pt_3O_4} are still visible, the two other peaks that could have been measured at (0.93, -0.5) and (0.5, -0.93) have disappeared.
+The sample was removed and cleaned to fix the sample heater, and then introduced in the reactor.
+In order to probe for the reproducibility of the \ce{Pt_3O_4} growth on the surface, the partial pressure of oxygen was set to \qty{80}{\milli\bar} again, while measuring a small area of the reciprocal space to detect the same peaks as in fig. \ref{fig:MapsPt100A}.
+The same peaks could indeed be detected as shown in fig. \ref{fig:MapsPt100B} but with a shift between the green and red circled peaks equal to $0.09$, more important than the previously measured value of $0.07$.
+
+Ammonia was again introduced in the cell to be able to probe the relation between surface structure and selectivity during the oxidation of ammonia.
+Interestingly, a different behaviour was measured during the following reciprocal space map (fig. \ref{fig:MapsAndLScansPt100HighOxAmmonia}).
+
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_scans_high_oxygen_ammonia.pdf}
+    \includegraphics[width=0.59\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1953-1981_patched.pdf}
+    \includegraphics[width=0.39\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_scans_high_oxygen_ammonia_no_map.pdf}
     \caption{
-        In-plane map at $L=0$ (a-b-c) and out-of plane measurements for three different positions under \qty{80}{\milli\bar} of \dioxygen.
+        Reciprocal space maps collected under different atmospheres measured at \qty{450}{\degreeCelsius}, computed using the surface lattice of Pt (100).
+        Out-of plane measurements for four different positions under \qty{80}{\milli\bar} of \dioxygen, \qty{10}{\milli\bar} of \ammonia, and \qty{410}{\milli\bar} of \argon.
     }
-    \label{fig:LScansHighOxygenAmmoniaPt100}
+    \label{fig:MapsAndLScansPt100HighOxAmmonia}
 \end{figure}
 
+Peaks separated by $0.1$ in H or in K were observed around the platinum Bragg peaks in a square arrangement, similarly to a (10x10) surface reconstruction, but with some extinctions.
+The only row and columns in which the reconstructions are also seen that do not got through a Bragg peak are also shifted by the same amount equal to $0.09$ as the green circled signals observed while only oxygen is present in the cell.
+Out-of-plane measurements were performed perpendicular to four peaks, also presented in fig. \ref{fig:MapsAndLScansPt100HighOxAmmonia}.
+The peaks measured earlier perpendicular to (H, K) = (0.5, -1) at $L=0.7$, $L=1.4$, and $L=2.1$ corresponding to bulk \ce{Pt_3O_4} are no longer visible.
+
+It is not certain that bulk \ce{Pt_3O_4} was present on the catalyst surface at the beginning of the reacting conditions.
+Indeed, the sample was exposed to \qty{80}{\milli\bar} of oxygen for \qty{12}{\hour} when the bulk oxide could be measured.
+The second exposition only lasted for \qty{1}{\hour}, during which the same in-plane could effectively be measured, but without out-of-plane informations.
+Therefore it is not clear wether the lack of bulk oxide is due to its removal from the reacting conditions or from the shorter exposition to a high oxygen atmosphere.
+However, it is clear that the duration of the high oxygen condition, probably linked to the thickness of the \ce{Pt_3O_4} layer, has an effect on the catalyst surface during reaction condition since the in-plane signals measured after the introduction of ammonia are very different.
+Regarding the $L$-scan at (H, K) = (1.9, 0), the two peaks near $L=0.1$ and $L=2.1$ are coming from the nearby Bragg peaks.
+Otherwise, no structures signal in $L$ can be observed.
+
+\ce{Pt_3O_4} has been proven to be a source of oxygen atoms sustaining the catalytic oxygenation of \ce{CO} \textit{via} a Mars Van Krevelen mechanism \parencite{Seriani2006, Seriani2008}.
+In the current experiment, the heater problem prevented us from recording the evolution of the reaction products during the first exposition of the catalyst to the reacting conditions.
+Additional measurements with first different exposition times to a pure oxygen atmosphere (while monitoring the thickness of the \ce{Pt_3O_4} layer), and secondly introducing ammonia in the reactor while comparing the product partial pressure could bring an answer to the role of \ce{Pt_3O_4} during the oxidation of ammonia.
+It is possible that the (10x10)-type reconstructions observed in the current experimebt are linked to the adsorption of nitrogen species on the catalyst surface.
+
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_scans_low_oxygen_ammonia.pdf}
+    \includegraphics[width=0.59\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2227-2283_patched.pdf}
+    \includegraphics[width=0.39\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_scans_low_oxygen_ammonia.pdf}
     \caption{
-        In-plane map at $L=0$ (a-b-c) and out-of plane measurements for three different positions under \qty{80}{\milli\bar} of \dioxygen.
+        Reciprocal space maps collected under different atmospheres measured at \qty{450}{\degreeCelsius}, computed using the surface lattice of Pt (100).
+        Out-of plane measurements for four different positions under \qty{5}{\milli\bar} of \dioxygen, \qty{10}{\milli\bar} of \ammonia, and \qty{485}{\milli\bar} of \argon.
     }
-    \label{fig:LScansLowOxygenAmmoniaPt100}
+    \label{fig:MapsAndLScansPt100LowOxAmmonia}
 \end{figure}
 
+Lowering the partial pressure of oxygen from \qty{80}{\milli\bar} to \qty{5}{\milli\bar} in the reactor has completely removed the square (10x10) reconstruction phenomena and revealed the existence of two hexagonal arrangements on top on the Pt (100) surface (fig. \ref{fig:MapsAndLScansPt100LowOxAmmonia}), with an in-plane lattice parameter equal to \qty{2.685}{\angstrom}, \qty{\approx 3.36}{\percent} lower than the distance between neighbouring Pt atoms on the Pt (100) surface.
+Second order peaks can also be seen at the edge of the reciprocal space map, each domain has one axis parallel to either $\vec{a}_{(100)}$ or $\vec{b}_{(100)}$, \textit{i.e.} respectively in the [110] and [1-10] directions.
 
+Different hexagonal surface reconstructions on the Pt (100) surface have been reported also in the [110] direction at UHV conditions, summarized in \cite{Hammer2016}, based on an important body of work \parencite{Heilmann1979, VANHOVE1981, Heinz1982, Mase1992, Kuhnke1992, Borg1994, VanBeurden2004, Havu2010}, evolving to rotated hexagonal reconstructions with angles between \ang{0.77} and \ang{0.94} depending on the sample temperature and on the previous temperature treatment.
+The unit cell describing those reconstructions with respect to the Pt (100) surface varies, if first contained to (5XN) where N = 20–30, the latest study reports a commensurate c(26X118) superstructure.
+Exposition of the rotated hexagonal structure to oxygen at \qty{450}{\degreeCelsius} studied by low energy electron diffraction (LEED) has been found to remove the hexagonal structure and precipate the growth of surface oxides \textit{via} different phases \parencite{BradleyShumbera2007, BradleyShumbera2007a}, a similar conclusion was reached by \cite{Deskins2005} by DFT studies.
+Exposition to \ce{NO} has been reported to stabilize the clean Pt (100) phase \parencite{Heinz1982}, while exposition to \ce{CO} removes the hexagonal reconstruction, an oscillatory behaviour between a clean (1X1) surface and the rotated hexagonal reconstruction was reported by Cox \textit{et al.} \parencite*{Cox1983}.
 
+A (2X2) reconstruction of the Pt (100) surface has been reported at an oxygen pressure of \qty{1e-3}{mbar} by the use of environmental TEM \parencite{Li2016}.
 
-\subsection{Oxide growth monitored under \qty{5}{\milli\bar} of \dioxygen}
+Subsurface oxygen has also been predicted to exist on Pt (100) \parencite{Gu2007}, reported at a pressure of \qty{0.133}{\milli\bar} \parencite{McMillan2005}, and participating in the catalytic oxidation of \ce{CO}.
+Subsurface oxygen was identified as a precursor to a stable surface oxide during the catalytic oxidation of \ce{CO} by Dicke \textit{et al.} \parencite*{Dicke2000}, at an oxygen pressure of \qty{0.09}{\milli\bar}, its appearance linked to the lifting of surface reconstructions on the clean Pt (100) surface from the adsorption of \ce{CO}, which then allowed oxygen atoms to penetrate under the topmost layer of platinum \parencite{Rotermund1993, LAUTERBACH1994}.
+
+Overall, few works at ambient pressure have been found to exist, even less during the catalytic oxidation of ammonia.
+Out-of-plane measurements were performed perpendicular to two peaks, also presented in fig. \ref{fig:MapsAndLScansPt100LowOxAmmonia}, no bulk structure could be detected.
 
 \begin{figure}[!htb]
     \centering
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2520-2570_patched.pdf}
+    \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2719-2767.pdf}
     \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2905-2953_patched.pdf}
     \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_3154-3169.pdf}
     \caption{
         Reciprocal space maps collected under different atmospheres measured at \qty{450}{\degreeCelsius}, computed using the surface lattice of Pt (100).
     }
-    \label{fig:MapsLowOxygen}
+    \label{fig:MapsPt100C}
 \end{figure}
 
+After removing oxygen from the reactor, only the first order reflections corresponding to the hexagonal structures could be detected during the measurement of the reciprocal space map (fig. \ref{fig:MapsPt100C}), the following measurement under Argon showed a clean Pt (100) surface.
+To make sure that the hexagonal structure was related to the reaction conditions and not only to a lower pressure of oxygen in the reactor, a partial pressure of \qty{5}{\milli\bar} of oxygen was set.
+The following measurement showed the presence of many peaks that appeared in the first hour of the measurement.
+A second map was measured directly after the end of the first map, in which none of the newly detected peaks could be detected.
+These two measurements showed first that the hexagonal structure observed under reacting conditions with \qty{5}{\milli\bar} of oxygen is linked to the simulateanous presence of ammonia and oxygen in the reactor, and that the duration of some of the observed phenomena are too short to be effectively measured with the current time-resolution of in-plane reciprocal space maps.
 
 \subsection{Surface roughness and surface relaxation effects}
 
@@ -139,6 +201,74 @@ Adding ammonia in the reactor
     }
     \label{fig:CTRPt100}
 \end{figure}
+
+Crystal truncation rods have been measured perpendicularly to the ($\bar{1}\bar{1}0$), ($\bar{1}00$) and ($\bar{2}10$) positions \qty{6}{\hour} after the start of each condition, each measurement lasted for \qty{2}{\hour}.
+The background-subtracted intensity of the CTR was integrated using the \textit{fitaid} module of \textit{binoculars} as a function of $L$ with the same integration range.
+The CTR intensity is presented in fig. \ref{fig:CTRPt100}, additionnal peaks could be detected under exposition to \qty{80}{\milli\bar} of \dioxygen, which shows that bulk \ce{Pt_3O_4} is epitaxied on the Pt (100) surface.
+
+The presence of those peaks prevent us from resolving the minimal position of the CTR intensity, the absence of oscillations in the evolution of the CTR intensity as a function of $L$ also shows that we are not in the presence of a homogenous layer of \ce{Pt_3O_4}, but rather of many islands of different height covering the substrate.
+
+We can divide our catalyst surface in three different components as a function of $\vec{z}$.
+First, there is bulk Pt (100) in which the structure is homogeneous.
+Secondly, there is the interface between bulk platinum and the different islands of \ce{Pt_3O_4}, in which the platinum atoms are expected to be displaced from their equilibrium positions due to the interaction with the bulk oxide, and where there could also be the presence of some subsurface oxygen atoms.
+Thirdly, there are the \ce{Pt_3O_4} islands, on top of the previous layers, with different heights.
+The deconvolution of the signals originating from the different layers is complicated due to the very large amount of parameters needed to properly simulate the CTR intensity, and the impossibility simulate more than two different surface areas with \textit{ROD}.
+A first approach to understanding the catalyst surface is presented below.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/fit_8o2.pdf}
+    \caption{
+        Fitting results for crystal truncation rods collected under a \qty{80}{\milli\bar} of \dioxygen.
+    }
+    \label{fig:CTRFitHighOxygen}
+\end{figure}
+
+The structure factors $F_i$ resulting from the presence of one to 9 layers on the Pt (100) surface of \ce{Pt_3O_4} was simulated with \textit{ROD}.
+The fitting routine consists in minimizing the square root difference between the CTR structure factors $F_{obs}$ and the square root of the  coherent sum of the squared simulated structure factors by adjusting the weight $W_i$ of each signal in the total signal $F_{calc}$ (eq. \ref{eq:Fcalc}).
+
+\begin{equation}
+    F_{calc} = \sqrt{\sum_{i=1}^{9} W_i F_i^2}
+    \label{eq:Fcalc}
+\end{equation}
+
+The relation between each weight was adjusted by following a Gaussian distribution, expecting the different islands to not differ too much in height.
+The result of the fitting routine are presented in fig. \ref{fig:CTRFitHighOxygen}, and show a Gaussian distribution centered around $3.6$ unit cells, with a standard deviation $\sigma$ equal to $1.3$ unit cells.
+The position and width of the \ce{Pt_3O_4} peaks are well adjusted, especially for the CTR measured perpendicularly to ([H, K] = [4, 0]).
+The simulation struggles however to reproduce regions between Pt and \ce{Pt_3O_4} Bragg peaks where the signal seems to be more convoluted.
+There is a difference of a factor three when comparing the results with the average thickness of \qty{\approx 60}{\angstrom} given by fitting the $L$-scans in fig. \ref{fig:LScansHighOxygenPt100}, since each unit cell is expected to be \qty{\approx5.64}{\angstrom} thick.
+Overall, the existence of bulk \ce{Pt_3O_4} islands is confirmed.
+
+When observing the CTR intensity under other atmospheres, a clear evolution in the position of the minimum intensity between both reacting conditions (in red and green in fig. \ref{fig:CTRPt100}) is visible.
+The CTR recorded after exposition to reacting conditions under ammonia or under argon have similar intensities and are almost indistinguishables.
+
+All three CTR were fitted together using \textit{ROD} at each atmospheres besides the oxygen rich atmosphere, for which a surface model taking into account the existence of \ce{Pt_3O_4} islands as well as the relaxation of the topmosts platinum layers compatible with \textit{ROD} could not be derived.
+Different models were tested, adding the possibility of in-plane lattice displacement did not show any improvement of the fit quality, and a simple surface model was kept consisting of two Pt (100) layers, each sharing an out-of-plane lattice displacement parameter, on top of bulk Pt (100).
+The fitting results are shown in fig. \ref{fig:CTRFit100}.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/fit_comparison.pdf}
+    \caption{
+        Fitting results for roughness parameter $\beta$ (a) and out-of-plane strain $\sigma_z$ (b) as a function of the experimental conditions.
+    }
+    \label{fig:CTRFit100}
+\end{figure}
+
+The surface roughness evaluated \textit{via} the $\beta$ parameter in fig. \ref{fig:CTRFit100} (a) is consistent with the evolution of the CTR intensity in fig. \ref{fig:CTRPt100}.
+A high roughness is already present after the exposition of the surface to Argon.
+The average roughness after introducing a partial pressure of \qty{80}{\milli\bar} of oxygen in the cell could not be retrieved but seems to be at least equal to the roughness under Argon from observing the CTR signals.
+The roughness under reacting conditions is higher than under Argon, these crystal truncations rods having been measured after the second introduction of ammonia in the cell, \textit{i.e.} after cleaning of the sample and a short exposition to a high oxygen atmosphere.
+Lowering the amount of oxygen in the cell decreases the surface roughness, which stays at high values.
+The lowest value is reached when oxygen is not present in the reactor anymore.
+The presence of \qty{5}{\milli\bar} of oxygen after the ammonia oxidation cycle increases the surface roughness to higher values, almost equal to the maximum value under reacting conditions after the presence of \qty{80}{\milli\bar} of oxygen.
+
+The strain of the second topmost layer, (B in fig. \ref{fig:CTRFit100} - b) is always very close to \qty{0}{\percent} besides interestingly under \qty{5}{\milli\bar} of oxygen.
+The strain of the topmost layer (A in fig. \ref{fig:CTRFit100} - b) is always compressive and seen to increase during reacting conditions in comparison to under argon atmosphere.
+A slight increase is reported when lowering the partial pressure of oxygen in the cell, whereas its removal leads to the lowest recorded strain values.
+
+The ammonia oxidation cycle has shown to overall clean the sample surface with a clear difference in the sample roughness and out-of-plane strain before and after the reaction.
+The lack of results under \qty{80}{\milli\bar} of oxygen without ammonia and the presence of compressive strain before the oxidation cycle under argon make it difficult to correlate reacting conditions with compressive strain, a second cycle after observing the clean surface state would lift this unknown since the strain and roughness are minimal after the oxidation cycle.
 
 \subsection{Surface species presence}
 
@@ -187,12 +317,3 @@ Adding ammonia in the reactor
     \label{fig:Pt4fPt100}
 \end{figure}
 
-Secondly, to be able to quantify and compare the evolution of the peak intensity, one must normalize the intensity of the detected electron beam since the electron mean free path depends on the pressure in the reaction chamber \parencite{Willmott}.
-The range of kinetic energy just before the absorption edge of Pt 4f was chosen since it had the best signal to noise ratio and does not depend on any experimental parameter besides the pressure.
-
-Finally, for the peaks that showed a good signal to noise ratio, the fitting of the peak shape was realised thanks to the \textit{lmfit} \parencite{Newville2016} package by the means of the Doniach-equation which is the best approximation of the asymmetric peak shape resulting from the convolution of the analyser function and the photoelectron process in metals \parencite{Doniach_1970}.
-
-% http://www.casaxps.com/help_manual/line_shapes.htm
-
-On pure Pt, an important body of work has been already carried out, revealing several bulk oxide structures present in the temperature and
-pressure ranges we intend to study, as well as the presence of surface oxides depending on the structure of the crystal surface.

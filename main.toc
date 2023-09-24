@@ -78,24 +78,23 @@
 \contentsline {chapter}{\numberline {4}Structural and chemical evolution of Pt single crystals during the oxidation of ammonia}{105}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{105}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Experimental setup for SXRD experiments in the horizontal geometry}{107}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Experimental setup for X-ray photoelectron spectroscopy}{107}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Experimental setup for X-ray photoelectron spectroscopy}{108}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}Surface x-ray diffraction on a Pt (111) single crystal}{108}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Ammonia oxidation cycle}{108}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Oxide growth monitored under \qty {5}{\milli \bar } of \ce {O_2}}{114}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}Oxide growth monitored under \qty {5}{\milli \bar } of \ce {O_2}}{115}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Surface roughness and surface relaxation effects}{118}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Surface species presence}{121}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Surface x-ray diffraction on a Pt (100) single crystal}{121}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Ammonia oxidation cycle}{121}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Oxide growth monitored under \qty {5}{\milli \bar } of \ce {O_2}}{125}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Surface roughness and surface relaxation effects}{125}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Surface species presence}{125}{subsection.4.3.4}%
-\contentsline {section}{\numberline {4.4}Conclusion and perspectives}{127}{section.4.4}%
-\contentsline {chapter}{\numberline {A}Diffraction vocabulary}{148}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Nanoparticles study}{149}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Temperature ramp}{149}{section.B.1}%
-\contentsline {section}{\numberline {B.2}SXRD on Pt nanoparticles}{149}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Mass spectrometer data during ammonia oxidation on Pt nanoparticles}{149}{section.B.3}%
-\contentsline {subsection}{\numberline {B.3.1}Non patterned sample}{149}{subsection.B.3.1}%
-\contentsline {subsection}{\numberline {B.3.2}Non patterned sample}{149}{subsection.B.3.2}%
-\contentsline {section}{\numberline {B.4}3D views of reconstructed Pt nanoparticles during the oxidation of ammonia}{149}{section.B.4}%
-\contentsline {chapter}{\numberline {C}Single crystals study}{164}{appendix.C}%
+\contentsline {section}{\numberline {4.3}Surface x-ray diffraction on a Pt (100) single crystal}{123}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Ammonia oxidation cycle}{123}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Surface roughness and surface relaxation effects}{128}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Surface species presence}{132}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Conclusion and perspectives}{132}{section.4.4}%
+\contentsline {chapter}{\numberline {A}Diffraction vocabulary}{153}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Nanoparticles study}{154}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Temperature ramp}{154}{section.B.1}%
+\contentsline {section}{\numberline {B.2}SXRD on Pt nanoparticles}{154}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Mass spectrometer data during ammonia oxidation on Pt nanoparticles}{154}{section.B.3}%
+\contentsline {subsection}{\numberline {B.3.1}Non patterned sample}{154}{subsection.B.3.1}%
+\contentsline {subsection}{\numberline {B.3.2}Non patterned sample}{154}{subsection.B.3.2}%
+\contentsline {section}{\numberline {B.4}3D views of reconstructed Pt nanoparticles during the oxidation of ammonia}{154}{section.B.4}%
+\contentsline {chapter}{\numberline {C}Single crystals study}{169}{appendix.C}%

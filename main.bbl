@@ -1145,12 +1145,6 @@
       \verb{doi}
       \verb https://doi.org/10.1016/j.physb.2006.05.328
       \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0921452606012336
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0921452606012336
-      \endverb
       \keyw{Neutron instruments,Time of flight,Direct geometry}
     \endentry
     \entry{Bjorck2007}{article}{}
@@ -1336,6 +1330,55 @@
       \endverb
       \verb{url}
       \verb https://bokeh.pydata.org/en/latest/
+      \endverb
+    \endentry
+    \entry{Borg1994}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9126f2bed3b1d9f6735e5f6262327cab}{%
+           family={Borg},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92bc0a1d6dc903299860a100f7841612}{%
+           family={Hilmen},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbe39f3cf2bda707c9afe5ba0a6dd471}{%
+           family={Bergene},
+           familyi={B\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1afcd02398fadd3b4f475bfeab26a021}
+      \strng{fullhash}{7e80bb139b17c6d0e934f285fac55901}
+      \strng{bibnamehash}{7e80bb139b17c6d0e934f285fac55901}
+      \strng{authorbibnamehash}{7e80bb139b17c6d0e934f285fac55901}
+      \strng{authornamehash}{1afcd02398fadd3b4f475bfeab26a021}
+      \strng{authorfullhash}{7e80bb139b17c6d0e934f285fac55901}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The structure of the Pt(100)-hex-R0.7° reconstructed phase has been studied by scanning tunneling microscopy (STM). The hexagonal first layer superstructure of this surface, written in matrix notation as N 1 -1 5, N = 12-14, was imaged with atomic resolution. The fivefold periodicity of this reconstruction was confirmed. The coexistence of differently oriented hexagonal domains on a single terrace was observed. Steps along the longer corrugation length of the surface reconstruction were found, on the average, to follow the [N 1] direction of the hexagonal Pt overlayer rather than any low-index direction of the square substrate. The transition from the N 1 -1 5 reconstruction to the Pt(100)-(1 × 1) surface structure due to exposure to CO and O2 was found to be initiated by heterogeneous nucleation, the nucleation centers being step edges and structural irregularities disrupting the hexagonal structure along a direction close to the hexagonal [1̄ 5] direction. The growth of the (1 × 1) phase was highly anisotropic, i.e. the growth being much faster along the [01̄1] direction (the substrate direction closer to the [N 1] direction of the hexagonal layer) than along the [011] direction. A higher density of atoms in the hexagonal than in the (1 × 1) surface layer causes islands, a single Pt(100) lattice spacing high, to form during the structural transformation. These islands were found to be a mixture of isotropic islands with diameter 10-15 {Å} and islands highly elongated along the faster growth direction of the (1 × 1) phase. {©} 1994.}
+      \field{issn}{00396028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{1-2}
+      \field{title}{{STM studies of clean, CO- and O2-exposed Pt(100)-hex-R0.7°}}
+      \field{volume}{306}
+      \field{year}{1994}
+      \field{pages}{10\bibrangedash 20}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/0039-6028(94)91179-7
+      \endverb
+      \verb{file}
+      \verb :home/david/Documents/PhD/Papers/AVlad/The structure of the Pt(lOO)-hex-R0.7.pdf:pdf
       \endverb
     \endentry
     \entry{Borodin2021}{article}{}
@@ -1686,6 +1729,103 @@
       \verb{doi}
       \verb 10.1021/j100046a032
       \endverb
+    \endentry
+    \entry{BradleyShumbera2007a}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=91778de88f96d61784e1d1a2b6d604f5}{%
+           family={{Bradley Shumbera}},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d59d2f031a9792d6458da08f1da4c326}{%
+           family={Kan},
+           familyi={K\bibinitperiod},
+           given={Heywood\bibnamedelima H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8af40cd994c17f928547a26f74528f23}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={Jason\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4714374b2201327518d5016de1a5799b}
+      \strng{fullhash}{1361a6dd4173055e5542ec38b9b4b627}
+      \strng{bibnamehash}{1361a6dd4173055e5542ec38b9b4b627}
+      \strng{authorbibnamehash}{1361a6dd4173055e5542ec38b9b4b627}
+      \strng{authornamehash}{4714374b2201327518d5016de1a5799b}
+      \strng{authorfullhash}{1361a6dd4173055e5542ec38b9b4b627}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00396028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{1}
+      \field{title}{{Oxidation of Pt(1 0 0)-hex-R0.7° by gas-phase oxygen atoms}}
+      \field{volume}{601}
+      \field{year}{2007}
+      \field{pages}{235\bibrangedash 246}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.susc.2006.09.040
+      \endverb
+      \keyw{Atom-solid interactions,Atomic oxygen,Desorption,Metal-oxide interfaces,Oxidation,Platinum,Single crystal surfaces}
+    \endentry
+    \entry{BradleyShumbera2007}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=91778de88f96d61784e1d1a2b6d604f5}{%
+           family={{Bradley Shumbera}},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d59d2f031a9792d6458da08f1da4c326}{%
+           family={Kan},
+           familyi={K\bibinitperiod},
+           given={Heywood\bibnamedelima H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8af40cd994c17f928547a26f74528f23}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={Jason\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4714374b2201327518d5016de1a5799b}
+      \strng{fullhash}{1361a6dd4173055e5542ec38b9b4b627}
+      \strng{bibnamehash}{1361a6dd4173055e5542ec38b9b4b627}
+      \strng{authorbibnamehash}{1361a6dd4173055e5542ec38b9b4b627}
+      \strng{authornamehash}{4714374b2201327518d5016de1a5799b}
+      \strng{authorfullhash}{1361a6dd4173055e5542ec38b9b4b627}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We investigated the kinetics governing the transition from surface (2D) to bulk (3D) oxide growth on Pt(1 0 0) in ultrahigh vacuum as a function of the surface temperature and the incident flux of an oxygen atom beam. For the incident fluxes examined, the bulk oxide formation rate increases linearly with incident flux ($\Phi$O) as the oxygen coverage increases to about 1.7 ML (monolayer) and depends only weakly on the surface temperature in the limit of low surface temperature (TS < 475 K). In contrast, in the high temperature limit (TS > 525 K), the bulk oxide formation rate increases with $\Phi$O2 for oxygen coverages as high as 1.6 ML, and decreases with increasing surface temperature. We show that the measured kinetics is quantitatively reproduced by a model which assumes that O atoms adsorb on top of the 2D oxide, and that this species acts as a precursor that can either associatively desorb or react with the 2D oxide to form a 3D oxide particle. According to the model, the observed change in the flux and surface temperature dependence of the oxidation rate is due to a change in the rate-controlling steps for bulk oxide formation from reaction at low temperature to precursor desorption at high temperature. From analysis of flux-dependent uptake data, we estimate that the formation rate of a bulk oxide nucleus has a fourth-order dependence on the precursor coverage, which implies a critical configuration for oxide nucleus formation requiring four precursor O atoms. Considering the similarities in the development of surface oxides on various transition metals, the precursor-mediated transition to bulk oxide growth reported here may be a general feature in the oxidation of late transition metal surfaces. {©} 2007 Elsevier B.V. All rights reserved.}
+      \field{issn}{00396028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{21}
+      \field{title}{{The transition from surface to bulk oxide growth on Pt(1 0 0): Precursor-mediated kinetics}}
+      \field{volume}{601}
+      \field{year}{2007}
+      \field{pages}{4809\bibrangedash 4816}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.susc.2007.07.027
+      \endverb
+      \keyw{Adsorption kinetics,Atom-solid interactions,Atomic oxygen,Metal-oxide interfaces,Models of surface kinetics,Oxidation,Platinum,Single crystal surfaces}
     \endentry
     \entry{catal12101134}{article}{}
       \name{author}{4}{}{%
@@ -3147,6 +3287,58 @@
       \field{pages}{297\bibrangedash 301}
       \range{pages}{5}
     \endentry
+    \entry{Cox1983}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4179e3e75917d69af7ccbfaaaf228e18}{%
+           family={Cox},
+           familyi={C\bibinitperiod},
+           given={M.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a11bfaed298821c9f3122e4814a7a0dc}{%
+           family={Ertl},
+           familyi={E\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4ccc5f1e14042f4f0f94ed78c2b9f8d}{%
+           family={Imbihl},
+           familyi={I\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=356e173fb1553ab3b25b083e4087dea6}{%
+           family={Rüstig},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{49029f9c1e9f8525da1f769d600decd0}
+      \strng{fullhash}{fd78e6686b36f134542649f19ec136eb}
+      \strng{bibnamehash}{49029f9c1e9f8525da1f769d600decd0}
+      \strng{authorbibnamehash}{49029f9c1e9f8525da1f769d600decd0}
+      \strng{authornamehash}{49029f9c1e9f8525da1f769d600decd0}
+      \strng{authorfullhash}{fd78e6686b36f134542649f19ec136eb}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Isothermal low-pressure oscillations of the rate of catalytic CO oxidation on a Pt(100) surface could be established under appropriate conditions and were monitored through the accompanying periodic variation of the work function. Parallel observations by the Video-LEED technique demonstrated that these oscillations are associated with periodic transformations of the (long-range) surface structure from the reconstructed hex to the 1 × 1 phase and back, which is caused by varying surface concentrations of the reacting particles. {©} 1983.}
+      \field{issn}{00396028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{2}
+      \field{title}{{Non-equilibrium surface phase transitions during the catalytic oxidation of CO on Pt(100)}}
+      \field{volume}{134}
+      \field{year}{1983}
+      \field{pages}{517\bibrangedash 523}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/0039-6028(83)90423-5
+      \endverb
+    \endentry
     \entry{croset_form_2017}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=769e33573238d805970d80bb74445ca2}{%
@@ -3378,6 +3570,50 @@
       \verb https://doi.org/10.1016/0039-6028(75)90142-9
       \endverb
     \endentry
+    \entry{Deskins2005}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7c0e2b338a0de08a8927a19a17d6652c}{%
+           family={Deskins},
+           familyi={D\bibinitperiod},
+           given={N.\bibnamedelimi Aaron},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0cbacebebb2ce1f0e3d16a9fbbfd30d}{%
+           family={Lauterbach},
+           familyi={L\bibinitperiod},
+           given={Jochen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96b1d84203978c2a2e72e607e656f9f8}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={Kendall\bibnamedelima T.},
+           giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd5098ccabe9a5c42dfc5366523e7b53}
+      \strng{fullhash}{1bd81901c2cfe1e56175454636911fbc}
+      \strng{bibnamehash}{1bd81901c2cfe1e56175454636911fbc}
+      \strng{authorbibnamehash}{1bd81901c2cfe1e56175454636911fbc}
+      \strng{authornamehash}{dd5098ccabe9a5c42dfc5366523e7b53}
+      \strng{authorfullhash}{1bd81901c2cfe1e56175454636911fbc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The adsorption of atomic oxygen on unreconstructed Pt {100} - (1×1) and reconstructed Pt {100} - (5×1) was modeled using density-functional theory in an attempt to understand the relative stability of the unreconstructed phase as a function of oxygen coverage. Our calculations showed that at zero temperature the (5×1) is more stable than the unreconstructed (1×1) phase at zero oxygen coverage. However, oxygen absorption on the Pt {100} - (5×1) phase removed the reconstruction, reversing the phase stability. Using thermochemical analysis, we show desorption of oxygen corresponding to a temperature near 730 K, consistent with experimentally observed desorption peaks for oxygen covered (1×1) surfaces. These results have ramifications for understanding the full Pt {100} (1×1) →Pt {100} -hex-R0.7°surface phase transition. {©} 2005 American Institute of Physics.}
+      \field{issn}{00219606}
+      \field{journaltitle}{Journal of Chemical Physics}
+      \field{number}{18}
+      \field{title}{{Lifting the Pt{100} surface reconstruction through oxygen adsorption: A density functional theory analysis}}
+      \field{volume}{122}
+      \field{year}{2005}
+      \verb{doi}
+      \verb 10.1063/1.1893718
+      \endverb
+    \endentry
     \entry{diaz_coherent_2009}{article}{}
       \name{author}{9}{}{%
         {{un=0,uniquepart=base,hash=e5091ff4b22fd906359d4eb468c7dbe8}{%
@@ -3466,6 +3702,53 @@
       \verb{file}
       \verb APS Snapshot:/Users/marieingridrichard/Zotero/storage/J75QPSS4/e125324.html:text/html;APS Snapshot:/Users/marieingridrichard/Zotero/storage/5949VE3K/PhysRevB.79.html:text/html;Diaz et al. - 2009 - Coherent diffraction imaging of a single epitaxial.pdf:/Users/marieingridrichard/Zotero/storage/V3VV6JJW/Diaz et al. - 2009 - Coherent diffraction imaging of a single epitaxial.pdf:application/pdf
       \endverb
+    \endentry
+    \entry{Dicke2000}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=43ccb90a21687bdd5f5fbe32d83ba525}{%
+           family={Dicke},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=baf64840758b6adcd6da76ec14ed415a}{%
+           family={Rotermund},
+           familyi={R\bibinitperiod},
+           given={H.\bibnamedelimi H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ffa1db8204d9c4e241bfe020a06ce14}{%
+           family={Lauterbach},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d1d2445f3ecb54567e2bafd7d464206c}
+      \strng{fullhash}{3189ec5f3484d7277f2b464f6d6cd482}
+      \strng{bibnamehash}{3189ec5f3484d7277f2b464f6d6cd482}
+      \strng{authorbibnamehash}{3189ec5f3484d7277f2b464f6d6cd482}
+      \strng{authornamehash}{d1d2445f3ecb54567e2bafd7d464206c}
+      \strng{authorfullhash}{3189ec5f3484d7277f2b464f6d6cd482}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{CO oxidation on Pt(100) at oxygen pressures of 9.0×10-2 mbar was studied. An unusual decrease in catalytic activity with time was observed, which has not been observed at lower pressures. Post-reaction Auger and thermal desorption spectroscopy measurements showed the formation of a surface oxide species, which deactivated the catalyst. The surface oxide is compared to subsurface oxygen and to surface oxide studied previously on low index Pt single crystal surfaces. An adsorbate induced surface reconstruction is proposed as a possible driving force for oxide formation.}
+      \field{issn}{00396028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{1}
+      \field{title}{{Formation of surface oxides on Pt(100) during CO oxidation in the millibar pressure range}}
+      \field{volume}{454}
+      \field{year}{2000}
+      \field{pages}{352\bibrangedash 357}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/S0039-6028(00)00189-8
+      \endverb
+      \keyw{auger electron spectroscopy,carbon monoxide,catalysis,gas interfaces,oxidation,platinum,reaction,solid,surface chemical,thermal desorption spectroscopy}
     \endentry
     \entry{Diadem}{online}{}
       \field{sortinit}{D}
@@ -5477,6 +5760,40 @@
       \verb 10.1063/1.1700179
       \endverb
     \endentry
+    \entry{Galloni1941}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=266eb0062df08f2992e04c63e40ab385}{%
+           family={Galloni},
+           familyi={G\bibinitperiod},
+           given={Ernesto\bibnamedelima E.},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=804980573b61f1e427882a5bb4a0e60d}{%
+           family={Roffo},
+           familyi={R\bibinitperiod},
+           given={Angel\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7c71a1a74eb562db6df31787741b7c33}
+      \strng{fullhash}{7c71a1a74eb562db6df31787741b7c33}
+      \strng{bibnamehash}{7c71a1a74eb562db6df31787741b7c33}
+      \strng{authorbibnamehash}{7c71a1a74eb562db6df31787741b7c33}
+      \strng{authornamehash}{7c71a1a74eb562db6df31787741b7c33}
+      \strng{authorfullhash}{7c71a1a74eb562db6df31787741b7c33}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Chemical Physics}
+      \field{title}{The Crystalline Structure of Pt3O4}
+      \field{volume}{9}
+      \field{year}{1941}
+      \field{pages}{4\bibrangedash 7}
+      \range{pages}{4}
+    \endentry
     \entry{GANDHI2003}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5280df548eff35335f710f358a13cff5}{%
@@ -5920,6 +6237,46 @@
       \verb 10.1016/j.ultramic.2012.07.024
       \endverb
     \endentry
+    \entry{Gu2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=25c458edc6d4747a36f399ea9b8106f1}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Zhihui},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=322c4d328e905f7542bc58d31353c362}{%
+           family={Balbuena},
+           familyi={B\bibinitperiod},
+           given={Perla\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d671e6920598e0a74775ca3ada5a868}
+      \strng{fullhash}{1d671e6920598e0a74775ca3ada5a868}
+      \strng{bibnamehash}{1d671e6920598e0a74775ca3ada5a868}
+      \strng{authorbibnamehash}{1d671e6920598e0a74775ca3ada5a868}
+      \strng{authornamehash}{1d671e6920598e0a74775ca3ada5a868}
+      \strng{authorfullhash}{1d671e6920598e0a74775ca3ada5a868}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Density functional theory is used to examine binding energies and the most stable sites of atomic oxygen adsorbed on Pt(111) and Pt(100) surfaces as a function of surface coverage, as well as to evaluate the absorption energies and the energetically most favorable sites of atomic oxygen located in the subsurface, as a function of subsurface coverage. Based on the absorption energies, it is found that the tetrahedral site underneath the hep hollow site is energetically the most favorable site to absorb atomic oxygen in the subsurface of Pt(111), and the tetrahedral site underneath the bridge site is the corresponding energetically most favorable subsurface site in Pt(100) cells. Minimum energy paths identified for the diffusion of low-coverage adsorbed atomic oxygen into the subsurface sites for Pt(111) and Pt(100) cells indicate the existence of high kinetic barriers to such diffusion. {©} 2007 American Chemical Society.}
+      \field{issn}{19327447}
+      \field{journaltitle}{Journal of Physical Chemistry C}
+      \field{number}{27}
+      \field{title}{{Absorption of atomic oxygen into subsurfaces of Pt(100) and Pt(111): Density functional theory study}}
+      \field{volume}{111}
+      \field{year}{2007}
+      \field{pages}{9877\bibrangedash 9883}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1021/jp0711693
+      \endverb
+    \endentry
     \entry{guizar-sicairos_phase_2011}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=ac8d8c13478dd3dedc89b42eef5f5bde}{%
@@ -6208,12 +6565,12 @@
     \endentry
     \entry{Hammer2006}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=4479c9971d09a8f94f6dbef3cdf9cb0e}{%
+        {{un=1,uniquepart=given,hash=4479c9971d09a8f94f6dbef3cdf9cb0e}{%
            family={Hammer},
            familyi={H\bibinitperiod},
            given={B.},
            giveni={B\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{4479c9971d09a8f94f6dbef3cdf9cb0e}
       \strng{fullhash}{4479c9971d09a8f94f6dbef3cdf9cb0e}
@@ -6243,12 +6600,12 @@
     \endentry
     \entry{Hammer1995}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=4479c9971d09a8f94f6dbef3cdf9cb0e}{%
+        {{un=1,uniquepart=given,hash=4479c9971d09a8f94f6dbef3cdf9cb0e}{%
            family={Hammer},
            familyi={H\bibinitperiod},
            given={B.},
            giveni={B\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=8c933fbd3e5f577729a2be9a8434ce38}{%
            family={Norskov},
            familyi={N\bibinitperiod},
@@ -6284,12 +6641,12 @@
     \endentry
     \entry{Hammer2000}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=4479c9971d09a8f94f6dbef3cdf9cb0e}{%
+        {{un=1,uniquepart=given,hash=4479c9971d09a8f94f6dbef3cdf9cb0e}{%
            family={Hammer},
            familyi={H\bibinitperiod},
            given={B.},
            giveni={B\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=7ae731ce41a114f67899c33dc2c13dfe}{%
            family={N{ø}rskov},
            familyi={N\bibinitperiod},
@@ -6323,6 +6680,59 @@
       \endverb
       \verb{file}
       \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Hammer, N{\o}rskov - 2000 - Theoretical surface science and catalysis—calculations and concepts.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Hammer2016}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=05fb84fea8fb399bad00dac22e8ee32e}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=324d1f8a67e906f412a5e4c8a5c865b7}{%
+           family={Meinel},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7a63d5f913583d33f033d69181efc7f}{%
+           family={Krahn},
+           familyi={K\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7740ea600ea793ae435146f7d7c46be}{%
+           family={Widdra},
+           familyi={W\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{735e2e23f8c5819d334d0a8947edd44d}
+      \strng{fullhash}{79e524d336888c348e1ac1b3820b6e7d}
+      \strng{bibnamehash}{735e2e23f8c5819d334d0a8947edd44d}
+      \strng{authorbibnamehash}{735e2e23f8c5819d334d0a8947edd44d}
+      \strng{authornamehash}{735e2e23f8c5819d334d0a8947edd44d}
+      \strng{authorfullhash}{79e524d336888c348e1ac1b3820b6e7d}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The complex hexagonal reconstructions of the (001) surfaces of platinum and gold have been under debate for decades. Here, the structural details of the Pt(001) reconstruction have been quantitatively reinvestigated by combining the high resolving power of scanning tunneling microscopy (STM) and spot profile analysis low energy electron diffraction (SPA-LEED). In addition, LEED simulations based on a Moiré approach have been applied. Annealing temperatures around 850 °C yield a superstructure that approaches a commensurable c(26.6×118) substrate registry. It evolves from a Moiré-like buckling of a compressed hexagonal top layer (hex) where atomic rows of the hex run parallel to atomic rows of the square substrate. Annealing at 920 °C stimulates a continuous rotation of the hex where all angles between ±0.7° are simultaneously realized. At temperatures around 1080 °C, the nonrotated hex coexists with a hex that is rotated by about 0.75°. Annealing at temperatures around 1120 °C yield a locking of the hex in fixed rotation angles of 0.77°, 0.88°, and 0.94°. At temperatures around 1170 °C, the Pt(001)-hex-R 0.94° prevails as the energetically most favored form of the rotated hex.}
+      \field{annotation}{The latter has been realized already by Heinz et al. [70] who had shown that the main features of the diffraction pattern of the Pt(001)-hex can be explained by a simple double diffraction process occurring from a hexagonal surface layer and quadratic bulk layers.}
+      \field{issn}{24699969}
+      \field{journaltitle}{Physical Review B}
+      \field{number}{19}
+      \field{title}{{Surface reconstruction of Pt(001) quantitatively revisited}}
+      \field{volume}{94}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.94.195406
       \endverb
     \endentry
     \entry{Handforth1934}{article}{}
@@ -6574,6 +6984,64 @@
       \endverb
       \keyw{ammonia oxidation,reaction mechanism,platinum,rhodium,palladium,gauzes,reaction engineering}
     \endentry
+    \entry{Havu2010}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=a95ab59027ff6b34a64e1651cfef9600}{%
+           family={Havu},
+           familyi={H\bibinitperiod},
+           given={Paula},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05c9ea506a848f5088560859735eea2c}{%
+           family={Blum},
+           familyi={B\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d18a964bbc7d62c0bfc2debadf04ca34}{%
+           family={Havu},
+           familyi={H\bibinitperiod},
+           given={Ville},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b83a879f9a12f61da41a1ac03302d58}{%
+           family={Rinke},
+           familyi={R\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b39fc67a3375766bfd10f3b489a3d909}{%
+           family={Scheffler},
+           familyi={S\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{097f73d4f4f8c748e7eda3c6fc3a3980}
+      \strng{fullhash}{bc75f05a1f44d8becd8f722967d6b980}
+      \strng{bibnamehash}{097f73d4f4f8c748e7eda3c6fc3a3980}
+      \strng{authorbibnamehash}{097f73d4f4f8c748e7eda3c6fc3a3980}
+      \strng{authornamehash}{097f73d4f4f8c748e7eda3c6fc3a3980}
+      \strng{authorfullhash}{bc75f05a1f44d8becd8f722967d6b980}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The low-index surfaces of Au and Pt all tend to reconstruct, a fact that is of key importance in many nanostructure, catalytic, and electrochemical applications. Remarkably, some significant questions regarding their structural energies remain even today, specifically for the large-scale quasihexagonally reconstructed (100) surfaces: rather dissimilar reconstruction energies for Au and Pt in available experiments and experiment and theory do not match for Pt. We here show by all-electron density functional theory that only large enough " (5×N) " approximant supercells capture the qualitative reconstruction energy trend between Au(100) and Pt(100), in contrast to what is often done in the theoretical literature. Their magnitudes are then in fact similar and closer to the measured value for Pt(100); our calculations achieve excellent agreement with known geometric characteristics and provide direct evidence for the electronic reconstruction driving force. {©} 2010 The American Physical Society.}
+      \field{issn}{10980121}
+      \field{journaltitle}{Physical Review B - Condensed Matter and Materials Physics}
+      \field{number}{16}
+      \field{title}{{Large-scale surface reconstruction energetics of Pt(100) and Au(100) by all-electron density functional theory}}
+      \field{volume}{82}
+      \field{year}{2010}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.82.161418
+      \endverb
+    \endentry
     \entry{Haydock1972}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=f6a0b580b3ca272cb81b3105bb794d29}{%
@@ -6779,6 +7247,107 @@
       \verb ScienceDirect Snapshot:/Users/marieingridrichard/Zotero/storage/HUQX66CY/S1047847705001292.html:text/html
       \endverb
       \keyw{cryo-EM,Fourier shell correlation,Information,Resolution criteria,Single particles}
+    \endentry
+    \entry{Heilmann1979}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bc1edaaac15e81e036ca66c18d31a243}{%
+           family={Heilmann},
+           familyi={H\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e971772aafb2c9b7b7d426481cd5341e}{%
+           family={Heinz},
+           familyi={H\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45d0bd8fb04f1a74dbec720c7ccf750e}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{276fb5a2737c198c6b296ddaab8e0723}
+      \strng{fullhash}{d2fdb49ba6f13137cc3c47b6aedfa1fc}
+      \strng{bibnamehash}{d2fdb49ba6f13137cc3c47b6aedfa1fc}
+      \strng{authorbibnamehash}{d2fdb49ba6f13137cc3c47b6aedfa1fc}
+      \strng{authornamehash}{276fb5a2737c198c6b296ddaab8e0723}
+      \strng{authorfullhash}{d2fdb49ba6f13137cc3c47b6aedfa1fc}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The clean and reconstructed surfaces of Pt(100) and Ir(100) were investigated by low energy electron diffraction (LEED). It is shown that two superstructures can be observed in the case of platinum. The structure Pt(100)-hex, which is commonly called Pt(100)-(5 × 20), transforms to Pt(100)-hex-R0.7° above 1100 K. It is shown that this stable phase differs from the first one by a slight rotation of the hexagonal surface layer by 0.7°. For Ir(100) only the well known (1 × 5) superstructure is observed without any rotation of the outer layer. The rotation angle of 0.7° for platinum and the stability of the unrelated structure for iridium can be interpreted by simple calculations of the coordination of surface atoms with those of the second layer. The method assumes that the surface layer is of ideal hexagonal structure in the case of platinum and nearly hexagonal in the case of iridium. The results are in good agreement with the experiment. {©} 1979.}
+      \field{issn}{00396028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{2}
+      \field{title}{{The superstructures of the clean Pt(100) and Ir(100) surfaces}}
+      \field{volume}{83}
+      \field{year}{1979}
+      \field{pages}{487\bibrangedash 497}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/0039-6028(79)90058-X
+      \endverb
+    \endentry
+    \entry{Heinz1982}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e971772aafb2c9b7b7d426481cd5341e}{%
+           family={Heinz},
+           familyi={H\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10b4122f8b7757a67207c1416d35a6b0}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35d24133b3ed7877abda88073f033702}{%
+           family={Strauss},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45d0bd8fb04f1a74dbec720c7ccf750e}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5862312629b1b9411a284499ec75f710}
+      \strng{fullhash}{99566e4347ed3fa395d0a59daf904426}
+      \strng{bibnamehash}{5862312629b1b9411a284499ec75f710}
+      \strng{authorbibnamehash}{5862312629b1b9411a284499ec75f710}
+      \strng{authornamehash}{5862312629b1b9411a284499ec75f710}
+      \strng{authorfullhash}{99566e4347ed3fa395d0a59daf904426}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The structure transition Pt(100) 1 × 1 → hex is observed by means of LEED intensities. The clean metastable 1 × 1 phase is prepared by intermediate NO adsorption. The transition to the hexagonal surface structure, which is an activated process, is initiated by raising the temperature. Integral intensities for both integer order spots as well as for superstructure spots are taken as function of time for constant elevated temperatures and as function of temperature for continuous temperature increase. The development of spot profiles is recorded as well. It turns out that the spot half width of integer order spots remains constant during the transition. Intermediate stages during the structure change show considerable background which is concentrated to streaks and indicates structural disorder. The superstructure spots grow up from the streaks giving first a 1 × 5 pattern from which the final structure results by spot splitting in the very last stage of the transition. Their intensity increase is delayed with respect to the decrease of integer order spots. They occur already with a comparably narrow half width, which remains constant in a first part of the transition. In the second part, especially during the final splitting, a further reduction is observed. The results are qualitatively discussed to give a geometrical model of the reconstruction based on the shift of atomic rows. Quantitative evaluation of the intensity-time dependences results in the activation energy of the transition, $\Delta$E≈1.1 eV. From the temperature dependent measurements the surface Debye temperatures of the 1 × 1 and reconstructed phases are deduced to be roughly equal. {©} 1982.}
+      \field{issn}{03785963}
+      \field{journaltitle}{Applications of Surface Science}
+      \field{number}{C}
+      \field{title}{{Observation of the structural transition Pt(100) 1 × 1 → hex by LEED intensities}}
+      \field{volume}{11-12}
+      \field{year}{1982}
+      \field{pages}{611\bibrangedash 624}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/0378-5963(82)90106-4
+      \endverb
+      \verb{file}
+      \verb :home/david/Documents/PhD/Papers/Pt_AR/heinz1982_Pt100_oxygen.pdf:pdf
+      \endverb
     \endentry
     \entry{Hejral2016}{article}{}
       \name{author}{5}{ul=2}{%
@@ -8742,6 +9311,60 @@
       \verb :/Users/marieingridrichard/Zotero/storage/STENZCRN/paper.html:text/html;Kriegner et al. - 2013 - ixrayutilitiesi a versatile tool for recipr.pdf:/Users/marieingridrichard/Zotero/storage/7ZHRXGCJ/Kriegner et al. - 2013 - ixrayutilitiesi a versatile tool for recipr.pdf:application/pdf
       \endverb
     \endentry
+    \entry{Kuhnke1992}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ac3207c229e5050ea03548f290e86fc9}{%
+           family={Kuhnke},
+           familyi={K\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f493ac21b48bbd6a48adab251b87da09}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fcf01e6ca3f181a7de0ca48a8fd65d3}{%
+           family={Comsa},
+           familyi={C\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fefef7eaa74142e021be86cc56fccb5}{%
+           family={Moritz},
+           familyi={M\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{c967027a0803f5becb822de50f9d9b16}
+      \strng{fullhash}{c07b0553bd1625034d6bfb6dad7b4c21}
+      \strng{bibnamehash}{c967027a0803f5becb822de50f9d9b16}
+      \strng{authorbibnamehash}{c967027a0803f5becb822de50f9d9b16}
+      \strng{authornamehash}{c967027a0803f5becb822de50f9d9b16}
+      \strng{authorfullhash}{c07b0553bd1625034d6bfb6dad7b4c21}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{24}
+      \field{journaltitle}{Phys. Rev. B}
+      \field{month}{06}
+      \field{title}{Top-layer superstructures of the reconstructed Pt(100) surface}
+      \field{volume}{45}
+      \field{year}{1992}
+      \field{pages}{14388\bibrangedash 14391}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.45.14388
+      \endverb
+    \endentry
     \entry{labat_inversion_2015}{article}{}
       \name{author}{11}{}{%
         {{un=0,uniquepart=base,hash=a3fe32d6ad4fbfd46998094d46facb33}{%
@@ -9107,6 +9730,52 @@
       \verb 10.3390/cryst11030312
       \endverb
     \endentry
+    \entry{LAUTERBACH1994}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4ffa1db8204d9c4e241bfe020a06ce14}{%
+           family={Lauterbach},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db4bf8953c081c1261bcc19939e3d207}{%
+           family={Asakura},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=baf64840758b6adcd6da76ec14ed415a}{%
+           family={Rotermund},
+           familyi={R\bibinitperiod},
+           given={H.H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ba4064ca0cbbc13ab3d3eb81abe5afd6}
+      \strng{fullhash}{bf497258855d472296d94e8eb5cc3c87}
+      \strng{bibnamehash}{bf497258855d472296d94e8eb5cc3c87}
+      \strng{authorbibnamehash}{bf497258855d472296d94e8eb5cc3c87}
+      \strng{authornamehash}{ba4064ca0cbbc13ab3d3eb81abe5afd6}
+      \strng{authorfullhash}{bf497258855d472296d94e8eb5cc3c87}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The photoemission electron microscope (PEEM) makes it possible to image a surface via its work function. On a CO-covered Pt(100) surface, we prepared oxygen islands which appear dark in the PEEM image due to their higher work function. As the surface is heated to temperatures above 650 K we observe the conversion of these dark islands into very bright ones with work functions much lower than even that of the clean surface arising from an inverted dipole moment of oxygen atoms beneath the surface. We found an activation energy for this conversion of about 15 kcal/mol. Partially transformed oxygen islands were used to study the reactivity and the formation of this species further. CO and H2 both react with subsurface oxygen rather slowly, while at the interface between the subsurface and the chemisorbed phase, both adsorbents accelerate the conversion of parts of the remaining oxygen atoms towards the subsurface state. In contrast, additional oxygen adsorption does not contribute to a further transformation. We propose a qualitative microscopic model for the formation of subsurface oxygen based on experimental evidence.}
+      \field{issn}{0039-6028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{1}
+      \field{title}{Subsurface oxygen on Pt(100): kinetics of the transition from chemisorbed to subsurface state and its reaction with CO, H2 and O2}
+      \field{volume}{313}
+      \field{year}{1994}
+      \field{pages}{52\bibrangedash 63}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0039-6028(94)91156-8
+      \endverb
+    \endentry
     \entry{Lee2017}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=93300f9fd102cab45ba37ad9d07e66e9}{%
@@ -9149,6 +9818,80 @@
       \verb{file}
       \verb :home/david/Documents/PhD/Papers/15bf682344fef5532a2c7020e7fe94d7.pdf:pdf
       \endverb
+    \endentry
+    \entry{Li2016}{article}{}
+      \name{author}{6}{}{%
+        {{un=1,uniquepart=given,hash=03506414f86ef5c5a7c0bcb4463754c7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hengbo},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=cebe2ad8994feb21aebb812729bf0934}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Wentao},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06523b7d517f4a379f3cec46cfc96353}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c597187df39c4e5db156e2ce5ac73fe}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhengfei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=066434e4a493081e0ed776d3463b1217}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ze},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97ea4addef0a6948a5af2dcd3a97e675}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ffab155e8c8fe01319bf558052bd2036}
+      \strng{fullhash}{20a55013fe80a5afce86e2ed6c72970a}
+      \strng{bibnamehash}{ffab155e8c8fe01319bf558052bd2036}
+      \strng{authorbibnamehash}{ffab155e8c8fe01319bf558052bd2036}
+      \strng{authornamehash}{ffab155e8c8fe01319bf558052bd2036}
+      \strng{authorfullhash}{20a55013fe80a5afce86e2ed6c72970a}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The surface structure of noble metal nanoparticles usually plays a crucial role during the catalytic process in the fields of energy and environment. It has been studied extensively by surface analytic methods, such as scanning tunneling microscopy. However, it is still challenging to secure a direct observation of the structural evolution of surfaces of nanocatalysts in reaction (gas and heating) conditions at the atomic scale. Here we report an in-situ observation of atomic reconstruction on Pt \{100\} surfaces exposed to oxygen in an environmental transmission electron microscope (TEM). Our high-resolution TEM images revealed that Pt-\{100\}-p(2×2)-O reconstruction occurs during the reaction between oxygen atoms and \{100\} facets. A reconstruction model was proposed, and TEM images simulated according to this model with different defocus values match the experimental results well.}
+      \field{issn}{10020071}
+      \field{issue}{3}
+      \field{journaltitle}{Progress in Natural Science: Materials International}
+      \field{title}{Observation of Pt-\{100\}-p(2×2)-O reconstruction by an environmental TEM}
+      \field{volume}{26}
+      \field{year}{2016}
+      \field{pages}{308\bibrangedash 311}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/j.pnsc.2016.05.009
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.pnsc.2016.05.009
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.pnsc.2016.05.009
+      \endverb
+      \keyw{Environmental transmission electron microscopy (ET,In Situ TEM,Pt nanoparticles,Surface reconstruction}
     \endentry
     \entry{Li2020}{article}{}
       \name{author}{19}{}{%
@@ -9304,12 +10047,12 @@
            given={W.X.},
            giveni={W\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=4479c9971d09a8f94f6dbef3cdf9cb0e}{%
+        {{un=1,uniquepart=given,hash=4479c9971d09a8f94f6dbef3cdf9cb0e}{%
            family={Hammer},
            familyi={H\bibinitperiod},
            given={B.},
            giveni={B\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{ee14c6f4ba36cf2b82f38ecabe5cb4d0}
       \strng{fullhash}{ee14c6f4ba36cf2b82f38ecabe5cb4d0}
@@ -9968,6 +10711,46 @@
       \endverb
       \keyw{Direct and inverse approaches,Fit,Machine learning,PCA,Spectral decomposition,XANES}
     \endentry
+    \entry{Mase1992}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9dbfb8c36c54475b8b7474a98534fd44}{%
+           family={Mase},
+           familyi={M\bibinitperiod},
+           given={Kazuhiko},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=910c7683bad29f2b5c131aa7a54dee64}{%
+           family={Murata},
+           familyi={M\bibinitperiod},
+           given={Yoshitada},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{45535ff959df7773f7dc6fc49548cd52}
+      \strng{fullhash}{45535ff959df7773f7dc6fc49548cd52}
+      \strng{bibnamehash}{45535ff959df7773f7dc6fc49548cd52}
+      \strng{authorbibnamehash}{45535ff959df7773f7dc6fc49548cd52}
+      \strng{authornamehash}{45535ff959df7773f7dc6fc49548cd52}
+      \strng{authorfullhash}{45535ff959df7773f7dc6fc49548cd52}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{NO adsorption on a single-domain Pt(001)-(20 × 5) surface at 80–410 K has been studied with low-energy electron diffraction (LEED). The restructuring of the topmost Pt-(20 × 5) layer and the growth process of the adsorbed NO layer are found to depend on the surface temperature. At 330–390 K, a double-domain NO-c(2 × 4) layer grows while restructuring the Pt-(20 × 5) layer into the (1 × 1) structure. On the other hand, a single-domain NO-c(2 × 4) layer grows anisotropically at 230–270 K. At 80 K, the (20 × 5) → (1 × 1) restructuring of the topmost Pt layer occurs suddenly in an NO exposure range of 0.8-1.0 L. A model for the single-domain Pt(001)-(20 × 5) surface formation is presented. The restructuring of the Pt(001)-(20 × 5) surface induced by NO adsorption is discussed.}
+      \field{issn}{0039-6028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{1}
+      \field{title}{LEED study of NO adsorption-induced restructuring of a single-domain Pt(001)-(20 × 5) surface at 80–410 K}
+      \field{volume}{277}
+      \field{year}{1992}
+      \field{pages}{97\bibrangedash 108}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0039-6028(92)90615-D
+      \endverb
+    \endentry
     \entry{Mastropietro2011}{article}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=8292f0e9f14588272f05c56f1ba4e34b}{%
@@ -10310,6 +11093,59 @@
       \field{year}{2017}
       \field{pages}{358\bibrangedash 359}
       \range{pages}{2}
+    \endentry
+    \entry{McMillan2005}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=36d4a84bd0f1166b29b18444c6050882}{%
+           family={McMillan},
+           familyi={M\bibinitperiod},
+           given={Noah},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a784dce5a6677c8f2af90ace9069519}{%
+           family={Lele},
+           familyi={L\bibinitperiod},
+           given={Tanmay},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d6c492612ff1acf7d2b3aa8dd11cd18}{%
+           family={Snively},
+           familyi={S\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0cbacebebb2ce1f0e3d16a9fbbfd30d}{%
+           family={Lauterbach},
+           familyi={L\bibinitperiod},
+           given={Jochen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{12867bcbc29e7b7003f1eea9073c4e0b}
+      \strng{fullhash}{a1a8f0e8ccdffb14c8cb3d7f5c3d3773}
+      \strng{bibnamehash}{12867bcbc29e7b7003f1eea9073c4e0b}
+      \strng{authorbibnamehash}{12867bcbc29e7b7003f1eea9073c4e0b}
+      \strng{authornamehash}{12867bcbc29e7b7003f1eea9073c4e0b}
+      \strng{authorfullhash}{a1a8f0e8ccdffb14c8cb3d7f5c3d3773}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Spatially resolved techniques, such as photoemission electron microscopy (PEEM) and ellipsomicroscopy for surface imaging (EMSI), have been particularly useful in the investigation of pattern formation during CO oxidation on platinum catalysts. One surprising result of these studies has been the discovery of subsurface oxygen on Pt(1 0 0). The formation of subsurface oxygen has been reported previously on Pt(1 0 0) during CO oxidation at low pressures (<1 × 10-4 Torr). This communication reports the formation of subsurface oxygen at intermediate pressures (∼0.1 Torr). These observations show that subsurface oxygen plays a role in catalytic CO oxidation and pattern formation, which has implications for catalysts operated at higher pressures. New microkinetic models of CO oxidation that incorporate subsurface oxygen are discussed. Results of these models are qualitatively similar to experimental observations of subsurface oxygen, confirming the importance of this species in the reaction dynamics. {©} 2005 Elsevier B.V. All rights reserved.}
+      \field{issn}{09205861}
+      \field{journaltitle}{Catalysis Today}
+      \field{number}{2}
+      \field{title}{{Subsurface oxygen formation on Pt(1 0 0): Experiments and modeling}}
+      \field{volume}{105}
+      \field{year}{2005}
+      \field{pages}{244\bibrangedash 253}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.cattod.2005.02.042
+      \endverb
+      \keyw{CO oxidation,EMSI,PEEM,Pattern formation,Pt(100),Subsurface oxygen}
     \endentry
     \entry{Meirer2018}{article}{}
       \name{author}{2}{}{%
@@ -10913,55 +11749,6 @@
       \verb 10.1007/s11244-009-9314-1
       \endverb
       \keyw{Heterogeneous catalysis,In situ characterization techniques,Nano-particles}
-    \endentry
-    \entry{Moore1941}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=36e931dcef8a811df7e60f658f0dcb80}{%
-           family={Moore\bibnamedelima Jr.},
-           familyi={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-           given={Walter\bibnamedelima J.},
-           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=57002dec049d71166a4985e677fc4d28}{%
-           family={Pauling},
-           familyi={P\bibinitperiod},
-           given={Linus},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{3b5befc42b8c54f832976c5baa413d81}
-      \strng{fullhash}{3b5befc42b8c54f832976c5baa413d81}
-      \strng{bibnamehash}{3b5befc42b8c54f832976c5baa413d81}
-      \strng{authorbibnamehash}{3b5befc42b8c54f832976c5baa413d81}
-      \strng{authornamehash}{3b5befc42b8c54f832976c5baa413d81}
-      \strng{authorfullhash}{3b5befc42b8c54f832976c5baa413d81}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0002-7863}
-      \field{journaltitle}{Journal of the American Chemical Society}
-      \field{month}{05}
-      \field{number}{5}
-      \field{title}{The Crystal Structures of the Tetragonal Monoxides of Lead, Tin, Palladium, and Platinum}
-      \field{volume}{63}
-      \field{year}{1941}
-      \field{pages}{1392\bibrangedash 1394}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1021/ja01850a074
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1021/ja01850a074
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1021/ja01850a074
-      \endverb
     \endentry
     \entry{moritz_van_hove_2022}{inbook}{}
       \name{author}{2}{}{%
@@ -13288,6 +14075,53 @@
       \endverb
       \keyw{Kinetics of unimolecular catalytic reactions,enzyme kinetics,Michaelis–Menton kinetics,inhibition by product,kinetics of bimolecular catalytic reactions,Langmuir–Hinshelwood mechanism,true and apparent activation energies,Eley–Rideal mechanism,Mars–van Krevelen mechanism,kinetics of hydrocarbon oxidation,pressure functions,kinetics of ammonia synthesis and decomposition,kinetics of ethane hydrogenolysis,kinetics of methanation,kinetics of formic acid decomposition}
     \endentry
+    \entry{Rotermund1993}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=baf64840758b6adcd6da76ec14ed415a}{%
+           family={Rotermund},
+           familyi={R\bibinitperiod},
+           given={H.\bibnamedelimi H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ffa1db8204d9c4e241bfe020a06ce14}{%
+           family={Lauterbach},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f223036ca7c5ee3ef1cbc0da87fa588}{%
+           family={Haas},
+           familyi={H\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{72392f538971454480a7c8aef49469e9}
+      \strng{fullhash}{9b96028241f6c1ffa21c6bbed89d0d7b}
+      \strng{bibnamehash}{9b96028241f6c1ffa21c6bbed89d0d7b}
+      \strng{authorbibnamehash}{9b96028241f6c1ffa21c6bbed89d0d7b}
+      \strng{authornamehash}{72392f538971454480a7c8aef49469e9}
+      \strng{authorfullhash}{9b96028241f6c1ffa21c6bbed89d0d7b}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{PhotoEmission Electron Microscopy (PEEM) enables imaging a surface via its work function. If a CO covered Pt(100) surface is exposed to oxygen patches are formed which appear dark in the PEEM image due to their high work function. As the surface is heated to temperatures above 650 K we observe the conversion of these dark islands into very bright ones with work functions much lower than even that of the clean surface. These findings are attributed to a change in the dipole moment of the adsorbed oxygen induced by their migration beneath the surface. A total work-function decrease of up to 1.2 eV has been evaluated independently using a Scanning Photoemission Microscope (SPM). The properties of this new kind of oxygen were also further investigated with thermal desorption spectroscopy and with Auger-electron spectroscopy.}
+      \field{issn}{1432-0630}
+      \field{journaltitle}{Applied Physics A}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{The formation of subsurface oxygen on Pt(100)}
+      \field{volume}{57}
+      \field{year}{1993}
+      \field{pages}{507\bibrangedash 511}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1007/BF00331749
+      \endverb
+    \endentry
     \entry{Doniach_1970}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2dca086839a50d8fe012027b1e0dbe82}{%
@@ -14922,6 +15756,45 @@
       \verb Ulvestad et al. - 2016 - In Situ 3D Imaging of Catalysis Induced Strain in .pdf:/Users/marieingridrichard/Zotero/storage/FGPQC7T2/Ulvestad et al. - 2016 - In Situ 3D Imaging of Catalysis Induced Strain in .pdf:application/pdf
       \endverb
     \endentry
+    \entry{VanBeurden2004}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=44ccf4ba488a78f8596edb548cc83cb8}{%
+           family={{Van Beurden}},
+           familyi={V\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b6d3981d4c7de35a264769feda93a26}{%
+           family={Kramer},
+           familyi={K\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{009a0c425756da6cc695debefefa6802}
+      \strng{fullhash}{009a0c425756da6cc695debefefa6802}
+      \strng{bibnamehash}{009a0c425756da6cc695debefefa6802}
+      \strng{authorbibnamehash}{009a0c425756da6cc695debefefa6802}
+      \strng{authornamehash}{009a0c425756da6cc695debefefa6802}
+      \strng{authorfullhash}{009a0c425756da6cc695debefefa6802}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00219606}
+      \field{journaltitle}{Journal of Chemical Physics}
+      \field{number}{5}
+      \field{title}{{Atomistic mechanisms for the (1×1) - hex surface phase transformations of Pt(100)}}
+      \field{volume}{121}
+      \field{year}{2004}
+      \field{pages}{2317\bibrangedash 2325}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1063/1.1763834
+      \endverb
+    \endentry
     \entry{NumPy}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=aabb7988a00b0c59e52a93e6e54773e8}{%
@@ -14967,6 +15840,82 @@
       \verb 10.1109/MCSE.2011.37
       \endverb
       \keyw{data structures,high level languages,mathematics c}
+    \endentry
+    \entry{VANHOVE1981}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=2f4cba4a56976cfb7576c70988cca9c7}{%
+           family={{Van Hove}},
+           familyi={V\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffc90465d8088c9ee3b8f111e099f656}{%
+           family={Koestner},
+           familyi={K\bibinitperiod},
+           given={R.J.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef666dab4c6f5a1551338e2b7b59c7e9}{%
+           family={Stair},
+           familyi={S\bibinitperiod},
+           given={P.C.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=210372bc61165584706047e7f18ce898}{%
+           family={Bibérian},
+           familyi={B\bibinitperiod},
+           given={J.P.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e6a0444f4664a7fb0a58148eacdb2e4}{%
+           family={Kesmodel},
+           familyi={K\bibinitperiod},
+           given={L.L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=415418f7969ed73e8eb1c95874795f9c}{%
+           family={BartoŠ},
+           familyi={B\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59fdc7b5a84c9f6dc601b20a512cdd50}{%
+           family={Somorjai},
+           familyi={S\bibinitperiod},
+           given={G.A.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c036f5522b2543b7f0d7abe3027410ff}
+      \strng{fullhash}{5e09499b18d72465aa9be0d75affcda9}
+      \strng{bibnamehash}{c036f5522b2543b7f0d7abe3027410ff}
+      \strng{authorbibnamehash}{c036f5522b2543b7f0d7abe3027410ff}
+      \strng{authornamehash}{c036f5522b2543b7f0d7abe3027410ff}
+      \strng{authorfullhash}{5e09499b18d72465aa9be0d75affcda9}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The structures of the reconstructed Ir(100), Pt(100) and Au(100) surfaces have been investigated. Low energy electron diffraction (LEED) patterns are analyzed and LEED intensity versus energy data are measured. A variety of structures is observed by LEED: Ir(100) exhibits a relatively simple (1 × 5) pattern; Pt(100) shows a series of closely related patterns, a typical representative of which has a (141−15) structure; Au(100) usually exhibits a c(26 × 68) pattern, often inaccurately described in the literature as a (20 × 5) pattern. The reconstruction of Au(111) is also considered for comparison. Various plausible structural models are discussed, while laser simulation is used to lessen the number of these models. The analysis is completed in a companion paper where LEED intensity calculations are reported to determine the atomic locations.}
+      \field{issn}{0039-6028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{1}
+      \field{title}{The surface reconstructions of the (100) crystal faces of iridium, platinum and gold: I. Experimental observations and possible structural models}
+      \field{volume}{103}
+      \field{year}{1981}
+      \field{pages}{189\bibrangedash 217}
+      \range{pages}{29}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0039-6028(81)90107-2
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0039602881901072
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0039602881901072
+      \endverb
     \endentry
     \entry{VanSpronsen2017}{article}{}
       \name{author}{3}{}{%
