@@ -10,18 +10,18 @@
 \contentsline {table}{\numberline {2.5}{\ignorespaces Diameter of the coherence focusing optics used to increase the coherent flux on the sample. \relax }}{58}{table.caption.44}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Thermal conductivity in \unit {\mW \per \meter \per \kelvin } of gases \blx@tocontentsinit {0}\parencite {ThermalConductivityOfGases}.\relax }}{77}{table.caption.66}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces \relax }}{78}{table.caption.68}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Different atmospheres used to probe the ammonia oxidation on Pt nanoparticles with BCDI.\relax }}{77}{table.caption.68}%
 \contentsline {table}{\numberline {3.3}{\ignorespaces Scattering angle $\theta $, scattering vector magnitude $q$ and intensity of the scattered waves for different Bragg peaks as a function of the increasing scattering angle, computed for an energy of \qty {18.45}{\keV } using eq. \ref {eq:Bragglaw} and eq. \ref {eq:Fcrystal}. \relax }}{81}{table.caption.70}%
 \contentsline {table}{\numberline {3.4}{\ignorespaces Example of algorithm chain used in BCDI for the phase retrieval.\relax }}{90}{table.caption.79}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Different atmospheres used to probe the ammonia oxidation on Pt (100) and Pt (111) single crystals with SXRD.\relax }}{106}{table.caption.96}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Different atmospheres used to probe the ammonia oxidation on Pt (100) and Pt (111) single crystals with NAP-XPS.\relax }}{107}{table.caption.97}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Different atmospheres used to probe the ammonia oxidation on Pt (100) and Pt (111) single crystals with SXRD.\relax }}{105}{table.caption.96}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Different atmospheres used to probe the ammonia oxidation on Pt (100) and Pt (111) single crystals with NAP-XPS.\relax }}{106}{table.caption.97}%
 \contentsline {table}{\numberline {4.3}{\ignorespaces Experimental values taken from \blx@tocontentsinit {0}\cite {McBride1991} for \ce {PtO}, from \blx@tocontentsinit {0}\cite {MULLER1968} for \ce {Pt_3O_4} and $\alpha $-\ce {PtO_2}, and from \blx@tocontentsinit {0}\cite {Weber1990} for $\beta $-\ce {PtO_2}. Theoretical values and table adapted from \blx@tocontentsinit {0}\cite {Seriani2006}. \relax }}{111}{table.caption.102}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces \relax }}{122}{table.caption.115}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces \relax }}{132}{table.caption.129}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces \relax }}{121}{table.caption.115}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces \relax }}{131}{table.caption.129}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Symbols used in crystallography for the description of real and reciprocal space structures. Subscript $_s$ used to distinguish surface from underlying structure \blx@tocontentsinit {0}\parencite {Wood1964, Willmott}. \relax }}{153}{table.caption.134}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Symbols used in crystallography for the description of real and reciprocal space structures. Subscript $_s$ used to distinguish surface from underlying structure \blx@tocontentsinit {0}\parencite {Wood1964, Willmott}. \relax }}{151}{table.caption.134}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {B.1}{\ignorespaces Output of the \textit {FacetAnalyzer} plugin used in \textit {Paraview} when extracting the facets on different particle surfaces for the scan 1414 at \qty {25}{\degreeCelsius } under Argon atmosphere. \relax }}{154}{table.caption.135}%
+\contentsline {table}{\numberline {B.1}{\ignorespaces Output of the \textit {FacetAnalyzer} plugin used in \textit {Paraview} when extracting the facets on different particle surfaces for the scan 1414 at \qty {25}{\degreeCelsius } under Argon atmosphere. \relax }}{152}{table.caption.135}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {C.1}{\ignorespaces Interplanar spacing values observed in reciprocal maps for different oxygen pressure and exposition times ({\textcolor {green}{0}}). Non observed peaks are in red ({\textcolor {red}{x}}), non visible peaks are represented by the acronym \text {nv}. The errors on the peak position are computed by considering the positions of similar peaks in q-space. RHSs stands for hexagonal rotated structures. \relax }}{170}{table.caption.146}%
+\contentsline {table}{\numberline {C.1}{\ignorespaces Interplanar spacing values observed in reciprocal maps for different oxygen pressure and exposition times ({\textcolor {green}{0}}). Non observed peaks are in red ({\textcolor {red}{x}}), non visible peaks are represented by the acronym \text {nv}. The errors on the peak position are computed by considering the positions of similar peaks in q-space. RHSs stands for hexagonal rotated structures. \relax }}{168}{table.caption.146}%

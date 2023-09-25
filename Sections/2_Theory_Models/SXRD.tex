@@ -1,9 +1,9 @@
 \section{SXRD} \label{sec:SXRD}
 
-Surface x-ray diffraction is a technique used to study the crystal structure and surface morphology of materials by analyzing the diffraction pattern formed when x-rays interact with the surface of the material.
+Surface x-ray diffraction is a technique used to study the crystal structure and surface morphology of materials by analysing the diffraction pattern formed when x-rays interact with the surface of the material.
 In surface x-ray diffraction, the incident photon beam is directed towards the sample surface at a grazing angle of incidence to lower the penetration depth of the x-rays in the material, typically probing the top few atomic layers.
 The incident angle can be chosen to coincide with the critical angle of the material (sec. \ref{sec:RefractionReflectionAbsorption}) to increase the intensity of the scattered beam due to total reflection and to lower the bulk contribution to the intensity in comparison with the surface contribution \parencite{FEIDENHANSL1989105,moritz_van_hove_2022}.
-However, since the intensity becomes so dependent on the incident angle, a missalignement of the incident beam can lead to relevant errors in the scattered beam intensity, the surface alignment is critical during surface x-ray diffraction experiments.
+However, since the intensity becomes so dependent on the incident angle, a misalignment of the incident beam can lead to relevant errors in the scattered beam intensity, the surface alignment is critical during surface x-ray diffraction experiments.
 The x-rays interact with the atoms in the topmost layer of the material and undergo scattering.
 The intensity of the scattered x-rays is then measured as a function of the scattering angle.
 
@@ -19,14 +19,14 @@ The aim of the technique is to obtain geometrical information of the surface at 
     \includegraphics[width=\textwidth]{Figures/introduction/SurfaceReconstructions.pdf}
     \caption{
     (a) Top view of the crystal surface, the last atomic layer (blue) does not have the same periodicity as the bulk layers (red).
-    (b) HK plane in the reciprocal space, diffraction peaks are represented as small red and blue dots for the bulk and surface reconstruction, respectively. The bulk reciprocal lattice is represented in gray.
+    (b) HK plane in the reciprocal space, diffraction peaks are represented as small red and blue dots for the bulk and surface reconstruction, respectively. The bulk reciprocal lattice is represented in grey.
     }
     \label{fig:SurfaceReconstructions}
 \end{figure}
 
 An example of surface reconstructions is given in fig. \ref{fig:SurfaceReconstructions} where the latest atomic layer (blue) does not have the same periodicity as the bulk layers (red).
-This phenomenom gives rise to additional signals at positions defined by how the periodicity of the reconstruction relates to the periodicity of the bulk structure in the $\vec{a}$ and $\vec{b}$ directions.
-In this example, the surface reconstructions can be described by the (\numproduct{2 x 4}) matrix \parencite{Wood1964}, that quantifies the relation between the surface reconstuction unit vectors ($\vec{a}_r, \vec{b}_r$) and the bulk unit vectors ($\vec{a}, \vec{b}$).
+This phenomenon gives rise to additional signals at positions defined by how the periodicity of the reconstruction relates to the periodicity of the bulk structure in the $\vec{a}$ and $\vec{b}$ directions.
+In this example, the surface reconstructions can be described by the (\numproduct{2 x 4}) matrix \parencite{Wood1964}, that quantifies the relation between the surface reconstruction unit vectors ($\vec{a}_r, \vec{b}_r$) and the bulk unit vectors ($\vec{a}, \vec{b}$).
 
 \subsection{Crystal truncation rods} \label{sec:CTR}
 
@@ -55,7 +55,7 @@ $A(\vec{q})$ is defined as the scattering amplitude of an infinite 2D layer of a
 
 $\beta_{abs}$ is the absorption parameter.
 The intensity around a Bragg peak can then be written as a function of $q_z$, \textit{i.e.} the deviation from the Laue condition in $\vec{c}$.
-$q = q_z + 2\pi l/|\vec{c}|$, $l$ is the Miller indice of the nearest Bragg peak.
+$q = q_z + 2\pi l/|\vec{c}|$, $l$ is the Miller index of the nearest Bragg peak.
 
 \begin{equation}
     \label{eq:CTR2}
@@ -78,8 +78,8 @@ This expression is only valid within the kinematical approach to diffraction.
 \end{figure}
 
 The position in the reciprocal space that is exactly between Bragg peaks linked by the CTR can be called the \textit{anti-Bragg} \parencite{Robinson1991}, where the signal scattered from the surface is maximum compared to the signal scattered from the bulk which interferes destructively.
-This region, in which the surface structural information in contained, is accurelately described using the kinematical diffraction theory and can therefore be described with eq. \ref{eq:CTR2}, in contrast with the Bragg peaks where multiple scattering cannot be ignored \parencite{Kaganer2007}.
-To be able to analyze CTRs, it is crucial to be able to obtain a good signal to noise ratio when measuring the anti-Bragg since the intensity difference with the Bragg peak can reach 8 orders of magnitude \parencite{Fadenberger2010InSO}.
+This region, in which the surface structural information in contained, is accurately described using the kinematical diffraction theory and can therefore be described with eq. \ref{eq:CTR2}, in contrast with the Bragg peaks where multiple scattering cannot be ignored \parencite{Kaganer2007}.
+To be able to analyse CTRs, it is crucial to be able to obtain a good signal to noise ratio when measuring the anti-Bragg since the intensity difference with the Bragg peak can reach 8 orders of magnitude \parencite{Fadenberger2010InSO}.
 This can become difficult when the surface is roughened during the growth of surface layers (such as oxide growth), phase transitions, or due to the adsorption of molecules during catalysis \parencite{Zhdanov1997, Zhdanov1998}.
 It can also be difficult to obtain a flat surface during polishing \parencite{MUSKET1982143}.
 
@@ -90,7 +90,7 @@ This model only serves to describe the roughness of the bulk structure and does 
 In surface x-ray diffraction, lattice strain is defined as the displacement of the surface atomic layers with respect to the bulk unit cell lattice parameters.
 Positive or negative strain, also called surface relaxation when due to the minimisation of the surface energy from the presence of an ad-atom \parencite{Gupta1981}, has the effect of changing the position of the CTR minimum and of skewing the shape of the CTR as illustrated in fig. \ref{fig:CTRSimulation}.
 
-Surface reconstructions also yield crystal truncation rods in the reciprocal space, perpendicular to the nodes of the reconstructed lattice, called super-stucture rods (SSR).
+Surface reconstructions also yield crystal truncation rods in the reciprocal space, perpendicular to the nodes of the reconstructed lattice, called super-structure rods (SSR).
 These rods are structured in $l$ if the width of the surface reconstruction in $\vec{c}$ is more than a few unit cells.
 Otherwise, the scattered signal corresponds to a diffuse signal slowly decreasing as a function of $l$ instead.
 \textcolor{Important}{ref or simu}
@@ -99,8 +99,8 @@ To resume, analysing the scattered signal as a function of $l$ (out-of-plane mea
 \subsection{Data collection} \label{sec:DataCollectionSXRD}
 
 Visualising how the measurements of the scattered x-rays is performed with a diffractometer can quickly become complicated in three dimensions.
-The Ewald sphere is a visual representation of the diffraction process used in crystallography to visualize and interpret the diffraction of x-rays by a single crystal.
-It is a geometric construction that represents the reciprocal space constructed from  the crystal lattice, centered at the origin of reciprocal space and with a radius equal to the magnitude of the incident wavevector $\vec{k}_i$.
+The Ewald sphere is a visual representation of the diffraction process used in crystallography to visualise and interpret the diffraction of x-rays by a single crystal.
+It is a geometric construction that represents the reciprocal space constructed from  the crystal lattice, centred at the origin of reciprocal space and with a radius equal to the magnitude of the incident wavevector $\vec{k}_i$.
 
 \begin{figure}[!htb]
     \centering
@@ -159,17 +159,17 @@ The integrated intensity of a Bragg peak in photons/second for a perfectly colli
     I_{sc} = \Phi r_0^2 P |F(\vec{q})|^2 \frac{V_s}{V_c} \times L(\lambda, \theta)\\
     % L(\lambda, \theta) = \frac{\lambda^3}{v_c}\frac{1}{sin(2\theta)}
 \end{gather}
-$\Phi$ is the incoming photon flux, $P$ the polarization factor, $F(\vec{q})$ the structure factor, $V_s$ is the scattering volume and $V_c$ the volume of the unit cell.
+$\Phi$ is the incoming photon flux, $P$ the polarisation factor, $F(\vec{q})$ the structure factor, $V_s$ is the scattering volume and $V_c$ the volume of the unit cell.
 
 The last term in eq. \ref{eq:ScatteredIntensity} is also called the Lorentz factor and is related to how the scattered intensity is integrated around the Bragg peak due to the distortion of the intensity distribution in the angular space.
 The Lorentz factor changes depending on how the data integration is performed \parencite{Robach2000, Drnec2014}.
 Therefore, it is best to switch first from angular-space to q-space to avoid this correction, this is performed \textit{via} the use of programs such as BINoculars \parencite{Roobol2015}.
 
 Understanding the dependence of the scattered intensity on the experimental parameters is extremely important when comparing experimental data with simulated structure factors.
-If the square-root of the integrated intensities is proportionnal to the structure factor modulus, the intensity must be corrected beforehand for the polarization factor, especially when comparing different crystal truncation rods.
+If the square-root of the integrated intensities is proportional to the structure factor modulus, the intensity must be corrected beforehand for the polarisation factor, especially when comparing different crystal truncation rods.
 Moreover, in the case of crystals that are larger than the beam-footprint, illumination effects must be considered since the scattering volume will depend on the incident angle between $\vec{k}_i$ and the surface plane.
 
-\subsection{X-ray reflectometry}\label{sec:XRR}
+\subsection{X-ray reflectivity}\label{sec:XRR}
 
 To perform a measurement perpendicular to the $[0, 0]$ node in the horizontal geometry, $\beta$ must be tuned together with the out-of-plane angle of the detector $\delta$ (fig. \ref{fig:EwaldSphereSpecular}).
 This kind of measurement is called \textit{specular} measurement, for which the direction of the scattering vector is only perpendicular to the surface, and yields information about the density of the material in the direction perpendicular to the surface.
@@ -178,16 +178,16 @@ This kind of measurement is called \textit{specular} measurement, for which the 
     \centering
     \includegraphics[trim=75 100 75 100, clip, width=0.49\textwidth]{Figures/introduction/EwaldSphereSpecular3D.png}
     \caption{
-    Ewald sphere represented together with the reciprocal lattice before (green) and after (blue) rotating the sample to satify the Laue condition.
-    Measurement along the (0, 0, L) direction is performed by simulatenously rotating the inplane sample angle $\beta$ while the rotation of the in-plane detector angle $\delta$ follows the relation $\delta=2\beta$.
+    Ewald sphere represented together with the reciprocal lattice before (green) and after (blue) rotating the sample to satisfy the Laue condition.
+    Measurement along the (0, 0, L) direction is performed by simultaneously rotating the in-plane sample angle $\beta$ while the rotation of the in-plane detector angle $\delta$ follows the relation $\delta=2\beta$.
     }
     \label{fig:EwaldSphereSpecular}
 \end{figure}
 
-A description of the theory behind X-ray reflectometry which stems from the interaction between the incident, reflected, and transmitted plane waves at each interface can be found in several textbooks \parencite{Willmott}.
+A description of the theory behind X-ray reflectivity which stems from the interaction between the incident, reflected, and transmitted plane waves at each interface can be found in several textbooks \parencite{Willmott}.
 To resume, the measured intensity $R$ is equal to the square of the reflectivity amplitude $R=|r|^2$.
-After the critical angle $\alpha_c$ (sec. \ref{sec:RefractionReflectionAbsorption}), the intensity decreases as a function of the inverse fourth power of the incident angle, and is proportionnal to the square of the electronic density.
-A rough surface will lead to an additionnal exponential decrease in the intensity after the critical angle when the formation of a new layer will lead to interferences between the waves reflected on both surfaces which will result in the so called \textit{Kiessig} fringes \parencite{Kiessig1931}, of width proportional to the thickness of the new layer.
+After the critical angle $\alpha_c$ (sec. \ref{sec:RefractionReflectionAbsorption}), the intensity decreases as a function of the inverse fourth power of the incident angle, and is proportional to the square of the electronic density.
+A rough surface will lead to an additional exponential decrease in the intensity after the critical angle when the formation of a new layer will lead to interferences between the waves reflected on both surfaces which will result in the so called \textit{Kiessig} fringes \parencite{Kiessig1931}, of width proportional to the thickness of the new layer.
 
 Information about the formation of new surface layers as well as the roughness and thickness of each layer can be extracted by fitting a model to the scattered intensity.
 The technique can easily be used together with surface x-ray diffraction since it does not require a change of instrumental setup, and brings complementary information about the average roughness and thickness of surface layers.

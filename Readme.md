@@ -21,3 +21,5 @@ Nomenclature: https://www.overleaf.com/learn/latex/Nomenclatures
 * add a, b, c etc to maps
 * ask alina why some peaks are missing for pt3o4
 * structure factor not intensity for CTR !
+* et al not italic
+* reflectivity/reflectometry

@@ -58,43 +58,43 @@
 \contentsline {section}{\numberline {3.1}Introduction}{75}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Synthetizing platinum nanoparticle}{76}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Catalysis reactor calibration}{76}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Measuring the average and ensemble behaviour of Pt nanoparticles}{78}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Experimental setup for SXRD experiments in the vertical geometry}{79}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.2}Measuring the average behaviour of Pt nanoparticles}{78}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Experimental setup for SXRD experiments in the vertical geometry}{78}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Epitaxial relationship between Pt and $\alpha $-\ce {Al_2O_3}}{79}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Particle stability}{80}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Crystal truncation rods}{83}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Facet signal}{84}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}Temperature ramp}{88}{section.3.3}%
+\contentsline {subsection}{\numberline {3.2.3}Particle stability}{79}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Crystal truncation rods}{81}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Facet signal}{83}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Temperature ramp}{87}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Experimental setup for BCDI experiments in the vertical geometry}{88}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Shape evolution}{90}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Strain evolution}{95}{subsection.3.3.3}%
-\contentsline {subsubsection}{Determination of strain}{96}{section*.86}%
+\contentsline {subsubsection}{Determination of strain}{95}{section*.86}%
 \contentsline {subsubsection}{Homogeneous strain}{96}{section*.87}%
-\contentsline {subsubsection}{Heterogeneous strain}{98}{section*.89}%
-\contentsline {section}{\numberline {3.4}Measuring the oxidation of ammonia}{101}{section.3.4}%
+\contentsline {subsubsection}{Heterogeneous strain}{96}{section*.89}%
+\contentsline {section}{\numberline {3.4}Measuring the oxidation of ammonia}{100}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Mass spectromety results}{101}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Strain field energy}{102}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.2}Strain field energy}{101}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Conclusion and perspectives}{102}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Structural and chemical evolution of Pt single crystals during the oxidation of ammonia}{105}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{105}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Experimental setup for SXRD experiments in the horizontal geometry}{107}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Experimental setup for X-ray photoelectron spectroscopy}{108}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Surface x-ray diffraction on a Pt (111) single crystal}{108}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Ammonia oxidation cycle}{108}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Oxide growth monitored under \qty {5}{\milli \bar } of \ce {O_2}}{115}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Surface roughness and surface relaxation effects}{118}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Surface species presence}{121}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}Surface x-ray diffraction on a Pt (100) single crystal}{123}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Ammonia oxidation cycle}{123}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Surface roughness and surface relaxation effects}{128}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Surface species presence}{132}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}Conclusion and perspectives}{132}{section.4.4}%
-\contentsline {chapter}{\numberline {A}Diffraction vocabulary}{153}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Nanoparticles study}{154}{appendix.B}%
-\contentsline {section}{\numberline {B.1}Temperature ramp}{154}{section.B.1}%
-\contentsline {section}{\numberline {B.2}SXRD on Pt nanoparticles}{154}{section.B.2}%
-\contentsline {section}{\numberline {B.3}Mass spectrometer data during ammonia oxidation on Pt nanoparticles}{154}{section.B.3}%
-\contentsline {subsection}{\numberline {B.3.1}Non patterned sample}{154}{subsection.B.3.1}%
-\contentsline {subsection}{\numberline {B.3.2}Non patterned sample}{154}{subsection.B.3.2}%
-\contentsline {section}{\numberline {B.4}3D views of reconstructed Pt nanoparticles during the oxidation of ammonia}{154}{section.B.4}%
-\contentsline {chapter}{\numberline {C}Single crystals study}{169}{appendix.C}%
+\contentsline {chapter}{\numberline {4}Structural and chemical evolution of Pt single crystals during the oxidation of ammonia}{104}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{104}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Experimental setup for SXRD experiments in the horizontal geometry}{106}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Experimental setup for X-ray photoelectron spectroscopy}{107}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Surface x-ray diffraction on a Pt (111) single crystal}{107}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Ammonia oxidation cycle}{107}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Oxide growth monitored under \qty {5}{\milli \bar } of \ce {O_2}}{114}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Surface roughness and surface relaxation effects}{117}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Surface species presence}{120}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Surface x-ray diffraction on a Pt (100) single crystal}{122}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Ammonia oxidation cycle}{122}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Surface roughness and surface relaxation effects}{127}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Surface species presence}{131}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Conclusion and perspectives}{131}{section.4.4}%
+\contentsline {chapter}{\numberline {A}Diffraction vocabulary}{151}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Nanoparticles study}{152}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Temperature ramp}{152}{section.B.1}%
+\contentsline {section}{\numberline {B.2}SXRD on Pt nanoparticles}{152}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Mass spectrometer data during ammonia oxidation on Pt nanoparticles}{152}{section.B.3}%
+\contentsline {subsection}{\numberline {B.3.1}Non patterned sample}{152}{subsection.B.3.1}%
+\contentsline {subsection}{\numberline {B.3.2}Non patterned sample}{152}{subsection.B.3.2}%
+\contentsline {section}{\numberline {B.4}3D views of reconstructed Pt nanoparticles during the oxidation of ammonia}{152}{section.B.4}%
+\contentsline {chapter}{\numberline {C}Single crystals study}{167}{appendix.C}%
