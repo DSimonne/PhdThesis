@@ -52,7 +52,7 @@ Piezo-actuated and pneumatic attenuators are respectively situated before and af
 The first experimental end-station on the beam path is the multi-environment diffractometer, where the focused beam is approximately large by \qty{60}{\um} vertically and \qty{1500}{\um} horizontally.
 Additional focusing optics used for BCDI are present in the MED end-station and are detailed below.
 The distance between each element on the beamline is recapitulated in tab. \ref{tab:DistanceSixS}, a sketch of the beamline is illustrated in fig. \ref{fig:SixSBeamline}.
-The second experimental hutch, mainly used for ultra-high vacuum experiments, was not used in the frame of this thesis.
+The second experimental hutch, mainly used for ultra-high vacuum experiments, was not used during this thesis.
 
 \begin{table}[!htb]
 	\centering
@@ -86,9 +86,9 @@ The multi-environment diffractometer (MED) (fig. \ref{fig:MEDDiffractometer}) at
     \label{fig:MEDDiffractometer}
 \end{figure}
 
-Situated at a distance $R = \qty{31}{\m}$ from the source, we can compute the transverse coherence length of the beam at the sample stage when working with an energy of \qty{8.5}{\keV} following eq. \ref{eq:TransverseCoL}.
+Situated at a distance $R = \qty{31}{\m}$ from the source, the transverse coherence length of the beam can be computed at the sample stage when working with an energy of \qty{8.5}{\keV} (working energy of the coherence optics) following eq. \ref{eq:TransverseCoL}.
 For a Gaussian distribution, the FWHM is related to the standard deviation $\sigma$ by the relation $FWHM = 2\sqrt{2 ln (2) } \sigma$.
-We obtain for the transverse coherent lengths $L_{T,H} = \qty{3.3}{\um}$, and $L_{T,V} = \qty{157.3}{\um}$.
+The transverse coherent lengths are equal to $L_{T,H} = \qty{3.3}{\um}$, and $L_{T,V} = \qty{157.3}{\um}$.
 
 The longitudinal coherence length can be computed from eq. \ref{eq:LongitudinalCoL}, the ratio $\Delta\lambda/\lambda$ approximately equal to \qty{e-4}{\keV} at the energy of \qty{8.5}{\keV} gives $L_L = \qty{729}{\nm}$.
 These values corresponds to perfect coherent lengths without taking into account any imperfection in the beamline elements (such as the monochromator) that can result in increasing the virtual source size and decreasing the transverse coherence lengths \parencite{vincentjacques2010}.
@@ -100,11 +100,13 @@ Working in a vertical configuration is preferable for BCDI since it allows a lar
 The mirrors, that focus the beam in the horizontal configuration, are removed from the optical path, the focus of the beam is then handled by specific focusing optics.
 
 The secondary slits, which are wide open during surface x-ray diffraction experiment, are closed to \qty{100}{\um} vertically and horizontally, acting as a secondary source during Bragg coherent diffraction imaging experiments, reducing the effective size of the source seen by the focusing optics \parencite{vincentjacques2010}.
-So called \textit{coherence} slits are placed just before the beam stop and the Fresnel zone plate to select a more fine homogeneous portion of the beam that will impinge on focusing refractive lenses called Fresnel zone plates (FZP).
+So called \textit{coherence} slits are placed just before the beam stop to select a homogeneous portion of the beam that impinges on focusing refractive lenses called Fresnel zone plates (FZP), designed to work at an energy of \qty{8.5}{\keV}.
 The use of Fresnel zone plates, that preserve the coherent wavefront, together with coherence slits has been proven to increase the coherent flux impinging on the sample \parencite{Schroer2008, diaz_coherent_2009, Mastropietro2011}.
 
 An order-sorting aperture (OSA) and a beamstop block the direct beam and the higher diffraction orders from the FZP (fig. \ref{fig:OpticalSetup}).
 Since the coherence slits also have the counter effect of decreasing the total photon flux on the sample, their width is subject to a compromise to increase the coherent flux on the sample.
+
+The final beam size on the sample is of about \qty{0.8}{\um} horizontally and \qty{1.2}{\um} horizontally.
 
 \begin{figure}[!htb]
     \centering
@@ -130,13 +132,57 @@ Since the coherence slits also have the counter effect of decreasing the total p
     \label{tab:OpticsBCDI}
 \end{table}
 
+\subsubsection{Improving Bragg coherent diffraction imaging at SixS}
+
+One of the bottlenecks of the BCDI technique is its slow data reduction and analysis process.
+On $3^{rd}$ generation synchrotrons that offer a lower coherent flux (eq. \ref{eq:CoherentFlux}) than $4^{th}$ generation synchrotrons, the measurement time can also exceed several dozens of minutes.
+For example, at SixS, a rocking curve lasts between \qtyrange{20}{90}{\min} depending on the particle size, the quality of the alignment, the strain of the particle, \textit{etc.}
+Once the raw data is obtained, the particle must be \textit{reconstructed}, so that the displacement and strain arrays can be retrieved.
+The analysis workflow can take up to an hour, which totals to a maximum of two hours from the start of the measurement to the when the user has a good idea of the sample shape and structure.
+
+SixS is a beamline that does not only carry out BCDI experiment, but also SXRD experiments, in the same experimental end-station, the multi-environment diffractometer (MED, sec. \ref{sec:MED}).
+When aiming at performing \textit{operando} catalysis experiments, switching from one setup to another can take up to a few days.
+This leaves only a limited remaining amount of time to align the sample, find a suitable nanoparticle, and carry out the experimental plan.
+
+Li \textit{et al.} \parencite*{Li2020}, who have first shown that the SixS beamline could be used to carry out BCDI experiment, started to work on improving the BCDI measurement process.
+By comparing continuous and step-by-step measurements, they have shown that continuous scanning would result in the same data quality while decreasing the measurement dead-time by \qty{30}{\percent}, thereby paving the way for quicker BCDI measurements.
+
+During this thesis, the measurement process was further improved by taking advantage of the new possibility to perform continuous \textit{on-the-fly} scans at SixS, while moving the sample plane with the hexapod.
+When using the coherence setup (fig. \ref{fig:OpticalSetup}) with the diffractometer in the vertical geometry (fig. \ref{fig:Diffractometer}), the beam focused on the sample is about \qty{1}{\um} large vertically, the horizontal footprint depending on the incident angle between the beam and the sample.
+
+The incoming angle $\mu$ is set to a Bragg angle ($\theta$ in eq. \ref{eq:Bragglaw}) and the scattered x-rays are collected by setting the out-of-plane detector angle $\gamma$ at a position equal to $2\theta$ (similar to fig. \ref{fig:EwaldSphereSpecular}).
+Finally, by simultaneously moving the sample with the hexapod and recording the Bragg scattered intensity with the detector, it is possible to map the sample surface with a sub-micron resolution (fig. \ref{fig:SampleMapping}).
+
+An example of the mapping result is illustrated below in fig. \ref{fig:SampleMapping} with Pt nanoparticles for which the [111] crystallographic direction is parallel to the normal of the sample holder, the (111) Bragg peak was thus measured during the mapping process.
+
+A nanoparticle with a width equal to \qty{300}{\nm} was identified with this technique (sec. \ref{sec:BCDINanoparticles}), which is a good estimate of the spatial resolution that can be attained, limited by the hexapod resolution (smallest step size equal to \qty{\approx 300}{\nm}) and the beam size.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[height=5cm]{/home/david/Documents/PhD/Figures/sample/microscope_image.png}
+    \includegraphics[height=5cm]{/home/david/Documents/PhD/Figures/sample/microscope_image_photon.png}
+    \caption{
+        Microscope image of the sample seen through the sapphire window of the PEEK dome (left).
+        Map of the sample performed in Bragg condition (right), the high intensity (red) areas correspond to platinum nanoparticles.
+        The letters, numbers and isolated nanoparticles in the centre of squares can be recognised on the sample.
+    }
+    \label{fig:SampleMapping}
+\end{figure}
+
+\textit{Gwaihir} (sec. \ref{sec:Gwaihir}) was developed primarily for the SixS beamline to counter the long analysis process, which allowed a significant reduction in the analysis time from around an hour to a few minutes.
+The following beamtimes profit from the new software by having a more \textit{solution}-driven experimental process.
+Indeed, to be measured, a nanoparticle must be isolated, not too small (weak scattered intensity, e.g. $>\qty{100}{\nm}$ at SixS), not too big (loss of coherence, fringes not visible, e.g. $<\qty{1000}{\nm}$ at SixS), and not too initially strained (difficult to obtain a good guess of the support).
+These conditions are sometimes difficult to assert by simply looking at the diffraction pattern.
+Therefore, quick inversion using \textit{Gwaihir} allowed a faster decision process regarding the continuation or not of the nanoparticles measurement.
+
+Successful first measurements by \cite{Lim2021} have permitted the simultaneous use of BCDI measurements from SixS with measurements from other imaging beamlines (ID01 - ESRF, P10 - DESY), designing a robust method to identify defects in the real space with convolutional neural networks (CNN).
+
 \subsection{Catalysis reactor}\label{sec:XCAT}
 
 A catalysis reactor is mounted on the sample stage of the MED for the study of catalytic reactions.
 A 3D view in the horizontal configuration with the high pressure surface diffraction reactor XCAT (X-ray CATalysis) set on the goniometer is illustrated in fig. \ref{fig:MEDDiffractometer}.
 
 This reactor is used for the study of heterogeneous catalysis \parencite{VanRijn2010, Resta2020a}, and couples a UHV environment for classical surface science preparations (sputtering, annealing, evaporation) with an ambient pressure reactor.
-%Sputtering is a process in which atoms or ions from a solid target material are ejected or "sputtered" from the surface of the target due to the impact of high-energy particles.
 In the frame of this thesis, the metallic single crystal are purchased already cut and polished for SXRD experiments, introduced in the reactor and cleaned by sputtering \parencite{Taglauer1990} before the experiment.
 It is also possible to heat the sample up to \qty{900}{\degreeCelsius} for an extended period of time to anneal the sample after sputtering \parencite{MUSKET1982143}.
 
@@ -145,7 +191,6 @@ It is also possible to heat the sample up to \qty{900}{\degreeCelsius} for an ex
     \includegraphics[trim=10 325 350 64, clip, width=0.8\textwidth]{/home/david/Documents/PhD/Figures/sixs/SampleHolder.pdf}
     \caption{
         Sample holder used for the XCAT catalysis reactor.
-        A Beryllium or PEEK dome (not shown) closes the reactor, the V-seal sealing the reactor atmosphere from the outside.
         \textcolor{Important}{TRY TO FIX WORDS, MAYBE TICKZ ?, add ceramic}
     }
     \label{fig:SampleHolder}
@@ -153,6 +198,7 @@ It is also possible to heat the sample up to \qty{900}{\degreeCelsius} for an ex
 
 The sample holder (fig. \ref{fig:SampleHolder}) consists of a cross-shaped graphite heater covered in boron nitride held by two conductive screws in a thick (\qty{\approx 1}{\cm}) and round ceramic slab.
 The protruding ends of the screws on the opposite side of the ceramic slab serve as contact pins used for the heater power circuit, and to securely fasten the sample holder to the reactor.
+A Beryllium or PEEK dome closes the reactor, the V-seal sealing the reactor atmosphere from the outside, two types of PEEK dome are available, with or without a sapphire window, allowing to observe the sample during the experiments with a microscope.
 
 This design not only enables swift attachment and detachment of the sample holder but also ensures a robust setup in both horizontal and vertical orientations.
 The sample is then placed on top of the sample holder and set in place by a wire.
@@ -199,7 +245,7 @@ Overall, this experimental setup allows the exploration of a large, multi-dimens
 \end{figure}
 
 When performing BCDI measurements, a smaller version of the XCAT is used which is light enough to be supported vertically by the goniometer (fig \ref{fig:MEDV}).
-The two reactor have the same inner volume and host the same sample holder stage (fig \ref{fig:SampleHolder}).
+The two reactors have the same inner volume and host the same sample holder stage (fig \ref{fig:SampleHolder}).
 The main setbacks being the lack of sputtering gun and the impossibility to study catalytic reaction in batch mode (as opposite to flow mode) due to the design of the small reactor (the leak to the RGA is after the pressure controller in the small reactor).
 
 The measurement process for the collection of the scattered intensity is detailed in sec. \ref{sec:DataCollectionSXRD} for surface x-ray diffraction and in sec. \ref{sec:DataCollectionBCDI} for Bragg coherent diffraction imaging.

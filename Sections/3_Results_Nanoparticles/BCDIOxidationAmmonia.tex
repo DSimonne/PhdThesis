@@ -1,85 +1,351 @@
-\section{Measuring the oxidation of ammonia}\label{sec:BCDIAmmoniaOxidation}
+\subsection{Nanoparticle surface structure evolution during ammonia oxidation}\label{sec:BCDIAmmoniaOxidation}
 
 % Lattice parameter - homogeneous strain evolution: OK
 % 3D plots: OK
 % strain field energy: OK
 % Peak width :kinda OK
-% Field data tables : prob too many so no
+
 % Facet strain evolution plots just like temp ramp: (no disp, useless unless seen in bulk)
-% Strain histogram ? useless we want to see the evolution of specific facets, good id not too many facets, also too many scans
+% Strain histogram ? useless see the evolution of specific facets, good id not too many facets, also too many scans
 % need to do smtg with edges and corners, plot as a fct of the coordination nb ?
-% explain how exactly a single voxel was found when getting the surface voxels in python
 
-After having shown that the Pt particles epitaxied on alumina are stable under different atmospheres at \qty{300}{\degreeCelsius}, \qty{500}{\degreeCelsius} and \qty{600}{\degreeCelsius}, the oxidation of ammonia was measured using BCDI starting at \qty{300}{\degreeCelsius}.
+Having shown that the Pt particles epitaxied on alumina are not stable during the oxidation of ammonia at \qty{600}{\degreeCelsius}, the reaction was measured using BCDI at lower temperatures before and after the catalyst light off, respectively \qty{300}{\degreeCelsius}, and \qty{400}{\degreeCelsius}.
 
-The same sample, experimental setup, type of measurements and phase retrieval algorithms were used as detailed in the previous section for the temperature ramp.
-Two well faceted nanoparticles were successfully measured and reconstructed at room temperature (fig. \ref{fig:IsanagiSusanooFacets}).
-Isanagi exhibits a round shape with many low index facets, \qty{40}{\percent} of its surface covered by \{113\} facets, \qty{40}{\percent} by \{111\} facets, \qty{40}{\percent} by \{110\} facets, and \qty{40}{\percent} by \{100\} facets.
-The particle is at the largest \qty{300}{\nm} wide.
-On the contrary, Susanoo exhibits a more rectangular shape without any \{113\} facets, \qty{40}{\percent} of its surface is covered by \{111\} facets, \qty{40}{\percent} by \{110\} facets, and \qty{40}{\percent} by \{100\} facets.
+The same sample, experimental setup, type of measurements and phase retrieval algorithms were used as detailed in the previous section.
+Two nanoparticles were identified on the substrate \textit{via} sample mapping, first measured at room temperature under inert argon atmosphere.
+
+The support of particle \textit{B} (fig. \ref{fig:B7Facets}) was well determined at room temperature, exhibiting a round shape with a total of 30 facets.
+Approximately \qty{76}{\percent} of the particle surface voxels were recognised to belong to facets.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/B7/RT/RT_100_B7.png}
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/B7/RT/RT_010_B7.png}
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/B7/RT/RT_001_B7.png}
+    \caption{
+        Surface of the reconstructed nanoparticle B at \qty{25}{\degreeCelsius} under inert argon atmosphere.
+        The surface is coloured by the values of the heterogeneous out-of-plane strain as described in eq. \ref{eq:StrainTensorzz} at each surface voxel, the limit of each facet is delimited by thick white lines.
+    }
+    \label{fig:B7Facets}
+\end{figure}
+
+About \qty{10.5}{\percent} of the particle surface is covered by \{100\} facets, \qty{23.1}{\percent} by \{110\} facets, \qty{35.2}{\percent} by \{111\} facets, and \qty{7.3}{\percent} by \{113\} facets.
+The particle has a round shape, with a diameter equal to \qty{300}{\nm}.
+
+From the 3D representation of the particle in fig. \ref{fig:B7Facets}, the existence of the ($3\bar{1}1$) and ($\bar{1}13$) facets seem to be highly probable when considering the symmetry of the particle.
+Those facets could not be detected by the recognition algorithm, probably due to a lack of spatial resolution, necessary to detect the smallest facets on the particle.
+
+In contrast with particle \textit{B}, the support of particle \textit{C} could not be determined at room temperature, parts of the particle systematically missing from the reconstructions.
+No dislocation could be identified at the interface with the substrate but rather a lack of convergence of the support.
+Heating the sample to \qty{300}{\degreeCelsius} under Argon did not improve the quality of the measurements.
+Interestingly, the introduction of ammonia in the reactor at the beginning of the oxidation cycle had the effect of lowering the average strain inside the particle, and allowed the convergence of the support.
+The particle, shown in fig. \ref{fig:D6Facets}, was thus first reconstructed at \qty{300}{\degreeCelsius} under \qty{490}{\milli\bar} of argon and \qty{10}{\milli\bar} of ammonia in the reactor.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/300_ammonia_100.png}
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/300_ammonia_010.png}
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/300_ammonia_001.png}
+    \caption{
+        Surface of the reconstructed nanoparticle C at \qty{300}{\degreeCelsius} under a partial pressure of ammonia equal to \qty{10}{\milli\bar}.
+        The surface is coloured by the values of the heterogeneous out-of-plane strain as described in eq. \ref{eq:StrainTensorzz} at each surface voxel, the limit of each facet is delimited by thick white lines.
+    }
+    \label{fig:D6Facets}
+\end{figure}
+
+Particle \textit{B} exhibits a more rectangular shape without any \{113\} facets, \qty{10.8}{\percent} of its surface is covered by six \{100\} facets, \qty{6.4}{\percent} by \{110\} facets, and \qty{36.3}{\percent} by \{111\} facets.
 The particle is at the largest \qty{800}{\nm} wide.
+Only \qty{53.4}{\percent} of the surface voxels were determined to belong to facets, there is for example a large area between the (111) and ($1\bar{1}1$) facets (fig \ref{fig:D6Facets} - left) that could correspond to the missing (101) facet.
+Compared to particle \textit{C}, the area between the (100)-type facets and ($\bar{1}1\bar{1}$)-type facets is very flat and is not expected to contains higher index facets.
 
-Together with the Amaterasu nanoparticle, we have measured three nanoparticles that have a different size, shape and facets exhibited on the surface.
-The smallest nanoparticle (Isanagi) is the one with the most \{113\} facets, whereas the largest (Susanoo) does not have any.
-Amaterasu which is about \qty{600}{\nm} wide does only exhibits small \{113\} facets depending on the temperature.
-Overall, the sample is covered with thousands of nanoparticles that all together contribute to the catalytic activity and that probably show an even greater variance of shape and size.
-Therefore, this analysis using BCDI can only aim to reveal the structure variation during a catalytic reaction of a few nanoparticles without statistically representing the population on the sample, the measurement process being far too time extensive to probe more than a few nanoparticles.
+The two nanoparticles have a very different shape and surface structure, resumed in tab. \ref{tab:FacetCoverage}.
+The percentage of the total surface area covered by \{100\} and \{111\} facets is similar (respectively about \qty{10}{\percent} and \qty{36}{\percent}).
+The largest difference in the \{110\} facet coverage can be partially explained by the non-detection of the (101) facet.
+Most importantly, the large nanoparticle does not exhibit high Miller index facets.
 
-\textcolor{Important}{Need to say that we did this in a experiment}
-proven to be able to bring a more
+\begin{table}[!htb]
+    \centering
+    \begin{tabular}{@{}llllll@{}}
+    \toprule
+    Facet Type & \{100\} & \{110\} & \{111\} & \{113\} & None \\ \midrule
+    Particle B & 0.108 (6) & 0.064 (8) & 0.363 (8) & 0 & 0.465 \\
+    Particle C & 0.105 (6) & 0.231 (9) & 0.352 (8) & 0.073 (7) & 0.239 \\ \bottomrule
+    \end{tabular}%
+    \caption{
+        Particle surface area covered by facet type, the number in parenthesis designates the amount of each facet identified on the surface.
+    }
+    \label{tab:FacetCoverage}
+\end{table}
 
-Three scans were recorded under each condition (tab. \ref{tab:ConditionsNanoparticles}) at \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} for each nanoparticle to probe for any evolution of the particles surface structure during a fixed atmosphere as a function of time, and to otherwise demonstrate the reproducibility of the measurements.
+Together with nanoparticle \textit{A}, this results shows that the sample used during this experiment is covered with many different nanoparticles that all together contribute to the catalytic activity and probably show an even greater variance of shape and size.
+The current analysis using BCDI can only aim to reveal the structure variation during a catalytic reaction of a few nanoparticles without statistically representing the population on the sample, the measurement process being currently too time consuming to probe more than a few nanoparticles.
+
+The ammonia oxidation cycle was started at \qty{300}{\degreeCelsius}, with the introduction of ammonia.
+The different atmospheres used to probe the relation between nanoparticle structure and selectivity have been introduced in tab. \ref{tab:ConditionsNanoparticles}.
+A maximum of three scans were recorded under each condition (tab. \ref{tab:ConditionsNanoparticles}) at \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} for each nanoparticle to probe for any evolution of the particles surface structure during a fixed atmosphere as a function of time, and to otherwise demonstrate the reproducibility of the measurements.
+
+A 3D view of the reconstructed nanoparticles at \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} during the ammonia oxidation cycle is presented in appendix \ref{app:AppendixB7}.
+The surface is coloured by the values of the heterogeneous out-of-plane strain as described previously in eq. \ref{eq:StrainTensorzz} at each surface voxel.
+The view perpendicular to the three axes of the laboratory frame is represented, the particles are tilted due to the incoming angle $\theta$ for the measurement of the (111) Bragg peak.
+Both the retrieved displacement and strain fields are represented with their respective colour-bars, the ammonia to oxygen ratio is represented on the right part of the figure.
+
+\subsubsection{Particle B}
+
+A different behaviour during the oxidation of ammonia was observed on both nanoparticles.
+Particle \textit{B}, which is smaller and thus scatters more weakly than particle $C$, was difficult to reconstruct from the start of the increase of temperature to \qty{300}{\degreeCelsius}.
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/B7_facets.png}
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/D6_facets.png}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/hist_B7.pdf}
     \caption{
-        3D view of the Isanagi (left) and Susanoo (right) particles measured at room temperature showing a highly faceted surface.
+        Histograms of normalised Bragg electronic density amplitude.
+        Values below 0.05 are ignored since they typically belong to voxels located far away from particle support.
+        The difference between bulk, surface, and voxels outside the support is smeared out in b).
     }
-    \label{fig:IsanagiSusanooFacets}
+    \label{fig:B7Histo}
 \end{figure}
 
-The 3D diffraction patterns were orthogonalised from the laboratory frame ($\vec{z}$ downstream, $\vec{y}$ vertical up, $\vec{x}$ outboard) to the $\hat{q_x}, \hat{q_y}, \hat{q_z}$ following the cxi convention ($\vec{z}$ perpendicular to the sample holder, $\vec{y}$ parallel to the beam direction and $\vec{x}$ in the sample plane).
+Normalised histograms of the particle reconstructed Bragg electronic density showed no more clear distinctions between regions inside and outside the support (fig. \ref{fig:B7Histo}), and choosing a threshold value to draw the particle iso-surface no longer became evident.
+
+Choosing a low threshold for the particle iso-surface could still be done, but resulted in a round object without clear facets.
+Some reconstructions showed a good quality at \qty{300}{\degreeCelsius}, but in a larger sense recovering the facets on the particle surface in a reproducible way became impossible.
+
+Increasing the temperature to \qty{400}{\degreeCelsius} under inert atmosphere was at the origin of the appearance of a default in the particle, visible directly in reciprocal space by the shape of the 3D diffraction patterns (fig. \ref{fig:B7Ortho}), which did not improve the phase retrieval quality.
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/DP_not_ortho.png}
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/DP_ortho.png}
+    % \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/B7_orthogonalized_3479.pdf}
+    % \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/B7_orthogonalized_3544.pdf}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/B7_orthogonalized_3804_edited.pdf}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/B7_orthogonalized_3863_edited.pdf}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/B7_orthogonalized_4098_edited.pdf}
+    % \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/B7_orthogonalized_4110.pdf}
     \caption{
-        Sum of the diffracted intensity in the $\vec{x}$, $\vec{y}$ and $\vec{z}$ directions of the laboratory frame before (top) and after orthogonalisation (bottom) in the $\hat{q_x}, \hat{q_y}, \hat{q_z}$ directions.
+        Sum of the intensity scattered from particle $C$ around the (111) platinum Bragg peak in the $\vec{q}_x$, $\vec{q}_z$ and $\vec{q}_y$ directions after orthogonalisation of the diffraction pattern.
+        a) After removal of both oxygen and ammonia in the reactor at \qty{300}{\degreeCelsius}, \textit{i.e.} under argon atmosphere.
+        b) After heating up to \qty{400}{\degreeCelsius} under argon atmosphere.
+        c) Under the presence of \qty{80}{\milli\bar} of oxygen and \qty{10}{\milli\bar} of ammonia in the reactor at \qty{400}{\degreeCelsius}.
+        The [111]-oriented crystal truncation rod is visible parallel to the $\vec{q}_z$ axis.
+        Detector gaps lead to areas of missing intensity.
     }
-    \label{fig:IsanagiOrtho}
+    \label{fig:B7Ortho}
 \end{figure}
+
+A signal parallel to the crystal truncation rod in the [111] direction is observed slightly shifted in $\vec{q}_y$, interfringes in the [111] direction are also visible with a slightly lower interval than on the original CTR.
+The distance between the [111] oriented rod and the second signal increases in $q_y$ during the ammonia oxidation cycle, at the end of which a third signal parallel to the two others can be observed.
+The maximum of both signals seems to be at the same value in $q_z$, which can be related to the average lattice parameter inside the particle.
+
+The default is also visible perpendicularly to the particle substrate and through the particle in 3D in appendix \ref{app:AppendixB7}, ultimately resulting in holes in the Bragg electronic density \parencite{Clark2015, Dupraz2015}.
+
+To be able to quantify the strain inside the particle and the magnitude of the defect, the 3D diffraction patterns were fitted by summing the intensity scattered from particle $C$ around the (111) platinum Bragg peak in the ($\vec{q}_x$, $\vec{q}_y$), ($\vec{q}_y$, $\vec{q}_z$) and ($\vec{q}_z$, $\vec{q}_x$) directions after orthogonalisation of the diffraction pattern in $q$-space.
+The sum in the planes perpendicular to the $\vec{q}_x$ and $\vec{q}_y$ directions carry information about the in-plane particle shape and strain, whereas the sum perpendicular to the $\vec{q}_z$ direction carries information about the out-of-plane particle shape and strain.
+The $\vec{z}$ direction is related to the [111] direction from the epitaxy relationship of the particle on the substrate.
+
+The summed intensities were then fitted in each direction by a Lorentzian shape function to be able to extract the FWHM of the peak in the three directions ($\sigma_x$, $\sigma_y$ and $\sigma_z$), and compute the average interplanar spacing from the peak position in $q$-space.
+Once the second signal appeared in $\vec{q}_y$, two Lorentzian profiles were used to fit both peaks, the FWHM in fig. \ref{fig:B7FWHM} in $\vec{q}_y$ is equal to the sum of the FWHM from each peak.
+
+A typical fit is shown in appendix \ref{fig:FitB73D}, the retrieved FWHM are shown in fig. \ref{fig:B7FWHM}, the average interplanar spacing and homogeneous strain are shown in fig. \ref{fig:B7Latpara}.
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/DP_not_ortho.png}
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/DP_ortho.png}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/fwhm_B7_two_peaks.pdf}
     \caption{
-        Sum of the diffracted intensity in the $\vec{x}$, $\vec{y}$ and $\vec{z}$ directions of the laboratory frame before (top) and after orthogonalisation (bottom) in the $\hat{q_x}, \hat{q_y}, \hat{q_z}$ directions.
+        Evolution of the full width at half maximum (FWHM, $\sigma$) for particle B in the $\vec{q}_x$, $\vec{q}_y$ and $\vec{q}_z$ directions at \qty{25}{\degreeCelsius}, \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} as a function of the ammonia to oxygen ratio.
+        The reproduction of measurements at fixed conditions yield multiple data points, lines at \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} link the data points in the order of the measurements.
     }
-    \label{fig:SusanooOrtho}
+    \label{fig:B7FWHM}
 \end{figure}
 
-A 3D view of the reconstructed nanoparticles is presented in \ref{sec:3DAmmoniaOxidation}.
+A decrease of $\sigma_z$ can be observed between successive measurements under argon after heating the sample to \qty{300}{\degreeCelsius}, whereas the values of $\sigma_x$ and $\sigma_y$ are stable, which could be due to the stabilisation of the particle after the temperature increase.
+Introducing ammonia in the reactor has the effect of increasing $\sigma_x$ and $\sigma_y$ without increasing $\sigma_z$, thus probably related to an increase of the in-plane strain in the particle.
+A decrease of the FWHM can be seen in all three directions when oxygen is introduced in the reactor, which may be associated to a global decrease of the particle strain.
+The range of values in $\sigma_z$ is very low and if a slight increase is observed as a function of the ammonia to oxygen ratio, it is only for very small values.
+No clear evolution can be observed in $\sigma_x$ or $\sigma_y$.
 
-After having successfully reconstructed the Pt nanoparticles, the facets at their surface were retrieved using the \textit{FacetAnalyzer} script written for \textit{Paraview} (sec. \ref{sec:FacetAnalysis}).
-No surface
+On one hand, the values of $\sigma_z$ at \qty{400}{\degreeCelsius} are stable until the ammonia to oxygen ratio becomes equal to one, which can be linked to an increase of the out-of-plane strain in the particle.
+Higher amounts of oxygen further continue this increase.
 
-\subsection{Mass spectrometry results}
+A large jump is observed for $\sigma_y$ after the increase of temperature under inert atmosphere, being multiplied by \qty{50}{\percent} and \qty{100}{\percent} in the first and second measurements.
+No jump is observed for $\sigma_x$ in the first measurement, but a large increase is still observed in the second measurement.
+This coincides with the appearance of a new signal observed in fig. \ref{fig:B7Ortho}, perpendicular to $\vec{q}_z$, \textit{i.e.} in the ($\vec{q}_x, \vec{q}_y$) plane, mostly shifted in $q_y$ in comparison to the centre of the Bragg peak.
+
+The introduction of ammonia does not have a visible effect in $\vec{q}_z$, but decreases the FWHM in both $\vec{q}_x$ and $\vec{q}_y$ in comparison to the second measurement under argon.
+Both $\sigma_x$ and $\sigma_y$ increase together with the ammonia to oxygen ratio, $\sigma_y$ plateaus when the ratio is equal to 1, whereas $\sigma_x$ largely increases when the ratio becomes equal to 8.
+
+The FWHM under argon after and before the oxidation cycle are similar at \qty{300}{\degreeCelsius} but not at \qty{400}{\degreeCelsius}, a temperature at which the oxidation cycle completely changed the shape and strain state of the particle.
+The particle shape is not reversible at \qty{400}{\degreeCelsius} after the oxidation cycle..
+
+\begin{SCfigure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/lattice_parameter_B7.pdf}
+    \caption{
+        Evolution of the interplanar spacing $d_{111}$ and homogeneous strain $\epsilon_{111, homo}$ for particle B as a function of the ammonia to oxygen ratio.
+        The reference for the computation of $\epsilon_{111, homo}$ was taken as the mean value at \qty{25}{\degreeCelsius}.
+        The reproduction of measurements at fixed conditions yield multiple data points, lines at \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} link the data points in the order of the measurements.
+    }
+    \label{fig:B7Latpara}
+\end{SCfigure}
+
+Two main phenomena of interest must be kept in mind from the evolution of the interplanar spacing in fig. \ref{fig:B7Latpara}, besides the expected increase of the lattice parameter from the increase of temperature.
+First there a very important increase (\qty{0.08}{\percent}) of the homogeneous strain following the introduction of ammonia at \qty{300}{\degreeCelsius}.
+The interplanar spacing stays approximately equal to the same value afterwards during the ammonia oxidation cycle.
+Secondly, there is an increase of about \qty{0.02}{\percent} of the homogeneous strain at \qty{400}{\degreeCelsius} when the ammonia to oxygen ratio reaches the value of one.
+Both of these phenomena are observed at conditions for which changes in the FWHM are also seen.
+
+Finally, to be able to give a first estimation of the amount of strain inside the particle, the strain field energy defined as the sum of the product of stress and strain integrated over the particle \parencite{cahn1959free} was computed following the work performed by Ulvestad et al in \cite*{Ulvestad2015a}.
+
+Assuming cubic symmetry and isotropic shear-free conditions within the unit cell, we can simplify the strain field energy to eq. \ref{eq:SFE}.
+Here, $G$ and $L$ represent the material's Lame parameters, which can be estimated from Young's modulus $E$ and Poisson ratio $\nu$, as described in eq. \ref{eq:GandNu} \parencite{mavko_mukerji_dvorkin_2020}.
+
+\begin{equation}
+    E_s = \frac{2G + 3I}{2} \int \Big( \frac{\partial u_{111}}{\partial x_{111}}\Big)^2 dV
+    \label{eq:SFE}
+\end{equation}
+
+\begin{align}
+    G = \frac{E}{2(1+\nu)} \qquad & \qquad \lambda = \frac{E \nu}{(1+\nu)*(1-2\nu)}
+    \label{eq:GandNu}
+\end{align}
+
+The evolution of the strain field energy as a function of each scan to be able to compare with the 3D reconstructions of the particle shown in appendix \ref{app:AppendixB7} is presented in fig. \ref{fig:B7SFE}.
+For a qualitative approximation of the strain field energy, the Young's modulus was taken equal to \qty{153.3}{\giga\pascal} and the Poisson ratio to \num{0.401} based on literature values at \qty{400}{\degreeCelsius} \parencite{MattheyPt}.
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/figures/homo_strain_vs_condition.png}
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/figures/homo_strain_vs_condition_no_25.png}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/strain_energy_B7.pdf}
     \caption{
-        Evolution of the homogeneous strain computed from the 3D Bragg peak centre of mass.
+        Evolution of the strain field energy for particle B as a function of the scan number.
+        The evolution of the \ce{NH_3} and \ce{O_2} gas flows in the reactor are also plotted to highlight the effect of the simultaneous presence of ammonia and oxygen and of the increasing amount of oxygen on the values of the strain field energy.
     }
-    \label{fig:AmaterasuStrainSlices}
+    \label{fig:B7SFE}
 \end{figure}
 
-\subsection{Strain field energy}
+The strain field energy shows very little evolution at \qty{300}{\degreeCelsius}, decreasing a little under the presence of ammonia and further under reacting conditions.
+However, the values of the strain field energy are observed to increase under reacting conditions at \qty{400}{\degreeCelsius}, multiplied approximately by \num{3} when the \ce{O_2}/\ce{NH_3} ratio is equal to 1, and by \num{9} when the \ce{O_2}/\ce{NH_3} ratio is equal to 8.
+This result is consistent with the evolution of the different FWHM in fig. \ref{fig:B7FWHM} and with the 3D shape of the particle.
 
+To summarise, the introduction of ammonia at \qty{300}{\degreeCelsius} has resulted in a slight increase of the in-plane strain observed from the evolution of the peak FWHM in the $\vec{q}_x$ and $\vec{q}_y$ directions in fig. \ref{fig:B7FWHM}, together with a large increase of the homogeneous strain observed from the value of the $d_{111}$ interplanar spacing in fig. \ref{fig:B7Latpara}, which was not reversed after the removal of ammonia following the end of the oxidation cycle.
+No changes in the particle strain and structure as a function of the ammonia to oxygen ratio could be detected at \qty{300}{\degreeCelsius}.
 
-\parencite{Ellinger2008, Nolte2008, Gustafson2014, Hejral2016, Abuin2019, Kawaguchi2019, Hejral2021, Kim2021, Chung2021}
+The most important changes in the particle structure occur at \qty{400}{\degreeCelsius}.
+Heating the temperature of the reactor under inert atmosphere has resulted in the appearance of a defect visible directly in reciprocal space (fig. \ref{fig:B7Ortho}), and by the evolution of the peak FWHM in $\vec{q}_y$ (fig. \ref{fig:B7FWHM}).
+The increase of strain inside the particle is visible in 3D by the progressive importance of the hole in the reconstructed volume, and by the evolution of the strain field energy (fig. \ref{fig:B7SFE}), with a clear transition during the simultaneous presence of both ammonia and oxygen in the reactor, with the same partial pressures (scans 3951, 3958 and 4002 in the 3D reconstructions and strain field energy).
+This transition is also visible in the FWHM of the Bragg peak in $\vec{q}_z$, which can be related to an increase of the out-of-plane strain inside the particle.
+
+\subsubsection{Particle C}
+
+As mentioned earlier, particle \textit{C} could only be reconstructed under the presence of ammonia in the reactor.
+Interestingly, no changes in the particle shape or surface strain values have been seen observed during the exposition to the reactants (appendix \ref{app:AppendixB7}).
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/D6_orthogonalized_3517_edited.pdf}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/D6_orthogonalized_3572_edited.pdf}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/D6_orthogonalized_3823_edited.pdf}
+    \caption{
+        Sum of the intensity scattered from particle $C$ around the (111) platinum Bragg peak in the $\vec{q}_x$, $\vec{q}_z$ and $\vec{q}_y$ directions after orthogonalisation of the diffraction pattern.
+        Before (a) and after (b) introduction of ammonia in the reactor at \qty{300}{\degreeCelsius}.
+        c) After removal of both oxygen and ammonia in the reactor at \qty{300}{\degreeCelsius}, \textit{i.e.} under argon atmosphere.
+        The [111]-oriented crystal truncation rod is visible parallel to the $\vec{q}_z$ axis.
+        Detector gaps lead to areas of missing intensity.
+    }
+    \label{fig:D6Ortho}
+\end{figure}
+
+When removing ammonia and oxygen at \qty{300}{\degreeCelsius}, the particle could not be reconstructed anymore, reproducing the same behaviour as before the introduction of ammonia.
+Increasing the temperature to \qty{400}{\degreeCelsius} did not improve the reconstruction quality, the support did not converge during phase retrieval.
+Using the support of the particle reconstructed at \qty{300}{\degreeCelsius} under ammonia as a starting guess for the algorithms did not suffice to reach a good final solution.
+The reconstructions under inert atmosphere before introducing ammonia or after removing both reactants from the cell presented in appendix \ref{app:AppendixB7} have been performed by limiting the support update to every 200 iteration (for a total of 1100 algorithm iteration during phase retrieval, meaning that the support is only changed 5 times), and still present a highly heterogeneous Bragg electronic density.
+
+To understand why it was impossible to successfully carry out the phase retrieval process, the diffraction pattern around the (111) Bragg peak under the presence of both reacting gases and after their removal was orthogonalised in $q$-space, presented in fig. \ref{fig:D6Ortho}.
+
+The diffraction pattern before the introduction of ammonia (fig. \ref{fig:D6Ortho} - a) exhibits a slightly distorted shape which can be related to the presence of heterogeneous strain in the particle, typically at the interface with the substrate.
+The introduction of ammonia in the reactor has removed this distortion (fig. \ref{fig:D6Ortho} - b), which generally improves the quality of phase retrieval.
+
+\begin{figure}[!hbt]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/fwhm_D6.pdf}
+    \caption{
+        Evolution of the full width at half maximum (FWHM, $\sigma$) for particle C in the $\vec{q}_x$, $\vec{q}_y$ and $\vec{q}_z$ directions at \qty{25}{\degreeCelsius}, \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} as a function of the ammonia to oxygen ratio.
+        The reproduction of measurements at fixed conditions yield multiple data points, lines at \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} link the data points in the order of the measurements.
+        No scans were performed at \qty{400}{\degreeCelsius} under Argon after the oxidation cycle.
+    }
+    \label{fig:D6FWHM}
+\end{figure}
+
+Interestingly, the diffraction pattern after the removal of both gases in the reactor (fig. \ref{fig:D6Ortho} - c) is not similar to the measurement before the oxidation cycle (fig. \ref{fig:D6Ortho} - b), both diffraction patterns are collected under argon.
+In general, the fringes are less visible in all direction, especially visible in the ($\vec{q}_x$, $\vec{q}_y$) plane, round areas of higher intensity also appeared around the Bragg peak.
+Most importantly, the coherence fringes situated in the [111] direction, \textit{i.e.} along $\vec{q}_z$ show a completely different pattern, as if two two CTRs were on top of each other, one with larger rectangular fringes, while the other one has smaller round fringes.
+The particle clearly suffered a change of shape after the removal of the reacting gases, meaning that different phenomena before and after the oxidation cycle impinge on the reconstruction quality.
+
+The same kind of diffraction patterns are observed at \qty{400}{\degreeCelsius} after heating under argon as in fig. \ref{fig:D6Ortho} - (c), and after the introduction of ammonia as in fig. \ref{fig:D6Ortho} (b), meaning that the presence of \ce{NH_3} in the reactor \textit{relaxes} the particle, which can then easily be reconstructed.
+
+The particle FWHM in all three directions follows the same evolution as a function of the different atmospheres, meaning that the same phenomena occurs in all direction of the particle.
+The FWHM decreases following the introduction of ammonia both at \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius}, and only slightly increase during the exposition to oxygen.
+Returning to argon atmosphere, \textit{i.e.} removing ammonia and oxygen yield FWHM values similar to those measured after the heating to \qty{300}{\degreeCelsius} under argon.
+
+\begin{SCfigure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/lattice_parameter_D6.pdf}
+    \caption{
+        Evolution of the interplanar spacing $d_{111}$ and homogeneous strain $\epsilon_{111}$ for particle C as a function of the ammonia to oxygen ratio.
+        The reference for the computation of $\epsilon_{111}$ was taken at \qty{25}{\degreeCelsius}.
+        The reproduction of measurements at fixed conditions yield multiple data points, lines at \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} link the data points in the order of the measurements.
+        No scans were performed at \qty{400}{\degreeCelsius} under Argon after the oxidation cycle.
+    }
+    \label{fig:D6Latpara}
+\end{SCfigure}
+
+The evolution of the $d_{111}$ interplanar spacing is not the same as a function of different temperatures.
+The interplanar spacing of the particle under the sole presence of ammonia at \qty{300}{\degreeCelsius} is remarkably reproducible with all three measurements yielding approximately the same value as under argon atmosphere.
+A large increase of the interplanar spacing is observed when oxygen is introduced in the reactor, at a ratio of \num{0.5} with ammonia, which gives a homogeneous strain evolution of approximately \qty{0.07}{\percent} in reference to the value measured at room temperature.
+The strain at the interface with the substrate also becomes more homogeneous at this condition, slightly negative (appendix \ref{app:AppendixD6}).
+The interplanar spacing then stays approximately the same at \qty{300}{\degreeCelsius} during the oxidation cycle.
+This transition is not observed at \qty{400}{\degreeCelsius}, a temperature for which an increase of the interplanar spacing can be observed under argon, without any large deviations during the oxidation cycle.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/strain_energy_D6.pdf}
+    \caption{
+        Evolution of the strain field energy for particle C as a function of the scan number.
+        The evolution of the \ce{NH_3} and \ce{O_2} gas flows in the reactor are also plotted to highlight the effect of the presence of ammonia on the values of the strain field energy.
+    }
+    \label{fig:D6SFE}
+\end{figure}
+
+The strain field energy was also computed for particle \textit{C}, transitions between large and low magnitudes can be linked to the presence of ammonia in the reactor (fig. \ref{fig:D6SFE}).
+No measurement was performed at \qty{400}{\degreeCelsius} at the end of the oxidation cycle which prevents us from being certain that the decrease in the strain field energy observed at \qty{300}{\degreeCelsius} could be reproduced, similar as for the evolution of the FWHM in fig. \ref{fig:D6FWHM}.
+
+To summarise, particle \textit{C} seems to have suffered a transition at \qty{300}{\degreeCelsius} following the introduction of ammonia in the reactor, which helped improved the quality of phase retrieval, probably from a decrease of strain.
+The diffraction pattern was shown to not be exactly reproducible when returning to inert atmosphere, but still showing a decrease of sharpness regarding the position and intensity of the interfringes.
+It is difficult to be certain of the impact of the adsorption of ammonia since there is a lack of good quality reconstruction for comparative studies before the introduction of ammonia in the reactor, preventing an analysis of the facet strain.
+
+However, the transition can be observed in both the strain field energy (fig. \ref{fig:D6SFE}) and in the FWHM of the three-dimensional Bragg peak (fig. \ref{fig:D6FWHM}).
+The interplanar spacing computed from the position of the Bragg peak in $q$-space shows an additional transition when first introducing oxygen in the cell, not visible in the strain field energy of in the FWHMs, which can be linked to a change of strain at the interface with the substrate.
+The values of the heterogeneous surface strain $\epsilon_{zz}$ being very low (almost always below \qty{0.1}{\percent}, fig. \ref{fig:D6Facets}), it is also complicated to quantify the strain evolution.
+
+\subsubsection{Mass spectrometry results}
+
+The catalytic activity of the particles was recorded \textit{via} the use of a mass spectrometer and shows the production of nitrogen, nitrous oxide and nitrogen oxide (fig. \ref{fig:RGANanoparticlesBCDIComparison}), proving the activity of the catalyst.
+The original mass spectrometer signal as a function of time is available in the appendix \ref{fig:RGA300BCDINanoparticles}, and \ref{fig:RGA400BCDINanoparticles}.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysis/figures/product_comparison.pdf}
+    \caption{
+        Evolution of reaction product partial pressures during the oxidation of ammonia at \qty{300}{\degreeCelsius}, and \qty{400}{\degreeCelsius} recorded from a leak in the reactor output as detailed in sec. \ref{sec:XCAT}.
+        The product pressure shown for each condition was computed as the mean product pressure during \qty{1}{\minute} at the end of each condition.
+        The product pressure under \qty{49}{\ml\per\min} of argon and \qty{1}{\ml\per\min} of ammonia has been subtracted.
+    }
+    \label{fig:RGANanoparticlesBCDIComparison}
+\end{figure}
+
+Interestingly, a transition was recorded at both \qty{300}{\degreeCelsius}, and \qty{400}{\degreeCelsius} approximately \qty{4}{\hour} after the increase of the oxygen partial pressure from \qty{10}{\milli\bar} to \qty{20}{\milli\bar}, leading to a \ce{NH_3}/\ce{O_2} ratio equal to 2.
+The partial pressure of \ce{N_2} is approximately divided by two while the partial pressure of \ce{NO} is inversely multiplied by two.
+No such effect was observed at \qty{300}{\degreeCelsius} in the previous experiment when using the non-patterned sample during surface x-ray diffraction (fig. \ref{fig:RGASXRDNanoparticlesComparison}).
+The only difference in the history of both samples is that the patterned sample was exposed to reacting conditions at \qty{600}{\degreeCelsius} for approximately \qty{1}{\hour} before this experiment.
+
+This transition in the product partial pressures does not correspond to the condition at which particle \textit{B} showed a transition in terms of strain field energy or FWHM at \qty{400}{\degreeCelsius}, which occurred under an equal amount of ammonia and oxygen in the reactor.
+
+In a general sense, the production of \ce{N_2} is favoured at lower oxygen partial pressures in comparison with \ce{N_2O} and \ce{NO}.
+The opposite effects takes place at high oxygen partial pressures, with a clear transition between the main products from \ce{N_2} towards \ce{NO} when the oxygen to ammonia ratio is equal to 8, this transition happens at a lower \ce{NH_3}/\ce{O_2} ratio at \qty{300}{\degreeCelsius}.

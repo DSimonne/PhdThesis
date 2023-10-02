@@ -186,7 +186,7 @@ An alternative approach also available in \textit{Gwaihir} is to take the averag
 
 Post-processing regroups methods applied to the complex output of the phase retrieval.
 Once the solution with the best figure of merit is selected, it is possible to use the \textit{bcdi} scripts to process the object.
-If the data is still in the detector frame (geometric transformation not applied during pre-processing), the data is interpolated in the orthogonal laboratory frame ($\vec{z}$ downstream, $\vec{y}$ vertical up, $\vec{x}$ outboard) using a transformation matrix, so that it becomes easier to compare the object's evolution when probing different Bragg reflections \parencite{Lauraux2021}.
+If the data is still in the detector frame (geometric transformation not applied during pre-processing), the data can be interpolated in the orthogonal laboratory frame ($\vec{z}$ downstream, $\vec{y}$ vertical up, $\vec{x}$ outboard) or in the sample frame ($\vec{z}$ out-of-plane, $\vec{y}$ perpendicular to the beam, $\vec{x}$ parallel to the beam) using a transformation matrix, so that it becomes easier to compare the object's evolution when probing different Bragg reflections \parencite{Lauraux2021}.
 First, the correct beamline and instrumental parameters must be selected (\textit{e.g.} sample-detector distance, probing energy, detector pixel size, \textit{etc}...), usually constant throughout the experiment.
 The geometric transformation can be realised using either the transformation matrix \parencite{thesismark} or the \textit{xrayutilities} package \parencite{kriegner_xrayutilities_2013}, depending on which reference basis is needed.
 
@@ -282,7 +282,7 @@ In the case of simulation, the simulated diffraction intensity can be stored as 
 
 In \textit{Gwaihir}, results sharing across teams and team members is facilitated by the creation of a single output file, respecting the \textit{CXI} \cite{Maia2012}, and thus the NeXuS \cite{Konnecke2015} architecture (fig. \ref{fig:TREE}), which pushes towards results reproducibility.
 
-Key parameters are the transformation matrix used for the interpolation in the laboratory frame, the voxel size of the resulting 3D array, the probed reciprocal space range after data pre-processing $(\delta q_x , \delta q_y , \delta q_z)$, the iso-surface threshold, \textit{etc}.
+Key parameters are the transformation matrix used for the interpolation in the final frame, the voxel size of the resulting 3D array, the probed reciprocal space range after data pre-processing $(\delta q_x , \delta q_y , \delta q_z)$, the iso-surface threshold, \textit{etc}.
 Comments or metadata, such as the horizontal and vertical coherence lengths, or beam size, if determined prior to the experiment, can also be saved.
 The aim is first to have a comprehensible architecture, and secondly to be able to reproduce anyone result from a single file.
 On a small scale, results are easier to share between collaborators and more understandable, while on a larger scale peer-review is facilitated.

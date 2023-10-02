@@ -1,43 +1,98 @@
 \section{Introduction}
 
-Bimetallic nanomaterials have raised more and more significant interest from worldwide researchers, their new physical and chemical properties deriving from synergistic effects between the two metals being highly desirable for catalytic applications.
-For example, bimetallic catalysts consisting either of two noble metals (Pt-Rh, Au-Pd) or a noble and a 3d/4d transition metal (e.g. Pt-Cu) can show tremendously higher catalytic activities and altered selectivity in both conventional thermal and electrochemical catalysis \parencite{Resta2020a, Carnis2021b}.
-
-In the case of the oxidation of ammonia, if Pt catalysts were first used when aiming at the production of \ce{NO}, Pt-Rh catalysts have then proven to be more effective since the 1920s when Rhodium was first added to the catalyst \parencite{Handforth1934, Heck1982}.
-Recently, the ammonia oxidation reaction over a Pt-Rh binary alloy was studied with a surface science approach by operando techniques such as near-ambient pressure X-ray photoemission spectroscopy (NAP-XPS) and surface x-ray diffraction (SXRD) combined with mass spectrometry \parencite{Resta2020a}.
+%reaction
+During the catalytic oxidation of ammonia, if Pt catalysts were first used when aiming at the production of \ce{NO}, Pt-Rh catalysts have then proven to be more effective since the 1920s when Rhodium was first added to the catalyst \parencite{Handforth1934, Heck1982}.
+Recently, the ammonia oxidation reaction over a \ce{Pt_{25}Rh_{75}}(001) single crystal was studied with a surface science approach by operando techniques such as near-ambient pressure X-ray photoemission spectroscopy (NAP-XPS) and surface x-ray diffraction (SXRD) combined with mass spectrometry \parencite{Resta2020a}.
 It was shown that \ce{NO} production coincides with significant changes of the surface structure and the formation of a \ce{RhO_2} surface oxide.
 Moreover, changes in the surface relaxation related to the catalyst selectivity as well as the presence of an hysteresis cycle in the reaction were reported.
 
-Recent studies have shown that nanoparticle surface strain can be controlled, opening up a new path to tune and optimise nanoparticle catalysts \parencite{Zhang2014, Sneed2015, Wang2016}.
-However, these more conventional techniques traditionally provide ensemble-averaged properties when studying nanoparticles.
-With Bragg coherent diffraction imaging (BCDI), we intend to address under \textit{in situ} and \textit{operando} conditions the individual three-dimensional (3D) structural response of an isolated nanoparticle to changes in gas mixtures, enabling us to probe more deeply the details of catalytic phenomena \parencite{Fernandez2019, Passos2020, Dupraz2022}.
+% Single crystal ok but
+Using single crystals as models to understand \textit{in-situ} and \textit{operando} the structure-activity relationship offers some perks such as a large surface area which increases the surface signal (lowering the pressure gap with some techniques such as XPS), and the possibility to isolate specific facets to progressively build up the understanding of the role of the sample surface on the catalytic activity \parencite{Hejral2016, Resta2020a}.
+However, they fail when aiming at closing the material gap since they only exhibit a single crystallographic orientation on their surface, and are much larger (almost a \unit{cm} large) than the width of Pt-Rh gauzes used for the oxidation of ammonia (few 10s of \unit{\micro\meter} large, \cite{Kaiser1909}).
+
+% use nanoparticles
+In order to push for the reduction of the material gap as well as the pressure gap in heterogeneous catalysis, Pt nanoparticles have been used in this study, approaching the size of individual grains on the industrial catalysts \cite{} while exhibiting many different types of facets on their surface.
 Specifically, the catalytic structure-activity relationships of Pt nanoparticles will be investigated during the oxidation of ammonia, as a stepping stone to the study of Pt-Rh nanoparticles.
-A careful in situ analysis of the properties of the nanoparticles (size, shape, strain, re-faceting, support, interaction, oxide formation, etc) in 3D is of essential importance to gain more understanding of the behaviour of these nanocrystals during a catalytic reaction.
+Recent studies have shown that nanoparticle surface strain can be controlled, opening up a new path to tune and optimise nanoparticle catalysts \parencite{Zhang2014, Sneed2015, Wang2016}.
 
-\subsection{Synthesising platinum nanoparticle}\label{sec:PtParticles}
+% sxrd
+It is first intended to measure the total signal scattered from \ce{Al_2O_3}-supported platinum particles by taking advantage of the possibility to carry out grazing-incidence diffraction measurements at the SixS beamline of synchrotron SOLEIL.
+At grazing incidences the beam footprint extends across the whole sample length, the scattered beam being then proportional to the ensemble behaviour of the nanoparticles \parencite{Nolte2008, Hejral2013}.
 
-The platinum nanoparticles were synthesised thanks to a collaboration with the Israel Institute of Technology (Technion) \parencite{Dupraz2017}.
-A 30 nm thick homogeneous layer of platinum is deposited at room temperature on a [001] oriented alumina ($\alpha-$\ce{Al_2O_3}) substrate.
-The Pt nanocrystals have their c-axis oriented along the [111] direction normal to the [001] sapphire substrate.
+As seen in sec. \ref{sec:SXRD}, truncated surfaces such as facets give rise to crystal truncation rods (CTR) in the reciprocal space, whose intensity as a function of the scattering vector and width in reciprocal space are related to the facet size, roughness and strain.
+
+The average nanoparticle shape and structure will be probed by studying the intensity of crystal truncation rods in directions perpendicular to the expected facets on the nanoparticle surface.
+Prior experiments with similar samples \parencite{Dupraz2017, Li2020, Lim2021, Dupraz2022} have shown that the particles exhibit a Winterbottom shape \parencite{WINTERBOTTOM1967, Boukouvala2021}, typical of nanoparticles epitaxied on a substrate, with mainly \{111\}, \{110\}, and \{100\} facets, and a [111] orientation perpendicular to the substrate.
+
+By having the incident beam illuminating all of the particles, the CTR signal in e.g. the [111] direction will be the sum of the contribution from the [111] facet of every illuminated nanoparticle (as well as their [$\bar{1}\bar{1}\bar{1}$] facets).
+Therefore, phenomena inducing structural change such as particle re-faceting/reshaping at a given condition are expected to be visible by an evolution of the different CTR.
+
+% bcdi
+To obtain a more detailed picture of the phenomena at play, surface x-ray diffraction which provides ensemble-averaged properties when studying nanoparticles will be followed by the use of another technique which will bring information on the structural behaviour of single nanoparticles.
+
+With Bragg coherent diffraction imaging (BCDI), the individual three-dimensional (3D) structural response of isolated nanoparticles to changes in the gas mixtures will be measured under \textit{in situ} and \textit{operando} conditions, enabling us to probe more deeply the structure evolution during heterogeneous catalytic reactions \parencite{Hejral2016, Abuin2019, Fernandez2019, Kawaguchi2019, Passos2020, Chung2021, Kim2021, Dupraz2022} or during the exposition to single gases
+
+A careful in situ analysis of the properties of the nanoparticles (size, shape, strain, re-faceting, support, interaction, oxide formation, etc) in 3D during the oxidation of ammonia is of essential importance to gain more understanding of the behaviour of these nanocrystals during a catalytic reaction.
+
+However, it must be ensured that the nanoparticles do not move or change their epitaxial relationship with the substrate during the exposition to reacting conditions at high temperatures.
+Therefore, the preceding SXRD experiment will also aim at resolving the evolution of the epitaxial relationship between the Pt nanoparticles and the \ce{Al_2O_3} substrate before measuring single nanoparticles with Bragg coherent diffraction imaging, during which the beam is reduced to micrometric size, and for which a movement of the nanoparticles prevents the measurements of rocking curves due to loss of alignment.
+Both BCDI and SXRD can be applied to high gas pressures due to the x-rays’ high penetration in gasses.
+
+\subsection{Platinum nanoparticles synthesis}\label{sec:PtParticles}
+
+The platinum nanoparticles were synthesised thanks to a collaboration with the Israel Institute of Technology (Technion, collaboration with Dr. Eugene Rabkin), their use first showcased in the work by Dupraz et al. \parencite*{Dupraz2017}.
+A 30 nm thick homogeneous layer of platinum is deposited at room temperature on a [001] oriented alumina ($\alpha-$\ce{Al_2O_3}) substrate, which crystallises in a hexagonal unit cell.
+The Pt nanocrystals have their c-axis oriented along the [111] direction, normal to the [001] $\alpha-$\ce{Al_2O_3} substrate.
 A mask is then applied on the sample and a lithographic process route ensures that the platinum layer transforms to nanoparticles that are between 100 and 1000 nm large, epitaxied on the substrate surface.
-The application of a patterned mask during the lithographic process yields a patterned sample with isolated nanoparticles in the middle of \qty{100}{\um} large squares, visible in fig. \ref{fig:Mask}.
+
+Two different samples are used during the oxidation of ammonia.
+On one hand, in order to obtain a more important scattered intensity with SXRD, the sample surface is homogeneously covered with Pt particles.
+On the other hand, there is a need to obtain isolated nanoparticles for BCDI to avoid alien signal coming from neighbouring nanoparticles.
+The application of a specific patterned mask during the lithographic process then yields a patterned sample with isolated nanoparticles in the middle of \qty{100}{\um} large squares, visible in fig. \ref{fig:Mask}.
 
 The position of the squares is designated with Arabic numbers (row), letters (column) and roman numbers (large rectangle).
 All of the position indicators are constituted of platinum nanoparticle as well, which allows the mapping of the sample's surface in Bragg condition to find the nanoparticles' positions (fig. \ref{fig:SampleMapping}).
-The hole diameter in the mask changes in different areas of the sample and has a direct impact on the average nanoparticle size.
-% The epitaxy relation between the nanoparticle and the substrate was explored in this section with in-plane diffraction measurements that show an average in-plane strain of \qty{1}{\percent}.
+The hole diameter in the mask changes in different areas of the sample and has a direct impact on the average nanoparticle size in those areas.
 After dewetting and heating at \qty{1100}{\degreeCelsius} for \qty{30}{\minute}, the platinum nanoparticles exhibit a well-faceted Winterbottom shape observed in various BCDI measurements \parencite{Dupraz2017}.
-% \textcolor{Important}{Add more ref with these samples, detail better, give good strain value}
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sample/mask.png}
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sample/litho1.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sample/litho1_brighter.png}
     \caption{
-        Mask applied during sample preparation (left) and resulting pattern on the sample surface (right).
+        Mask applied during sample preparation (left) and resulting pattern on the sample surface observed with an optical microscope (right).
     }
     \label{fig:Mask}
 \end{figure}
+
+The epitaxial relationship between platinum and $\alpha$-\ce{Al_2O_3} (also known as sapphire) has been shown to consist into the superposition of the Pt [111] plane on top of the $\alpha$-\ce{Al_2O_3} [0001] plane, \textit{i.e.} Pt[111]||Al$_2$O$_3$[0001] (fig. \ref{fig:Epitaxy} - \cite{Farrow1993}).
+The {110} platinum planes are perpendicular to the Pt [111] plane, the second-neighbour Pt atoms are arranged in a hexagonal pattern that is only \qty{0.9}{\percent} larger than the basal-plane unit of sapphire at room temperature.
+
+\begin{minipage}{0.55\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{/home/david/Documents/PhD/Figures/introduction/Epitaxy.pdf}
+    \captionof{figure}{
+    Pt[111]||Al$_2$O$_3$[0001] epitaxy relationship.
+    }
+    \label{fig:Epitaxy}
+\end{minipage}%
+\hfill% Add horizontal space between minipages
+\begin{minipage}{0.44\linewidth}
+    \begin{equation}
+        \epsilon = \big( a_{Pt} \frac{\sqrt{3}}{\sqrt{2}} - a_{Sapphire} \big) / a_{Sapphire}
+        \label{eq:MisfitStrain}
+    \end{equation}
+\end{minipage}%
+
+Lattice strain in diffraction is usually defined as the difference between the reference and experimental lattice parameter values, respectively $a_{ref}$ and $a$ (eq. \ref{eq:StrainDiffraction}).
+
+\begin{equation}
+    \epsilon = \frac{a - a_{ref}}{a_{ref}}
+    \label{eq:StrainDiffraction}
+\end{equation}
+
+In this case, the misfit strain at the platinum-alumina interface can be computed using eq. \ref{eq:MisfitStrain}, the reference lattice parameter is equalled to the in-plane lattice parameter of sapphire, while the lattice parameter of the larger hexagonal arrangement of the platinum atoms on the (111) surface is equal to $\sqrt{3} a_{Pt} / \sqrt{2} $.
+At room temperature, the misfit strain computed from literature values ($a_{Pt} = \qty{3.9242}{\angstrom}$, $a_{Sapphire} = \qty{4.7602}{\angstrom}$) is computed to be equal to $\epsilon = \qty{0.96}{\percent}$.
 
 \subsection{Catalysis reactor calibration}
 
@@ -45,7 +100,7 @@ The catalytic activity of the platinum nanoparticles was first studied as a func
 Similar scans where also performed on the empty reactor/sample holder to ensure the absence of activity towards the oxidation of ammonia.
 
 The heater temperature was first calibrated by measuring the temperature in the reactor at different pressures by the means of a type K thermocouple, as a function of the current intensity (fig. \ref{fig:TempRamps} - a), \qty{10}{\minute} separate consecutive datapoints to ensure the heater stability.
-The experimental data points were then fit using a polynomial of degree four to set the reactor to any temperature from \qtyrange{25}{600}{\degreeCelsius} when working under vacuum or at ambient pressure (\qty{0.3}{\bar} or \qty{0.5}{\bar} of \ce{Ar}).
+The experimental data points were fit to be able to set the reactor to any temperature from \qtyrange{25}{600}{\degreeCelsius} when working under vacuum or at ambient pressure (\qty{0.3}{\bar} or \qty{0.5}{\bar} of \ce{Ar}).
 The thermal conductivity of the gases involved in the oxidation of ammonia are in the similar order of magnitude (tab. \ref{tab:ThermalConductivity}).
 Moreover, the same inert gas used to set the reactor pressure - Argon - is used as a carrier gas during the experiments, constituting at least \qty{80}{\percent} of the gas flow, and allowing us to assume that the temperature in the reaction chamber is well approximated.
 
@@ -65,7 +120,8 @@ Moreover, the same inert gas used to set the reactor pressure - Argon - is used 
 \label{tab:ThermalConductivity}
 \end{table}
 
-A temperature ramp at a reactor pressure of \qty{0.3}{\bar} (fig. \ref{fig:TempRamps} - b) was carried out to probe the evolution of the reaction products as a function of the temperature under reacting conditions, \textit{i.e.} a constant gas flow of \qty{41}{\ml\per\min} of \ce{Ar}, \qty{8}{\ml\per\min} of \ce{O_2}, and \qty{1}{\ml\per\min} of \ce{NH_3}.
+A temperature ramp at a reactor pressure of \qty{0.5}{\bar} (fig. \ref{fig:TempRamps} - b) was carried out to probe the evolution of the reaction products as a function of the temperature under reacting conditions, \textit{i.e.} a constant gas flow of \qty{41}{\ml\per\min} of \ce{Ar}, \qty{8}{\ml\per\min} of \ce{O_2}, and \qty{1}{\ml\per\min} of \ce{NH_3}.
+In the frame of this thesis, the same ratio between incoming gas flows in assumed to be respected between the different gas partial pressures, in this case the partial pressure of oxygen is then equal to \qty{80}{\milli\bar}, the partial pressure of ammonia to \qty{10}{\milli\bar}, and the partial pressure of argon to \qty{410}{\milli\bar}.
 
 \begin{figure}[!htb]
     \centering
@@ -73,7 +129,7 @@ A temperature ramp at a reactor pressure of \qty{0.3}{\bar} (fig. \ref{fig:TempR
     \includegraphics[width=0.495\textwidth]{/home/david/Documents/PhDScripts/Test_Reactor_CO2_2021_01/Figures/TempRamp2.pdf}
     \caption{
         a) Temperature inside the reactor cell measured with a type C thermocouple under vacuum and different \ce{Ar} pressures.
-        b) Partial pressures evolution under a constant gas flow (\qty{41}{\ml\per\min} of \ce{Ar}, \qty{8}{\ml\per\min} of \ce{O_2}, \qty{1}{\ml\per\min} of \ce{NH_3}) at a reactor pressure of \qty{0.3}{\bar} during increasing and decreasing (low transparency) temperature ramp to \qty{650}{\degreeCelsius} with 100 steps, each lasting \qty{10}{\second}.
+        b) Partial pressures evolution under a constant gas flow (\qty{41}{\ml\per\min} of \ce{Ar}, \qty{8}{\ml\per\min} of \ce{O_2}, \qty{1}{\ml\per\min} of \ce{NH_3}) at a reactor pressure of \qty{0.5}{\bar} during increasing and decreasing (low transparency) temperature ramp to \qty{650}{\degreeCelsius} with 100 steps, each lasting \qty{10}{\second}.
         The partial pressure of oxygen is omitted for simplicity.
     }
     \label{fig:TempRamps}
@@ -82,9 +138,9 @@ A temperature ramp at a reactor pressure of \qty{0.3}{\bar} (fig. \ref{fig:TempR
 The catalyst light off temperatures for the production of \ce{N_2}, \ce{NO} and \ce{N_2O} can respectively be identified to be around \qty{300}{\degreeCelsius}, \qty{450}{\degreeCelsius}, and \qty{550}{\degreeCelsius}.
 The excess of oxygen compared to ammonia increases the production of \ce{NO} at high temperatures, with a partial pressure similar to the partial pressure of nitrogen at \qty{650}{\degreeCelsius}.
 No decrease of the nitrogen partial pressure can yet be detected as a function of the increasing temperature.
-The production of nitrous oxide stays a low values during the temperature ramp, almost imperceptible from the background pressure.
+The production of nitrous oxide stays at low values during the temperature ramp, almost imperceptible from the background pressure.
 
-According to these primary results, the study of the oxidation of ammonia with BCDI was originally decided to be carried out at \qtylist{300;500;600}{\degreeCelsius}, temperatures before and after the catalyst light off (tab. \ref{tab:ConditionsNanoparticles}).
+According to these primary results, the study of the oxidation of ammonia was originally decided to be carried out at \qtylist{300;500;600}{\degreeCelsius}, temperatures before and after the catalyst light off (tab. \ref{tab:ConditionsNanoparticles}).
 
 \begin{table}[!htb]
 \centering

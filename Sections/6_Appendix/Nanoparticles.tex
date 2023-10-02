@@ -1,36 +1,3 @@
-\section{Temperature ramp}
-
-The particle Amaterasu was studied during a temperature ramp, 3D views of the particle can be found in fig. \ref{fig:Amaterasu} in sec. \ref{sec:TempRampBCDI}.
-
-\begin{table}[!htb]
-        \centering
-        \resizebox{\textwidth}{!}{%
-        \begin{tabular}{lSSSSSSSS}
-        \toprule
-        {} & {Facet} & {$<\epsilon_{zz}>$} & {$\sigma_{\epsilon_{zz}}$} & {$\vec{u}_{\hat{q_z}}$ (\unit{\angstrom})} & {$\sigma_{\vec{u}_{\hat{q_z}}}$ (\unit{\angstrom})} & {Angle with [111] direction (\unit{\degree})} & {Absolute facet size (in voxels)} & {Relative facet size} \\
-        \midrule
-        0 & 0 & -0.000126 & 0.000819 & -0.935006 & 0.937775 & 0.000000 & nan & nan \\
-        1 & 1 & 0.000148 & 0.000140 & -0.755531 & 0.167763 & 0.000000 & 44397.663467 & 0.044881 \\
-        2 & 2 & 0.000026 & 0.000112 & -1.017636 & 0.179658 & 54.735610 & 28554.191678 & 0.028865 \\
-        3 & 3 & 0.000147 & 0.000111 & -1.258746 & 0.319739 & 58.372940 & 42252.889700 & 0.042712 \\
-        4 & 4 & -0.000067 & 0.000063 & -0.457895 & 0.248747 & 61.113265 & 53275.838905 & 0.053855 \\
-        5 & 5 & 0.000092 & 0.000095 & -1.231178 & 0.270344 & 72.272200 & 37115.885233 & 0.037520 \\
-        6 & 6 & -0.000143 & 0.001033 & -1.548569 & 0.943487 & 71.266574 & 50106.894497 & 0.050652 \\
-        7 & 7 & -0.000042 & 0.000041 & -0.553660 & 0.409718 & 79.225781 & 29784.140334 & 0.030108 \\
-        8 & 8 & 0.000124 & 0.000038 & -1.661702 & 0.216682 & 96.642581 & 13676.155558 & 0.013825 \\
-        9 & 9 & -0.000056 & 0.000558 & -0.366485 & 0.571493 & 100.218987 & 7184.353885 & 0.007262 \\
-        10 & 10 & -0.000478 & 0.001634 & -1.908002 & 0.723495 & 103.737939 & 21640.156224 & 0.021876 \\
-        11 & 11 & -0.000356 & 0.000223 & -0.213895 & 0.753181 & 117.452457 & 17727.454403 & 0.017920 \\
-        12 & 12 & -0.000212 & 0.000820 & -0.361291 & 1.091395 & 178.494144 & 148119.668614 & 0.149731 \\
-        \bottomrule
-        \end{tabular}
-        }
-        \caption{
-        Output of the \textit{FacetAnalyzer} plugin used in \textit{Paraview} when extracting the facets on different particle surfaces for the scan 1414 at \qty{25}{\degreeCelsius} under Argon atmosphere.
-        }
-        \label{tab:FieldData1414}
-\end{table}
-
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS\_2021\_01/FacetAnalyser/FacetDispEvolution.pdf}
@@ -40,8 +7,6 @@ The particle Amaterasu was studied during a temperature ramp, 3D views of the pa
     }
     \label{fig:AmaterasuDisplacement}
 \end{figure}
-
-\section{SXRD on Pt nanoparticles}
 
 \begin{figure}[!htb]
     \centering
@@ -61,27 +26,44 @@ The particle Amaterasu was studied during a temperature ramp, 3D views of the pa
     \label{fig:Epitaxy111}
 \end{figure}
 
+% \begin{figure}[!htb]
+%     \centering
+%     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/powder_300.pdf}
+%     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/powder_500.pdf}
+%     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/powder_600.pdf}
+%     \caption{
+%         Scattered intensity as a function of $\delta$ showing the Bragg peak originating from the substrate near \ang{16}, the
+%         (220) powder ring near \ang{27.9} and the (220) Bragg peak from the [111] oriented nanoparticles near \ang{28.1}.
+%     }
+%     \label{fig:PowderNanoparticles}
+% \end{figure}
+
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/powder_300.pdf}
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/powder_500.pdf}
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/powder_600.pdf}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/introduction/stereographic_projection_bottom.pdf}
     \caption{
-        Scattered intensity as a function of $\delta$ showing the Bragg peak originating from the substrate near \ang{16}, the
-        (220) powder ring near \ang{27.9} and the (220) Bragg peak from the [111] oriented nanoparticles near \ang{28.1}.
+        Stereographic projection perpendicular to $[\bar{1}\bar{1}\bar{1}]$ crystallographic orientation.
+        The circles describe the angle with the $[\bar{1}\bar{1}\bar{1}]$ direction from \ang{0} (centre) to \ang{90} (outer-ring).
     }
-    \label{fig:PowderNanoparticles}
+    \label{fig:StereoBottom}
 \end{figure}
 
-\section{Mass spectrometer data during ammonia oxidation on Pt nanoparticles}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/Fit3D.png}
+    \caption{
+        Sum of Bragg peak intensity perpendicular to $\vec{q}_x$ and $\vec{q}_y$ and $\vec{q}_z$, fitted by Lorentzian profiles.
+    }
+    \label{fig:FitB73D}
+\end{figure}
 
-\subsection{Non patterned sample} \label{sec:RGANanoparticlesNonPatterned}
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/rga_300.png}
     \caption{
-        Time dependent partial pressures recorded from a leak in the reactor output as detailed in sec. \ref{sec:XCAT}, at \qty{300}{\degreeCelsius}.
+        Time dependent partial pressures recorded from a leak in the reactor output by a residual gas analyser (RGA) during the SXRD experiment on the non-patterned sample containing Pt[111]||Al$_2$O$_3$[0001] nanoparticles at \qty{300}{\degreeCelsius}.
+        Vertical dotted lines indicate transitions between two conditions for which the \ce{NH_3} and \ce{O_2} flow is indicated in the legend.
     }
     \label{fig:RGA300SXRDNanoparticles}
 \end{figure}
@@ -90,7 +72,8 @@ The particle Amaterasu was studied during a temperature ramp, 3D views of the pa
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/rga_500.png}
     \caption{
-        Time dependent partial pressures recorded from a leak in the reactor output as detailed in sec. \ref{sec:XCAT}, at \qty{500}{\degreeCelsius}.
+        Time dependent partial pressures recorded from a leak in the reactor output by a residual gas analyser (RGA) during the SXRD experiment on the non-patterned sample containing Pt[111]||Al$_2$O$_3$[0001] nanoparticles at \qty{500}{\degreeCelsius}.
+        Vertical dotted lines indicate transitions between two conditions for which the \ce{NH_3} and \ce{O_2} flow is indicated in the legend.
     }
     \label{fig:RGA500SXRDNanoparticles}
 \end{figure}
@@ -99,36 +82,28 @@ The particle Amaterasu was studied during a temperature ramp, 3D views of the pa
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/rga_600.png}
     \caption{
-        Time dependent partial pressures recorded from a leak in the reactor output as detailed in sec. \ref{sec:XCAT}, at \qty{600}{\degreeCelsius}.
+        Time dependent partial pressures recorded from a leak in the reactor output by a residual gas analyser (RGA) during the SXRD experiment on the non-patterned sample containing Pt[111]||Al$_2$O$_3$[0001] nanoparticles at \qty{600}{\degreeCelsius}.
+        Vertical dotted lines indicate transitions between two conditions for which the \ce{NH_3} and \ce{O_2} flow is indicated in the legend.
     }
     \label{fig:RGA600SXRDNanoparticles}
 \end{figure}
 
-\subsection{Non patterned sample} \label{sec:RGANanoparticlesPatterned}
-
-\section{3D views of reconstructed Pt nanoparticles during the oxidation of ammonia}\label{sec:3DAmmoniaOxidation}
-
-The following images represent the surface of the D-6 and B-7 nanoparticles measured during two ammonia oxidation cycles at 300°C and 400°C.
-The surface is created by using the Marching-Cubes algorithm \parencite{Lorensen1987} in \textit{Paraview} \parencite{Ahrens2001}, which works by first assigning a scalar value to each voxel of the data (in our case the amplitude of the retrieved complex Bragg electronic density), and secondly selecting an isovalue which acts as a threshold, separating the regions of the volume that have values above it from those with values below it.
-Finally, by "marching" over the volume of the array, the algorithm derives a surface representation by assigning a configuration to each point in the array that depends on whether or not the 8 neighbouring cubes have values above or below the isovalue (fig. \ref{fig:MarchingCubes}).
-
-As mentionned in sec. \ref{sec:BCDI}, the isovalue must be carefully chosen since it depends on the amplitude of the electronic density, \textit{i.e.} theoretically on the structure factor of each voxel in real space.
-Therefore, there should be a clean drop of amplitude when a voxel is not in the reconstructed object, in the case of large strain or bad measurements this is not as clear as seen in the surface of particle B-7.
-
-The view perpendicular to the three axes of the laboratory frame is then represented, the particle is tilted due to the incoming angle $\theta$ for the measurement of the [111] Bragg peak.
-Both the retrieved displacement and strain fields are represented with the same respective colorbar.
-The ammonia to oxygen ration is represented on the right part of the figure.
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysis/figures/rga_300.pdf}
+    \caption{
+        Time dependent partial pressures recorded from a leak in the reactor output by a residual gas analyser (RGA) during the BCDI experiment on the patterned sample containing Pt[111]||Al$_2$O$_3$[0001] nanoparticles at \qty{300}{\degreeCelsius}.
+        Vertical dotted lines indicate transitions between two conditions for which the \ce{NH_3} and \ce{O_2} flow is indicated in the legend.
+    }
+    \label{fig:RGA300BCDINanoparticles}
+\end{figure}
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/MarchingCubes.png}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysis/figures/rga_400.pdf}
     \caption{
-    The Marching-cubes algorithm generates triangles connecting the vertices to form the mesh surface.
-    Each selected configuration has a specific arrangement of vertices that dictate how to form triangles to create a smooth surface.
-    Image taken from \url{https://fr.wikipedia.org/wiki/Marching_cubes}
+        Time dependent partial pressures recorded from a leak in the reactor output by a residual gas analyser (RGA) during the BCDI experiment on the patterned sample containing Pt[111]||Al$_2$O$_3$[0001] nanoparticles at \qty{400}{\degreeCelsius}.
+        Vertical dotted lines indicate transitions between two conditions for which the \ce{NH_3} and \ce{O_2} flow is indicated in the legend.
     }
-    \label{fig:MarchingCubes}
+    \label{fig:RGA400BCDINanoparticles}
 \end{figure}
-
-\includepdf[pages=-]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/3D_B7.pdf}\label{ref:AppendixB7}
-\includepdf[pages=-]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/3D_D6.pdf}\label{ref:AppendixD6}

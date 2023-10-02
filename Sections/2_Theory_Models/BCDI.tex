@@ -66,7 +66,6 @@ The first part of eq. \ref{eq:FcrystalBCDI6} can be considered to be the Fourier
 Moreover, one can recognise the expression of a discrete Fourier transform (DFT) of frequency $\vec{G}$ in which $\rho_k(\vec{r})$ is the $k-th$ sample of the series that consist in $N_{uc}$ samples \parencite{Cooley1965, Cochran1967, favre-nicolin_semiconductor_2011, Godard2021}.
 The reason for the approximation $\vec{q} \approx \vec{G}$ is simply to be able to use a Fast Fourier Transform (FFT) algorithm to compute the DFT that has a linearithmic time complexity $O(n \, log(n))$.
 This approximation breaks down far away from the Laue condition or if the strain is so important that the condition $(\vec{q}-\vec{G}).\vec{u}_k<<1$ is not anymore respected to move from eq. \ref{eq:FcrystalBCDI5} to eq. \ref{eq:FcrystalBCDI6} \parencite{Takagi1969}.
-A practical example of the limits of this equation is given is sec. \ref{sec:StrainTempRamp}.
 
 In the case of highly strained crystal, or when the intensity must be computed far away from Bragg peaks, it is still possible to resort to so-called \textit{atomistic} simulations by computing the scattering intensity from the position of each atom in the crystal (eq. \ref{eq:FCrystal1}).
 However, the position of each atom must be known and, for a large crystal, the sum becomes too large to handle even with high-performance clusters due to a quadratic time complexity $O(n^2)$.
@@ -225,44 +224,62 @@ After phase retrieval, it is possible to exploit the electronic density of the r
 The surface of the reconstructed crystal corresponds to a layer of voxels in the three dimensional array.
 J. Carnis \textit{et al.} \parencite*{Carnis2019_scientific_reports} have presented guidelines on how to correctly select the surface voxels, which are detailed below.
 The histogram in fig. \ref{fig:histo} represents the number of voxels per bin of normalised electronic density, the observed peak corresponds to the bulk voxels for which the amplitude of the electronic density is close to the maximum value (fig. \ref{fig:histo} - right).
-An empiric criterion to select the voxels that correspond to the crystal's surface is to take the lowest foot of that peak, here around \num{0.75}, the surface being defined as the hull surrounding the bulk voxels.
+An empiric criterion to select the voxels that correspond to the crystal's surface is to take the lowest foot of that peak, here around \num{0.6}, the surface being defined as the hull surrounding the bulk voxels.
 
 \begin{figure}[!htb]
    \centering
-   \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/norm_dist.png}
-   \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/amp_D6.png}
+   \includegraphics[height=4.5cm]{/home/david/Documents/PhD/Figures/bcdi_data/B7/hist_iso.pdf}
+   \includegraphics[height=4.5cm]{/home/david/Documents/PhD/Figures/bcdi_data/D6/amp_D6.png}
    \caption{
    Histogram representing the distribution of the amplitude of the electronic density, normalised by its maximum value (left).
-   Note that most points in the array have values close to zero, for they are not part of the reconstructed object' support, and are here ignored.
+   Values below 0.05 are ignored since they typically belong to voxels located far away from particle support.
    Amplitude of the electronic density in a slice of the reconstructed object (right).
-   Two curves are drawn at the values of \num{0.05} (outer curve) and \num{0.75} (inner curve).
+   Two curves are drawn at the values of \num{0.05} (outer curve) and \num{0.6} (inner curve).
    }
    \label{fig:histo}
 \end{figure}
 
-Once the threshold for the iso-surface is selected, it is possible to visualise a contour of the object with specialised solutions such as \textit{Paraview} (\cite{Ahrens2001} - fig. \ref{fig:facets_paraview}) or \textit{Gwaihir} (\cite{Simonne2022} - fig. \ref{fig:3D_object}).
+Once the threshold for the iso-surface is selected, it is possible to visualise a contour of the object with specialised solutions such as \textit{Paraview} (\cite{Ahrens2001} - fig. \ref{fig:FacetsParaview}) or \textit{Gwaihir} (\cite{Simonne2022} - fig. \ref{fig:3D_object}).
+
+The surface is usually created by using the Marching-Cubes algorithm \parencite{Lorensen1987}, which works by assigning a scalar value to each voxel of the data (in our case the amplitude of the retrieved complex Bragg electronic density), and by selecting an isovalue which acts as a threshold, separating the regions of the volume that have values above it from those with values below it.
+Finally, by "marching" over the volume of the array, the algorithm derives a surface representation by assigning a configuration to each point in the array that depends on whether or not the 8 neighbouring cubes have values above or below the isovalue (fig. \ref{fig:MarchingCubes}).
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/MarchingCubes.png}
+    \caption{
+    The Marching-cubes algorithm generates triangles connecting the vertices to form the mesh surface.
+    Each selected configuration has a specific arrangement of vertices that dictate how to form triangles to create a smooth surface.
+    Image taken from \url{https://fr.wikipedia.org/wiki/Marching_cubes}
+    }
+    \label{fig:MarchingCubes}
+\end{figure}
+
+The isovalue must be carefully chosen since it depends on the amplitude of the electronic density, \textit{i.e.} theoretically on the structure factor of each voxel in real space.
+
 Crystallographic facets can be identified on the surface of the reconstructed object when studying faceted objects with a highly coherent beam \parencite{richard_crystallographic_2018}, allowing in-depth studies of facet dependent strain and displacement.
 As described in sec. \ref{sec:Catalysis}, lattice strain and displacement are key factors in fields such as heterogeneous catalysis \parencite{ulvestad_situ_2016,kim_active_2018,fernandez_situ_2019,Passos2020,Carnis2021} or electrochemistry \parencite{vicente_bragg_2021, Atlan2023}.
 
 Retrieving the facets can be achieved by analysing the probability distributions of the orientations of triangle normals on a mesh representation of the object \parencite{Grothausmann2012}.
-This method is used in the \textit{Paraview} plugin FacetAnalyser \parencite{GrothausmannBeare2015}, and yields a list of features detailed in tab. \ref{tab:facets}.
+This method is used in the \textit{Paraview} plugin \textit{FacetAnalyser} \parencite{GrothausmannBeare2015}, and yields a list of features detailed in tab. \ref{tab:facets}.
+The probability of each surface voxel to belong to a facet is illustrated in fig. \ref{fig:FacetsParaview}.
 The orientation of each facet is retrieved by analysing the angles between the normal of each facet and a reference direction such as the [111] direction.
 
 In the case of highly resolved measurement, another approach could be inspired from  image processing and convolutional neural networks in which 3D convolutions kernels could help identify the object surface \parencite{RaschkaMirjalili2019}.
 By tuning the kernel size and values, it is possible to be sensitive to boundaries in specific directions.
 
-In this example, the FacetAnalyser plugin is used (fig. \ref{fig:facets_paraview}). Note that the edges and corners, sites of particular interest for heterogeneous catalysis \parencite{Taylor1925}, are also retrieved together as voxels not belonging to any facets.
+In this example, the FacetAnalyser plugin is used (fig. \ref{fig:FacetsParaview}). Note that the edges and corners, sites of particular interest for heterogeneous catalysis \parencite{Taylor1925}, are also retrieved together as voxels not belonging to any facets.
 The result depends on the algorithm input parameters, such as the minimum relative facet size, the angular acceptance for the facet normals, \textit{etc.}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/facets_D6.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/FacetProbability.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/FacetIDs.png}
     \caption{
-    On this screenshot taken from \textit{Paraview}, the particle facets are identified by a white contour.
-    The colouring represents the phase of the reconstructed object along the [111] direction, proportional to the lattice displacement along the [111] direction.
-    This particle has a diameter of about 800 nm.
+    a) Surface of a reconstructed nanoparticle ($\diameter \approx \qty{800}{\nm}$) with each surface voxel coloured by the probability to belong to a facet.
+    The surface is represented in b) with a hull in which each facet is drawn, delimited by thick white lines.
     }
-    \label{fig:facets_paraview}
+    \label{fig:FacetsParaview}
 \end{figure}
 
 \begin{table}
