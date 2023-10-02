@@ -35,24 +35,24 @@
 \contentsline {subsection}{\numberline {2.5.3}Resolution}{41}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}Facet analysis}{42}{subsection.2.5.4}%
 \contentsline {section}{\numberline {2.6}Synchrotron radiation for the study of materials}{43}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Synchrotron radiation}{43}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.1}Synchrotron radiation}{44}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}The SixS beamline}{45}{subsection.2.6.2}%
 \contentsline {subsection}{\numberline {2.6.3}Multi environment diffractometer}{46}{subsection.2.6.3}%
 \contentsline {subsubsection}{BCDI configuration}{46}{section*.41}%
 \contentsline {subsubsection}{Improving Bragg coherent diffraction imaging at SixS}{47}{section*.44}%
 \contentsline {subsection}{\numberline {2.6.4}Catalysis reactor}{49}{subsection.2.6.4}%
 \contentsline {section}{\numberline {2.7}Computer programs}{52}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Result reproducibility}{52}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.1}Result reproducibility}{53}{subsection.2.7.1}%
 \contentsline {subsection}{\numberline {2.7.2}\textit {Python} in the \textit {Jupyter} environment}{53}{subsection.2.7.2}%
 \contentsline {subsection}{\numberline {2.7.3}\textit {Gwaihir}}{54}{subsection.2.7.3}%
 \contentsline {subsubsection}{Workflow for Bragg coherent diffraction imaging}{55}{section*.50}%
-\contentsline {subsubsection}{Pre-processing}{56}{section*.53}%
+\contentsline {subsubsection}{Pre-processing}{55}{section*.53}%
 \contentsline {subsubsection}{Phase retrieval}{57}{section*.54}%
-\contentsline {subsubsection}{Post-processing}{57}{section*.56}%
+\contentsline {subsubsection}{Post-processing}{58}{section*.56}%
 \contentsline {subsubsection}{Graphical interface}{59}{section*.57}%
-\contentsline {subsubsection}{Command line scripts}{60}{section*.60}%
-\contentsline {subsubsection}{The CXI database}{60}{section*.62}%
-\contentsline {subsection}{\numberline {2.7.4}BINoculars}{62}{subsection.2.7.4}%
+\contentsline {subsubsection}{Command line scripts}{59}{section*.60}%
+\contentsline {subsubsection}{The CXI database}{59}{section*.62}%
+\contentsline {subsection}{\numberline {2.7.4}BINoculars}{61}{subsection.2.7.4}%
 \contentsline {subsection}{\numberline {2.7.5}ROD}{64}{subsection.2.7.5}%
 \contentsline {subsection}{\numberline {2.7.6}GenX}{64}{subsection.2.7.6}%
 \contentsline {chapter}{\numberline {3}Structural evolution of Pt nanoparticles during the oxidation of ammonia}{65}{chapter.3}%
@@ -62,14 +62,14 @@
 \contentsline {section}{\numberline {3.2}Average behaviour of Pt nanoparticles studied by surface x-ray diffraction}{69}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Experimental setup for SXRD experiments in the vertical geometry}{69}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Epitaxial relationship between \ce {Al_2O_3} and Pt nanoparticles under different atmospheres and temperature}{69}{subsection.3.2.2}%
-\contentsline {subsubsection}{Room temperature study under inert atmosphere}{69}{section*.70}%
-\contentsline {subsubsection}{Study during ammonia oxidation before and after catalyst light off temperature}{70}{section*.73}%
-\contentsline {subsection}{\numberline {3.2.3}Particle reshaping during the oxidation of ammonia}{71}{subsection.3.2.3}%
+\contentsline {subsubsection}{Room temperature study under inert atmosphere}{70}{section*.70}%
+\contentsline {subsubsection}{Study during ammonia oxidation before and after catalyst light off temperature}{71}{section*.73}%
+\contentsline {subsection}{\numberline {3.2.3}Particle reshaping during the oxidation of ammonia}{72}{subsection.3.2.3}%
 \contentsline {section}{\numberline {3.3}Single Pt nanoparticles structure evolution studied by Bragg coherent diffraction imaging}{77}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Experimental setup for BCDI experiments}{77}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Effects of temperature on a Pt[111]||Al$_2$O$_3$[0001] epitaxied nanoparticle under inert atmosphere}{78}{subsection.3.3.2}%
 \contentsline {subsubsection}{Shape evolution}{78}{section*.81}%
-\contentsline {subsubsection}{Determination of strain}{82}{section*.87}%
+\contentsline {subsubsection}{Determination of strain}{83}{section*.87}%
 \contentsline {subsubsection}{Homogeneous strain evolution}{83}{section*.88}%
 \contentsline {subsubsection}{Heterogeneous strain evolution}{85}{section*.90}%
 \contentsline {subsection}{\numberline {3.3.3}Nanoparticle surface structure evolution during ammonia oxidation}{88}{subsection.3.3.3}%
@@ -92,6 +92,6 @@
 \contentsline {subsection}{\numberline {4.3.3}Surface species presence}{128}{subsection.4.3.3}%
 \contentsline {section}{\numberline {4.4}Conclusion and perspectives}{128}{section.4.4}%
 \contentsline {chapter}{Bibliography}{130}{chapter*.146}%
-\contentsline {chapter}{\numberline {A}Diffraction vocabulary}{147}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Nanoparticles study}{148}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Single crystals study}{162}{appendix.C}%
+\contentsline {chapter}{\numberline {A}Diffraction vocabulary}{146}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Nanoparticles study}{147}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Single crystals study}{161}{appendix.C}%

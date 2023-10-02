@@ -2,7 +2,7 @@
 
 Surface x-ray diffraction is a technique used to study the crystal structure and surface morphology of materials by analysing the diffraction pattern formed when x-rays interact with the surface of the material.
 In surface x-ray diffraction, the incident photon beam is directed towards the sample surface at a grazing angle of incidence to lower the penetration depth of the x-rays in the material, typically probing the top few atomic layers.
-The incident angle can be chosen to coincide with the critical angle of the material (sec. \ref{sec:RefractionReflectionAbsorption}) to increase the intensity of the scattered beam due to total reflection and to lower the bulk contribution to the intensity in comparison with the surface contribution \parencite{FEIDENHANSL1989105,moritz_van_hove_2022}.
+The incident angle can be chosen to coincide with the critical angle of the material (sec. \ref{sec:RefractionReflectionAbsorption}) to increase the intensity of the scattered beam due to total reflection and to lower the bulk contribution to the intensity in comparison with the surface contribution \parencite{Feidenhansl1989, Moritz2022}.
 However, since the intensity becomes so dependent on the incident angle, a misalignment of the incident beam can lead to relevant errors in the scattered beam intensity, the surface alignment is critical during surface x-ray diffraction experiments.
 The x-rays interact with the atoms in the topmost layer of the material and undergo scattering.
 The intensity of the scattered x-rays is then measured as a function of the scattering angle.
@@ -44,7 +44,7 @@ It was shown in sec. \ref{sec:LatticeFactor} that the lattice factor is equivale
 For infinitely large crystals, the lattice factor converges towards a three dimensional Dirac peak.
 When working with large single crystals for surface x-ray diffraction, the samples are considered to be infinitely large in the $\vec{a}, \vec{b}$ directions and \textit{semi-infinitely} large in the $\vec{c}$ direction, creating an infinitely large flat surface.
 In the real space, this can be mathematically described by the multiplication of the crystal lattice and a step-function as illustrated in fig. \ref{fig:CTRConvolution}.
-The convolution theorem states that the Fourier transform of the multiplication of two functions is the convolution of their Fourier transforms \parencite{MCALISTER2003629}, the Fourier transform of the crystal lattice is the Lattice factor when the Fourier transform of the step function is the inverse function $\frac{1}{q_z}$ \parencite{Andrews1985, Robinson1986}, which gives rise to a so called "rod" of intensity along the direction perpendicular to the truncated surface, a \textit{crystal truncation rod}.
+The convolution theorem states that the Fourier transform of the multiplication of two functions is the convolution of their Fourier transforms \parencite{Mcalister2003}, the Fourier transform of the crystal lattice is the Lattice factor when the Fourier transform of the step function is the inverse function $\frac{1}{q_z}$ \parencite{Andrews1985, Robinson1986}, which gives rise to a so called "rod" of intensity along the direction perpendicular to the truncated surface, a \textit{crystal truncation rod}.
 
 $A(\vec{q})$ is defined as the scattering amplitude of an infinite 2D layer of atoms, the scattering amplitude for a semi infinite stack of those layers in the $\vec{c}$ direction can be written as (adapted from eq. \ref{eq:LatFactor}):
 
@@ -79,9 +79,9 @@ This expression is only valid within the kinematical approach to diffraction.
 
 The position in the reciprocal space that is exactly between Bragg peaks linked by the CTR can be called the \textit{anti-Bragg} \parencite{Robinson1991}, where the signal scattered from the surface is maximum compared to the signal scattered from the bulk which interferes destructively.
 This region, in which the surface structural information in contained, is accurately described using the kinematical diffraction theory and can therefore be described with eq. \ref{eq:CTR2}, in contrast with the Bragg peaks where multiple scattering cannot be ignored \parencite{Kaganer2007}.
-To be able to analyse CTRs, it is crucial to be able to obtain a good signal to noise ratio when measuring the anti-Bragg since the intensity difference with the Bragg peak can reach 8 orders of magnitude \parencite{Fadenberger2010InSO}.
+To be able to analyse CTRs, it is crucial to be able to obtain a good signal to noise ratio when measuring the anti-Bragg since the intensity difference with the Bragg peak can reach 8 orders of magnitude \parencite{Fadenberger2010}.
 This can become difficult when the surface is roughened during the growth of surface layers (such as oxide growth), phase transitions, or due to the adsorption of molecules during catalysis \parencite{Zhdanov1997, Zhdanov1998}.
-It can also be difficult to obtain a flat surface during polishing \parencite{MUSKET1982143}.
+It can also be difficult to obtain a flat surface during polishing \parencite{Musket1982}.
 
 An effective way to represent roughness is \textit{via} the $\beta$ model, in which the \textit{n}-surface layer (\textit{n} increases towards the surface) is defined as occupying an area equivalent to $\beta^n \times A_{bulk}$ where $A_{bulk}$ is the bulk surface area \parencite{Robinson1986}.
 The effect of roughness is illustrated in fig. \ref{fig:CTRSimulation}.
@@ -145,7 +145,7 @@ For in-plane measurements, the Laue condition is fulfilled by rotating the in-pl
 The detector in-plane angle $\gamma$ must then be equal to $\gamma = 2 \omega$ to measure the scattered x-rays in the direction of the scattering wavevector $\vec{k}_f$(fig. \ref{fig:EwaldSphere} - a).
 The incident angle between $\vec{k}_i$ and the sample must be kept to low values for reason that were explained in sec. \ref{sec:SXRD}.
 In the case of out-of-plane measurements, this brings some important constraints about the experiment geometry.
-For example, the $(0, 0, L)$ crystal truncation rod becomes impossible to measure, for other rods (e.g. $(0, 1, L)$, fig. \ref{fig:EwaldSphere} - b), the sample must be rotated in plane so that the top of the Ewald sphere intersect the rod in the reciprocal space \parencite{Vlieg1997, Schlepütz2005}.
+For example, the $(0, 0, L)$ crystal truncation rod becomes impossible to measure, for other rods (e.g. $(0, 1, L)$, fig. \ref{fig:EwaldSphere} - b), the sample must be rotated in plane so that the top of the Ewald sphere intersect the rod in the reciprocal space \parencite{Vlieg1997, Schleputz2005}.
 
 As one can imagine from fig. \ref{fig:EwaldSphere} - b, there is a maximum value $l_{max}$ that can be reached until the radius of the Ewald sphere becomes too low to ever intersects the rod in the reciprocal space, which depends on the incoming photon wavelength and on the crystal lattice.
 Furthermore, when for low $l$ values the detector is in the vertical plane, for high $l$ values the detector is almost parallel to the sample which limits the sampling of the reciprocal space.

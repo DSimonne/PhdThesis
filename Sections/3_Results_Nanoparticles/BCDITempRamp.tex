@@ -88,7 +88,7 @@ This limit is linked to the quality of the measurement, a low coherent flux mean
 % In the frame of this thesis, the problem of facet identification was often encountered when facets were either too small to be resolved by the recognition algorithm, or when the uncertainty in the direction of the normal to the smallest facets is too important to be certain of the facet type.
 % For example, the area in orange in fig. \ref{fig:StereoBottom} represents a region in which facets with different structures have a similar orientation and for which it can be complicated to make the difference between $(\bar{1}\bar{1}1)$, $(\bar{2}\bar{2}1)$ and $(\bar{3}\bar{3}1)$ facets.
 
-Moreover, crystal truncation rods perpendicular to small facets are less intense in comparison to large facets, which is at the origin of the direction-dependent spatial resolution in BCDI \parencite{cherukara_anisotropic_2018}.
+Moreover, crystal truncation rods perpendicular to small facets are less intense in comparison to large facets, which is at the origin of the direction-dependent spatial resolution in BCDI \parencite{Cherukara2018a}.
 
 The use of \textit{FacetAnalyser} in \textit{Paraview} (sec. \ref{sec:FacetAnalysis}) not only recognises the facets on the particle surface, but also provides the coordinates of the normals to each facet.
 When identifying the facets in real space by the means of \textit{FacetAnalyser}, the normal to the smaller facets is more sensitive to deviation from its true value due to the lower amount of voxels belonging to those facets, which makes the detection of smaller facets difficult.
@@ -144,7 +144,7 @@ When heating from \qty{150}{\degreeCelsius} to \qty{250}{\degreeCelsius} , the (
 When heating to \qty{350}{\degreeCelsius}, the ($10\bar{1}$) facet disappeared and a ($\bar{1}01$) facet appeared on the opposite side of the particle, this transformation is visible in fig. \ref{fig:AmaterasuA}.
 
 The surface of the Pt nanoparticle coloured by the voxel strain values from \qtyrange{450}{600}{\degreeCelsius} is presented in fig. \ref{fig:AmaterasuB}.
-If one expects a certain degree of symmetry from the equilibrium Winterbottom shape of a particle on a substrate \parencite{WINTERBOTTOM1967, Boukouvala2021}, this symmetry seems to only be reached at \qty{450}{\degreeCelsius} (fig. \ref{fig:AmaterasuB}) with three ($\bar{1}1\bar{1}$), (1$\bar{1}\bar{1}$), and ($\bar{1}\bar{1}$1) facets close to the substrate for a total of 11 facets (8 {111} facets and 3 {100] facets), which is also the only reconstruction without any ($\bar{2}\bar{1}2$), ($\bar{1}01$) and ($2\bar{1}\bar{1}$)-type facets (fig. \ref{fig:AmaterasuFacetsEvolution}).
+If one expects a certain degree of symmetry from the equilibrium Winterbottom shape of a particle on a substrate \parencite{Winterbottom1967, Boukouvala2021}, this symmetry seems to only be reached at \qty{450}{\degreeCelsius} (fig. \ref{fig:AmaterasuB}) with three ($\bar{1}1\bar{1}$), (1$\bar{1}\bar{1}$), and ($\bar{1}\bar{1}$1) facets close to the substrate for a total of 11 facets (8 {111} facets and 3 {100] facets), which is also the only reconstruction without any ($\bar{2}\bar{1}2$), ($\bar{1}01$) and ($2\bar{1}\bar{1}$)-type facets (fig. \ref{fig:AmaterasuFacetsEvolution}).
 
 \begin{figure}[!htb]
     \centering
@@ -186,12 +186,12 @@ The alternating highly positive and negative strain regions in the middle of the
     \label{fig:Amaterasu110}
 \end{figure}
 
-When introducing \ce{O_2} at \qty{600}{\degreeCelsius} to study the oxidation of ammonia, the nanoparticle was definitely lost during the measurement, not to be found again, which underlines the difficulty to study a highly exothermic reaction with BCDI.
-Indeed, according to \cite{}, the reaction can heat the catalyst to very high temperatures which in our case could have been the trigger for the loss of the particle during the measurement, especially since the particle had so far resisted to the beam during the temperature ramp to \qty{600}{\degreeCelsius}.
+When introducing \ce{O_2} at \qty{600}{\degreeCelsius} to study the oxidation of ammonia, the nanoparticle was definitely lost during the measurement, not to be found again, which underlines the difficulty to study a highly exothermic reaction with BCDI \parencite{PerezRamirez2004, Hatscher2008}.
+The reaction can heat the catalyst to very high temperatures which in our case could have been the trigger for the loss of the particle during the measurement, especially since the particle had so far resisted to the beam during the temperature ramp to \qty{600}{\degreeCelsius}.
 
 \subsubsection{Determination of strain}
 
-The average value of the lattice parameter can be extracted from the position $\vec{G}$ of the Bragg peaks in reciprocal space \textit{via} eq. \ref{eq:QandD3} and eq. \ref{eq:Interplanarspacing} to compute the average lattice strain \textit{via} eq. \ref{eq:StrainDiffraction} by comparing with e.g. room temperature values under inert atmosphere.
+The average value of the lattice parameter can be extracted from the position $\vec{G}$ of the Bragg peaks in reciprocal space \textit{via} eq. \ref{eq:QandD3} and eq. \ref{eq:Interplanarspacing} to compute the average lattice strain \textit{via} eq. \ref{eq:StrainDiffraction} by comparing with e.g. room temperature values under inert atmosphere \parencite{Fernandez2019}.
 
 However, the information extracted from the retrieved phase in BCDI is more complex since, by measuring three non-coplanar Bragg peaks, one may retrieve the full strain tensor (eq. \ref{eq:StrainTensor}) from the reconstructed displacement field $\vec{u}_{\hat{q_x}, \hat{q_y}, \hat{q_z}}$ (eq. \ref{eq:DisplacementField}), $\hat{q_x}, \hat{q_y}, \hat{q_z}$ being three orthogonal basis vector in the reciprocal space \parencite{Karpov2019}.
 
@@ -302,7 +302,7 @@ However, no in-plane Bragg peak corresponding to the sapphire substrate was meas
 
 \subsubsection{Heterogeneous strain evolution}
 
-The remaining strain after phase retrieval is called the \textit{heterogeneous} strain ($\epsilon_{htg}$) \parencite{GREDIAC1996, FAVIER2007, Atlan2023}, the total out-of-plane strain observed during this experiment being equal to $\epsilon_{tot} = \epsilon_{hmg} + \epsilon_{zz, htg}$ when considering the changes from a reference (usually room temperature data).
+The remaining strain after phase retrieval is called the \textit{heterogeneous} strain ($\epsilon_{htg}$) \parencite{Grediac1996, Favier2007, Atlan2023}, the total out-of-plane strain observed during this experiment being equal to $\epsilon_{tot} = \epsilon_{hmg} + \epsilon_{zz, htg}$ when considering the changes from a reference (usually room temperature data).
 
 In BCDI, it is the displacement of small unit blocks making up the crystal lattice that is observed.
 Depending on the instrumental parameters, these small unit blocks, called \textit{voxels}, have a more or less large size.

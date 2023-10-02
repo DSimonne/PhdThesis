@@ -91,7 +91,7 @@ For a Gaussian distribution, the FWHM is related to the standard deviation $\sig
 The transverse coherent lengths are equal to $L_{T,H} = \qty{3.3}{\um}$, and $L_{T,V} = \qty{157.3}{\um}$.
 
 The longitudinal coherence length can be computed from eq. \ref{eq:LongitudinalCoL}, the ratio $\Delta\lambda/\lambda$ approximately equal to \qty{e-4}{\keV} at the energy of \qty{8.5}{\keV} gives $L_L = \qty{729}{\nm}$.
-These values corresponds to perfect coherent lengths without taking into account any imperfection in the beamline elements (such as the monochromator) that can result in increasing the virtual source size and decreasing the transverse coherence lengths \parencite{vincentjacques2010}.
+These values corresponds to perfect coherent lengths without taking into account any imperfection in the beamline elements (such as the monochromator) that can result in increasing the virtual source size and decreasing the transverse coherence lengths \parencite{Jacques2010}.
 
 \subsubsection{BCDI configuration}
 
@@ -99,9 +99,9 @@ During this thesis, the horizontal configuration was used for SXRD experiments w
 Working in a vertical configuration is preferable for BCDI since it allows a larger range of incident angle ($\beta$, the incident angle in the horizontal configuration, is limited to \ang{3}).
 The mirrors, that focus the beam in the horizontal configuration, are removed from the optical path, the focus of the beam is then handled by specific focusing optics.
 
-The secondary slits, which are wide open during surface x-ray diffraction experiment, are closed to \qty{100}{\um} vertically and horizontally, acting as a secondary source during Bragg coherent diffraction imaging experiments, reducing the effective size of the source seen by the focusing optics \parencite{vincentjacques2010}.
+The secondary slits, which are wide open during surface x-ray diffraction experiment, are closed to \qty{100}{\um} vertically and horizontally, acting as a secondary source during Bragg coherent diffraction imaging experiments, reducing the effective size of the source seen by the focusing optics \parencite{Jacques2010}.
 So called \textit{coherence} slits are placed just before the beam stop to select a homogeneous portion of the beam that impinges on focusing refractive lenses called Fresnel zone plates (FZP), designed to work at an energy of \qty{8.5}{\keV}.
-The use of Fresnel zone plates, that preserve the coherent wavefront, together with coherence slits has been proven to increase the coherent flux impinging on the sample \parencite{Schroer2008, diaz_coherent_2009, Mastropietro2011}.
+The use of Fresnel zone plates, that preserve the coherent wavefront, together with coherence slits has been proven to increase the coherent flux impinging on the sample \parencite{Schroer2008, Diaz2009, Mastropietro2011}.
 
 An order-sorting aperture (OSA) and a beamstop block the direct beam and the higher diffraction orders from the FZP (fig. \ref{fig:OpticalSetup}).
 Since the coherence slits also have the counter effect of decreasing the total photon flux on the sample, their width is subject to a compromise to increase the coherent flux on the sample.
@@ -184,7 +184,7 @@ A 3D view in the horizontal configuration with the high pressure surface diffrac
 
 This reactor is used for the study of heterogeneous catalysis \parencite{VanRijn2010, Resta2020a}, and couples a UHV environment for classical surface science preparations (sputtering, annealing, evaporation) with an ambient pressure reactor.
 In the frame of this thesis, the metallic single crystal are purchased already cut and polished for SXRD experiments, introduced in the reactor and cleaned by sputtering \parencite{Taglauer1990} before the experiment.
-It is also possible to heat the sample up to \qty{900}{\degreeCelsius} for an extended period of time to anneal the sample after sputtering \parencite{MUSKET1982143}.
+It is also possible to heat the sample up to \qty{900}{\degreeCelsius} for an extended period of time to anneal the sample after sputtering \parencite{Musket1982}.
 
 \begin{figure}[!htb]
     \centering
@@ -252,10 +252,10 @@ The measurement process for the collection of the scattered intensity is detaile
 Since this reactor was designed for SXRD together with a 6-circle diffractometer, the entire surface of the sample is accessible during the experiment which allows the full access to the reciprocal space to probe any particular symmetry, limited only by the extent of the Ewald sphere (\textit{i.e.} a maximum extent in $\vec{q}$).
 
 Different detectors can be accommodated on the diffractometer arm.
-On one hand, the MERLIN \parencite{BEWLEY20061029} combines a small pixel size (\qty{55}{\um}) with a large array (\numproduct{512 x 512} pixels), few gaps, and a large dynamic counting range, similar to the MAXIPIX detector \parencite{ponchut_maxipix_2011} which was first used for coherence experiments on the beamline \parencite{Schavkan2013, Li2020}.
+On one hand, the MERLIN \parencite{Bewley2006} combines a small pixel size (\qty{55}{\um}) with a large array (\numproduct{512 x 512} pixels), few gaps, and a large dynamic counting range, similar to the MAXIPIX detector \parencite{Ponchut2011} which was first used for coherence experiments on the beamline \parencite{Schavkan2013, Li2020}.
 For example, the pixel size is of main importance when computing the oversampling requirements (sec. \ref{sec:PhaseRetrieval}).
 
-On the other hand, the XPAD detector \parencite{Basolo2005, Dawiec_2016} is used for surface x-ray diffraction experiments, its pixel size is equal to \qty{130}{\um}.
+On the other hand, the XPAD detector \parencite{Basolo2005, Dawiec2016} is used for surface x-ray diffraction experiments, its pixel size is equal to \qty{130}{\um}.
 Different detectors can be used that change the array size, respectively (\numproduct{540 x 130}) for the XPAD70 and (\numproduct{540 x 260}) for the XPAD140.
-The area covered by the detector is larger than with the MERLIN, but the main advantages of the XPAD are its high dynamic range and highly programmable interface \parencite{Fertey2013} which can be programmed to work with automatic attenuators \parencite{Dawiec_2016}, crucial in SXRD when navigating between bulk and surface scattered signals .
+The area covered by the detector is larger than with the MERLIN, but the main advantages of the XPAD are its high dynamic range and highly programmable interface \parencite{Fertey2013} which can be programmed to work with automatic attenuators \parencite{Dawiec2016}, crucial in SXRD when navigating between bulk and surface scattered signals .
 The XPAD detector is usually set with its largest side along $\vec{c}$ to collect the highest range in $l$ during the measurements.

@@ -26,5 +26,6 @@ Nomenclature: https://www.overleaf.com/learn/latex/Nomenclatures
 * compute resolution for bcdi
 * no we, us
 
+* Need to say bcdi is used for defects or for heterogeneous catalysis for now, for example when speaking of facets
 
 Stress expresses the internal forces that neighbouring particles of a continuous material exert on each other, while strain is the measure of the relative deformation of the material.

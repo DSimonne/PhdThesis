@@ -1,9 +1,10 @@
 \section{BCDI} \label{sec:BCDI}
 
-Bragg Coherent Diffraction Imaging (BCDI) \parencite{robinson_coherent_2009} is a powerful technique for the non-destructive characterisation of material structure in three dimensions with unparalleled spatial and strain resolution for a scattering technique, few nanometres \parencite{labat_inversion_2015,cherukara_anisotropic_2018} and \num{e-4} respectively \parencite{Newton2010,Lauraux2020}.
+Bragg Coherent Diffraction Imaging (BCDI) \parencite{Robinson2001, Robinson2009} is a powerful technique for the non-destructive characterisation of material structure in three dimensions with unparalleled spatial and strain resolution for a scattering technique, few nanometres \parencite{Labat2015, Cherukara2018a} and \num{e-4} respectively \parencite{Newton2010, Lauraux2020}.
 
-The BCDI method is reliant on the coherence (sec. \ref{sec:Coherence}) of the light available, thus only began to be exploited at third generation synchrotron sources \parencite{Miao1999,Miao2000,Robinson2001}.
-Since then it was developed into a characterisation tool for \textit{in situ / operando} studies of materials structure \parencite{ulvestad_situ_2016,Kim2019,Carnis2021} and will gain significantly (several orders of magnitude) from further source and beamline improvements as many synchrotrons have recently completed or are in the process of an upgrade from $3^{rd}$ to $4^{th}$ generation synchrotrons.
+The BCDI method is reliant on the coherence (sec. \ref{sec:Coherence}) of the light available, thus only began to be exploited at third generation synchrotron sources \parencite{Miao1999, Miao2000, Robinson2001, Labat2007, Robinson2009, Vaxelaire2010, Chamard2010, Clark2012, Clark2013, Yang2013, Xiong2014}.
+Since then it was developed into a characterisation tool for \textit{in situ / operando} studies of materials structure, mostly applied to three fields, heterogeneous catalysis \parencite{Vendelbo2014}, electrochemistry \parencite{Ulvestad2015} and the structure and evolution of defects \parencite{Labat2015}.
+BCDI will gain significantly (several orders of magnitude) from further source and beamline improvements as many synchrotrons have recently completed or are in the process of an upgrade from $3^{rd}$ to $4^{th}$ generation synchrotrons.
 Focusing optics that allowed the development of coherent imaging techniques by increasing the coherent flux on the probed sample are discussed in sec. \ref{sec:SIXS}.
 
 \subsection{Scattering by strained crystals}\label{sec:StrainBCDI}
@@ -63,7 +64,7 @@ To reduce the complexity in the second part of eq. \ref{eq:FcrystalBCDI2}, only 
 \end{align}
 
 The first part of eq. \ref{eq:FcrystalBCDI6} can be considered to be the Fourier transform of the unit cell $k$ of electronic density $\rho_k(\vec{r})$ in which all atoms have the same displacement vector $\vec{u}_k$, in this equation the electronic density is allowed to vary from one unit cell to another.
-Moreover, one can recognise the expression of a discrete Fourier transform (DFT) of frequency $\vec{G}$ in which $\rho_k(\vec{r})$ is the $k-th$ sample of the series that consist in $N_{uc}$ samples \parencite{Cooley1965, Cochran1967, favre-nicolin_semiconductor_2011, Godard2021}.
+Moreover, one can recognise the expression of a discrete Fourier transform (DFT) of frequency $\vec{G}$ in which $\rho_k(\vec{r})$ is the $k-th$ sample of the series that consist in $N_{uc}$ samples \parencite{Cooley1965, Cochran1967, FavreNicolin2011a, Godard2021}.
 The reason for the approximation $\vec{q} \approx \vec{G}$ is simply to be able to use a Fast Fourier Transform (FFT) algorithm to compute the DFT that has a linearithmic time complexity $O(n \, log(n))$.
 This approximation breaks down far away from the Laue condition or if the strain is so important that the condition $(\vec{q}-\vec{G}).\vec{u}_k<<1$ is not anymore respected to move from eq. \ref{eq:FcrystalBCDI5} to eq. \ref{eq:FcrystalBCDI6} \parencite{Takagi1969}.
 
@@ -113,7 +114,7 @@ Without the phase information, it is impossible to directly reconstruct the elec
     \rho_k(\vec{r}) e^{i\vec{G}.\vec{u}_k} = IDFT [F(\vec{q} \approx \vec{G})]
 \end{equation}
 
-It has been demonstrated that when fulfilling the \textit{oversampling} condition, it is possible to retrieve the phase lost during the measurement \parencite{Shannon1949, sayre_implications_1952}.
+It has been demonstrated that when fulfilling the \textit{oversampling} condition, it is possible to retrieve the phase lost during the measurement \parencite{Shannon1949, Sayre1952}.
 The oversampling condition refers to the practice of sampling a signal at a higher sampling rate than the Nyquist rate \parencite{Miao2000}, which is twice the highest frequency present in the signal, increasing the sampling rate in reciprocal space results in a denser set of data points in real space.
 
 In the case of low-strained faceted crystals, the oversampling $\sigma$ can be derived by computing the distance between the fringes (\textit{i.e.} the interfringe) on rods in directions parallel to the normal of crystalline facets.
@@ -124,14 +125,14 @@ The instrumental requirement for oversampling in the direction of a rod is thus 
 There is also the possibility to adapt the detector distance to get a good oversampling.
 At \qty{8}{\keV}, to get an oversampling of 3, the detector must be positioned at \qty{6.4}{\m} for a particle of \qty{6}{\um}.
 
-In three dimensions, the oversampling condition becomes $\sigma>2^{1/3}$ \parencite{Miao1998, Miao2000, miao_possible_2000}.
+In three dimensions, the oversampling condition becomes $\sigma>2^{1/3}$ \parencite{Miao1998, Miao2000, Miao2000a}.
 When it comes to Fourier transforms, higher oversampling can offer several advantages such as reducing the possibility of aliasing (high-frequency components being mistakenly represented as lower frequencies due to insufficient sampling), spectral leakage (frequency components spread into neighbouring frequency bins in the Fourier transform, minimised if the frequency bins become narrower).
 Moreover, with more densely spaced samples, the interpolation process can more faithfully reconstruct the original signal without introducing artefacts.
 However, high oversampling takes more time and can for example limit the number of rocking curves that can be recorded.
 An oversampling of three in each direction is in general sufficient to successfully reconstruct the probed samples \parencite{Dupraz2015}.
 The oversampling condition dictates partly the instrumental parameters which define the extent of the data voxels, the small volumes that constitute the 3D data array.
 
-\cite{fienup_reconstruction_1978, Fienup1982, Fienup1986} have laid the ground for computer methods that permit phase retrieval with computer algorithms based on real-space and reciprocal space constraints, once the oversampling condition has been satisfied.
+\cite{Fienup1978, Fienup1982, Fienup1986} have laid the ground for computer methods that permit phase retrieval with computer algorithms based on real-space and reciprocal space constraints, once the oversampling condition has been satisfied.
 The error-reduction (ER) algorithm works by iterating between real and reciprocal space by the means of fast Fourier transforms (FFT) and inverse fast Fourier transforms (IFFT) methods.
 The process starts by assigning random phases to the square root of the measured reciprocal space data to create a first guess of the structure factor: $F(\vec{q}) = \sqrt{I(\vec{q})}e^{i\Phi(\vec{q})}$.
 The inverse Fourier transform of the structure factor yields the Bragg electronic density of the crystal (eq. \ref{eq:IDFT}), a real space constraint is then applied by selecting a region above a certain threshold $t$ of the modulus of the electronic density which is called the \textit{support}.
@@ -170,22 +171,22 @@ A detailed study of the impact of trying to improve the image resolution by incr
 \textcolor{Important}{perspectives ?}
 
 More algorithms have since then been developed that try to help converge towards the final solution without being stuck in local minima such as the hybrid input-output (HIO) and relaxed averaged alternating reflections (RAAR) algorithms, by introducing a new parameter, $\beta$, which relaxes the threshold condition in real space from the ER algorithm.
-Additional details can be found in \cite{Marchesini2003,Luke2005,Marchesini2007}.
+Additional details can be found in \cite{Marchesini2003, Luke2005, Marchesini2007}.
 
-Finally, a major recent improvement of the phase retrieval algorithm is the possibility to take into account the partial coherence of the beam together with the point-spread function of the detector by using the deconvolution Richardson-Lucy algorithm \parencite{Richardson1972, LucyAlgo1974, Fish1995, Clark2012}.
+Finally, a major recent improvement of the phase retrieval algorithm is the possibility to take into account the partial coherence of the beam together with the point-spread function of the detector by using the deconvolution Richardson-Lucy algorithm \parencite{Richardson1972, Lucy1974, Fish1995, Clark2012}.
 The point-spread function (PSF) must first be approximated with a 3D Gaussian, Lorentzian or pseudo-voigt shape depending on the expected coherence of the beam and is refined during the last steps of the phase retrieval when the support is already well determined, to avoid any divergence from simultaneously having to refine both the support and the PSF.
 
-Moreover, new methods such as convolution neural networks (CNN) are under study and have started to show some encouraging results, but are not yet sufficiently robust, particularly in the case of strained particles \parencite{cherukara_real-time_2018,chan_rapid_2021,Wu2021a}.
+Moreover, new methods such as convolution neural networks (CNN) are under study and have started to show some encouraging results, but are not yet sufficiently robust, particularly in the case of strained particles \parencite{Cherukara2018, Chan2021, Kim2021a, Wu2021a}.
 
 \subsection{Resolution}
 
 The resolution of the reconstructed object, defined according to multiple parameters in the literature, is a prominent figure of merit for an imaging technique.
 The voxel size in real space $2\pi / \delta q_x, 2\pi / \delta q_y, 2\pi / \delta q_z$ depends on the extent of the collected volume in the reciprocal space $\delta q_x, \delta q_y, \delta q_z$.
 However the voxel size would only be a good criteria to determine the resolution if the signal to noise ratio of the scattering intensity was high enough in all of the probed reciprocal space volume, so that all of the frequencies in the q-space could be effectively retrieved with the FFT algorithm.
-This is the case in simulated data but is not with experimental data for which the noise starts to become important far away from the Bragg peak, keeping in mind that the intensity decreases as a function of $q^{-4}$ \parencite{Marchesini2003a} as a function of the distance from the Bragg peak, depending also on the form factor \parencite{croset_form_2017}.
+This is the case in simulated data but is not with experimental data for which the noise starts to become important far away from the Bragg peak, keeping in mind that the intensity decreases as a function of $q^{-4}$ \parencite{Marchesini2003a} as a function of the distance from the Bragg peak, depending also on the form factor \parencite{Croset2017}.
 The community has therefore relied so far on three methods to estimate the spatial resolution of the reconstructed electronic density.
 
-First, the Phase Retrieval Transfer Function (PRTF) \parencite{chapman_high-resolution_2006} is the \textit{ratio} of the calculated structure factor $|F_k(\vec{q})|$ to the square-root of the measured intensity $\sqrt{I_k(\vec{q})}$ as a function of the resolution shell.
+First, the Phase Retrieval Transfer Function (PRTF) \parencite{Chapman2006} is the \textit{ratio} of the calculated structure factor $|F_k(\vec{q})|$ to the square-root of the measured intensity $\sqrt{I_k(\vec{q})}$ as a function of the resolution shell.
 The resolution shell $k$ is defined as all voxels of position $q=\sqrt{q_x^2 + q_y^2 +q_z^2}$ that satisfy the condition $q \in [q_k, q_{k+1}]$.
 $\delta q$ is the width of the resolution shell which divides the extent $[q_{min}, q_{max}]$ of the sampled reciprocal space in $N$ shells so that $q_{max} = q_{min} + N \times \delta q$ and $q_{k+1} - q_{k} = \delta q$.
 
@@ -193,7 +194,7 @@ $\delta q$ is the width of the resolution shell which divides the extent $[q_{mi
     PRTF(q_k, q_{k+1}) = \frac{|<F_k(\vec{q})>|}{<\sqrt{I_k(\vec{q})}>}
 \end{equation}
 
-Secondly, the Fourier shell correlation (FSC) \parencite{van_heel_fourier_2005} measures the \textit{normalised cross-correlation coefficient} between the structure factor of two independent reconstructions, also as a function of the resolution shell but from two independent datasets collected with the same instrumental parameters:
+Secondly, the Fourier shell correlation (FSC) \parencite{VanHeel2005} measures the \textit{normalised cross-correlation coefficient} between the structure factor of two independent reconstructions, also as a function of the resolution shell but from two independent datasets collected with the same instrumental parameters:
 
 \begin{equation}
     FSC(q_k, q_{k+1}) = \frac{ |\sum F_{1,k} F_{2,k}^*| }{\sqrt{ \sum F_{1,k} F_{1,k}^* \times \sum F_{2,k} F_{2,k}^*}}
@@ -201,14 +202,14 @@ Secondly, the Fourier shell correlation (FSC) \parencite{van_heel_fourier_2005} 
 
 Both of these methods allow us to quantify the distance from the centre of the Bragg peak after which one of the criteria diverges, which yields a corresponding real space resolution.
 There are several limitations to these methods, first the resolution curve as a function of $|\vec{q}|$ strongly depends on the width of the bins used to create the resolution shells, the number of voxels in each bin is dependent on the distance from the centre $q_{min}$ and the voxel size is usually not isotropic.
-Finally and most importantly, it supposes that the resolution is isotropic in reciprocal space, which is false since the signal to noise ratio will be much higher around the rods perpendicular to the crystal's facets \parencite{cherukara_anisotropic_2018}.
+Finally and most importantly, it supposes that the resolution is isotropic in reciprocal space, which is false since the signal to noise ratio will be much higher around the rods perpendicular to the crystal's facets \parencite{Cherukara2018a}.
 Indeed, the scattered intensity along the rods is proportional to the size (\textit{i.e.} the number of unit cells) of the crystal in the direction perpendicular to the facet.
 Thus, for large facets, the rod intensity will be much more intense and increase the resolution in that direction.
 
 In real space, the spatial resolution can be quantified by differentiating line profiles of electron density amplitude across the object-air interface and fitting these with a Gaussian profile.
-The average 3D spatial resolution is taken as 2$\sigma$ of the fitted Gaussian \parencite{hofmann_nanoscale_2020}.
+The average 3D spatial resolution is taken as 2$\sigma$ of the fitted Gaussian \parencite{Hofmann2020}.
 
-Concerning the resolution of the retrieved atomic displacement, \cite{labat_inversion_2015} have demonstrated a displacement field accuracy of few pm along preferential directions with BCDI by comparing with simulated displacement fields.
+Concerning the resolution of the retrieved atomic displacement, \cite{Labat2015} have demonstrated a displacement field accuracy of few pm along preferential directions with BCDI by comparing with simulated displacement fields.
 Another method is to work in a similar way to the Fourier shell correlation by replacing the shells of structure factor as a function of $\vec{q}$ by shells of strain as a function of the strain magnitude and see if there is a strain threshold below which the correlation drops.
 This method is then called the strain shell correlation \parencite{Girard2020}.
 
@@ -222,7 +223,7 @@ One could imagine a future in which the atomistic computation of the scattering 
 
 After phase retrieval, it is possible to exploit the electronic density of the reconstructed crystal.
 The surface of the reconstructed crystal corresponds to a layer of voxels in the three dimensional array.
-J. Carnis \textit{et al.} \parencite*{Carnis2019_scientific_reports} have presented guidelines on how to correctly select the surface voxels, which are detailed below.
+J. Carnis \textit{et al.} \parencite*{Carnis2019} have presented guidelines on how to correctly select the surface voxels, which are detailed below.
 The histogram in fig. \ref{fig:histo} represents the number of voxels per bin of normalised electronic density, the observed peak corresponds to the bulk voxels for which the amplitude of the electronic density is close to the maximum value (fig. \ref{fig:histo} - right).
 An empiric criterion to select the voxels that correspond to the crystal's surface is to take the lowest foot of that peak, here around \num{0.6}, the surface being defined as the hull surrounding the bulk voxels.
 
@@ -257,11 +258,11 @@ Finally, by "marching" over the volume of the array, the algorithm derives a sur
 
 The isovalue must be carefully chosen since it depends on the amplitude of the electronic density, \textit{i.e.} theoretically on the structure factor of each voxel in real space.
 
-Crystallographic facets can be identified on the surface of the reconstructed object when studying faceted objects with a highly coherent beam \parencite{richard_crystallographic_2018}, allowing in-depth studies of facet dependent strain and displacement.
-As described in sec. \ref{sec:Catalysis}, lattice strain and displacement are key factors in fields such as heterogeneous catalysis \parencite{ulvestad_situ_2016,kim_active_2018,fernandez_situ_2019,Passos2020,Carnis2021} or electrochemistry \parencite{vicente_bragg_2021, Atlan2023}.
+Crystallographic facets can be identified on the surface of the reconstructed object when studying faceted objects with a highly coherent beam \parencite{Richard2018}, allowing in-depth studies of facet dependent strain and displacement.
+As described in sec. \ref{sec:Catalysis}, lattice strain and displacement are key factors in fields such as heterogeneous catalysis \parencite{Ulvestad2016, Kim2018, Fernandez2019, Abuin2019, Kim2019, Kawaguchi2019, Suzana2019, Choi2020, Passos2020,  Kim2021, Carnis2021, Dupraz2022} or electrochemistry \parencite{Ulvestad2015a, Bjorling2019, Vicente2021, Kawaguchi2021, Carnis2021b, Atlan2023}.
 
 Retrieving the facets can be achieved by analysing the probability distributions of the orientations of triangle normals on a mesh representation of the object \parencite{Grothausmann2012}.
-This method is used in the \textit{Paraview} plugin \textit{FacetAnalyser} \parencite{GrothausmannBeare2015}, and yields a list of features detailed in tab. \ref{tab:facets}.
+This method is used in the \textit{Paraview} plugin \textit{FacetAnalyser} \parencite{Grothausmann2015}, and yields a list of features detailed in tab. \ref{tab:facets}.
 The probability of each surface voxel to belong to a facet is illustrated in fig. \ref{fig:FacetsParaview}.
 The orientation of each facet is retrieved by analysing the angles between the normal of each facet and a reference direction such as the [111] direction.
 

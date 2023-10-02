@@ -95,7 +95,8 @@
 \usepackage[utf8]{inputenc} % Use accents in source code, load before biblatex
 \usepackage[T1]{fontenc} % Show accents in output
 
-\usepackage[style=authoryear,sorting=nyt,mincitenames=1, maxcitenames=2, eprint=false,giveninits=true, url=false]{biblatex}
+\usepackage[style=authoryear, isbn=false, date=year,sorting=nyt,mincitenames=1, maxcitenames=2,
+    eprint=false,giveninits=true, url=false]{biblatex}
 %    nty Sort by name, title, year.
 %    nyt Sort by name, year, title.
 %    nyvt Sort by name, year, volume, title.
@@ -105,6 +106,7 @@
 %    ydnt Sort by year (descending), name, title.
 %    none Do not sort at all. All entries are processed in citation order.
 \addbibresource{/home/david/Documents/PhD/PhdThesis/references.bib}
+\AtEveryBibitem{\clearfield{pages}}
 
 \usepackage[nottoc,numbib]{tocbibind}
 

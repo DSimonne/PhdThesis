@@ -1,14 +1,5 @@
 \subsection{Nanoparticle surface structure evolution during ammonia oxidation}\label{sec:BCDIAmmoniaOxidation}
 
-% Lattice parameter - homogeneous strain evolution: OK
-% 3D plots: OK
-% strain field energy: OK
-% Peak width :kinda OK
-
-% Facet strain evolution plots just like temp ramp: (no disp, useless unless seen in bulk)
-% Strain histogram ? useless see the evolution of specific facets, good id not too many facets, also too many scans
-% need to do smtg with edges and corners, plot as a fct of the coordination nb ?
-
 Having shown that the Pt particles epitaxied on alumina are not stable during the oxidation of ammonia at \qty{600}{\degreeCelsius}, the reaction was measured using BCDI at lower temperatures before and after the catalyst light off, respectively \qty{300}{\degreeCelsius}, and \qty{400}{\degreeCelsius}.
 
 The same sample, experimental setup, type of measurements and phase retrieval algorithms were used as detailed in the previous section.
@@ -110,7 +101,7 @@ Normalised histograms of the particle reconstructed Bragg electronic density sho
 Choosing a low threshold for the particle iso-surface could still be done, but resulted in a round object without clear facets.
 Some reconstructions showed a good quality at \qty{300}{\degreeCelsius}, but in a larger sense recovering the facets on the particle surface in a reproducible way became impossible.
 
-Increasing the temperature to \qty{400}{\degreeCelsius} under inert atmosphere was at the origin of the appearance of a default in the particle, visible directly in reciprocal space by the shape of the 3D diffraction patterns (fig. \ref{fig:B7Ortho}), which did not improve the phase retrieval quality.
+Increasing the temperature to \qty{400}{\degreeCelsius} under inert atmosphere was at the origin of the appearance of a defect in the particle, visible directly in reciprocal space by the shape of the 3D diffraction patterns, split in two parts (fig. \ref{fig:B7Ortho}), which did not improve the phase retrieval quality.
 
 \begin{figure}[!htb]
     \centering
@@ -135,13 +126,13 @@ A signal parallel to the crystal truncation rod in the [111] direction is observ
 The distance between the [111] oriented rod and the second signal increases in $q_y$ during the ammonia oxidation cycle, at the end of which a third signal parallel to the two others can be observed.
 The maximum of both signals seems to be at the same value in $q_z$, which can be related to the average lattice parameter inside the particle.
 
-The default is also visible perpendicularly to the particle substrate and through the particle in 3D in appendix \ref{app:AppendixB7}, ultimately resulting in holes in the Bragg electronic density \parencite{Clark2015, Dupraz2015}.
+The defects are also visible perpendicularly to the particle substrate and through the particle in 3D in appendix \ref{app:AppendixB7}, ultimately resulting in holes in the Bragg electronic density \parencite{Clark2015, Dupraz2015}.
 
 To be able to quantify the strain inside the particle and the magnitude of the defect, the 3D diffraction patterns were fitted by summing the intensity scattered from particle $C$ around the (111) platinum Bragg peak in the ($\vec{q}_x$, $\vec{q}_y$), ($\vec{q}_y$, $\vec{q}_z$) and ($\vec{q}_z$, $\vec{q}_x$) directions after orthogonalisation of the diffraction pattern in $q$-space.
 The sum in the planes perpendicular to the $\vec{q}_x$ and $\vec{q}_y$ directions carry information about the in-plane particle shape and strain, whereas the sum perpendicular to the $\vec{q}_z$ direction carries information about the out-of-plane particle shape and strain.
 The $\vec{z}$ direction is related to the [111] direction from the epitaxy relationship of the particle on the substrate.
 
-The summed intensities were then fitted in each direction by a Lorentzian shape function to be able to extract the FWHM of the peak in the three directions ($\sigma_x$, $\sigma_y$ and $\sigma_z$), and compute the average interplanar spacing from the peak position in $q$-space.
+The summed intensities were then fitted in each direction by a Lorentzian shape function to be able to extract the FWHM of the peak in the three directions ($2\sigma_x$, $2\sigma_y$ and $2\sigma_z$), and compute the average interplanar spacing from the peak position in $q$-space.
 Once the second signal appeared in $\vec{q}_y$, two Lorentzian profiles were used to fit both peaks, the FWHM in fig. \ref{fig:B7FWHM} in $\vec{q}_y$ is equal to the sum of the FWHM from each peak.
 
 A typical fit is shown in appendix \ref{fig:FitB73D}, the retrieved FWHM are shown in fig. \ref{fig:B7FWHM}, the average interplanar spacing and homogeneous strain are shown in fig. \ref{fig:B7Latpara}.
@@ -150,7 +141,7 @@ A typical fit is shown in appendix \ref{fig:FitB73D}, the retrieved FWHM are sho
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/B7/fwhm_B7_two_peaks.pdf}
     \caption{
-        Evolution of the full width at half maximum (FWHM, $\sigma$) for particle B in the $\vec{q}_x$, $\vec{q}_y$ and $\vec{q}_z$ directions at \qty{25}{\degreeCelsius}, \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} as a function of the ammonia to oxygen ratio.
+        Evolution of the full width at half maximum (FWHM, $2\sigma$) for particle B in the $\vec{q}_x$, $\vec{q}_y$ and $\vec{q}_z$ directions at \qty{25}{\degreeCelsius}, \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} as a function of the ammonia to oxygen ratio.
         The reproduction of measurements at fixed conditions yield multiple data points, lines at \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} link the data points in the order of the measurements.
     }
     \label{fig:B7FWHM}
@@ -192,10 +183,10 @@ The interplanar spacing stays approximately equal to the same value afterwards d
 Secondly, there is an increase of about \qty{0.02}{\percent} of the homogeneous strain at \qty{400}{\degreeCelsius} when the ammonia to oxygen ratio reaches the value of one.
 Both of these phenomena are observed at conditions for which changes in the FWHM are also seen.
 
-Finally, to be able to give a first estimation of the amount of strain inside the particle, the strain field energy defined as the sum of the product of stress and strain integrated over the particle \parencite{cahn1959free} was computed following the work performed by Ulvestad et al in \cite*{Ulvestad2015a}.
+Finally, to be able to give a first estimation of the amount of strain inside the particle, the strain field energy defined as the sum of the product of stress and strain integrated over the particle \parencite{Cahn1959} was computed following the work performed by Ulvestad et al in \cite*{Ulvestad2015a} and by Kim et al. \cite*{Kim2019}.
 
 Assuming cubic symmetry and isotropic shear-free conditions within the unit cell, we can simplify the strain field energy to eq. \ref{eq:SFE}.
-Here, $G$ and $L$ represent the material's Lame parameters, which can be estimated from Young's modulus $E$ and Poisson ratio $\nu$, as described in eq. \ref{eq:GandNu} \parencite{mavko_mukerji_dvorkin_2020}.
+Here, $G$ and $L$ represent the material's Lame parameters, which can be estimated from Young's modulus $E$ and Poisson ratio $\nu$, as described in eq. \ref{eq:GandNu} \parencite{Mavko2020}.
 
 \begin{equation}
     E_s = \frac{2G + 3I}{2} \int \Big( \frac{\partial u_{111}}{\partial x_{111}}\Big)^2 dV
@@ -208,7 +199,7 @@ Here, $G$ and $L$ represent the material's Lame parameters, which can be estimat
 \end{align}
 
 The evolution of the strain field energy as a function of each scan to be able to compare with the 3D reconstructions of the particle shown in appendix \ref{app:AppendixB7} is presented in fig. \ref{fig:B7SFE}.
-For a qualitative approximation of the strain field energy, the Young's modulus was taken equal to \qty{153.3}{\giga\pascal} and the Poisson ratio to \num{0.401} based on literature values at \qty{400}{\degreeCelsius} \parencite{MattheyPt}.
+For a qualitative approximation of the strain field energy, the Young's modulus was taken equal to \qty{153.3}{\giga\pascal} and the Poisson ratio to \num{0.401} based on literature values at \qty{400}{\degreeCelsius} \parencite{Matthey2022}.
 
 \begin{figure}[!htb]
     \centering
@@ -266,7 +257,7 @@ The introduction of ammonia in the reactor has removed this distortion (fig. \re
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/D6/fwhm_D6.pdf}
     \caption{
-        Evolution of the full width at half maximum (FWHM, $\sigma$) for particle C in the $\vec{q}_x$, $\vec{q}_y$ and $\vec{q}_z$ directions at \qty{25}{\degreeCelsius}, \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} as a function of the ammonia to oxygen ratio.
+        Evolution of the full width at half maximum (FWHM, $2\sigma$) for particle C in the $\vec{q}_x$, $\vec{q}_y$ and $\vec{q}_z$ directions at \qty{25}{\degreeCelsius}, \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} as a function of the ammonia to oxygen ratio.
         The reproduction of measurements at fixed conditions yield multiple data points, lines at \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius} link the data points in the order of the measurements.
         No scans were performed at \qty{400}{\degreeCelsius} under Argon after the oxidation cycle.
     }
