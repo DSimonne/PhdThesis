@@ -13,7 +13,7 @@ The MED diffractometer detailed in sec. \ref{sec:MED} was used in a vertical geo
 % In-plane measurements were performed by rotating the in-plane sample angle $\omega$ together with the in-plane detector angle $\delta$.
 % Out-of-plane measurements were performed by rotating the in-plane sample angle $\omega$ together with the in-plane and out-of-plane detector angles $\delta$ and $\gamma$, the incoming angle $\mu$ needing to stay at a constant low value to keep the grazing incidence of the beam.
 
-In the vertical configuration, the sample must be exactly parallel to the plane drawn by the incoming beam and the vertical axis so that rotations of the sample do not change the orientation of the (H, K) plane while measuring in-plane reciprocal space maps.
+In the vertical configuration, the sample must be exactly parallel to the plane drawn by the incoming beam and the vertical axis so that rotations of the sample do not change the orientation of the sample plane while measuring in-plane reciprocal space maps.
 The alignment of the sample was performed in two consecutive steps, first the out-of-plane sample position was adjusted by using the direct beam, secondly any possible tilt of the sample surface was corrected by recording the intensity of the \textit{reflected} beam as a function of $u$ (when $\omega=\ang{0}$) or $v$ (when $\omega=\ang{90}$) angles of the hexapod (fig. \ref{fig:Diffractometer}).
 
 \subsection{Epitaxial relationship between \ce{Al_2O_3} and Pt nanoparticles under different atmospheres and temperature}
@@ -124,12 +124,12 @@ For that reason, a [111]-oriented crystal truncation rod, identified in fig. \re
 (11$\bar{1}$) and (002) Bragg peaks can be identified respectively at $q_z \qty{\approx0.8}{\per\angstrom}$ and $q_z \qty{\approx1.8}{\per\angstrom}$.
 Both peaks being visible along the same CTR shows that the nanoparticles do not have the same exact in plane orientation, due to different stacking of the (111) layers along the [111] axis, e.g. ABC or ACB stacking, rotated by \ang{180} \parencite{Jones2019}.
 Low intensity CTRs in other directions due to other facets present on the nanoparticles can be seen around both Bragg peaks.
-The peak at $q_z\approx1.45$ corresponds to the (2$\bar{1}$3) Bragg peak from the \ce{Al_2O_3} substrate ($q = \qty{3.014}{\per\angstrom}$, tab. \ref{tab:Reflections}), which is also at the origin of its own CTR in the [111] direction from the surface in contact with the nanoparticles, observed in the out-of-plane map in fig. \ref{fig:2DCTR111Particles}, parallel to the more intense Pt CTR.
+The peak at $q_z\approx1.58$ corresponds to the (2$\bar{1}$3) Bragg peak from the \ce{Al_2O_3} substrate ($q = \qty{3.014}{\per\angstrom}$, tab. \ref{tab:Reflections}), which is also at the origin of its own CTR in the [111] direction from the surface in contact with the nanoparticles, observed in the out-of-plane map in fig. \ref{fig:2DCTR111Particles}, parallel to the more intense Pt CTR.
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.29\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/ctr_diff_intensity_cut.png}
-    \includegraphics[width=0.7\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR_300.pdf}
+    \includegraphics[width=0.29\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR111_K_vmax100_edited.pdf}
+    \includegraphics[width=0.7\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR_300_edited.pdf}
     \caption{
         Left: Large out-of-plane reciprocal space maps in which a crystal truncation rod signal in the [111] direction can be identified, as well as weaker CTR in other directions passing through the Bragg peaks.
         Right: Crystal truncation rod signals in the $[111]$ direction as a function of $q_z$, presented for different atmospheres, at \qty{300}{\degreeCelsius}.
@@ -138,7 +138,7 @@ The peak at $q_z\approx1.45$ corresponds to the (2$\bar{1}$3) Bragg peak from th
 \end{figure}
 
 The background-subtracted CTR intensity was integrated in a square area as a function of $q_z$, presented in fig. \ref{fig:2DCTR111Particles} (right).
-There is no visible evolution of the CTR shape, the anti-Bragg region where the relaxation effects are the most visible near $q_z=1.45$ being masked by the Bragg peak of the substrate.
+There is no visible evolution of the CTR shape, the anti-Bragg region where the relaxation effects are the most visible near $q_z=1.58$ being masked by the Bragg peak of the substrate.
 Efforts were then focused on resolving the CTR signal around the Bragg peaks coming from different facets present on the nanoparticles surfaces.
 
 \subsection{Particle reshaping during the oxidation of ammonia}
@@ -232,9 +232,9 @@ The original mass spectrometer signal as a function of time can be seen in the a
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/product_comparison_carrier_pressure.pdf}
     \caption{
-        Evolution of reaction product partial pressures during the oxidation of ammonia at \qty{300}{\degreeCelsius}, \qty{500}{\degreeCelsius} and \qty{600}{\degreeCelsius} recorded from a leak in the reactor output as detailed in sec. \ref{sec:XCAT}.
-        The product pressure shown for each condition was computed as the mean product pressure during \qty{1}{\minute} at the end of each condition.
-        The product pressure under \qty{49}{\ml\per\min} of argon and \qty{1}{\ml\per\min} of ammonia has been subtracted.
+        Evolution of reaction product partial pressures during the SXRD experiment on the non-patterned sample containing Pt[111]||Al$_2$O$_3$[0001] nanoparticles, at \qty{300}{\degreeCelsius}, \qty{500}{\degreeCelsius}, and \qty{600}{\degreeCelsius}.
+        Mean partial pressures during \qty{1}{\minute} at the end of each condition, recorded from a leak in the reactor output by a residual gas analyser (RGA) as detailed in sec. \ref{sec:XCAT}.
+        The pressure under \qty{49}{\ml\per\min} of argon and \qty{1}{\ml\per\min} of ammonia has been subtracted.
     }
     \label{fig:RGASXRDNanoparticlesComparison}
 \end{figure}

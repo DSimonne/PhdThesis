@@ -3208,85 +3208,6 @@
       \endverb
       \keyw{3D imaging,Bragg coherent diffraction imaging,oxygen reduction reaction,platinum nanoparticle,strain}
     \endentry
-    \entry{Chung2021}{article}{}
-      \name{author}{8}{}{%
-        {{un=1,uniquepart=given,hash=1dcfd65c3e1c3ff7f9e5eb65795fcd0b}{%
-           family={Chung},
-           familyi={C\bibinitperiod},
-           given={Simon},
-           giveni={S\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=9b272cfa6e442f7eeee68d456fee8fbb}{%
-           family={Schober},
-           familyi={S\bibinitperiod},
-           given={Jan-Christian},
-           giveni={J\bibinithyphendelim C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8c8d041921d95417301fec53cc918cf0}{%
-           family={Tober},
-           familyi={T\bibinitperiod},
-           given={Steffen},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d67d8cf0c11995175e99c8f63889a34c}{%
-           family={Schmidt},
-           familyi={S\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4028a14439e3334cea03a04915b282b0}{%
-           family={Khadiev},
-           familyi={K\bibinitperiod},
-           given={Azat},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d9a903f56630ede43c04efe73f70e91e}{%
-           family={Novikov},
-           familyi={N\bibinitperiod},
-           given={Dmitri\bibnamedelima V.},
-           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4b5fd7c0e0e90ae071a658874e87eaad}{%
-           family={Vonk},
-           familyi={V\bibinitperiod},
-           given={Vedran},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1d766a3a04d700f500a117978cf58e49}{%
-           family={Stierle},
-           familyi={S\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {American Chemical Society}%
-      }
-      \strng{namehash}{3026258005db490a586ad62001abac45}
-      \strng{fullhash}{8bac6df9b1fa300f8c72a42ad3d833b8}
-      \strng{bibnamehash}{3026258005db490a586ad62001abac45}
-      \strng{authorbibnamehash}{3026258005db490a586ad62001abac45}
-      \strng{authornamehash}{3026258005db490a586ad62001abac45}
-      \strng{authorfullhash}{8bac6df9b1fa300f8c72a42ad3d833b8}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1936-0851}
-      \field{journaltitle}{ACS Nano}
-      \field{month}{08}
-      \field{number}{8}
-      \field{title}{Epitaxy and Shape Heterogeneity of a Nanoparticle Ensemble during Redox Cycles}
-      \field{volume}{15}
-      \field{year}{2021}
-      \field{pages}{13267\bibrangedash 13278}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1021/acsnano.1c03002
-      \endverb
-    \endentry
     \entry{Clark2013}{article}{}
       \name{author}{15}{ul=2}{%
         {{un=0,uniquepart=base,hash=013a052a8b8fdf76a9786e80c2ce0761}{%
@@ -8767,12 +8688,12 @@
            given={Dongjin},
            giveni={D\bibinitperiod},
            givenun=1}}%
-        {{un=1,uniquepart=given,hash=830b9f7def7946f2dcb98ae828b2153d}{%
+        {{un=0,uniquepart=base,hash=830b9f7def7946f2dcb98ae828b2153d}{%
            family={Chung},
            familyi={C\bibinitperiod},
            given={Myungwoo},
            giveni={M\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=6fcce9d72b1e98f84a4319daa9a32989}{%
            family={Carnis},
            familyi={C\bibinitperiod},
@@ -8895,12 +8816,12 @@
            given={Dongjin},
            giveni={D\bibinitperiod},
            givenun=1}}%
-        {{un=1,uniquepart=given,hash=830b9f7def7946f2dcb98ae828b2153d}{%
+        {{un=0,uniquepart=base,hash=830b9f7def7946f2dcb98ae828b2153d}{%
            family={Chung},
            familyi={C\bibinitperiod},
            given={Myungwoo},
            giveni={M\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=1,uniquepart=given,hash=3aaa9ddabdbbcd28cc8923c2c7da5827}{%
            family={Kim},
            familyi={K\bibinitperiod},
@@ -16588,106 +16509,6 @@
       \verb 10.1016/j.nimb.2009.09.010
       \endverb
       \keyw{Phase retrieval,Coherent X-ray diffraction,strain,Polycrystals}
-    \endentry
-    \entry{Vendelbo2014}{article}{}
-      \name{author}{12}{}{%
-        {{un=0,uniquepart=base,hash=4d33adcfd6bbceef23d22f19b666c5b7}{%
-           family={Vendelbo},
-           familyi={V\bibinitperiod},
-           given={S.\bibnamedelimi B.},
-           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=709aef299cef03203de3dcd9baf2a302}{%
-           family={Elkj{æ}r},
-           familyi={E\bibinitperiod},
-           given={C.\bibnamedelimi F.},
-           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0b8e8384d863058d524e5b7500201dbd}{%
-           family={Falsig},
-           familyi={F\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=decbba3a8e3ee4a3b2f9c45471195160}{%
-           family={Puspitasari},
-           familyi={P\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cbe2dea9dde5c6bd339faabce85cbca9}{%
-           family={Dona},
-           familyi={D\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5dea112579dbe2a55cee420cb26512b9}{%
-           family={Mele},
-           familyi={M\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c259df3632ef4508cb21ef35d653610d}{%
-           family={Morana},
-           familyi={M\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3c8aa867e885352386d05c0250fa98b9}{%
-           family={Nelissen},
-           familyi={N\bibinitperiod},
-           given={B.\bibnamedelimi J.},
-           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=df673246f2b18efd1649870dafd689e0}{%
-           family={{Van Rijn}},
-           familyi={V\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=30623c10ce32ba39d7c922d07439eb2d}{%
-           family={Creemer},
-           familyi={C\bibinitperiod},
-           given={J.\bibnamedelimi F.},
-           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1828561f8fc9e324966245e41dbefe5d}{%
-           family={Kooyman},
-           familyi={K\bibinitperiod},
-           given={P.\bibnamedelimi J.},
-           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3cbefdd8d9b3fb264039e23d36e57e45}{%
-           family={Helveg},
-           familyi={H\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{ee942106514d75df8aa8dae1b0e2d183}
-      \strng{fullhash}{bb6c634795c1b5992029883ca300d160}
-      \strng{bibnamehash}{ee942106514d75df8aa8dae1b0e2d183}
-      \strng{authorbibnamehash}{ee942106514d75df8aa8dae1b0e2d183}
-      \strng{authornamehash}{ee942106514d75df8aa8dae1b0e2d183}
-      \strng{authorfullhash}{bb6c634795c1b5992029883ca300d160}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Many catalytic reactions under fixed conditions exhibit oscillatory behaviour. The oscillations are often attributed to dynamic changes in the catalyst surface. So far, however, such relationships were difficult to determine for catalysts consisting of supported nanoparticles. Here, we employ a nanoreactor to study the oscillatory CO oxidation catalysed by Pt nanoparticles using time-resolved high-resolution transmission electron microscopy, mass spectrometry and calorimetry. The observations reveal that periodic changes in the CO oxidation are synchronous with a periodic refacetting of the Pt nanoparticles. The oscillatory reaction is modelled using density functional theory and mass transport calculations, considering the CO adsorption energy and the oxidation rate as site-dependent. We find that to successfully explain the oscillations, the model must contain the phenomenon of refacetting. The nanoreactor approach can thus provide atomic-scale information that is specific to surface sites. This will improve the understanding of dynamic properties in catalysis and related fields. {©} 2014 Macmillan Publishers Limited.}
-      \field{issn}{14764660}
-      \field{journaltitle}{Nature Materials}
-      \field{number}{9}
-      \field{title}{{Visualization of oscillatory behaviour of Pt nanoparticles catalysing CO oxidation}}
-      \field{volume}{13}
-      \field{year}{2014}
-      \field{pages}{884\bibrangedash 890}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1038/nmat4033
-      \endverb
     \endentry
     \entry{Vicente2021}{article}{}
       \name{author}{5}{}{%

@@ -3,7 +3,7 @@
 Bragg Coherent Diffraction Imaging (BCDI) \parencite{Robinson2001, Robinson2009} is a powerful technique for the non-destructive characterisation of material structure in three dimensions with unparalleled spatial and strain resolution for a scattering technique, few nanometres \parencite{Labat2015, Cherukara2018a} and \num{e-4} respectively \parencite{Newton2010, Lauraux2020}.
 
 The BCDI method is reliant on the coherence (sec. \ref{sec:Coherence}) of the light available, thus only began to be exploited at third generation synchrotron sources \parencite{Miao1999, Miao2000, Robinson2001, Labat2007, Robinson2009, Vaxelaire2010, Chamard2010, Clark2012, Clark2013, Yang2013, Xiong2014}.
-Since then it was developed into a characterisation tool for \textit{in situ / operando} studies of materials structure, mostly applied to three fields, heterogeneous catalysis \parencite{Vendelbo2014}, electrochemistry \parencite{Ulvestad2015} and the structure and evolution of defects \parencite{Labat2015}.
+Since then it was developed into a characterisation tool for \textit{in situ / operando} studies of materials structure, mostly applied to three fields, electrochemistry \parencite{Ulvestad2015}, heterogeneous catalysis \parencite{Ulvestad2016}, and the structure and evolution of defects \parencite{Labat2015}.
 BCDI will gain significantly (several orders of magnitude) from further source and beamline improvements as many synchrotrons have recently completed or are in the process of an upgrade from $3^{rd}$ to $4^{th}$ generation synchrotrons.
 Focusing optics that allowed the development of coherent imaging techniques by increasing the coherent flux on the probed sample are discussed in sec. \ref{sec:SIXS}.
 
@@ -31,7 +31,7 @@ The shape of the scattering intensity around Bragg peaks is then given by $F_{la
     \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Figures/introduction/StrainedCrystal.pdf}
     \caption{
     Simplified representation of a crystal in which each dot corresponds to a unit cell.
-    The red dots represent displaced unit cells from their ideal position by a displacement vector $\vec{u}_k$, resulting in a phase shift in the scattered x-rays in regards to the x-rays scattered from the equilibrium positions.
+    The red dots represent displaced unit cells from their ideal position by a displacement vector $\vec{u}_k$, resulting in a shift in the phase of the scattered x-rays.
     }
     \label{fig:StrainedCrystals}
 \end{figure}
@@ -90,7 +90,6 @@ This measurement is called a rocking curve (fig. \ref{fig:3DDP} - left), the ass
     (Left) Rocking curve for the measurement of the 3D scattered intensity around a Bragg peak. Taken from \cite{Willmott}.
     (Right) 3D diffraction pattern collected at SixS (SOLEIL).
     Different iso-surfaces from high (red) to low (yellow) intensity are plotted, highlighting the drop of the scattered intensity as a function of $q_{hkl}+\delta q$ where $\delta q$ is the distance from the centre of the Bragg peak.
-    \textcolor{Important}{COLORBAR}
     }
     \label{fig:3DDP}
 \end{figure}
@@ -230,9 +229,9 @@ An empiric criterion to select the voxels that correspond to the crystal's surfa
 \begin{figure}[!htb]
    \centering
    \includegraphics[height=4.5cm]{/home/david/Documents/PhD/Figures/bcdi_data/B7/hist_iso.pdf}
-   \includegraphics[height=4.5cm]{/home/david/Documents/PhD/Figures/bcdi_data/D6/amp_D6.png}
+   \includegraphics[height=4.4cm]{/home/david/Documents/PhD/Figures/bcdi_data/D6/amp_D6.png}
    \caption{
-   Histogram representing the distribution of the amplitude of the electronic density, normalised by its maximum value (left).
+   Histogram representing the distribution of the Bragg electronic density amplitude, normalised by its maximum value (left).
    Values below 0.05 are ignored since they typically belong to voxels located far away from particle support.
    Amplitude of the electronic density in a slice of the reconstructed object (right).
    Two curves are drawn at the values of \num{0.05} (outer curve) and \num{0.6} (inner curve).
@@ -277,8 +276,8 @@ The result depends on the algorithm input parameters, such as the minimum relati
     \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/FacetProbability.png}
     \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/FacetIDs.png}
     \caption{
-    a) Surface of a reconstructed nanoparticle ($\diameter \approx \qty{800}{\nm}$) with each surface voxel coloured by the probability to belong to a facet.
-    The surface is represented in b) with a hull in which each facet is drawn, delimited by thick white lines.
+    a) Surface of a reconstructed nanoparticle ($\diameter \approx \qty{800}{\nm}$) with each surface voxel coloured by its probability to belong to a facet.
+    The same surface is represented in b) with a hull in which each facet is drawn, delimited by thick white lines.
     }
     \label{fig:FacetsParaview}
 \end{figure}
@@ -301,7 +300,7 @@ The result depends on the algorithm input parameters, such as the minimum relati
     \end{center}
     \caption{
     The output of \text{FacetAnalyser} is a list of values for each facet.
-    The accessible features are the facet size, the average strain and displacement (along the [111] direction), and the coordinates of the normal to the facet surface..
+    The accessible features are the facet size, the average strain and displacement (along the [111] direction), and the coordinates of the normal to the facet surface.
     The uncertainty on the average displacement and strain corresponds to the standard deviation of the displacement and strain distribution, respectively.
     }
     \label{tab:facets}

@@ -310,10 +310,10 @@ Different lattices can be used to highlight the difference of geometry between t
     \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/Pt100/maps/Map_hkl_surf_or_2227-2283_patched.png}
     \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/Pt100/maps/Map_hkl_hex_or_2227-2283_not_patched.png}
     \caption{
-    Reciprocal space in-plane map projected on $l$.
-    The large high intensity peaks are Bragg peaks from the bulk structure, the low intensity peaks are surface reconstructions.
-    The left map is computed using a cubic unit cell, two hexagonal unit cell corresponding to the surface reconstructions' structure are drawn as diamonds.
-    The right image is computed using the red diamond hexagonal unit cell that corresponds to the structure of one phase of the surface reconstructions.
+    Reciprocal space in-plane maps.
+    The large high intensity peaks are Bragg peaks from the bulk structure, the low intensity peaks are from surface structures.
+    The left map is computed using a cubic unit cell, two hexagonal unit cells corresponding to the surface structures are drawn as diamonds.
+    The right image is computed using the red diamond hexagonal unit cell.
     }
     \label{fig:MapExampleBinoculars}
 \end{figure}
@@ -337,7 +337,7 @@ To avoid having to rely on an interpolation to fill these voxels, it is better t
     \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/background_fitaid.png}
     \caption{
         Graphical user interface for the \text{fitaid} module of binoculars.
-        The CTR structure factor is computed using eq. \ref{eq:BinocSF} using a rectangular region of interest around the CTR signal.
+        The CTR structure factor is computed using eq. \ref{eq:BinocSF} in a rectangular region of interest around the CTR signal.
         Four rectangular regions of interests around the signal are used to compute the background.
     }
     \label{fig:BinocularsBackground}
@@ -359,23 +359,47 @@ $I_{roi}$ is the integrated intensity in the ROI, $N_{roi}$ the number of voxels
 A very fine resolution (e.g. \numproduct{0.005 x 0.005 x 0.05}) will result in extremely large arrays that can be difficult to manipulate on low resources computer, for example the maps shown in fig. \ref{fig:MapExampleBinoculars} have a three dimensional shape equal to (\numproduct{560 x 953 x 39}) which results in \num{2.1e7} voxels in the array.
 Originally, this corresponds to the concatenation of 40 angular scans, each with 1010 steps, \textit{i.e.} containing 1010 2D detector images that have a shape equal to (\numproduct{240 x 560}).
 This represents \num{5.5e9} pixels to process together to create such in-plane maps.
-High performance computing clusters are therefore needed for the reduction of surface x-ray diffraction data with BINoculars, the data analysis is performed in a second step with programs such as ROD \parencite{Vlieg2000}.
+High performance computing clusters are therefore needed for the reduction of surface x-ray diffraction data with BINoculars, the data analysis is performed in a second step with programs such as \textit{ROD} \parencite{Vlieg2000}.
 
-\subsection{ROD} \label{sec:ROD}
+\subsection{\textit{ROD}} \label{sec:ROD}
 
-The aim of SXRD data analysis is to find the 3D ($\vec{a}, \vec{b}$, $\vec{c}$) surface unit cell structure from in-plane maps and crystal truncation rods by comparing the position and intensity of the scattered intensity with simulations.
-It is also possible to refine the atomic position of the surface atoms or to look at the surface relaxation changes, depending on the complexity of the analysis and the quality of the dataset.
-
-ROD is a computer program written in \textit{C} \parencite{Vlieg2000} that is used both to simulate structure factors from surface structures and to refine the atomic positions by fitting the crystal truncation rod intensity.
-Since ROD is written in \textit{C} and does not come with a graphical user interface, alternatives have been developed such as GenX \parencite{Bjorck2007, Glavic2022} written in \textit{Python} which mostly focuses on reflectivity.
-In the frame of this thesis, ROD was chosen for the analysis of SXRD data.
-
-In a second step, it is possible to refine the position of each atom in the unit cell to take into account possible strain along $\vec{c}$ that will have a significant effect in the shape of the crystal truncation rods.
-The structure along $\vec{c}$ is refined by computing the shape of crystal truncation rods and comparing them with experimental data, the more rods were measured and the higher the extent of each rod in $l$, the more accurate the final structure.
+Part of the aim of SXRD data analysis can be to comprehend the 3D structure of potential surface layers on top of the sample surface, as well as the magnitude of surface relaxations on its topmost layers.
+Such information can be extracted by combining in-plane reciprocal space maps and crystal truncation rods, \textit{i.e.} by comparing the position and intensity of the scattered intensity (and structure factor) in reciprocal space with simulated data.
 
 The primary challenge associated with surface x-ray diffraction lies in the complexity of data analysis, as researchers are limited to a small portion of the reciprocal space due to the extended data acquisition time \parencite{Gustafson2014}.
 On one hand, a fine sampling of the reciprocal space will take hours which is hardly compatible with time-resolved experiments.
 On the other hand, skipping areas of the reciprocal space could result in missing critical information if the symmetry of the surface structure is not known prior to the experiment.
 For high symmetry structures, a small portion of the reciprocal space can sometimes be sufficient to have a final solution.
 
-\subsection{GenX} \label{sec:GenX}
+\textit{ROD} is a computer program written by Vlieg et al. \parencite*{Vlieg2000}, that can be used qualitatively to simulate structure factors from a given structure, and quantitatively to refine the atomic positions within the structure by fitting the structure factors with the experimental data.
+Since \textit{ROD} is written in \textit{C} and does not come with a graphical user interface, alternatives have been developed such as GenX \parencite{Bjorck2007, Glavic2022} written in \textit{Python} which mostly focuses on reflectivity.
+In the frame of this thesis, \textit{ROD} was chosen for the analysis of SXRD data.
+
+The structure of our crystal must be understood as follows when working with surfaces, infinite in both in-plane dimensions, finite in the out-of-plane dimension.
+The origin of the out-of-plane axis, commonly denoted $\vec{z}$, is situated at the surface of the crystal.
+When $z$ is negative the \textit{bulk} structure of the crystal is described, whereas when $z$ is positive, the \textit{surface} structure of the crystal is described, usually only a few atomic layers thick where e.g. surface relaxation effects can be detected.
+
+\begin{figure}[!htb]
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/simulations/rod_pt304/figures/rod_4_0_pt3o4.pdf}
+    \caption{
+        Simulation of out-of-plane structure factors computed with \textit{ROD}.
+        Different layers within a single unit cell of \ce{Pt_3O_4} are used in (a), while a different amount of the same \ce{Pt_3O_4} unit cell is used in (b).
+    }
+    \label{fig:SimROD}
+\end{figure}
+
+Additionnal surface layers can be present on top of the main crystal structure, the example of a \ce{Pt_3O_4} platinum oxide is presented in fig. \ref{fig:SimROD}.
+At least two layers in $\vec{c}$ are necessary to see a modulation of the out-of-plane signal, the Bragg peaks linked to the presence of a bulk oxide start to be clearly visible after 4 unit cells of \ce{Pt_3O_4} are present on the platinum surface.
+
+\begin{SCfigure}
+    \centering
+    \includegraphics[trim=0 2.5cm 0 2.5cm, clip, width=0.35\textwidth]{/home/david/Documents/PhD/Figures/introduction/Pt3O4.pdf}
+    \caption{
+        \ce{Pt_3O_4} bulk unit cell.
+        Platinum atoms are situated on the faces on the cubic unit cell (e.g. $(0, 1/2, 1/4)$, $(0, 1/2, 3/4)$), while the eight oxygen atoms are inside the unit cell at the positions $(1/4, 1/4, z)$, $(1/4, 2/4, z)$, $(2/4, 1/4, z)$, $(2/4, 2/4, z)$ for $z=1/4$ and $z=3/4$.
+    }
+    \label{fig:Pt3O4_ROD}
+\end{SCfigure}
+
+In a second step, it is possible to refine the position of each atom in the unit cell to take into account possible strain along $\vec{c}$ that will have a significant effect in the shape of the crystal truncation rods as shown in fig. \ref{fig:CTRSimulation}.
+The structure along $\vec{c}$ is refined by computing the shape of crystal truncation rods and comparing them with experimental data, the more rods were measured and the higher the extent of each rod in $L$, the more accurate the final structure.

@@ -1,5 +1,10 @@
 \section{X-ray interaction with matter} \label{sec:XRIntMatter}
 
+% Field / amplitude / intensity consistent ?
+% $r_0$ use consistent ? $2\pi$ ?
+% hypothesis to explain: DWBA, dipole approximation, perfect crystals
+% When detecting the scattered field at a point $\vec{R}$, we assume that $\|vec{R}|$ is far greater than the electronic density, this is called the dipole approximation. NOT GOOD Each atom can be considered as a ball of certain radius (see \ref{fcc_lattice}).
+
 Understanding the different mechanisms at play when photons interact with matter is of crucial importance to be able to decide how to use x-rays as a probe in material science.
 Each phenomenon is at the source of different techniques (tab. \ref{tab:techniques} - fig. \ref{fig:TechniquesDataExamples}), scattering brings surface x-ray diffraction (SXRD) and Bragg coherent diffraction imaging (BCDI), two techniques used in the frame of this thesis that give complementary information about the sample structure bulk and surface.
 
@@ -36,7 +41,7 @@ X-ray absorption together with the photoelectric effect explained by Einstein in
     \includegraphics[height=0.25\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/xps_data/transition_xps.png}
     \caption{
     Slice of 3D diffraction pattern collected at the SixS beamline at the SOLEIL synchrotron using BCDI (left).
-    Reciprocal space map in HK plane collected at the SixS beamline using SXRD (middle).
+    Reciprocal space in-plane map collected at the SixS beamline using SXRD (middle).
     Ambient pressure XPS spectra measured during a transition between two atmospheres (\argon  and \dioxygen), collected at the B07 beamline at the Diamond synchrotron using XPS (right).}
     \label{fig:TechniquesDataExamples}
 \end{figure}
@@ -80,7 +85,11 @@ $\Lambda_p$ is the attenuation length in \unit{\meter}, \textit{i.e.} the length
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=\textwidth]{Figures/introduction/cross_sections.pdf}
-    \caption{Cross-sections for platinum (Z=78) for various processes that occur when photons interact with matter. The data was taken from the NIST (National Institute of Standards and Technology) \parencite{NIST_cross_sections} website. The energy range of the SixS beamline at SOLEIL is highlighted in blue.}
+    \caption{
+        Cross-sections for platinum (Z=78) corresponding to different processes occuring when photons interact with matter.
+        Data taken from the NIST (National Institute of Standards and Technology) \parencite{NIST_cross_sections} website.
+        The energy range of the SixS beamline at SOLEIL is highlighted in blue.
+    }
     \label{fig:cross_sections}
 \end{figure}
 
@@ -101,7 +110,6 @@ During elastic scattering, the oscillating electric field of the incident x-ray 
     \includegraphics[trim=0 75 0 25, clip, width=\textwidth]{Figures/introduction/torus.pdf}
     \caption{
         Effect of relation between synchrotron x-ray polarization $\hat{\epsilon}$ and scattered x-ray polarization $\hat{\epsilon}'$ on the scattered field.
-        Working in the vertical plane ($\vec{x}, \vec{z}$) is preferable to maximize the intensity of the scattered field, this has pratical repercussions in surface x-ray diffraction for which it is preferable to work in a vertical geometry to scan large 2D areas of the reciprocal space (a).
         The scattered field intensity is attenuated by a $\cos{(\theta)}$ factor, where $\theta$ is the angle between the plane perpendicular to the electric field and the direction of observation $\vec{R}$ (b)
     }
     \label{fig:polarization_effect}
@@ -138,7 +146,8 @@ The polarization factor $P$ for scattered beams is defined as $P =  | \hat{\epsi
 \end{equation}
 
 The effect of the polarization of the incident beam is illustrated in figure \ref{fig:polarization_effect}.
-At synchrotron sources where the incident beam is horizontally polarized, working in the vertical plane becomes more effective since the polarization factor is always equal to one.
+At synchtrons, working in the vertical plane ($\vec{x}, \vec{z}$) is preferable to maximize the intensity of the scattered field.
+This has pratical repercussions in surface x-ray diffraction for which it is preferable to work in a vertical geometry to scan large 2D areas of the reciprocal space.
 
 The total cross-section for the scattering event by a single free electron can be computed by integrating the differential cross-section over all the possible scattering angles, \textit{i.e.} by averaging all possible polarization directions \parencite{Willmott}.
 This yields $\sigma_{ts} = 8 \pi r_0^2 /3 = \qty{0.665}{\barn}$, (\qty{1}{barn} is equal to \qty{e-28}{\m^2}) the total Thomson scattering cross-section is constant, independent of the incoming photon energy. This results holds for x-rays for which the scatterer \textit{i.e.} the electron can be considered as free \parencite{Willmott}.
@@ -166,7 +175,7 @@ To describe the phase of the scattered field, which depends on the phase of each
     \includegraphics[scale=0.6]{Figures/introduction/q.pdf}
     \caption{
     Geometry of the scattering vector $\vec{q}$ in reciprocal space, $2\theta$ is the scattering angle.
-    The magnitude of the scattering vector can be derived with the angle $\theta$ that draws a line cutting $\vec{q}$ at $|\vec{q}|/2$.
+    The magnitude of the scattering vector can be derived from the scattering angle $\theta$ that draws a line cutting $\vec{q}$ at $|\vec{q}|/2$.
     }
     \label{fig:q}
 \end{figure}
@@ -207,7 +216,7 @@ This difference in scattering intensity between elements becomes crucial when wo
     \centering
     \includegraphics[width=\textwidth]{Figures/introduction/atomic_form_factor.pdf}
     \caption{
-    Atomic form factor calculated for Pt (Z=78) using tabulated values \parencite{InterTablesOfCryst} for equation \ref{eq:AtomicFormFactor}. The scattering intensity decreases with the scattering angle $\theta$ but increases with the incident wavelength $\lambda$. $i$ and $c$ respectively designate the Gaussian contribution and constant in eq. \ref{eq:AtomicFormFactorTab}.
+    Atomic form factor calculated for platinum (Z=78) using tabulated values \parencite{InterTablesOfCryst} for equation \ref{eq:AtomicFormFactor}. The scattering intensity decreases with the scattering angle $\theta$ but increases with the incident wavelength $\lambda$. $i$ and $c$ respectively designate the Gaussian contribution and constant in eq. \ref{eq:AtomicFormFactorTab}.
     }
     \label{fig:atomic_form_factor}
 \end{figure}
@@ -301,7 +310,7 @@ The Thomson scattering length is left apart for simplicity.
     \caption{
     Face centered cubic (FCC) lattice of Pt (space group 225).
     Atoms are represented as solid balls and situated on the corners and at the middle of the faces.
-    A more classical representation of the unit cell is also shown on the right in which the size of the atoms corresponds to 60\% of their atomic radius to be able to visualize the positions of each atom.
+    A schematic representation of the unit cell is shown on the right to be able to visualize the positions of each atom.
     The lattice parameter at room temperature is $a = \qty{3.9242}{\angstrom}$.
     Close packed direction is achieved along the diagonal of the lateral faces, the distance between the atoms then becomes \qty{2.7748}{\angstrom}.
     }
@@ -515,7 +524,7 @@ The emittance $\epsilon$ is defined as the product of the source size $D$ and th
     \includegraphics[scale=0.8]{Figures/introduction/coherence_lengths.pdf}
     \caption{
     (a) Two waves become out of phase in the direction of the beam at a distance $L_L$ from being in phase after $N/2$ wavelengths for $\lambda$ and $(N+1)/2$ wavelengths for $\lambda - \Delta\lambda$. Since $N >> 1$, we can write $N\approx\lambda/\Delta\lambda$ and find eq. \ref{eq:LongitudinalCoL}.
-    (b) A plane wave emitted from one extremity of the source is out of phase with another plane wave emitted from the other extremity with maximum angular divergence $\Delta\theta$ at a distance $L_T$ in the plane perpendicular to the direction of the beam situated at a distance $R$ from the source.
+    (b) A plane wave emitted from one extremity of the source is out of phase with another plane wave emitted from the other extremity with maximum angular divergence $\Delta\theta$ at a distance $L_T$ in the plane perpendicular to the direction of the beam, situated at a distance $R$ from the source.
     }
     \label{fig:CoherenceLengths}
 \end{figure}
@@ -557,11 +566,3 @@ So far we have limited ourselves to the kinematical approach of diffraction in t
 This allows us to assume that the sample is only a perturbation to the incident field and that the structure factor can be written as the Fourier transform of the electronic density (Born approximation).
 We have also assumed that the incident wave is plane within the scattering volume and that the distance between the scatterer and the detector is large enough for the scattered waves to be considered planes (far-field or Fraunhofer regime).
 }
-
-\textcolor{Important}{
-Field / amplitude / intensity consistent ?
-$r_0$ use consistent ? $2\pi$ ?
-hypothesis to explain: DWBA, dipole approximation, perfect crystals
-}
-
-% When detecting the scattered field at a point $\vec{R}$, we assume that $\|vec{R}|$ is far greater than the electronic density, this is called the dipole approximation. NOT GOOD Each atom can be considered as a ball of certain radius (see \ref{fcc_lattice}).

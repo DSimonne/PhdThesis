@@ -34,7 +34,7 @@ In this example, the surface reconstructions can be described by the (\numproduc
     \centering
     \includegraphics[width=0.9\textwidth]{Figures/introduction/CTRConvolution.png}
     \caption{
-    Describing a crystal surface by the multiplication of the crystal lattice by a step-function in real space explain the shape of crystal truncation rods in reciprocal space thanks to the convolution theorem.
+    Describing a crystal surface by the multiplication of the crystal lattice by a step-function in real space explains the shape of crystal truncation rods in reciprocal space by the convolution theorem.
     Figure taken from \cite{Willmott}.
     }
     \label{fig:CTRConvolution}
@@ -69,10 +69,10 @@ This expression is only valid within the kinematical approach to diffraction.
     \centering
     \includegraphics[width=\textwidth]{Figures/introduction/relax_rough_ctr.pdf}
     \caption{
-    Simulation of the intensity of a crystal truncation rod perpendicular to [2, 0] node for a single crystal made out platinum, performed with ROD \parencite{Vlieg2000}.
-    (a) Evolution of the CTR intensity together with the roughness parameter $\beta$, the intensity between the Bragg peaks decreases with increasing roughness.
-    (b) Evolution of the CTR intensity together with the displacement $\delta z$ of the last atomic layer perpendicular to the surface.
-    The CTR shows a stronger asymmetry with high surface relaxations and the position of the minimum between Bragg peaks is shifted.
+    Simulated intensity of a [2, 0, L] crystal truncation rod perpendicular for a (100)-oriented Pt single crystal, computed with ROD \parencite{Vlieg2000}.
+    (a) The intensity between the Bragg peaks decreases with increasing roughness.
+    (b) $\delta z$ corresponds to the displacement (or surface relaxation) of the last atomic layer perpendicular to the surface.
+    Large surface relaxations induce an asymmetry in the CTR shape and a shift in the position of the minimum between Bragg peaks.
     }
     \label{fig:CTRSimulation}
 \end{figure}
@@ -92,9 +92,8 @@ Positive or negative strain, also called surface relaxation when due to the mini
 
 Surface reconstructions also yield crystal truncation rods in the reciprocal space, perpendicular to the nodes of the reconstructed lattice, called super-structure rods (SSR).
 These rods are structured in $l$ if the width of the surface reconstruction in $\vec{c}$ is more than a few unit cells.
-Otherwise, the scattered signal corresponds to a diffuse signal slowly decreasing as a function of $l$ instead.
-\textcolor{Important}{ref or simu}
-To resume, analysing the scattered signal as a function of $l$ (out-of-plane measurements) yields information about the structure in the $\vec{c}$ direction whereas analysing the position of the peaks in $[h, k]$ planes (in-plane measurements) gives information about the two-dimensional structure in the directions of $\vec{a}$ and $\vec{b}$.
+Otherwise, the scattered signal corresponds to a diffuse signal slowly decreasing as a function of $l$ instead (sec. \ref{sec:ROD}).
+To resume, analysing the scattered signal as a function of $L$ (out-of-plane measurements) yields information about the structure in the $\vec{c}$ direction, whereas analysing the position of the peaks in $[H, K]$ planes (in-plane measurements) yields information about the two-dimensional structure in the directions of $\vec{a}$ and $\vec{b}$.
 
 \subsection{Data collection} \label{sec:DataCollectionSXRD}
 
@@ -110,10 +109,10 @@ It is a geometric construction that represents the reciprocal space constructed 
     Ewald sphere represented together with the reciprocal lattice before (green) and after (blue) rotating the sample to satisfy the Laue condition.
     The node of the reciprocal lattice that satisfies the Laue condition is in red.
     For simplicity, only part of the reciprocal lattice is represented.\\
-    (a) In-plane measurement ([h, k, l] = [0, 1, 0]), the sample is rotated in-plane by an angle $\omega$ equal to the Bragg angle.
+    (a) In-plane measurement ([H, K, L] = [0, 1, 0]), the sample is rotated in-plane by an angle $\omega$ equal to the Bragg angle.
     The detector must be at an in-plane angle $\gamma=2\omega$ to detect the scattered x-rays.\\
-    (b) Out-of-plane measurement for crystal truncation rods, the sample is rotated in-plane by an angle $\omega$ so that the (0, 1, L) CTR is measured \textit{while} keeping the incident angle at low values.
-    Both detector angles must be rotated to have the detector in the direction of the scattered x-rays, only the (0, 1, L) CTR is represented for simplicity.
+    (b) Out-of-plane measurement for crystal truncation rods, the sample is rotated in-plane by an angle $\omega$ so that the [0, 1, L] CTR can be measured \textit{while} keeping the incident angle at low values.
+    Both detector angles must be rotated to keep the detector in the direction of the scattered x-rays, only the [0, 1, L] CTR is represented for simplicity.
     }
     \label{fig:EwaldSphere}
 \end{figure}
@@ -127,8 +126,7 @@ The Laue condition for a particular reflection is satisfied when the scattering 
     \caption{
     2+3 multi-environment diffractometer (MED) used at SixS, figure adapted from \cite{Schleputz2011}.
     The diffractometer has a horizontal (red) and vertical (blue) geometry, depending on the position of the sample.\\
-    The scattering "plane" is defined as parallel to the sample surface.
-    $\omega$ is always the in-plane rotation of the sample.
+    The scattering plane is defined as parallel to the sample surface, $\omega$ is always the in-plane rotation of the sample.
     The out-of-plane angular rotation is performed with $\beta$ in the horizontal configuration, whereas $\mu$ is used in the vertical configuration.\\
     $\gamma$ and $\delta$ are respectively the in-plane (out-of-plane) and out-of-plane (in-plane) detector angles in the horizontal (vertical) configuration.\\
     The $u$ and $v$ angles are pseudo-angles used to tilt the position of the sample with the goniometer.
@@ -171,7 +169,7 @@ Moreover, in the case of crystals that are larger than the beam-footprint, illum
 
 \subsection{X-ray reflectivity}\label{sec:XRR}
 
-To perform a measurement perpendicular to the $[0, 0]$ node in the horizontal geometry, $\beta$ must be tuned together with the out-of-plane angle of the detector $\delta$ (fig. \ref{fig:EwaldSphereSpecular}).
+To perform a measurement perpendicular to $[H, K] = [0, 0]$ in the horizontal geometry, $\beta$ must be tuned together with the out-of-plane angle of the detector $\delta$ (fig. \ref{fig:EwaldSphereSpecular}).
 This kind of measurement is called \textit{specular} measurement, for which the direction of the scattering vector is only perpendicular to the surface, and yields information about the density of the material in the direction perpendicular to the surface.
 
 \begin{figure}[!htb]
@@ -179,7 +177,7 @@ This kind of measurement is called \textit{specular} measurement, for which the 
     \includegraphics[trim=75 100 75 100, clip, width=0.49\textwidth]{Figures/introduction/EwaldSphereSpecular3D.png}
     \caption{
     Ewald sphere represented together with the reciprocal lattice before (green) and after (blue) rotating the sample to satisfy the Laue condition.
-    Measurement along the (0, 0, L) direction is performed by simultaneously rotating the in-plane sample angle $\beta$ while the rotation of the in-plane detector angle $\delta$ follows the relation $\delta=2\beta$.
+    Measurements in the specular direction is performed by simultaneously rotating the in-plane sample angle $\beta$ while the rotation of the in-plane detector angle $\delta$ follows the relation $\delta=2\beta$.
     }
     \label{fig:EwaldSphereSpecular}
 \end{figure}

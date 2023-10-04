@@ -9,7 +9,7 @@ SOLEIL (Source Optimisée d’Énergie Intermédiaire du LURE (Laboratoire pour 
     \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sixs/RingSoleil.jpg}
     \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sixs/BeamlineSoleil.jpg}
     \caption{
-    	The storage ring alternates between straight and curved sections (left), insertion devices are situated at the end of straight sections and deliver the synchrotron radiation to the beamline, separated in optical hutches, experimental end-stations and working stations (right).
+    	The storage ring of a synchrotron alternates between straight and curved sections (left), insertion devices are situated at the end of straight sections and deliver the synchrotron radiation to the beamline, separated in optical hutches, experimental end-stations and working stations (right).
     	Copyright by SOLEIL (\url{https://www.synchrotron-soleil.fr/en/research}).
     }
     \label{fig:SOLEIL}
@@ -79,8 +79,7 @@ The multi-environment diffractometer (MED) (fig. \ref{fig:MEDDiffractometer}) at
     \centering
     \includegraphics[trim=100 225 100 275, clip, width=0.9\textwidth]{/home/david/Documents/PhD/Figures/sixs/Diffractometer.pdf}
     \caption{
-        Multi-environment diffractometer (MED), here in the horizontal configuration, accommodating the XCAT reactor \parencite{VanRijn2010}.
-        The XCAT reactor is placed upon a hexapod which allows the sample to move in three orthonormal directions.\\
+        Multi-environment diffractometer (MED), here in the horizontal configuration, accommodating the XCAT reactor \parencite{VanRijn2010}, placed upon a hexapod which allows the sample to move in three orthonormal directions.\\
         Image copyright by Leiden Probe Microscopy (\url{https://leidenprobemicroscopy.com}).
     }
     \label{fig:MEDDiffractometer}
@@ -113,7 +112,7 @@ The final beam size on the sample is of about \qty{0.8}{\um} horizontally and \q
     \includegraphics[width=0.8\textwidth]{/home/david/Documents/PhD/Figures/sixs/OpticalSetup.png}
     \caption{
     	Focusing optics used for Bragg coherent diffraction imaging at the MED end-station, increasing the coherent flux on the sample.
-        $f$ stands for focal distance and $\lambda$ is the wavelength of the incoming beam.
+        $f$ stands for focal distance and $\lambda$ for the wavelength of the incoming beam.
     }
     \label{fig:OpticalSetup}
 \end{figure}
@@ -177,7 +176,7 @@ Therefore, quick inversion using \textit{Gwaihir} allowed a faster decision proc
 
 Successful first measurements by \cite{Lim2021} have permitted the simultaneous use of BCDI measurements from SixS with measurements from other imaging beamlines (ID01 - ESRF, P10 - DESY), designing a robust method to identify defects in the real space with convolutional neural networks (CNN).
 
-\subsection{Catalysis reactor}\label{sec:XCAT}
+\subsubsection{Catalysis reactor}\label{sec:XCAT}
 
 A catalysis reactor is mounted on the sample stage of the MED for the study of catalytic reactions.
 A 3D view in the horizontal configuration with the high pressure surface diffraction reactor XCAT (X-ray CATalysis) set on the goniometer is illustrated in fig. \ref{fig:MEDDiffractometer}.
@@ -204,7 +203,6 @@ This design not only enables swift attachment and detachment of the sample holde
 The sample is then placed on top of the sample holder and set in place by a wire.
 All the materials used in the reactor were carefully chosen as not catalytically active for specific reactions.
 For example, tantalum (Ta) parts (screws and wire) are used in oxygen rich environment since Ta is more resilient than molybdenum (Mo) to oxidation reaction, whereas Mo parts are used in hydrogen rich environment because it is more resilient to hydrides formation.
-\textcolor{Important}{find ref otherwise}
 A boron nitride paint additionally covers and protects the screws and wires used to fix the sample holder and the sample from oxidation effects.
 The heater power is adjusted as a function of the sample temperature read by a type C thermocouple.
 
@@ -213,8 +211,7 @@ The heater power is adjusted as a function of the sample temperature read by a t
     \includegraphics[trim=0 0 0 42, clip, width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sixs/IMG_20210612_153249_240.jpg}
     \includegraphics[trim=150 0 200 0, clip, width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sixs/CELL.jpg}
     \caption{
-        MED end-station in vertical configuration for BCDI experiments, the OSA can be seen next to the reactor cell, opposite to the anti-scattering tube.
-        The sample is visible in the absence of the reactor dome (left),
+        MED end-station in vertical configuration for BCDI experiments (left), the OSA can be seen next to the reactor cell, opposite to the anti-scattering tube, the sample is visible in the absence of the reactor dome.
         Smaller version of the XCAT reactor cell with PEEK dome (right).
     }
     \label{fig:MEDV}
@@ -237,7 +234,7 @@ Overall, this experimental setup allows the exploration of a large, multi-dimens
     \includegraphics[trim=75 50 100 50, clip, width=\textwidth]{/home/david/Documents/PhD/Figures/sixs/GasSupplySystem.pdf}
     \caption{
     	Gas supply system used at SixS together with the multi-environment diffractometer (MED) for the high pressure surface diffraction reactor.
-    	The mixing of reacting gases is performed before the reactor (MIX), and argon is used as a carrier gas (MRS).
+    	The mixing of reacting gases is performed before the reactor (MIX), argon is used as a carrier gas (MRS).
     	The leak to the RGA is represented as a side circuit from the reactor outlet.
     	Copyright by Leiden Probe Microscopy (\url{https://leidenprobemicroscopy.com}).
     }
@@ -248,8 +245,16 @@ When performing BCDI measurements, a smaller version of the XCAT is used which i
 The two reactors have the same inner volume and host the same sample holder stage (fig \ref{fig:SampleHolder}).
 The main setbacks being the lack of sputtering gun and the impossibility to study catalytic reaction in batch mode (as opposite to flow mode) due to the design of the small reactor (the leak to the RGA is after the pressure controller in the small reactor).
 
+The partial pressure of each gas detected after the leak in the main circuit (fig. \ref{fig:GasSupplySystem}) by the residual gas analyser can be converted back to partial pressures in the reactor by assuming (i) ideal gas behaviour (ii) homogeneous temperatures in the reactor and in the RGA chamber (iii) no selectivity of the gases through the leak, \textit{i.e.} the ratio between the partial pressures after the leak is the same that in the reactor (iv) all gases are detected by the RGA (v) the ratio between the incoming gases flow is the same as the ratio between the partial pressures in the reactor in the abscence of reaction.
+The partial pressure of argon, which does not partake in the reaction, is then used to compute the partial pressure of each gas in the XCAT chamber.
+
+For example, at a reactor pressure of \qty{0.5}{\bar}, a total gas flow of \qty{50}{\ml\per\min}, a partial gas flow of \ce{NH_3} equal to \qty{1}{\ml\per\min}, and a partial gas flow of argon equal to \qty{49}{\ml\per\min}, we estimate the partial pressure of argon in the reactor to be equal to \qty{490}{\milli\bar}.
+The goal of the use of the mass spectrometer in this thesis is not to perform a quantitative analysis of the catalyst activity but rather to compare the evolution of the product partial pressures for different atmospheres, which is compatible with the setup.
+
 The measurement process for the collection of the scattered intensity is detailed in sec. \ref{sec:DataCollectionSXRD} for surface x-ray diffraction and in sec. \ref{sec:DataCollectionBCDI} for Bragg coherent diffraction imaging.
 Since this reactor was designed for SXRD together with a 6-circle diffractometer, the entire surface of the sample is accessible during the experiment which allows the full access to the reciprocal space to probe any particular symmetry, limited only by the extent of the Ewald sphere (\textit{i.e.} a maximum extent in $\vec{q}$).
+
+\subsubsection{Detectors}
 
 Different detectors can be accommodated on the diffractometer arm.
 On one hand, the MERLIN \parencite{Bewley2006} combines a small pixel size (\qty{55}{\um}) with a large array (\numproduct{512 x 512} pixels), few gaps, and a large dynamic counting range, similar to the MAXIPIX detector \parencite{Ponchut2011} which was first used for coherence experiments on the beamline \parencite{Schavkan2013, Li2020}.
