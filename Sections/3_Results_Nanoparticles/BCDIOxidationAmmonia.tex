@@ -1,4 +1,8 @@
-\subsection{Nanoparticle surface structure evolution during ammonia oxidation}\label{sec:BCDIAmmoniaOxidation}
+\subsection{Nanoparticle structure evolution during ammonia oxidation at \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius}}\label{sec:BCDIAmmoniaOxidation}
+
+% could do cross correlation maps
+% could do radial distributions analysis, onion rings !
+% change fwhm evolution to percentages
 
 Having shown that the Pt particles epitaxied on alumina are not stable during the oxidation of ammonia at \qty{600}{\degreeCelsius}, the reaction was measured using BCDI at lower temperatures before and after the catalyst light off, respectively \qty{300}{\degreeCelsius}, and \qty{400}{\degreeCelsius}.
 
@@ -59,8 +63,8 @@ Most importantly, the large nanoparticle does not exhibit high Miller index face
     \begin{tabular}{@{}llllll@{}}
     \toprule
     Facet Type & \{100\} & \{110\} & \{111\} & \{113\} & None \\ \midrule
-    Particle B & 0.108 (6) & 0.064 (8) & 0.363 (8) & 0 & 0.465 \\
-    Particle C & 0.105 (6) & 0.231 (9) & 0.352 (8) & 0.073 (7) & 0.239 \\ \bottomrule
+    Particle B & 0.105 (6) & 0.231 (9) & 0.352 (8) & 0.073 (7) & 0.239 \\ \bottomrule
+    Particle C & 0.108 (6) & 0.064 (8) & 0.363 (8) & 0 & 0.465 \\
     \end{tabular}%
     \caption{
         Particle surface area covered by facet type, the number in parenthesis designates the amount of each facet identified on the surface.
@@ -99,6 +103,7 @@ Particle \textit{B}, which is smaller and thus scatters more weakly than particl
 Normalised histograms of the particle reconstructed Bragg electronic density showed no more clear distinctions between regions inside and outside the support (fig. \ref{fig:B7Histo}), and choosing a threshold value to draw the particle iso-surface no longer became evident.
 
 Choosing a low threshold for the particle iso-surface could still be done, but resulted in a round object without clear facets.
+The small volume of the particle also probably impacts the quality of the measurements, increasing the spatial resolution and leading to this \textit{rounding} of the particle.
 Some reconstructions showed a good quality at \qty{300}{\degreeCelsius}, but in a larger sense recovering the facets on the particle surface in a reproducible way became impossible.
 
 Increasing the temperature to \qty{400}{\degreeCelsius} under inert atmosphere was at the origin of the appearance of a defect in the particle, visible directly in reciprocal space by the shape of the 3D diffraction patterns, split in two parts (fig. \ref{fig:B7Ortho}), which did not improve the phase retrieval quality.
@@ -309,15 +314,12 @@ No measurement was performed at \qty{400}{\degreeCelsius} at the end of the oxid
 
 To summarise, particle \textit{C} seems to have suffered a transition at \qty{300}{\degreeCelsius} following the introduction of ammonia in the reactor, which helped improved the quality of phase retrieval, probably from a decrease of strain.
 The diffraction pattern was shown to not be exactly reproducible when returning to inert atmosphere, but still showing a decrease of sharpness regarding the position and intensity of the interfringes.
-It is difficult to be certain of the impact of the adsorption of ammonia since there is a lack of good quality reconstruction for comparative studies before the introduction of ammonia in the reactor, preventing an analysis of the facet strain.
+% It is difficult to be certain of the impact of the adsorption of ammonia since there is a lack of good quality reconstruction for comparative studies before the introduction of ammonia in the reactor, preventing an analysis of the facet strain.
 
-However, the transition can be observed in both the strain field energy (fig. \ref{fig:D6SFE}) and in the FWHM of the three-dimensional Bragg peak (fig. \ref{fig:D6FWHM}).
+The transition can be observed in both the strain field energy (fig. \ref{fig:D6SFE}) and in the FWHM of the three-dimensional Bragg peak (fig. \ref{fig:D6FWHM}).
 The interplanar spacing computed from the position of the Bragg peak in $q$-space shows an additional transition when first introducing oxygen in the cell, not visible in the strain field energy of in the FWHMs, which can be linked to a change of strain at the interface with the substrate.
-The values of the heterogeneous surface strain $\epsilon_{zz}$ being very low (almost always below \qty{0.1}{\percent}, fig. \ref{fig:D6Facets}), it is also complicated to quantify the strain evolution.
-
-The oxidation of ammonia has been extensively studied by the means of surface techniques in the previous and current century as detailed in sec. \ref{sec:LiteratureAmmonia}.
-Since BCDI in a still a recent technique, first applied to catalysis less than 10 years ago \parencite{Ulvestad2016}, no comparative measurements can be found during the presence of ammonia or nitrogen based species.
-However, exposing Pt nanoparticles to a rich oxygen atmosphere has been
+The influence of the introduction of oxygen on the interfacial strain is unclear since no clear and reproducible evolution of the facet strain is visible on the particle surface (fig. \ref{app:AppendixD6}).
+% The values of the heterogeneous surface strain $\epsilon_{zz}$ being very low (almost always below \qty{0.1}{\percent}, fig. \ref{fig:D6Facets}), it is also complicated to quantify the strain evolution.
 
 \subsubsection{Mass spectrometry results}
 
@@ -337,10 +339,6 @@ The original mass spectrometer signal as a function of time is available in the 
 
 Interestingly, a transition was recorded at both \qty{300}{\degreeCelsius}, and \qty{400}{\degreeCelsius} approximately \qty{4}{\hour} after the increase of the oxygen partial pressure from \qty{10}{\milli\bar} to \qty{20}{\milli\bar}, leading to a \ce{NH_3}/\ce{O_2} ratio equal to 2.
 The partial pressure of \ce{N_2} is approximately divided by two while the partial pressure of \ce{NO} is inversely multiplied by two.
-No such effect was observed at \qty{300}{\degreeCelsius} in the previous experiment when using the non-patterned sample during surface x-ray diffraction (fig. \ref{fig:RGASXRDNanoparticlesComparison}).
-The only difference in the history of both samples is that the patterned sample was exposed to reacting conditions at \qty{600}{\degreeCelsius} for approximately \qty{1}{\hour} before this experiment.
-
-This transition in the product partial pressures does not correspond to the condition at which particle \textit{B} showed a transition in terms of strain field energy or FWHM at \qty{400}{\degreeCelsius}, which occurred under an equal amount of ammonia and oxygen in the reactor.
 
 In a general sense, the production of \ce{N_2} is favoured at lower oxygen partial pressures in comparison with \ce{N_2O} and \ce{NO}.
 The opposite effects takes place at high oxygen partial pressures, with a clear transition between the main products from \ce{N_2} towards \ce{NO} when the oxygen to ammonia ratio is equal to 8, this transition happens at a lower \ce{NH_3}/\ce{O_2} ratio at \qty{300}{\degreeCelsius}.

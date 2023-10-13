@@ -31,7 +31,7 @@ Air quality is the main environmental concern of Ile-de-France residents (\qty{6
 The story of ammonia begins in the early $20^{th}$ century with the discovery in 1902 of the Ostwald process that permitted the synthesis of fertilisers from ammonia.
 Wilhelm Ostwald later received the Nobel price in 1909 \textit{"in recognition of his work on catalysis and for his investigations into the fundamental principles governing chemical equilibria and rates of reaction"}.
 Seven years later, in 1909, Fritz Haber designed a process for the synthesis of ammonia which was later improved by Carl Bosch.
-It is today known as the Haber-Bosch process and is at the origin of the mass production of ammonia using metallic catalysts.
+It is today known as the Haber-Bosch process and is at the origin of the mass production of ammonia using metallic catalysts \parencite{Hosmer1917, Parsons1919}.
 Fritz Haber received the Nobel prize in 1918 \textit{"for the synthesis of ammonia from its elements"} \parencite{Alexander1920} and Carl Bosch in 1931 \textit{“in recognition of his contributions to the invention and development of chemical high pressure methods”}.
 
 \begin{figure}[!htb]
@@ -66,21 +66,21 @@ The oxidation of ammonia can be described by three equations that, depending on 
 
 The first equation (eq. \ref{eq:AmmoniaOxidationNitrogen}) yields nitrogen (\nitrogen), a naturally occurring gas that does not pollute the environment nor shows any toxic behaviour towards humans (tab. \ref{tab:NitrogenGases}).
 The second equation (eq. \ref{eq:AmmoniaOxidationNitrousOxide}) yields nitrous oxide (\nitrousoxide), a powerful greenhouse effect gas (tab. \ref{tab:NitrogenGases}).
-For an equal amount of \ce{N_2O} and \ce{CO_2}, the amount of \ce{N_2O} will trap 298 times more heat than the amount of \carbondioxide over the next 100 years \parencite{MITCLIMATE}, responsible for \qty{6.2}{\percent} of the total U.S.A. greenhouse gases emissions in 2021 (fig. \ref{fig:PieGreenhouseNO2}).
 The third equation (eq. \ref{eq:AmmoniaOxidationNitricOxide}) yields nitric oxide, also called nitrogen monoxide (\nitricoxide), which is the main desired product for the subsequent production of nitrogen-based fertilisers (tab. \ref{tab:NitrogenGases}) \textit{via} the synthesis of nitric acid with the Ostwald process.
 
-Known side reactions to the oxidation of ammonia are first the recombination of nitric oxide with unreacted ammonia that leads to the production of water and nitrogen (eq. \ref{eq:SideReactions1}), and secondly the thermal decomposition of nitric oxide (eq. \ref{eq:SideReactions2}), that both lower the total yield of the reaction when aiming at the production of nitric oxide.
+Known side reactions to the oxidation of ammonia are the recombination of nitric oxide with unreacted ammonia that leads to the production of water and nitrogen (eq. \ref{eq:SideReactions1}), and the thermal decomposition of nitric oxide (eq. \ref{eq:SideReactions2}), that both lower the total yield of the reaction when aiming at the production of nitric oxide.
+It is also possible to observe the dissociation of ammonia resulting in the production of \ce{N_2} and \ce{H_2} (eq. \ref{eq:SideReactions3}).
 
 \begin{align}
     \label{eq:SideReactions1}
     4 \ammonia (g) + 6 \nitricoxide (g) & \rightarrow 5 \nitrogen (g) + 6 \water (g)\\
     \label{eq:SideReactions2}
-    2 \nitricoxide (g) & \rightarrow \nitrogen (g) + \dioxygen (g)
+    2 \nitricoxide (g) & \rightarrow \nitrogen (g) + \dioxygen (g)\\
+    \label{eq:SideReactions3}
+    2 \ammonia (g) & \rightarrow \nitrogen (g) + 3 \ce{H_2} (g)
 \end{align}
 
-Reactions \ref{eq:AmmoniaOxidationNitrogen}, \ref{eq:AmmoniaOxidationNitrousOxide}, \ref{eq:AmmoniaOxidationNitricOxide} and \ref{eq:SideReactions1} are strongly exothermic, leading to a significant increase of the catalyst temperature during the reaction \parencite{PerezRamirez2004, Hatscher2008}.
-
-\subsection{The importance of heterogeneous catalysis}\label{sec:AmoOxiHC}
+Reactions \ref{eq:AmmoniaOxidationNitrogen}, \ref{eq:AmmoniaOxidationNitrousOxide}, \ref{eq:AmmoniaOxidationNitricOxide} and \ref{eq:SideReactions1} are strongly exothermic, leading to a significant increase of the catalyst temperature during the reaction \parencite{Hatscher2008}.
 
 The second (eq. \ref{eq:Stage2}) and third (eq. \ref{eq:Stage3}) stages of the Ostwald process stem from the production of \ce{NO} \textit{via} the first stage, \textit{i.e.} the oxidation of ammonia (eq. \ref{eq:AmmoniaOxidationNitricOxide}).
 
@@ -98,26 +98,127 @@ Nitrogen dioxide (\nitrogendioxide) is produced from \ce{NO} which then reacts w
     \nitricacid + \ammonia & \rightarrow \ammoniumnitrate
 \end{align}
 
-Hence, important selectivity towards the production of \ce{NO} must be achieved in the first stage when aiming at the production of fertilisers.
-However, at low temperature or in the absence of catalyst, the production of \ce{N_2} is favoured (eq. \ref{eq:AmmoniaOxidationNitrogen} - \cite{Hatscher2008}).
+\section{The importance of heterogeneous catalysis}\label{sec:AmoOxiHC}
 
-Since the 1930s, the presence of a platinum-rhodium (\qty{\approx 10}{\percent} Rh) knitted gauzes catalyst and favourable reaction conditions (e.g. \qty{900}{\degreeCelsius} - \qty{5}{\bar} - excess \dioxygen) allowed a \qty{98}{\percent} \ce{NO} yield to be achieved \parencite{Handforth1934, Heck1982}.
-The reaction pathways has been proven to follow a step-by-step decomposition of ammonia on the catalyst surface by stripping the hydrogen atoms of adsorbed ammonia by dissociated surface oxygen atoms, which confirms the existence of a heterogeneous catalytic process \parencite{Bradley1995,PerezRamirez2004}.
-The final pathway towards the production of nitrogen, nitrous oxide or nitric oxide depends on the oxygen density and binding on the surface.
-HAVE TO DETAIL MORE HERE
+\subsection{Industry conditions and catalysts}
 
-However the exact mechanism of action is not yet exactly understood.
-The role of metal-oxides has been underlined by several studies, after a few hours of catalytic reaction, the catalyst undergoes an \textit{activation process} which leads to an increase selectivity towards \ce{NO} while the gauzes undergo a transformation towards a roughened surface with the presence of \ce{PtO_2} and \ce{Rh_2O_3}.
-The rough surface has an increased area compared to the smooth surface and is responsible for the formation of metallic oxides in step and pits, \ce{PtO_2} increases the reaction rate while \ce{Rh_2O_3} leads towards the deactivation of the catalyst.
-The volatile platinum oxide is considered to be primary responsible for mass losses and the progressive deactivation of the catalyst due to the ever increasing presence of \ce{Rh_2O_3} \parencite{McCabe1986}.
+Important selectivity towards the production of \ce{NO} must be achieved in the first stage of the Ostwald process when aiming at the production of fertilisers.
+However, at low temperature or in the absence of catalyst, the production of \ce{N_2} is favoured (eq. \ref{eq:AmmoniaOxidationNitrogen}), which is at the origin of the selective, heterogeneous catalytic oxidation of ammonia towards the production of nitrogen oxide.
 
-\subsection{Environmental impact}
+Since the 1930s, the presence of a platinum-rhodium (\qty{\approx 10}{\percent} Rh) knitted gauzes catalyst at favourable reaction conditions (e.g. \qty{900}{\degreeCelsius} - \qty{5}{\bar} - excess \dioxygen) allowed a \qty{98}{\percent} \ce{NO} yield to be achieved \parencite{Ostwald1908, Kaiser1909, Handforth1934, Heck1982}.
 
-If, as illustrated in fig. \ref{fig:FertilizerWID}, nitrogen-based fertilisers have permitted an industrial development of agriculture, they are also the most important contribution to nitrous oxide in the atmosphere from unused volumes of nutrients (fig. \ref{fig:PieGreenhouseNO2}).
-Fertilisers can be either ammonium- or nitrate-based, when plants don't fully absorb all the nutrients, a series of microbe-mediated transformations occur (CHECK).
-These processes lead to the release of nitrogen back into the atmosphere, primarily as nitrogen gas (\nitrogen) and, to a lesser extent, as \nitrousoxide.
+In order to understand the reaction mechanism occuring on the catalyst surface, and the role of Pt and Rh in the catalyst stability and selectivity, scientist have been studying the reaction by different methods since the beginning of last century.
+A comprehensive review of the ammonia oxidation is given by Hatscher et al. \parencite*{Hatscher2008}, important literature findings from the last 100 years will be resumed below.
+
+% roughening, oxides
+The importance of high temperature for the selective production of \ce{NO} was demonstrated early by temperature dependant studies\parencite{Nutt1968, Pignet1974, Li1997}, while a restructuration of the catalyst was put into evidence \parencite{McCabe1974, FlytzaniStephanopoulos1979, McCabe1986} by the means of \textit{ex-situ} SEM imaging of industrial samples (fig. \ref{fig:Gauzes}).
+This \textit{activation process} leads to an increase selectivity towards \ce{NO} while the gauzes undergo a transformation towards a roughened surface.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sample/EtchedGauze.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sample/ReconstructedGauze.png}
+    \caption{
+    SEM images of Pt-Rh reconstructed gauzes after use in industry, taken from Bergene et al. \parencite*{Bergene1996}.
+    The horizontal bar is \qty{0.1}{\mm} wide.
+    }
+    \label{fig:Gauzes}
+\end{figure}
+
+The deactivation of Pt-Rh industrial catalysts after long exposure times have been explained by the presence of rhodium oxides \parencite{Bergene1996}.
+However, a deactivation process was also reported on pure Pt calatyst \parencite{Ostermaier1974}, linked to the presence of platinum oxides \parencite{Ostermaier1976}.
+
+The role of volatile surface oxides in the roughening and etching of the catalyst surface was theorised by Wei et al. \parencite*{Wei1996} and confirmed experimentally by Nilsen et al. \parencite*{Nilsen2001}.
+The transportation of Pt and Rh was found to be permitted by oxygen \parencite{Hannevold2005a}, decreasing with increasing Rh content and decreasing oxygen pressure, only for high temperature gradient, \textit{i.e.} \qtyrange{1400}{800}{\degreeCelsius} over \qty{100}{\mm}.
+\textit{Ex-situ} characterization of Pt and Pt-Rh industrial gauzes by x-ray powder diffraction and electron microscopy allowed the identification of defect sites at the origin of high temperature gradient areas during reaction.
+The existence of such areas allows the restructuration process to occur nearby initial defects by the formation of \ce{PtO_2} and \ce{RhO_2} oxides, depositing metallic atoms on colder regions, and also leading to some loss of the precious metals constituting the calatyst \parencite{Hannevold2005}.
+
+The progressive deactivation of the catalyst due to the ever increasing presence of \ce{Rh_2O_3} \parencite{McCabe1986} was refuted by Hannevold et al. \parencite*{Hannevold2005}, explaining that such oxide could only form during the cooling of the catalyst, which is a good example of the limitation of \textit{ex-situ} works.
+A \ce{Pt_3O_4} catalyst used for the oxidation of ammonia was proven to be unstable at working temperature above \qty{690}{\degreeCelsius}, decomposing into a Pt phase after \qty{7}{\hour} of operation \parencite{Zakharchenko2001}.
+
+\subsection{Reaction mechanism}
+
+First studies performed at low working pressure but different temperatures have supported a Langmuir-Hinshelwood mechanism during which both reactants are decomposed and adsorbed on top of the catalyst surface \parencite{Nutt1969, Pignet1974, Ostermaier1974, Pignet1975, Gland1978a}, the final pathway towards the production of nitrogen or nitrous oxide depending on the ratio between \ce{O_2} and \ce{NH_3}.
+
+The importance of adsorbed atomic oxygen and \ce{OH} in the dissociation of \ce{NH_3} on both Pt (111) \parencite{Mieher1995, Bradley1997} and Pt (100) surface was put into evidence \parencite{Bradley1995, vandenBroek1999, Kim2000}.
+High oxygen coverage on Pt (100) has shown to reduce the production of \ce{N_2}, mainly produced by the dissociation of \ce{NO}, favoured at lower temperatures over \ce{NO} desorption \parencite{Bradley1995}.
+Asscher et al. \parencite*{Asscher1984} have reported the existence of a mechanism involving oxygen in the gas phase reacting with adsorbed NH species on Pt (111) for the production of \ce{NO}.
+At UHV, a rotated hexagonal reconstruction on top of Pt (100) was found to impinge \ce{NH_3} dissociation at low temperature (\qty{-123}{\degreeCelsius}) \parencite{Bradley1997}, the ammonia oxidation stabilising the (1x1) phase \parencite{Rafti2007} by the formation of \ce{NH_x} intermediates between \qty{125}{\degreeCelsius} and \qty{350}{\degreeCelsius}.
+
+% steps
+The importance of atomic steps in the catalytic activity was first revealed by Gland et al. \parencite*{Gland1978, Gland1980}.
+The more recent study of the oxidation of ammonia on several model catalysts (Pt(533), Pt(443), Pt(865), Pt(100), Pt foil) to investigate the structure selectivity by Yingfeng \parencite*{Yingfeng2008} linked the presence of steps and kinks with higher catalytic activity in the \qtyrange{1e-9}{1e-5}{\bar} range.
+Moreover, the production of \ce{N_2} was reported to be promoted by lower temperatures and a reduced \ce{O_2}/\ce{NH_3} ratio in the incoming gas flow, while higher temperatures and an elevated \ce{O_2}/\ce{NH_3} ratio tend to result in a higher selectivity towards the formation of \ce{NO} \parencite{Zeng2009}
+No production of \ce{N_2O} was observed within the studied pressure range.
+
+% tap, kinetic studies
+Rebrov et al. \parencite*{Rebrov2002} detailed the reaction kinetics and mechanism with a 13 step, temperature dependent model, the parameters of which have been refined with data collected from a microreactor.
+A wide range of conditions was explored, including ambient pressures of \ce{NH3} (\qtyrange{0.01}{0.12}{\bar}) and \ce{O_2} (\qtyrange{0.10}{0.88}{\bar}), in a large temperature range (\qtyrange{250}{400}{\degreeCelsius}).
+A dual site mechanism was proposed, with a preference for hollow site for oxygen species, and for top or bridge sites for nitrogen species, while \ce{NO} species have been reported to exist on both top and bridge sites.
+
+Pérez-Ramirez et al. \parencite*{PerezRamirez2004} have also attempted to study the kinetics of the reaction by directly analysing the selectivity of catalysts used in industry (\textit{i.e.} Pt-Rh and Pt gauzes) above \qty{700}{\degreeCelsius}, by the means of reactant gas pulses.
+The heterogeneous catalysis reaction mechanism was found to be similar on both sample, a pre-exposition of the catalysts to oxygen facilitated the dissociation of \ce{NH_3}, without which the decomposition towards \ce{N_2} was not detected.
+A high coverage of the catalyst by oxygen was linked to the formation of \ce{NO}, strongly bound oxygen-rich species favour the production of \ce{N_2}, whereas weakly bound were associated to \ce{NO} selectivity.
+The importance of adsorbed oxygen species to prevent spontaneous \ce{NO} dissociation was confirmed.
+In a second study \parencite{PerezRamirez2009}, they proved that increasing the \ce{O_2}/\ce{NH_3} ratio to 10 pushed \ce{NO} selectivity to almost \qty{100}{\percent}, \ce{N_2} and \ce{N2_O} production being both suppressed by favouring \ce{NO} desorption.
+
+A similar study combining dynamical field theory (DFT) calculations and temporal analysis of products (TAP) by Baerns et al. \parencite*{Baerns2005} confirmed the importance of surface \ce{O} and \ce{OH} for the dehydrogenation of \ce{NH_3} on the calatyst surface.
+\ce{N_2O} could only be detected at ambient pressures, \ce{N_2} is favoured at lower temperature, whereas \ce{NO} is favoured at higher temperatures.
+Importantly for the use of model catalysts, no difference in the temperature dependant production of \ce{N_2} and \ce{NO} between a Pt(533) single crystal, Pt foil, and knitted Pt gauzes could be observed.
+Surface roughnening of the catalyst at ambient pressure was linked to activation and selectivity change for a Pt foil.
+
+The first studies performed under working conditions brought forward two recurrent problems when carrying out low pressure studies.
+First, the production of \ce{N_2O} was rarely discussed because undetected at low pressures, van den Broek et al. \parencite*{vandenBroek1999} hypothetised that \ce{NO} was a precursor in the production of nitrous oxide.
+\ce{N_2O} was then detected also by Pérez-Ramirez et al. \parencite*{PerezRamirez2004}, Baerns et al. \parencite*{Baerns2005} and Kondratenko et al. \parencite*{Kondratenko2007} which confirmed the precursor role of \ce{NO}, and that \ce{N_2} was produced by either dissociation of \ce{NO} or/and complete dehydrogenation of \ce{NH_3}.
+
+Secondly, the known roughening process occuring on the catalyst at working conditions could not be reproduced without long working times.
+Kinetic studies on polycrystalline Pt up to \qty{10}{\bar} but at temperatures below \qty{385}{\degreeCelsius} observed the roughening transition \parencite{Kraehnert2008}, which proved difficult to fit with develop kinetic models, attributed to local increase in temperature and surface area.
+
+% The rate-limiting step in the ammonia decomposition has been identified to be the recombination of nitrogen atoms on Fe catalysts \parencite{Vilekar2012}
+
+% DFT
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/ammonia/ReactionMechanism.png}
+    \caption{
+    Example of \ce{NH_3} stripping process by adsorbed \ce{O}, taken from Imbihl et al. \parencite*{Imbihl2007}.
+    }
+    \label{fig:ReactionMechanism}
+\end{figure}
+
+Novell-Leruth et al. \parencite*{NovellLeruth2005} confirmed the adsorption of \ce{NH_3} and \ce{NH_2} to occur respectively on top and bridge sites for both Pt (100) and Pt(111), but with a more favourable adsorption process on Pt (100).
+Similar adsorption energies have been reported for \ce{NH} and \ce{N} that both adsorb on hollow sites \
+Additionnal DFT studies of the reaction pathways and kinetics have confirmed a reaction mechanism following a step-by-step decomposition of ammonia on the catalyst surface, the stripping of adsorbed ammonia hydrogen atoms being facilitated by the presence of oxygen species \parencite{Offermans2006}.
+A comparative study between the Pt (100), Pt (111) and Pt (211) (\textit{i.e.} stepped) surfaces did not reveal a strong structure sensitivity during the \ce{NH_3} stripping process \parencite{Offermans2007}.
+
+Imbihl et al. \parencite*{Imbihl2007} have further improved the understanding of the production of \ce{N_2O}, which happens not only by the recombination of two adsorbed \ce{NO} species but also \textit{via} the reaction between adsorbed \ce{NO} and \ce{NH_x} species.
+
+The first dehydrogenation step was found to be the slowest, while the desorption of \ce{NO} is the rate limiting-step \parencite{NovellLeruth2008}.
+Interestingly, for the first time different oxygen species were reported for the dehydrogenation process, respectively \ce{O} for Pt(111) (fig. \ref{fig:ReactionMechanism}) and \ce{OH} for Pt(100).
+A high energy barrier for \ce{NO} desorption and \ce{N_2O} formation explain the high temperature needed for their production in comparison with \ce{N_2}.
+
+% conclude
+Overall, the mechanism of the oxidation of ammonia is still unclear, different studies reporting different mechanisms that depend on the reactant partial pressures, as well as the catalyst temperature and structure.
+The main drawback often common to the large amount of studies performed in the last and current century is that they have been performed at pressures and temperatures far from industrious conditions, even at UHV, sometimes \textit{ex-situ}.
+
+It is of key importance to perform additional studies that will help build a comprehensive understanding of the reaction mechanics from low pressure and temperature to working conditions.
+
+\section{Environmental impact}
+
+\subsection{Greenhouse effect}
+
+As illustrated in fig. \ref{fig:FertilizerWID}, nitrogen-based fertilisers have permitted an industrial development of agriculture.
+In a remarkable review of the presence of \ce{N_2O} in the atmosphere linked to human activities, Pérer-Ramirez et al. \parencite*{PerezRamirez2003} have shown that the most important contribution to nitrous oxide in the atmosphere is from unused volumes of nutrients (fig. \ref{fig:PieGreenhouseNO2}), but also from nitric acid manufacture.
+Understanding and limiting the by-products of \ce{N_2O} by controlling the process selectivity is thus capital.
+
+For an equal amount of \ce{N_2O} and \ce{CO_2}, the amount of \ce{N_2O} will trap 298 times more heat than the amount of \ce{CO_2} over the next 100 years \parencite{MITCLIMATE}, responsible for \qty{6.2}{\percent} of the total U.S.A. greenhouse gases emissions in 2021 (fig. \ref{fig:PieGreenhouseNO2}).
+\ce{N_2O} has an atmospheric lifetime of 114 years \parencite{Solomon2007}.
+
+Davidson et al. \parencite{Davidson2009} have detailed the contribution of manure, fertilizer and nitrogen oxide to atmospheric nitrous oxide, revealing that a steady growth in its production is still expected in the years to come.
+Fertilisers can be either ammonium- or nitrate-based, when plants don't fully absorb all the nutrients, a series of microbe-mediated transformations occur.
+These processes lead to the release of nitrogen back into the atmosphere, primarily as nitrogen gas (\ce{N_2}) and, to a lesser extent, as \ce{N_2O}.
 Moreover, nitrogen-based fertilisers and other human activities can lead to nitrogen runoff into water bodies, contributing to eutrophication (excessive growth of algae) and causing harm to aquatic ecosystems (tab. \ref{tab:NitrogenGases}).
-Approximately half of the production of ammonia is lost to the environment \parencite{Erisman2007}
+Approximately half of the production of ammonia is lost to the environment \parencite{Erisman2007}.
 
 \begin{figure}[!htb]
     \centering
@@ -129,6 +230,8 @@ Approximately half of the production of ammonia is lost to the environment \pare
     }
     \label{fig:PieGreenhouseNO2}
 \end{figure}
+
+\subsection{Pollution}
 
 Nevertheless, it can also be interesting to be able to remove \ce{NH_3} from the atmosphere, a colourless gas with a pungent odour, that irritates the eyes, nose, throat, and respiratory tract if inhaled in small amounts due to its corrosive nature and is poisonous in large quantities.
 Ammonia also pollutes and contributes to the eutrophication and acidification of terrestrial and aquatic ecosystems, and forms secondary particulate matter (PM2.5) when combined with other pollutants in the atmosphere (tab. \ref{tab:NitrogenGases}).
@@ -143,6 +246,8 @@ In both cases, particular focus is on two products of the reaction, namely, \ce{
 Depending on the application of the ammonia oxidation, the catalytic reaction must be tuned towards a specific product, this \textit{selectivity} is controlled by the reaction temperature, pressure, the  reactant ratio, and the type of catalyst.
 To be able to drive the reaction, the impact of each parameter \textit{at relevant industrial conditions} on the product pressure must be studied.
 
+Recently, ammonia has been investigated as an energy vector for hydrogen fuel cells, which has reignited the interest in understanding the complex system drawn by the many simultaneous reactions \parencite{Afif2016, Georgina2021}.
+
 \begin{landscape}
 \begin{table}[!htb]
 \centering
@@ -155,12 +260,13 @@ To be able to drive the reaction, the impact of each parameter \textit{at releva
     Origin & \begin{tabular}[c]{@{}l@{}}Haber-Bosch\\ process\end{tabular} & \begin{tabular}[c]{@{}l@{}}Naturally present\\ in the atmosphere,\\ Ammonia \\ oxidation,\\ Selective catalytic\\ reaction (SCR)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Ammonia \\ oxidation,\\ Emissions from\\ nitrogen-based\\ fertilisers\end{tabular} & \begin{tabular}[c]{@{}l@{}}Ammonia oxidation,\\ Anthropogenic sources \\ (combustion process, \\ industry, agriculture, ...)\\ Naturally produced \\ from lightning or\\ volcanoes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Ostwald process (step 1)\\ Anthropogenic sources \\ (combustion process, \\ industry, agriculture, ...)\\ Naturally produced \\ from lightning or \\ volcanoes\end{tabular} & \begin{tabular}[c]{@{}l@{}}Ostwald process\\ (step 2)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Nitric acid\\ neutralisation \\ with ammonia\end{tabular} & Ammonia \\
     Major use & \begin{tabular}[c]{@{}l@{}}Ostwald process\\ (fertilisers),\\ Direct use in soil,\\ Fuel,\\ Hydrogen \\ carrier,\\ Cooling, SCR \end{tabular} & \begin{tabular}[c]{@{}l@{}}Ammonia \\ production\end{tabular} & \begin{tabular}[c]{@{}l@{}}Medicine,\\ Propellant\end{tabular} & Production of nitric acid & Production of nitric acid & \begin{tabular}[c]{@{}l@{}}Fertiliser production,\\ Nitration (explosives,\\ dyes, ...),\\ Propellant,\\ Etching\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fertilising \\ agent,\\ Explosives\end{tabular} & \begin{tabular}[c]{@{}l@{}}Fertilising \\ agent,\\ SCR to reduce\\ NOx into N2\end{tabular} \\
     Toxicity & \begin{tabular}[c]{@{}l@{}}Dangerous for\\ the environment\\ Toxic, \\ Corrosive\end{tabular} & \begin{tabular}[c]{@{}l@{}}Asphyxiation by\\ displacing O2\end{tabular} & \begin{tabular}[c]{@{}l@{}}Anaesthetic, \\ euphoric\end{tabular} & \begin{tabular}[c]{@{}l@{}}Oxidising, Corrosive,\\ Toxic\end{tabular} & \begin{tabular}[c]{@{}l@{}}Oxidising, Corrosive,\\ Toxic, Health hazard\end{tabular} & Oxidising, Corrosive &  &  \\
-    Pollution & PM formation &  & \begin{tabular}[c]{@{}l@{}}Ozone\\ depletion\end{tabular} & \begin{tabular}[c]{@{}l@{}}Smog, acid rains, \\ ozone depletion,\\ Precursor to NO2 in\\ the atmosphere\end{tabular} & \begin{tabular}[c]{@{}l@{}}Smog, acid rains, \\ ozone formation\end{tabular} & \begin{tabular}[c]{@{}l@{}}Decomposes towards\\ NO2\end{tabular} & \begin{tabular}[c]{@{}l@{}}Decomposes \\ into NO2 when\\ used as fertiliser,\\ Eutrophication\end{tabular} & \begin{tabular}[c]{@{}l@{}}Decomposes \\ into NH3 when\\ used as fertiliser,\\ Eutrophication\end{tabular} \\
-    \begin{tabular}[c]{@{}l@{}}Greenhouse \\ effect\end{tabular} &  &  & \begin{tabular}[c]{@{}l@{}}Very important\\ (298 CO2 eq.)\end{tabular} &  &  &  & \begin{tabular}[c]{@{}l@{}}Nitrogen-based\\ fertiliser release\\ N2O in the \\ atmosphere\end{tabular} & \begin{tabular}[c]{@{}l@{}}Nitrogen-based\\ fertiliser release\\ N2O in the \\ atmosphere\end{tabular} \\ \bottomrule
+    Pollution & PM formation &  & \begin{tabular}[c]{@{}l@{}}Ozone\\ depletion\end{tabular} & \begin{tabular}[c]{@{}l@{}}Smog, acid rains, \\ ozone depletion,\\ Precursor to \ce{NO_2} in\\ the atmosphere\end{tabular} & \begin{tabular}[c]{@{}l@{}}Smog, acid rains, \\ ozone formation\end{tabular} & \begin{tabular}[c]{@{}l@{}}Decomposes towards\\ \ce{NO_2}\end{tabular} & \begin{tabular}[c]{@{}l@{}}Decomposes \\ into \ce{NO_2} when\\ used as fertiliser,\\ Eutrophication\end{tabular} & \begin{tabular}[c]{@{}l@{}}Decomposes \\ into NH3 when\\ used as fertiliser,\\ Eutrophication\end{tabular} \\
+    \begin{tabular}[c]{@{}l@{}}Greenhouse \\ effect\end{tabular} &  &  & \begin{tabular}[c]{@{}l@{}}Very important\\ (298 \ce{CO_2} eq.)\end{tabular} &  &  &  & \begin{tabular}[c]{@{}l@{}}Nitrogen-based\\ fertiliser release\\ N2O in the \\ atmosphere\end{tabular} & \begin{tabular}[c]{@{}l@{}}Nitrogen-based\\ fertiliser release\\ N2O in the \\ atmosphere\end{tabular} \\ \bottomrule
     \end{tabular}%
     }
     \caption{
-        Nitrogen based species involved in the oxidation of ammonia, the Haber-Bosch process, the Ostwald process or nitrogen-based fertilisers. Information compiled from various sources: \cite{Thiemann2000, Harrison2001, Baerns2005, Imbihl2007, Hatscher2008, Davidson2009, Resta2020a, Borodin2021, Pottbacker2022}.
+        Nitrogen based species involved in the oxidation of ammonia, the Haber-Bosch process, the Ostwald process or nitrogen-based fertilisers.
+        Information compiled from various sources: \cite{Thiemann2000, Harrison2001, Baerns2005, Imbihl2007, Hatscher2008, Davidson2009, Resta2020a, Borodin2021, Pottbacker2022}.
     }
     \label{tab:NitrogenGases}
 \end{table}
@@ -195,21 +301,29 @@ To be able to drive the reaction, the impact of each parameter \textit{at releva
 
 The size of crystalline samples for x-ray studies is typically limited by the technique if not by the synthesis process.
 For Bragg coherent diffraction imaging (BCDI), the coherence lengths of the instrument, the need to sample the interfringes with the detector (inversely proportional to the crystal size until not visible anymore), and the need for the beam to fully illuminate the particle are most important (sec. \ref{sec:BCDI}) and translate into an upper limit for the sample size (\qty{\approx 1}{\um}).
-The advantage of the sub-micron-scale 'nano'-particles typically used in BCDI is that they exhibit a various amount of active sites such as clear facets, edges, corners and defects.
-They are thus considered to be a good approximation of real catalysts (cite).
+
+The advantage of the sub-micron-scale \textit{nano}-particles typically used in BCDI is that they exhibit a various amount of active sites such as clear facets, edges, corners and defects.
+They are thus considered to be a good approximation of real catalysts \parencite{Somorjai2007, Molenbroek2009, Cuenya2010, Kwangjin2012, Schauermann2013}.
 Moreover, the particle can be imaged in three dimensions, which allows the visualisation and study of both the surface and bulk structure.
 
 However, samples below a certain size are not easily measured experimentally with other diffraction techniques for a simple reason which is that the outcoming photon flux is proportional to the sampled volume (sec. \ref{eq:ScatteredIntensity}).
 This limitation also exists in BCDI, despite the highly focused beam, which draws a limit between experimental samples (the smallest imaged nanoparticle is \qty{60}{\nm} large - \cite{Bjorling2019, Carnis2021}) and the few \unit{\nm} large nanoparticles used in dynamical field theory (DFT) or molecular dynamics (MD), theoretical approaches only limited by the current computational power.
 
-The single crystal samples used in this thesis for surface x-ray diffraction (SXRD) and x-ray photoelectron spectroscopy (XPS) are much larger (\qty{\approx 1}{\cm}) and tend more towards a model approach since they only exhibit a single facet on their surface.
+The single crystal samples used in this thesis for surface x-ray diffraction (SXRD) and x-ray photoelectron spectroscopy (XPS) are much larger (\qty{\approx 1}{\cm}) and tend more towards a model approach since they only exhibit a single facet on their surface \parencite{Goodman1994}.
 The large sample surface area allows an improved sensitivity to the facet surface structure compared to BCDI, by increasing its scattered signal (sec. \ref{sec:SXRD}).
+Nevertheless, they show some limitations as correctly highlighted by Calle-Valejo et al. \parencite*{CalleVallejo2017}, which underlines the fact that large single-crystals such at Pt(111) also exhibit a large amount of steps also contributing to the catalytic activity.
 %Following the same line of thought, if working at ambient pressure is not a problem with x-rays that have a long penetration depth, the electrons that escape the probed surface in XPS are quickly absorbed by the atmosphere.
 %A large sample yields increased statistics.
 
 % Most of the catalytic activity of the single crystal can be considered to origin from its top surface, whereas in the case of BCDI, the sample is constituted of thousands of particles that all together contribute to the catalytic activity, despite only a few being imaged.
 
-In the frame of this thesis, the material and pressure gap will be partly bridged by operating at temperatures after the catalyst light-off, at almost industrial pressure.
+Bridging the pressure and material gap has already been the subject of several dissertations in recent years, Ackermann \parencite{Ackermann2007} has for example pushed forward the development of \textit{operando} SXRD for the study of heterogeneous catalysis, an effort recently pushed towards spectroscopy techniques by Dann \parencite*{Dann2019}.
+
+As discussed above, using single crystals as model catalysts has been the prefered appraoch for the past 100 years.
+Only recently have nanoparticles (\qty{\approx 1}{\nm} large) been used \parencite{Schaffer2013}, showing a remarkable selectivity towards \ce{NO} at high temperature and ambient pressure.
+Supported palladium nanoparticles have shown high selectivity towards production of \ce{N_2} in the selective catalytic oxidation of \ce{NH_3} \parencite{Dann2019}, supported platinum nanoparticles at \qty{250}{\degreeCelsius} reached
+
+In the frame of this thesis, both the material and pressure gap will be partly bridged by operating at temperatures after the catalyst light-off, at almost industrial pressure, by the means of \textit{operando} diffraction and spectroscopy techniques.
 The difference in activity between different crystalline facets will be studied with different samples that together offer a good compromise between industrial catalysts and samples compatible with the experimental setup of synchrotron beamlines.
 
 \begin{figure}[!htb]
@@ -218,7 +332,7 @@ The difference in activity between different crystalline facets will be studied 
     \includegraphics[trim=140 100 0 75, clip, height=3.75cm]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/B7/B7_facets.png}
     \includegraphics[height=3.75cm]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/sample/sxrd_sample.png}
     \caption{
-    Platinum gauzes used in industry (left).
+    Platinum gauzes used in industry, diameter \qty{\approx 80}{\um} (left), image taken from
     Reconstructed Pt particle measured at SixS, with its surface coloured by the displacement of surface layers from their equilibrium positions, diameter of about \qty{300}{\nm} (middle).
     The orientation of each facet on the particle surface is indicated.
     Pt $(111)$ single crystal used in SXRD and XPS experiments, diameter of about \qty{8}{\mm} (right).
@@ -231,15 +345,15 @@ The oxidation of ammonia is a catalytic reaction that has had an extremely high 
 
 In this first chapter, the importance of the oxidation of ammonia has been underlined.
 It was shown that despite being a major catalytic process in a multi-billion industry, the exact mechanisms of action are not yet understood.
-If in the frame of this thesis, the focus will be set on the sole oxidation of ammonia, the goal is also to develop experimental methods that can speak to and attract the synchrotron neophyte to the study of heterogeneous catalysis with synchrotron radiation, together with efficient and reliable computer methods that allow good data reduction and analysis.
+The focus will be set on the sole oxidation of ammonia, the goal is also to develop experimental methods that can speak to and attract the synchrotron neophyte to the study of heterogeneous catalysis with synchrotron radiation, together with efficient and reliable computer methods that allow good data reduction and analysis.
 
 %Indeed, if it is of prime interest for a scientist to always be able to understand the fundamentals and to be ready to answer to the question \textit{why ?}, one must also realize that the impact one has strongly depends on the application and reach of his work.
-Keeping this idea in mind, this thesis aims first at bridging the material and pressure gap to bring forth the possibility for synchrotron users to study catalytic reactions at conditions tending to \textit{real} industry conditions.
+Keeping this idea in mind, this work aims first at bridging the material and pressure gap to bring forth the possibility for synchrotron users to study catalytic reactions at conditions tending to \textit{real} industry conditions.
 Secondly, a focus has also been set on explaining the origin, advantages, drawbacks and workflows of each technique, especially for Bragg coherent diffraction imaging, a technique that has yet to reach its full potential through the development of $4^{th}$-generation synchrotrons and powerful computing clusters.
 
 \section{Outline of the Thesis}
 
-The initial chapter of this thesis will provide a concise explanation of heterogeneous catalysis and of the fundamental principles governing the interaction between x-rays and matter.
+The initial chapter will provide a concise explanation of heterogeneous catalysis and of the fundamental principles governing the interaction between x-rays and matter.
 This will serve to highlight the origins, benefits, and limitations of each technique employed in this study and explore how catalytic reactions can be indirectly observed using x-rays, leveraging the unique signatures they leave on the materials involved.
 The SixS beamline (synchrotron SOLEIL), which served as the primary location for conducting the majority of experiments, will be presented.
 Notably, the latest advancements in experimental techniques specific to this beamline will be covered.

@@ -95,7 +95,7 @@
 \usepackage[utf8]{inputenc} % Use accents in source code, load before biblatex
 \usepackage[T1]{fontenc} % Show accents in output
 
-\usepackage[style=authoryear, isbn=false, date=year,sorting=nyt,mincitenames=1, maxcitenames=2,
+\usepackage[style=authoryear, isbn=false, date=year,sorting=nyt, maxcitenames=1, % mincitenames=1,
     eprint=false,giveninits=true, url=false]{biblatex}
 %    nty Sort by name, title, year.
 %    nyt Sort by name, year, title.
@@ -109,6 +109,9 @@
 \AtEveryBibitem{\clearfield{pages}}
 
 \usepackage[nottoc,numbib]{tocbibind}
+\usepackage{tocloft}
+% \setlength{\cftbeforetoctitleskip}{0em}
+% \setlength{\cftaftertoctitleskip}{0em}
 
 %%%%%%%%%%%%%%%%%%%%%%% Other packages %%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{lipsum} % Latin blabla
@@ -215,10 +218,12 @@
     \input{Sections/00_Title_Saclay}
 
 % Optional Chapters
-    %\chapter*{Dedication}
-    %\chapter*{Declaration}
-    % \chapter*{Acknowledgements}
-    % \input{Sections/0_Acknowledgements}
+    \chapter*{Dedication}
+    \input{Sections/0_Dedication}
+    \chapter*{Declaration}
+    \input{Sections/0_Declaration}
+    \chapter*{Acknowledgements}
+    \input{Sections/0_Acknowledgements}
 
 \frontmatter
 {\hypersetup{linkcolor=black}
@@ -226,6 +231,7 @@
     % \listoffigures
     % \listoftables
 }
+\newpage
 
 \mainmatter
 % Introduction
@@ -241,8 +247,8 @@
     \input{Sections/2_Theory_Models/SixS}
     % \input{Sections/2_Theory_Models/CrystalStructures}
     \input{Sections/2_Theory_Models/ComputerPrograms}
-    
 % Results BCDI
+    \addtocontents{toc}{\protect\newpage}
     \chapter{Structural evolution of Pt nanoparticles during the oxidation of ammonia}
     \input{Sections/3_Results_Nanoparticles/Introduction}
     \input{Sections/3_Results_Nanoparticles/SXRDNanoparticles}
@@ -258,8 +264,8 @@
     \input{Sections/4_Results_SingleCrystals/Conclusion}
 
 % Conclusion
-%     \chapter{Conclusion}
-%     \input{Sections/5_Conclusion/Conclusion}
+    \chapter{Conclusion}
+    \input{Sections/5_Conclusion/Conclusion}
     
 % % Bibliography
     \phantomsection

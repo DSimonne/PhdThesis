@@ -1,10 +1,10 @@
 \section{BCDI} \label{sec:BCDI}
 
-Bragg Coherent Diffraction Imaging (BCDI) \parencite{Robinson2001, Robinson2009} is a powerful technique for the non-destructive characterisation of material structure in three dimensions with unparalleled spatial and strain resolution for a scattering technique, few nanometres \parencite{Labat2015, Cherukara2018a} and \num{e-4} respectively \parencite{Newton2010, Lauraux2020}.
+Bragg Coherent Diffraction Imaging (BCDI) \parencite{Robinson2001, Pfeifer2006, Robinson2009} is a powerful technique for the non-destructive characterisation of material structure in three dimensions with unparalleled spatial and strain resolution for a scattering technique, few nanometres \parencite{Labat2015, Cherukara2018a} and \num{e-4} respectively \parencite{Newton2010, Lauraux2020}.
 
-The BCDI method is reliant on the coherence (sec. \ref{sec:Coherence}) of the light available, thus only began to be exploited at third generation synchrotron sources \parencite{Miao1999, Miao2000, Robinson2001, Labat2007, Robinson2009, Vaxelaire2010, Chamard2010, Clark2012, Clark2013, Yang2013, Xiong2014}.
+The BCDI method is reliant on the coherence (sec. \ref{sec:Coherence}) of the light available, thus only began to be exploited at third generation synchrotron sources \parencite{Miao1999, Miao2000, Robinson2001, Labat2007, Robinson2009, Vaxelaire2010, Chamard2010, Clark2012, Clark2013, Yang2013, Xiong2014}, also the subject of reviews \parencite{Nugent2010, Miao2015}.
 Since then it was developed into a characterisation tool for \textit{in situ / operando} studies of materials structure, mostly applied to three fields, electrochemistry \parencite{Ulvestad2015}, heterogeneous catalysis \parencite{Ulvestad2016}, and the structure and evolution of defects \parencite{Labat2015}.
-BCDI will gain significantly (several orders of magnitude) from further source and beamline improvements as many synchrotrons have recently completed or are in the process of an upgrade from $3^{rd}$ to $4^{th}$ generation synchrotrons.
+BCDI has gained from further source and beamline improvements as many synchrotrons have recently completed or are in the process of an upgrade from $3^{rd}$ to $4^{th}$ generation synchrotrons, which is predicted to allow the study of \textit{in-situ} dynamical phenomena \parencite{Lo2018}.
 Focusing optics that allowed the development of coherent imaging techniques by increasing the coherent flux on the probed sample are discussed in sec. \ref{sec:SIXS}.
 
 \subsection{Scattering by strained crystals}\label{sec:StrainBCDI}
@@ -165,25 +165,26 @@ The error-metric used to follow the convergence of the algorithm is simply the m
     E = \frac{\sum \big( F(\vec{q}) - \sqrt{I(\vec{q})}  \big)^2}{I(\vec{q})}
 \end{equation}
 
-The main drawback of this error-metric is that each voxel is given the same weight, in this assumption is not a problem when working near the Bragg peak, $4^{th}$ generation synchrotron that possess a higher flux make it possible to sample the signal in region further away from the Bragg peak.
+The main drawback of this error-metric is that each voxel is given the same weight, if this assumption is not a problem when working near the Bragg peak, $4^{th}$ generation synchrotron that possess a higher flux make it possible to sample the signal in region further away from the Bragg peak.
 A detailed study of the impact of trying to improve the image resolution by increasing the distance from the centre of the Bragg peak by combining simulations and experimental reconstructions would be of great interest to the community to understand the impact of the $(\vec{q}-\vec{G}).\vec{u}_k<<1$ approximation.
-\textcolor{Important}{perspectives ?}
 
 More algorithms have since then been developed that try to help converge towards the final solution without being stuck in local minima such as the hybrid input-output (HIO) and relaxed averaged alternating reflections (RAAR) algorithms, by introducing a new parameter, $\beta$, which relaxes the threshold condition in real space from the ER algorithm.
 Additional details can be found in \cite{Marchesini2003, Luke2005, Marchesini2007}.
 
-Finally, a major recent improvement of the phase retrieval algorithm is the possibility to take into account the partial coherence of the beam together with the point-spread function of the detector by using the deconvolution Richardson-Lucy algorithm \parencite{Richardson1972, Lucy1974, Fish1995, Clark2012}.
+Finally, a major recent improvement of the phase retrieval algorithm is the possibility to take into account the partial coherence of the beam \parencite{Sinha1998, Vartanyants2001, Williams2007, Whitehead2009, Nugent2010, ChenBo2012} together with the point-spread function of the detector by using the deconvolution Richardson-Lucy algorithm \parencite{Richardson1972, Lucy1974, Fish1995, Clark2012}.
 The point-spread function (PSF) must first be approximated with a 3D Gaussian, Lorentzian or pseudo-voigt shape depending on the expected coherence of the beam and is refined during the last steps of the phase retrieval when the support is already well determined, to avoid any divergence from simultaneously having to refine both the support and the PSF.
 
-Moreover, new methods such as convolution neural networks (CNN) are under study and have started to show some encouraging results, but are not yet sufficiently robust, particularly in the case of strained particles \parencite{Cherukara2018, Chan2021, Kim2021a, Wu2021a}.
+Moreover, new methods such as convolution neural networks (CNN) are under study and have started to show some encouraging results, but are not yet sufficiently robust, particularly in the case of strained particles \parencite{Cherukara2018, Shen2019, Chan2021, Kim2021a, Wu2021a}.
 
 \subsection{Resolution}
 
 The resolution of the reconstructed object, defined according to multiple parameters in the literature, is a prominent figure of merit for an imaging technique.
 The voxel size in real space $2\pi / \delta q_x, 2\pi / \delta q_y, 2\pi / \delta q_z$ depends on the extent of the collected volume in the reciprocal space $\delta q_x, \delta q_y, \delta q_z$.
-However the voxel size would only be a good criteria to determine the resolution if the signal to noise ratio of the scattering intensity was high enough in all of the probed reciprocal space volume, so that all of the frequencies in the q-space could be effectively retrieved with the FFT algorithm.
-This is the case in simulated data but is not with experimental data for which the noise starts to become important far away from the Bragg peak, keeping in mind that the intensity decreases as a function of $q^{-4}$ \parencite{Marchesini2003a} as a function of the distance from the Bragg peak, depending also on the form factor \parencite{Croset2017}.
-The community has therefore relied so far on three methods to estimate the spatial resolution of the reconstructed electronic density.
+However, the voxel size would only be a good criteria to determine the resolution if the signal to noise ratio of the scattering intensity was high enough in all of the probed reciprocal space volume, so that all of the frequencies in the q-space could be effectively retrieved with the FFT algorithm.
+A high-intensity dynamic range detector is therefore needed to correcly probe intensities at the center and extremities of the Bragg peaks \parencite{Latychevskaia2018}.
+
+This is the case in simulated data but is not with experimental data, for which the noise starts to become important far away from the Bragg peak \parencite{Bikondoa2021}, keeping in mind that the intensity decreases as a function of $q^{-4}$ \parencite{Marchesini2003a} as a function of the distance from the Bragg peak, depending also on the form factor \parencite{Croset2017}.
+The community has therefore relied so far on a few methods to estimate the spatial resolution of the reconstructed electronic density.
 
 First, the Phase Retrieval Transfer Function (PRTF) \parencite{Chapman2006} is the \textit{ratio} of the calculated structure factor $|F_k(\vec{q})|$ to the square-root of the measured intensity $\sqrt{I_k(\vec{q})}$ as a function of the resolution shell.
 The resolution shell $k$ is defined as all voxels of position $q=\sqrt{q_x^2 + q_y^2 +q_z^2}$ that satisfy the condition $q \in [q_k, q_{k+1}]$.
@@ -212,11 +213,11 @@ Concerning the resolution of the retrieved atomic displacement, \cite{Labat2015}
 Another method is to work in a similar way to the Fourier shell correlation by replacing the shells of structure factor as a function of $\vec{q}$ by shells of strain as a function of the strain magnitude and see if there is a strain threshold below which the correlation drops.
 This method is then called the strain shell correlation \parencite{Girard2020}.
 
-However, one must keep in mind that the upper threshold for the strain resolution exists based on the $(\vec{q}-\vec{G}).\vec{u}_k<<1$ condition, which mostly affect the quality of the phase retrieval, highly strained crystals are very difficult to reconstruct and represent the next milestone in Bragg coherent diffraction imaging.
+However, one must keep in mind that the upper threshold for the strain resolution exists based on the $(\vec{q}-\vec{G}).\vec{u}_k<<1$ condition, which mostly affect the quality of the phase retrieval, highly strained crystals are very difficult to reconstruct and represent the next milestone in Bragg coherent diffraction imaging, recent methods have been proposed for specific cases such as phase transitions \parencite{Wang2020}.
 One could imagine a future in which the atomistic computation of the scattering factor has been so optimised that phase retrieval algorithms would only be needed to provide an initial guess to the electronic density, and be replaced in the final steps by a simple fitting of the computed structure factor to the square root of the measured intensity.
 
 \textcolor{Important}{reverse Monte Carlo pour permettre un fit multi-paramètres
- Monte carlo \parencite{RLMcGreevy_2001}}
+ Monte carlo \parencite{RLMcGreevy2001}}
 
 \subsection{Facet analysis} \label{sec:FacetAnalysis}
 
@@ -242,7 +243,7 @@ An empiric criterion to select the voxels that correspond to the crystal's surfa
 Once the threshold for the iso-surface is selected, it is possible to visualise a contour of the object with specialised solutions such as \textit{Paraview} (\cite{Ahrens2001} - fig. \ref{fig:FacetsParaview}) or \textit{Gwaihir} (\cite{Simonne2022} - fig. \ref{fig:3D_object}).
 
 The surface is usually created by using the Marching-Cubes algorithm \parencite{Lorensen1987}, which works by assigning a scalar value to each voxel of the data (in our case the amplitude of the retrieved complex Bragg electronic density), and by selecting an isovalue which acts as a threshold, separating the regions of the volume that have values above it from those with values below it.
-Finally, by "marching" over the volume of the array, the algorithm derives a surface representation by assigning a configuration to each point in the array that depends on whether or not the 8 neighbouring cubes have values above or below the isovalue (fig. \ref{fig:MarchingCubes}).
+Finally, by \textit{marching} over the volume of the array, the algorithm derives a surface representation by assigning a configuration to each point in the array that depends on whether or not the 8 neighbouring cubes have values above or below the isovalue (fig. \ref{fig:MarchingCubes}).
 
 \begin{figure}[!htb]
     \centering
@@ -255,20 +256,20 @@ Finally, by "marching" over the volume of the array, the algorithm derives a sur
     \label{fig:MarchingCubes}
 \end{figure}
 
-The isovalue must be carefully chosen since it depends on the amplitude of the electronic density, \textit{i.e.} theoretically on the structure factor of each voxel in real space.
-
 Crystallographic facets can be identified on the surface of the reconstructed object when studying faceted objects with a highly coherent beam \parencite{Richard2018}, allowing in-depth studies of facet dependent strain and displacement.
-As described in sec. \ref{sec:Catalysis}, lattice strain and displacement are key factors in fields such as heterogeneous catalysis \parencite{Ulvestad2016, Kim2018, Fernandez2019, Abuin2019, Kim2019, Kawaguchi2019, Suzana2019, Choi2020, Passos2020,  Kim2021, Carnis2021, Dupraz2022} or electrochemistry \parencite{Ulvestad2015a, Bjorling2019, Vicente2021, Kawaguchi2021, Carnis2021b, Atlan2023}.
+Lattice strain and displacement are key information to retrieve during \textit{in-situ} and \textit{operando} experiments in fields such as heterogeneous catalysis \parencite{Ulvestad2016, Kim2018, Fernandez2019, Abuin2019, Kim2019, Kawaguchi2019, Suzana2019, Choi2020, Passos2020,  Kim2021, Carnis2021, Dupraz2022} or electrochemistry \parencite{Ulvestad2015a, Bjorling2019, Vicente2021, Kawaguchi2021, Carnis2021b, Atlan2023}.
 
 Retrieving the facets can be achieved by analysing the probability distributions of the orientations of triangle normals on a mesh representation of the object \parencite{Grothausmann2012}.
 This method is used in the \textit{Paraview} plugin \textit{FacetAnalyser} \parencite{Grothausmann2015}, and yields a list of features detailed in tab. \ref{tab:facets}.
 The probability of each surface voxel to belong to a facet is illustrated in fig. \ref{fig:FacetsParaview}.
-The orientation of each facet is retrieved by analysing the angles between the normal of each facet and a reference direction such as the [111] direction.
+The orientation of each facet is retrieved by analysing the angles between the normal of each facet, also returned by the algorithm, and a reference direction.
 
 In the case of highly resolved measurement, another approach could be inspired from  image processing and convolutional neural networks in which 3D convolutions kernels could help identify the object surface \parencite{RaschkaMirjalili2019}.
 By tuning the kernel size and values, it is possible to be sensitive to boundaries in specific directions.
 
-In this example, the FacetAnalyser plugin is used (fig. \ref{fig:FacetsParaview}). Note that the edges and corners, sites of particular interest for heterogeneous catalysis \parencite{Taylor1925}, are also retrieved together as voxels not belonging to any facets.
+In this example, the FacetAnalyser plugin is used (fig. \ref{fig:FacetsParaview}).
+Note that the edges and corners of the reconstructed particle are also retrieved together as the voxels not belonging to any facets.
+The contribution from atomic edges and corners to those voxels, sites of particular interest for heterogeneous catalysis \parencite{Taylor1925}, depends on the spatial resolution of the experiment.
 The result depends on the algorithm input parameters, such as the minimum relative facet size, the angular acceptance for the facet normals, \textit{etc.}
 
 \begin{figure}

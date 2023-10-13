@@ -1,4 +1,4 @@
-\section{Average behaviour of Pt nanoparticles studied by surface x-ray diffraction}
+\section{Collective behaviour of Pt nanoparticles studied by surface x-ray diffraction}
 
 % Compare shape with wulff construction and other measurements
 % Get particle average size from epitaxy
@@ -9,14 +9,14 @@
 
 \subsection{Experimental setup for SXRD experiments in the vertical geometry}\label{sec:SXRDSetupV}
 
-The MED diffractometer detailed in sec. \ref{sec:MED} was used in a vertical geometry (fig. \ref{fig:Diffractometer}), the incident angle $\mu$ was fixed to \ang{0.3}, so that the beam illuminates the entire sample surface, at an incoming energy of \qty{18.45}{\keV}, at which the photon flux is the highest at the SixS beamline.
+The MED diffractometer detailed in sec. \ref{sec:MED} was used in a vertical geometry (fig. \ref{fig:Diffractometer}), the incident angle $\mu$ was fixed to \ang{0.3}, so that the beam illuminates the entire sample surface, at an incoming energy of \qty{18.44}{\keV}, at which the photon flux is the highest at the SixS beamline.
 % In-plane measurements were performed by rotating the in-plane sample angle $\omega$ together with the in-plane detector angle $\delta$.
 % Out-of-plane measurements were performed by rotating the in-plane sample angle $\omega$ together with the in-plane and out-of-plane detector angles $\delta$ and $\gamma$, the incoming angle $\mu$ needing to stay at a constant low value to keep the grazing incidence of the beam.
 
 In the vertical configuration, the sample must be exactly parallel to the plane drawn by the incoming beam and the vertical axis so that rotations of the sample do not change the orientation of the sample plane while measuring in-plane reciprocal space maps.
 The alignment of the sample was performed in two consecutive steps, first the out-of-plane sample position was adjusted by using the direct beam, secondly any possible tilt of the sample surface was corrected by recording the intensity of the \textit{reflected} beam as a function of $u$ (when $\omega=\ang{0}$) or $v$ (when $\omega=\ang{90}$) angles of the hexapod (fig. \ref{fig:Diffractometer}).
 
-\subsection{Epitaxial relationship between \ce{Al_2O_3} and Pt nanoparticles under different atmospheres and temperature}
+\subsection{Epitaxial relationship under different atmospheres and temperature}
 
 To ensure that the \ce{Al_2O_3} supported particles have the expected Pt[111]||Al$_2$O$_3$[0001] epitaxy relation with the substrate, the scattering intensity in the sample plane was measured.
 
@@ -87,7 +87,7 @@ From the average position of these peaks in q-space is also computed the in-plan
         }
     \end{minipage}%
     \caption{
-        Scattering angle $\theta$, scattering vector magnitude $q$ and intensity of the scattered waves for different Bragg peaks as a function of the increasing scattering angle, computed for an energy of \qty{18.45}{\keV} using eq. \ref{eq:Bragglaw} and eq. \ref{eq:Fcrystal}.
+        Scattering angle $\theta$, scattering vector magnitude $q$ and intensity of the scattered waves for different Bragg peaks as a function of the increasing scattering angle, computed for an energy of \qty{18.44}{\keV} using eq. \ref{eq:Bragglaw} and eq. \ref{eq:Fcrystal}.
     }
     \label{tab:Reflections}
 \end{table}
@@ -128,10 +128,11 @@ The peak at $q_z\approx1.58$ corresponds to the (2$\bar{1}$3) Bragg peak from th
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.29\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR111_K_vmax100_edited.pdf}
-    \includegraphics[width=0.7\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR_300_edited.pdf}
+    \includegraphics[height=7cm]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR111_K_vmax100_edited.pdf}
+    \includegraphics[height=7cm]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR_300_edited.pdf}
     \caption{
         Left: Large out-of-plane reciprocal space maps in which a crystal truncation rod signal in the [111] direction can be identified, as well as weaker CTR in other directions passing through the Bragg peaks.
+        The ($\vec{q}_x$, $\vec{q}_y$) plane was rotated around $\vec{q}_z$ to highlight the presence of signals from facets on the particles other than the (111) facet.
         Right: Crystal truncation rod signals in the $[111]$ direction as a function of $q_z$, presented for different atmospheres, at \qty{300}{\degreeCelsius}.
     }
     \label{fig:2DCTR111Particles}
@@ -216,6 +217,7 @@ There is an increase of scattered intensity in fig. \ref{fig:FacetSignal} (i) at
 The low signal-to-background ratio in that region makes it challenging to be certain of the existence of this CTR.
 
 Moreover, the introduction of oxygen induces a global shift of the facet signals towards higher $q_z$ values which can be linked to a homogeneous compressive lattice strain in the [111] direction, shifting the position of the Bragg peak.
+\textcolor{Important}{Distorted lattice means not cubic anymore but ?, check that}
 The position of the [$0\bar{1}1$]-oriented CTR, whose direction is perpendicular to the [111] direction, follows that shift in $q_z$, but its intensity vanishes after having more than \qty{1}{\ml\per\min} of ammonia in the reactor cell.
 A qualitative evolution of the strain in the [111] direction can be obtained by looking at the remaining CTR position in $q_z$ (fig. \ref{fig:FacetSignal} - g\&i).
 The gradual increase of the oxygen partial pressure in the cell is accompanied by two additional changes of strain (i) from compressive to tensile strain when increasing the oxygen partial pressure from \qty{5}{\milli\bar} to \qty{10}{\milli\bar} in the reactor and (ii) from tensile to compressive strain when increasing the oxygen partial pressure from \qty{20}{\milli\bar} to \qty{80}{\milli\bar}, the reference position being taken under argon and ammonia atmosphere.
