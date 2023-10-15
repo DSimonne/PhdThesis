@@ -175,13 +175,14 @@ Finally, a major recent improvement of the phase retrieval algorithm is the poss
 The point-spread function (PSF) must first be approximated with a 3D Gaussian, Lorentzian or pseudo-voigt shape depending on the expected coherence of the beam and is refined during the last steps of the phase retrieval when the support is already well determined, to avoid any divergence from simultaneously having to refine both the support and the PSF.
 
 Moreover, new methods such as convolution neural networks (CNN) are under study and have started to show some encouraging results, but are not yet sufficiently robust, particularly in the case of strained particles \parencite{Cherukara2018, Shen2019, Chan2021, Kim2021a, Wu2021a}.
+%Shifting the use of convolutional kernels to retrieve the phase of the scattered x-rays directly in reciprocal space rather than the Bragg electronic density could also be one way phase obparticle
 
 \subsection{Resolution}
 
 The resolution of the reconstructed object, defined according to multiple parameters in the literature, is a prominent figure of merit for an imaging technique.
 The voxel size in real space $2\pi / \delta q_x, 2\pi / \delta q_y, 2\pi / \delta q_z$ depends on the extent of the collected volume in the reciprocal space $\delta q_x, \delta q_y, \delta q_z$.
 However, the voxel size would only be a good criteria to determine the resolution if the signal to noise ratio of the scattering intensity was high enough in all of the probed reciprocal space volume, so that all of the frequencies in the q-space could be effectively retrieved with the FFT algorithm.
-A high-intensity dynamic range detector is therefore needed to correcly probe intensities at the center and extremities of the Bragg peaks \parencite{Latychevskaia2018}.
+A high-intensity dynamic range detector is therefore needed to correctly probe intensities at the center and extremities of the Bragg peaks \parencite{Latychevskaia2018}.
 
 This is the case in simulated data but is not with experimental data, for which the noise starts to become important far away from the Bragg peak \parencite{Bikondoa2021}, keeping in mind that the intensity decreases as a function of $q^{-4}$ \parencite{Marchesini2003a} as a function of the distance from the Bragg peak, depending also on the form factor \parencite{Croset2017}.
 The community has therefore relied so far on a few methods to estimate the spatial resolution of the reconstructed electronic density.
@@ -209,15 +210,21 @@ Thus, for large facets, the rod intensity will be much more intense and increase
 In real space, the spatial resolution can be quantified by differentiating line profiles of electron density amplitude across the object-air interface and fitting these with a Gaussian profile.
 The average 3D spatial resolution is taken as 2$\sigma$ of the fitted Gaussian \parencite{Hofmann2020}.
 
+One of the challenges encountered in Bragg coherent diffractive imaging is establishing a single, meaningful criterion for the spatial resolution.
+Its anisotropic nature further complicates this task, as commonly used criteria such as the phase retrieval transfer function (PRTF) or Fourier shell correlation (FSC) are isotropic.
+To address this, a new method for resolution assessment when aiming at the analysis specific facets in real space could involve examining the extension of the corresponding crystal truncation rods in reciprocal space, before the signal becomes overwhelmed by counting noise from the lack of scattered photons.
+In this approach, the resolution of the measurement would not rely on the quality of the phase retrieval or the type of algorithms utilized, but solely on the quality of the measurement itself.
+Consequently, the significance of the sample's shape would also be emphasized.
+For instance, a large planar particle featuring a sizable (111) top facet would yield a more readily resolvable signal in the (111) direction compared to a smaller, spherical particle with a diminutive (111) top facet.
+
 Concerning the resolution of the retrieved atomic displacement, \cite{Labat2015} have demonstrated a displacement field accuracy of few pm along preferential directions with BCDI by comparing with simulated displacement fields.
 Another method is to work in a similar way to the Fourier shell correlation by replacing the shells of structure factor as a function of $\vec{q}$ by shells of strain as a function of the strain magnitude and see if there is a strain threshold below which the correlation drops.
 This method is then called the strain shell correlation \parencite{Girard2020}.
 
-However, one must keep in mind that the upper threshold for the strain resolution exists based on the $(\vec{q}-\vec{G}).\vec{u}_k<<1$ condition, which mostly affect the quality of the phase retrieval, highly strained crystals are very difficult to reconstruct and represent the next milestone in Bragg coherent diffraction imaging, recent methods have been proposed for specific cases such as phase transitions \parencite{Wang2020}.
+However, one must keep in mind that the upper threshold for the strain resolution exists based on the $(\vec{q}-\vec{G}).\vec{u}_k<<1$ condition, which mostly affect the quality of the phase retrieval.
+Highly strained crystals are very difficult to reconstruct and represent the next milestone in Bragg coherent diffraction imaging, recent methods have been proposed for specific cases such as phase transitions \parencite{Wang2020}.
 One could imagine a future in which the atomistic computation of the scattering factor has been so optimised that phase retrieval algorithms would only be needed to provide an initial guess to the electronic density, and be replaced in the final steps by a simple fitting of the computed structure factor to the square root of the measured intensity.
-
-\textcolor{Important}{reverse Monte Carlo pour permettre un fit multi-paramètres
- Monte carlo \parencite{RLMcGreevy2001}}
+A reverse Monte-Carlo method used already for the simulation of powder diffractogram could also be used \parencite{RLMcGreevy2001}.
 
 \subsection{Facet analysis} \label{sec:FacetAnalysis}
 
@@ -242,8 +249,8 @@ An empiric criterion to select the voxels that correspond to the crystal's surfa
 
 Once the threshold for the iso-surface is selected, it is possible to visualise a contour of the object with specialised solutions such as \textit{Paraview} (\cite{Ahrens2001} - fig. \ref{fig:FacetsParaview}) or \textit{Gwaihir} (\cite{Simonne2022} - fig. \ref{fig:3D_object}).
 
-The surface is usually created by using the Marching-Cubes algorithm \parencite{Lorensen1987}, which works by assigning a scalar value to each voxel of the data (in our case the amplitude of the retrieved complex Bragg electronic density), and by selecting an isovalue which acts as a threshold, separating the regions of the volume that have values above it from those with values below it.
-Finally, by \textit{marching} over the volume of the array, the algorithm derives a surface representation by assigning a configuration to each point in the array that depends on whether or not the 8 neighbouring cubes have values above or below the isovalue (fig. \ref{fig:MarchingCubes}).
+The surface is usually created by using the Marching-Cubes algorithm \parencite{Lorensen1987}, which works by assigning a scalar value to each voxel of the data (in our case the amplitude of the retrieved complex Bragg electronic density), and by selecting an iso-value which acts as a threshold, separating the regions of the volume that have values above it from those with values below it.
+Finally, by \textit{marching} over the volume of the array, the algorithm derives a surface representation by assigning a configuration to each point in the array that depends on whether or not the 8 neighbouring cubes have values above or below the iso-value (fig. \ref{fig:MarchingCubes}).
 
 \begin{figure}[!htb]
     \centering

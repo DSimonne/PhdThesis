@@ -2535,6 +2535,49 @@
       \field{pages}{1121\bibrangedash 1124}
       \range{pages}{4}
     \endentry
+    \entry{CalleVallejo2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4ff0c4cae6fe43bad13c0bfd2bdea011}{%
+           family={Calle-Vallejo},
+           familyi={C\bibinithyphendelim V\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4ff0c4cae6fe43bad13c0bfd2bdea011}
+      \strng{fullhash}{4ff0c4cae6fe43bad13c0bfd2bdea011}
+      \strng{bibnamehash}{4ff0c4cae6fe43bad13c0bfd2bdea011}
+      \strng{authorbibnamehash}{4ff0c4cae6fe43bad13c0bfd2bdea011}
+      \strng{authornamehash}{4ff0c4cae6fe43bad13c0bfd2bdea011}
+      \strng{authorfullhash}{4ff0c4cae6fe43bad13c0bfd2bdea011}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The quest for enhanced electrocatalysts can be boosted by descriptor-based analyses. Because adsorption energies are the most common descriptors, electrocatalyst design is largely based on brute-force routines that comb materials databases until an energetic criterion is verified. In this review, it is shown that an alternative is provided by generalized coordination numbers (denoted by CN¯\$\overline {{\rm{CN}}} \$ or GCN), an inexpensive geometric descriptor for strained and unstrained transition metals and some alloys. CN¯\$\overline {{\rm{CN}}} \$ captures trends in adsorption energies on both extended surfaces and nanoparticles and is used to elaborate structure-sensitive electrocatalytic activity plots and selectivity maps. Importantly, CN¯\$\overline {{\rm{CN}}} \$ outlines the geometric configuration of the active sites, thereby enabling an atom-by-atom design, which is not possible using energetic descriptors. Specific examples for various adsorbates (e.g., *OH, *OOH, *CO, and *H), metals (e.g., Pt and Cu), and electrocatalytic reactions (e.g., O2 reduction, H2 evolution, CO oxidation, and reduction) are presented, and comparisons are made against other descriptors.}
+      \field{journaltitle}{Advanced Science}
+      \field{number}{20}
+      \field{title}{The ABC of Generalized Coordination Numbers and Their Use as a Descriptor in Electrocatalysis}
+      \field{volume}{10}
+      \field{year}{2023}
+      \field{pages}{2207644}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1002/advs.202207644
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/advs.202207644
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/advs.202207644
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/advs.202207644
+      \endverb
+      \keyw{computational electrocatalysis,coordination numbers,coordination-activity plots,descriptor-based analysis,selectivity maps,structural sensitivity}
+    \endentry
     \entry{CalleVallejo2018}{article}{}
       \name{author}{2}{ul=2}{%
         {{un=0,uniquepart=base,hash=4ff0c4cae6fe43bad13c0bfd2bdea011}{%
@@ -3958,6 +4001,144 @@
       \verb 10.1103/PhysRevB.86.235401
       \endverb
     \endentry
+    \entry{Chen2018}{article}{}
+      \name{author}{17}{}{%
+        {{un=1,uniquepart=given,hash=7fedfedcf223946f2de36fd364d13ced}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jingguang\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=5a8b82e51b6439ff9b317462a5af325c}{%
+           family={Crooks},
+           familyi={C\bibinitperiod},
+           given={Richard\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5de14bd24d3019c24e4b14f5767aaff}{%
+           family={Seefeldt},
+           familyi={S\bibinitperiod},
+           given={Lance\bibnamedelima C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b5e4efc5a2abe3f4b43bb2e64114735}{%
+           family={Bren},
+           familyi={B\bibinitperiod},
+           given={Kara\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=471a1d0940c65baabf99325131aae928}{%
+           family={Bullock},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi Morris},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23c8d41a30aebd227e7315e843b6f2ff}{%
+           family={Darensbourg},
+           familyi={D\bibinitperiod},
+           given={Marcetta\bibnamedelima Y.},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c03a90b56972cc1fba9ad8f74ef1dbf8}{%
+           family={Holland},
+           familyi={H\bibinitperiod},
+           given={Patrick\bibnamedelima L.},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e889e040ae9c87c589fd2e983909d48b}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=068d114ac457b30e74f61d527dbd3a2e}{%
+           family={Janik},
+           familyi={J\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab3c6e7eed7c826ec173efd33baa9277}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Anne\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16823159ff6101c7729a2382912649a9}{%
+           family={Kanatzidis},
+           familyi={K\bibinitperiod},
+           given={Mercouri\bibnamedelima G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79bac2ac6f8c558268a9b92ed95a7e88}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ea0249c7361598d7185c41d9cbcf545}{%
+           family={Lancaster},
+           familyi={L\bibinitperiod},
+           given={Kyle\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1917983e9ae6437e03b80186934b1eef}{%
+           family={Lymar},
+           familyi={L\bibinitperiod},
+           given={Sergei\bibnamedelima V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c9905f84866dd4c0b32167d8d0fbf42}{%
+           family={Pfromm},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=049e55461cdb18dfba63e0b8d1aadd02}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5082342914aef5e3b7db2ea7b42d0555}{%
+           family={Schrock},
+           familyi={S\bibinitperiod},
+           given={Richard\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{efa1b9511886df2266fdc7c728cdf590}
+      \strng{fullhash}{fab38ba79c33c7db31a99287d15d5e7b}
+      \strng{bibnamehash}{efa1b9511886df2266fdc7c728cdf590}
+      \strng{authorbibnamehash}{efa1b9511886df2266fdc7c728cdf590}
+      \strng{authornamehash}{efa1b9511886df2266fdc7c728cdf590}
+      \strng{authorfullhash}{fab38ba79c33c7db31a99287d15d5e7b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{How much carbon does it take to make nitric acid? The counterintuitive answer nowadays is quite a lot. Nitric acid is manufactured by ammonia oxidation, and all the hydrogen to make ammonia via the Haber-Bosch process comes from methane. That's without even accounting for the fossil fuels burned to power the process. Chen et al. review research prospects for more sustainable routes to nitrogen commodity chemicals, considering developments in enzymatic, homogeneous, and heterogeneous catalysis, as well as electrochemical, photochemical, and plasma-based approaches. Science, this issue p. eaar6611 Nitrogen is fundamental to all of life and many industrial processes. The interchange of nitrogen oxidation states in the industrial production of ammonia, nitric acid, and other commodity chemicals is largely powered by fossil fuels. A key goal of contemporary research in the field of nitrogen chemistry is to minimize the use of fossil fuels by developing more efficient heterogeneous, homogeneous, photo-, and electrocatalytic processes or by adapting the enzymatic processes underlying the natural nitrogen cycle. These approaches, as well as the challenges involved, are discussed in this Review.}
+      \field{journaltitle}{Science}
+      \field{number}{6391}
+      \field{title}{Beyond fossil fuel–driven nitrogen transformations}
+      \field{volume}{360}
+      \field{year}{2018}
+      \field{pages}{eaar6611}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/science.aar6611
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.aar6611
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.aar6611
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.aar6611
+      \endverb
+    \endentry
     \entry{Chen2012}{article}{}
       \name{author}{5}{}{%
         {{un=1,uniquepart=given,hash=379fbed32a17604ea30a1604a75cc5db}{%
@@ -5130,6 +5311,47 @@
       \verb 10.1016/S0039-6028(00)00189-8
       \endverb
       \keyw{auger electron spectroscopy,carbon monoxide,catalysis,gas interfaces,oxidation,platinum,reaction,solid,surface chemical,thermal desorption spectroscopy}
+    \endentry
+    \entry{Doornkamp2000}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7e43a127f9153612ea930a0b6e09fd4c}{%
+           family={Doornkamp},
+           familyi={D\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b608c883dc37752f2a9ee6bece6b9a4d}{%
+           family={Ponec},
+           familyi={P\bibinitperiod},
+           given={V},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{398fe6ae88e959ce66dc60b59809ef17}
+      \strng{fullhash}{234ac4ae48685695885e1d8c31474198}
+      \strng{bibnamehash}{234ac4ae48685695885e1d8c31474198}
+      \strng{authorbibnamehash}{234ac4ae48685695885e1d8c31474198}
+      \strng{authornamehash}{398fe6ae88e959ce66dc60b59809ef17}
+      \strng{authorfullhash}{234ac4ae48685695885e1d8c31474198}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This review deals with the mechanism that is arbitrarily called below the Mars and Van Krevelen (MvK) mechanism. The characteristic feature of this mechanism is that some products of the reaction leave the solid catalysts’ surface with one or more constituents of the catalysts’ lattice. First in this review, the position of this mechanism amongst other ways of catalytic activation will be defined. Then, the experimental evidence for this mechanism will be presented. Some less common reactions running with this mechanism will be discussed in more detail, among them the deoxygenation of nitrocompounds and carboxylic acids. The participation of the lattice components (O, S, Cl, H) in the formation of products leads to a relation of the catalytic activity with the thermodynamic parameters characterizing the catalysts lattice. A proper use of such quantified relation will be also discussed.}
+      \field{issn}{1381-1169}
+      \field{journaltitle}{Journal of Molecular Catalysis A: Chemical}
+      \field{number}{1}
+      \field{title}{The universal character of the Mars and Van Krevelen mechanism}
+      \field{volume}{162}
+      \field{year}{2000}
+      \field{pages}{19\bibrangedash 32}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S1381-1169(00)00319-8
+      \endverb
+      \keyw{Mars and Van Krevelen mechanism,Catalytic activation,Deoxygenation of nitrocompounds,Deoxygenation of carboxylic acids,Oxygen exchange reaction}
     \endentry
     \entry{Drnec2014}{article}{}
       \name{author}{5}{}{%
@@ -8835,9 +9057,6 @@
       \range{pages}{14}
       \verb{doi}
       \verb 10.1016/0378-5963(82)90106-4
-      \endverb
-      \verb{file}
-      \verb :home/david/Documents/PhD/Papers/Pt_AR/heinz1982_Pt100_oxygen.pdf:pdf
       \endverb
     \endentry
     \entry{Hejral2018}{article}{}
@@ -16351,6 +16570,25 @@
       \verb https://www.sciencedirect.com/science/article/pii/0021951775902493
       \endverb
     \endentry
+    \entry{PtRhGauze}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labeltitlesource}{title}
+      \field{title}{Platinum / Rhodium Catalyst Gauzes}
+      \field{urlday}{10}
+      \field{urlmonth}{9}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.ravindraheraeus.com/platinum_rhodium.html
+      \endverb
+      \verb{url}
+      \verb http://www.ravindraheraeus.com/platinum_rhodium.html
+      \endverb
+    \endentry
     \entry{Ponchut2011}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=71b1e8e31bfdeb80ab060e9ae90e531d}{%
@@ -16551,6 +16789,58 @@
       \range{pages}{8}
       \verb{doi}
       \verb 10.1007/s11244-018-0948-8
+      \endverb
+    \endentry
+    \entry{Rafiqul2005}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=d4ad9376f1c2ff6573785d919c07b928}{%
+           family={Rafiqul},
+           familyi={R\bibinitperiod},
+           given={Islam},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db94d8210f8d943f3fc6c886c9db6fa6}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e568a9f4eff7b3676ecc7c53341fa008}{%
+           family={Lehmann},
+           familyi={L\bibinitperiod},
+           given={Bianca},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1e118198fad7fa1104021fcf9f31824}{%
+           family={Voss},
+           familyi={V\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ab2368ca44d4536b10505919064d6c5d}
+      \strng{fullhash}{882c3c714ec8d15736c7b32f904c3792}
+      \strng{bibnamehash}{ab2368ca44d4536b10505919064d6c5d}
+      \strng{authorbibnamehash}{ab2368ca44d4536b10505919064d6c5d}
+      \strng{authornamehash}{ab2368ca44d4536b10505919064d6c5d}
+      \strng{authorfullhash}{882c3c714ec8d15736c7b32f904c3792}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The paper discusses the energy consumption and energy saving potential for a major energy-intensive product in the chemical industry-ammonia, based on technologies currently in use and possible process improvements. The paper consists of four parts. In the first part, mainly references to various ammonia production technologies are given. Energy consumption, emissions and saving potentials are discussed in the second part. Thereby, the situation in Europe, the US and India is highlighted and various data sources are compared. In the third part of the paper, a novel approach for modeling energy efficiency improvements is described that accounts for uncertainties and unobserved heterogeneity in the production processes. Besides new investments, revamping investments are also included in the modeling and the development of the production stock is accounted for. Finally, in the fourth part, this approach is applied to the modeling of energy efficiency improvements and CO2 emission reductions in ammonia production. Thereby, considerable improvements in specific energy use and CO2 emissions are found in the reference scenario, yet under the assumption of high oil and gas prices, a partial switch to coal based technologies is expected which lowers notably the CO2 efficiency. Introduction of a CO2 penalty under a certificate trading or other regime is on contrary found to foster energy efficiency and the use of low carbon technologies.}
+      \field{issn}{0360-5442}
+      \field{journaltitle}{Energy}
+      \field{number}{13}
+      \field{title}{Energy efficiency improvements in ammonia production—perspectives and uncertainties}
+      \field{volume}{30}
+      \field{year}{2005}
+      \field{pages}{2487\bibrangedash 2504}
+      \range{pages}{18}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.energy.2004.12.004
       \endverb
     \endentry
     \entry{Rafti2007}{article}{}
@@ -17810,6 +18100,89 @@
       \verb 10.1007/BF00331749
       \endverb
     \endentry
+    \entry{Ruan2022}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=6b7115817c3f28e76d1539c8a98d837d}{%
+           family={Ruan},
+           familyi={R\bibinitperiod},
+           given={Chongyan},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d859cacc75a07054c05129919162ccdd}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xijun},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5515d49476b1bfd4e6216170f6c656e0}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chaojie},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55ba0ca5dd986fe378ce3c542ad60862}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Lirong},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1df2b6f67a5a1fe41f9bc9df027cdb34}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62ed21c3b6f25fa222fb3040652750a9}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=118a1208cb0f7e6e7b42b9a4c3c11a4e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiaoyan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75e27f7cd8e3cb05ab09036635ad9066}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Fanxing},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd26424dac955ebe267f1a2f0325d9f3}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaodong},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d78aa5c776d53c25207ed6a48ab41417}
+      \strng{fullhash}{fcda52591eb4b9198cebdbee13b7913b}
+      \strng{bibnamehash}{d78aa5c776d53c25207ed6a48ab41417}
+      \strng{authorbibnamehash}{d78aa5c776d53c25207ed6a48ab41417}
+      \strng{authornamehash}{d78aa5c776d53c25207ed6a48ab41417}
+      \strng{authorfullhash}{fcda52591eb4b9198cebdbee13b7913b}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Selective oxidation of ammonia to nitric oxide over platinum-group metal alloy gauzes is the crucial step for nitric acid production, a century-old yet greenhouse gas and capital intensive process. Therefore, developing alternative ammonia oxidation technologies with low environmental impacts and reduced catalyst cost are of significant importance. Herein, we propose and demonstrate a chemical looping ammonia oxidation catalyst and process to replace the costly noble metal catalysts and to reduce greenhouse gas emission. The proposed process exhibit near complete NH$_3$ conversion and exceptional NO selectivity with negligible N$_2$O production, using nonprecious V2O5 redox catalyst at 650 oC. Operando spectroscopy techniques and density functional theory calculations point towards a modified, temporally separated Mars-van Krevelen mechanism featuring a reversible V5+/V4+ redox cycle. The V{\thinspace}={\thinspace}O sites are suggested to be the catalytically active center leading to the formation of the oxidation products. Meanwhile, both V{\thinspace}={\thinspace}O and doubly coordinated oxygen participate in the hydrogen transfer process. The outstanding performance originates from the low activation energies for the successive hydrogen abstraction, facile NO formation as well as the easy regeneration of V{\thinspace}={\thinspace}O species. Our results highlight a transformational process in extending the chemical looping strategy to producing base chemicals in a sustainable and cost-effective manner.}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Selective catalytic oxidation of ammonia to nitric oxide via chemical looping}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{pages}{718}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-022-28370-0
+      \endverb
+    \endentry
     \entry{Doniach1970}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2dca086839a50d8fe012027b1e0dbe82}{%
@@ -18437,6 +18810,40 @@
       \verb https://doi.org/10.1002/anie.201410738
       \endverb
       \keyw{heterogeneous catalysis,reaction kinetics,surface chemistry}
+    \endentry
+    \entry{Schmid2010}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6f896fe07b4317cf0baed5fdcd9b0aa}{%
+           family={SCHMID},
+           familyi={S\bibinitperiod},
+           given={PETER\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{d6f896fe07b4317cf0baed5fdcd9b0aa}
+      \strng{fullhash}{d6f896fe07b4317cf0baed5fdcd9b0aa}
+      \strng{bibnamehash}{d6f896fe07b4317cf0baed5fdcd9b0aa}
+      \strng{authorbibnamehash}{d6f896fe07b4317cf0baed5fdcd9b0aa}
+      \strng{authornamehash}{d6f896fe07b4317cf0baed5fdcd9b0aa}
+      \strng{authorfullhash}{d6f896fe07b4317cf0baed5fdcd9b0aa}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Fluid Mechanics}
+      \field{title}{Dynamic mode decomposition of numerical and experimental data}
+      \field{volume}{656}
+      \field{year}{2010}
+      \field{pages}{5\bibrangedash 28}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1017/S0022112010001217
+      \endverb
     \endentry
     \entry{Schroer2008}{article}{}
       \name{author}{8}{}{%
@@ -19089,6 +19496,71 @@
       \verb 10.1039/c5nr02529j
       \endverb
     \endentry
+    \entry{Sobczyk2004}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=a4d0075347db979a5667bd6bb6244c68}{%
+           family={Sobczyk},
+           familyi={S\bibinitperiod},
+           given={D.P},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=597a8c0a070ed099b8e6a9e4ce917775}{%
+           family={{van Grondelle}},
+           familyi={v\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2789c6af67ee567c57a914b2fddf2ad}{%
+           family={Thüne},
+           familyi={T\bibinitperiod},
+           given={P.C},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e17e9caa939d213d18e50fcdbc3d583}{%
+           family={Kieft},
+           familyi={K\bibinitperiod},
+           given={I.E},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee1e7bf20f5f32446414557962d22b54}{%
+           family={{de Jong}},
+           familyi={d\bibinitperiod},
+           given={A.M},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24a6ef357034e76f323d6940c9780502}{%
+           family={{van Santen}},
+           familyi={v\bibinitperiod},
+           given={R.A},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{83fccf8d62026bb1f0c643ad253d529c}
+      \strng{fullhash}{bc4763d17062b7c852f2dd77ed6c4d74}
+      \strng{bibnamehash}{83fccf8d62026bb1f0c643ad253d529c}
+      \strng{authorbibnamehash}{83fccf8d62026bb1f0c643ad253d529c}
+      \strng{authornamehash}{83fccf8d62026bb1f0c643ad253d529c}
+      \strng{authorfullhash}{bc4763d17062b7c852f2dd77ed6c4d74}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The low-temperature deactivation of a platinum sponge catalyst used for ammonia oxidation was studied with the positron emission profiling technique (PEP). Evidence that irreversibly adsorbed nitrogen species deactivate the catalyst is presented. Two reactivity regimes are distinguished. Initial fast N2 production at low surface coverage and a relatively slow N2 and N2O production at steady state when the surface is fully covered. The fast deactivation of the platinum sponge is mainly caused by adsorbed nitrogen species. The formation of PtO is relatively slow compared to surface nitride. The fast initial deactivation of platinum sponge by nitrogen and oxygen species is greatly retarded at temperatures above 388 K. Temperature-programmed reaction together with temperature-programmed desorption experiments show reactivation of the catalyst above this temperature.}
+      \field{issn}{0021-9517}
+      \field{journaltitle}{Journal of Catalysis}
+      \field{number}{2}
+      \field{title}{Low-temperature ammonia oxidation on platinum sponge studied with positron emission profiling}
+      \field{volume}{225}
+      \field{year}{2004}
+      \field{pages}{466\bibrangedash 478}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jcat.2004.04.035
+      \endverb
+      \keyw{NH,O,Positron emission profiling,Ammonia oxidation,Deactivation,Platinum,Platinum sponge,Low temperature}
+    \endentry
     \entry{Solomon2007}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=40d9f68430b9b69a339eb5328064cd43}{%
@@ -19451,6 +19923,112 @@
       \verb https://doi.org/10.1002/cctc.201900971
       \endverb
       \keyw{Machine learning,Catalysis informatics,Methane oxidative coupling,Water gas shift,CO oxidation}
+    \endentry
+    \entry{Svintsitskiy2020}{article}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=1e06d3f59aa25bfaaf9c7abd4ba4ef7a}{%
+           family={Svintsitskiy},
+           familyi={S\bibinitperiod},
+           given={Dmitry\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd9e23b09fae2d2df3f8c96845633372}{%
+           family={Kibis},
+           familyi={K\bibinitperiod},
+           given={Lidiya\bibnamedelima S.},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7eea4364cdd9cc72acf9cecacc66dce}{%
+           family={Stadnichenko},
+           familyi={S\bibinitperiod},
+           given={Andrey\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78e19b89d0119504d4dfe7aad5e4d081}{%
+           family={Slavinskaya},
+           familyi={S\bibinitperiod},
+           given={Elena\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecb85a3dc5ecd1b7b34a5817c936e65d}{%
+           family={Romanenko},
+           familyi={R\bibinitperiod},
+           given={Anatoly\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3be76ad8e5564b95d1e427133e29fdde}{%
+           family={Fedorova},
+           familyi={F\bibinitperiod},
+           given={Elizaveta\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4f39e63bce52b7c060fdf485568fa5c}{%
+           family={Stonkus},
+           familyi={S\bibinitperiod},
+           given={Olga\bibnamedelima A.},
+           giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c4c7ec2c57999f078ca521ebb6b20bf}{%
+           family={Doronkin},
+           familyi={D\bibinitperiod},
+           given={Dmitry\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4893471611ced53a544373d2963fbe35}{%
+           family={Marchuk},
+           familyi={M\bibinitperiod},
+           given={Vasyl},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46730f19fddac458df00270aa55075ad}{%
+           family={Zimina},
+           familyi={Z\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9053eb21ba9d0a405e4afd718171b182}{%
+           family={Casapu},
+           familyi={C\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efe88c2161a3b11c6d1ddd416769155d}{%
+           family={Grunwaldt},
+           familyi={G\bibinitperiod},
+           given={Jan-Dierk},
+           giveni={J\bibinithyphendelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aec99b4167f70a71c65296100c7105e1}{%
+           family={Boronin},
+           familyi={B\bibinitperiod},
+           given={Andrei\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1a9c6d632671f00ed1e8572db65979f7}
+      \strng{fullhash}{b4a97851238a76a92d0f9eed5303d1cc}
+      \strng{bibnamehash}{1a9c6d632671f00ed1e8572db65979f7}
+      \strng{authorbibnamehash}{1a9c6d632671f00ed1e8572db65979f7}
+      \strng{authornamehash}{1a9c6d632671f00ed1e8572db65979f7}
+      \strng{authorfullhash}{b4a97851238a76a92d0f9eed5303d1cc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Two series of Pt/γ-Al2O3 catalysts for low temperature NH3 oxidation were prepared using Pt(NO3)4 and H2PtCl6 precursors. Using both precursors results in the formation of small Pt particles (d<1.5 nm), however, Cl-containing Pt precursors give a higher fraction of highly dispersed Pt species. Such species show high stability against thermal or H2 treatment probably due to the presence of a substantial amount of chlorine on the surface. Treatment of the samples prepared from Pt(NO3)4 with H2 leads to the formation of metallic Pt nanoparticles accompanied by the improvement of catalytic activity in NH3 oxidation at T<200 °C. The main products of ammonia oxidation at temperatures below 250 °C were molecular nitrogen and nitrous oxide with the N2 selectivity reaching 80 \%. Operando XANES/EXAFS revealed that even after H2 pretreatment at least 40 \% of Pt surface remains in oxidized state under reaction conditions resulting in the appearance of N2O as a by-product.}
+      \field{journaltitle}{ChemCatChem}
+      \field{number}{3}
+      \field{title}{Insight into the Nature of Active Species of Pt/Al2O3 Catalysts for low Temperature NH3 Oxidation}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{867\bibrangedash 880}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1002/cctc.201901719
+      \endverb
+      \keyw{ammonia slip catalyst,NH3,operando spectroscopy,Pt/Al2O3,platinum}
     \endentry
     \entry{Taglauer1990}{article}{}
       \name{author}{1}{}{%
@@ -20200,12 +20778,6 @@
       \range{pages}{10}
       \verb{doi}
       \verb https://doi.org/10.1006/jcat.1999.2506
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S002195179992506X
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S002195179992506X
       \endverb
     \endentry
     \entry{VanDerWalt2011}{article}{}
@@ -21839,6 +22411,38 @@
       \verb https://doi.org/10.1002/anie.202110636
       \endverb
       \keyw{ab initio calculations,atomic strain,electrochemistry,nanomaterials,transition metals}
+    \endentry
+    \entry{Wulff1901}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b5679b40c38a1a78468d9c1ac60969fe}{%
+           family={Wulff},
+           familyi={W\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b5679b40c38a1a78468d9c1ac60969fe}
+      \strng{fullhash}{b5679b40c38a1a78468d9c1ac60969fe}
+      \strng{bibnamehash}{b5679b40c38a1a78468d9c1ac60969fe}
+      \strng{authorbibnamehash}{b5679b40c38a1a78468d9c1ac60969fe}
+      \strng{authornamehash}{b5679b40c38a1a78468d9c1ac60969fe}
+      \strng{authorfullhash}{b5679b40c38a1a78468d9c1ac60969fe}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zeitschrift für Kristallographie - Crystalline Materials}
+      \field{number}{1-6}
+      \field{title}{XXV. Zur Frage der Geschwindigkeit des Wachsthums und der Auflösung der Krystallflächen}
+      \field{volume}{34}
+      \field{year}{1901}
+      \field{pages}{449\bibrangedash 530}
+      \range{pages}{82}
+      \verb{doi}
+      \verb doi:10.1524/zkri.1901.34.1.449
+      \endverb
     \endentry
     \entry{Xiong2014}{article}{}
       \name{author}{5}{}{%

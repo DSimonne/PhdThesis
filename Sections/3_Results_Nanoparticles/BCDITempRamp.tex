@@ -19,6 +19,8 @@ The values of the scattering and detector angles are expected to vary as a funct
 
 \textit{Gwaihir} was used to process the data using the workflow detailed in sec. \ref{sec:Gwaihir}, each dataset was saved as a \textit{cxi} file containing all of the data and metadata related to the data reduction process.
 The use of iterative algorithm for phase retrieval is detailed in tab. \ref{tab:ReconstructionProcess}.
+After 50 successful reconstructions, the 10 best solutions were chosen based on the homogeneity of the Bragg electronic density amplitude, and free log-likelihood value \parencite{FavreNicolin2020a}.
+A unique solution was then computed by performing a mode decomposition to find the most reproducible solution, thus reducing noise in the data, following an algorithm first derived by Schmid et al. \parencite*{Schmid2010}.
 
 \begin{table}[!htb]
 \centering
@@ -39,7 +41,7 @@ The use of iterative algorithm for phase retrieval is detailed in tab. \ref{tab:
 \label{tab:ReconstructionProcess}
 \end{table}
 
-\subsection{Effects of temperature under inert atmosphere}\label{sec:TempRampBCDI}
+\subsection{Effects of temperature under inert atmosphere from \qtyrange{25}{600}{\degreeCelsius}}\label{sec:TempRampBCDI}
 
 To be able to de-correlate the effect of temperature from the effect of the catalytic reaction on the nanoparticle structure, the alumina-supported nanoparticles were gradually heated from \qtyrange{25}{600}{\degreeCelsius} under a constant argon-based gas flow (\qty{50}{\ml\per\min}) and at a pressure of \qty{0.5}{\bar}.
 
@@ -258,8 +260,6 @@ Our approach to the strain is considerably simplified since only one component o
 The deviation of the interplanar spacing from the room temperature value due to the thermal expansion of the crystal is expected to be homogeneous within the particle.
 This isotropic \textit{homogeneous} strain ($\epsilon_{hmg}$) in the particle is removed by centring the Bragg peak before phase retrieval, otherwise resulting in a linear phase ramp after the Fourier transform operation.
 
-It is of utmost importance to first study the evolution of the material under an inert atmosphere to be able to differ an evolution of the homogeneous strain due to the thermal expansion of the crystal from other potential relaxation phenomena induced e.g. by the adsorption of molecules involved in the catalytic reaction.
-
 % \begin{figure}[!htb]
 %     \centering
 %     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS\_2021\_01/Max.png}
@@ -282,29 +282,35 @@ It is of utmost importance to first study the evolution of the material under an
     \label{fig:AmaterasuHomoStrain}
 \end{figure}
 
+It is of utmost importance to first study the evolution of the material under an inert atmosphere to be able to differ an evolution of the homogeneous strain due to the thermal expansion of the crystal from other potential relaxation phenomena induced e.g. by the adsorption of molecules involved in the catalytic reaction.
+
 The average interplanar spacing between (111) crystallographic planes ($d_{111}$) in the particle was computed from the angular position of the Bragg peak \textit{via} eq. \ref{eq:QandD3}, presented in fig. \ref{fig:AmaterasuHomoStrain}.
 Repeated measurements at fixed condition yield additional data points in the figure.
 
-The interplanar spacing follows approximately two linear increases first from \qtyrange{25}{150}{\degreeCelsius} before the dislocation removal and secondly from \qtyrange{150}{600}{\degreeCelsius} after the dislocation removal (fig. \ref{fig:AmaterasuHomoStrain} - c).
+The interplanar spacing follows approximately two distinct linear increases, first from \qtyrange{25}{150}{\degreeCelsius} before the dislocation removal and secondly from \qtyrange{150}{600}{\degreeCelsius} after the dislocation removal (fig. \ref{fig:AmaterasuHomoStrain} - c).
+The increase after removal of the dislocation is less pronounced, which shows that the defect can have an impact on the thermal relaxation of nanoparticles.
+
 The position of the (111) Bragg peak depends on the lattice parameter values in all three directions of the cubic unit cell of platinum, anisotropic lattice distortions can thus not be differed from isotropic lattice distortions.
-The flash annealing and removal of the dislocation at \qty{150}{\degreeCelsius} had the effect of increasing the average interplanar spacing $d_{111}$, and decreasing the peak FWHM, signature of the decrease of heterogeneous strain inside the particle \parencite{Warren1990}.
+The flash annealing and removal of the dislocation at \qty{150}{\degreeCelsius} had the effect of increasing the average interplanar spacing $d_{111}$, and decreasing the peak FWHM, which can be linked to a decrease of heterogeneous strain inside the particle \parencite{Warren1990}.
 
-The particle was realigned after the removal of the dislocation to be sure of the absence of any angular offset, the flash heating process could have moved the sample positions due thermal expansion.
+The particle was realigned after the removal of the dislocation to be sure of the absence of any angular offset, the flash heating process possibly moving the sample positions from thermal expansion.
 
-The measurement at \qty{550}{\degreeCelsius} shows a very large FWHM, showing an increase of strain in the particle, which could be why the phase retrieval process did not successfully converge at that temperature.
+The measurement at \qty{550}{\degreeCelsius} shows a very large FWHM, reaching the values when the interfacial dislocation was present at lower temperatures.
+This increase can be attributed to an increase of strain in the particle, possibly behind the failure of the phase retrieval process to successfully converge at that temperature.
+The reason behind this increase of strain were not determined.
 
-At \qty{600}{\degreeCelsius}, the two values of the average interplanar spacing under inert atmosphere are only slightly higher or lower than the value at \qty{550}{\degreeCelsius}, and decrease after the introduction of ammonia.
+At \qty{600}{\degreeCelsius}, the two values of the average interplanar spacing under inert atmosphere are similar to the value at \qty{550}{\degreeCelsius}, and decrease after the introduction of ammonia.
 The FWHM decreases after having reached \qty{600}{\degreeCelsius}, returning to the previous values observed between \qty{150}{\degreeCelsius} and \qty{450}{\degreeCelsius}.
 The introduction of ammonia has no visible effect on the FWHM.
 The decrease of the interplanar spacing between \qty{550}{\degreeCelsius} and \qty{600}{\degreeCelsius} occurs together with the decrease of the FWHM, ultimately resulting in the formation of a dislocation network at the interface imaged with BCDI.
-The presence of the dislocation network is not clear from the values of the FWHM.
+The presence of the dislocation network is not clear from the values of the FWHM, a characterisation of the peak FWHM in other direction will yield additionnal information.
 
 It could have been interesting to compute the misfit strain resulting from the epitaxial relationship of the Pt nanoparticles with the substrate to see if an absolute minimum is reached at \qty{450}{\degreeCelsius}.
 However, no in-plane Bragg peak corresponding to the sapphire substrate was measured during the temperature ramp, preventing us from performing this analysis.
 
 \subsubsection{Heterogeneous strain evolution}
 
-The remaining strain after phase retrieval is called the \textit{heterogeneous} strain ($\epsilon_{htg}$) \parencite{Grediac1996, Favier2007, Atlan2023}, the total out-of-plane strain observed during this experiment being equal to $\epsilon_{tot} = \epsilon_{hmg} + \epsilon_{zz, htg}$ when considering the changes from a reference (usually room temperature data).
+The remaining strain after phase retrieval is called the \textit{heterogeneous} strain ($\epsilon_{htg}$) \parencite{Grediac1996, Favier2007, Atlan2023}, the total out-of-plane strain observed during this experiment being equal to $\epsilon_{tot} = \epsilon_{hmg} + \epsilon_{zz, htg}$ when considering the changes relative to a reference state (usually room temperature data).
 
 In BCDI, it is the displacement of small unit blocks making up the crystal lattice that is observed.
 Depending on the instrumental parameters, these small unit blocks, or \textit{voxels}, have a more or less large size.
@@ -347,10 +353,6 @@ $\delta q = \qty{0.03}{\per\angstrom}$ gives $(\vec{q}-\vec{G}).\vec{u} = 0.03 <
 The very large standard deviations seen in fig. \ref{fig:AmaterasuStrain} at \qty{150}{\degreeCelsius} for the ($\bar{1}\bar{1}\bar{1}$), ($\bar{1}1\bar{1}$), ($1\bar{1}\bar{1}$) and ($11\bar{1}$) facets can be explained by the presence of the dislocation, around which the phase was not well unwrapped as seen in fig. \ref{fig:AmaterasuDislocation}.
 Dislocations are also expected to be at the origin of regions with large strain deviations from their impact on the displacement field, as observed for example in the middle of the ($\bar{1}\bar{1}\bar{1}$) facet in fig. \ref{fig:AmaterasuB} at \qty{600}{\degreeCelsius}.
 At \qty{150}{\degreeCelsius}, after removal of the dislocation, all of the facets show low strain values as well as low standard deviation, which is also the case at \qty{250}{\degreeCelsius}, \qty{350}{\degreeCelsius}, and \qty{450}{\degreeCelsius} (fig. \ref{fig:AmaterasuStrain}).
-
-% but when comparing to the measurement at \qty{150}{\degreeCelsius}, we can see in fig. \ref{fig:AmaterasuB} that the extremities of the [$\bar{1}\bar{1}\bar{1}$] facet are in tension, whereas the center is in compression.
-% The opposite effect seems to take place around the [111] facet, visible both in fig \ref{fig:Amaterasu} and \ref{fig:AmaterasuStrain}.
-% \textcolor{Important}{Why ?}
 
 % 600°C
 % Decribe strain change between 450°C under Argon and 600°C under ammonia

@@ -7,14 +7,14 @@
 
 \subsection{Scattering from electrons and atoms}
 
-The duality between wave and particles was first mentionned by Max Planck and Albert Einstein in the early $20^{th}$ century and generalized to all matter by Louis-Victor de Broglie in 1924 with the famous formula:
+The duality between wave and particles was first mentioned by Max Planck and Albert Einstein in the early $20^{th}$ century and generalised to all matter by Louis-Victor de Broglie in 1924 with the famous formula:
 
 \begin{equation}
 	\lambda = \frac{h}{p}
 \end{equation}
 
-Electromagnetic waves, \textit{i.e.} light or photons can be characterized by their energy $E$ in \unit{\eV} and wavelength $\lambda$ in \unit{\meter}. $p$ corresponds to the momentum transfer.
-The conversion between is realized thanks to Planck's constant $h = \qty{6.626e-34}{\joule.\second}$ and the speed of light in vacuum $c = \qty{2.9979e8}{\meter.\per \second}$ (eq. \ref{eq:EnergyLambda}).
+Electromagnetic waves, \textit{i.e.} light or photons can be characterised by their energy $E$ in \unit{\eV} and wavelength $\lambda$ in \unit{\meter}. $p$ corresponds to the momentum transfer.
+The conversion between is realised thanks to Planck's constant $h = \qty{6.626e-34}{\joule.\second}$ and the speed of light in vacuum $c = \qty{2.9979e8}{\meter.\per \second}$ (eq. \ref{eq:EnergyLambda}).
 
 \begin{equation}
     \label{eq:EnergyLambda}
@@ -31,7 +31,7 @@ X-rays have a wavelength of a few \unit{\angstrom} (\qty{e-10}{\m}) making them 
 
 When electromagnetic wave interacts with matter it will be attenuated by absorption, reflection or scattering.
 Each process can be quantified depending on the atoms (and thus on the electronic cloud and nucleus) the beam interacts with and the energy on the incident photon, this is illustrated in figure \ref{fig:cross_sections}.
-The cross-section for a particuliar process $p$ is defined as follows \parencite{Willmott}:
+The cross-section for a particular process $p$ is defined as follows \parencite{Willmott}:
 
 \begin{equation}
 	\sigma_p = (\Lambda_p N_i)^{-1}
@@ -43,14 +43,14 @@ $\Lambda_p$ is the attenuation length in \unit{\meter}, \textit{i.e.} the length
     \centering
     \includegraphics[width=\textwidth]{Figures/introduction/cross_sections.pdf}
     \caption{
-        Cross-sections for platinum (Z=78) corresponding to different processes occuring when photons interact with matter.
+        Cross-sections for platinum (Z=78) corresponding to different processes occurring when photons interact with matter.
         Data taken from the NIST (National Institute of Standards and Technology) \parencite{NIST_cross_sections} website.
         The energy range of the SixS beamline at SOLEIL is highlighted in blue.
     }
     \label{fig:cross_sections}
 \end{figure}
 
-Compton scattering, also named inelastic scattering, is a process during which some of the incident electromagnetic wave energy is transfered to the atoms' electrons.
+Compton scattering, also named inelastic scattering, is a process during which some of the incident electromagnetic wave energy is transferred to the atoms' electrons.
 This results in a lower energy for the scattered photon (and therefore a higher wavelength) compared to the incident photon.
 %This effect has a low cross-section compared to the two other processes and is therefore not taken account during the experiments.
 
@@ -66,7 +66,7 @@ During elastic scattering, the oscillating electric field of the incident x-ray 
     \centering
     \includegraphics[trim=0 75 0 25, clip, width=\textwidth]{Figures/introduction/torus.pdf}
     \caption{
-        Effect of relation between synchrotron x-ray polarization $\hat{\epsilon}$ and scattered x-ray polarization $\hat{\epsilon}'$ on the scattered field.
+        Effect of relation between synchrotron x-ray polarisation $\hat{\epsilon}$ and scattered x-ray polarisation $\hat{\epsilon}'$ on the scattered field.
         The scattered field intensity is attenuated by a $\cos{(\theta)}$ factor, where $\theta$ is the angle between the plane perpendicular to the electric field and the direction of observation $\vec{R}$ (b)
     }
     \label{fig:polarization_effect}
@@ -79,7 +79,7 @@ The scattered field $\vec{E}_{scatt}$ is then proportional to the incident elect
     \label{eq:scatt_field}
     \frac{\vec{E}_{scatt}(R, \, t)} {\vec{E}_{in}} = -r_0 \frac{e^{\vec{k}.\vec{R}}} {|\vec{R}|}| \hat{\epsilon}.\hat{\epsilon}'|
 \end{equation}
-$|\vec{R}|$ is the distance at which the scattering is detected at the time $t$, $\hat{\epsilon}$ is the synchrotron x-ray polarization vector, $\hat{\epsilon}'$ the scattered x-ray polarization vector, and $r_0$ is the Thomson scattering length or the classical radius of the electron defined as:
+$|\vec{R}|$ is the distance at which the scattering is detected at the time $t$, $\hat{\epsilon}$ is the synchrotron x-ray polarisation vector, $\hat{\epsilon}'$ the scattered x-ray polarisation vector, and $r_0$ is the Thomson scattering length or the classical radius of the electron defined as:
 
 \begin{equation}
     \label{eq:scatt_thomson_scat_length}
@@ -87,7 +87,7 @@ $|\vec{R}|$ is the distance at which the scattering is detected at the time $t$,
 \end{equation}
 with $m_e$ the mass of the electron and $\epsilon_0$ the permittivity of free space.
 
-The minus sign illustrates a phase shift of $\pi$ between the incident and scattered wave, $\hat{\epsilon}$ and $\hat{\epsilon}'$ are respectively the polarization vectors of the incident and scattered electromagnectic fields.
+The minus sign illustrates a phase shift of $\pi$ between the incident and scattered wave, $\hat{\epsilon}$ and $\hat{\epsilon}'$ are respectively the polarisation vectors of the incident and scattered electromagnetic fields.
 
 The differential cross-section for Thomson scattering measures the efficiency of the scattering in the volume occupied by a solid angle $d\Omega$ in the direction $\vec{R}$ \parencite{NielsenMcMorrow}. It is defined as follows:
 \begin{equation}
@@ -95,24 +95,24 @@ The differential cross-section for Thomson scattering measures the efficiency of
     \frac{d\sigma_{ts}} {d \Omega} = \frac{ |\vec{E}_{scatt}(R, t)|^2 R^2} {|\vec{E}_{in}|^2}
 \end{equation}
 
-By substituting eq. \ref{eq:scatt_field} into eq. \ref{eq:dif_cross_sec_thomson1}, it becomes clear that the scattering is proportional to the Thomson scattering length and that the intenisty is attenuated depending on the dot product between the two polarizations.
-The polarization factor $P$ for scattered beams is defined as $P =  | \hat{\epsilon}.\hat{\epsilon}'|^2$ and we can write the differential cross-section as:
+By substituting eq. \ref{eq:scatt_field} into eq. \ref{eq:dif_cross_sec_thomson1}, it becomes clear that the scattering is proportional to the Thomson scattering length and that the intensity is attenuated depending on the dot product between the two polarisation.
+The polarisation factor $P$ for scattered beams is defined as $P =  | \hat{\epsilon}.\hat{\epsilon}'|^2$ and we can write the differential cross-section as:
 
 \begin{equation}
     \frac{d\sigma_{ts}} {d \Omega} = r_0^2 | \hat{\epsilon}.\hat{\epsilon}'|^2 = r_0^2 P
 \end{equation}
 
-The effect of the polarization of the incident beam is illustrated in figure \ref{fig:polarization_effect}.
-At synchrotrons, working in the vertical plane ($\vec{x}, \vec{z}$) is preferable to maximize the intensity of the scattered field.
-This has pratical repercussions in surface x-ray diffraction for which it is preferable to work in a vertical geometry to scan large 2D areas of the reciprocal space.
+The effect of the polarisation of the incident beam is illustrated in figure \ref{fig:polarization_effect}.
+At synchrotrons, working in the vertical plane ($\vec{x}, \vec{z}$) is preferable to maximise the intensity of the scattered field.
+This has practical repercussions in surface x-ray diffraction for which it is preferable to work in a vertical geometry to scan large 2D areas of the reciprocal space.
 
-The total cross-section for the scattering event by a single free electron can be computed by integrating the differential cross-section over all the possible scattering angles, \textit{i.e.} by averaging all possible polarization directions \parencite{Willmott}.
+The total cross-section for the scattering event by a single free electron can be computed by integrating the differential cross-section over all the possible scattering angles, \textit{i.e.} by averaging all possible polarisation directions \parencite{Willmott}.
 This yields $\sigma_{ts} = 8 \pi r_0^2 /3 = \qty{0.665}{\barn}$, (\qty{1}{barn} is equal to \qty{e-28}{\m^2}) the total Thomson scattering cross-section is constant, independent of the incoming photon energy. This results holds for x-rays for which the scatterer \textit{i.e.} the electron can be considered as free \parencite{Willmott}.
 
 \subsubsection{Scattering from a single atom}\label{sec:scattering}
 
 As we have seen the main scatterer for Thomson scattering is the electron.
-An atom can be described as a small volume $d^3\vec{r}$ in which the electrons are localized.
+An atom can be described as a small volume $d^3\vec{r}$ in which the electrons are localised.
 The electromagnetic field scattered from an atom is therefore proportional to the atomic electronic density $\rho_{atom}(\vec{r})$.
 For a single atom of atomic number $Z$ we have :
 
@@ -240,12 +240,12 @@ The cross-section for XPS is directly proportional to the absorption cross-secti
 A crystal is a solid material composed of a regular, repeating arrangement of atoms, ions, or molecules (\textit{i.e.} a pattern), exhibiting a highly ordered structure with long-range periodicity in three dimensions.
 
 A Bravais lattice refers to an infinite array of points (nodes) that represents the basic repeating unit of a crystal lattice, defining the translational symmetry of the crystal structure.
-It is characterized by a set of three basis vectors and their linear combinations, which generate the entire lattice when translated in space.
+It is characterised by a set of three basis vectors and their linear combinations, which generate the entire lattice when translated in space.
 The \textit{primitive} unit cell is the smallest cell with which you can describe the crystal.
 
 The structure of the Bravais lattice (cubic, hexagonal, ...) combined with the position of the patterns in the lattice and the symmetry relations between them defines the crystal \textit{space group}.
 In total there exist 230 space group in crystallography.
-In the simplest case the pattern consists of a single atom, for example pure platinum ($Z=78$) cristallizes at room temperature in a cubic Bravais lattice (fig. \ref{fig:fcc}).
+In the simplest case the pattern consists of a single atom, for example pure platinum ($Z=78$) crystallises at room temperature in a cubic Bravais lattice (fig. \ref{fig:fcc}).
 
 We can define the scattering factor $F_{crystal}$ of the crystal, that describes the amplitude of the scattered waves, by the sum of the atomic scattering factor $f_j(\vec{q})$ of each atom present in the crystal, while the phases between the scattered waves depend on the positions of the atoms $\vec{R}_j$ in the direction that is perpendicular to the scattering vector $\vec{q}$ (eq. \ref{eq:FCrystal1}).
 In other words, each atom can be described as a small volume $d^3\vec{r}$ in the electronic density $\rho(\vec{r})$, and the scattered field by the superposition of the contribution from the electronic cloud surrounding the atoms.
@@ -265,9 +265,9 @@ The Thomson scattering length is left apart for simplicity.
     \includegraphics[height=4cm]{/home/david/Documents/PhDScripts/Drawing/blender/FCC.png}
     \includegraphics[height=4cm]{/home/david/Documents/PhD/Figures/introduction/PtClean.pdf}
     \caption{
-    Face centered cubic (FCC) lattice of Pt (space group 225).
+    Face centred cubic (FCC) lattice of Pt (space group 225).
     Atoms are represented as solid balls and situated on the corners and at the middle of the faces.
-    A schematic representation of the unit cell is shown on the right to be able to visualize the positions of each atom.
+    A schematic representation of the unit cell is shown on the right to be able to visualise the positions of each atom.
     The lattice parameter at room temperature is $a = \qty{3.9242}{\angstrom}$.
     Close packed direction is achieved along the diagonal of the lateral faces, the distance between the atoms then becomes \qty{2.7748}{\angstrom}.
     }
@@ -313,7 +313,7 @@ By combining eq. \ref{eq:R_k} and eq. \ref{eq:G} we find that the solution to th
     \vec{G} . \vec{R}_k = hn_1 + kn_2 + ln_3 = n \quad  with \ n \in \mathbb{Z}
 \end{equation}
 
-This is also known as the Laue condition, that ensures that only certain scattering vectors, corresponding to the reciprocal lattice points, fulfill the condition for constructive interference between the scattered waves.
+This is also known as the Laue condition, that ensures that only certain scattering vectors, corresponding to the reciprocal lattice points, fulfil the condition for constructive interference between the scattered waves.
 These specific scattering vectors determine the scattering angles of the peaks observed in a diffraction pattern, also known as Bragg peaks.
 
 \begin{equation}
@@ -351,7 +351,7 @@ In the case of a cubic Bravais lattice, the distance between Miller planes can b
     d_{hkl}=\frac{2\pi}{|\vec{a}^*|\sqrt{h^2 + k^2 + l^2}}=\frac{|\vec{a}|}{\sqrt{h^2 + k^2 + l^2}}
 \end{equation}
 
-From eqs. \ref{eq:QSinTheta} and \ref{eq:Bragglaw}, we fall back on the Laue condition which is a generalization of Bragg's law.
+From eqs. \ref{eq:QSinTheta} and \ref{eq:Bragglaw}, we fall back on the Laue condition which is a generalisation of Bragg's law.
 The diffraction order ($n$) in the Bragg's law equation can be omitted since it is implicitly determined by the Miller indices (hkl) representing the crystalline planes involved in the diffraction.
 
 \begin{align}
@@ -394,7 +394,7 @@ Each diffraction peak in the scattering pattern corresponds to a specific Fourie
 By knowing the phase relationships between these Fourier components, which can be obtained from the measured diffraction pattern, the electron density within the unit cell can be reconstructed.
 The superposition of these sinusoidal waves, representing the diffraction peaks or Fourier components, recreates the original electron density distribution of the crystal.
 
-To summarize, the diffraction peaks in the scattering pattern represent the Fourier components of the crystal's electron density distribution, and their spatial frequencies and phase relationships carry information about the crystal structure.
+To summarise, the diffraction peaks in the scattering pattern represent the Fourier components of the crystal's electron density distribution, and their spatial frequencies and phase relationships carry information about the crystal structure.
 %The first sum is the unit cell structure factor, that modulates the scattered beam amplitude depending on what atoms are in the unit cell (amplitude) and their positions (phase).
 %The second sum is the lattice factor that takes the value of $N_{uc}$ if $\vec{q}.\vec{R}_k = n \times 2\pi$ $(\ n \in \mathbb{Z})$.
 
@@ -415,7 +415,7 @@ The position of each atom is defined in the unit cell by eq. \ref{eq:AtomPos}, a
     y    & 0  & 0.5 & 0   & 0.5 & | 0  & 1  & 1  & 1   & 0.5 & 0  & 0  & 1  & 1  & 0.5 \\
     z    & 0  & 0   & 0.5 & 0.5 & | 0  & 0  & 0  & 0.5 & 0.5 & 1  & 1  & 1  & 1  & 1   \\ \bottomrule
     \end{tabular}
-    \caption{Position of platinum atoms in the face-centered cubic (FCC) unit cell. Illustrated in fig. \ref{fig:fcc}. The first four atomic positions  lead to the other positions by symmetry (space group 225).}
+    \caption{Position of platinum atoms in the face-centred cubic (FCC) unit cell. Illustrated in fig. \ref{fig:fcc}. The first four atomic positions  lead to the other positions by symmetry (space group 225).}
     \label{tab:PtAtoms}
 \end{table}
 
@@ -447,7 +447,7 @@ In the case of a simple cubic arrangement of unit cells in three directions perp
     |S_{N_{uc, j}}(\vec{q}.\vec{a}_j)| \underset{N_{uc, j} \to \infty}{\longrightarrow} \approx \delta (\vec{q})
 \end{gather}
 
-Where $S_{N_{uc, j}}(\vec{q}.\vec{a})$ is a function whose modulus $|S_{N_{uc, j}}(\vec{q}.\vec{a})|$ tends towards a dirac function when $N_{uc, j} \longrightarrow \infty$.
+Where $S_{N_{uc, j}}(\vec{q}.\vec{a})$ is a function whose modulus $|S_{N_{uc, j}}(\vec{q}.\vec{a})|$ tends towards a Dirac function when $N_{uc, j} \longrightarrow \infty$.
 The condition to observe peaks in eq. \ref{eq:SFunction2} is for the denominator to be equal to zero: $\frac{\vec{q}.\vec{a}_j}{2} \equiv \pi$ which brings us back to the Laue condition: $\vec{q} = \vec{G}$ where $\vec{G}$ is a reciprocal space lattice vector.
 Minor peaks appear when the numerator is equal to one: $N\frac{\vec{q}.\vec{a}_j}{2} \equiv \frac{\pi}{2}$, the distance between each minor peak is equal to $\frac{2\pi}{t_j}$ where $t_j$ is the thickness of the crystal in the direction $\vec{a_j}$.
 
@@ -467,7 +467,7 @@ The brilliance $\mathcal{B}$ is a measure of the distribution of flux in both sp
 \end{equation}
 
 The spectral flux, on the other hand, quantifies the number of photons passing through a defined area per unit bandwidth per second.
-Synchrotron facilities aim to optimize both the photon flux and brilliance, a higher flux meaning faster experiments whereas a high brilliance is important for those that need a coherent beam.
+Synchrotron facilities aim to optimise both the photon flux and brilliance, a higher flux meaning faster experiments whereas a high brilliance is important for those that need a coherent beam.
 In the last evolution from $3^{rd}$ to $4^{th}$ generation synchrotrons, the source size (convolution of the size of the photon source and the transverse size of the electron beam) has been reduced by an order of magnitude \parencite{Willmott}.
 
 \begin{equation}
@@ -516,7 +516,7 @@ Therefore, the coherent flux $F_{coh}$ as a function of the wavelength is direct
 \end{equation}
 
 Indeed, to be able to resolve the interference fringes resulting from the lattice factor, a high brilliance is crucial since the intensity of the total scattered field, proportional to the scattering volume, is weak.
-A detailed explanation of how to optimize BCDI experiments is given in sec. \ref{sec:BCDI}.
+A detailed explanation of how to optimise BCDI experiments is given in sec. \ref{sec:BCDI}.
 
 \textit{
 So far we have limited ourselves to the kinematical approach of diffraction in the frame of this thesis which means that the scattering is considered weak enough so that multiple scattering can be ignored.
