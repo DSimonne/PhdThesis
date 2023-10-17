@@ -94,15 +94,15 @@
 \contentsline {subsection}{\numberline {4.2.5}Surface species presence}{129}{subsection.4.2.5}%
 \contentsline {section}{\numberline {4.3}Pt (100) single crystal studied at \qty {450}{\degreeCelsius }}{132}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Oxide growth under \qty {80}{\milli \bar } of oxygen}{132}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Near ambient pressure ammonia oxidation cycle}{135}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Oxide growth under \qty {5}{\milli \bar } of oxygen}{137}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Surface roughness and surface relaxation effects}{138}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Surface species presence}{141}{subsection.4.3.5}%
+\contentsline {subsection}{\numberline {4.3.2}Near ambient pressure ammonia oxidation cycle}{134}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Oxide growth under \qty {5}{\milli \bar } of oxygen}{138}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Surface roughness and surface relaxation effects}{139}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Surface species presence}{142}{subsection.4.3.5}%
 \contentsline {section}{\numberline {4.4}Discussion}{142}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusion}{144}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Research aim}{144}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Perspectives}{144}{section.5.2}%
-\contentsline {chapter}{Bibliography}{145}{chapter*.154}%
-\contentsline {chapter}{\numberline {A}Diffraction vocabulary}{166}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Nanoparticles study}{167}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Single crystals study}{181}{appendix.C}%
+\contentsline {chapter}{\numberline {5}Conclusion}{145}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Research aim}{145}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Perspectives}{145}{section.5.2}%
+\contentsline {chapter}{Bibliography}{146}{chapter*.155}%
+\contentsline {chapter}{\numberline {A}Diffraction vocabulary}{168}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Nanoparticles study}{169}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Single crystals study}{183}{appendix.C}%

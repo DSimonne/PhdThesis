@@ -366,8 +366,38 @@ Different reacting conditions are related to the same direction of displacement 
 In order to relate surface structure, surface moieties and reaction products, the Pt4f, N1s and O1s XPS spectra were recorded at ambient pressure at the B07 beamline.
 The same order in the ammonia oxidation cycle was repeated as during the SXRD experiment.
 
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[trim=0 0 0 10cm, clip, width=\textwidth]{/home/david/Documents/PhDScripts/B07_2022_04_XPS/Figures/product_partial_pressure_comparison_vs_time.pdf}
+    \caption{
+        Evolution of reaction product partial pressures as a function of time during the XPS experiment on the Pt (111) single crystals at \qty{450}{\degreeCelsius}.
+    }
+    \label{fig:XPS111RGA}
+\end{figure}
+
+The mass spectrometer available at the B07 beamline allows us to monitor the presence of the reactants and products close to the sample surface (fig. \ref{fig:XPS111RGA}).
+A high \ce{O_2}/\ce{NH_3} ratio (8) favours the production of \ce{NO} as expected, accompanied by a high amount of water, small amounts of \ce{N_2} and \ce{N_2O} can also be detected.
+Ammonia is still detected, which means that the oxygen is not yet in excess to allow the consumption of all the \ce{NH_3} present in the cell.
+Lowering the amount of oxygen by reducing the \ce{O_2}/\ce{NH_3} ratio to 0.5 has the effect of removing entirely the presence of \ce{NO}, only \ce{N_2} can still be detected.
+Oxygen can not be be detected by the mass spectrometer meaning that all of the oxygen present in the reactor has been consumed.
+Water and ammonia can still be detected.
+
 To be able to qualitatively compare the evolution of the peak intensity, the intensity of the detected electron beam was normalised using the pre-edge intensity, the average intensity depending on the total pressure in the reaction chamber \parencite{Willmott} that changed during the experiment.
-The evolution of the collected XPS intensity as a function of the photoelectron binding energy is presented in fig. \ref{fig:O1sN1sPt111} around the N1s and O1s edges for different atmospheres, the position of the indexed peaks are grouped in tab. \ref{tab:XPSPt111}.
+The evolution of the collected XPS intensity as a function of the photoelectron binding energy is presented in fig. \ref{fig:O1sN1sPt111} around the N1s and O1s edges for different atmospheres.
+Binding energy are given with reference to the Fermi level.
+
+% high ox
+The presence of gas phase oxygen can be confirmed in the O1s spectra by a characteristic peak doublet around \qty{538}{\eV}.
+The positions are shifted in energy with respect to literature \parencite{Avval2022}.
+A very broad signal extending from \qtyrange{528}{532}{\eV} during the exposition of the sample to \qty{8.8}{\milli\bar} of oxygen is probably hiding a various amount of peaks linked to the presence of oxygen-rich species.
+
+Indeed, Fisher et al \parencite*{Fisher1980} report atomic oxygen (O$_a$) to give a peak at \qty{529.8}{\eV} on Pt (111), with OH at \qty{531}{\eV} when expositing the surface to water.
+Peuckert et al. \parencite*{Peuckert1984} have studied various oxidised Pt surfaces and indexed a peak at \qty{530.2}{\eV} for O$_a$ on Pt (111), and OH at \qty{531.5}{\eV} for polycristalline Pt.
+Derry et al. \parencite*{Derry1984} report a peak at \qty{530.8}{\eV} for O$_a$ on Pt (111) during its exposition to oxygen, while Zhu et al. \parencite{Zhu2003} also report O$_a$  at \qty{529.9}{\eV} when probing the dissociation of \ce{NO} on the Pt(111) surface.
+Fantauzzi et al. report oxygen surface species at \qty{529.7}{\eV} during the oxidation of Pt(111) at \qty{225}{\degreeCelsius}, similarly to Millet et al. \parencite{Miller2014} that have attempted to oxidise the Pt(111) surface to study its impact on the reactivity.
+
+During a recent study of the oxidation of ammonia at different pressures and \ce{O_2}/\ce{NH_3} ratio on Pt(111) has reported (2x2) chemisorbed oxygen and OH at respectively \qty{529.7}{\eV} and \qty{531.4}{\eV} in \qty{1}{\milli\bar} of oxygen at \qty{325}{\degreeCelsius}.
+In the current XPS study, the signal to noise ratio is too low under the presence of \qty{8.8}{\milli\bar} of oxygen to characterise the surface state.
 
 \begin{figure}[!htb]
     \centering
@@ -378,6 +408,24 @@ The evolution of the collected XPS intensity as a function of the photoelectron 
     }
     \label{fig:O1sN1sPt111}
 \end{figure}
+
+% ratio 8
+No nitrogen species can be detected in the N1s spectra when introducing \qty{1.1}{\milli\bar} of ammonia in the reactor while keeping the pressure of oxygen equal to \qty{8.8}{\milli\bar}.
+The total pressure in the cell is probably too high to resolve the signals corresponding to different adsorbed nitrogen species.
+The presence of gas phase \ce{NO}, and ammonia was expected from the mass spectrometer data but could not be detected.
+The presence of gas phase water is visible in the O1s spectra by a peak at \qty{534}{\eV}, the energy difference between gas phase oxygen and gas phase water is consistent with the literature values \parencite{Linford2019, Avval2022}.
+Gas phase water is only detected during reaction conditions.
+
+
+When lowering the pressure of oxygen to \qty{0.55}{\milli\bar}, a condition under nitrogen-rich products are favoured, three peaks can be detected at \qty{404.12}{\eV}, \qty{399.73}{\eV}, and \qty{397.54}{\eV}.
+At this condition, no oxygen is anymore detected in the reactor, which according to the reaction mechanism, is possibly inhibiting the dehydrogenation process by oxygen rich species on the catalyst surface.
+The presence of \ce{NO}
+
+
+% ratio 05
+The doublet is absent when the \ce{O_2}/\ce{NH_3} ratio is equal to 0.5 confirming the mass spectrometer data and thus the complete use of the oxygen in the reactor at that condition.
+
+
 \begin{table}[!htb]
 \centering
 \resizebox{\textwidth}{!}{%
@@ -387,8 +435,11 @@ The evolution of the collected XPS intensity as a function of the photoelectron 
      & NH3 & 0 & 0 & 1.1 & 1.1 & 1.1 & 0 & 0 \\
      & O2 & 0 & 8.8 & 8.8 & 0.55 & 0 & 0 & 0.55 \\
     \midrule
+    Gas presence & & Ar & \ce{O_2} & \ce{O_2}, \ce{H_2O}, \ce{NO}   & \ce{H_2O}, \ce{NH_3} & \ce{NH_3} & \ce{O_2} & Ar \\
+     & &    &          & \ce{NH_3}, \ce{N_2}, \ce{N_2O} & \ce{N_2}             &           &          &    \\
+    \midrule
     \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}Peak position in N1s spectra (eV)\\ Eph = 700 eV\end{tabular}} & No data & No peak & No peak & \begin{tabular}[c]{@{}l@{}}404.12, 399.73,\\ 397.54\end{tabular} & 405.32, 400.83 & 400.43, 398.38 & No peak \\
-    \multicolumn{2}{l|}{Corresponding surface moieties} &  &  &  & N, NH, NH2, NO ? & N, NH, NH2, NO ? & N, NH, NH2 ? &  \\
+    \multicolumn{2}{l|}{Corresponding surface moieties} &  &  &  & N2(g), NH$_{x}$, N$_{ad}$ & N2(g), NHx, N$_{ad}$ & N, NH, NH2 ? &  \\
     \midrule
     \multicolumn{2}{l|}{\begin{tabular}[c]{@{}l@{}}Peak position in O1s spectra (eV)\\ Eph = 700 eV\end{tabular}} & 532.33 &  & 534.05  & 534.05 & 532.40 & 532.40 & 531.42, 529.71 \\
     \multicolumn{2}{l|}{Corresponding surface moieties} &  &  &  & N, NH, NH2, NO ? & N, NH, NH2, NO ? & N, NH, NH2 ? &  \\
@@ -398,12 +449,6 @@ The evolution of the collected XPS intensity as a function of the photoelectron 
 \caption{}
 \label{tab:XPSPt111}
 \end{table}
-
-No nitrogen species can be detected under high oxygen (\qty{8.8}{\milli\bar}) atmosphere.
-When under reaction conditions, no peaks can clearly be detected when a high partial pressure is present in the reactor cell.
-However, when lowering the pressure of oxygen to \qty{0.55}{\milli\bar}, a condition under nitrogen-rich products are favoured, three peaks can be detected at \qty{404.12}{\eV}, \qty{399.73}{\eV}, and \qty{397.54}{\eV}.
-Considering the gases present in the reactor cell, the expected species are NH2, NH, N, and NO.
-
 
 \begin{figure}[!htb]
     \centering

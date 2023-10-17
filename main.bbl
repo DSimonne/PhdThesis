@@ -842,6 +842,136 @@
       \verb 10.1038/s41563-023-01528-x
       \endverb
     \endentry
+    \entry{Avval2022}{article}{}
+      \name{author}{16}{}{%
+        {{un=0,uniquepart=base,hash=bf8c710097fe1c0c89ad00d92d20e537}{%
+           family={Avval},
+           familyi={A\bibinitperiod},
+           given={Tahereh\bibnamedelima G},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55d0bfec54a2eed97da9323965c6ce6f}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Shiladitya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50c3212c5b16b68a07a1645cf4f26e9f}{%
+           family={Hodges},
+           familyi={H\bibinitperiod},
+           given={Grant\bibnamedelima T},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90e7941d06b6eb7345638b8d40f77a0e}{%
+           family={Bahr},
+           familyi={B\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe9d65dd4cae05c7d759fbb2169d63db}{%
+           family={Dietrich},
+           familyi={D\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70db7581325b6aab68d5c95485e93fe9}{%
+           family={Thi{ß}en},
+           familyi={T\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=699c4c4c817bd225473296c744ca331c}{%
+           family={Linford},
+           familyi={L\bibinitperiod},
+           given={Matthew\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77204ef7a14a221ea8f3278cd0d02beb}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf8c710097fe1c0c89ad00d92d20e537}{%
+           family={Avval},
+           familyi={A\bibinitperiod},
+           given={Tahereh\bibnamedelima G},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55d0bfec54a2eed97da9323965c6ce6f}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Shiladitya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50c3212c5b16b68a07a1645cf4f26e9f}{%
+           family={Hodges},
+           familyi={H\bibinitperiod},
+           given={Grant\bibnamedelima T},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90e7941d06b6eb7345638b8d40f77a0e}{%
+           family={Bahr},
+           familyi={B\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe9d65dd4cae05c7d759fbb2169d63db}{%
+           family={Dietrich},
+           familyi={D\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77204ef7a14a221ea8f3278cd0d02beb}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70db7581325b6aab68d5c95485e93fe9}{%
+           family={Thi{ß}en},
+           familyi={T\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=699c4c4c817bd225473296c744ca331c}{%
+           family={Linford},
+           familyi={L\bibinitperiod},
+           given={Matthew\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Vacuum Society}%
+      }
+      \strng{namehash}{3ad593de2793f89ce504dedd40db84be}
+      \strng{fullhash}{a3c95f8dedc3a64e13a09c5a902a2eb9}
+      \strng{bibnamehash}{3ad593de2793f89ce504dedd40db84be}
+      \strng{authorbibnamehash}{3ad593de2793f89ce504dedd40db84be}
+      \strng{authornamehash}{3ad593de2793f89ce504dedd40db84be}
+      \strng{authorfullhash}{a3c95f8dedc3a64e13a09c5a902a2eb9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Surface Science Spectra}
+      \field{number}{November 2019}
+      \field{title}{{Oxygen gas, O2(g), by near-ambient pressure XPS}}
+      \field{volume}{2}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1116/1.5100962
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1116/1.5100962
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1116/1.5100962
+      \endverb
+      \keyw{comparison,g,nap-xps,near-ambient pressure x-ray photoelectron,o 2,oxygen,spectral category,spectroscopy,xps}
+    \endentry
     \entry{Ayer2014}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=212dc5b65524dba43986f41cf0348a7b}{%
@@ -5095,6 +5225,46 @@
       \verb 10.1038/s41929-019-0364-x
       \endverb
     \endentry
+    \entry{Derry1984}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a594f2b4957a2ae71252d1a5b70cb688}{%
+           family={Derry},
+           familyi={D\bibinitperiod},
+           given={G.N.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c70f4aca74baa4c62c51888aec1b8e01}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={P.N.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{49ac065e4658d7ba3cc159d7520ae162}
+      \strng{fullhash}{fbc3bef1c8d8c66f655ff7c9876a0786}
+      \strng{bibnamehash}{fbc3bef1c8d8c66f655ff7c9876a0786}
+      \strng{authorbibnamehash}{fbc3bef1c8d8c66f655ff7c9876a0786}
+      \strng{authornamehash}{49ac065e4658d7ba3cc159d7520ae162}
+      \strng{authorfullhash}{fbc3bef1c8d8c66f655ff7c9876a0786}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Oxygen adsorption on the Pt(100) and Pt(111) surfaces was investigated using X-ray photo-emission and thermal desorption spectroscopies. Low pressure (ca. 10−5 Pa) oxygen dosing at near ambient crystal temperature resulted in the formation of dissociated adsorbed species at saturation coverages of nominally 0.2–0.25 monolayer on both surfaces. The combination of higher pressure (ca. 10−3 Pa) and higher surface temperature (570 K) dosing produced a three to five times higher saturation coverage than the low pressure dosing. The effect of dosing condition on the saturation coverage appears to reconcile apparent discrepancies for the Pt(100) surface in the literature. Characterization by XPS of the higher coverage state for oxygen showed that it is in the same chemical state as the oxygen adsorbed at very low coverage. Angle-resolved XPS has shown that in all cases the oxygen appears to reside on the surface with no significant penetration of oxygen into the bulk, as would be characteristic of oxidation. However, some penetration on the surface by oxygen, such as by a place-exchange type restructuring of the first two atomic layers, cannot be entirely ruled out.}
+      \field{issn}{0039-6028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{1}
+      \field{title}{High coverage states of oxygen adsorbed on Pt(100) and Pt(111) surfaces}
+      \field{volume}{140}
+      \field{year}{1984}
+      \field{pages}{165\bibrangedash 180}
+      \range{pages}{16}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0039-6028(84)90389-3
+      \endverb
+    \endentry
     \entry{Desjonqueres1975}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=ad939b470c699ea7e1545bc3d127dc07}{%
@@ -6987,6 +7157,53 @@
       \verb 10.1364/josaa.3.001897
       \endverb
     \endentry
+    \entry{Fierro1992}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d9877fabf140428317bfce250632566d}{%
+           family={Fierro},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi L.\bibnamedelimi G.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7b95ebe7bac834b967e4b92cff32078}{%
+           family={Palacios},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=825c418b92e20f21d7600d788360e18e}{%
+           family={Tomas},
+           familyi={T\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{79f67b25667021d260f835008073f900}
+      \strng{fullhash}{ccf27f1dee6b23ac14197be2595557e0}
+      \strng{bibnamehash}{ccf27f1dee6b23ac14197be2595557e0}
+      \strng{authorbibnamehash}{ccf27f1dee6b23ac14197be2595557e0}
+      \strng{authornamehash}{79f67b25667021d260f835008073f900}
+      \strng{authorfullhash}{ccf27f1dee6b23ac14197be2595557e0}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Morphological and chemical changes of the Pt-Rh catalyst and palladium-based catchment gauzes used in medium- and low-pressure ammonia oxidation plants have been studied by scanning electron microscopy, combined with energy dispersive X-ray analysis (SEM-EDX), and X-ray photoelectron spectroscopy (XPS). It has been observed that the noble metals are mostly in the metallic state, and catalyst deactivation is determined by rhodium enrichment in the alloy surface. In the cases of a strong ``faceting'' of the wires, which tends to homogenize the catalyst surface, a good agreement between the surface composition determined by EDX and XPS was found. The Pt/Pd and Rh/Pd ratios in the catchment gauzes decreased markedly from the top to the bottom gauzes of the pack, indicating the directional effect of metal condensation or deposition from the gas stream.}
+      \field{issn}{1573-4803}
+      \field{journaltitle}{Journal of Materials Science}
+      \field{month}{02}
+      \field{number}{3}
+      \field{title}{Characterization of catalyst and catchment gauzes used in medium- and low-pressure ammonia oxidation plants}
+      \field{volume}{27}
+      \field{year}{1992}
+      \field{pages}{685\bibrangedash 691}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/BF02403880
+      \endverb
+    \endentry
     \entry{Fish1995}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=fa2383532fbd8fbfc66cd8a6d3b372d9}{%
@@ -7042,6 +7259,46 @@
       \verb 10.1364/JOSAA.12.000058
       \endverb
       \keyw{Algorithms; Blind deconvolution; Phase retrieval; Point spread function; Positron emission tomography; Space telescopes}
+    \endentry
+    \entry{Fisher1980}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a2e22c6b1fe5f2c77d3c2b6026a1334e}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Galen\bibnamedelima B.},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ac275e7599ee33674cacd263fd939aa}{%
+           family={Gland},
+           familyi={G\bibinitperiod},
+           given={John\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad67c211ebf6d8bde787d9d82e172245}
+      \strng{fullhash}{9febeb994510c1f4124e5fa56aae305a}
+      \strng{bibnamehash}{9febeb994510c1f4124e5fa56aae305a}
+      \strng{authorbibnamehash}{9febeb994510c1f4124e5fa56aae305a}
+      \strng{authornamehash}{ad67c211ebf6d8bde787d9d82e172245}
+      \strng{authorfullhash}{9febeb994510c1f4124e5fa56aae305a}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The interaction of water with a platinum (111) surface has been examined by thermal desorption (TDS), ultraviolet photoemission (UPS), and X-ray photoemission (XPS) spectroscopies. UPS and XPS results indicate that water adsorbs molecularly at 100K. TDS studies show that water desorbs with approximately zero order kinetics and that a monolayer of water has a maximum desorption rate at 180 K. Heavier coverages exhibit additional desorption from multilayer water (ice) which peaks at temperatures near 165 K. The coadsorption of atomic oxygen with water leads to an increase in the desorption temperature of water of about 30 K. XPS studies of this surface indicate that adsorbed OH species are involved in the reaction mechanism which increases the water desorption temperature.}
+      \field{issn}{0039-6028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{2}
+      \field{title}{The interaction of water with the Pt(111) surface}
+      \field{volume}{94}
+      \field{year}{1980}
+      \field{pages}{446\bibrangedash 455}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0039-6028(80)90018-7
+      \endverb
     \endentry
     \entry{FlytzaniStephanopoulos1979}{article}{}
       \name{author}{2}{}{%
@@ -12973,6 +13230,68 @@
       \verb 10.1038/s41524-021-00583-9
       \endverb
     \endentry
+    \entry{Linford2019}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=699c4c4c817bd225473296c744ca331c}{%
+           family={Linford},
+           familyi={L\bibinitperiod},
+           given={Matthew\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77204ef7a14a221ea8f3278cd0d02beb}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70db7581325b6aab68d5c95485e93fe9}{%
+           family={Thi{ß}en},
+           familyi={T\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70db7581325b6aab68d5c95485e93fe9}{%
+           family={Thi{ß}en},
+           familyi={T\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=699c4c4c817bd225473296c744ca331c}{%
+           family={Linford},
+           familyi={L\bibinitperiod},
+           given={Matthew\bibnamedelima R},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Vacuum Society}%
+      }
+      \strng{namehash}{e9efeb1339407e7a8398b1f1d91b5086}
+      \strng{fullhash}{ba7d29b34bee582ce8a1a332dbcca4a6}
+      \strng{bibnamehash}{e9efeb1339407e7a8398b1f1d91b5086}
+      \strng{authorbibnamehash}{e9efeb1339407e7a8398b1f1d91b5086}
+      \strng{authornamehash}{e9efeb1339407e7a8398b1f1d91b5086}
+      \strng{authorfullhash}{ba7d29b34bee582ce8a1a332dbcca4a6}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Surface Science Spectra}
+      \field{title}{{Water vapor, by near-ambient pressure XPS}}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1116/1.5111634
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1116/1.5111634
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1116/1.5111634
+      \endverb
+      \keyw{nap-xps,near-ambient pressure x-ray photoelectron,spectroscopy,water vapor,xps}
+    \endentry
     \entry{Lo2018}{article}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=84b054be15f3606579eaf39ddce8195b}{%
@@ -13202,6 +13521,51 @@
       \verb{doi}
       \verb 10.1088/0266-5611/21/1/004
       \endverb
+    \endentry
+    \entry{Ma2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=38291f82a0941550ff5b1e150a3a8b5d}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Hanyu},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=049e55461cdb18dfba63e0b8d1aadd02}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{05b87a5b4a545862232dd812445ef06a}
+      \strng{fullhash}{e1ebd728fe7b4af8d5f7dbd629c8732a}
+      \strng{bibnamehash}{e1ebd728fe7b4af8d5f7dbd629c8732a}
+      \strng{authorbibnamehash}{e1ebd728fe7b4af8d5f7dbd629c8732a}
+      \strng{authornamehash}{05b87a5b4a545862232dd812445ef06a}
+      \strng{authorfullhash}{e1ebd728fe7b4af8d5f7dbd629c8732a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ammonia oxidation is operated at different temperatures over Pt catalysts of different structures to recover different products. In this work, we elucidate the dependency of ammonia oxidation rates and selectivities on both Pt structure and temperature. We perform density functional theory (DFT) computations to compare the reaction and activation energies of elementary reactions on Pt(211) and Pt(111). We develop a microkinetic model parametrized with the DFT results. We show that barriers to product formation are lower on stepped Pt than on terrace, leading to a much higher step rate at low temperature to selectively oxidize ammonia to nitrogen. At high temperature, however, both step and terrace perform comparably in rate to selectively produce nitric oxide. While N 2 is always the thermodynamic product, relative N and O coverages interact to make NO the kinetic product at high temperature. The predicted rate and selectivity are consistent with experiments. We further show rate-controlling steps on the two Pt surfaces are different at low temperature but are the same at high temperature. The degrees of selectivity control for elementary reactions are comparable for the two surfaces. Finally, we demonstrate the flows of elementary reactions in the reaction network are also structure- and temperature-dependent.}
+      \field{issn}{21555435}
+      \field{journaltitle}{ACS Catalysis}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{{Structure- and Temperature-Dependence of Pt-Catalyzed Ammonia Oxidation Rates and Selectivities}}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{2407\bibrangedash 2414}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1021/acscatal.8b04251
+      \endverb
+      \keyw{active site,ammonia activation,density functional theory,kinetic and thermodynamic control,microkinetic modeling,platinum,structure sensitivity,temperature-dependent catalysis}
     \endentry
     \entry{Maia2012}{article}{}
       \name{author}{1}{}{%
@@ -16400,6 +16764,46 @@
       \endverb
       \keyw{NH oxidation,Mechanism,Platinum,Palladium,Rhodium,Wires,TAP reactor,DFT}
     \endentry
+    \entry{Peuckert1984}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=486399f24d8715c709b884960f3ee0e3}{%
+           family={Peuckert},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d5c488be009f9594c7344efa0bb1ab0}{%
+           family={Bonzel},
+           familyi={B\bibinitperiod},
+           given={H.P.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ee1a5543feb5aecf5ad148b38d7f126}
+      \strng{fullhash}{ee9aa81d3472d8c9a5d5a419c670d849}
+      \strng{bibnamehash}{ee9aa81d3472d8c9a5d5a419c670d849}
+      \strng{authorbibnamehash}{ee9aa81d3472d8c9a5d5a419c670d849}
+      \strng{authornamehash}{3ee1a5543feb5aecf5ad148b38d7f126}
+      \strng{authorfullhash}{ee9aa81d3472d8c9a5d5a419c670d849}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Various adlayers were grown on the (111) surface of a platinum crystal by four different oxidizing treatments. The resulting surface phases were characterized by X-ray photoelectron spectroscopy. According to the Pt 4f and O 1s XPS spectra, treatment in 0.1 MPa O2 at 900 K yielded about two monolayers of PtO2; anodic polarization in 0.5M H2SO4 acid electrolyte at 3 V versus standard hydrogen electrode gave a thick (> 5 nm) layer of Pt(OH)4, while by polarization in 1M NaOH base electrolyte at 3 V versus Ag/AgCl reference electrode a thick film of an oxyhydroxide (approximately PtO(OH)2) was formed. Etching in boiling conc. HNO3 led to a thin layer of about 1 nm of a hydrated oxide, PtO2 · xH2O. Identification of the different surface phases was supported by comparative experiments with bulk PtO2. The thermal stability of all compounds was investigated by heating the samples in ultrahigh vacuum. They all decomposed at about 400 K. Initially, not a pure metal phase was formed, but a mixed phase containing Pt metal and oxide, which was stable over a wide temperature range. No oxygen could be detected on the surface at 1070 K by XPS or Auger spectroscopy.}
+      \field{issn}{0039-6028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{1}
+      \field{title}{Characterization of oxidized platinum surfaces by X-ray photoelectron spectroscopy}
+      \field{volume}{145}
+      \field{year}{1984}
+      \field{pages}{239\bibrangedash 259}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0039-6028(84)90778-7
+      \endverb
+    \endentry
     \entry{Mark2005}{thesis}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=8a22dfbf0391def23bf034a44054a99f}{%
@@ -18559,6 +18963,53 @@
       \verb{doi}
       \verb 10.1088/1742-6596/425/20/202004
       \endverb
+    \endentry
+    \entry{Scheibe2005}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4bf5b912337c3cdc14e218c7f71d3c75}{%
+           family={Scheibe},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d96465bfc8b9d358c035aceb083342a5}{%
+           family={Lins},
+           familyi={L\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4ccc5f1e14042f4f0f94ed78c2b9f8d}{%
+           family={Imbihl},
+           familyi={I\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64f4b5405195bff9258a6985e98cf439}
+      \strng{fullhash}{2469162f61016c3bb415012f168db70f}
+      \strng{bibnamehash}{2469162f61016c3bb415012f168db70f}
+      \strng{authorbibnamehash}{2469162f61016c3bb415012f168db70f}
+      \strng{authornamehash}{64f4b5405195bff9258a6985e98cf439}
+      \strng{authorfullhash}{2469162f61016c3bb415012f168db70f}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The kinetics of ammonia oxidation with oxygen have been investigated in the 10−5 and 10−4mbar range on Pt(533) and Pt(443). Only N2 and NO but no N2O were detected as reaction products. The dependence of product formation on temperature and on the partial pressures of the reactants has been studied under steady state conditions. The reactive sticking coefficients were determined under reaction conditions with sreac of ammonia reaching nearly 0.2. The Pt(533) surface was found to be catalytically more active than Pt(443) by a factor of 2–4.}
+      \field{issn}{0039-6028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{1}
+      \field{title}{Kinetics of ammonia oxidation on stepped platinum surfaces. I. Experimental results}
+      \field{volume}{577}
+      \field{year}{2005}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.susc.2004.12.027
+      \endverb
+      \keyw{Platinum,Stepped platinum surface,Ammonia oxidation,Kinetics}
     \endentry
     \entry{Schleputz2005}{article}{}
       \name{author}{9}{ul=2}{%
@@ -23230,6 +23681,65 @@
       \verb https://doi.org/10.1002/anie.201102619
       \endverb
       \keyw{crystal facets,heterogeneous catalysis,nanocrystals,shape control,structure sensitivity}
+    \endentry
+    \entry{Zhu2003}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=16eaaf759d31b839bf06917282bf6d39}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={J.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af384e069e367785a7594252177512c0}{%
+           family={Kinne},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b8d89d775866602a8b892903c4ed89b}{%
+           family={Fuhrmann},
+           familyi={F\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7695295486cc328b9bf1684110752e67}{%
+           family={Denecke},
+           familyi={D\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbd5783e9de575041ac92272ba0cec1b}{%
+           family={Steinrück},
+           familyi={S\bibinitperiod},
+           given={H.\bibnamedelimi P.},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c9068ca2d40cca6451d4c3d71412fac5}
+      \strng{fullhash}{56842492043696ad4afcb70bad22baf2}
+      \strng{bibnamehash}{c9068ca2d40cca6451d4c3d71412fac5}
+      \strng{authorbibnamehash}{c9068ca2d40cca6451d4c3d71412fac5}
+      \strng{authornamehash}{c9068ca2d40cca6451d4c3d71412fac5}
+      \strng{authorfullhash}{56842492043696ad4afcb70bad22baf2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{High-resolution X-ray photoelectron spectroscopy (XPS) and temperature-programmed XPS at BESSY II have been applied to investigate the adsorption and desorption of NO on a Pt(1 1 1) surface. The coverage and temperature-dependent bonding configurations of NO have been identified from adsorbate O 1s and substrate Pt 4f7/2 core-level photoemission spectra, which were collected in situ during NO uptake or heating with data collection times per spectrum between 4 and 7 s. At 110 K, NO molecularly adsorbs on Pt(1 1 1) and sequentially populates three different adsorption sites. Up to coverages of 0.25 ML, only fcc-hollow sites are occupied, leading to the formation of a (2 × 2)-NO adsorbate structure. As coverage increases, in addition on-top sites are populated until at 0.5 ML a (2 × 2)-2NO structure is formed, which also represents the saturation structure at 250 K. Further increasing the coverage at 110 K leads to the occupation of hcp-hollow sites; at saturation, a (2 × 2)-3NO structure is observed with a coverage of 0.75 ML. Upon heating, the desorption of NO from the hcp-hollow sites gives rise to a desorption peak at 190 K. Further heating induces the desorption of on-top NO species starting at 275 K and fcc-hollow NO species starting at 320 K. No dissociation takes place. {©} 2003 Elsevier Science B.V. All rights reserved.}
+      \field{issn}{00396028}
+      \field{journaltitle}{Surface Science}
+      \field{number}{3}
+      \field{title}{{In situ high-resolution XPS studies on adsorption of NO on Pt(1 1 1)}}
+      \field{volume}{529}
+      \field{year}{2003}
+      \field{pages}{384\bibrangedash 396}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/S0039-6028(03)00298-X
+      \endverb
+      \keyw{Chemisorption,Low energy electron diffraction (LEED),Nitrogen oxides,Platinum,Surface structure,morphology,roughness,and topo,Synchrotron radiation photoelectron spectroscopy,Thermal desorption}
     \endentry
   \enddatalist
 \endrefsection

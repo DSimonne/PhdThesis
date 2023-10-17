@@ -25,12 +25,10 @@ Nomenclature: https://www.overleaf.com/learn/latex/Nomenclatures
 * in plane lattice displacement ROD fitting
 * Why not one bulk and all different surface interfere at one q ?
 * space groups P̅3m1 for alpha pto2 ?
+* consistent Pt (111)
+* what do we not see ?? xps, bcdi, sxrd
 
 Stress expresses the internal forces that neighbouring particles of a continuous material exert on each other, while strain is the measure of the relative deformation of the material.
-
-# XPS
-from ref 2021, Ivashenko, the large peak could be due to the presence of atomic oxygen and OH groups
-The large peak at 534 is gas water
 
 # Conditions
 Only ratio for nanoparticle, partial pressures for single crystals
