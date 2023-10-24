@@ -196,21 +196,23 @@ The values of the correction factors $f'$ and $f''$, also known as the dispersio
 To understand the impact of the correction factors on the electromagnetic wave inside a material, we introduce the complex refraction index $n$, which for x-rays can be written as \parencite{NielsenMcMorrow}:
 
 \begin{gather}
-    n = 1-\delta+i\beta = 1 - \frac{r_0 \lambda^2}{2\pi} \sum_i N_i f_i(\vec{q}=0)\\
     \label{eq:delta}
-    \delta = \frac{r_0 \lambda^2}{2\pi} \sum_i N_i f_1(\vec{q}=0)\\
-    \beta = \frac{r_0 \lambda^2}{2\pi} \sum_i N_i f_2
+    n = 1-\delta+i\beta = 1 - \frac{r_0 \lambda^2}{2\pi} \sum_i N_i f_i(\vec{q}=0)\\
+    \delta = \frac{r_0 \lambda^2}{2\pi} \sum_i N_i f_{i, 1}(\vec{q}=0)\\
+    \beta = \frac{r_0 \lambda^2}{2\pi} \sum_i N_i f_{i, 2}
 \end{gather}
 with $f_i(\vec{q}=0)$ the total atomic form factor of the atom $i$ in the forward direction ($\vec{q}=0$), and $N_i$ the number of atoms corresponding to the element $i$ per unit volume.
 $\delta$ is the refractive index and $\beta$ the absorption index.
 
-During simple experiments, when x-rays impinge on a plane surface between air ($n$=1) and another medium of refractive index $n$, x-rays are refracted, the wavelength changes to $\lambda/n$ and the direction of propagation becomes closer to the surface between both mediums.
+During simple experiments, when x-rays impinge on a plane surface between air ($n$=1) and another medium of refractive index $n$, x-rays are refracted, the wavelength changes to $\lambda/n$, and the direction of propagation becomes closer to the surface between both mediums.
 Below a certain incident angle known as the \textit{critical angle} $\alpha_c$ between the direction of the incident x-rays and the plane interface, the x-rays will be totally reflected.
 This effect is used in focusing mirrors for optics but also in techniques used to probe the surface of materials to obtain information about the surface density, the critical angle being approximately equal to $\sqrt{2\rho}$ (when working at the same energy) \parencite{Willmott}.
 Moreover, during surface x-ray diffraction, the incoming angle perpendicular to the surface is kept to very low values approaching the critical angle to limit the volume probed by the x-rays to increase the contrast between the amplitude of the x-rays scattered from the latest surface layers in regard to the x-rays scattered from the bulk.
 The penetration depth of the x-rays in the material is detailed is sec. \ref{sec:SXRD}.
 
-Far from the binding energies of the electron in the system, the correction factor $f'$ in the expression of $\delta$ can be ignored and the sum in eq. \ref{eq:delta} is then equal to the electronic density of the system.
+Far from the binding energies of the electron in the system, the correction factors $f'$ in the expression of the scattering factor can be ignored.
+% and the sum in eq. \ref{eq:delta} is then equal to the electronic density of the system.
+\textcolor{Important}{Doucle check}
 
 Finally, to highlight the impact of the complex part of the absorption index $\beta$, we express the electric field of a plane electromagnetic wave propagating in the $\vec{z}$ direction inside a material of refractive index $n$ as follows:
 
@@ -220,14 +222,15 @@ Finally, to highlight the impact of the complex part of the absorption index $\b
 
 The imaginary part of the form factor translates into an exponential decay of the intensity of the incoming wave as a function of the absorption index $\beta$, the intensity of the electromagnetic field decreases; \textit{i.e.} the wave is absorbed by the material.
 The absorption of the photons by the material is at the origin of many different phenomena such as the promotion of electrons to either higher energetic bound states or directly to vacuum.
-The kinetic energy of the electrons released from the material in the latter scenario is equal to the incident photon energy $\hbar\omega$ minus the energy required to release the electron from its bound state $E_b$, minus the energy required for the electron to escape from the electronic cloud $W$ (also known as the work function).
+The kinetic energy of the electrons released from the material in the latter scenario is equal to the incident photon energy $\hbar\omega$, minus the energy required to release the electron from its bound state $E_b$, minus the energy required for the electron to escape from the electronic cloud $W$ (also known as the work function).
 
 \begin{equation}
     E_{kin} = \hbar\omega - W - E_b
 \end{equation}
 
 Measuring the kinetic energy of the photoelectron that escaped the material yields direct information about the different binding energies present in the material, \textit{i.e.} about its electronic structure.
-The study of these binding/binding energy is known as x-ray photoelectron spectroscopy (XPS), a technique used in this thesis to study the electronic structure of the latest atomic layers of a surface, electrons released from atoms in deeper layers being ultimately absorbed by the surrounding atoms.
+The study of these binding/kinetic energies is known as x-ray photoelectron spectroscopy (XPS), a technique used in this thesis to study the electronic structure of the atoms within the topmost atomic layers of the catalyst.
+Electrons released from atoms in deep layers are ultimately absorbed by the surrounding atoms.
 The cross-section for XPS is directly proportional to the absorption cross-section $\sigma_a$ (eq. \ref{eq:AbsorptionCrossSection}, fig. \ref{fig:cross_sections}) which can be derived from the imaginary atomic form factor:
 
 \begin{equation}

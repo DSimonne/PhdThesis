@@ -6,6 +6,11 @@ pdflatex main.tex; biber main; pdflatex main.tex; okular main.pdf
 Nomenclature: https://www.overleaf.com/learn/latex/Nomenclatures
 
 # TODO
+* recheck literature for pt 100 oxide
+* van spronsen oxidation pt 111 at 1 to 5 bar !!! also 8x8, no xps
+* li pt 100 100mbar !! do they see pt3o4 ?
+* seriani reshaping nanoparticles
+
 * Emphasize in situ and operando
 * Emphasize Pt oxides
 * Check if line profiles are really biased from ER
@@ -24,8 +29,8 @@ Nomenclature: https://www.overleaf.com/learn/latex/Nomenclatures
 * no we, us
 * in plane lattice displacement ROD fitting
 * Why not one bulk and all different surface interfere at one q ?
-* space groups P̅3m1 for alpha pto2 ?
-* consistent Pt (111)
+* space groups P̅3m1 for alpha pto2 ? nomiyama2011
+* consistent Pt(111)
 * what do we not see ?? xps, bcdi, sxrd
 
 Stress expresses the internal forces that neighbouring particles of a continuous material exert on each other, while strain is the measure of the relative deformation of the material.
