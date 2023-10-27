@@ -5002,40 +5002,6 @@
       \endverb
       \keyw{X-ray diffraction,form factors,nanoparticles,polyhedra}
     \endentry
-    \entry{Cuenya2010}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a892b0c75115189bb8f29a798269e092}{%
-           family={Cuenya},
-           familyi={C\bibinitperiod},
-           given={Beatriz\bibnamedelima Roldan},
-           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{a892b0c75115189bb8f29a798269e092}
-      \strng{fullhash}{a892b0c75115189bb8f29a798269e092}
-      \strng{bibnamehash}{a892b0c75115189bb8f29a798269e092}
-      \strng{authorbibnamehash}{a892b0c75115189bb8f29a798269e092}
-      \strng{authornamehash}{a892b0c75115189bb8f29a798269e092}
-      \strng{authorfullhash}{a892b0c75115189bb8f29a798269e092}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0040-6090}
-      \field{journaltitle}{Thin Solid Films}
-      \field{number}{12}
-      \field{title}{Synthesis and catalytic properties of metal nanoparticles: Size, shape, support, composition, and oxidation state effects}
-      \field{volume}{518}
-      \field{year}{2010}
-      \field{pages}{3127\bibrangedash 3150}
-      \range{pages}{24}
-      \verb{doi}
-      \verb https://doi.org/10.1016/j.tsf.2010.01.018
-      \endverb
-      \keyw{Catalysis,Nanoparticle,Cluster,Reactivity,XPS,EXAFS,TPD,STM,Mass spectrometry,Electrochemistry}
-    \endentry
     \entry{Dann2019}{thesis}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b98a42317c7b3f986f205439848bbbc0}{%
@@ -7504,6 +7470,45 @@
       \field{pages}{4\bibrangedash 7}
       \range{pages}{4}
     \endentry
+    \entry{Galloway1981}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=983bab3b8872ba244c3f7d2692334399}{%
+           family={Galloway},
+           familyi={G\bibinitperiod},
+           given={James\bibnamedelima N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b7f092ca46531c35059dc9a6ba6a63a}{%
+           family={Likens},
+           familyi={L\bibinitperiod},
+           given={Gene\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9332ffdd934acc2f1021259ddd0cbef9}
+      \strng{fullhash}{1cc7df715a4efa404c52757a75edff25}
+      \strng{bibnamehash}{1cc7df715a4efa404c52757a75edff25}
+      \strng{authorbibnamehash}{1cc7df715a4efa404c52757a75edff25}
+      \strng{authornamehash}{9332ffdd934acc2f1021259ddd0cbef9}
+      \strng{authorfullhash}{1cc7df715a4efa404c52757a75edff25}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0004-6981}
+      \field{journaltitle}{Atmospheric Environment (1967)}
+      \field{number}{6}
+      \field{title}{Acid precipitation: The importance of nitric acid}
+      \field{volume}{15}
+      \field{year}{1981}
+      \field{pages}{1081\bibrangedash 1085}
+      \range{pages}{5}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0004-6981(81)90109-8
+      \endverb
+    \endentry
     \entry{Gandhi2003}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=5280df548eff35335f710f358a13cff5}{%
@@ -9185,7 +9190,7 @@
       \field{labeltitlesource}{title}
       \field{issue}{12}
       \field{journaltitle}{Phys. Rev. B}
-      \field{month}{3}
+      \field{month}{03}
       \field{title}{Density functional theory study of the initial oxidation of the Pt(111) surface}
       \field{volume}{79}
       \field{year}{2009}
@@ -10262,6 +10267,52 @@
       \endverb
       \verb{url}
       \verb https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=907540
+      \endverb
+    \endentry
+    \entry{Hughes1950}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=04f1617dc7df89ac7ec680f993415fa7}{%
+           family={Hughes},
+           familyi={H\bibinitperiod},
+           given={E.\bibnamedelimi D.},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58db086325861ab6a6daf20595e2ede0}{%
+           family={Ingold},
+           familyi={I\bibinitperiod},
+           given={C.\bibnamedelimi K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6d470814d4ca46cee70f18d2002e35b4}{%
+           family={Reed},
+           familyi={R\bibinitperiod},
+           given={R.\bibnamedelimi I.},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{d7d16b0eea9b0fbf4d87d7c72e6913e9}
+      \strng{fullhash}{e7e0c34c0721d68381f48347ff35064a}
+      \strng{bibnamehash}{e7e0c34c0721d68381f48347ff35064a}
+      \strng{authorbibnamehash}{e7e0c34c0721d68381f48347ff35064a}
+      \strng{authornamehash}{d7d16b0eea9b0fbf4d87d7c72e6913e9}
+      \strng{authorfullhash}{e7e0c34c0721d68381f48347ff35064a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{0}
+      \field{journaltitle}{J. Chem. Soc.}
+      \field{title}{493. Kinetics and mechanism of aromatic nitration. Part II. Nitration by the nitronium ion{,} NO2+{,} derived from nitric acid}
+      \field{year}{1950}
+      \field{pages}{2400\bibrangedash 2440}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.1039/JR9500002400
       \endverb
     \endentry
     \entry{Hunter2007}{article}{}
@@ -13064,6 +13115,54 @@
       \verb 10.1126/science.aan4141
       \endverb
     \endentry
+    \entry{Lee2005}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=b7a2c4ff671b566dc07211f9deb1f922}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=1}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=b1551b9639cb8857f5408b2c9a339182}{%
+           family={Mannan},
+           familyi={M\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Burlington}%
+      }
+      \list{publisher}{1}{%
+        {Butterworth-Heinemann}%
+      }
+      \strng{namehash}{b7a2c4ff671b566dc07211f9deb1f922}
+      \strng{fullhash}{b7a2c4ff671b566dc07211f9deb1f922}
+      \strng{bibnamehash}{b7a2c4ff671b566dc07211f9deb1f922}
+      \strng{authorbibnamehash}{b7a2c4ff671b566dc07211f9deb1f922}
+      \strng{authornamehash}{b7a2c4ff671b566dc07211f9deb1f922}
+      \strng{authorfullhash}{b7a2c4ff671b566dc07211f9deb1f922}
+      \strng{editorbibnamehash}{b1551b9639cb8857f5408b2c9a339182}
+      \strng{editornamehash}{b1551b9639cb8857f5408b2c9a339182}
+      \strng{editorfullhash}{b1551b9639cb8857f5408b2c9a339182}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Lees' Loss Prevention in the Process Industries (Third Edition)}
+      \field{edition}{Third Edition}
+      \field{isbn}{978-0-7506-7555-0}
+      \field{title}{11 - Process Design}
+      \field{year}{2005}
+      \field{pages}{11/1\bibrangedash 11/65}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-075067555-0.50099-2
+      \endverb
+    \endentry
     \entry{Lee2006}{article}{}
       \name{author}{6}{}{%
         {{un=1,uniquepart=given,hash=9373aab3edf9602d75cfcf3158bad6f5}{%
@@ -13530,12 +13629,12 @@
     \endentry
     \entry{Lim2021}{article}{}
       \name{author}{11}{}{%
-        {{un=0,uniquepart=base,hash=de8c87f38de33f400411d366edb9e231}{%
+        {{un=1,uniquepart=given,hash=de8c87f38de33f400411d366edb9e231}{%
            family={Lim},
            familyi={L\bibinitperiod},
            given={Bruce},
            giveni={B\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=d98241a78b01a1b1584f88b9810be43a}{%
            family={Bellec},
            familyi={B\bibinitperiod},
@@ -13621,6 +13720,60 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.1038/s41524-021-00583-9
+      \endverb
+    \endentry
+    \entry{Lim2021a}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=ba2cf6f65f95b8412311e5a8738bb474}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Jeonghoon},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=4f38beebdd00a7b990bafab7d919485e}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Carlos\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f295bc53a6172d11ea470bc89bd1e33}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Seung\bibnamedelima Woo},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85d33ce2a02272fad6fad39068051233}{%
+           family={Hatzell},
+           familyi={H\bibinitperiod},
+           given={Marta\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{1d5d64aa67789de168b9f61bfdfd906e}
+      \strng{fullhash}{90b7071ee8030c7d8cf9877fb0e1e356}
+      \strng{bibnamehash}{1d5d64aa67789de168b9f61bfdfd906e}
+      \strng{authorbibnamehash}{1d5d64aa67789de168b9f61bfdfd906e}
+      \strng{authornamehash}{1d5d64aa67789de168b9f61bfdfd906e}
+      \strng{authorfullhash}{90b7071ee8030c7d8cf9877fb0e1e356}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACS Energy Letters}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Ammonia and Nitric Acid Demands for Fertilizer Use in 2050}
+      \field{volume}{6}
+      \field{year}{2021}
+      \field{pages}{3676\bibrangedash 3685}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1021/acsenergylett.1c01614
       \endverb
     \endentry
     \entry{Linford2019}{article}{}
@@ -13999,12 +14152,45 @@
       \verb :home/david/Downloads/nmeth.2110.pdf:pdf
       \endverb
     \endentry
+    \entry{Marchesini2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=83135380d80d77b3b36812e0f386fe1f}{%
+           family={Marchesini},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{83135380d80d77b3b36812e0f386fe1f}
+      \strng{fullhash}{83135380d80d77b3b36812e0f386fe1f}
+      \strng{bibnamehash}{83135380d80d77b3b36812e0f386fe1f}
+      \strng{authorbibnamehash}{83135380d80d77b3b36812e0f386fe1f}
+      \strng{authornamehash}{83135380d80d77b3b36812e0f386fe1f}
+      \strng{authorfullhash}{83135380d80d77b3b36812e0f386fe1f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Iterative projection algorithms are successfully being used as a substitute of lenses to recombine, numerically rather than optically, light scattered by illuminated objects. Images obtained computationally allow aberration-free diffraction-limited imaging and the possibility of using radiation for which no lenses exist. The challenge of this imaging technique is transferred from the lenses to the algorithms. We evaluate these new computational "instruments" developed for the phase-retrieval problem, and discuss acceleration strategies. {©} 2007 American Institute of Physics.}
+      \field{journaltitle}{Review of Scientific Instruments}
+      \field{number}{1}
+      \field{title}{{A unified evaluation of iterative projection algorithms for phase retrieval}}
+      \field{volume}{78}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1063/1.2403783
+      \endverb
+    \endentry
     \entry{Marchesini2003a}{report}{}
       \name{author}{11}{ul=2}{%
         {{un=0,uniquepart=base,hash=83135380d80d77b3b36812e0f386fe1f}{%
            family={Marchesini},
            familyi={M\bibinitperiod},
-           given={S},
+           given={S.},
            giveni={S\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=4903791d9620c95e674f60ed6b1c751b}{%
@@ -14083,39 +14269,6 @@
       \field{abstract}{The inversion of a diffraction pattern offers aberration-free diffraction-limited 3D images without the resolution and depth-of-field limitations of lens-based tomographic systems, the only limitation being radiation damage. We review our recent experimental results, in which X-ray images were reconstructed from the diffraction pattern alone. A preliminary analysis of the radiation dose needed for CXDI imaging and the dose tolerance of frozen-hydrated life-science samples suggests}
       \field{title}{Coherent X-ray diffractive imaging: applications and limitations}
       \field{year}{2003}
-    \endentry
-    \entry{Marchesini2007}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=83135380d80d77b3b36812e0f386fe1f}{%
-           family={Marchesini},
-           familyi={M\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{83135380d80d77b3b36812e0f386fe1f}
-      \strng{fullhash}{83135380d80d77b3b36812e0f386fe1f}
-      \strng{bibnamehash}{83135380d80d77b3b36812e0f386fe1f}
-      \strng{authorbibnamehash}{83135380d80d77b3b36812e0f386fe1f}
-      \strng{authornamehash}{83135380d80d77b3b36812e0f386fe1f}
-      \strng{authorfullhash}{83135380d80d77b3b36812e0f386fe1f}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Iterative projection algorithms are successfully being used as a substitute of lenses to recombine, numerically rather than optically, light scattered by illuminated objects. Images obtained computationally allow aberration-free diffraction-limited imaging and the possibility of using radiation for which no lenses exist. The challenge of this imaging technique is transferred from the lenses to the algorithms. We evaluate these new computational "instruments" developed for the phase-retrieval problem, and discuss acceleration strategies. {©} 2007 American Institute of Physics.}
-      \field{journaltitle}{Review of Scientific Instruments}
-      \field{number}{1}
-      \field{title}{{A unified evaluation of iterative projection algorithms for phase retrieval}}
-      \field{volume}{78}
-      \field{year}{2007}
-      \field{pages}{1\bibrangedash 10}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1063/1.2403783
-      \endverb
     \endentry
     \entry{Marchesini2003}{article}{}
       \name{author}{8}{ul=2}{%
@@ -14366,6 +14519,38 @@
       \range{pages}{12}
       \verb{doi}
       \verb https://doi.org/10.1016/0039-6028(92)90615-D
+      \endverb
+    \endentry
+    \entry{Mason1956}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d99c9e7dc5eafe4b7cd0837ce290d204}{%
+           family={Mason},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d99c9e7dc5eafe4b7cd0837ce290d204}
+      \strng{fullhash}{d99c9e7dc5eafe4b7cd0837ce290d204}
+      \strng{bibnamehash}{d99c9e7dc5eafe4b7cd0837ce290d204}
+      \strng{authorbibnamehash}{d99c9e7dc5eafe4b7cd0837ce290d204}
+      \strng{authornamehash}{d99c9e7dc5eafe4b7cd0837ce290d204}
+      \strng{authorfullhash}{d99c9e7dc5eafe4b7cd0837ce290d204}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Jet Propulsion}
+      \field{number}{9}
+      \field{title}{Properties of Fuming Nitric Acid Affecting Its Storage and Use as a Rocket Propellant}
+      \field{volume}{26}
+      \field{year}{1956}
+      \field{pages}{741\bibrangedash 744}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.2514/8.7130
       \endverb
     \endentry
     \entry{Mastropietro2011}{article}{}
@@ -16658,6 +16843,47 @@
       \verb 10.1021/acs.jpcc.5b06070
       \endverb
     \endentry
+    \entry{Oommen1999}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=164895a127bf8ece8fd208f77fa9aa96}{%
+           family={Oommen},
+           familyi={O\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=359d15cd209339935c552dd45a84e698}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={S.R.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cd1bf91b2aa7d65eea32eec3732479ff}
+      \strng{fullhash}{4b0f1f614d7860b578312b4a9bdf2c5b}
+      \strng{bibnamehash}{4b0f1f614d7860b578312b4a9bdf2c5b}
+      \strng{authorbibnamehash}{4b0f1f614d7860b578312b4a9bdf2c5b}
+      \strng{authornamehash}{cd1bf91b2aa7d65eea32eec3732479ff}
+      \strng{authorfullhash}{4b0f1f614d7860b578312b4a9bdf2c5b}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ammonium nitrate (AN) is extensively used in the area of fertilizers and explosives. It is present as the major component in most industrial explosives. Its use as an oxidizer in the area of propellants, however, is not as extensive as in explosive compositions or gas generators. With the growing demand for environmental friendly chlorine free propellants, many attempts have been made of late to investigate oxidizers producing innocuous combustion products. AN, unlike the widely used ammonium perchlorate, produces completely ecofriendly smokeless products. Besides, it is one of the cheapest and easily available compounds. However, its use in large rocket motors is restricted due to some of its adverse characteristics like hygroscopicity, near room temperature phase transformation involving a volume change, and low burning rate (BR) and energetics. The review is an attempt to consolidate the information available on the various issues pertaining to its use as a solid propellant oxidizer. Detailed discussions on the aspects relating to phase modifications, decomposition chemistry, and BR and energetics of AN-based propellants, are presented. To make the review more comprehensive brief descriptions of the history, manufacture, safety, physical and chemical properties and various other applications of the salt are also included.}
+      \field{issn}{0304-3894}
+      \field{journaltitle}{Journal of Hazardous Materials}
+      \field{number}{3}
+      \field{title}{Ammonium nitrate: a promising rocket propellant oxidizer}
+      \field{volume}{67}
+      \field{year}{1999}
+      \field{pages}{253\bibrangedash 281}
+      \range{pages}{29}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0304-3894(99)00039-4
+      \endverb
+      \keyw{Ammonium nitrate,Solid composite propellants,Clean burning propellants,Phase modification,Explosives,Burning rate}
+    \endentry
     \entry{Ostermaier1974}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=4faf8e5d3b737660f0e489d1823c97c3}{%
@@ -16750,6 +16976,64 @@
       \range{pages}{16}
       \verb{doi}
       \verb 10.1016/0021-9517(76)90343-2
+      \endverb
+    \endentry
+    \entry{Ouellette2014}{incollection}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b608a81736f95c5b6f25ab8c7d199e58}{%
+           family={Ouellette},
+           familyi={O\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c33439bb97c763c166fd113ddbd5c0fa}{%
+           family={Rawn},
+           familyi={R\bibinitperiod},
+           given={J.\bibnamedelimi David},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=b608a81736f95c5b6f25ab8c7d199e58}{%
+           family={Ouellette},
+           familyi={O\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c33439bb97c763c166fd113ddbd5c0fa}{%
+           family={Rawn},
+           familyi={R\bibinitperiod},
+           given={J.\bibnamedelimi David},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{1428919997b2059f75f261d5bcad8c15}
+      \strng{fullhash}{03380008a83501375dde28c317f36258}
+      \strng{bibnamehash}{03380008a83501375dde28c317f36258}
+      \strng{authorbibnamehash}{03380008a83501375dde28c317f36258}
+      \strng{authornamehash}{1428919997b2059f75f261d5bcad8c15}
+      \strng{authorfullhash}{03380008a83501375dde28c317f36258}
+      \strng{editorbibnamehash}{03380008a83501375dde28c317f36258}
+      \strng{editornamehash}{1428919997b2059f75f261d5bcad8c15}
+      \strng{editorfullhash}{03380008a83501375dde28c317f36258}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Organic Chemistry}
+      \field{isbn}{978-0-12-800780-8}
+      \field{title}{13 - Electrophilic Aromatic Substitution}
+      \field{year}{2014}
+      \field{pages}{417\bibrangedash 451}
+      \range{pages}{35}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-0-12-800780-8.00013-9
       \endverb
     \endentry
     \entry{WorldDataFertilizer}{online}{}
@@ -18576,62 +18860,6 @@
       \verb 10.1107/S0021889800004696
       \endverb
     \endentry
-    \entry{Robinson2001}{article}{}
-      \name{author}{5}{ul=2}{%
-        {{un=1,uniquepart=given,hash=892104b4cadaea7613199fef90707a6c}{%
-           family={Robinson},
-           familyi={R\bibinitperiod},
-           given={I\bibnamedelima K},
-           giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=6cbae162c43a6f89a75ec5ed2890da8c}{%
-           family={Vartanyants},
-           familyi={V\bibinitperiod},
-           given={I\bibnamedelima A},
-           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a3ad7153aa4b7dc05311c5da899fa260}{%
-           family={Williams},
-           familyi={W\bibinitperiod},
-           given={G\bibnamedelima J},
-           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=841d15307839f61cab223aff66240df5}{%
-           family={Pfeifer},
-           familyi={P\bibinitperiod},
-           given={M\bibnamedelima A},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=556b10584f574d7edbb714091db2bd5d}{%
-           family={Pitney},
-           familyi={P\bibinitperiod},
-           given={J\bibnamedelima A},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6aa0955d8193d3fc05bdeb3b001f40eb}
-      \strng{fullhash}{53c451f64feab69b22277563c4ea1ae6}
-      \strng{bibnamehash}{6aa0955d8193d3fc05bdeb3b001f40eb}
-      \strng{authorbibnamehash}{6aa0955d8193d3fc05bdeb3b001f40eb}
-      \strng{authornamehash}{6aa0955d8193d3fc05bdeb3b001f40eb}
-      \strng{authorfullhash}{53c451f64feab69b22277563c4ea1ae6}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{number}{19}
-      \field{title}{{Reconstruction of the Shapes of Gold Nanocrystals Using Coherent X-Ray Diffraction}}
-      \field{volume}{87}
-      \field{year}{2001}
-      \field{pages}{1\bibrangedash 4}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.87.195505
-      \endverb
-    \endentry
     \entry{Robinson1986}{article}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=892104b4cadaea7613199fef90707a6c}{%
@@ -18763,6 +18991,62 @@
       \verb 10.1088/0034-4885/55/5/002
       \endverb
     \endentry
+    \entry{Robinson2001}{article}{}
+      \name{author}{5}{ul=2}{%
+        {{un=1,uniquepart=given,hash=892104b4cadaea7613199fef90707a6c}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={I.\bibnamedelimi K.},
+           giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=6cbae162c43a6f89a75ec5ed2890da8c}{%
+           family={Vartanyants},
+           familyi={V\bibinitperiod},
+           given={I.\bibnamedelimi A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3ad7153aa4b7dc05311c5da899fa260}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={G.\bibnamedelimi J.},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=841d15307839f61cab223aff66240df5}{%
+           family={Pfeifer},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=556b10584f574d7edbb714091db2bd5d}{%
+           family={Pitney},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6aa0955d8193d3fc05bdeb3b001f40eb}
+      \strng{fullhash}{53c451f64feab69b22277563c4ea1ae6}
+      \strng{bibnamehash}{6aa0955d8193d3fc05bdeb3b001f40eb}
+      \strng{authorbibnamehash}{6aa0955d8193d3fc05bdeb3b001f40eb}
+      \strng{authornamehash}{6aa0955d8193d3fc05bdeb3b001f40eb}
+      \strng{authorfullhash}{53c451f64feab69b22277563c4ea1ae6}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{number}{19}
+      \field{title}{{Reconstruction of the Shapes of Gold Nanocrystals Using Coherent X-Ray Diffraction}}
+      \field{volume}{87}
+      \field{year}{2001}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.87.195505
+      \endverb
+    \endentry
     \entry{Robinson2009}{article}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=eaed36ba79bb2c6095773ccc079ca1d0}{%
@@ -18802,6 +19086,40 @@
       \verb{doi}
       \verb 10.1038/nmat2400
       \endverb
+    \endentry
+    \entry{Cuenya2010}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=efb1b547bb098ff020d53a915d34e2f8}{%
+           family={{Roldan Cuenya}},
+           familyi={R\bibinitperiod},
+           given={Beatriz},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{efb1b547bb098ff020d53a915d34e2f8}
+      \strng{fullhash}{efb1b547bb098ff020d53a915d34e2f8}
+      \strng{bibnamehash}{efb1b547bb098ff020d53a915d34e2f8}
+      \strng{authorbibnamehash}{efb1b547bb098ff020d53a915d34e2f8}
+      \strng{authornamehash}{efb1b547bb098ff020d53a915d34e2f8}
+      \strng{authorfullhash}{efb1b547bb098ff020d53a915d34e2f8}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0040-6090}
+      \field{journaltitle}{Thin Solid Films}
+      \field{number}{12}
+      \field{title}{Synthesis and catalytic properties of metal nanoparticles: Size, shape, support, composition, and oxidation state effects}
+      \field{volume}{518}
+      \field{year}{2010}
+      \field{pages}{3127\bibrangedash 3150}
+      \range{pages}{24}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.tsf.2010.01.018
+      \endverb
+      \keyw{Catalysis,Nanoparticle,Cluster,Reactivity,XPS,EXAFS,TPD,STM,Mass spectrometry,Electrochemistry}
     \endentry
     \entry{Ronaghi2017}{inproceedings}{}
       \name{author}{8}{}{%
@@ -21325,12 +21643,12 @@
     \endentry
     \entry{Ulvestad2014}{article}{}
       \name{author}{8}{ul=2}{%
-        {{un=1,uniquepart=given,hash=b2c0c28b0cf4b2fa6e6fb068c1ac0b22}{%
+        {{un=0,uniquepart=base,hash=b2c0c28b0cf4b2fa6e6fb068c1ac0b22}{%
            family={Ulvestad},
            familyi={U\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=8e46fa2c17fd36a6e78c16fab7a8d03a}{%
            family={Cho},
            familyi={C\bibinitperiod},
@@ -21408,12 +21726,12 @@
     \endentry
     \entry{Ulvestad2017}{article}{}
       \name{author}{6}{ul=2}{%
-        {{un=1,uniquepart=given,hash=b2c0c28b0cf4b2fa6e6fb068c1ac0b22}{%
+        {{un=0,uniquepart=base,hash=b2c0c28b0cf4b2fa6e6fb068c1ac0b22}{%
            family={Ulvestad},
            familyi={U\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=1,uniquepart=given,hash=574d4105cef60bea5767cc8fb3b70a52}{%
            family={Nashed},
            familyi={N\bibinitperiod},
@@ -21473,14 +21791,96 @@
       \verb 10.1038/s41598-017-09582-7
       \endverb
     \endentry
+    \entry{Ulvestad2015}{article}{}
+      \name{author}{9}{ul=2}{%
+        {{un=0,uniquepart=base,hash=b2c0c28b0cf4b2fa6e6fb068c1ac0b22}{%
+           family={Ulvestad},
+           familyi={U\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d4e0d8655dba6a0d61260c97248cd5d}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=013a052a8b8fdf76a9786e80c2ce0761}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e46fa2c17fd36a6e78c16fab7a8d03a}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={H.\bibnamedelimi M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=deb0487fff8a7ed0b0d1653d20caf3f5}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb97a112f61add4b5b941d11347f9a84}{%
+           family={Harder},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96ce25bb0195b543a10a34895217ec19}{%
+           family={Maser},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9235699231160d2b4a0755ca07a29432}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Y.\bibnamedelimi S.},
+           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04af6144d80f36393c90589128918007}{%
+           family={Shpyrko},
+           familyi={S\bibinitperiod},
+           given={O.\bibnamedelimi G.},
+           giveni={O\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a4898de8fd25072e83b092e3273f101}
+      \strng{fullhash}{654657f8d93b62f3fa97c1c8b483259f}
+      \strng{bibnamehash}{6a4898de8fd25072e83b092e3273f101}
+      \strng{authorbibnamehash}{6a4898de8fd25072e83b092e3273f101}
+      \strng{authornamehash}{6a4898de8fd25072e83b092e3273f101}
+      \strng{authorfullhash}{654657f8d93b62f3fa97c1c8b483259f}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Topological defects can markedly alter nanomaterial properties. This presents opportunities for "defect engineering," where desired functionalities are generated through defect manipulation. However, imaging defects in working devices with nanoscale resolution remains elusive. We report three-dimensional imaging of dislocation dynamics in individual battery cathode nanoparticles under operando conditions using Bragg coherent diffractive imaging. Dislocations are static at room temperature and mobile during charge transport. During the structural phase transformation, the lithium-rich phase nucleates near the dislocation and spreads inhomogeneously. The dislocation field is a local probe of elastic properties, and we find that a region of the material exhibits a negative Poisson's ratio at high voltage. Operando dislocation imaging thus opens a powerful avenue for facilitating improvement and rational design of nanostructured materials.}
+      \field{issn}{10959203}
+      \field{journaltitle}{Science}
+      \field{number}{6241}
+      \field{title}{{Topological defect dynamics in operando battery nanoparticles}}
+      \field{volume}{348}
+      \field{year}{2015}
+      \field{pages}{1344\bibrangedash 1347}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.aaa1313
+      \endverb
+    \endentry
     \entry{Ulvestad2015a}{article}{}
       \name{author}{8}{ul=2}{%
-        {{un=1,uniquepart=given,hash=5d786e96f68775db92980288601162a6}{%
+        {{un=0,uniquepart=base,hash=5d786e96f68775db92980288601162a6}{%
            family={Ulvestad},
            familyi={U\bibinitperiod},
            given={Andrew},
            giveni={A\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=b8a8217e8ffa24cdd2fddd8c0d764e09}{%
            family={Clark},
            familyi={C\bibinitperiod},
@@ -21555,12 +21955,12 @@
     \endentry
     \entry{Ulvestad2016}{article}{}
       \name{author}{12}{ul=2}{%
-        {{un=1,uniquepart=given,hash=5d786e96f68775db92980288601162a6}{%
+        {{un=0,uniquepart=base,hash=5d786e96f68775db92980288601162a6}{%
            family={Ulvestad},
            familyi={U\bibinitperiod},
            given={Andrew},
            giveni={A\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=80cd162ff8ec68f89deaef53ab42628d}{%
            family={Sasikumar},
            familyi={S\bibinitperiod},
@@ -21655,88 +22055,6 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.1021/acs.jpclett.6b01038
-      \endverb
-    \endentry
-    \entry{Ulvestad2015}{article}{}
-      \name{author}{9}{}{%
-        {{un=1,uniquepart=given,hash=ae3f51d30c0901e88ddf23d3dc90b39d}{%
-           family={Ulvestad},
-           familyi={U\bibinitperiod},
-           given={U.},
-           giveni={U\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=5d4e0d8655dba6a0d61260c97248cd5d}{%
-           family={Singer},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=013a052a8b8fdf76a9786e80c2ce0761}{%
-           family={Clark},
-           familyi={C\bibinitperiod},
-           given={J.\bibnamedelimi N.},
-           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8e46fa2c17fd36a6e78c16fab7a8d03a}{%
-           family={Cho},
-           familyi={C\bibinitperiod},
-           given={H.\bibnamedelimi M.},
-           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=deb0487fff8a7ed0b0d1653d20caf3f5}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={J.\bibnamedelimi W.},
-           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bb97a112f61add4b5b941d11347f9a84}{%
-           family={Harder},
-           familyi={H\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=96ce25bb0195b543a10a34895217ec19}{%
-           family={Maser},
-           familyi={M\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9235699231160d2b4a0755ca07a29432}{%
-           family={Meng},
-           familyi={M\bibinitperiod},
-           given={Y.\bibnamedelimi S.},
-           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=04af6144d80f36393c90589128918007}{%
-           family={Shpyrko},
-           familyi={S\bibinitperiod},
-           given={O.\bibnamedelimi G.},
-           giveni={O\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{57b156d1638609151820607fb938db18}
-      \strng{fullhash}{3714424ebbb039f910cd4e2fb90efc11}
-      \strng{bibnamehash}{57b156d1638609151820607fb938db18}
-      \strng{authorbibnamehash}{57b156d1638609151820607fb938db18}
-      \strng{authornamehash}{57b156d1638609151820607fb938db18}
-      \strng{authorfullhash}{3714424ebbb039f910cd4e2fb90efc11}
-      \field{sortinit}{U}
-      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Topological defects can markedly alter nanomaterial properties. This presents opportunities for "defect engineering," where desired functionalities are generated through defect manipulation. However, imaging defects in working devices with nanoscale resolution remains elusive. We report three-dimensional imaging of dislocation dynamics in individual battery cathode nanoparticles under operando conditions using Bragg coherent diffractive imaging. Dislocations are static at room temperature and mobile during charge transport. During the structural phase transformation, the lithium-rich phase nucleates near the dislocation and spreads inhomogeneously. The dislocation field is a local probe of elastic properties, and we find that a region of the material exhibits a negative Poisson's ratio at high voltage. Operando dislocation imaging thus opens a powerful avenue for facilitating improvement and rational design of nanostructured materials.}
-      \field{issn}{10959203}
-      \field{journaltitle}{Science}
-      \field{number}{6241}
-      \field{title}{{Topological defect dynamics in operando battery nanoparticles}}
-      \field{volume}{348}
-      \field{year}{2015}
-      \field{pages}{1344\bibrangedash 1347}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1126/science.aaa1313
       \endverb
     \endentry
     \entry{VanBeurden2004}{article}{}
@@ -23263,7 +23581,7 @@
       \field{abstract}{The surface composition of Rh and Pt blacks (as determined by XPS) shows carbon and oxygen impurities in the untreated state. Oxygen on Pt is present as adsorbed O as well as OH/H2O groups and oxidized carbon. Rh was partly oxidized to Rh2O3, in agreement with UPS showing hardly any Fermi‐edge intensity in untreated Rh as opposed to untreated Pt. High Fermi‐edge intensities indicated a predominant metallic surface after an in situ treatment with H2 at 483 K, increasing the purity (XPS) to ∼90{\%}. This treatment reduced Rh to metal and removed its C impurity. Pt, in turn, retained much carbon after H2 treatment, present mainly as graphitic carbon. A minor amount of CO was also detected, some of the O 1s peak belonging to it. The two metals were tested in methylcyclopentane reactions. Considering the necessity of carbon for nondegradative reactions and oxygen enhancing fragmentation, a correlation is suggested between the typical impurities of Pt and Rh and their respective catalytic propensities: the high fragmentation activity of Rh and the predominant nondegradative reactions to C6 ``ring opening products'' on Pt.}
       \field{issn}{1572-879X}
       \field{journaltitle}{Catalysis Letters}
-      \field{month}{7}
+      \field{month}{07}
       \field{number}{2}
       \field{title}{Surface composition and possible rearrangement of disperse Pt and Rh catalysts: does the presence of carbon and oxygen contribute to different catalytic properties?}
       \field{volume}{67}
