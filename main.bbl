@@ -3696,9 +3696,6 @@
            giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {English}%
-      }
       \strng{namehash}{6681bcb587d74ea7539e69905a99027e}
       \strng{fullhash}{8279009d6abf78bf4c7c3c0998c1d4be}
       \strng{bibnamehash}{6681bcb587d74ea7539e69905a99027e}
@@ -7938,6 +7935,43 @@
       \verb https://doi.org/10.1107/S1600576721003113
       \endverb
       \keyw{coherent X-ray Bragg diffraction imaging,Bragg ptychography,scattering amplitudes,strain,structure factors}
+    \endentry
+    \entry{Goncharova2018}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=adb3b9196aeb2c2105ddb101902894de}{%
+           family={Goncharova},
+           familyi={G\bibinitperiod},
+           given={Lyudmila\bibnamedelima V},
+           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Morgan \& Claypool Publishers}%
+      }
+      \strng{namehash}{adb3b9196aeb2c2105ddb101902894de}
+      \strng{fullhash}{adb3b9196aeb2c2105ddb101902894de}
+      \strng{bibnamehash}{adb3b9196aeb2c2105ddb101902894de}
+      \strng{authorbibnamehash}{adb3b9196aeb2c2105ddb101902894de}
+      \strng{authornamehash}{adb3b9196aeb2c2105ddb101902894de}
+      \strng{authorfullhash}{adb3b9196aeb2c2105ddb101902894de}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this chapter we need to understand the structure of clean and adsorbate-covered surfaces and use this as a foundation for understanding surface science problems. We start with the surface structure of clean metal surfaces (substrate structure), and move on to the surface in the presence of an adsorbate and that of the adsorbate (overlayer structure). Surfaces are often periodic, and we examine Miller indices to define various surface planes. Clean surfaces can exhibit relaxation, reconstruction or both, giving a variety of potential binding sites of different coordination. Adsorbates can lead to changes in the surface structure of the substrate.}
+      \field{booktitle}{Basic Surfaces and their Analysis}
+      \field{isbn}{978-1-6817-4954-9}
+      \field{series}{2053-2571}
+      \field{title}{Surface structure in real and reciprocal space}
+      \field{type}{Book Chapter}
+      \field{year}{2018}
+      \field{pages}{3-1 to 3\bibrangedash 16}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/978-1-6817-4954-9ch3
+      \endverb
     \endentry
     \entry{Goodman1994}{article}{}
       \name{author}{1}{}{%
@@ -22055,6 +22089,52 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.1021/acs.jpclett.6b01038
+      \endverb
+    \endentry
+    \entry{Unertl1996}{incollection}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5ad5ab78a04790b4518362b43deb948e}{%
+           family={Unertl},
+           familyi={U\bibinitperiod},
+           given={W.N.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=5ad5ab78a04790b4518362b43deb948e}{%
+           family={Unertl},
+           familyi={U\bibinitperiod},
+           given={W.N.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {North-Holland}%
+      }
+      \strng{namehash}{5ad5ab78a04790b4518362b43deb948e}
+      \strng{fullhash}{5ad5ab78a04790b4518362b43deb948e}
+      \strng{bibnamehash}{5ad5ab78a04790b4518362b43deb948e}
+      \strng{authorbibnamehash}{5ad5ab78a04790b4518362b43deb948e}
+      \strng{authornamehash}{5ad5ab78a04790b4518362b43deb948e}
+      \strng{authorfullhash}{5ad5ab78a04790b4518362b43deb948e}
+      \strng{editorbibnamehash}{5ad5ab78a04790b4518362b43deb948e}
+      \strng{editornamehash}{5ad5ab78a04790b4518362b43deb948e}
+      \strng{editorfullhash}{5ad5ab78a04790b4518362b43deb948e}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Physical Structure}
+      \field{issn}{1573-4331}
+      \field{series}{Handbook of Surface Science}
+      \field{title}{Chapter 1 - Surface Crystallography}
+      \field{volume}{1}
+      \field{year}{1996}
+      \field{pages}{3\bibrangedash 49}
+      \range{pages}{47}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S1573-4331(96)80006-0
       \endverb
     \endentry
     \entry{VanBeurden2004}{article}{}

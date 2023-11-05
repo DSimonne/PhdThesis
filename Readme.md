@@ -6,32 +6,34 @@ pdflatex main.tex; biber main; pdflatex main.tex; okular main.pdf
 Nomenclature: https://www.overleaf.com/learn/latex/Nomenclatures
 
 # TODO
+* (h, K) or [H, K]
+* problem in thickness between reflectivity and l scans Pt(111)
 * recheck literature for pt 100 oxide
-* van spronsen oxidation pt 111 at 1 to 5 bar !!! also 8x8, no xps
-* li pt 100 100mbar !! do they see pt3o4 ?
+* better discuss Pt100 oxide fitting assumptions
+* better mention spoked wheel pt 111
 * seriani reshaping nanoparticles
-
+* do figure pt3o4 on pt(100)
 * Emphasize in situ and operando
 * Emphasize Pt oxides
-* Check if line profiles are really biased from ER
+* Check heating nanoparticle, mention lattice parameter evolution
 * Mention cross correlation for defect
 * Mention bragg ptychography
 * Limits of TEM,
-* BCDI -> real world
 * particle reduction beforehand
 * interfacial crack
-* beam stability: 1h30
-* material loss on B7 nanoparticle ?
 * interfacial defect phase shift of pi
-* Fit L scans with distorted PtO2 later
 * which are the most favourable facets !!!
-* Detail all kind of measurements performed on the single crystals (and nanoparticles) and why
 * no we, us
 * in plane lattice displacement ROD fitting
-* Why not one bulk and all different surface interfere at one q ?
 * space groups P̅3m1 for alpha pto2 ? nomiyama2011
-* consistent Pt(111)
 * what do we not see ?? xps, bcdi, sxrd
+
+# Open questions
+* Check if line profiles are really biased from ER
+* BCDI -> real world
+* beam stability: 1h30
+* Fit L scans with distorted PtO2
+* material loss on B7 nanoparticle ?
 
 Stress expresses the internal forces that neighbouring particles of a continuous material exert on each other, while strain is the measure of the relative deformation of the material.
 

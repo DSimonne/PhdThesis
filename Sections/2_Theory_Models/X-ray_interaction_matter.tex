@@ -265,8 +265,8 @@ The Thomson scattering length is left apart for simplicity.
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[height=4cm]{/home/david/Documents/PhDScripts/Drawing/blender/FCC.png}
-    \includegraphics[height=4cm]{/home/david/Documents/PhD/Figures/introduction/PtClean.pdf}
+    \includegraphics[height=5cm]{/home/david/Documents/PhDScripts/Drawing/blender/FCC.png}
+    \includegraphics[height=5cm]{/home/david/Documents/PhD/Figures/introduction/PtClean.pdf}
     \caption{
     Face centred cubic (FCC) lattice of Pt (space group 225).
     Atoms are represented as solid balls and situated on the corners and at the middle of the faces.
@@ -295,7 +295,7 @@ Any vector $\vec{R}_k$ describing the position of a node in the real space can b
 
 To understand the contribution of the second sum in eq. \ref{eq:Fcrystal} to the scattering amplitude, it is convenient to introduce the \textit{reciprocal space} which is the Fourier transform of the real space.
 It is defined by three basis vectors $\vec{a}^*,\ \vec{b}^*,\ \vec{c}^*$.
-Similarly, the nodes of the reciprocal space can be accessed from its origin by a linear combination $\vec{G}$ of these three vectors.
+Similarly, the nodes of the reciprocal space can be accessed from its origin by a linear combination $\vec{G}_{hkl}$ of these three vectors.
 
 \begin{equation}
     \vec{a}^*=\frac{2\pi}{V}(\vec{b}\times \vec{c}), \qquad
@@ -306,22 +306,22 @@ Similarly, the nodes of the reciprocal space can be accessed from its origin by 
 
 \begin{equation}
     \label{eq:G}
-    \vec{G}=h\vec{a}^* + k\vec{b}^* + l\vec{c}^*, \quad \ (h,k,l) \in \mathbb{Z}^3
+    \vec{G}_{hkl}=h\vec{a}^* + k\vec{b}^* + l\vec{c}^*, \quad \ (hkl) \in \mathbb{Z}^3
 \end{equation}
 
-By combining eq. \ref{eq:R_k} and eq. \ref{eq:G} we find that the solution to the second sum in eq. \ref{eq:Fcrystal}, \textit{i.e.} to the equation $\vec{q}.\vec{R}_k = n \times 2\pi$ $(\ n \in \mathbb{Z})$ is to write $\vec{q}$ as a linear combination of the reciprocal space vectors, \textit{i.e.} as $\vec{G}$.
+By combining eq. \ref{eq:R_k} and eq. \ref{eq:G} we find that the solution to the second sum in eq. \ref{eq:Fcrystal}, \textit{i.e.} to the equation $\vec{q}.\vec{R}_k = n \times 2\pi$ $(\ n \in \mathbb{Z})$ is to write $\vec{q}$ as a linear combination of the reciprocal space vectors, \textit{i.e.} as $\vec{G}_{hkl}$.
 
 \begin{equation}
     \label{eq:LaueCond}
-    \vec{G} . \vec{R}_k = hn_1 + kn_2 + ln_3 = n \quad  with \ n \in \mathbb{Z}
+    \vec{G}_{hkl} . \vec{R}_k = hn_1 + kn_2 + ln_3 = n \quad  with \ n \in \mathbb{Z}
 \end{equation}
 
 This is also known as the Laue condition, that ensures that only certain scattering vectors, corresponding to the reciprocal lattice points, fulfil the condition for constructive interference between the scattered waves.
-These specific scattering vectors determine the scattering angles of the peaks observed in a diffraction pattern, also known as Bragg peaks.
-
-\begin{equation}
-    \vec{q} = \vec{G}  = h\vec{a}^* + k\vec{b}^* + l\vec{c}^*
-\end{equation}
+These specific scattering vectors $\vec{G}_{hkl}$ determine the scattering angles of the peaks observed in a diffraction pattern, also known as Bragg peaks.
+% \begin{equation}
+%     \label{eq:LaueCond2}
+%     \vec{q} = \vec{G}_{hkl}  = h\vec{a}^* + k\vec{b}^* + l\vec{c}^*
+% \end{equation}
 
 \subsection{Bragg's law}\label{sec:BraggLaw}
 
@@ -354,16 +354,23 @@ In the case of a cubic Bravais lattice, the distance between Miller planes can b
     d_{hkl}=\frac{2\pi}{|\vec{a}^*|\sqrt{h^2 + k^2 + l^2}}=\frac{|\vec{a}|}{\sqrt{h^2 + k^2 + l^2}}
 \end{equation}
 
+For a hexagonal Bravais lattice, we have:
+\begin{equation}
+    \label{eq:InterplanarspacingHex}
+    \frac{1}{{d_{hkl}}^2}=\frac{4}{3a^2}(h^2 + hk + k^2) + \frac{l^2}{c^2}
+\end{equation}
+
 From eqs. \ref{eq:QSinTheta} and \ref{eq:Bragglaw}, we fall back on the Laue condition which is a generalisation of Bragg's law.
 The diffraction order ($n$) in the Bragg's law equation can be omitted since it is implicitly determined by the Miller indices (hkl) representing the crystalline planes involved in the diffraction.
+Since we are in the Laue condition, $|\vec{G}_{hkl}|$ is used rather than $|\vec{q}|$ in eq. \ref{eq:QandD3}.
 
 \begin{align}
     \label{eq:QandD1}
-    |\vec{Q}| & = \frac{4\pi \sin(\theta)}{\lambda},\\
+    |\vec{q}| & = \frac{4\pi \sin(\theta)}{\lambda},\\
     \label{eq:QandD2}
     \sin(\theta) / \lambda & = \frac{1}{2d_{hkl}},\\
     \label{eq:QandD3}
-    |\vec{Q}| & = \frac{2\pi}{d_{hkl}}
+    |\vec{G}_{hkl}| & = \frac{2\pi}{d_{hkl}}
 \end{align}{}
 
 When fulfilling the Laue (or Bragg) condition, the direction of the scattering vector is perpendicular to the crystalline planes represented by the ($h, k, l$) Miller indices, and its magnitude is inversely proportional to the distance between consecutive crystalline planes.

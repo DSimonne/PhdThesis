@@ -26,9 +26,19 @@ The aim of the technique is to obtain geometrical information of the surface at 
 
 An example of surface reconstructions is given in fig. \ref{fig:SurfaceReconstructions} where the latest atomic layer (blue) does not have the same periodicity as the bulk layers (red).
 This phenomenon gives rise to additional signals at positions defined by how the periodicity of the reconstruction relates to the periodicity of the bulk structure in the $\vec{a}$ and $\vec{b}$ directions.
-In this example, the surface reconstructions can be described by the (\numproduct{2 x 4}) matrix \parencite{Wood1964}, that quantifies the relation between the surface reconstruction unit vectors ($\vec{a}_r, \vec{b}_r$) and the bulk unit vectors ($\vec{a}, \vec{b}$).
-A possible rotation of the reconstruction arrangement with respect to the bulk layer would result in a prefix in the notation.
-Let us take the example for which the orange atoms correspond to the Pt(100) surface, in that case the green reconstruction can be described as Pt(100)4x2-R\ang{0}.
+
+In this example, the surface reconstructions can be described using the \textit{Wood notation}, that quantifies the relation between the surface reconstruction unit vectors ($\vec{a}_r, \vec{b}_r$) and the bulk unit vectors ($\vec{a}, \vec{b}$) \parencite{Wood1964, Unertl1996, Goncharova2018}.
+Let us take the example for which the orange atoms correspond to the Pt(100) surface, in that case the green reconstruction can be described as Pt(100)-p(2x4)-R\ang{0}.
+A possible rotation of the reconstruction arrangement with respect to the bulk layer would result in a specific angular value.
+If an atom was present in the center of the \numproduct{2x4} arrangement, \textit{i.e.} at (1, 2), the notation would change and become Pt(100)-c(2x4)-R\ang{0}.
+
+This surface reconstruction can also be described with a matrix, Pt(100)-
+$\begin{pmatrix}
+  M_{ii} & M_{ij}\\
+  M_{ji} & M_{jj}
+\end{pmatrix}$-R\ang{0}
+, which gives $\vec{a}_r = M_{ii} \vec{a} + M_{ij} \vec{b}$, and  $\vec{b}_r = M_{ji} \vec{a} + M_{jj} \vec{b}$.
+In this case we have $M_{ii}, M_{jj} = 2, 4$ and $M_{ij}, M_{ji} = 0, 0$.
 
 \subsection{Crystal truncation rods} \label{sec:CTR}
 

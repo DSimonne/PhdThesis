@@ -1,17 +1,15 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'main.blg'
-[56] biber:340> INFO - === ven. oct. 27, 2023, 12:58:35
-[69] Biber.pm:418> INFO - Reading 'main.bcf'
-[254] Biber.pm:978> INFO - Found 444 citekeys in bib section 0
-[265] Biber.pm:4401> INFO - Processing section 0
-[272] Biber.pm:4592> INFO - Looking for bibtex file '/home/david/Documents/PhD/PhdThesis/references.bib' for section 0
-[321] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1038] bibtex.pm:1518> INFO - Found BibTeX data source '/home/david/Documents/PhD/PhdThesis/references.bib'
-[4516] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4516] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4516] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
-[4516] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-GB'
-[4888] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[5273] bbl.pm:757> INFO - Output to main.bbl
-[5274] Biber.pm:130> WARN - Duplicate entry key: 'Starr2021' in file '/home/david/Documents/PhD/PhdThesis/references.bib', skipping ...
-[5274] Biber.pm:132> INFO - WARNINGS: 1
+[52] biber:340> INFO - === dim. nov.  5, 2023, 19:39:32
+[64] Biber.pm:418> INFO - Reading 'main.bcf'
+[252] Biber.pm:978> INFO - Found 446 citekeys in bib section 0
+[262] Biber.pm:4401> INFO - Processing section 0
+[269] Biber.pm:4592> INFO - Looking for bibtex file '/home/david/Documents/PhD/PhdThesis/references.bib' for section 0
+[318] bibtex.pm:1713> INFO - LaTeX decoding ...
+[940] bibtex.pm:1518> INFO - Found BibTeX data source '/home/david/Documents/PhD/PhdThesis/references.bib'
+[4119] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4119] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4119] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
+[4119] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-GB'
+[4467] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[4898] bbl.pm:757> INFO - Output to main.bbl
