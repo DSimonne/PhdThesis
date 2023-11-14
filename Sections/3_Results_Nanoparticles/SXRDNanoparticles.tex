@@ -1,24 +1,17 @@
 \section{Collective behaviour of Pt nanoparticles: SXRD}
 
-% Compare shape with wulff construction and other measurements
-% Get particle average size from epitaxy
-% Check if TEM in literature for reshaping
-% Quantify amount of powder -> well epitaxied particles
-% In plane strain from substrate peak and in-plane strain evolution from powder signal
-% Double -110 facet, twin boundaries maybe ?
-
 \subsection{Experimental setup for SXRD experiments in the vertical geometry}\label{sec:SXRDSetupV}
 
-The MED diffractometer detailed in sec. \ref{sec:MED} was used in a vertical geometry (fig. \ref{fig:Diffractometer}), the incident angle $\mu$ was fixed to \ang{0.3}, so that the beam illuminates the entire sample surface, at an incoming energy of \qty{18.44}{\keV}, at which the photon flux is the highest at the SixS beamline.
-% In-plane measurements were performed by rotating the in-plane sample angle $\omega$ together with the in-plane detector angle $\delta$.
-% Out-of-plane measurements were performed by rotating the in-plane sample angle $\omega$ together with the in-plane and out-of-plane detector angles $\delta$ and $\gamma$, the incoming angle $\mu$ needing to stay at a constant low value to keep the grazing incidence of the beam.
-
-In the vertical configuration, the sample must be exactly parallel to the plane drawn by the incoming beam and the vertical axis so that rotations of the sample do not change the orientation of the sample plane while measuring in-plane reciprocal space maps.
-The alignment of the sample was performed in two consecutive steps, first the out-of-plane sample position was adjusted by using the direct beam, secondly any possible tilt of the sample surface was corrected by recording the intensity of the \textit{reflected} beam as a function of $u$ (when $\omega=\ang{0}$) or $v$ (when $\omega=\ang{90}$) angles of the hexapod (fig. \ref{fig:Diffractometer}).
+The MED diffractometer was used in a vertical geometry (fig. \ref{fig:Diffractometer}).
+The incident angle $\mu$ was fixed to \ang{0.3}, to illuminate a larger portion of the sample surface.
+The incoming energy was set to \qty{18.44}{\keV}.
+%, at which the photon flux is the highest at the SixS beamline.
+In the vertical configuration, the sample surface must be parallel to the plane defined by the incoming beam and the vertical axis, so that sample rotations do not change the orientation of the sample plane.
+The alignment of the sample was performed in two consecutive steps, first the out-of-plane sample position was adjusted by using the direct beam, secondly any possible tilt of the sample surface was corrected by recording the intensity of the \textit{reflected} beam as a function of the $u$ (when $\omega=\ang{0}$) or $v$ (when $\omega=\ang{90}$) angles of the hexapod (fig. \ref{fig:Diffractometer}).
 
 \subsection{Epitaxial relationship under different atmospheres and temperature}
 
-To ensure that the \ce{Al_2O_3} supported particles have the expected Pt[111]||Al$_2$O$_3$[0001] epitaxy relation with the substrate, the scattering intensity in the sample plane was measured.
+To ensure that the \ce{Al_2O_3} supported particles have the expected epitaxy relation with the substrate, the scattering intensity in the sample plane was measured.
 
 \subsubsection{Room temperature study under inert atmosphere}
 
@@ -27,20 +20,22 @@ To ensure that the \ce{Al_2O_3} supported particles have the expected Pt[111]||A
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/map/qxqyqz_38_40.pdf}
     \caption{
         In-plane reciprocal space map at room temperature.
-        Starting from the centre of the map are 6 peaks corresponding to six (2$\bar{1}$0)-type Bragg peak from the substrate, thin circular powder signal for the $(111)$, $(200)$ and $(220)$ Bragg peaks, and 6 isolated $(220)$ Bragg peaks.
+        Starting from the centre of the map are 6 peaks corresponding to six ($2\bar{1}0$)-type Bragg peak from the substrate, thin circular powder signal for the $(111)$, $(200)$ and $(220)$ Bragg peaks, and 6 isolated $(220)$ Bragg peaks.
     }
     \label{fig:QxQyMap}
 \end{figure}
 
 The unit cell used to index the different Bragg peaks of platinum in this section is the FCC unit cell presented in sec. \ref{sec:ScatCrystal} to introduce the notions of crystals.
-This first map of the reciprocal space was recorded under inert argon atmosphere at room temperature (fig. \ref{fig:QxQyMap}), and shows the six expected (220)-type in-plane peaks for [111] oriented nanoparticles.
-The h, k, and l Miller indices must have the same parity for the Bragg reflection to be allowed for face-centred cubic crystals, leading to the extinctions of (110)-type Bragg peaks.
-From the average position of these peaks in q-space is computed the average in-plane lattice parameter of the platinum nanoparticles $a_{Pt}=\qty{3.909}{\angstrom}$, from which the scattering vector $\vec{q}$ of the (200) and (111) Bragg peaks is computed (tab. \ref{tab:Reflections}).
+This first map of the reciprocal space was recorded under inert argon atmosphere at room temperature (fig. \ref{fig:QxQyMap}), and shows the six expected \{220\} in-plane peaks for [111] oriented nanoparticles (fig. \ref{fig:Epitaxy}).
+The h, k, l Miller indices must have the same parity for the Bragg reflection to be allowed for face-centred cubic crystals, leading to the extinctions of (110)-type Bragg peaks.
+From the average position of these peaks in q-space is computed the average in-plane lattice parameter of the platinum nanoparticles $a_{Pt}=\qty{3.91}{\angstrom}$, from which the scattering vector $\vec{q}$ of the (200) and (111) Bragg peaks is computed (tab. \ref{tab:Reflections}).
 
 Three arcs are drawn in fig. \ref{fig:QxQyMap} to underline the value of the (111), (200) and (220) scattering vectors.
 If no (200) and (111) Bragg peaks are observed, powder signals are visible for each reflection, which shows that some of the nanoparticles have a random orientation.
-Six (2$\bar{1}$0)-type Bragg peaks coming from the \ce{Al_2O_3} substrate are also observed at the lowest magnitude of the scattering vector ($q = \qty{2.637}{\per\angstrom}$, tab. \ref{tab:Reflections}).
-From the average position of these peaks in q-space is also computed the in-plane lattice parameter of the substrate, $a_{Sapphire}=\qty{4.766}{\angstrom}$, and a first approximation of the in-plane misfit strain at the interface of the nanoparticles with the substrate, following eq. \ref{eq:MisfitStrain}: $\epsilon = \qty{0.45}{\percent}$, the values of the lattice parameter being averaged over the nanoparticles present on the sample and not representative of the platinum-alumina interface.
+Six (2$\bar{1}$0)-type Bragg peaks coming from the \ce{Al_2O_3} substrate are also observed at the lowest magnitude of the scattering vector ($q = \qty{2.64}{\per\angstrom}$, tab. \ref{tab:Reflections}).
+From the average position of these peaks in q-space is also computed the in-plane lattice parameter of the substrate, $a_{Sapphire}=\qty{4.77}{\angstrom}$.
+A first approximation of the in-plane misfit strain at the interface of the nanoparticles with the substrate is given following eq. \ref{eq:StrainDiffraction}: $\epsilon = \qty{0.45}{\percent}$.
+This value must be considered with caution since the Pt lattice parameter is averaged over the volume of all the nanoparticles present on the sample, and not representative of the platinum-sapphire interface.
 
 \begin{table}[htb!]
     \begin{minipage}{.475\linewidth}
@@ -50,11 +45,11 @@ From the average position of these peaks in q-space is also computed the in-plan
             \toprule
             (h k l) & $2\theta$ & q & Int & Int (\%) \\
             \midrule
-            (1, 1, 1) & \ang{17.1255} & \qty{2.784}{\per\angstrom} & \num{6362.52}  & \num{100.0} \\
-            (2, 0, 0) & \ang{19.7996} & \qty{3.215}{\per\angstrom} & \num{3251.30}  & \num{51.10} \\
-            (2, 2, 0) & \ang{28.1439} & \qty{4.546}{\per\angstrom} & \num{2399.87}  & \num{37.72} \\
-            (3, 1, 1) & \ang{33.1305} & \qty{5.331}{\per\angstrom} & \num{2913.37}  & \num{45.79} \\
-            (2, 2, 2) & \ang{34.6492} & \qty{5.568}{\per\angstrom} & \num{843.07}   & \num{13.25} \\
+            (1 1 1) & \ang{17.13} & \qty{2.78}{\per\angstrom} & \num{6362.52}  & \num{100.0} \\
+            (2 0 0) & \ang{19.80} & \qty{3.21}{\per\angstrom} & \num{3251.30}  & \num{51.10} \\
+            (2 2 0) & \ang{28.14} & \qty{4.55}{\per\angstrom} & \num{2399.87}  & \num{37.72} \\
+            (3 1 1) & \ang{33.13} & \qty{5.33}{\per\angstrom} & \num{2913.37}  & \num{45.79} \\
+            (2 2 2) & \ang{34.65} & \qty{5.57}{\per\angstrom} & \num{843.07}   & \num{13.25} \\
             % (4, 0, 0) & \ang{40.2235} & \qty{6.430}{\per\angstrom} & \num{390.01}   & \num{6.13}  \\
             % (3, 3, 1) & \ang{44.0121} & \qty{7.007}{\per\angstrom} & \num{1155.08}  & \num{18.15} \\
             % (4, 2, 0) & \ang{45.2178} & \qty{7.189}{\per\angstrom} & \num{1054.07}  & \num{16.57} \\
@@ -72,11 +67,11 @@ From the average position of these peaks in q-space is also computed the in-plan
             \toprule
             (h k l) & $2\theta$ & q & Int & Int (\%) \\
             \midrule
-            (1, -1, 2)   & \ang{11.0698} & \qty{1.804}{\per\angstrom} & \num{21.50} & \num{49.52} \\
-            (1, -1, -4)  & \ang{15.1285} & \qty{2.461}{\per\angstrom} & \num{35.60} & \num{82.01} \\
-            (2, -1, 0)   & \ang{16.2125} & \qty{2.637}{\per\angstrom} & \num{16.81} & \num{38.73} \\
-            (0, 0, 6)    & \ang{17.8528} & \qty{2.901}{\per\angstrom} & \num{0.18}  & \num{0.42}  \\
-            (2, -1, 3)   & \ang{18.5233} & \qty{3.009}{\per\angstrom} & \num{38.90} & \num{89.60} \\
+            (1 -1 2)   & \ang{11.07} & \qty{1.80}{\per\angstrom} & \num{21.50} & \num{49.52} \\
+            (1 -1 -4)  & \ang{15.13} & \qty{2.46}{\per\angstrom} & \num{35.60} & \num{82.01} \\
+            (2 -1 0)   & \ang{16.21} & \qty{2.64}{\per\angstrom} & \num{16.81} & \num{38.73} \\
+            (0 0 6)    & \ang{17.85} & \qty{2.90}{\per\angstrom} & \num{0.18}  & \num{0.42}  \\
+            (2 -1 3)   & \ang{18.52} & \qty{3.01}{\per\angstrom} & \num{38.90} & \num{89.60} \\
             % (2, -2, -2)  & \ang{19.6734} & \qty{3.195}{\per\angstrom} & \num{0.59}  & \num{1.35}  \\
             % (2, -2, 4)   & \ang{22.2446} & \qty{3.607}{\per\angstrom} & \num{20.98} & \num{48.32} \\
             % (2, -1, -6)  & \ang{24.2056} & \qty{3.921}{\per\angstrom} & \num{43.41} & \num{100.0} \\
@@ -94,8 +89,8 @@ From the average position of these peaks in q-space is also computed the in-plan
 
 \subsubsection{Study during ammonia oxidation before and after catalyst light off temperature}
 
-In-plane maps were recorded on a smaller angular range (due to the long experimental time needed to collect large maps) at \qty{300}{\degreeCelsius}, a temperature slightly before the catalyst light off, and at \qty{500}{\degreeCelsius} and \qty{600}{\degreeCelsius}, both temperatures after the catalyst light off, under different atmospheres as detailed in tab. \ref{tab:ConditionsNanoparticles}.
-The intensity was then integrated along a thin region around the scattering angle ($\delta/2$ in this geometry) around the value of the (111), (200) and (220) scattering angles.
+In-plane maps were recorded on a smaller angular range (shown by the extent of black arcs in fig. \ref{fig:QxQyMap}) due to the long experimental time needed to collect large maps.
+The intensity was then integrated in a \ang{1} wide region around the (111), (200) and (220) scattering angles.
 These measurements are presented respectively in fig. \ref{fig:Epitaxy111}, fig. \ref{fig:Epitaxy200} and fig. \ref{fig:Epitaxy220}.
 
 \begin{figure}[!htb]
@@ -107,39 +102,39 @@ These measurements are presented respectively in fig. \ref{fig:Epitaxy111}, fig.
     \label{fig:Epitaxy220}
 \end{figure}
 
-Two (220)-type Bragg peaks are measured in either condition, with a stable position and shape (fig. \ref{fig:Epitaxy220}), which shows that the crystals do not rotate around their [111] axis on the surface, and that they all share the same out-of-plane [111] orientation.
-The intensity decreases as a function of the temperature, without an increase of the (220) powder signal, the peak shape is consistent during the experiment.
+Two (220)-type Bragg peaks are measured in each condition, with a stable position and shape (fig. \ref{fig:Epitaxy220}), which shows that the crystals do not rotate around their [111] axis on the surface, and that they all share the same out-of-plane [111] orientation.
+The maximum intensity decreases as a function of the temperature, without an increase of the (220) powder signal, the peak shape is consistent during the experiment.
 The loss of intensity could come from the loss of some nanoparticles during the change of conditions.
 
-No (200) or (111)-type Bragg peaks have been seen to appear during the different measurements (figures visible in the appendix \ref{fig:Epitaxy200}, and \ref{fig:Epitaxy111}).
+No (200) or (111)-type Bragg peaks appear during the different measurements (figures visible in the appendix \ref{fig:Epitaxy200}, and \ref{fig:Epitaxy111}).
 Moreover, there is no variation of the powder signal for the (200) Bragg peak, there is a slight decrease of the powder signal for the (111) Bragg peak which cannot be observed on the other powder signals.
 % Additional powder diffractograms are visible in the appendix \ref{fig:PowderNanoparticles}, on which it is also clear that the powder and nanoparticles do not have the same in-plane lattice parameter (two peaks near the expected (220) Bragg peak), and that there is no variation of the in-plane lattice parameter of the nanoparticles as a function of the atmosphere.
 
-Most importantly, these measurements confirm that the nanoparticles are still epitaxied on the substrate even at high temperature under highly aggressive environments (the ammonia oxidation reaction being strongly exothermic), proving a strong epitaxial relationship of the nanoparticles with the substrate
+Most importantly, these measurements confirm that the nanoparticles are still epitaxied on the substrate even at high temperature under highly aggressive environments, proving a strong epitaxial relationship of the nanoparticles with the substrate
 
 ($\bar{1}\bar{1}\bar{1}$) and (111) facets are expected to be present on all nanoparticles, respectively at the interface with the substrate and at the top of the nanoparticles.
-The measurement of crystal truncation rods resulting from those facets is the easiest to perform since the [111] direction is perpendicular to the sample.
-For that reason, a [111]-oriented crystal truncation rod, identified in fig. \ref{fig:2DCTR111Particles}, was first studied to probe for the evolution of the (111) and ($\bar{1}\bar{1}\bar{1}$) facets.
+For that reason, we followed the signal of those facets by measuring the CTR intensity as a function of $q_z$ (fig. \ref{fig:2DCTR111Particles}).
 
-(11$\bar{1}$) and (002) Bragg peaks can be identified respectively at $q_z \qty{\approx0.8}{\per\angstrom}$ and $q_z \qty{\approx1.8}{\per\angstrom}$.
-Both peaks being visible along the same CTR shows that the nanoparticles do not have the same exact in plane orientation, due to different stacking of the (111) layers along the [111] axis, e.g. ABC or ACB stacking, rotated by \ang{180} \parencite{Jones2019}.
+($\bar{1}$11) and (200) Bragg peaks can be identified respectively at $q_z \qty{\approx0.92}{\per\angstrom}$ and $q_z \qty{\approx1.85}{\per\angstrom}$.
+Both peaks being visible along the same CTR shows that all nanoparticles do not share the same in plane orientation, due to different stacking of the (111) layers along the [111] axis, e.g. ABC or ACB stacking, rotated by \ang{180} \parencite{Jones2019}.
 Low intensity CTRs in other directions due to other facets present on the nanoparticles can be seen around both Bragg peaks.
-The peak at $q_z\approx1.58$ corresponds to the (2$\bar{1}$3) Bragg peak from the \ce{Al_2O_3} substrate ($q = \qty{3.014}{\per\angstrom}$, tab. \ref{tab:Reflections}), which is also at the origin of its own CTR in the [111] direction from the surface in contact with the nanoparticles, observed in the out-of-plane map in fig. \ref{fig:2DCTR111Particles}, parallel to the more intense Pt CTR.
+The peak at $q_z \qty{\approx1.46}{\per\angstrom}$ corresponds to a (2$\bar{1}$3) Bragg peak from the \ce{Al_2O_3} substrate ($q = \qty{3.01}{\per\angstrom}$, tab. \ref{tab:Reflections}).
+The substrate is also at the origin of its own CTR in the [111] direction, parallel to the more intense Pt CTR (fig. \ref{fig:2DCTR111Particles}).
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[height=7cm]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR111_K_vmax100_edited.pdf}
     \includegraphics[height=7cm]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR_300_edited.pdf}
     \caption{
-        Left: Large out-of-plane reciprocal space maps in which a crystal truncation rod signal in the [111] direction can be identified, as well as weaker CTR in other directions passing through the Bragg peaks.
-        The ($\vec{q}_x$, $\vec{q}_y$) plane was rotated around $\vec{q}_z$ to highlight the presence of signals from facets on the particles other than the (111) facet.
+        Left: Large out-of-plane reciprocal space map in which a CTR signal in the [111] direction can be identified, as well as weaker CTR in other directions passing through the Bragg peaks.
+        The ($\vec{q}_x$, $\vec{q}_y$) plane was rotated around $\vec{q}_z$ to highlight the presence of signals from facets on the particles other than the (111) facet, indicated by white arrows.
         Right: Crystal truncation rod signals in the $[111]$ direction as a function of $q_z$, presented for different atmospheres, at \qty{300}{\degreeCelsius}.
     }
     \label{fig:2DCTR111Particles}
 \end{figure}
 
-The background-subtracted CTR intensity was integrated in a square area as a function of $q_z$, presented in fig. \ref{fig:2DCTR111Particles} (right).
-There is no visible evolution of the CTR shape, the anti-Bragg region where the relaxation effects are the most visible near $q_z=1.58$ being masked by the Bragg peak of the substrate.
+The CTR intensity as a function of $q_z$ is presented in fig. \ref{fig:2DCTR111Particles} (right).
+There is no visible evolution of the CTR shape, the anti-Bragg region where the relaxation effects are the most visible near $q_z \qty{\approx1.46}{\per\angstrom}$ being masked by the Bragg peak of the substrate.
 Efforts were then focused on resolving the CTR signal around the Bragg peaks coming from different facets present on the nanoparticles surfaces.
 
 \subsection{Particle reshaping during the oxidation of ammonia}
@@ -148,23 +143,24 @@ Efforts were then focused on resolving the CTR signal around the Bragg peaks com
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets/facets_together.pdf}
     \caption{
-        a) Projection perpendicular to $\vec{q}_z$ of a reciprocal space volume measured around the $(\bar{1}11)$ Bragg peak at \qty{300}{\degreeCelsius} under Argon.
-        The three black dotted line are respectively a projection in the $(\vec{q}_x, \vec{q}_y)$ plane of the $[\bar{1}11]$, $[\bar{1}10]$ and $[010]$ directions.
-        The red dotted line correspond to a parasite signal linked to the use of attenuators when the detector records the intensity of the Bragg peak.
+        Reciprocal space volume around the $(\bar{1}11)$ Bragg peak, collected at \qty{300}{\degreeCelsius}, under argon atmosphere.
+        a) Projection perpendicular to $\vec{q}_z$.
+        The three white dashed line are respectively a projection in the $(\vec{q}_x, \vec{q}_y)$ plane of the $[\bar{1}11]$, $[\bar{1}10]$ and $[010]$ directions.
         b-c) Slices in the $(\vec{q}_y, \vec{q}_z)$ plane after rotation of the $\vec{q}_x$ and $\vec{q}_y$ axis around the $\vec{q}_z$ axis by \ang{30} and \ang{60} to highlight the presence of crystal truncation rods in different directions.
-        d) Slices in the $(\vec{q}_y, \vec{q}_z)$ plane to highlight the presence of a crystal truncation rods in the $[1\bar{1}1]$ direction.
-        The interval delimited by the vertical white dotted lines is used for the qualitative analysis of the CTRs intensities.
+        d) Slice in the $(\vec{q}_y, \vec{q}_z)$ plane to highlight the presence of a crystal truncation rod in the $[1\bar{1}1]$ direction.
+        The interval delimited by the vertical white dashed lines in (b-c-d) is used for the qualitative analysis of the CTRs intensities.
     }
     \label{fig:FacetMaps}
 \end{figure}
 
-A volume of the reciprocal space was collected around the ($\bar{1}$11) Bragg peak to try to find the direction of the observed facet signals, and to quantify their evolution as a function of the different conditions.
-Similar experiments have shown the oxygen-induced shape transformation of rhodium \parencite{Nolte2008} or platinum nanoparticles \parencite{Hejral2013}, which was also linked to the presence of surface oxides.
-The data was computed in the q-space with different in-plane offsets, so that each rod observed in fig. \ref{fig:FacetMaps} (a) becomes parallel to the $\vec{q}_x$ direction for a certain in-plane offset, thereby facilitating the data analysis.
+A volume of the reciprocal space was collected around the ($\bar{1}$11) Bragg peak to find the direction of the observed facet signals, and to quantify their evolution as a function of the different conditions.
+Similar experiments have shown the oxygen-induced shape transformation of rhodium \parencite{Nolte2008}, or platinum nanoparticles \parencite{Hejral2013}, which was also linked to the presence of surface oxides.
+The data was computed in $q$-space with different in-plane offsets, so that each rod observed in fig. \ref{fig:FacetMaps} (a) becomes parallel to the $\vec{q}_x$ direction for a certain in-plane offset, thereby facilitating the data analysis.
 
 Besides the crystal truncation rods, there are two different parasitic signals going through the Bragg peak.
-First, a curved signal almost parallel to $\vec{q}_y$ extends from $q_y = \qtyrange{-2.80}{-2.40}{\per\angstrom}$ in the ($\vec{q}_x, \vec{q}_y$) plane, coming from scattered x-rays in Bragg condition diffusing towards the detector when near the Bragg peak, and increasing the background signal.
-Secondly, a very intense powder ring ($\approx \num{1e2}$) can be seen around the crystal truncation rod perpendicular to $\vec{q}_z$ (area with high intensity, $> \num{1e4}$).
+First, a curved signal almost parallel to $\vec{q}_y$ extends from $q_y = \qtyrange{-2.80}{-2.40}{\per\angstrom}$ in the ($\vec{q}_x, \vec{q}_y$) plane (in red in fig. \ref{fig:FacetMaps} - a).
+This signal comes from scattered x-rays diffusing towards the detector when near the Bragg peak, and increasing the background signal.
+Secondly, a very intense powder ring ($\approx \num{1e2}$) can be seen around the crystal truncation rod perpendicular to $\vec{q}_z$, especially in fig. \ref{fig:FacetMaps} (c).
 
 \begin{figure}[!htb]
     \centering
@@ -176,15 +172,16 @@ Secondly, a very intense powder ring ($\approx \num{1e2}$) can be seen around th
     \label{fig:StereoTop}
 \end{figure}
 
-The identification of the crystallographic direction corresponding to the orientation of the different crystal truncation rods present around the Bragg peak was performed thanks to the stereographic projection perpendicular to the [111] direction presented in fig. \ref{fig:StereoTop}, which in the current experiment is parallel to $\vec{q}_z$.
+The identification of the crystallographic direction of each CTR present around the Bragg peak was performed thanks to the stereographic projection perpendicular to the [111] direction.
+This stereographic projection is presented in fig. \ref{fig:StereoTop}, which in the current experiment is parallel to $\vec{q}_z$.
 Each dot represents a crystallographic direction, \textit{e.g.} [100], [110], etc.
 The distance between the dots and the centre of the figure is a function of the angle with the [111] direction, whereas their angular distribution corresponds to the planar angle of the component perpendicular to the [111] direction.
-Therefore, a signal that is for example at an angle of \ang{30} with the [111] direction and \ang{30} with the [$\bar{1}$01] direction can be identified to be in the [113] direction.
+Therefore, a signal that is for example at an angle of \ang{30} with the [111] direction and \ang{30} with the [$\bar{1}$01] direction can be identified to be in the [113] direction thanks to fig. \ref{fig:StereoTop}.
 
 A CTR parallel to $\vec{q}_y$ is visible in fig. \ref{fig:FacetMaps} - (a), with an angle of \ang{72} with the [111] direction (fig. \ref{fig:FacetMaps} - (d)), thus corresponding to a signal in the [1$\bar{1}$1] direction.
 After having first identified the [111] and [$1\bar{1}1$] directions, the identification of the direction of the other CTRs becomes straightforward.
 
-We can identify two CTRs in the [$1\bar{1}3$] and [$0\bar{1}1$] directions, both have an angle of \ang{30} with the [$1\bar{1}1$] direction (visible in  fig. \ref{fig:FacetMaps} - a), and an angle of respectively \ang{30} and \ang{90} with the [$\bar{1}\bar{1}\bar{1}$] direction in the ($\vec{q}_x, \vec{q}_{y, 30}$) plane visible in fig. \ref{fig:FacetMaps} - (b).
+Two CTRs in the [$1\bar{1}3$] and [$0\bar{1}1$] directions are identified, both have an angle of \ang{30} with the [$1\bar{1}1$] direction (visible in  fig. \ref{fig:FacetMaps} - a), and an angle of respectively \ang{30} and \ang{90} with the [$\bar{1}\bar{1}\bar{1}$] direction in the ($\vec{q}_x, \vec{q}_{y, 30}$) plane visible in fig. \ref{fig:FacetMaps} - (b).
 
 A [001] oriented CTR visible at \ang{60} from the [$1\bar{1}1$] direction (fig. \ref{fig:FacetMaps} - a), has an angle of \ang{60} with the [$\bar{1}\bar{1}\bar{1}$] direction in the ($\vec{q}_x, \vec{q}_{y, 60}$) plane visible in fig. \ref{fig:FacetMaps} - (c).
 
@@ -201,29 +198,28 @@ Each [$1\bar{1}1$]-oriented CTR is also linked to a [$\bar{1}1\bar{1}$]-oriented
 \end{figure}
 
 Despite the high intensity parasitic signal, it was possible to determine the orientation of 5 crystal truncation rods.
-From these results, the average shape of the particles on the sample is expected to be highly faceted, with not only small (\{100\}, \{110\}, \{111\}) but also high indices facets such as \{113\} present on their surface.
+From these results, the average shape of the particles on the sample is expected to be highly faceted, with not only small (\{100\}, \{110\}, \{111\}) but also high indices facets (\{113\}) present on their surface.
 
 The intensity of the crystal truncation rods listed above was studied by measuring the scattered intensity as a function of $q_z$ in a square area in the ($\vec{q}_x, \vec{q}_y$) plane.
-The same width was used for each study, the region of integration is detailed in fig. \ref{fig:FacetMaps} - (b-c-d) with white dotted lines.
+The same width was used for each study, the region of integration is detailed in fig. \ref{fig:FacetMaps} - (b-c-d) with white dashed lines.
 The evolution of the integrated scattered intensity as a function of $q_z$ is presented if fig. \ref{fig:FacetSignal} for different atmospheres and temperatures.
 
 The scattered intensity does not evolve at \qty{300}{\degreeCelsius} and \qty{500}{\degreeCelsius} as a function of the atmosphere in the reactor cell.
 However, there is a transition between \qty{300}{\degreeCelsius} and \qty{500}{\degreeCelsius} when looking at the signal from the ($0\bar{1}1$) facets, that evolves from a double to a single peak when increasing the reactor temperature.
-This can be due to defects present in the nanoparticles at lower temperature despite the high temperature annealing, that are removed when heating the temperature (sec. \ref{sec:TempRampBCDI}).
-For example, \textcolor{Important}{Ask yves to detail again}
+This can be due to defects present in the nanoparticles at lower temperature despite the high temperature annealing, that are removed when heating the sample (sec. \ref{sec:TempRampBCDI}).
+%For example, \textcolor{Important}{Ask yves to detail again}
 
-At \qty{600}{\degreeCelsius}, a progressive increase of the intensity is observed for the [$1\bar{1}1$], [$\bar{1}\bar{1}1$] and [$001$]-oriented rods, whereas a progressive decrease of the intensity is observed for the [$0\bar{1}1$], [$1\bar{1}3$]-oriented rods, starting after the introduction of oxygen in the reactor.
+At \qty{600}{\degreeCelsius}, a progressive increase of the intensity is observed for the [$1\bar{1}1$], [$\bar{1}\bar{1}1$] and [$001$]-oriented rods, whereas a progressive decrease of the intensity is observed for the [$0\bar{1}1$] and [$1\bar{1}3$]-oriented rods, starting after the introduction of oxygen in the reactor.
 There is an increase of scattered intensity in fig. \ref{fig:FacetSignal} (i) at $q_z \qty{\approx 0.95}{\per\angstrom}$ which could be from (110) facets at \ang{35} with the [111] direction (fig. \ref{fig:StereoTop}).
-The low signal-to-background ratio in that region makes it challenging to be certain of the existence of this CTR.
+The low signal-to-background ratio in that region due to the powder ring makes it challenging to be certain of the existence of this CTR.
 
 Moreover, the introduction of oxygen induces a global shift of the facet signals towards higher $q_z$ values which can be linked to a homogeneous compressive lattice strain in the [111] direction, shifting the position of the Bragg peak.
-\textcolor{Important}{Distorted lattice means not cubic anymore but ?, check that}
-The position of the [$0\bar{1}1$]-oriented CTR, whose direction is perpendicular to the [111] direction, follows that shift in $q_z$, but its intensity vanishes after having more than \qty{1}{\ml\per\min} of ammonia in the reactor cell.
+The position of the [$0\bar{1}1$]-oriented CTR, whose direction is perpendicular to the [111] direction, follows that shift in $q_z$, but its intensity vanishes after having more than \qty{1}{\ml\per\min} of oxygen in the reactor cell.
 A qualitative evolution of the strain in the [111] direction can be obtained by looking at the remaining CTR position in $q_z$ (fig. \ref{fig:FacetSignal} - g\&i).
 The gradual increase of the oxygen partial pressure in the cell is accompanied by two additional changes of strain (i) from compressive to tensile strain when increasing the oxygen partial pressure from \qty{5}{\milli\bar} to \qty{10}{\milli\bar} in the reactor and (ii) from tensile to compressive strain when increasing the oxygen partial pressure from \qty{20}{\milli\bar} to \qty{80}{\milli\bar}, the reference position being taken under argon and ammonia atmosphere.
 
-These result indicate a progressive reshaping of the nano-catalysts towards particles exhibiting mostly \{111\} and \{100\} facets, together with the decrease of the ammonia to oxygen ratio.
-A progressive roughening of the particles could explain the loss of intensity from the [$0\bar{1}1$]-oriented CTR but not the increase in the intensity of the [$1\bar{1}1$] and [$\bar{1}\bar{1}1$]-oriented CTRs.
+These result indicate a progressive reshaping of the nano-catalysts towards particles exhibiting mostly \{111\} and \{100\} facets, together with the increase of the \ce{O_2}/\ce{NH_3} ratio.
+A roughening of the particles could explain the loss of intensity from the [$0\bar{1}1$]-oriented CTR but not the increased intensity of the [$1\bar{1}1$], [$\bar{1}\bar{1}1$], and [001]-oriented CTRs.
 
 The catalytic activity of the particles was recorded \textit{via} the use of a mass spectrometer and shows the production of nitrogen, nitrous oxide and nitrogen oxide (fig. \ref{fig:RGASXRDNanoparticlesComparison}), proving the activity of the catalyst.
 At \qty{600}{\degreeCelsius}, the production of \ce{N_2} is favoured at lower oxygen partial pressures in comparison with \ce{N_2O} and \ce{NO}.
@@ -234,17 +230,17 @@ The original mass spectrometer signal as a function of time can be seen in the a
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/product_comparison_carrier_pressure.pdf}
     \caption{
-        Evolution of reaction product partial pressures during the SXRD experiment on the non-patterned sample containing Pt[111]||Al$_2$O$_3$[0001] nanoparticles, at \qty{300}{\degreeCelsius}, \qty{500}{\degreeCelsius}, and \qty{600}{\degreeCelsius}.
-        Mean partial pressures during \qty{1}{\minute} at the end of each condition, recorded from a leak in the reactor output by a residual gas analyser (RGA) as detailed in sec. \ref{sec:XCAT}.
-        The pressure under \qty{49}{\ml\per\min} of argon and \qty{1}{\ml\per\min} of ammonia has been subtracted.
+        Evolution of reaction product partial pressures during the SXRD experiment on the non-patterned sample containing Pt nanoparticles, at \qty{300}{\degreeCelsius}, \qty{500}{\degreeCelsius}, and \qty{600}{\degreeCelsius}.
+        Mean partial pressures during \qty{1}{\minute} at the end of each condition, recorded from a leak in the reactor output by a residual gas analyser (RGA).
+        The background pressure in the absence of reaction has been subtracted.
     }
     \label{fig:RGASXRDNanoparticlesComparison}
 \end{figure}
 
 The same measurements at \qty{600}{\degreeCelsius} were not repeated at a fixed atmosphere which prevents us from knowing whether or not the observed phenomena would have occurred as a function of time under a fixed atmosphere.
-Moreover, the reversibility of this effect and the formation of possible platinum oxides (\textit{via} large in-plane maps) could not be investigated from the lack of available experimental time.
+Moreover, the reversibility of this effect and the formation of possible platinum oxides on the nanoparticles (\textit{via} large in-plane maps) could not be investigated from the lack of available experimental time.
 
 Similar experiments on Pt nanoparticles (average size about \qty{50}{\nm}) have been carried at \qty{6.5e-6}{\bar} and \qty{0.5}{\bar} of oxygen by \cite{Hejral2013} which show the formation of \ce{Pt_3O_4} and $\alpha-$\ce{PtO_2} bulk oxides, the formation of high indices facets, a decrease of \{111\} facet signals and an increase of \{100\} facet signals.
-Different effects have been observed in this study with an increase in intensity of \{111\} and \{100\} facets and the decrease in intensity of \{110\} facets during the oxidation of ammonia.
+Different effects have been observed in this study with an increase in intensity of \{111\} and \{100\} facets, and the decrease in intensity of \{110\} facets during the oxidation of ammonia, highlighting the impact of the reaction on the particles' surface.
 
-A study of the structure/activity relationship of each facet must be undertaken during the ammonia oxidation to better understand the role of the surface structure and of potential surface oxides in the catalytic reaction, which is the subject of chapter 4.
+A study of the structure/activity relationship of each facet must be undertaken during the ammonia oxidation to better understand the role of the surface structure, and of potential surface oxides in the catalytic reaction, which is the subject of chapter 4.

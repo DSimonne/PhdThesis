@@ -6,49 +6,41 @@ pdflatex main.tex; biber main; pdflatex main.tex; okular main.pdf
 Nomenclature: https://www.overleaf.com/learn/latex/Nomenclatures
 
 # TODO
-* (h, K) or [H, K]
-* problem in thickness between reflectivity and l scans Pt(111)
-* recheck literature for pt 100 oxide
-* better discuss Pt100 oxide fitting assumptions
-* better mention spoked wheel pt 111
-* seriani reshaping nanoparticles
-* do figure pt3o4 on pt(100)
-* Emphasize in situ and operando
-* Emphasize Pt oxides
-* Check heating nanoparticle, mention lattice parameter evolution
-* Mention cross correlation for defect
-* Mention bragg ptychography
-* Limits of TEM,
-* particle reduction beforehand
-* interfacial crack
-* interfacial defect phase shift of pi
-* which are the most favourable facets !!!
-* no we, us
+## SXRD single crystals
 * in plane lattice displacement ROD fitting
-* space groups P̅3m1 for alpha pto2 ? nomiyama2011
-* what do we not see ?? xps, bcdi, sxrd
+* reflectivity, discuss again, especially the problem in thickness between reflectivity and l scans Pt(111)
+* better discuss oxides ?
+* don't use 8x8 reconstruction, but just 8x8
+
+## SXRD nanoparticles
+* Compare shape with wulff construction and other measurements
+* Get particle average size from epitaxy
+* Quantify amount of powder -> well epitaxied particles
+* Double -110 facet, twin boundaries maybe ?
+
+## BCDI
+* Limits of TEM: electron as a probe so not great
+* Which are the most favourable facets !!!
+* Add facets on top and bottom of the particle in the image
+* Change FWHM evolution to percentages
+* Radial distributions analysis, onion rings !
+* Cross correlation for defect
+
+## XPS
+The peak at 531 ev for Pt111 is not oxide bc the PtO2 peak is not visible in the Pt4f level,
+oxide reported at 531 ev on pt111 at 1 bar by Boden et al (2022)
+also no 8x8 oxide detected so far in sxrd
+
+## Intro
+* Field / amplitude / intensity consistent ?
+* $r_0$ use consistent ? $2\pi$ ?
+* hypothesis to explain: DWBA, dipole approximation, perfect crystals
+* When detecting the scattered field at a point $\vec{R}$, we assume that $\|vec{R}|$ is far greater than the electronic density, this is called the dipole approximation. NOT GOOD Each atom can be considered as a ball of certain radius (see \ref{fcc_lattice}).
 
 # Open questions
 * Check if line profiles are really biased from ER
+* adsorbed molecules impact on strain or strain means adsorbed molecules
 * BCDI -> real world
 * beam stability: 1h30
 * Fit L scans with distorted PtO2
 * material loss on B7 nanoparticle ?
-
-Stress expresses the internal forces that neighbouring particles of a continuous material exert on each other, while strain is the measure of the relative deformation of the material.
-
-# Conditions
-Only ratio for nanoparticle, partial pressures for single crystals
-
-# RGA
-Raw data:
-* SXRD, Pt111, 450°C: Plots OK, CEM NOT OK, PTOT = 0.5 bar
-* SXRD, Pt100, 450°C: Plots OK, CEM OK, PTOT = 0.5 bar
-* SXRD, Nanoparticles, 300°C, 500°C, 600°C: Plots OK, CEM OK, PTOT = 0.3 bar
-* BCDI, Nanoparticles, 300°C, 400°C: Plots OK, CEM OK, PTOT = 0.3 bar
-* XPS, Pt111, Pt100, 450°C: OK
-
-Compare between single crystals
-* XPS, lower pressure, in mbar range: OK
-* SXRD, OK
-

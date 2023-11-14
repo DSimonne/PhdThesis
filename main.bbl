@@ -231,6 +231,37 @@
       \endverb
       \keyw{Solid oxide fuel cell,Proton conductor,Ammonia,Oxygen-ion-conducting Electrolyte,Proton-conducting electrolyte}
     \endentry
+    \entry{Diadem}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6ac2fb52ce13507fdf43f6bbc3684046}{%
+           family={{Agence Nationale de la Recherche}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ac2fb52ce13507fdf43f6bbc3684046}
+      \strng{fullhash}{6ac2fb52ce13507fdf43f6bbc3684046}
+      \strng{bibnamehash}{6ac2fb52ce13507fdf43f6bbc3684046}
+      \strng{authorbibnamehash}{6ac2fb52ce13507fdf43f6bbc3684046}
+      \strng{authornamehash}{6ac2fb52ce13507fdf43f6bbc3684046}
+      \strng{authorfullhash}{6ac2fb52ce13507fdf43f6bbc3684046}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dispositifs Intégrés pour l’Accélération du DEploiement de Matériaux Emergents}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2023}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://anr.fr/fr/france-2030/france2030/call/pepr-diadem-appel-a-projets-dispositifs-integres-pour-lacceleration-du-deploiement-de-materiaux/
+      \endverb
+      \verb{url}
+      \verb https://anr.fr/fr/france-2030/france2030/call/pepr-diadem-appel-a-projets-dispositifs-integres-pour-lacceleration-du-deploiement-de-materiaux/
+      \endverb
+    \endentry
     \entry{Ahmad2015}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=918f4a296d45a84541aa48fa7441f567}{%
@@ -412,6 +443,115 @@
       \verb 10.18429/JACoW-ICALEPCS2017-THPHA034
       \endverb
       \keyw{HOM,controls,experiment,ion,synchrotron}
+    \endentry
+    \entry{Altantzis2019}{article}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=b8f7eb55aadd2f1981ddaa41ba1e3232}{%
+           family={Altantzis},
+           familyi={A\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=461e456ae7d763a59143b16265c89c97}{%
+           family={Lobato},
+           familyi={L\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de199823978b6680a29f18a99637317a}{%
+           family={De\bibnamedelima Backer},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Annick},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d8eedb10bdf9b210b4acf17bd8c36503}{%
+           family={Béché},
+           familyi={B\bibinitperiod},
+           given={Armand},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e760d38078aff4a5b24c867aa5178c26}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbfea5726c650d2cc574a4a3f3391c60}{%
+           family={Basak},
+           familyi={B\bibinitperiod},
+           given={Shibabrata},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=afae7bd0e908c3eb50b86e5ee5610389}{%
+           family={Porcu},
+           familyi={P\bibinitperiod},
+           given={Mauro},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cacd034725d0431a7b1f3fd4a060c02}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75c9b425aa0bd44eb7073c51d20a9513}{%
+           family={Sánchez-Iglesias},
+           familyi={S\bibinithyphendelim I\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43e9f23e8ec4ac0872c03338b158629d}{%
+           family={Liz-Marzán},
+           familyi={L\bibinithyphendelim M\bibinitperiod},
+           given={Luis\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f599acb294c53818920f1b5e3dd9915}{%
+           family={Van\bibnamedelima Tendeloo},
+           familyi={V\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Gustaaf},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c152a43fb5884d3070b974a0f8ed3097}{%
+           family={Van\bibnamedelima Aert},
+           familyi={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0fa34d9222d4bb9feb6392a0cab44a0e}{%
+           family={Bals},
+           familyi={B\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{f29a644414f7e5260db196ef4433b4fe}
+      \strng{fullhash}{032fd369cdd7dfafee37098d897b7867}
+      \strng{bibnamehash}{f29a644414f7e5260db196ef4433b4fe}
+      \strng{authorbibnamehash}{f29a644414f7e5260db196ef4433b4fe}
+      \strng{authornamehash}{f29a644414f7e5260db196ef4433b4fe}
+      \strng{authorfullhash}{032fd369cdd7dfafee37098d897b7867}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1530-6984}
+      \field{journaltitle}{Nano Letters}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Three-Dimensional Quantification of the Facet Evolution of Pt Nanoparticles in a Variable Gaseous Environment}
+      \field{volume}{19}
+      \field{year}{2019}
+      \field{pages}{477\bibrangedash 481}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1021/acs.nanolett.8b04303
+      \endverb
     \endentry
     \entry{Kwangjin2012}{article}{}
       \name{author}{2}{}{%
@@ -696,7 +836,7 @@
       \endverb
     \endentry
     \entry{Astruc2005}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{ul=1}{%
         {{un=0,uniquepart=base,hash=ad0555cd2d8d0e1b30b26b770bd2ecad}{%
            family={Astruc},
            familyi={A\bibinitperiod},
@@ -740,6 +880,43 @@
       \verb https://doi.org/10.1002/anie.200500766
       \endverb
       \keyw{CC coupling,dendrimers,gold,nanoparticles,palladium,supported catalysts}
+    \endentry
+    \entry{Astruc2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6d272b14cc297df8da68e0afed2827ac}{%
+           family={Astruc},
+           familyi={A\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{6d272b14cc297df8da68e0afed2827ac}
+      \strng{fullhash}{6d272b14cc297df8da68e0afed2827ac}
+      \strng{bibnamehash}{6d272b14cc297df8da68e0afed2827ac}
+      \strng{authorbibnamehash}{6d272b14cc297df8da68e0afed2827ac}
+      \strng{authornamehash}{6d272b14cc297df8da68e0afed2827ac}
+      \strng{authorfullhash}{6d272b14cc297df8da68e0afed2827ac}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0009-2665}
+      \field{journaltitle}{Chemical Reviews}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Introduction: Nanoparticles in Catalysis}
+      \field{volume}{120}
+      \field{year}{2020}
+      \field{pages}{461\bibrangedash 463}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1021/acs.chemrev.8b00696
+      \endverb
     \endentry
     \entry{Atlan2023}{article}{}
       \name{author}{12}{}{%
@@ -843,7 +1020,7 @@
       \endverb
     \endentry
     \entry{Avval2022}{article}{}
-      \name{author}{16}{}{%
+      \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=bf8c710097fe1c0c89ad00d92d20e537}{%
            family={Avval},
            familyi={A\bibinitperiod},
@@ -891,65 +1068,17 @@
            familyi={M\bibinitperiod},
            given={Michael},
            giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bf8c710097fe1c0c89ad00d92d20e537}{%
-           family={Avval},
-           familyi={A\bibinitperiod},
-           given={Tahereh\bibnamedelima G},
-           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=55d0bfec54a2eed97da9323965c6ce6f}{%
-           family={Chatterjee},
-           familyi={C\bibinitperiod},
-           given={Shiladitya},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=50c3212c5b16b68a07a1645cf4f26e9f}{%
-           family={Hodges},
-           familyi={H\bibinitperiod},
-           given={Grant\bibnamedelima T},
-           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=90e7941d06b6eb7345638b8d40f77a0e}{%
-           family={Bahr},
-           familyi={B\bibinitperiod},
-           given={Stephan},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fe9d65dd4cae05c7d759fbb2169d63db}{%
-           family={Dietrich},
-           familyi={D\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=77204ef7a14a221ea8f3278cd0d02beb}{%
-           family={Meyer},
-           familyi={M\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=70db7581325b6aab68d5c95485e93fe9}{%
-           family={Thi{ß}en},
-           familyi={T\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=699c4c4c817bd225473296c744ca331c}{%
-           family={Linford},
-           familyi={L\bibinitperiod},
-           given={Matthew\bibnamedelima R},
-           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
         {American Vacuum Society}%
       }
       \strng{namehash}{3ad593de2793f89ce504dedd40db84be}
-      \strng{fullhash}{a3c95f8dedc3a64e13a09c5a902a2eb9}
+      \strng{fullhash}{b8d4c45f5a109109dfd49401e909477e}
       \strng{bibnamehash}{3ad593de2793f89ce504dedd40db84be}
       \strng{authorbibnamehash}{3ad593de2793f89ce504dedd40db84be}
       \strng{authornamehash}{3ad593de2793f89ce504dedd40db84be}
-      \strng{authorfullhash}{a3c95f8dedc3a64e13a09c5a902a2eb9}
+      \strng{authorfullhash}{b8d4c45f5a109109dfd49401e909477e}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -6298,76 +6427,6 @@
       \endverb
       \keyw{interfaces,kinetics,oxidation,phase transitions,surface chemistry}
     \endentry
-    \entry{Farkas2017}{article}{}
-      \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=ca88f097e72e72cfeb7544369e8b860f}{%
-           family={Farkas},
-           familyi={F\bibinitperiod},
-           given={Attila},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fbf2b0774ae2eb279ad3c5c823f42d1b}{%
-           family={Fantauzzi},
-           familyi={F\bibinitperiod},
-           given={Donato},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=feef6d982db829b20a0963bc54209a02}{%
-           family={Mueller},
-           familyi={M\bibinitperiod},
-           given={Jonathan\bibnamedelima E.},
-           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a0fb5403937f33f281829e242c7b860f}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Tianwei},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f512b8ea40116ab42bbfc9e7411526ea}{%
-           family={Papp},
-           familyi={P\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ba24058855dc16b8aa542fa8787464e6}{%
-           family={Steinrück},
-           familyi={S\bibinitperiod},
-           given={Hans-Peter},
-           giveni={H\bibinithyphendelim P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3055aceeeee688300ecc2014ade9bb7e}{%
-           family={Jacob},
-           familyi={J\bibinitperiod},
-           given={Timo},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6e9e84fb75ef8f89864a8e0ba8dad3e7}
-      \strng{fullhash}{f77afc2e06d7c2695a44ecfa70835b2f}
-      \strng{bibnamehash}{6e9e84fb75ef8f89864a8e0ba8dad3e7}
-      \strng{authorbibnamehash}{6e9e84fb75ef8f89864a8e0ba8dad3e7}
-      \strng{authornamehash}{6e9e84fb75ef8f89864a8e0ba8dad3e7}
-      \strng{authorfullhash}{f77afc2e06d7c2695a44ecfa70835b2f}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We summarize our recent results on the oxidation of platinum surfaces, stressing the close connection between theory and experiment. The present theoretical approach is based on ab-initio quantum mechanics methods, such as density functional theory (DFT), ab-initio atomistic thermodynamics, Monte-Carlo methods and reactive molecular dynamics (RMD). Experimentally, photoelectron spectroscopy (XPS) under UHV and in-situ conditions (NAP-XPS) provides most of the discussed results. The oxidation of an extended variety of platinum surfaces is reviewed, starting from atomically flat Pt(111) over stepped surfaces to regularly shaped nanoparticles, under conditions ranging from UHV through ambient pressures up to electrochemical interfaces.}
-      \field{issn}{0368-2048}
-      \field{journaltitle}{Journal of Electron Spectroscopy and Related Phenomena}
-      \field{title}{On the platinum-oxide formation under gas-phase and electrochemical conditions}
-      \field{volume}{221}
-      \field{year}{2017}
-      \field{pages}{44\bibrangedash 57}
-      \range{pages}{14}
-      \verb{doi}
-      \verb https://doi.org/10.1016/j.elspec.2017.06.005
-      \endverb
-      \keyw{Multi-scale modeling,Quantum-mechanics,Density functional theory,thermodynamics,Reactive molecular dynamics,XPS,Near ambient-pressure XPS,Core-level shifts,TPD,Catalysis,Electrocatalysis,Platinum,Surface oxides,Nanoparticles,Stepped surfaces}
-    \endentry
     \entry{Farrow1993}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=bc5cb51343202d557b6ae9c114a220ed}{%
@@ -10900,30 +10959,6 @@
       \verb 10.1103/PhysRevB.75.245425
       \endverb
     \endentry
-    \entry{Ostwald1908}{patent}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=541d9653fc88e497dcf50e394fb0e748}{%
-           family={Kaiser},
-           familyi={K\bibinitperiod},
-           given={K},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{541d9653fc88e497dcf50e394fb0e748}
-      \strng{fullhash}{541d9653fc88e497dcf50e394fb0e748}
-      \strng{bibnamehash}{541d9653fc88e497dcf50e394fb0e748}
-      \strng{authorbibnamehash}{541d9653fc88e497dcf50e394fb0e748}
-      \strng{authornamehash}{541d9653fc88e497dcf50e394fb0e748}
-      \strng{authorfullhash}{541d9653fc88e497dcf50e394fb0e748}
-      \field{extraname}{1}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{number}{Patent, 0807909}
-      \field{year}{1908}
-    \endentry
     \entry{Kaiser1909}{patent}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=541d9653fc88e497dcf50e394fb0e748}{%
@@ -10939,13 +10974,12 @@
       \strng{authorbibnamehash}{541d9653fc88e497dcf50e394fb0e748}
       \strng{authornamehash}{541d9653fc88e497dcf50e394fb0e748}
       \strng{authorfullhash}{541d9653fc88e497dcf50e394fb0e748}
-      \field{extraname}{2}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
-      \field{number}{Patent, 271517}
+      \field{number}{271517}
       \field{year}{1909}
     \endentry
     \entry{Karpov2019}{article}{}
@@ -12159,7 +12193,6 @@
       \field{abstract}{The reaction pathways of N2 and N2O formation in the direct decomposition and reduction of NO by NH3 were investigated over a polycrystalline Pt catalyst between 323 and 973K by transient experiments using the temporal analysis of products (TAP-2) reactor. The interaction between nitric oxide and ammonia was studied in the sequential pulse mode applying 15NO. Differently labelled nitrogen and nitrous oxide molecules were detected. In both, direct NO decomposition and NH3–NO interaction, N2O formation was most marked between 573 and 673K, whereas N2 formation dominated at higher temperatures. An unusual interruption of nitrogen formation in the 15NO pulse at 473K was caused by an inhibiting effect of adsorbed NO species. The detailed analysis of the product distribution at this temperature clearly indicates different reaction pathways leading to the product formation. Nitrogen formation occurs via recombination of nitrogen atoms formed by dissociation of nitric oxide or/and complete dehydrogenation of ammonia. N2O is formed via recombination of adsorbed NO molecules. Additionally, both products are formed via interactions between adsorbed ammonia fragments and nitric oxide.}
       \field{issn}{0926-3373}
       \field{journaltitle}{Applied Catalysis B: Environmental}
-      \field{note}{Papers presented at the 4th International Conference on Environmental Catalysis (4th ICEC)Heidelberg, Germany, June 05 – 08, 2005.}
       \field{number}{1}
       \field{title}{Mechanistic insights into the formation of N2O and N2 in NO reduction by NH3 over a polycrystalline platinum catalyst}
       \field{volume}{70}
@@ -16011,6 +16044,53 @@
       \verb https://doi.org/10.1016/0378-5963(82)90142-8
       \endverb
     \endentry
+    \entry{Ndolomingo2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=dd2ea1846ce8cdc33558c72c515f2f86}{%
+           family={Ndolomingo},
+           familyi={N\bibinitperiod},
+           given={Matumuene\bibnamedelima Joe},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=401ac179a924bfbea4ed815bbe380f01}{%
+           family={Bingwa},
+           familyi={B\bibinitperiod},
+           given={Ndzondelelo},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c278b0f0ae039cb99020d743b8b990f3}{%
+           family={Meijboom},
+           familyi={M\bibinitperiod},
+           given={Reinout},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aa26571da6821fd373fb44948c8c0f29}
+      \strng{fullhash}{118a765336adbc8f64ad61d01a3a5aa2}
+      \strng{bibnamehash}{118a765336adbc8f64ad61d01a3a5aa2}
+      \strng{authorbibnamehash}{118a765336adbc8f64ad61d01a3a5aa2}
+      \strng{authornamehash}{aa26571da6821fd373fb44948c8c0f29}
+      \strng{authorfullhash}{118a765336adbc8f64ad61d01a3a5aa2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Supported metal nanoparticles, M-NPs, are of great scientific and economic interest as they encompass application in chemical manufacturing, oil refining and environmental catalysis. Oxidation and hydrogenation reactions are among the major reactions catalyzed by supported M-NPs. Although supported M-NPs are preferable due to their easy recovery and reuse, there are still some practical issues regarding their catalytic activity and deactivation. This review highlights the general features of supported M-NPs as catalysts with particular attention to copper, gold, platinum, palladium, ruthenium, silver, cobalt and nickel and their catalytic evaluation in various reactions. The catalytic performance of noble M-NPs has been explored extensively in various selective oxidation and hydrogenation reactions. In general, noble metals are expensive and sensitive to poisons. Despite their significant merits and potential (easily available, comparatively inexpensive and less sensitive to poisons), catalysis by base M-NPs is relatively less explored. Therefore, activity of base M-NPs can be improved, and still, there is potential for such catalysts.}
+      \field{issn}{1573-4803}
+      \field{journaltitle}{Journal of Materials Science}
+      \field{month}{5}
+      \field{number}{15}
+      \field{title}{Review of supported metal nanoparticles: synthesis methodologies, advantages and application as catalysts}
+      \field{volume}{55}
+      \field{year}{2020}
+      \field{pages}{6195\bibrangedash 6241}
+      \range{pages}{47}
+      \verb{doi}
+      \verb 10.1007/s10853-020-04415-x
+      \endverb
+    \endentry
     \entry{Nevot1980}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=1550cdffe8a41c122fbe9692832641da}{%
@@ -16725,25 +16805,22 @@
         {{un=0,uniquepart=base,hash=c9f3b4531e9344754cbf66d2814e67cc}{%
            family={Jansen},
            familyi={J\bibinitperiod},
-           given={A.\bibnamedelimi P.J.},
-           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={A.\bibnamedelimi P.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=6b6b08819980315fa0ed9d58810ddfab}{%
-           family={Santen},
-           familyi={S\bibinitperiod},
+        {{un=0,uniquepart=base,hash=24a6ef357034e76f323d6940c9780502}{%
+           family={{van Santen}},
+           familyi={v\bibinitperiod},
            given={R.\bibnamedelimi A.},
            giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0,
-           prefix={van},
-           prefixi={v\bibinitperiod},
-           prefixun=0}}%
+           givenun=0}}%
       }
-      \strng{namehash}{9f9d40f777a274ed8cbcc03729f664e5}
-      \strng{fullhash}{9f9d40f777a274ed8cbcc03729f664e5}
-      \strng{bibnamehash}{9f9d40f777a274ed8cbcc03729f664e5}
-      \strng{authorbibnamehash}{9f9d40f777a274ed8cbcc03729f664e5}
-      \strng{authornamehash}{9f9d40f777a274ed8cbcc03729f664e5}
-      \strng{authorfullhash}{9f9d40f777a274ed8cbcc03729f664e5}
+      \strng{namehash}{3895cc04b9501b5da8b2dff1f614933f}
+      \strng{fullhash}{3895cc04b9501b5da8b2dff1f614933f}
+      \strng{bibnamehash}{3895cc04b9501b5da8b2dff1f614933f}
+      \strng{authorbibnamehash}{3895cc04b9501b5da8b2dff1f614933f}
+      \strng{authornamehash}{3895cc04b9501b5da8b2dff1f614933f}
+      \strng{authorfullhash}{3895cc04b9501b5da8b2dff1f614933f}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
@@ -16775,8 +16852,8 @@
         {{un=0,uniquepart=base,hash=c9f3b4531e9344754cbf66d2814e67cc}{%
            family={Jansen},
            familyi={J\bibinitperiod},
-           given={A.\bibnamedelimi P.J.},
-           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={A.\bibnamedelimi P.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=f557d9bf87b6911ff96e4a13c72fefc2}{%
            family={{Van Santen}},
@@ -17011,6 +17088,54 @@
       \verb{doi}
       \verb 10.1016/0021-9517(76)90343-2
       \endverb
+    \endentry
+    \entry{Ostwald1903}{patent}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=96b92c86b93c9340ec9c3e81dfb57d03}{%
+           family={Ostwald},
+           familyi={O\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{96b92c86b93c9340ec9c3e81dfb57d03}
+      \strng{fullhash}{96b92c86b93c9340ec9c3e81dfb57d03}
+      \strng{bibnamehash}{96b92c86b93c9340ec9c3e81dfb57d03}
+      \strng{authorbibnamehash}{96b92c86b93c9340ec9c3e81dfb57d03}
+      \strng{authornamehash}{96b92c86b93c9340ec9c3e81dfb57d03}
+      \strng{authorfullhash}{96b92c86b93c9340ec9c3e81dfb57d03}
+      \field{extraname}{1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{number}{GB190208300A}
+      \field{year}{1902}
+    \endentry
+    \entry{Ostwald1902}{patent}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=96b92c86b93c9340ec9c3e81dfb57d03}{%
+           family={Ostwald},
+           familyi={O\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{96b92c86b93c9340ec9c3e81dfb57d03}
+      \strng{fullhash}{96b92c86b93c9340ec9c3e81dfb57d03}
+      \strng{bibnamehash}{96b92c86b93c9340ec9c3e81dfb57d03}
+      \strng{authorbibnamehash}{96b92c86b93c9340ec9c3e81dfb57d03}
+      \strng{authornamehash}{96b92c86b93c9340ec9c3e81dfb57d03}
+      \strng{authorfullhash}{96b92c86b93c9340ec9c3e81dfb57d03}
+      \field{extraname}{2}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{number}{GB190200698A}
+      \field{year}{1903}
     \endentry
     \entry{Ouellette2014}{incollection}{}
       \name{author}{2}{}{%
@@ -18215,43 +18340,6 @@
       \verb 10.1016/S1385-8947(02)00068-2
       \endverb
       \keyw{Ammonia oxidation,Kinetic model,Microreactor,Navier-Stokes,Platinum}
-    \endentry
-    \entry{Diadem}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=45a24715dd53db6f198fc99a853c25fa}{%
-           family={Recherche},
-           familyi={R\bibinitperiod},
-           given={Agence\bibnamedelima Nationale},
-           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0,
-           prefix={de\bibnamedelima la},
-           prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod},
-           prefixun=0}}%
-      }
-      \strng{namehash}{45a24715dd53db6f198fc99a853c25fa}
-      \strng{fullhash}{45a24715dd53db6f198fc99a853c25fa}
-      \strng{bibnamehash}{45a24715dd53db6f198fc99a853c25fa}
-      \strng{authorbibnamehash}{45a24715dd53db6f198fc99a853c25fa}
-      \strng{authornamehash}{45a24715dd53db6f198fc99a853c25fa}
-      \strng{authorfullhash}{45a24715dd53db6f198fc99a853c25fa}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Dispositifs Intégrés pour l’Accélération du DEploiement de Matériaux Emergents}
-      \field{urlday}{17}
-      \field{urlmonth}{8}
-      \field{urlyear}{2023}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://anr.fr/fr/france-2030/france2030/call/pepr-diadem-appel-a-projets-dispositifs-integres-pour-lacceleration-du-deploiement-de-materiaux/
-      \endverb
-      \verb{url}
-      \verb https://anr.fr/fr/france-2030/france2030/call/pepr-diadem-appel-a-projets-dispositifs-integres-pour-lacceleration-du-deploiement-de-materiaux/
-      \endverb
     \endentry
     \entry{Resta2020a}{article}{}
       \name{author}{13}{}{%
@@ -20108,22 +20196,22 @@
     \endentry
     \entry{Schmid2010}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d6f896fe07b4317cf0baed5fdcd9b0aa}{%
-           family={SCHMID},
+        {{un=0,uniquepart=base,hash=04dc1a6588142d0cee4237fe24ed942f}{%
+           family={Schmid},
            familyi={S\bibinitperiod},
-           given={PETER\bibnamedelima J.},
+           given={Peter\bibnamedelima J.},
            giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
         {Cambridge University Press}%
       }
-      \strng{namehash}{d6f896fe07b4317cf0baed5fdcd9b0aa}
-      \strng{fullhash}{d6f896fe07b4317cf0baed5fdcd9b0aa}
-      \strng{bibnamehash}{d6f896fe07b4317cf0baed5fdcd9b0aa}
-      \strng{authorbibnamehash}{d6f896fe07b4317cf0baed5fdcd9b0aa}
-      \strng{authornamehash}{d6f896fe07b4317cf0baed5fdcd9b0aa}
-      \strng{authorfullhash}{d6f896fe07b4317cf0baed5fdcd9b0aa}
+      \strng{namehash}{04dc1a6588142d0cee4237fe24ed942f}
+      \strng{fullhash}{04dc1a6588142d0cee4237fe24ed942f}
+      \strng{bibnamehash}{04dc1a6588142d0cee4237fe24ed942f}
+      \strng{authorbibnamehash}{04dc1a6588142d0cee4237fe24ed942f}
+      \strng{authornamehash}{04dc1a6588142d0cee4237fe24ed942f}
+      \strng{authorfullhash}{04dc1a6588142d0cee4237fe24ed942f}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -20999,7 +21087,6 @@
       \field{labeltitlesource}{title}
       \field{isbn}{9780841298125}
       \field{month}{11}
-      \field{note}{0}
       \field{series}{ACS Symposium Series}
       \field{title}{A Brief Overview of the Principles of Ambient Pressure X-ray Spectroscopies}
       \field{volume}{1396}
@@ -24259,6 +24346,61 @@
       \range{pages}{6}
       \verb{doi}
       \verb 10.1038/ncomms2661
+      \endverb
+    \endentry
+    \entry{Yau2017a}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=12a6209cc41bc92a77cad5002879da3e}{%
+           family={Yau},
+           familyi={Y\bibinitperiod},
+           given={Allison},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3e574acb80e188026c35f8d0ad2cfe0}{%
+           family={Harder},
+           familyi={H\bibinitperiod},
+           given={Ross\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b81e8e33f67916e157189ef6082db07}{%
+           family={Kanan},
+           familyi={K\bibinitperiod},
+           given={Matthew\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d786e96f68775db92980288601162a6}{%
+           family={Ulvestad},
+           familyi={U\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Chemical Society}%
+      }
+      \strng{namehash}{96d6c7057bf91f3804d42d4437c8db7e}
+      \strng{fullhash}{6cfeaac45759d019415e51b712df22b4}
+      \strng{bibnamehash}{96d6c7057bf91f3804d42d4437c8db7e}
+      \strng{authorbibnamehash}{96d6c7057bf91f3804d42d4437c8db7e}
+      \strng{authornamehash}{96d6c7057bf91f3804d42d4437c8db7e}
+      \strng{authorfullhash}{6cfeaac45759d019415e51b712df22b4}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1936-0851}
+      \field{journaltitle}{ACS Nano}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Imaging the Hydrogen Absorption Dynamics of Individual Grains in Polycrystalline Palladium Thin Films in 3D}
+      \field{volume}{11}
+      \field{year}{2017}
+      \field{pages}{10945\bibrangedash 10954}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1021/acsnano.7b04735
       \endverb
     \endentry
     \entry{jupyter_computing_4}{inproceedings}{}

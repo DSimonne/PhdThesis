@@ -1,11 +1,8 @@
 \section{Single Pt nanoparticles: BCDI}\label{sec:BCDINanoparticles}
 
-% add facets on top and bottom of the particle in the image
-% add figure ortho data
-
 \subsection{Experimental setup for BCDI experiments}\label{sec:BCDISetup}
 
-The BCDI experiment was performed at the SixS beamline of synchrotron SOLEIL, France (sec. \ref{sec:SIXS}), in a vertical specular geometry and at a beam energy of \qty{8.5}{\keV} (wavelength of \qty{1.46}{\angstrom}), corresponding to the working energy of the focusing optics.
+The BCDI experiment was performed at the SixS beamline, in a vertical specular geometry and at a beam energy of \qty{8.5}{\keV} (\qty{1.46}{\angstrom}), corresponding to the working energy of the focusing optics.
 The alignment of the sample was performed with the same procedure as for SXRD detailed in sec. \ref{sec:SXRDSetupV}.
 
 Each rocking curve consisted of \qty{201}{steps}, each counting for at least \qty{5}{\second}, resulting in an angular step of \ang{0.005}.
@@ -15,9 +12,8 @@ Measurement were repeated at fixed conditions to obtain improved statistics abou
 The diffracted beam was recorded with a 2D MAXIPIX photon-counting detector (\numproduct{515 x 515} square pixels, \qtyproduct{55 x 55}{\um} wide) positioned on the detector arm at a distance of \qty{1.22}{\meter}.
 The in-plane ($\omega$) and out-of-plane ($\mu$) angles of the sample are set respectively to \ang{0} and \ang{18.6} when measuring at room temperature.
 The in-plane ($\delta$) and out-of-plane ($\gamma$) angles of the detector are respectively equal to \ang{0} and \ang{37.2}.
-The values of the scattering and detector angles are expected to vary as a function of the temperature during the experiment due to the thermal expansion of the sample.
 
-\textit{Gwaihir} was used to process the data using the workflow detailed in sec. \ref{sec:Gwaihir}, each dataset was saved as a \textit{cxi} file containing all of the data and metadata related to the data reduction process.
+\textit{Gwaihir} was used to process the data using the workflow detailed in sec. \ref{sec:Gwaihir}, each dataset was saved as a \textit{cxi} file containing all of the data and metadata related to the reduction process.
 The use of iterative algorithm for phase retrieval is detailed in tab. \ref{tab:ReconstructionProcess}.
 After 50 successful reconstructions, the 10 best solutions were chosen based on the homogeneity of the Bragg electronic density amplitude, and free log-likelihood value \parencite{FavreNicolin2020a}.
 A unique solution was then computed by performing a mode decomposition to find the most reproducible solution, thus reducing noise in the data, following an algorithm first derived by Schmid et al. \parencite*{Schmid2010}.
@@ -29,11 +25,13 @@ A unique solution was then computed by performing a mode decomposition to find t
     \toprule
     Iteration & Algorithm & PSF & Description \\
     \midrule
-    0-199 & HIO & False & Work on the gross identification of the support\\
-    200-599 & RAAR & False & Refining the support \\
-    600 & RAAR & True & \begin{tabular}[c]{@{}l@{}}Activate the use of a point-spread function (PSF) to take into account the partial coherence \\ of the beam. \end{tabular} \\
-    601-999 & RAAR & True & Refine the PSF shape, the support must be already well defined to avoid diverging from the best solution. \\
-    1000-1200 & ER & True & Further refine the support by reducing the algorithm flexibility. \\
+    0-199     & HIO  & False & Work on the gross identification of the support\\
+    200-599   & RAAR & False & Refining the support \\
+    600       & RAAR & True  & Activate the use of a point-spread function (PSF) to take  \\
+              &      &       & into account the partial coherence of the beam. \\
+    601-999   & RAAR & True  & Refine the PSF shape, the support must be already well defined \\
+              &      &       & to avoid diverging from the best solution. \\
+    1000-1200 & ER   & True  & Further refine the support by reducing the algorithm flexibility. \\
     \bottomrule
     \end{tabular}%
 }
@@ -43,13 +41,13 @@ A unique solution was then computed by performing a mode decomposition to find t
 
 \subsection{Effects of temperature under inert atmosphere from \qtyrange{25}{600}{\degreeCelsius}}\label{sec:TempRampBCDI}
 
-To be able to de-correlate the effect of temperature from the effect of the catalytic reaction on the nanoparticle structure, the alumina-supported nanoparticles were gradually heated from \qtyrange{25}{600}{\degreeCelsius} under a constant argon-based gas flow (\qty{50}{\ml\per\min}) and at a pressure of \qty{0.5}{\bar}.
+To be able to de-correlate the effect of temperature from the effect of the catalytic reaction on the nanoparticle structure, the sapphire-supported nanoparticles were gradually heated from \qtyrange{25}{600}{\degreeCelsius} under a constant argon-based gas flow (\qty{50}{\ml\per\min}), and at a pressure of \qty{0.5}{\bar}.
 
 The same nanoparticle (so-forth called nanoparticle \textit{A}) was tracked during the heating process, rocking-curves around the (111) Bragg peak were measured at different temperatures to probe its structural evolution.
 
 \subsubsection{Shape evolution}
 
-The surface of the Pt nanoparticle coloured by the voxel strain values is presented in fig. \ref{fig:AmaterasuA} from \qtyrange{150}{350}{\degreeCelsius} to show the evolution of the particle shape under an inert gas flow as a function of the temperature.
+The surface of the Pt nanoparticle coloured by the voxel strain values is presented in fig. \ref{fig:AmaterasuA} from \qtyrange{150}{350}{\degreeCelsius}, to show the evolution of the particle shape under an inert gas flow as a function of the temperature.
 The ($\vec{x}, \vec{y}, \vec{z}$) frame in the figure corresponds to the sample frame, with $\vec{z}$ out-of-plane.
 At \qty{150}{\degreeCelsius}, a dislocation is observed at the nanoparticle interface with the substrate from its strain signature and missing pipe of Bragg electronic density \parencite{Dupraz2015}.
 After a flash annealing at \qty{800}{\degreeCelsius} for a few minutes, the dislocation was removed indicating the mobility of dislocations at high temperature.
@@ -74,9 +72,11 @@ The recovered phase spanning from $-\pi$ to $\pi$ could not be perfectly unwrapp
 \end{figure}
 
 % Detail facet retrieval
-A first approximation of the spatial resolution of the experiments was computed by fitting the derivative of the Bragg electronic density amplitude, following the procedure detailed by Hofmann et al. \cite*{Hofmann2020}, a minimum value of \qty{30}{\nm} was found in the [111] direction throughout the experiment, with otherwise values going up to \qty{60}{\nm} in other directions.
+A first approximation of the spatial resolution of the experiments was computed by fitting the derivative of the Bragg electronic density amplitude, following the procedure detailed by Hofmann et al. \parencite*{Hofmann2020}.
+A minimum value of \qty{30}{\nm} was found in the [111] direction throughout the experiment, with otherwise values going up to \qty{60}{\nm} in other directions.
 
-The average voxel size, which can be thought as the lowest attainable resolution from the experimental setup, is equal to \qty{10}{\nm^3}, which shows that the signal to noise ratio is not sufficient in all of the collected volume in reciprocal space to assume for the voxel size to be a good resolution estimate.
+The average voxel size %, which can be thought as the lowest attainable spatial resolution from the experimental setup,
+is equal to \qty{10}{\nm^3}, which shows that the signal to noise ratio is not sufficient in all of the collected volume in reciprocal space to assume for the voxel size to be a good resolution estimate.
 The low resolution of the experiment makes the identification of the smallest facets on the nanoparticles, as well as their orientation complicated for two reasons.
 
 % \begin{figure}[!htb]
@@ -93,11 +93,13 @@ The low resolution of the experiment makes the identification of the smallest fa
 % For example, the area in orange in fig. \ref{fig:StereoBottom} represents a region in which facets with different structures have a similar orientation and for which it can be complicated to make the difference between $(\bar{1}\bar{1}1)$, $(\bar{2}\bar{2}1)$ and $(\bar{3}\bar{3}1)$ facets.
 
 First, crystal truncation rods perpendicular to small facets are less intense in comparison to large facets, which is at the origin of the direction-dependent spatial resolution in BCDI \parencite{Cherukara2018a}.
-The spatial resolution in the direction perpendicular to small facets is thus smaller than e.g. in the [111] direction, the boundary between particle support and the surrounding is less \textit{sharp}.
+The spatial resolution in the direction perpendicular to small facets is thus smaller than e.g. in the [111] direction since the (111) and ($\bar{1}\bar{1}\bar{1}$) facet are some of the largest.
+% The boundary between particle support and the surrounding is less \textit{sharp}.
 
 Secondly, the low amount of voxels belonging to those facets increases the error when computing the facets orientation in real space by the means of \textit{FacetAnalyser}.
 
-The crystallographic orientation of each facet was determined by (i) comparing the angles between their normals and the [111] direction, which is known to be along the $\vec{z}$ axis of the sample frame, and (ii) comparing the angles between the component of their normals \textit{perpendicular} to the [111] direction and the normal to one (1$\bar{1}$0)-type facet, easily identified since they are at \ang{90} with the [111] direction.
+The crystallographic orientation of each facet was determined by (i) comparing the angles between their normals and the [111] direction, which is known to be along the $\vec{z}$ axis of the sample frame.
+(ii) comparing the angles between the component of their normals \textit{perpendicular} to the [111] direction and the normal to one (1$\bar{1}$0)-type facet, easily identified since they are at \ang{90} with the [111] direction.
 If no (1$\bar{1}$0)-type facet is present on the nanoparticle, the $\vec{x}$ or $\vec{y}$ axis is used instead.
 The value of both angles then allows us to situate the normal of each facet in the circular frame drawn using a stereographic projection perpendicular to the [111] crystallographic direction (fig. \ref{fig:StereoTop}), and thus to find their corresponding Miller planes.
 
@@ -106,7 +108,8 @@ To be more precise, the angular value in the first step is computed as the avera
 An equivalent procedure is to use the direction of the crystal truncation rods in reciprocal space \parencite{Richard2018}, similarly to the procedure performed in the previous section.
 
 % global shape
-The nanoparticle shape stayed roughly the same during the beginning of the temperature ramp and after the introduction of ammonia, the triangular (111) facet at the top of the particle can be recognised, with the same agency of the surrounding facets, \textit{i.e.} (111) facet surrounded by the (100), (010), (001), (1$\bar{1}$1), (11$\bar{1}$), ($\bar{1}$11) facets.
+The nanoparticle shape stayed roughly the same during the beginning of the temperature ramp, and after the introduction of ammonia.
+The triangular (111) facet at the top of the particle can be recognised, with the same agency of the surrounding facets, \textit{i.e.} (111) facet surrounded by the (100), (010), (001), (1$\bar{1}$1), (11$\bar{1}$), ($\bar{1}$11) facets.
 The bottom facet, in contact with the substrate, has a [$\bar{1}\bar{1}\bar{1}$] orientation.
 
 % 150 -> 150
@@ -124,13 +127,14 @@ The bottom facet, in contact with the substrate, has a [$\bar{1}\bar{1}\bar{1}$]
 
 After the flash annealing, the nanoparticle shape near the interface has become less round and more faceted from the disappearance of the dislocation (fig. \ref{fig:AmaterasuDislocation}), the surface strain on the ($\bar{1}\bar{1}\bar{1}$) facet at the interface has decreased.
 
-The evolution of the different type of facets present on the nanoparticle surface, as well as the relative surface area occupied by each equivalent facet is presented in fig. \ref{fig:AmaterasuFacetsEvolution}.
+The evolution of the different type of facets present on the nanoparticle surface, as well as their relative surface area is presented in fig. \ref{fig:AmaterasuFacetsEvolution}.
 
 A ($10\bar{1}$) facet appeared after the flash annealing on the side of the nanoparticle near a (2$\bar{1}\bar{2}$) facet that replaced a ($1\bar{1}\bar{1}$) facet (fig. \ref{fig:AmaterasuDislocation}).
-The large cylindrical surface area spanned by the dislocation loop (also visible in fig. \ref{fig:AmaterasuA}) results in a large volume of the particle not visible in the selected contour of the reconstructed Bragg electronic density due to low-Bragg electronic density regions around dislocation loops, demonstrated \textit{via} atomic simulations by Clark et al. \parencite*{Clark2015}, and Dupraz et al. \parencite*{Dupraz2017}.
+The large cylindrical surface area spanned by the dislocation loop (also visible in fig. \ref{fig:AmaterasuA}) results in a large volume of the particle not visible in the selected contour of the reconstructed Bragg electronic density.
+This is due to low amplitude in the Bragg electronic density regions around dislocation loops, demonstrated \textit{via} atomic simulations by Clark et al. \parencite*{Clark2015}, and Dupraz et al. \parencite*{Dupraz2017}.
 
-Removing the dislocation also removed this effect, which lead to and increase of the area recognised as belonging to the surrounding facets, especially for the $(\bar{1}\bar{1}\bar{1})$ facet, at the interface with the substrate.
-Almost \qty{10}{\percent} more of the sample surface was recognised as part of the different facets by the algorithm (fig. \ref{fig:AmaterasuFacetsEvolution} - b)
+Removing the dislocation also removed this effect, which lead to an increase of the area recognised as belonging to the surrounding facets, especially for the $(\bar{1}\bar{1}\bar{1})$ facet, at the interface with the substrate.
+Almost \qty{10}{\percent} more of the sample surface was recognised as part of the different facets by the algorithm, which is displayed in fig. \ref{fig:AmaterasuFacetsEvolution} (b).
 
 \begin{figure}[!htb]
     \centering
@@ -139,16 +143,19 @@ Almost \qty{10}{\percent} more of the sample surface was recognised as part of t
         a) Evolution of the number of facets in contact with the $(\bar{1}\bar{1}\bar{1})$ facet at the interface with the substrate.
         b) Evolution of the particle surface area occupied by specific facets (indicated with parenthesis) or facet families (indicated with \{\}).
         The surface not recognised as part of a facet by the algorithm is taken into account and shown in black.
+        \qty{150}{\degreeCelsius} A designates the measurement performed after annealing.
     }
     \label{fig:AmaterasuFacetsEvolution}
 \end{figure}
 
 %150->450, loose all 212, get -101 that then change side
-When heating from \qty{150}{\degreeCelsius} to \qty{250}{\degreeCelsius} , the ($\bar{2}\bar{1}2$) facet present before the dislocation removal is transformed towards a ($\bar{1}\bar{1}1$) facet.
-When heating to \qty{350}{\degreeCelsius}, the ($10\bar{1}$) facet disappeared and a ($\bar{1}01$) facet appeared on the opposite side of the particle, this transformation is visible in fig. \ref{fig:AmaterasuA}.
+When heating from \qty{150}{\degreeCelsius} to \qty{250}{\degreeCelsius} , the ($\bar{2}\bar{1}2$) facet present before the dislocation removal is transformed towards a ($\bar{1}\bar{1}1$) facet (fig. \ref{fig:AmaterasuFacetsEvolution} - a).
+The ($10\bar{1}$) facet disappeared after heating to \qty{350}{\degreeCelsius}, and a ($\bar{1}01$) facet appeared on the opposite side of the particle (fig. \ref{fig:AmaterasuFacetsEvolution} - a), this transformation is visible in fig. \ref{fig:AmaterasuA}.
 
 The surface of the Pt nanoparticle coloured by the voxel strain values from \qtyrange{450}{600}{\degreeCelsius} is presented in fig. \ref{fig:AmaterasuB}.
-If one expects a certain degree of symmetry from the equilibrium Winterbottom shape of a particle on a substrate \parencite{Winterbottom1967, Boukouvala2021}, this symmetry seems to only be reached at \qty{450}{\degreeCelsius} (fig. \ref{fig:AmaterasuB}) with three ($\bar{1}1\bar{1}$), (1$\bar{1}\bar{1}$), and ($\bar{1}\bar{1}$1) facets close to the substrate for a total of 11 facets (8 {111} facets and 3 {100] facets), which is also the only reconstruction without any ($\bar{2}\bar{1}2$), ($\bar{1}01$) and ($2\bar{1}\bar{1}$)-type facets (fig. \ref{fig:AmaterasuFacetsEvolution}).
+If one expects a certain degree of symmetry from the equilibrium Winterbottom shape of a particle on a substrate \parencite{Winterbottom1967, Boukouvala2021}, this symmetry seems to only be reached at \qty{450}{\degreeCelsius} (fig. \ref{fig:AmaterasuB}).
+Three ($\bar{1}1\bar{1}$), (1$\bar{1}\bar{1}$), and ($\bar{1}\bar{1}$1) facets are indexed close to the substrate for a total of 11 facets (8 \{111\} facets and 3 \{100\} facets).
+\qty{450}{\degreeCelsius} is also the temperature at which the particle does not exhibit any ($\bar{2}\bar{1}2$), ($\bar{1}01$) and ($2\bar{1}\bar{1}$)-type facets (fig. \ref{fig:AmaterasuFacetsEvolution} - a).
 
 \begin{figure}[!htb]
     \centering
@@ -167,15 +174,18 @@ If one expects a certain degree of symmetry from the equilibrium Winterbottom sh
 
 Overall, the surface occupied by the facets around the top of the particle increases during heating, while the surface area not recognised as faceted by the algorithm decreases, which could mean that smaller facets (not resolved by the algorithm) are absorbed by large low index facets when the temperature increase, the particle thus becoming gradually less round.
 The respective number of ($1\bar{1}1$)-type and (100)-type facet does not change during the experiment.
-The facets that are around the bottom of the particle are the most subject to change during this temperature ramp while the facets at the top of particle are more stable (fig. \ref{fig:AmaterasuFacetsEvolution}).
+The facets that are around the bottom of the particle are the most subject to change during this temperature ramp, while the facets at the top of particle are more stable (fig. \ref{fig:AmaterasuFacetsEvolution}).
 
 % 450 -> 600
-Interestingly, after the reshaping of the particle at \qty{450}{\degreeCelsius} that shows the disappearance of the higher Miller indices facets (fig. \ref{fig:AmaterasuFacetsEvolution}), the following rocking curves where very difficult to reconstruct until \qty{600}{\degreeCelsius}.
+Interestingly, after the reshaping of the particle at \qty{450}{\degreeCelsius} that shows the disappearance of the higher Miller indices facets (fig. \ref{fig:AmaterasuFacetsEvolution} - a), the following rocking curves at \qty{550}{\degreeCelsius} did not reconstruct.
 
-A reconstruction at \qty{600}{\degreeCelsius} under inert atmosphere shows the appearance of a hole at the interface with the substrate (fig. \ref{fig:AmaterasuB}), and of the same ($\bar{2}\bar{1}2$) facet that was present on the nanoparticle at \qty{150}{\degreeCelsius} before the removal of the dislocation (fig. \ref{fig:Amaterasu110}).
+A reconstruction at \qty{600}{\degreeCelsius} under inert atmosphere shows the appearance of a hole at the interface with the substrate (fig. \ref{fig:AmaterasuB}), and of the same ($\bar{2}\bar{1}2$) facet that was present on the nanoparticle at \qty{150}{\degreeCelsius} (fig. \ref{fig:AmaterasuFacetsEvolution} - a), replacing the ($\bar{1}\bar{1}1$) facet.
 
-After the introduction of \ce{NH_3} at \qty{600}{\degreeCelsius}, the reconstruction of the particle shows the formation of a (2$\bar{1}\bar{1}$) facet for the first time, together with the return of a [$\bar{1}01$] facet and the disappearance of the ($\bar{2}\bar{1}2$) facet, similarly to the changes that occurred at \qty{150}{\degreeCelsius} after the removal of the dislocation (fig. \ref{fig:Amaterasu110}).
-The change is also visible in fig. \ref{fig:AmaterasuFacetsEvolution}, for example the relative surface occupied by the (100), (010) and (001) facets decreases, occupied by the ($\bar{1}01$) facet.
+After the introduction of \ce{NH_3} at \qty{600}{\degreeCelsius}, the reconstructed particle exhibit a (2$\bar{1}\bar{1}$) facet for the first time, replacing a (1$\bar{1}\bar{1}$) facet (fig. \ref{fig:AmaterasuFacetsEvolution} - a).
+The ($\bar{2}\bar{1}2$) facet is replaced by a ($\bar{1}01$) (previously observed at \qty{350}{\degreeCelsius}), and a ($\bar{1}\bar{1}1$) facet (fig. \ref{fig:AmaterasuFacetsEvolution} - a, \ref{fig:Amaterasu110}).
+Similar changes occurred between \qty{150}{\degreeCelsius} and \qty{350}{\degreeCelsius} after the removal of the dislocation (fig. \ref{fig:Amaterasu110}).
+Overall, the \{$\bar{1}\bar{1}1$\}-type facets seem to be the most unstable, shifting towards \{$\bar{1}01$\}-type, \{$\bar{2}\bar{1}1$\}-type and \{$\bar{2}\bar{1}2$\}-type facets as a function of temperature (fig. \ref{fig:Amaterasu110}).
+The change is also visible in fig. \ref{fig:AmaterasuFacetsEvolution} (b), for example the relative surface occupied by the (100), (010) and (001) facets decreases, occupied by the ($\bar{1}01$) and (1$\bar{1}\bar{1}$) facets.
 The alternating highly positive and negative strain regions in the middle of the ($\bar{1}\bar{1}\bar{1}$) facet (fig. \ref{fig:AmaterasuB}) is the signature of a dislocation network forming at the interface with the substrate \parencite{Dupraz2015}.
 
 \begin{figure}[!htb]
@@ -195,7 +205,8 @@ The reaction can heat the catalyst to very high temperatures which in our case c
 
 \subsubsection{Determination of strain}
 
-The average value of the lattice parameter can be extracted from the position $\vec{G}$ of the Bragg peaks in reciprocal space \textit{via} eq. \ref{eq:QandD3} and eq. \ref{eq:Interplanarspacing} to compute the average lattice strain \textit{via} eq. \ref{eq:StrainDiffraction} by comparing with e.g. room temperature values under inert atmosphere \parencite{Fernandez2019}.
+The average value of the lattice parameter can be extracted from the position $\vec{G}$ of the Bragg peaks in reciprocal space \textit{via} eq. \ref{eq:QandD3} and eq. \ref{eq:Interplanarspacing}.
+This value can then be used to compute the average lattice strain \textit{via} eq. \ref{eq:StrainDiffraction}, by comparing with a reference value, e.g. room temperature values under inert atmosphere \parencite{Fernandez2019}.
 
 However, the information extracted from the retrieved phase in BCDI is more complex since, by measuring three non-coplanar Bragg peaks, one may retrieve the full strain tensor (eq. \ref{eq:StrainTensor}) from the reconstructed displacement field $\vec{u}_{\hat{q_x}, \hat{q_y}, \hat{q_z}}$ (eq. \ref{eq:DisplacementField}), $\hat{q_x}, \hat{q_y}, \hat{q_z}$ being three orthogonal basis vector in the reciprocal space \parencite{Karpov2019}.
 
@@ -242,8 +253,8 @@ However, the information extracted from the retrieved phase in BCDI is more comp
 The idea behind using the strain tensor is to identify shear components in the displacement field, \textit{i.e.} see if components in one direction depend on other directions, which can also help to identify defects present in nanoparticles \parencite{Lauraux2021}.
 Using a single Bragg peak, only one component of the displacement field can be retrieved, obtained from the division of the retrieved phase $\Phi$ of the scattered x-rays by the value of the scattering vector at the position of the Bragg peak (\textit{i.e.} $\vec{q} = \vec{G}$), following the assumptions for phase retrieval detailed in sec. \ref{sec:StrainBCDI}, eq. \ref{eq:FcrystalBCDI3} - \ref{eq:FcrystalBCDI7}.
 
-In our case, the direction of the [111] scattering vector is perpendicular to the sample, along the $\vec{z}$ axis of the sample frame.
-Therefore, the [111] scattering vector, $\vec{G}_{111}$, is so forth described as $\vec{q}_z$, of magnitude  $|\vec{q}_z|$, with the direction described by the unit vector  $\hat{q_z}$, to be consistent with the equations detailed above.
+In our case, the direction of the (111) scattering vector, $\vec{G}_{111}$, is perpendicular to the sample, along the $\vec{z}$ axis of the sample frame.
+Therefore, $\vec{G}_{111}$ is so forth described as $\vec{q}_z$, of magnitude  $|\vec{q}_z|$, with the direction described by the unit vector  $\hat{q_z}$, to be consistent with the equations detailed above.
 Our approach to the strain is considerably simplified since only one component of the strain tensor can be correctly derived, here the out-of-plane strain $\epsilon_{zz}$ (eq. \ref{eq:StrainTensorzz}) as detailed below in eq. \ref{eq:StrainFromPhase1} - \ref{eq:StrainFromPhase3}.
 
 \begin{align}
@@ -272,67 +283,72 @@ This isotropic \textit{homogeneous} strain ($\epsilon_{hmg}$) in the particle is
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS\_2021\_01/RockingCurves.pdf}
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS\_2021\_01/HomoStrain.pdf}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS\_2021\_01/HomoStrainEdited.pdf}
     \caption{
-        a) Evolution of the integrated scattered intensity in the detector as a function of the scattering angle during the rocking scans, fitted (b) with a Lorentzian profile to retrieve the peak positions and full width at half maxima (FWHM).
+        a) Evolution of the integrated scattered intensity in the detector as a function of the scattering angle during the rocking scans, fitted (b) with a Lorentzian profile to retrieve the peak positions and full width at half maximum (FWHM).
         Evolution of the $d_{111}$ interplanar spacing (c), and associated homogeneous strain values as a function of the temperature.
         The reference for the computation of homogeneous strain is taken at \qty{25}{\degreeCelsius}.
-        Evolution of the Bragg peak FWHM as a function of the temperature (d).
+        Evolution of the Bragg peak FWHM$_z$ in $\vec{z}$ as a function of the temperature (d).
     }
     \label{fig:AmaterasuHomoStrain}
 \end{figure}
 
-It is of utmost importance to first study the evolution of the material under an inert atmosphere to be able to differ an evolution of the homogeneous strain due to the thermal expansion of the crystal from other potential relaxation phenomena induced e.g. by the adsorption of molecules involved in the catalytic reaction.
+It is of utmost importance to first study the evolution of the material under an inert atmosphere to be able to differ an evolution of the homogeneous strain due to the thermal expansion of the crystal from other potential relaxation phenomena.
+Such phenomena being for example the adsorption of molecules involved in the catalytic reaction.
 
-The average interplanar spacing between (111) crystallographic planes ($d_{111}$) in the particle was computed from the angular position of the Bragg peak \textit{via} eq. \ref{eq:QandD3}, presented in fig. \ref{fig:AmaterasuHomoStrain}.
+The average interplanar spacing between \{111\} crystallographic planes ($d_{111}$) in the particle was computed from the angular position of the Bragg peak \textit{via} eq. \ref{eq:QandD3}, presented in fig. \ref{fig:AmaterasuHomoStrain}.
 Repeated measurements at fixed condition yield additional data points in the figure.
 
-The interplanar spacing follows approximately two distinct linear increases, first from \qtyrange{25}{150}{\degreeCelsius} before the dislocation removal and secondly from \qtyrange{150}{600}{\degreeCelsius} after the dislocation removal (fig. \ref{fig:AmaterasuHomoStrain} - c).
-The increase after removal of the dislocation is less pronounced, which shows that the defect can have an impact on the thermal relaxation of nanoparticles.
+The interplanar spacing follows approximately two distinct linear increases, first from \qtyrange{25}{150}{\degreeCelsius} before the dislocation removal, and secondly from \qtyrange{150}{600}{\degreeCelsius} after the dislocation removal (fig. \ref{fig:AmaterasuHomoStrain} - c).
+Qualitative lines are drawn in fig. \ref{fig:AmaterasuHomoStrain} (c) to indicate those linear behaviours.
+The increase after removal of the dislocation is less pronounced, which shows that interfacial defects have an impact on the thermal relaxation of nanoparticles.
 
-The position of the (111) Bragg peak depends on the lattice parameter values in all three directions of the cubic unit cell of platinum, anisotropic lattice distortions can thus not be differed from isotropic lattice distortions.
-The flash annealing and removal of the dislocation at \qty{150}{\degreeCelsius} had the effect of increasing the average interplanar spacing $d_{111}$, and decreasing the peak FWHM, which can be linked to a decrease of heterogeneous strain inside the particle \parencite{Warren1990}.
+Utilising the (111) Bragg peak in the current specular geometry can only bring information about out-of-plane distortions.
+Homogeneous in-plane lattice distortions in $\vec{x}$ and $\vec{y}$ (\textit{i.e.} [$\bar{1}$01] and [1$\bar{2}$1], fig. \ref{fig:StereoTop}) are invisible in this study.
+The rocking curves presented in fig. \ref{fig:AmaterasuHomoStrain} (a) were fitted with a Lorentzian model (fig. \ref{fig:AmaterasuHomoStrain} - b) to retrieve the peak full width at half maximum in the $\vec{z}$ direction (FWHM$_z$).
+The flash annealing and removal of the dislocation at \qty{150}{\degreeCelsius} had the effect of increasing the average interplanar spacing $d_{111}$, and decreasing FWHM$_z$, which can be linked to a decrease of heterogeneous out-of-plane strain inside the particle \parencite{Warren1990}.
 
 The particle was realigned after the removal of the dislocation to be sure of the absence of any angular offset, the flash heating process possibly moving the sample positions from thermal expansion.
 
-The measurement at \qty{550}{\degreeCelsius} shows a very large FWHM, reaching the values when the interfacial dislocation was present at lower temperatures.
+The measurement at \qty{550}{\degreeCelsius} shows a very large FWHM$_z$, reaching similar magnitude as when the interfacial dislocation was present at lower temperatures.
 This increase can be attributed to an increase of strain in the particle, possibly behind the failure of the phase retrieval process to successfully converge at that temperature.
-The reason behind this increase of strain were not determined.
 
-At \qty{600}{\degreeCelsius}, the two values of the average interplanar spacing under inert atmosphere are similar to the value at \qty{550}{\degreeCelsius}, and decrease after the introduction of ammonia.
-The FWHM decreases after having reached \qty{600}{\degreeCelsius}, returning to the previous values observed between \qty{150}{\degreeCelsius} and \qty{450}{\degreeCelsius}.
-The introduction of ammonia has no visible effect on the FWHM.
-The decrease of the interplanar spacing between \qty{550}{\degreeCelsius} and \qty{600}{\degreeCelsius} occurs together with the decrease of the FWHM, ultimately resulting in the formation of a dislocation network at the interface imaged with BCDI.
-The presence of the dislocation network is not clear from the values of the FWHM, a characterisation of the peak FWHM in other direction will yield additionnal information.
+One one hand, the two values of the average interplanar spacing under inert atmosphere at \qty{600}{\degreeCelsius} are similar to the value at \qty{550}{\degreeCelsius}, and decrease slightly after the introduction of ammonia.
+On the other hand, FWHM$_z$ decreases importantly (divided by \num{1.4}) after having reached \qty{600}{\degreeCelsius}, returning to the previous values observed between \qty{150}{\degreeCelsius} and \qty{450}{\degreeCelsius}.
+The introduction of ammonia has no visible effect on FWHM$_z$.
+The decrease of the interplanar spacing between \qty{550}{\degreeCelsius} and \qty{600}{\degreeCelsius} occurs together with the decrease of FWHM$_z$, ultimately resulting in the formation of a dislocation network at the interface imaged with BCDI (fig. \ref{fig:AmaterasuB}).
+The presence of the dislocation network is not clear from the values of FWHM$_z$, a future characterisation of the peak FWHM in other directions will yield additional information.
 
-It could have been interesting to compute the misfit strain resulting from the epitaxial relationship of the Pt nanoparticles with the substrate to see if an absolute minimum is reached at \qty{450}{\degreeCelsius}.
-However, no in-plane Bragg peak corresponding to the sapphire substrate was measured during the temperature ramp, preventing us from performing this analysis.
+Computing the misfit strain resulting from the epitaxial relationship of the Pt nanoparticles with the substrate could have revealed if an absolute minimum is reached at \qty{450}{\degreeCelsius}, possibly explaining the low interfacial strain and equilibrium shape observed in fig. \ref{fig:AmaterasuA}.
+However, no in-plane Bragg peak corresponding to the sapphire substrate, or to platinum, was measured during the temperature ramp, preventing us from performing this analysis.
 
 \subsubsection{Heterogeneous strain evolution}
 
-The remaining strain after phase retrieval is called the \textit{heterogeneous} strain ($\epsilon_{htg}$) \parencite{Grediac1996, Favier2007, Atlan2023}, the total out-of-plane strain observed during this experiment being equal to $\epsilon_{tot} = \epsilon_{hmg} + \epsilon_{zz, htg}$ when considering the changes relative to a reference state (usually room temperature data).
+The remaining strain after phase retrieval is called the \textit{heterogeneous} strain ($\epsilon_{htg}$) \parencite{Grediac1996, Favier2007, Atlan2023}, the total out-of-plane strain observed during this experiment being equal to $\epsilon_{tot} = \epsilon_{111, hmg} + \epsilon_{zz, htg}$ when considering the changes relative to a reference state (usually room temperature data).
 
 In BCDI, it is the displacement of small unit blocks making up the crystal lattice that is observed.
 Depending on the instrumental parameters, these small unit blocks, or \textit{voxels}, have a more or less large size.
 In this study, they are approximately \qty{10}{\nm^3} large.
 The strain is thus not directly related to the deviation between the interreticular planes, but to the gradient of the displacement field of these unit blocks from their equilibrium position.
-The outermost layers of the crystal only constitute a low percentage within the surface voxels (\qty{\approx 11}{\percent} if 5 atomic layers separated by the value of the interplanar spacing $d_{111}$ are considered), which lowers the contribution of the surface strain to the total strain contained in the surface voxels, reducing the ability to properly resolve e.g. surface relaxation effects.
-The use of padding during the reconstruction algorithm decreases the voxel size, but without relying on the sampling of high-frequency components of the scattering amplitude and therefore does not increase the strain resolution.
+The outermost layers of the crystal only constitute a low percentage within the surface voxels (\qty{\approx 11}{\percent} if 5 atomic layers separated by the value of the interplanar spacing $d_{111}$ are considered).
+This effectively lowers the contribution of the surface strain to the total strain contained in the surface voxels, reducing the ability to properly resolve e.g. surface relaxation effects.
+The use of padding during the reconstruction algorithm decreases the voxel size, but without relying on the sampling of high-frequency components of the scattering amplitude, and therefore does not increase the strain resolution.
 
 % introduce in plane out of plane
-It is important to realise that the displacement observed is \textit{only} in the [111] direction (as only the (111) Bragg peak is measured), sensitive to deviations of the crystal structure perpendicular to the (111) and ($\bar{1}\bar{1}\bar{1}$) facets, but parallel to ($\bar{1}$10)-type facets, themselves perpendicular to the [111] direction (fig. \ref{fig:StereoBottom}).
+It is important to realise that the displacement observed is \textit{only} in the [111] direction (as only the (111) Bragg peak is measured), sensitive to deviations of the crystal structure perpendicular to the (111) and ($\bar{1}\bar{1}\bar{1}$) facets, but parallel to ($\bar{1}$10)-type facets, themselves perpendicular to the [111] direction (fig. \ref{fig:StereoTop}).
 On one hand, if there existed an out-of-plane displacement of the atoms on ($\bar{1}$10)-type facets, \textit{i.e.} in the direction perpendicular to the ($\bar{1}$10) planes, its contribution to the displacement field observed in this experiment would not be directly visible.
 On the other hand, the in-plane displacement of the atoms on ($\bar{1}$10)-type facets is visible, whereas the in-plane displacement on the (111) and ($\bar{1}\bar{1}\bar{1}$) facets is not visible.
 
 The $\epsilon_{zz}$ component of the strain tensor on the (111) and ($\bar{1}\bar{1}\bar{1}$) facets is easily assimilated to variation of the interplanar spacing $d_{111}$ (positive strain is tensile strain, negative strain is compressive).
 However, the physical meaning of the strain becomes more complex when observing facets that are neither parallel nor perpendicular to the [111] direction, such as \{$1\bar{1}1$\} or \{100\} facets.
-For this reason, the following analysis of the heterogeneous strain is meant to be qualitative, by comparing the strain evolution of the same facets at different conditions but not between different facets, a quantitative analysis could only be performed with the full strain tensor, and not one of its components.
+For this reason, the following analysis of the heterogeneous strain is meant to be qualitative, by comparing the strain evolution of the same facets at different conditions but not between different facets, a quantitative analysis could only be performed with the full strain tensor, and not only one of its components.
 
 If equivalent orientation translates into equal surface atomic structures (e.g. (111) and ($\bar{1}\bar{1}\bar{1}$) facets), the environment of equivalent facets is not always the same.
-For example, it is important to differ between (1$\bar{1}$1) and ($\bar{1}$1$\bar{1}$) facets, the higher the value of the \textit{interplanar angle}, defined as the angle between the facets normals and the [111] direction, the closer the facet is to the interface with the substrate, and thus the more its influence in prominent.
+For example, it is important to differ between (1$\bar{1}$1)-type and ($\bar{1}$1$\bar{1}$)-type facets, the higher the value of the \textit{interplanar angle}, defined as the angle between the facets normals and the [111] direction, the closer the facet is to the interface with the substrate, and thus the more its influence in prominent.
 Moreover, if the (111) facet is at the top of the crystal and the furthest away from the substrate, the ($\bar{1}\bar{1}\bar{1}$) facet is expected to be fully in contact with the substrate.
 
 Therefore, the mean value and standard deviation of the heterogeneous strain distribution on each facet is presented in fig. \ref{fig:AmaterasuStrain}, as a function of the interplanar angle, to highlight this difference.
+($\bar{1}\bar{1}$1)-type facets near the substrate are also smaller than their (11$\bar{1}$)-type equivalent, which can have an effect on the facet strain.
 
 \begin{figure}[!htb]
     \centering
@@ -347,7 +363,7 @@ Therefore, the mean value and standard deviation of the heterogeneous strain dis
 The values of the strain are in general quite low, always below \qty{0.1}{\percent}, while the highest value of the displacement field on the particle facets is of about \qty{1}{\angstrom} (app. \ref{fig:AmaterasuDisplacement}).
 To see how the current experiment situates itself regarding the low-strain hypothesis necessary for phase retrieval detailed in sec. \ref{sec:BCDI}, the example of the particle at \qty{600}{\degreeCelsius} under Argon flow is taken.
 The magnitude of the scattering vector at the position of the Bragg peak is $|\vec{G}| \qty{\approx 2.772}{\per\angstrom}$, while the magnitude of the scattering vector probed furthest from the Bragg peak during the measurement is along the [111] direction, $|\vec{q}| \qty{\approx 2.742}{\per\angstrom}$.
-$\delta q = \qty{0.03}{\per\angstrom}$ gives $(\vec{q}-\vec{G}).\vec{u} = 0.03 <<1$, which places the experiment far away from the BCDI limit discussed in sec. \ref{sec:StrainBCDI}.
+$\delta q = \qty{0.03}{\per\angstrom}$ gives $(\vec{q}-\vec{G}).\vec{u} = 0.03 <<1$, which places the experiment far away from the BCDI limit.
 
 % Decribe removal of dislo strain evolution 150°C -> 150 °C
 The very large standard deviations seen in fig. \ref{fig:AmaterasuStrain} at \qty{150}{\degreeCelsius} for the ($\bar{1}\bar{1}\bar{1}$), ($\bar{1}1\bar{1}$), ($1\bar{1}\bar{1}$) and ($11\bar{1}$) facets can be explained by the presence of the dislocation, around which the phase was not well unwrapped as seen in fig. \ref{fig:AmaterasuDislocation}.
@@ -378,16 +394,19 @@ Both facets perpendicular to the [111] direction, \textit{i.e} (2$\bar{1}\bar{1}
 \end{figure}
 
 
-In fig. \ref{fig:AmaterasuStrain1675} the three (100)-type facets exhibit the same strain values, none of which have the same surrounding facets (fig. \ref{fig:AmaterasuStrain1675}), while the edges and corners around the (111) and \{100\} facet show a slightly positive strain.
+In fig. \ref{fig:AmaterasuStrain1675} the three (100)-type facets exhibit the same strain values, none of which have the same surrounding facets (fig. \ref{fig:AmaterasuStrain1675}), while the edges and corners around the (111) and \{100\} facets show a slightly positive strain.
 
-At first sight, all facets that have a similar orientation show a similar strain (e.g. (100) and (1$\bar{1}$1)-type facets).
-However, the two \{111\} facets that are close to the substrate do not show the same strain than the three \{111\} facets closer to the top of the particle.
-The strain being in the [111] direction with the origin of the displacement field in the centre of the particle, if all of these facet had experienced the same compressive (tensile) strain perpendicular to their surface \textit{via} the adsorption of ammonia, they would all show a negative (positive) strain (of lower amplitude due to the angle between these facets and the [111] direction).
+All facets that have a similar orientation (and not structure) show a similar strain (e.g. (100) and (1$\bar{1}$1)-type facets) in fig. \ref{fig:AmaterasuStrain} and \ref{fig:AmaterasuStrain1675}.
+When considering all the \{111\} facets, different strain states are observed.
+The two \{111\} facets close to the substrate do not show the same strain than the three \{111\} facets closer to the top of the particle (fig. \ref{fig:AmaterasuStrain}).
+The strain being in the [111] direction with the origin of the displacement field in the centre of the particle, if all of these facet had experienced the same compressive (tensile) strain perpendicular to their surface \textit{via} e.g. the adsorption of ammonia, they would all show a negative (positive) strain.
+% remember to compute the gradient, it helps
 
-This behaviour could be linked to a strong effect of the support which has the dual effect of first preventing the ($\bar{1}\bar{1}\bar{1}$) facet from being exposed to the gases in the reactor and secondly forcing them to accommodate the strain linked to epitaxial relationship with the substrate.
-There are three possibilities, first ammonia is effectively adsorbed on these facets but the influence of the substrate hides a possible common signature in the strain.
-Secondly ammonia is not adsorbed and the strain difference is due to the influence of the substrate on the particle structure.
-Thirdly, ammonia is adsorbed but only on the three top facets or only on the 2 bottom facets due to the influence of the substrate that either limits or facilitates the adsorption process.
+This behaviour could be linked to a strong effect of the support, which has the dual effect of first preventing the ($\bar{1}\bar{1}\bar{1}$) facet from being exposed to the gases in the reactor and secondly forcing them to accommodate the strain linked to epitaxial relationship with the substrate.
+The ($\bar{1}\bar{1}$1)-type facets near the substrate have also a significantly smaller size than the (11$\bar{1}$)-type facets near the top of the particle, which can influence their initial strain state, and thus adsorption properties.
+There are three possibilities, first ammonia is effectively adsorbed on all these facets but the influence of the substrate/facet size hides a possible common signature in the strain.
+Secondly ammonia is not adsorbed and the strain difference is due to the influence of the substrate/facet size.
+Thirdly, ammonia is adsorbed but only on the three top facets or only on the 2 bottom facets due to the influence of the substrate/facet size that either limits or facilitates the adsorption process.
 
 % Globally, the top of the particle seems to be in compression along $\vec{z}$ (fig. \ref{fig:Amaterasu}, \ref{fig:AmaterasuStrainSlices}), whereas the bottom of the particle is in tension, with the exception of the one [$1\bar{1}3$] facet (fig. \ref{fig:AmaterasuStrainSlices}) which is in compression.
 
@@ -402,10 +421,11 @@ Thirdly, ammonia is adsorbed but only on the three top facets or only on the 2 b
 % \end{figure}
 
 Overall, it is difficult to conclude on any potential effect of the absorption of ammonia on the particle due to the presence of the dislocation network at the interface, whose origin related to the adsorption of ammonia or from interfacial strain is unclear.
+It is also possible that the observed effect is linked to the reduction of the particle surface, since the particle has only been exposed to air and argon prior to ammonia.
 The fact that only one component of the strain tensor is available makes it difficult to quantify any relaxation effect on the facets that are not perpendicular to the [111] direction.
 
-Measuring different Bragg peaks corresponding to the substrate at each temperature together with CTRs recorded in the direction perpendicular to the substrate could have provided a better idea of the interfacial structure.
-However, as we have seen in the previous section it is complicated to differ the contribution of the CTRs linked to the substrate surface from those linked to the (111) and ($\bar{1}\bar{1}\bar{1}$) nanoparticle surface.
+Measuring different Bragg peaks corresponding to the substrate at each temperature, together with CTRs recorded in the direction perpendicular to the substrate could have provided a better idea of the interfacial structure.
+However, as discussed in the previous section, it is complicated to differ the contribution of the CTRs linked to the substrate surface from those linked to the (111) and ($\bar{1}\bar{1}\bar{1}$) nanoparticle surface.
 Additional simulations of the particle equilibrium shape and the impact of interfacial defects are needed to have a better understanding of the structural dynamics at work.
 
 To summarise, the structure of the facets in contact with the ($\bar{1}\bar{1}\bar{1}$) facet at the interface with the substrate has been seen to evolve during the heating process, with a perfectly symmetric particle only found to exist at \qty{450}{\degreeCelsius}, exhibiting only \{111\}, and \{100\} facets.
@@ -413,9 +433,9 @@ Annealing the particle to \qty{800}{\degreeCelsius} for a few minutes effectivel
 
 It was observed that the $d_{111}$ interplanar spacing follows two different linear increase as a function of the temperature, depending on the presence of a dislocation at the particle interface with the substrate.
 The removal of the dislocation resulted in a large increase of the interplanar spacing.
-Different $\epsilon_{zz}$ strain values were observed on facets sharing the same structure and equivalent orientation with the direction of the scattering vector, but different local environments from the presence of a substrate, showing that the impact of the substrate on the facet strain can not be neglected.
-A similar influence of the epitaxied substrate on the facet strain has been observed for a 100 nm large Pt-Rh nanoparticle by Kim et al. \cite*{Kim2021}.
+Different $\epsilon_{zz}$ strain values were observed on facets sharing the same structure and equivalent orientation with the direction of the scattering vector, but different local environments from the presence of a substrate, as well as different sizes.
+A similar influence of the epitaxied substrate on the facet strain has been observed for a 100 nm large Pt-Rh nanoparticle by Kim et al. \parencite*{Kim2021}.
 
-The introduction of ammonia in the reactor was related to an inversion of the $\epsilon_{zz}$ strain, but also to the appearance of a dislocation network at the interface of the particle with the substrate.
+The introduction of ammonia in the reactor was related to an inversion of the $\epsilon_{zz}$ strain, and also to the appearance of a dislocation network at the interface of the particle with the substrate.
 
-From this first set of results, the measurement of Pt nanoparticles with BCDI during the oxidation of ammonia was decided to be carried out at lower temperatures, e.g. \qty{300}{\degreeCelsius} and \qty{450}{\degreeCelsius}.
+From this first set of results, the measurement of Pt nanoparticles with BCDI during the oxidation of ammonia was decided to be carried out at lower temperatures, e.g. \qty{300}{\degreeCelsius} and \qty{400}{\degreeCelsius}.

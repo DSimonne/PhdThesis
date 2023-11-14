@@ -1,10 +1,5 @@
 \section{X-ray interaction with matter} \label{sec:XRIntMatter}
 
-% Field / amplitude / intensity consistent ?
-% $r_0$ use consistent ? $2\pi$ ?
-% hypothesis to explain: DWBA, dipole approximation, perfect crystals
-% When detecting the scattered field at a point $\vec{R}$, we assume that $\|vec{R}|$ is far greater than the electronic density, this is called the dipole approximation. NOT GOOD Each atom can be considered as a ball of certain radius (see \ref{fcc_lattice}).
-
 \subsection{Scattering from electrons and atoms}
 
 The duality between wave and particles was first mentioned by Max Planck and Albert Einstein in the early $20^{th}$ century and generalised to all matter by Louis-Victor de Broglie in 1924 with the famous formula:
@@ -23,14 +18,14 @@ The conversion between is realised thanks to Planck's constant $h = \qty{6.626e-
 
 The properties of the photon and its use in our society depends on its energy and wavelength.
 For example, visible light is situated between \qty{1.65}{\eV} and \qty{3.26}{\eV}, micro-waves used in our everyday life are situated between \qty{e-6}{\eV} and \qty{e-3}{\eV}.
-On the other side of the electromagnetic spectrum, we have higher energy photons such as x-rays (\qtyrange{e2}{e5}{\eV}) and $\gamma$-rays (\qty{>e5}{\eV}).
+On the other side of the electromagnetic spectrum are higher energy photons such as x-rays (\qtyrange{e2}{e5}{\eV}) and $\gamma$-rays (\qty{>e5}{\eV}).
 
 X-rays have a wavelength of a few \unit{\angstrom} (\qty{e-10}{\m}) making them the perfect probe to study the structures of materials at the atomic scale thanks to different interactions with matter.
 
 \subsubsection{Cross-sections}
 
 When electromagnetic wave interacts with matter it will be attenuated by absorption, reflection or scattering.
-Each process can be quantified depending on the atoms (and thus on the electronic cloud and nucleus) the beam interacts with and the energy on the incident photon, this is illustrated in figure \ref{fig:cross_sections}.
+Each process can be quantified depending on the atoms (and thus on the electronic cloud and nucleus) the beam interacts with, and the energy on the incident photon (fig. \ref{fig:cross_sections}).
 The cross-section for a particular process $p$ is defined as follows \parencite{Willmott}:
 
 \begin{equation}
@@ -52,14 +47,13 @@ $\Lambda_p$ is the attenuation length in \unit{\meter}, \textit{i.e.} the length
 
 Compton scattering, also named inelastic scattering, is a process during which some of the incident electromagnetic wave energy is transferred to the atoms' electrons.
 This results in a lower energy for the scattered photon (and therefore a higher wavelength) compared to the incident photon.
-%This effect has a low cross-section compared to the two other processes and is therefore not taken account during the experiments.
 
 In the frame of this thesis, the (elastic) Thomson scattering cross-sections is the most important, at the origin of x-ray diffraction.
-This process is dominant for energies below \qty{200}{\keV}, in the x-ray regime,  together with photoelectric absorption.% for which the K, L and M edges are shown.
+This process is dominant for energies below \qty{200}{\keV}, in the x-ray regime, together with photoelectric absorption.
 
 \subsubsection{Scattering from an electron}
 
-We begin our discussion of x-ray scattering by considering scattering from a single free electron using classical electromagnetic theory.
+This discussion of x-ray scattering begins by considering scattering from a single free electron using classical electromagnetic theory.
 During elastic scattering, the oscillating electric field of the incident x-ray wave exerts an electromagnetic force on the electron, causing it to accelerate and oscillate in the same direction as the incident electronic field.
 
 \begin{figure}[!htb]
@@ -79,7 +73,8 @@ The scattered field $\vec{E}_{scatt}$ is then proportional to the incident elect
     \label{eq:scatt_field}
     \frac{\vec{E}_{scatt}(R, \, t)} {\vec{E}_{in}} = -r_0 \frac{e^{\vec{k}.\vec{R}}} {|\vec{R}|}| \hat{\epsilon}.\hat{\epsilon}'|
 \end{equation}
-$|\vec{R}|$ is the distance at which the scattering is detected at the time $t$, $\hat{\epsilon}$ is the synchrotron x-ray polarisation vector, $\hat{\epsilon}'$ the scattered x-ray polarisation vector, and $r_0$ is the Thomson scattering length or the classical radius of the electron defined as:
+$|\vec{R}|$ is the distance at which the scattering is detected at the time $t$, $\hat{\epsilon}$ and $\hat{\epsilon}'$ are respectively the polarisation vectors of the incident and scattered electromagnetic fields.
+The minus sign illustrates a phase shift of $\pi$ between the incident and scattered wave, $r_0$ is the Thomson scattering length or the classical radius of the electron defined as:
 
 \begin{equation}
     \label{eq:scatt_thomson_scat_length}
@@ -87,44 +82,44 @@ $|\vec{R}|$ is the distance at which the scattering is detected at the time $t$,
 \end{equation}
 with $m_e$ the mass of the electron and $\epsilon_0$ the permittivity of free space.
 
-The minus sign illustrates a phase shift of $\pi$ between the incident and scattered wave, $\hat{\epsilon}$ and $\hat{\epsilon}'$ are respectively the polarisation vectors of the incident and scattered electromagnetic fields.
-
 The differential cross-section for Thomson scattering measures the efficiency of the scattering in the volume occupied by a solid angle $d\Omega$ in the direction $\vec{R}$ \parencite{NielsenMcMorrow}. It is defined as follows:
 \begin{equation}
     \label{eq:dif_cross_sec_thomson1}
     \frac{d\sigma_{ts}} {d \Omega} = \frac{ |\vec{E}_{scatt}(R, t)|^2 R^2} {|\vec{E}_{in}|^2}
 \end{equation}
 
-By substituting eq. \ref{eq:scatt_field} into eq. \ref{eq:dif_cross_sec_thomson1}, it becomes clear that the scattering is proportional to the Thomson scattering length and that the intensity is attenuated depending on the dot product between the two polarisation.
-The polarisation factor $P$ for scattered beams is defined as $P =  | \hat{\epsilon}.\hat{\epsilon}'|^2$ and we can write the differential cross-section as:
+By substituting eq. \ref{eq:scatt_field} into eq. \ref{eq:dif_cross_sec_thomson1}, it becomes clear that the scattering is proportional to the Thomson scattering length, and that the intensity is attenuated depending on the dot product between the two polarisation.
+The polarisation factor $P$ for scattered beams is defined as $P =  | \hat{\epsilon}.\hat{\epsilon}'|^2$, the differential cross-section can be written as:
 
 \begin{equation}
+    \label{eq:dif_cross_sec_thomson2}
     \frac{d\sigma_{ts}} {d \Omega} = r_0^2 | \hat{\epsilon}.\hat{\epsilon}'|^2 = r_0^2 P
 \end{equation}
 
 The effect of the polarisation of the incident beam is illustrated in figure \ref{fig:polarization_effect}.
 At synchrotrons, working in the vertical plane ($\vec{x}, \vec{z}$) is preferable to maximise the intensity of the scattered field.
-This has practical repercussions in surface x-ray diffraction for which it is preferable to work in a vertical geometry to scan large 2D areas of the reciprocal space.
 
 The total cross-section for the scattering event by a single free electron can be computed by integrating the differential cross-section over all the possible scattering angles, \textit{i.e.} by averaging all possible polarisation directions \parencite{Willmott}.
-This yields $\sigma_{ts} = 8 \pi r_0^2 /3 = \qty{0.665}{\barn}$, (\qty{1}{barn} is equal to \qty{e-28}{\m^2}) the total Thomson scattering cross-section is constant, independent of the incoming photon energy. This results holds for x-rays for which the scatterer \textit{i.e.} the electron can be considered as free \parencite{Willmott}.
+This yields $\sigma_{ts} = 8 \pi r_0^2 /3 = \qty{0.665}{\barn}$, (\qty{1}{barn} is equal to \qty{e-28}{\m^2}).
+The total Thomson scattering cross-section is constant, independent of the incoming photon energy.
+This results holds for x-rays for which the scatterer \textit{i.e.} the electron can be considered as free \parencite{Willmott}.
 
 \subsubsection{Scattering from a single atom}\label{sec:scattering}
 
-As we have seen the main scatterer for Thomson scattering is the electron.
+As discussed above, the main scatterer for Thomson scattering is the electron.
 An atom can be described as a small volume $d^3\vec{r}$ in which the electrons are localised.
 The electromagnetic field scattered from an atom is therefore proportional to the atomic electronic density $\rho_{atom}(\vec{r})$.
-For a single atom of atomic number $Z$ we have :
+For a single atom of atomic number $Z$:
 
 \begin{equation}
     \int \rho_{atom} (\vec{r}) d^3\vec{r} = Z
 \end{equation}
 
-To describe the phase of the scattered field, which depends on the phase of each incident wave at each point in the scattering volume (fig. \ref{fig:q}), we introduce the scattering vector, $\vec{q}$ (eq. \ref{eq:Q}), to derive the amplitude of a scattering event in the direction defined by the scattering angle $2\theta$.
+To describe the phase of the scattered field, which depends on the phase of each incident wave at each point in the scattering volume (fig. \ref{fig:q}), the scattering vector, $\vec{q}$, is introduced (eq. \ref{eq:Q}), to derive the amplitude of a scattering event in the direction defined by the scattering angle $2\theta$.
 
 \begin{equation}
     \label{eq:Q}
-    \vec{q}=\vec{k}_s-\vec{k}_i.
+    \vec{q}=\vec{k}_i-\vec{k}_s.
 \end{equation}
 
 \begin{figure}[!htb]
@@ -137,18 +132,19 @@ To describe the phase of the scattered field, which depends on the phase of each
     \label{fig:q}
 \end{figure}
 
-Therefore, the phase difference between a wave scattered at a position $O$ and a wave scattered at a distance $\vec{r}$ from $O$ is equal to $(\vec{k}_i - \vec{k}_s).\vec{r} = \vec{q}.\vec{r}$ (fig. \ref{fig:q}).
+The phase difference between a wave scattered at a position $O$ and a wave scattered at a distance $\vec{r}$ from $O$ is equal to $(\vec{k}_i - \vec{k}_s).\vec{r} = \vec{q}.\vec{r}$ (fig. \ref{fig:q} - Jens Als-Nielsen \cite*{NielsenMcMorrow}).
 
-From fig. \ref{fig:q} and the relation between wavevector and wavelength ($k = 2 \pi/\lambda$), the scattering vector can be written as a function of the wavelength of the incident beam $\lambda$, and of the direction of detection defined by the scattering angle $2\theta$ (eq. \ref{eq:QSinTheta}) between the wavevector of the incident photon $\vec{k}_i$ and the wavevector of the scattered photon $\vec{k}_s$.
-We assume here that the scattering event is elastic ($|\vec{k}_i|=|\vec{k}_s|$) and that the waves are plane waves parallel to each other when in the small scattering volume $d^3\vec{r}$.
+From fig. \ref{fig:q}, and the relation between wavevector and wavelength ($k = 2 \pi/\lambda$), the scattering vector can be written as a function of the wavelength of the incident beam $\lambda$, and of the direction of detection defined by the scattering angle $2\theta$ (eq. \ref{eq:QSinTheta}).
+% between the wavevector of the incident photon $\vec{k}_i$ and the wavevector of the scattered photon $\vec{k}_s$.
+Is it assumed here that the scattering event is elastic ($|\vec{k}_i|=|\vec{k}_s|$), and that the waves are plane waves parallel to each other when in the small scattering volume $d^3\vec{r}$.
 
 \begin{equation}
     \label{eq:QSinTheta}
     |\vec{q}| = \frac{4\pi}{\lambda} \sin{\theta}
 \end{equation}
 
-Each electron in the small volume $d^3\vec{r}$ will have a contribution proportional to the Thomson scattering length $r_0$ to the scattered field with a phase $e^{i\vec{q}.\vec{r}}$.
-By integrating over the volume occupied by the atom we obtain the total contribution of an atom to the scattered field in the direction $2\theta$:
+Each electron in the small volume $d^3\vec{r}$ will have a contribution proportional to the Thomson scattering length $r_0$ to the scattered field, with a phase factor $e^{i\vec{q}.\vec{r}}$.
+The total contribution of one atom to the scattered field in the direction of the scattering vector $\vec{q}$ is computed by integrating over the volume occupied by the atom.
 
 \begin{equation}
     \label{eq:AtomicFormFactor}
@@ -180,20 +176,20 @@ This difference in scattering intensity between elements becomes crucial when wo
 
 \subsection{Refraction, reflection and absorption effects}\label{sec:RefractionReflectionAbsorption}
 
-For now we have considered the electron as free.
+For now, the electron has been considered as free.
 However, electrons in atoms or molecules exist in discrete bound states (characterised by a binding energy $E_b$), and their response to the incoming electromagnetic field becomes dependent on the incoming energy.
-In a classical point of view, we can reconsider the bound electron as a damped harmonic oscillator with associated resonant frequencies $\omega_b$ corresponding to the electron's binding energy.
+In a classical point of view, the bound electron can be reconsidered as a damped harmonic oscillator with associated resonant frequencies $\omega_b$ corresponding to the electron's binding energy.
 First, when approaching the binding energy, the amplitude of the electron's oscillation are reduced and so is the atomic form factor by a real energy-dependant factor $f'(\hbar\omega)$.
-Secondly, when approaching the binding energy, the oscillation of the scattering electron experiences a phase lag.
+Secondly, the oscillation of the scattering electron experiences a phase lag.
 This is taken into account by introducing an imaginary energy-dependent factor $f''(\hbar\omega)$.
-The atomic form factor $f^0(\vec{q})$ must therefore be corrected by these two correction factors, we define the total atomic form factor $f(q, \hbar\omega)$ as \parencite{NielsenMcMorrow}:
+The atomic form factor $f^0(\vec{q})$ must therefore be corrected by these two correction factors, the total atomic form factor $f(\vec{q}, \hbar\omega)$ is defined as follows \parencite{NielsenMcMorrow}:
 
 \begin{equation}
     f(\vec{q}, \hbar\omega) = f^0(\vec{q}) + f'(\hbar\omega) + if''(\hbar\omega) = f_1(\vec{q}, \hbar\omega) + i f_2(\hbar\omega)
 \end{equation}
 
 The values of the correction factors $f'$ and $f''$, also known as the dispersion corrections to $f^0$, depend on the electronic structure of the atom and are maximum when approaching the binding energies of the electrons in the atom.
-To understand the impact of the correction factors on the electromagnetic wave inside a material, we introduce the complex refraction index $n$, which for x-rays can be written as \parencite{NielsenMcMorrow}:
+To understand the impact of the correction factors on the electromagnetic wave inside a material, the complex refraction index $n$ is introduced, which for x-rays can be written as \parencite{NielsenMcMorrow}:
 
 \begin{gather}
     \label{eq:delta}
@@ -204,17 +200,17 @@ To understand the impact of the correction factors on the electromagnetic wave i
 with $f_i(\vec{q}=0)$ the total atomic form factor of the atom $i$ in the forward direction ($\vec{q}=0$), and $N_i$ the number of atoms corresponding to the element $i$ per unit volume.
 $\delta$ is the refractive index and $\beta$ the absorption index.
 
-During simple experiments, when x-rays impinge on a plane surface between air ($n$=1) and another medium of refractive index $n$, x-rays are refracted, the wavelength changes to $\lambda/n$, and the direction of propagation becomes closer to the surface between both mediums.
-Below a certain incident angle known as the \textit{critical angle} $\alpha_c$ between the direction of the incident x-rays and the plane interface, the x-rays will be totally reflected.
-This effect is used in focusing mirrors for optics but also in techniques used to probe the surface of materials to obtain information about the surface density, the critical angle being approximately equal to $\sqrt{2\rho}$ (when working at the same energy) \parencite{Willmott}.
-Moreover, during surface x-ray diffraction, the incoming angle perpendicular to the surface is kept to very low values approaching the critical angle to limit the volume probed by the x-rays to increase the contrast between the amplitude of the x-rays scattered from the latest surface layers in regard to the x-rays scattered from the bulk.
-The penetration depth of the x-rays in the material is detailed is sec. \ref{sec:SXRD}.
+When x-rays impinge on a plane surface between air ($n$=1) and another medium of refractive index $n$, x-rays are refracted.
+The wavelength changes to $\lambda/n$, and the direction of propagation becomes closer to the surface between both mediums.
+Below a certain incident angle known as the \textit{critical angle} $\alpha_c$, the x-rays will be totally reflected.
+This effect is used in focusing mirrors for optics, but also in techniques used to probe the surface of materials to obtain information about the surface density.
+The critical angle is approximately equal to $\sqrt{2\rho}$ (when $\beta = 0$) \parencite{Willmott}.
+During surface x-ray diffraction, the incoming angle perpendicular to the surface is kept to very low values approaching the critical angle.
+This limits the volume probed by the x-rays, increasing the contrast between the amplitude of the x-rays scattered from the latest surface layers in regard to the x-rays scattered from the bulk.
 
 Far from the binding energies of the electron in the system, the correction factors $f'$ in the expression of the scattering factor can be ignored.
 % and the sum in eq. \ref{eq:delta} is then equal to the electronic density of the system.
-\textcolor{Important}{Doucle check}
-
-Finally, to highlight the impact of the complex part of the absorption index $\beta$, we express the electric field of a plane electromagnetic wave propagating in the $\vec{z}$ direction inside a material of refractive index $n$ as follows:
+Finally, to highlight the impact of the complex part of the absorption index $\beta$, the electric field of a plane electromagnetic wave propagating in the $\vec{z}$ direction inside a material of refractive index $n$ is expressed as follows:
 
 \begin{equation}
     E(\vec{z}, t) = E_0 e^{i(n\vec{k}.\vec{z} - wt)} = E_0 e^{-\beta \vec{k}.\vec{z}} e^{i(\delta\vec{k}.\vec{z} - wt)}
@@ -250,7 +246,8 @@ The structure of the Bravais lattice (cubic, hexagonal, ...) combined with the p
 In total there exist 230 space group in crystallography.
 In the simplest case the pattern consists of a single atom, for example pure platinum ($Z=78$) crystallises at room temperature in a cubic Bravais lattice (fig. \ref{fig:fcc}).
 
-We can define the scattering factor $F_{crystal}$ of the crystal, that describes the amplitude of the scattered waves, by the sum of the atomic scattering factor $f_j(\vec{q})$ of each atom present in the crystal, while the phases between the scattered waves depend on the positions of the atoms $\vec{R}_j$ in the direction that is perpendicular to the scattering vector $\vec{q}$ (eq. \ref{eq:FCrystal1}).
+The scattering factor $F_{crystal}$ of the crystal, that describes the amplitude of the scattered waves, is defined by the sum of the atomic scattering factor $f_j(\vec{q})$ of each atom present in the crystal.
+The phases between the scattered waves depend on the positions of the atoms $\vec{R}_j$ in the direction parallel to the scattering vector $\vec{q}$ (eq. \ref{eq:FCrystal1}).
 In other words, each atom can be described as a small volume $d^3\vec{r}$ in the electronic density $\rho(\vec{r})$, and the scattered field by the superposition of the contribution from the electronic cloud surrounding the atoms.
 The atomic scattering factor is equal to the Fourier transform of the electronic density of a single atom, the structure factor of a crystal can be written as the Fourier transform of the crystal electronic density \parencite{Paganin}.
 %Thus, the total scattering amplitude at $2\theta$ will be equal to the vector sum of the scattering amplitudes in this direction from all volume elements $d^3\vec{r}$ in $\rho(\vec{r})$ taking into account the phases between them.
@@ -271,14 +268,14 @@ The Thomson scattering length is left apart for simplicity.
     Face centred cubic (FCC) lattice of Pt (space group 225).
     Atoms are represented as solid balls and situated on the corners and at the middle of the faces.
     A schematic representation of the unit cell is shown on the right to be able to visualise the positions of each atom.
-    The lattice parameter at room temperature is $a = \qty{3.9242}{\angstrom}$.
-    Close packed direction is achieved along the diagonal of the lateral faces, the distance between the atoms then becomes \qty{2.7748}{\angstrom}.
+    The lattice parameter at room temperature is $a = \qty{3.92}{\angstrom}$.
+    Close packed direction is achieved along the diagonal of the lateral faces, the distance between the atoms then becomes \qty{2.77}{\angstrom}.
     }
     \label{fig:fcc}
 \end{figure}
 
 The position of any atom in the crystal $\vec{R}_j$ is equal to the sum of the position of the unit cell containing the atom $\vec{R}_{uc}$, plus its position within the unit cell $\vec{r}_j$.
-For a crystals made of $N_{uc}$ unit cells each composed of $N_{atoms,uc}$ we have:
+For a crystals made of $N_{uc}$ unit cells, each composed of $N_{atoms,uc}$:
 
 \begin{equation}
     F_{crystal}(\vec{q}) = \sum_j^{N_{atoms,uc}} f_j(\vec{q}) e^{i\vec{q}.\vec{r}_j} \sum_k^{N_{uc}} e^{i\vec{q}.\vec{R}_k}
@@ -309,7 +306,7 @@ Similarly, the nodes of the reciprocal space can be accessed from its origin by 
     \vec{G}_{hkl}=h\vec{a}^* + k\vec{b}^* + l\vec{c}^*, \quad \ (hkl) \in \mathbb{Z}^3
 \end{equation}
 
-By combining eq. \ref{eq:R_k} and eq. \ref{eq:G} we find that the solution to the second sum in eq. \ref{eq:Fcrystal}, \textit{i.e.} to the equation $\vec{q}.\vec{R}_k = n \times 2\pi$ $(\ n \in \mathbb{Z})$ is to write $\vec{q}$ as a linear combination of the reciprocal space vectors, \textit{i.e.} as $\vec{G}_{hkl}$.
+By combining eq. \ref{eq:R_k} and eq. \ref{eq:G}, the solution to the second sum in eq. \ref{eq:Fcrystal}, \textit{i.e.} to the equation $\vec{q}.\vec{R}_k = n \times 2\pi$ $(\ n \in \mathbb{Z})$ is to write $\vec{q}$ as a linear combination of the reciprocal space vectors, \textit{i.e.} as $\vec{G}_{hkl}$.
 
 \begin{equation}
     \label{eq:LaueCond}
@@ -318,10 +315,6 @@ By combining eq. \ref{eq:R_k} and eq. \ref{eq:G} we find that the solution to th
 
 This is also known as the Laue condition, that ensures that only certain scattering vectors, corresponding to the reciprocal lattice points, fulfil the condition for constructive interference between the scattered waves.
 These specific scattering vectors $\vec{G}_{hkl}$ determine the scattering angles of the peaks observed in a diffraction pattern, also known as Bragg peaks.
-% \begin{equation}
-%     \label{eq:LaueCond2}
-%     \vec{q} = \vec{G}_{hkl}  = h\vec{a}^* + k\vec{b}^* + l\vec{c}^*
-% \end{equation}
 
 \subsection{Bragg's law}\label{sec:BraggLaw}
 
@@ -340,8 +333,8 @@ The direction perpendicular to the $(hkl)$ plane is written as $[hkl]$, the dist
     \label{fig:BraggLaw}
 \end{figure}
 
-A Bragg peak results from the constructive interference between scattered waves at discrete values of the incident angle $\theta$ on a specific set of crystalline planes.
-From fig. \ref{fig:BraggLaw} we can retrieve the condition to have constructive interference, also known as Bragg's law and given by eq. \ref{eq:Bragglaw}.
+A Bragg peak results from the constructive interference between waves scattered on a specific set of crystalline planes, at discrete values of the incident angle $\theta$.
+From fig. \ref{fig:BraggLaw}, the condition to have constructive interference is retrieved, also known as Bragg's law and given by eq. \ref{eq:Bragglaw}.
 
 \begin{equation}
     \label{eq:Bragglaw}
@@ -354,15 +347,15 @@ In the case of a cubic Bravais lattice, the distance between Miller planes can b
     d_{hkl}=\frac{2\pi}{|\vec{a}^*|\sqrt{h^2 + k^2 + l^2}}=\frac{|\vec{a}|}{\sqrt{h^2 + k^2 + l^2}}
 \end{equation}
 
-For a hexagonal Bravais lattice, we have:
+For a hexagonal Bravais lattice:
 \begin{equation}
     \label{eq:InterplanarspacingHex}
     \frac{1}{{d_{hkl}}^2}=\frac{4}{3a^2}(h^2 + hk + k^2) + \frac{l^2}{c^2}
 \end{equation}
 
-From eqs. \ref{eq:QSinTheta} and \ref{eq:Bragglaw}, we fall back on the Laue condition which is a generalisation of Bragg's law.
-The diffraction order ($n$) in the Bragg's law equation can be omitted since it is implicitly determined by the Miller indices (hkl) representing the crystalline planes involved in the diffraction.
-Since we are in the Laue condition, $|\vec{G}_{hkl}|$ is used rather than $|\vec{q}|$ in eq. \ref{eq:QandD3}.
+From eqs. \ref{eq:QSinTheta} and \ref{eq:Bragglaw}, one falls back on the Laue condition which is a generalisation of Bragg's law.
+The diffraction order ($n$) in the Bragg's law equation can be omitted since it is implicitly determined by the Miller indices $(hkl)$ representing the crystalline planes involved in the diffraction.
+Since the Laue condition is here verified, $|\vec{G}_{hkl}|$ is used rather than $|\vec{q}|$ in eq. \ref{eq:QandD3}.
 
 \begin{align}
     \label{eq:QandD1}
@@ -392,8 +385,8 @@ These Fourier transforms are known as the lattice factor $F_{lat}$ and the unit 
 
 The lattice factor $F_{lat}$ represents the periodic arrangement of the crystal lattice in Fourier space, corresponding to the reciprocal lattice.
 It determines the positions and intensities of the diffraction peaks in the scattering pattern.
-The unit cell structure factor $F_{uc}$ describes the distribution of electron density within the unit cell of the crystal and modulates the scattered beam amplitude depending on what atoms are in the unit cell (amplitude) and their positions (phase).
-By identifying the different parts of eq. \ref{eq:Fcrystal} and eq. \ref{eq:FcrystalFlatFuc} we can first isolate the unit cell structure factor:
+The unit cell structure factor $F_{uc}$ describes the distribution of electron density within the unit cell of the crystal, and modulates the scattered beam amplitude depending on what atoms are in the unit cell (amplitude) and their positions (phase).
+By comparing eq. \ref{eq:Fcrystal} and eq. \ref{eq:FcrystalFlatFuc}, the unit cell structure factor is first identified and discussed.
 
 \begin{equation}
     \label{eq:StrucFactor}
@@ -404,11 +397,9 @@ Each diffraction peak in the scattering pattern corresponds to a specific Fourie
 By knowing the phase relationships between these Fourier components, which can be obtained from the measured diffraction pattern, the electron density within the unit cell can be reconstructed.
 The superposition of these sinusoidal waves, representing the diffraction peaks or Fourier components, recreates the original electron density distribution of the crystal.
 
-To summarise, the diffraction peaks in the scattering pattern represent the Fourier components of the crystal's electron density distribution, and their spatial frequencies and phase relationships carry information about the crystal structure.
-%The first sum is the unit cell structure factor, that modulates the scattered beam amplitude depending on what atoms are in the unit cell (amplitude) and their positions (phase).
-%The second sum is the lattice factor that takes the value of $N_{uc}$ if $\vec{q}.\vec{R}_k = n \times 2\pi$ $(\ n \in \mathbb{Z})$.
-
-The structure factor $F_{uc}$ is the summation of the contribution of each atom $j$ at the position $\vec{r}_j$ of atomic form factor $f_j(\vec{q})$ in the unit cell for a given scattering vector $\vec{q}$.
+To summarise, the diffraction peaks in the scattering pattern represent the Fourier components of the crystal's electron density distribution.
+Their spatial frequencies and phase relationships carry information about the crystal structure.
+The structure factor $F_{uc}$ is the summation of the contribution of each atom $j$ at the position $\vec{r}_j$ in the unit cell, of atomic form factor $f_j(\vec{q})$, and for a given scattering vector $\vec{q}$.
 The position of each atom is defined in the unit cell by eq. \ref{eq:AtomPos}, an example with the platinum atoms in its primitive unit cell is given in tab. \ref{tab:PtAtoms}.
 
 \begin{equation}
@@ -436,10 +427,10 @@ Otherwise, the intensity of a Bragg peak detected at the scattering vector $\vec
 \subsection{Lattice factor} \label{sec:LatticeFactor}
 
 If the scattering factor considers the composition of the unit cell, the lattice factor represents the contribution of the crystal lattice to the overall scattering amplitude.
-It takes into account the arrangement of atoms or scatterers within the crystal lattice and their interaction with the incident wave.
+It takes into account the arrangement of atoms or scatterers within the crystal lattice, and their interaction with the incident wave.
 
-By identifying the different parts of eq. \ref{eq:Fcrystal} and eq. \ref{eq:FcrystalFlatFuc} we can now isolate the lattice factor (eq \ref{eq:LatFactor}).
-In the case of a simple cubic arrangement of unit cells in three directions perpendicular to each other, we can divide the sum over all the unit cells $N_{uc}$ in the crystal into three sums, each in one of the directions of the crystal lattice ($\vec{a}, \, \vec{b}, \, \vec{c}$) so that $N_{uc} = N_{uc, x} \times N_{uc, y} \times N_{uc, z}$.
+By considering the different parts of eq. \ref{eq:Fcrystal} and eq. \ref{eq:FcrystalFlatFuc}, the lattice factor is now identified and discussed (eq \ref{eq:LatFactor}).
+In the case of a simple cubic arrangement of unit cells in three directions perpendicular to each other, the sum over all unit cells $N_{uc}$ in the crystal is simplified into three sums, each in one of the directions of the crystal lattice ($\vec{a}, \, \vec{b}, \, \vec{c}$), verifying $N_{uc} = N_{uc, x} \times N_{uc, y} \times N_{uc, z}$.
 
 \begin{gather}
     \label{eq:LatFactor}
@@ -450,22 +441,23 @@ In the case of a simple cubic arrangement of unit cells in three directions perp
 
 \begin{gather}
     \label{eq:SFunction1}
-    S_{N_{uc, j}}(\vec{q}.\vec{a}_j) = \sum_{n_j}^{N_{uc, j}} e^{in\vec{q}.\vec{a}_j} = \sum_{n_j}^{N_{uc, j}} e^{(i\vec{q}.\vec{a}_j)^n_j} = \frac{1-e^{(i N_{uc, j} \vec{q}.\vec{a}_j)}}{1-e^{(i\vec{q}.\vec{a}_j)}},\\
+    S_{N_{uc, j}}(\vec{q}.\vec{a}_j) = \sum_{n_j}^{N_{uc, j}} e^{in\vec{q}.\vec{a}_j} = \sum_{n_j}^{N_{uc, j}} e^{(i\vec{q}.\vec{a}_j)^{n_j}} = \frac{1-e^{(i N_{uc, j} \vec{q}.\vec{a}_j)}}{1-e^{(i\vec{q}.\vec{a}_j)}} \\
     \label{eq:SFunction2}
-    |S_{N_{uc, j}}(\vec{q}.\vec{a}_j)| = \frac{\sin(N_{uc, j} \vec{q}.\vec{a}_j/2)}{\sin(\vec{q}.\vec{a}_j/2)},\\
+    |S_{N_{uc, j}}(\vec{q}.\vec{a}_j)| = \frac{\sin(N_{uc, j} \vec{q}.\vec{a}_j/2)}{\sin(\vec{q}.\vec{a}_j/2)} \\
     \label{eq:SFunction3}
     |S_{N_{uc, j}}(\vec{q}.\vec{a}_j)| \underset{N_{uc, j} \to \infty}{\longrightarrow} \approx \delta (\vec{q})
 \end{gather}
 
-Where $S_{N_{uc, j}}(\vec{q}.\vec{a})$ is a function whose modulus $|S_{N_{uc, j}}(\vec{q}.\vec{a})|$ tends towards a Dirac function when $N_{uc, j} \longrightarrow \infty$.
-The condition to observe peaks in eq. \ref{eq:SFunction2} is for the denominator to be equal to zero: $\frac{\vec{q}.\vec{a}_j}{2} \equiv \pi$ which brings us back to the Laue condition: $\vec{q} = \vec{G}$ where $\vec{G}$ is a reciprocal space lattice vector.
-Minor peaks appear when the numerator is equal to one: $N\frac{\vec{q}.\vec{a}_j}{2} \equiv \frac{\pi}{2}$, the distance between each minor peak is equal to $\frac{2\pi}{t_j}$ where $t_j$ is the thickness of the crystal in the direction $\vec{a_j}$.
+Where $S_{N_{uc, j}}(\vec{q}.\vec{a})$ is a function whose modulus tends towards a Dirac function when $N_{uc, j} \longrightarrow \infty$.
+The condition to observe maxima in eq. \ref{eq:SFunction2} is for the denominator to be equal to zero: $\frac{\vec{q}.\vec{a}_j}{2} = \pi$ which brings us back to the Laue condition: $\vec{q} = \vec{G}$ where $\vec{G}$ is a reciprocal space lattice vector (eq. \ref{eq:LaueCond}).
+Minor peaks appear when the numerator is equal to one: $N_{uc, j}\frac{\vec{q}.\vec{a}_j}{2} \equiv \frac{\pi}{2}$.
+The distance between each minor peak in $q$-space is given by $\Delta q = \frac{2\pi}{N_{uc, j} \times a_j} = \frac{2\pi}{t_j}$, where $t_j$ is the thickness of the crystal in the direction $\vec{a_j}$.
 
 To resume, the lattice factor $F_{lat}(\vec{q})$ defines the shape of Bragg peaks.
 For a large crystal (\textit{i.e.} a large number of unit cells in three directions), ideal Bragg peaks will look like Dirac functions (in reality they are widened due to different experimental factors).
 For small crystals such as nanoparticles, the fringes of the lattice factor will be further apart and their intensity more visible in contrast to the intensity of the main peak (fig. \ref{fig:3DDP}).
 In a more general sense, the lattice factor is the Fourier transform of the crystal's lattice, the effect of the Fourier transform is that fringes will be visible in the reciprocal space in directions perpendicular to the crystal's surface.
-The ability to effectively sample these fringes during experiments is at the root of the BCDI technique, to be able to perform the inverse Fourier transform of the Bragg peak to then retrieve the crystal shape (sec. \ref{sec:BCDI}).
+The ability to effectively sample these fringes during experiments is at the root of the BCDI technique, to effectively retrieve the crystal shape (sec. \ref{sec:BCDI}).
 
 \subsection{Coherence} \label{sec:Coherence}
 
@@ -490,8 +482,8 @@ The emittance $\epsilon$ is defined as the product of the source size $D$ and th
     \centering
     \includegraphics[scale=0.8]{Figures/introduction/coherence_lengths.pdf}
     \caption{
-    (a) Two waves become out of phase in the direction of the beam at a distance $L_L$ from being in phase after $N/2$ wavelengths for $\lambda$ and $(N+1)/2$ wavelengths for $\lambda - \Delta\lambda$. Since $N >> 1$, we can write $N\approx\lambda/\Delta\lambda$ and find eq. \ref{eq:LongitudinalCoL}.
-    (b) A plane wave emitted from one extremity of the source is out of phase with another plane wave emitted from the other extremity with maximum angular divergence $\Delta\theta$ at a distance $L_T$ in the plane perpendicular to the direction of the beam, situated at a distance $R$ from the source.
+    (a) Two waves become out of phase in the direction of the beam at a distance $L_L$ from being in phase after $N/2$ wavelengths for $\lambda$ and $(N+1)/2$ wavelengths for $\lambda - \Delta\lambda$. Since $N >> 1$, $N\approx\lambda/\Delta\lambda$, which yields eq. \ref{eq:LongitudinalCoL}.
+    (b) A plane wave emitted from one extremity of the source is out of phase with another plane wave emitted from the other extremity with maximum angular divergence $\Delta\theta$, at a distance $L_T$ in the plane perpendicular to the direction of the beam, situated at a distance $R$ from the source.
     }
     \label{fig:CoherenceLengths}
 \end{figure}
@@ -505,7 +497,7 @@ The bandwidth is linked to the quality of the monochromator used to obtain a mon
 \end{equation}
 
 The transverse coherence length $L_T$ describes the distance in the plane perpendicular to the beam after which two waves become out of phase due to the finite source size $D$ and to the angular divergence of the beam $\Delta\theta$ (fig. \ref{fig:CoherenceLengths} - b).
-By assuming that the source has a Gaussian profile, we can relate $D$ to the standard deviation of the beam $\sigma_{H, V}$ in the horizontal and vertical directions perpendicular to the beam (\cite{Willmott}, eq. \ref{eq:TransverseCoL}).
+By assuming that the source has a Gaussian profile, the standard deviation of the beam $\sigma_{H, V}$ in the horizontal and vertical directions perpendicular to the beam is linked to $D$ (\cite{Willmott}, eq. \ref{eq:TransverseCoL}).
 
 \begin{equation}
     \label{eq:TransverseCoL}
@@ -514,10 +506,11 @@ By assuming that the source has a Gaussian profile, we can relate $D$ to the sta
 
 At synchrotrons, the vertical and horizontal source sizes are significantly different due to the shape of the electron beam, much more extended in the horizontal plane.
 The horizontal transverse coherence length is usually smaller and the limiting factor.
-By multiplying the two transverse coherence lengths $L_{T,H}$, $L_{T,V}$ and the longitudinal coherence length $L_L$ we obtain the coherent volume.
+The coherent volume is obtained by multiplying the two transverse coherence lengths $L_{T,H}$, $L_{T,V}$, and the longitudinal coherence length $L_L$.
 An example is given in sec. \ref{sec:SIXS} for the SixS beamline of the synchrotron SOLEIL.
 
-To perform Bragg coherent diffraction imaging experiments for which the coherent volume must be larger than the sample, the beamline must have low vertical and horizontal emittances, high monochromaticity and a sample environment situated as far as possible from the source.
+To perform Bragg coherent diffraction imaging experiments, the coherent volume must be larger than the sample.
+The beamlines must have low vertical and horizontal emittances, high monochromaticity, and a sample environment situated as far as possible from the source.
 Therefore, the coherent flux $F_{coh}$ as a function of the wavelength is directly related to the brilliance and bandwidth of the source \parencite{Willmott}:
 
 \begin{equation}
@@ -526,10 +519,9 @@ Therefore, the coherent flux $F_{coh}$ as a function of the wavelength is direct
 \end{equation}
 
 Indeed, to be able to resolve the interference fringes resulting from the lattice factor, a high brilliance is crucial since the intensity of the total scattered field, proportional to the scattering volume, is weak.
-A detailed explanation of how to optimise BCDI experiments is given in sec. \ref{sec:BCDI}.
 
 \textit{
-So far we have limited ourselves to the kinematical approach of diffraction in the frame of this thesis which means that the scattering is considered weak enough so that multiple scattering can be ignored.
-This allows us to assume that the sample is only a perturbation to the incident field and that the structure factor can be written as the Fourier transform of the electronic density (Born approximation).
-We have also assumed that the incident wave is plane within the scattering volume and that the distance between the scatterer and the detector is large enough for the scattered waves to be considered planes (far-field or Fraunhofer regime).
+This introduction is limited to the kinematical approach of diffraction, which means that the scattering is weak, so that multiple scattering can be ignored.
+This allows us to assume that the sample is only a perturbation to the incident field, and that the structure factor can be written as the Fourier transform of the electronic density (Born approximation).
+It is also assumed that the incident wave is plane within the scattering volume, and that the distance between the scatterer and the detector is large enough for the scattered waves to be considered planes (far-field or Fraunhofer regime).
 }

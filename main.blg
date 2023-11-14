@@ -1,15 +1,20 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'main.blg'
-[52] biber:340> INFO - === dim. nov.  5, 2023, 19:39:32
-[64] Biber.pm:418> INFO - Reading 'main.bcf'
-[252] Biber.pm:978> INFO - Found 446 citekeys in bib section 0
-[262] Biber.pm:4401> INFO - Processing section 0
-[269] Biber.pm:4592> INFO - Looking for bibtex file '/home/david/Documents/PhD/PhdThesis/references.bib' for section 0
-[318] bibtex.pm:1713> INFO - LaTeX decoding ...
-[940] bibtex.pm:1518> INFO - Found BibTeX data source '/home/david/Documents/PhD/PhdThesis/references.bib'
-[4119] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4119] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4119] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
-[4119] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-GB'
-[4467] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[4898] bbl.pm:757> INFO - Output to main.bbl
+[69] biber:340> INFO - === mar. nov. 14, 2023, 11:35:56
+[81] Biber.pm:418> INFO - Reading 'main.bcf'
+[278] Biber.pm:978> INFO - Found 450 citekeys in bib section 0
+[288] Biber.pm:4401> INFO - Processing section 0
+[295] Biber.pm:4592> INFO - Looking for bibtex file '/home/david/Documents/PhD/PhdThesis/references.bib' for section 0
+[347] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1050] bibtex.pm:1518> INFO - Found BibTeX data source '/home/david/Documents/PhD/PhdThesis/references.bib'
+[4527] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4527] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4527] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
+[4527] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-GB'
+[4906] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[5332] bbl.pm:757> INFO - Output to main.bbl
+[5332] Biber.pm:130> WARN - legacy month field 'Jan' in entry 'Astruc2020' is not an integer - this will probably not sort properly.
+[5332] Biber.pm:130> WARN - legacy month field 'Jan' in entry 'Altantzis2019' is not an integer - this will probably not sort properly.
+[5332] Biber.pm:130> WARN - legacy month field 'May' in entry 'Ndolomingo2020' is not an integer - this will probably not sort properly.
+[5332] Biber.pm:130> WARN - legacy month field 'Nov' in entry 'Yau2017a' is not an integer - this will probably not sort properly.
+[5333] Biber.pm:132> INFO - WARNINGS: 4

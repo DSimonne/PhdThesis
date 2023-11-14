@@ -2,30 +2,33 @@
 
 \subsection{Synchrotron radiation}
 
-SOLEIL (Source Optimisée d’Énergie Intermédiaire du LURE (Laboratoire pour l’Utilisation du Rayonnement Électromagnétique)) is a $3^{rd}$ generation synchrotron source facility build in 2006 and localised near Paris, France, which operates at an electron energy of \qty{2.75}{\GeV} with a storage ring diameter of \qty{354}{\m}.
+SOLEIL (Source Optimisée d’Énergie Intermédiaire du LURE (Laboratoire pour l’Utilisation du Rayonnement Électromagnétique)) is a $3^{rd}$ generation synchrotron source facility build in 2006, and localised near Paris (France).
+SOLEIL operates at an electron energy of \qty{2.75}{\GeV}, with a storage ring diameter of \qty{354}{\m}.
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sixs/RingSoleil.jpg}
     \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sixs/BeamlineSoleil.jpg}
     \caption{
-    	The storage ring of a synchrotron alternates between straight and curved sections (left), insertion devices are situated at the end of straight sections and deliver the synchrotron radiation to the beamline, separated in optical hutches, experimental end-stations and working stations (right).
+    	The storage ring of a synchrotron alternates between straight and curved sections (left).
+        Insertion devices are situated at the end of straight sections, and deliver the synchrotron radiation to the beamline, separated in optical hutches, experimental end-stations and working stations (right).
     	Copyright by SOLEIL (\url{https://www.synchrotron-soleil.fr/en/research}).
     }
     \label{fig:SOLEIL}
 \end{figure}
 
-Synchrotron radiation is generated when electrons travelling at relativistic speeds are accelerated and forced to travel in curved trajectories by strong magnetic fields supplied by \textit{bending magnets}.
+Synchrotron radiation is generated when electrons travelling at relativistic speeds are accelerated and forced to travel in curved trajectories by strong magnetic fields, supplied by \textit{bending magnets}.
 The radiation spans a broad spectrum, from infrared to X-rays, depending on the electrons, the acceleration, and the strength of the magnetic fields.
 
-First, electrons are produced by an electron gun and accelerated in a linear accelerator (LINAC), then by a booster ring.
-Secondly, once the electrons reach the desired energy, they are injected into a storage ring, which is an almost circular vacuum chamber (fig. \ref{fig:SOLEIL} - left) surrounded by strong magnets.
+First, electrons are produced by an electron gun, accelerated in a linear accelerator (LINAC), and by a booster ring.
+Secondly, electrons that reach the desired energy are injected into the \textit{storage ring}, an almost circular vacuum chamber surrounded by strong magnets (fig. \ref{fig:SOLEIL} - left).
 The magnetic fields in the ring act as a guiding force, bending the electrons' trajectories.
 
 Due to their high energy, the electrons travel at speeds close to the speed of light, making them relativistic particles.
 As they move through the curved paths, they are accelerated and emit electromagnetic radiation tangentially to their trajectory as a result \parencite{Willmott, NielsenMcMorrow}.
 
-By the use of insertion devices such as \textit{wiggler} or \textit{undulators}, synchrotron radiation is exceptionally bright and brilliant, with a high flux of photons and an excellent collimation, wigglers are best used when in the need of a broad energy range, whereas undulators produce beams with extremely high brilliance and narrow bandwidth.
+By the use of insertion devices such as \textit{wiggler} or \textit{undulators}, synchrotron radiation is exceptionally bright and brilliant, with a high flux of photons and an excellent collimation.
+Wigglers are best used when in the need of a broad energy range, whereas undulators produce beams with extremely high brilliance, and narrow bandwidth.
 Each beamline at SOLEIL begins with one of those insertion devices or with a bending magnet (fig. \ref{fig:SOLEIL} - right).
 
 \subsection{The SixS beamline}
@@ -36,19 +39,24 @@ SixS (Surfaces Interfaces X-ray Scattering) is a wide-energy range beamline dedi
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/sixs/SixSBeamline.png}
     \caption{
-		Schematic view of SixS, the monochromator is situated in the optical hutch, the focusing mirrors, the attenuators and the MED end-station are in the first experimental hutch, additional mirrors and the UHV end-station are in the second experimental hutch.
+		Schematic view of SixS, the monochromator is situated in the optical hutch, the focusing mirrors, the attenuators and the MED end-station are in the first experimental hutch.
+        Additional mirrors and the UHV end-station are in the second experimental hutch.
 		Only the MED end-station was used in the frame of this thesis.
         Taken from Chatelier \parencite*{Chatelier2020}.
     }
     \label{fig:SixSBeamline}
 \end{figure}
 
-The beamline operates with a $U_{20}$ undulator situated before the front-end (shutter) which delivers a horizontally polarised beam characterised by its horizontal and vertical full-width at half maximum (FWHM), respectively $\sigma_H = \qty{913.7}{\um}$ and $\sigma_V = \qty{19.1}{\um}$, and by its horizontal and vertical divergences, respectively $\Delta\theta_H = \qty{14.5}{\micro\radian}$ and $\Delta\theta_V = \qty{4.61}{\micro\radian}$.
+The beamline operates with a $U_{20}$ undulator situated before the front-end (shutter), which delivers a horizontally polarised beam.
+The beam is characterised by its horizontal and vertical standard deviations, respectively $\sigma_H = \qty{913.7}{\um}$ and $\sigma_V = \qty{19.1}{\um}$, and by its horizontal and vertical divergences, respectively $\Delta\theta_H = \qty{14.5}{\micro\radian}$ and $\Delta\theta_V = \qty{4.61}{\micro\radian}$.
 
-An absorber and diaphragm are placed after the undulator to cut any parasitic signal from the source, a double crystal monochromator (DCM) of silicium (111) allows the selection of a monochromatic beam of thin bandwidth $\Delta \lambda$ in the range of \qtyrange{4}{20}{\keV} after receiving the white beam.
-The crystals are cooled by liquid nitrogen due to the high intensity of the white beam and produce harmonics depending on the incident angle of the beam through diffraction (Bragg's law, eq. \ref{eq:Bragglaw}), only the first harmonic is selected with the second crystal.
-Primary slits are placed just before the DCM, to select a homogeneous portion of the beam to work with to avoid fluctuations in the beam intensity.
-Secondary slits after the DCM are used to clean the signal after the monochromator, the vertical focus of the beam is then handled by a pair of mirrors, one of which can be slightly curved to focus anywhere between the MED and the UHV stations (fig. \ref{fig:SixSBeamline}).
+An absorber and diaphragm are placed after the undulator to cut any parasitic signal from the source.
+A double crystal monochromator (DCM) of silicium (111) allows the selection of a monochromatic beam of thin bandwidth $\Delta \lambda$ in the range of \qtyrange{4}{20}{\keV}, after receiving the white beam.
+The crystals are cooled by liquid nitrogen due to the high intensity of the white beam, and produce harmonics depending on the incident angle of the beam through diffraction (Bragg's law, eq. \ref{eq:Bragglaw}).
+Only the first harmonic is selected with the second crystal.
+Primary slits are placed just before the DCM, to select a homogeneous portion of the beam, aiming to avoid fluctuations in the beam intensity.
+Secondary slits after the DCM are used to clean the signal after the monochromator.
+The vertical focus of the beam is then handled by a pair of mirrors, one of which can be slightly curved to focus anywhere between the MED and the UHV stations (fig. \ref{fig:SixSBeamline}).
 Piezo-actuated and pneumatic attenuators are respectively situated before and after the mirrors, they limit the intensity of the incident beam (\textit{e.g.} when working in the direct geometry).
 The first experimental end-station on the beam path is the multi-environment diffractometer, where the focused beam is approximately large by \qty{60}{\um} vertically and \qty{1500}{\um} horizontally.
 Additional focusing optics used for BCDI are present in the MED end-station and are detailed below.
@@ -74,13 +82,14 @@ The second experimental hutch, mainly used for ultra-high vacuum experiments, wa
 
 \subsection{Multi environment diffractometer}\label{sec:MED}
 
-The multi-environment diffractometer (MED) (fig. \ref{fig:MEDDiffractometer}) at SixS can be used in either a vertical or horizontal configuration (fig. \ref{fig:Diffractometer}), and can accommodate a large variety of experimental chambers around the sample stage.
+The multi-environment diffractometer (MED) at SixS (fig. \ref{fig:MEDDiffractometer}) can be used in either a vertical or horizontal configuration (fig. \ref{fig:Diffractometer}), and can accommodate a large variety of experimental chambers around the sample stage.
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[trim=100 225 100 275, clip, width=0.9\textwidth]{/home/david/Documents/PhD/Figures/sixs/Diffractometer.pdf}
     \caption{
-        Multi-environment diffractometer (MED), here in the horizontal configuration, accommodating the XCAT reactor \parencite{VanRijn2010}, placed upon a hexapod which allows the sample to move in three orthonormal directions.\\
+        Multi-environment diffractometer (MED) (horizontal configuration), accommodating the XCAT reactor \parencite{VanRijn2010} placed upon the hexapod.
+        The hexapod allows the sample to move in three orthonormal directions.\\
         Image copyright by Leiden Probe Microscopy (\url{https://leidenprobemicroscopy.com}).
     }
     \label{fig:MEDDiffractometer}
@@ -97,11 +106,12 @@ These values corresponds to perfect coherent lengths without taking into account
 
 During this thesis, the horizontal configuration was used for SXRD experiments whereas the vertical configuration was used for BCDI experiments.
 Working in a vertical configuration is preferable for BCDI since it allows a larger range of incident angle ($\beta$, the incident angle in the horizontal configuration, is limited to \ang{3}).
-The mirrors, that focus the beam in the horizontal configuration, are removed from the optical path, the focus of the beam is then handled by specific focusing optics.
+The mirrors, that focus the beam in the horizontal configuration, are removed from the optical path.
+The focus of the beam is then handled by specific focusing optics detailed below.
 
-The secondary slits are closed to \qty{100}{\um} vertically and horizontally during BCDI experiments, acting as a secondary source during Bragg coherent diffraction imaging experiments, reducing the effective size of the source seen by the focusing optics \parencite{Jacques2010}.
+The secondary slits are closed to \qty{100}{\um} vertically and horizontally, acting as a secondary source during BCDI experiments, and reducing the effective size of the source seen by the focusing optics \parencite{Jacques2010}.
 So called \textit{coherence} slits are placed just before the beam stop to select a homogeneous portion of the beam that impinges on focusing refractive lenses called Fresnel zone plates (FZP), designed to work at an energy of \qty{8.5}{\keV}.
-The use of Fresnel zone plates, that preserve the coherent wavefront, together with coherence slits has been proven to increase the coherent flux impinging on the sample \parencite{Schroer2008, Diaz2009, Mastropietro2011}.
+The use of Fresnel zone plates (that preserve the coherent wavefront) together with coherence slits has been proven to increase the coherent flux impinging on the sample \parencite{Schroer2008, Diaz2009, Mastropietro2011}.
 
 An order-sorting aperture (OSA) and a beamstop block the direct beam and the higher diffraction orders from the FZP (fig. \ref{fig:OpticalSetup}).
 Since the coherence slits also have the counter effect of decreasing the total photon flux on the sample, their width is subject to a compromise to increase the coherent flux on the sample.
@@ -136,25 +146,20 @@ The final beam size on the sample is of about \qty{0.8}{\um} horizontally and \q
 
 One of the bottlenecks of the BCDI technique is its slow data reduction and analysis process.
 On $3^{rd}$ generation synchrotrons that offer a lower coherent flux (eq. \ref{eq:CoherentFlux}) than $4^{th}$ generation synchrotrons, the measurement time can also exceed several dozens of minutes.
-For example, at SixS, a rocking curve lasts between \qtyrange{20}{90}{\min} depending on the particle size, the quality of the alignment, the strain of the particle, \textit{etc.}
+For example, at SixS, a rocking curve lasts between \qtyrange{20}{90}{\min} depending on the particle size, the quality of the alignment, \textit{etc.}
 Once the raw data is obtained, the particle must be \textit{reconstructed}, so that the displacement and strain arrays can be retrieved.
-The analysis workflow can take up to an hour, which totals to a maximum of two hours from the start of the measurement to the when the user has a good idea of the sample shape and structure.
+The analysis workflow can take up to an hour, totalling to a maximum of two hours from the start of the measurement to when the user has a first idea of the sample shape and structure.
 
-SixS is a beamline that does not only carry out BCDI experiment, but also SXRD experiments, in the same experimental end-station, the multi-environment diffractometer (MED, sec. \ref{sec:MED}).
+SixS is a beamline that not only permits BCDI experiment but also SXRD experiment.
 When aiming at performing \textit{operando} catalysis experiments, switching from one setup to another can take up to a few days.
 This leaves only a limited remaining amount of time to align the sample, find a suitable nanoparticle, and carry out the experimental plan.
 
-Li \textit{et al.} \parencite*{Li2020}, who have first shown that the SixS beamline could be used to carry out BCDI experiment, started to work on improving the BCDI measurement process.
+Li et al. \parencite*{Li2020}, who have first shown that the SixS beamline could be used to carry out BCDI experiment, started to work on improving the BCDI measurement process.
 By comparing continuous and step-by-step measurements, they have shown that continuous scanning would result in the same data quality while decreasing the measurement dead-time by \qty{30}{\percent}, thereby paving the way for quicker BCDI measurements.
 
 During this thesis, the measurement process was further improved by taking advantage of the new possibility to perform continuous \textit{on-the-fly} scans at SixS, while moving the sample plane with the hexapod.
-When using the coherence setup (fig. \ref{fig:OpticalSetup}) with the diffractometer in the vertical geometry (fig. \ref{fig:Diffractometer}), the beam focused on the sample is about \qty{1}{\um} large vertically, the horizontal footprint depending on the incident angle between the beam and the sample.
-
-The incoming angle $\mu$ is set to a Bragg angle ($\theta$ in eq. \ref{eq:Bragglaw}) and the scattered x-rays are collected by setting the out-of-plane detector angle $\gamma$ at a position equal to $2\theta$ (similar to fig. \ref{fig:EwaldSphereSpecular}).
-Finally, by simultaneously moving the sample with the hexapod and recording the Bragg scattered intensity with the detector, it is possible to map the sample surface with a sub-micron resolution \parencite{Chahine2014}.
-
-An example of the mapping result is illustrated below in fig. \ref{fig:SampleMapping} with Pt nanoparticles for which the [111] crystallographic direction is parallel to the normal of the sample holder, the (111) Bragg peak was thus measured during the mapping process.
-
+By working in specular geometry (fig. \ref{fig:EwaldSphereSpecular}), and by simultaneously moving the sample with the hexapod and recording the Bragg scattered intensity with the detector, it is possible to map the sample surface with a sub-micron resolution \parencite{Chahine2014}.
+An example of the mapping result is illustrated below in fig. \ref{fig:SampleMapping}.
 A nanoparticle with a width equal to \qty{300}{\nm} was identified with this technique (sec. \ref{sec:BCDINanoparticles}), which is a good estimate of the spatial resolution that can be attained, limited by the hexapod resolution (smallest step size equal to \qty{\approx 300}{\nm}) and the beam size.
 
 \begin{figure}[!htb]
@@ -169,13 +174,13 @@ A nanoparticle with a width equal to \qty{300}{\nm} was identified with this tec
     \label{fig:SampleMapping}
 \end{figure}
 
-\textit{Gwaihir} (sec. \ref{sec:Gwaihir}) was developed primarily for the SixS beamline to counter the long analysis process, which allowed a significant reduction in the analysis time from around an hour to a few minutes.
+A data reduction software named \textit{Gwaihir} (sec. \ref{sec:Gwaihir}) was developed primarily for the SixS beamline to counter the long analysis process, allowing a significant reduction in the analysis time from tens to few minutes.
 The following beamtimes profit from the new software by having a more \textit{solution}-driven experimental process.
 Indeed, to be measured, a nanoparticle must be isolated, not too small (weak scattered intensity, e.g. $>\qty{100}{\nm}$ at SixS), not too big (loss of coherence, fringes not visible, e.g. $<\qty{1000}{\nm}$ at SixS), and not too initially strained (difficult to obtain a good guess of the support).
 These conditions are sometimes difficult to assert by simply looking at the diffraction pattern.
 Therefore, quick inversion using \textit{Gwaihir} allowed a faster decision process regarding the continuation or not of the nanoparticles measurement.
 
-Successful first measurements by \cite{Lim2021} have permitted the simultaneous use of BCDI measurements from SixS with measurements from other imaging beamlines (ID01 - ESRF, P10 - DESY), designing a robust method to identify defects in the real space with convolutional neural networks (CNN).
+Successful first measurements have permitted the combined use of BCDI measurements from SixS with measurements from other imaging beamlines (ID01 - ESRF, P10 - DESY), designing a robust method to identify defects in the real space with convolutional neural networks (CNN) \parencite{Lim2021}.
 
 \subsubsection{Catalysis reactor}\label{sec:XCAT}
 
@@ -195,37 +200,37 @@ It is also possible to heat the sample up to \qty{900}{\degreeCelsius} for an ex
     \label{fig:SampleHolder}
 \end{figure}
 
-The sample holder (fig. \ref{fig:SampleHolder}) consists of a cross-shaped graphite heater covered in boron nitride held by two conductive screws in a thick (\qty{\approx 1}{\cm}) and round ceramic slab.
+The sample holder (fig. \ref{fig:SampleHolder}) consists of a cross-shaped graphite heater covered in boron nitride, held by two conductive screws in a thick (\qty{\approx 1}{\cm}) and round ceramic slab.
 The protruding ends of the screws on the opposite side of the ceramic slab serve as contact pins used for the heater power circuit, and to securely fasten the sample holder to the reactor.
 A Beryllium or PEEK dome closes the reactor, the V-seal sealing the reactor atmosphere from the outside, two types of PEEK dome are available, with or without a sapphire window, allowing to observe the sample during the experiments with a microscope.
 
 This design not only enables swift attachment and detachment of the sample holder but also ensures a robust setup in both horizontal and vertical orientations.
 The sample is then placed on top of the sample holder and set in place by a wire.
 All the materials used in the reactor were carefully chosen as not catalytically active for specific reactions.
-For example, tantalum (Ta) parts (screws and wire) are used in oxygen rich environment since Ta is more resilient than molybdenum (Mo) to oxidation reaction, whereas Mo parts are used in hydrogen rich environment because it is more resilient to hydrides formation.
-A boron nitride paint additionally covers and protects the screws and wires used to fix the sample holder and the sample from oxidation effects.
-The heater power is adjusted as a function of the sample temperature read by a type C thermocouple.
+For example, tantalum parts (screws and wire) are used in oxygen rich environment (more resilient to oxide formation), whereas molybdenum parts are used in hydrogen rich environment (more resilient to hydride formation).
+A boron nitride paint additionally covers and protects the screws and wires used to fix the sample holder, as well as sample from oxidation effects.
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[trim=0 0 0 42, clip, width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sixs/IMG_20210612_153249_240.jpg}
     \includegraphics[trim=150 0 200 0, clip, width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sixs/CELL.jpg}
     \caption{
-        MED end-station in vertical configuration for BCDI experiments (left), the OSA can be seen next to the reactor cell, opposite to the anti-scattering tube, the sample is visible in the absence of the reactor dome.
-        Smaller version of the XCAT reactor cell with PEEK dome (right).
+        MED end-station in vertical configuration for BCDI experiments (left).
+        The OSA can be seen next to the reactor cell, opposite to the anti-scattering tube.
+        The sample is visible in the absence of the reactor dome.
+        The smaller version of the XCAT reactor cell seen in both images is completed with its PEEK dome on the right.
     }
     \label{fig:MEDV}
 \end{figure}
 
 The gas composition inside the reactor is tuned by setting the flow for each gas in standard cubic centimetres per minute (SCCM).
-The inlet and outlet of the gases in the reactor volume are through holes in the ceramic slab that are set just below the sample holder.
+The inlet and outlet of the gases in the reactor volume are through holes in the ceramic slab that are set just below the sample holder (fig. \ref{fig:SampleHolder}).
 The standard supported gases are argon (\argon), oxygen (\dioxygen), nitrogen oxide (\nitricoxide), carbon monoxide (\ce{CO}) and hydrogen (\ce{H_2}).
 It is possible to change the gases used by computing the correct conversion factor for a mass flow controller, each one originally set to work with a specific gas.
 For example, the bottle of \ce{H_2} was replaced by a bottle of ammonia (\ammonia) during the experiments involving the catalytic oxidation of ammonia.
 Moreover, the pressure inside the volume of the reactor can be controlled by a pressure controller, from \qtyrange{100}{1200}{\milli\bar} (fig. \ref{fig:GasSupplySystem}), in a small volume (\qty{\approx 10}{\ml}), under batch or constant flow conditions.
 
-Finally, the evolution of the product and reactant pressure during the catalytic reaction is probed by a residual gas analyser (RGA) which is connected to a leak from the reactor outlet (fig. \ref{fig:GasSupplySystem}).
-The leak pressure is usually in the range of \qty{e-6}{\bar} and the assumption is made that the partial pressure of each mass detected by the RGA after the leak is equal to the partial pressure in the reactor multiplied by the same constant for all masses.
+Finally, the evolution of the product and reactant pressure during the catalytic reaction is probed by a residual gas analyser (RGA), connected to a leak from the reactor outlet (fig. \ref{fig:GasSupplySystem}).
 
 Overall, this experimental setup allows the exploration of a large, multi-dimensional parameter space during heterogeneous catalysis experiments connecting reaction kinetics and surface structure.
 
@@ -245,22 +250,22 @@ When performing BCDI measurements, a smaller version of the XCAT is used which i
 The two reactors have the same inner volume and host the same sample holder stage (fig \ref{fig:SampleHolder}).
 The main setbacks being the lack of sputtering gun and the impossibility to study catalytic reaction in batch mode (as opposite to flow mode) due to the design of the small reactor (the leak to the RGA is after the pressure controller in the small reactor).
 
-The partial pressure of each gas detected after the leak in the main circuit (fig. \ref{fig:GasSupplySystem}) by the residual gas analyser can be converted back to partial pressures in the reactor by assuming (i) ideal gas behaviour (ii) homogeneous temperatures in the reactor and in the RGA chamber (iii) no selectivity of the gases through the leak, \textit{i.e.} the ratio between the partial pressures after the leak is the same that in the reactor (iv) all gases are detected by the RGA (v) the ratio between the incoming gases flow is the same as the ratio between the partial pressures in the reactor in the absence of reaction.
+The partial pressure of each gas detected after the leak in the main circuit (fig. \ref{fig:GasSupplySystem}) by the residual gas analyser can be converted back to partial pressures in the reactor by assuming (i) ideal gas behaviour (ii) homogeneous temperatures in the reactor and RGA chamber (iii) no gas selectivity through the leak, \textit{i.e.} the ratio between the partial pressures after the leak is the same that in the reactor (iv) all gases are detected by the RGA (v) the ratio between the incoming gases flow is the same as the ratio between the partial pressures in the reactor in the absence of reaction.
 The partial pressure of argon, which does not partake in the reaction, is then used to compute the partial pressure of each gas in the XCAT chamber.
 
-For example, at a reactor pressure of \qty{0.5}{\bar}, a total gas flow of \qty{50}{\ml\per\min}, a partial gas flow of \ce{NH_3} equal to \qty{1}{\ml\per\min}, and a partial gas flow of argon equal to \qty{49}{\ml\per\min}, we estimate the partial pressure of argon in the reactor to be equal to \qty{490}{\milli\bar}.
+For example, at a reactor pressure of \qty{0.5}{\bar}, a total gas flow of \qty{50}{\ml\per\min}, a partial gas flow of \ce{NH_3} equal to \qty{1}{\ml\per\min}, and a partial gas flow of argon equal to \qty{49}{\ml\per\min}, the partial pressure of argon in the reactor is estimated to be equal to \qty{490}{\milli\bar}.
 The goal of the use of the mass spectrometer in this thesis is not to perform a quantitative analysis of the catalyst activity but rather to compare the evolution of the product partial pressures for different atmospheres, which is compatible with the setup.
 
-The measurement process for the collection of the scattered intensity is detailed in sec. \ref{sec:DataCollectionSXRD} for surface x-ray diffraction and in sec. \ref{sec:DataCollectionBCDI} for Bragg coherent diffraction imaging.
-Since this reactor was designed for SXRD together with a 6-circle diffractometer, the entire surface of the sample is accessible during the experiment which allows the full access to the reciprocal space to probe any particular symmetry, limited only by the extent of the Ewald sphere (\textit{i.e.} a maximum extent in $\vec{q}$).
+Since this reactor was designed for SXRD together with a 6-circle diffractometer, the entire surface of the sample is accessible during the experiment, which allows the full access to the reciprocal space to probe any particular symmetry, limited only by the extent of the Ewald sphere (\textit{i.e.} a maximum extent in $\vec{q}$).
 
 \subsubsection{Detectors}
 
 Different detectors can be accommodated on the diffractometer arm.
 On one hand, the MERLIN \parencite{Bewley2006} combines a small pixel size (\qty{55}{\um}) with a large array (\numproduct{512 x 512} pixels), few gaps, and a large dynamic counting range, similar to the MAXIPIX detector \parencite{Ponchut2011} which was first used for coherence experiments on the beamline \parencite{Schavkan2013, Li2020}.
-For example, the pixel size is of main importance when computing the oversampling requirements (sec. \ref{sec:PhaseRetrieval}).
+The pixel size is of main importance when computing the oversampling requirements (sec. \ref{sec:PhaseRetrieval}).
 
 On the other hand, the XPAD detector \parencite{Basolo2005, Dawiec2016} is used for surface x-ray diffraction experiments, its pixel size is equal to \qty{130}{\um}.
 Different detectors can be used that change the array size, respectively (\numproduct{540 x 130}) for the XPAD70 and (\numproduct{540 x 260}) for the XPAD140.
-The area covered by the detector is larger than with the MERLIN, but the main advantages of the XPAD are its high dynamic range and highly programmable interface \parencite{Fertey2013} which can be programmed to work with automatic attenuators \parencite{Dawiec2016}, crucial in SXRD when navigating between bulk and surface scattered signals .
+The area covered by the detector is larger than with the MERLIN.
+The main advantages of the XPAD are its high dynamic range and highly programmable interface \parencite{Fertey2013}, which can be programmed to work with automatic attenuators \parencite{Dawiec2016}, crucial in SXRD when navigating between bulk and surface scattered signals .
 The XPAD detector is usually set with its largest side along $\vec{c}$ to collect the highest range in $l$ during the measurements.
