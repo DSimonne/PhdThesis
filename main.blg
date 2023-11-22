@@ -1,20 +1,21 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'main.blg'
-[69] biber:340> INFO - === mar. nov. 14, 2023, 11:35:56
-[81] Biber.pm:418> INFO - Reading 'main.bcf'
-[278] Biber.pm:978> INFO - Found 450 citekeys in bib section 0
-[288] Biber.pm:4401> INFO - Processing section 0
-[295] Biber.pm:4592> INFO - Looking for bibtex file '/home/david/Documents/PhD/PhdThesis/references.bib' for section 0
-[347] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1050] bibtex.pm:1518> INFO - Found BibTeX data source '/home/david/Documents/PhD/PhdThesis/references.bib'
-[4527] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4527] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4527] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
-[4527] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-GB'
-[4906] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[5332] bbl.pm:757> INFO - Output to main.bbl
-[5332] Biber.pm:130> WARN - legacy month field 'Jan' in entry 'Astruc2020' is not an integer - this will probably not sort properly.
-[5332] Biber.pm:130> WARN - legacy month field 'Jan' in entry 'Altantzis2019' is not an integer - this will probably not sort properly.
-[5332] Biber.pm:130> WARN - legacy month field 'May' in entry 'Ndolomingo2020' is not an integer - this will probably not sort properly.
-[5332] Biber.pm:130> WARN - legacy month field 'Nov' in entry 'Yau2017a' is not an integer - this will probably not sort properly.
-[5333] Biber.pm:132> INFO - WARNINGS: 4
+[72] biber:340> INFO - === mer. nov. 22, 2023, 21:14:14
+[85] Biber.pm:418> INFO - Reading 'main.bcf'
+[288] Biber.pm:978> INFO - Found 454 citekeys in bib section 0
+[297] Biber.pm:4401> INFO - Processing section 0
+[305] Biber.pm:4592> INFO - Looking for bibtex file '/home/david/Documents/PhD/PhdThesis/references.bib' for section 0
+[357] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1038] bibtex.pm:1518> INFO - Found BibTeX data source '/home/david/Documents/PhD/PhdThesis/references.bib'
+[4478] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4478] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4478] Biber.pm:4221> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
+[4478] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-GB'
+[4859] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[5288] bbl.pm:757> INFO - Output to main.bbl
+[5289] Biber.pm:130> WARN - Duplicate entry key: 'Patterson1939' in file '/home/david/Documents/PhD/PhdThesis/references.bib', skipping ...
+[5289] Biber.pm:130> WARN - Duplicate entry key: 'Leake2019' in file '/home/david/Documents/PhD/PhdThesis/references.bib', skipping ...
+[5289] Biber.pm:130> WARN - legacy month field 'Apr' in entry 'Robinson1983' is not an integer - this will probably not sort properly.
+[5289] Biber.pm:130> WARN - legacy month field 'May' in entry 'Cornelius2011' is not an integer - this will probably not sort properly.
+[5289] Biber.pm:130> WARN - legacy month field 'Mar' in entry 'Leake2019' is not an integer - this will probably not sort properly.
+[5289] Biber.pm:132> INFO - WARNINGS: 5

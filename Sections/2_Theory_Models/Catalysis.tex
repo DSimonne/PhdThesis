@@ -1,4 +1,4 @@
-section{Heterogeneous Catalysis}\label{sec:Catalysis}
+\section{Heterogeneous Catalysis}\label{sec:Catalysis}
 
 \epigraph{
 A catalyst is a substance that speeds up a chemical reaction, or lowers the temperature or pressure needed to start one, without itself being consumed during the reaction.
@@ -48,7 +48,7 @@ Moreover, if the adsorption is too strong, the product of the reaction is not ab
     \includegraphics[trim=50 50 50 50, clip, width=0.49\textwidth]{/home/david/Documents/PhD/Figures/ammonia/ER.pdf}
     \includegraphics[trim=50 50 50 50, clip, width=0.49\textwidth]{/home/david/Documents/PhD/Figures/ammonia/LH.pdf}
     \caption{
-        In the Eley Rideal mechanisms (a) one of the reactants interacts directly from the gas phase with an adsorbed molecule of the other reactant, whereas for the Langmuir Hinshelwood mechanism (b) both of the reactants are adsorbed on nearby sites of the catalyst's surface.
+        In the Eley Rideal mechanism (a) one of the reactants interacts directly from the gas phase with an adsorbed molecule of the other reactant, whereas for the Langmuir Hinshelwood mechanism (b) both of the reactants are adsorbed on nearby sites of the catalyst's surface.
     }
     \label{fig:Mechanisms}
 \end{figure}
@@ -64,7 +64,7 @@ This is called the Mars-Van Krevelen mechanism.
 
 The Langmuir–Hinshelwood mechanism seems to be generally preferred, the bonding of the reactant molecules to the atoms weakening its bonds and preparing the molecule for reaction by reducing the activation energy required for the reaction to occur \parencite{Baxter2002}.
 
-The complete heterogeneous catalytic reaction consists in a series of elementary steps such as reactant dissociation, adsorption, surface diffusion, surface chemical reactions, and desorption that are nowadays extensively studied \textit{via} different theoretical computing methods such as density-functional theory (DFT - \cite{Reuter2004, Molenbroek2009, Yawei2015, Gaggioli2019, Chatelier2020}) or more recently machine learning \parencite{Kitchin2018, Schlexer2019, Anstine2023} as a function of the reaction parameters.
+The complete heterogeneous catalytic reaction consists in a series of elementary steps such as reactant dissociation, adsorption, surface diffusion, surface chemical reactions, and desorption that are nowadays extensively studied \textit{via} different theoretical computing methods such as density functional theory (DFT - \cite{Reuter2004, Molenbroek2009, Yawei2015, Gaggioli2019, Chatelier2020}) or more recently machine learning \parencite{Kitchin2018, Schlexer2019, Anstine2023} as a function of the reaction parameters.
 
 Due to the increase of interest in the field of catalysis, synchrotron techniques have been developed to study reactions \textit{operando}, meaning that the reaction happens while being observed \parencite{Meirer2018}.
 The first step towards the use of these experimental methods is to understand what specific signatures on the working catalyst can be identified using an x-ray probe.
@@ -77,8 +77,8 @@ As an example, platinum (Pt) nanoparticles are of great interest for the petroch
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[trim=140 75 0 100, clip, height=5cm]{/home/david/Documents/PhD/Figures/bcdi_data/B7/B7_facets.png}
-    \includegraphics[height=5cm]{/home/david/Documents/PhD/Figures/sample/sxrd_sample.png}
+    \includegraphics[trim=140 75 0 100, clip, height=4cm]{/home/david/Documents/PhD/Figures/bcdi_data/B7/B7_facets.png}
+    \includegraphics[height=4cm]{/home/david/Documents/PhD/Figures/sample/sxrd_sample.png}
     \caption{
         Catalytically active samples studied with x-ray \textit{operando} techniques.
         Reconstructed Pt particle measured at SixS, with its surface coloured by the displacement of surface layers from their equilibrium positions, diameter of about \qty{300}{\nm} (left).
@@ -89,12 +89,12 @@ As an example, platinum (Pt) nanoparticles are of great interest for the petroch
     \label{fig:Samples}
 \end{figure}
 
-The surface of nanoparticles can be understood as constituted of facets (fig. \ref{fig:Samples}) whose crystallographic orientation depends on the nanoparticle size, synthesis route, and on the absence (Wulff construction) or not (Winterbottom construction) of substrate \parencite{Wulff1901, Winterbottom1967, Boukouvala2021}.
-The orientation and structure of each facet on the nanoparticle surface, described by its Miller (hkl) indices, has been shown to have a key role in the surface strain field and in the adsorption properties of the catalysts \parencite{Zhou2012, Wu2017, Altantzis2019, Wu2021}.
+The surface of nanoparticles can be understood as constituted of facets (fig. \ref{fig:Samples}) whose crystallographic orientation depends on the nanoparticle material, size, synthesis route, and on the absence (Wulff construction) or not (Winterbottom construction) of substrate \parencite{Wulff1901, Winterbottom1967, Boukouvala2021}.
+The orientation and structure of each facet on the nanoparticle surface, described by its Miller (hkl) indices, has a key role in the surface strain field and in the adsorption properties of the catalysts \parencite{Zhou2012, Wu2017, Altantzis2019, Wu2021}.
 The formation of surface oxides on specific facets of Pt-Rh nanoparticles has also been correlated with an increased activity during the oxidation of \ce{CO} \parencite{Hejral2018}.
 The morphology and shape of supported nanoparticles was shown to be linked to the type of facets present on the nano-catalyst surface \parencite{Ndolomingo2020}.
 Between facets are the nanoparticle edges and corners, notorious for being very favourable adsorption sites due to a low local coordination geometry \parencite{Huang2008, Jiang2009}.
-Calle-Valejo et al. \parencite*{CalleVallejo2014, CalleVallejo2015, CalleVallejo2018, CalleVallejo2023} have used density functional theory (DFT) to show an approximate linear trend between the \textit{generalised} coordination number $\bar{CN(i)}$ of a nanoparticle surface atom $i$ with $n_i$ neighbours (eq. \ref{eq:CN}) and its adsorption properties.
+Calle-Valejo et al. \parencite*{CalleVallejo2014, CalleVallejo2015, CalleVallejo2018, CalleVallejo2023} have used DFT calculations to show an approximate linear trend between the \textit{generalised} coordination number $\overline{CN(i)}$ of a nanoparticle surface atom $i$ with $n_i$ neighbours (eq. \ref{eq:CN}) and its adsorption properties.
 Their work highlights the importance of taking into account not only the number of first-nearest neighbours, but also the number of second nearest neighbours.
 The \textit{Taylor ratio} translates this effect by defining the fraction between active sites and the total exposed surface \parencite{Taylor1925}.
 
@@ -112,14 +112,15 @@ The activity of single facets can also be studied with \textit{single crystals},
 
 A modern theoretical approach to the interaction between surface and adsorbates in heterogeneous catalysis has been proposed by Hammer, Norskov and Mavrikakis \parencite*{Hammer1995, Mavrikakis1998, Hammer2000} for transition metals, which is at the origin of the strain-reactivity studies in the frame of this thesis.
 
-In a crystalline lattice, the energy levels of electrons are so close that they form bands \parencite{Ashcroft76}, the study considers that the energy levels of the \textit{d}-bands in transition metals is responsible for bonding and adsorption in catalytic reactions.
+In a crystalline lattice, the energy levels of electrons are so close that they form bands \parencite{Ashcroft76}.
+The study considers that the energy levels of the \textit{d}-bands in transition metals is responsible for bonding and adsorption in catalytic reactions.
 The main conclusion being a direct relation between lattice strain, adsorption energy and surface reactivity, confirmed by later studies \parencite{Jakob2001, Kitchin2004, Kibler2005, Gsell1998, Ontaneda2015, Weissmuller2019}.
-Moreover, d-bands narrowing effects also justifies the difference between bulk, surfaces steps and kinks in terms of reactivity \parencite{Haydock1972, Desjonqueres1975, Egelhoff1987, Hammer2006, Khorshidi2018}.
-In Mavrikakis et al. \parencite*{Mavrikakis1998}, the application of tensile or compressive lattice strain is shown to cause the d-band centre to shift upward or downward, leading to a strengthening or weakening of the bonding of adsorbed oxygen on a \ce{Ru} (0001) surface, respectively.
+Moreover, \textit{d}-bands narrowing effects also justify the difference between bulk, surfaces steps and kinks in terms of reactivity \parencite{Haydock1972, Desjonqueres1975, Egelhoff1987, Hammer2006, Khorshidi2018}.
+In Mavrikakis et al. \parencite*{Mavrikakis1998}, the application of tensile or compressive lattice strain is shown to cause the \textit{d}-band centre to shift upward or downward, leading to a strengthening or weakening of the bonding of adsorbed oxygen on a \ce{Ru} (0001) surface, respectively.
 The magnitude of this effect was also shown to depend on the nature of the adsorbed specie, the dissociation of \ce{CO} facilitated by an increase of tensile strain.
 
-The type of facets, edges and corners exhibited on the surface plays are of key importance when investigating the role of the nanoparticle structure in its catalytic activity and selectivity. \parencite{Abuin2019}.
+The type of facets, edges and corners exhibited on the surface are of key importance when investigating the role of the nanoparticle structure on its catalytic activity and selectivity. \parencite{Abuin2019}.
 
 The application of this approach has been demonstrated by Wang et al. in \cite*{Wang2016}, which pioneered scientific studies for strain engineering in catalysis \parencite{NilssonPingel2018}.
 Techniques sensitive to the catalyst structure, \textit{i.e} to the lattice strain, are employed \parencite{Somorjai1991}.
-For example, strain has been proven to impact the catalytic properties of the catalyst with surface x-ray diffraction \parencite{Resta2020a}, and Bragg coherent diffraction imaging \parencite{Sneed2015, Ulvestad2016, Kim2019, Bjorling2019, Passos2020, Carnis2021a, Carnis2021b, Dupraz2022}.
+For example, strain has been proven to impact the catalytic properties of the catalyst with surface x-ray diffraction \parencite{Resta2020a}, and Bragg coherent diffraction imaging \parencite{Ulvestad2016, Kim2019, Bjorling2019, Passos2020, Carnis2021a, Carnis2021b, Dupraz2022}.

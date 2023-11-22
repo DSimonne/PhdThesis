@@ -5,13 +5,12 @@
 The MED diffractometer was used in a vertical geometry (fig. \ref{fig:Diffractometer}).
 The incident angle $\mu$ was fixed to \ang{0.3}, to illuminate a larger portion of the sample surface.
 The incoming energy was set to \qty{18.44}{\keV}.
-%, at which the photon flux is the highest at the SixS beamline.
 In the vertical configuration, the sample surface must be parallel to the plane defined by the incoming beam and the vertical axis, so that sample rotations do not change the orientation of the sample plane.
 The alignment of the sample was performed in two consecutive steps, first the out-of-plane sample position was adjusted by using the direct beam, secondly any possible tilt of the sample surface was corrected by recording the intensity of the \textit{reflected} beam as a function of the $u$ (when $\omega=\ang{0}$) or $v$ (when $\omega=\ang{90}$) angles of the hexapod (fig. \ref{fig:Diffractometer}).
 
 \subsection{Epitaxial relationship under different atmospheres and temperature}
 
-To ensure that the \ce{Al_2O_3} supported particles have the expected epitaxy relation with the substrate, the scattering intensity in the sample plane was measured.
+To ensure that the \ce{Al_2O_3} supported particles have the expected epitaxial relation with the substrate, the scattering intensity in the sample plane was measured.
 
 \subsubsection{Room temperature study under inert atmosphere}
 
@@ -20,7 +19,8 @@ To ensure that the \ce{Al_2O_3} supported particles have the expected epitaxy re
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/map/qxqyqz_38_40.pdf}
     \caption{
         In-plane reciprocal space map at room temperature.
-        Starting from the centre of the map are 6 peaks corresponding to six ($2\bar{1}0$)-type Bragg peak from the substrate, thin circular powder signal for the $(111)$, $(200)$ and $(220)$ Bragg peaks, and 6 isolated $(220)$ Bragg peaks.
+        Starting from the centre of the map are 6 peaks corresponding to six $(2\bar{1}\bar{1}0)$-type Bragg peak from the substrate, thin circular powder signal for the $(111)$, $(200)$ and $(220)$ Bragg peaks, and 6 isolated $(220)$ Bragg peaks.
+        $(3\bar{3}00)$ peaks from the substrate can also be seen next to the Pt $(220)$ peaks.s
     }
     \label{fig:QxQyMap}
 \end{figure}
@@ -28,7 +28,7 @@ To ensure that the \ce{Al_2O_3} supported particles have the expected epitaxy re
 The unit cell used to index the different Bragg peaks of platinum in this section is the FCC unit cell presented in sec. \ref{sec:ScatCrystal} to introduce the notions of crystals.
 This first map of the reciprocal space was recorded under inert argon atmosphere at room temperature (fig. \ref{fig:QxQyMap}), and shows the six expected \{220\} in-plane peaks for [111] oriented nanoparticles (fig. \ref{fig:Epitaxy}).
 The h, k, l Miller indices must have the same parity for the Bragg reflection to be allowed for face-centred cubic crystals, leading to the extinctions of (110)-type Bragg peaks.
-From the average position of these peaks in q-space is computed the average in-plane lattice parameter of the platinum nanoparticles $a_{Pt}=\qty{3.91}{\angstrom}$, from which the scattering vector $\vec{q}$ of the (200) and (111) Bragg peaks is computed (tab. \ref{tab:Reflections}).
+From the average position of these peaks in q-space is computed the average in-plane lattice parameter of the platinum nanoparticles $a_{Pt}=\qty{3.91}{\angstrom}$, from which the scattering vectors $\vec{q}$ of the (200) and (111) Bragg peaks are computed (tab. \ref{tab:Reflections}).
 
 Three arcs are drawn in fig. \ref{fig:QxQyMap} to underline the value of the (111), (200) and (220) scattering vectors.
 If no (200) and (111) Bragg peaks are observed, powder signals are visible for each reflection, which shows that some of the nanoparticles have a random orientation.
@@ -43,18 +43,19 @@ This value must be considered with caution since the Pt lattice parameter is ave
         \resizebox{\textwidth}{!}{%
             \begin{tabular}{@{}lllll@{}}
             \toprule
+            \multicolumn{5}{c}{Platinum Bragg peaks} \\
             (h k l) & $2\theta$ & q & Int & Int (\%) \\
             \midrule
             (1 1 1) & \ang{17.13} & \qty{2.78}{\per\angstrom} & \num{6362.52}  & \num{100.0} \\
             (2 0 0) & \ang{19.80} & \qty{3.21}{\per\angstrom} & \num{3251.30}  & \num{51.10} \\
             (2 2 0) & \ang{28.14} & \qty{4.55}{\per\angstrom} & \num{2399.87}  & \num{37.72} \\
-            (3 1 1) & \ang{33.13} & \qty{5.33}{\per\angstrom} & \num{2913.37}  & \num{45.79} \\
-            (2 2 2) & \ang{34.65} & \qty{5.57}{\per\angstrom} & \num{843.07}   & \num{13.25} \\
-            % (4, 0, 0) & \ang{40.2235} & \qty{6.430}{\per\angstrom} & \num{390.01}   & \num{6.13}  \\
-            % (3, 3, 1) & \ang{44.0121} & \qty{7.007}{\per\angstrom} & \num{1155.08}  & \num{18.15} \\
-            % (4, 2, 0) & \ang{45.2178} & \qty{7.189}{\per\angstrom} & \num{1054.07}  & \num{16.57} \\
-            % (4, 2, 2) & \ang{49.8120} & \qty{7.875}{\per\angstrom} & \num{755.99}   & \num{11.88} \\
-            % (5, 1, 1) & \ang{53.0614} & \qty{8.352}{\per\angstrom} & \num{808.25}   & \num{12.70} \\
+            % (3 1 1) & \ang{33.13} & \qty{5.33}{\per\angstrom} & \num{2913.37}  & \num{45.79} \\
+            % (2 2 2) & \ang{34.65} & \qty{5.57}{\per\angstrom} & \num{843.07}   & \num{13.25} \\
+            % (4 0 0) & \ang{40.2235} & \qty{6.43}{\per\angstrom} & \num{390.01}   & \num{6.13}  \\
+            % (3 3 1) & \ang{44.0121} & \qty{7.01}{\per\angstrom} & \num{1155.08}  & \num{18.15} \\
+            % (4 2 0) & \ang{45.2178} & \qty{7.19}{\per\angstrom} & \num{1054.07}  & \num{16.57} \\
+            % (4 2 2) & \ang{49.8120} & \qty{7.87}{\per\angstrom} & \num{755.99}   & \num{11.88} \\
+            % (5 1 1) & \ang{53.0614} & \qty{8.35}{\per\angstrom} & \num{808.25}   & \num{12.70} \\
             \bottomrule
             \end{tabular}%
         }
@@ -65,24 +66,27 @@ This value must be considered with caution since the Pt lattice parameter is ave
         \resizebox{\textwidth}{!}{%
             \begin{tabular}{@{}lllll@{}}
             \toprule
-            (h k l) & $2\theta$ & q & Int & Int (\%) \\
+            \multicolumn{5}{c}{\ce{Al_2O_3} Bragg peaks} \\
+            (h k i l) & $2\theta$ & q & Int & Int (\%) \\
             \midrule
-            (1 -1 2)   & \ang{11.07} & \qty{1.80}{\per\angstrom} & \num{21.50} & \num{49.52} \\
-            (1 -1 -4)  & \ang{15.13} & \qty{2.46}{\per\angstrom} & \num{35.60} & \num{82.01} \\
-            (2 -1 0)   & \ang{16.21} & \qty{2.64}{\per\angstrom} & \num{16.81} & \num{38.73} \\
-            (0 0 6)    & \ang{17.85} & \qty{2.90}{\per\angstrom} & \num{0.18}  & \num{0.42}  \\
-            (2 -1 3)   & \ang{18.52} & \qty{3.01}{\per\angstrom} & \num{38.90} & \num{89.60} \\
-            % (2, -2, -2)  & \ang{19.6734} & \qty{3.195}{\per\angstrom} & \num{0.59}  & \num{1.35}  \\
-            % (2, -2, 4)   & \ang{22.2446} & \qty{3.607}{\per\angstrom} & \num{20.98} & \num{48.32} \\
-            % (2, -1, -6)  & \ang{24.2056} & \qty{3.921}{\per\angstrom} & \num{43.41} & \num{100.0} \\
-            % (3, -2, -1)  & \ang{25.0589} & \qty{4.057}{\per\angstrom} & \num{1.15}  & \num{2.65}  \\
-            % (3, -1, -2)  & \ang{25.5964} & \qty{4.142}{\per\angstrom} & \num{1.47}  & \num{3.39}  \\
+            % (1 $\bar{1}$ 2)         & \ang{11.07} & \qty{1.80}{\per\angstrom} & \num{21.50} & \num{49.52} \\
+            % (1 $\bar{1}$ $\bar{4}$) & \ang{15.13} & \qty{2.46}{\per\angstrom} & \num{35.60} & \num{82.01} \\
+            (2 $\bar{1}$ $\bar{1}$ 0) & \ang{16.21} & \qty{2.64}{\per\angstrom} & \num{16.81} & \num{38.73} \\
+            (3 $\bar{3}$ 0 0)         & \ang{28.27} & \qty{4.57}{\per\angstrom} & \num{28.40} & \num{65.43} \\
+            (4 $\bar{2}$ $\bar{2}$ 0) & \ang{32.76} & \qty{5.27}{\per\angstrom} & \num{3.21}  & \num{7.40} \\
+            % (0 0 6)                 & \ang{17.85} & \qty{2.90}{\per\angstrom} & \num{0.18}  & \num{0.42}  \\
+            (2 $\bar{1}$ 1 3)         & \ang{18.52} & \qty{3.01}{\per\angstrom} & \num{38.90} & \num{89.60} \\
+            % (2 $\bar{2}$ $\bar{2}$) & \ang{19.67} & \qty{3.195}{\per\angstrom} & \num{0.59}  & \num{1.35}  \\
+            % (2 $\bar{2}$ 4)         & \ang{22.24} & \qty{3.607}{\per\angstrom} & \num{20.98} & \num{48.32} \\
+            % (2 $\bar{1}$ $\bar{6}$) & \ang{24.21} & \qty{3.921}{\per\angstrom} & \num{43.41} & \num{100.0} \\
+            % (3 $\bar{2}$ $\bar{1}$) & \ang{25.06} & \qty{4.057}{\per\angstrom} & \num{1.15}  & \num{2.65}  \\
+            % (3 $\bar{1}$ $\bar{2}$) & \ang{25.60} & \qty{4.142}{\per\angstrom} & \num{1.47}  & \num{3.39}  \\
             \bottomrule
             \end{tabular}%
         }
     \end{minipage}%
     \caption{
-        Scattering angle $\theta$, scattering vector magnitude $q$ and intensity of the scattered waves for different Bragg peaks as a function of the increasing scattering angle, computed for an energy of \qty{18.44}{\keV} using eq. \ref{eq:Bragglaw} and eq. \ref{eq:Fcrystal}.
+        Scattering angle, scattering vector magnitude, and intensity of the scattered waves for selected Pt and \ce{Al_2O_3} Bragg peaks, computed for an energy of \qty{18.44}{\keV} using eq. \ref{eq:Bragglaw} and eq. \ref{eq:Fcrystal}.
     }
     \label{tab:Reflections}
 \end{table}
@@ -90,35 +94,31 @@ This value must be considered with caution since the Pt lattice parameter is ave
 \subsubsection{Study during ammonia oxidation before and after catalyst light off temperature}
 
 In-plane maps were recorded on a smaller angular range (shown by the extent of black arcs in fig. \ref{fig:QxQyMap}) due to the long experimental time needed to collect large maps.
-The intensity was then integrated in a \ang{1} wide region around the (111), (200) and (220) scattering angles.
+The intensity was then integrated in a \ang{0.1} wide region around the (111), (200) and (220) scattering angles.
+The region around the (220) Bragg peak was carefully selected to avoid the Bragg peaks of the substrate.
 These measurements are presented respectively in fig. \ref{fig:Epitaxy111}, fig. \ref{fig:Epitaxy200} and fig. \ref{fig:Epitaxy220}.
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/220.pdf}
     \caption{
-        Integrated intensity in a \ang{1} range around the value of the (220) scattering angle, as a function of the in-plane sample angle $\omega$, presented for different atmospheres.
+        Integrated intensity in a \ang{1} range around the value of the (220) platinum scattering angle, as a function of the in-plane sample angle $\omega$, presented for different atmospheres.
     }
     \label{fig:Epitaxy220}
 \end{figure}
 
-Two (220)-type Bragg peaks are measured in each condition, with a stable position and shape (fig. \ref{fig:Epitaxy220}), which shows that the crystals do not rotate around their [111] axis on the surface, and that they all share the same out-of-plane [111] orientation.
-The maximum intensity decreases as a function of the temperature, without an increase of the (220) powder signal, the peak shape is consistent during the experiment.
-The loss of intensity could come from the loss of some nanoparticles during the change of conditions.
-
+Two (220)-type Bragg peaks are measured in each condition, with a stable position, shape, and intensity (fig. \ref{fig:Epitaxy220}), which shows that the crystals do not rotate around their [111] axis on the surface, and that they all share the same out-of-plane [111] orientation.
 No (200) or (111)-type Bragg peaks appear during the different measurements (figures visible in the appendix \ref{fig:Epitaxy200}, and \ref{fig:Epitaxy111}).
-Moreover, there is no variation of the powder signal for the (200) Bragg peak, there is a slight decrease of the powder signal for the (111) Bragg peak which cannot be observed on the other powder signals.
-% Additional powder diffractograms are visible in the appendix \ref{fig:PowderNanoparticles}, on which it is also clear that the powder and nanoparticles do not have the same in-plane lattice parameter (two peaks near the expected (220) Bragg peak), and that there is no variation of the in-plane lattice parameter of the nanoparticles as a function of the atmosphere.
-
+There is no variation of the powder signal for the (200) Bragg peak, but a slight decrease of the powder signal for the (111) Bragg peak when increasing the temperature from \qtyrange{300}{500}{\degreeCelsius}.
 Most importantly, these measurements confirm that the nanoparticles are still epitaxied on the substrate even at high temperature under highly aggressive environments, proving a strong epitaxial relationship of the nanoparticles with the substrate
 
 ($\bar{1}\bar{1}\bar{1}$) and (111) facets are expected to be present on all nanoparticles, respectively at the interface with the substrate and at the top of the nanoparticles.
 For that reason, we followed the signal of those facets by measuring the CTR intensity as a function of $q_z$ (fig. \ref{fig:2DCTR111Particles}).
 
-($\bar{1}$11) and (200) Bragg peaks can be identified respectively at $q_z \qty{\approx0.92}{\per\angstrom}$ and $q_z \qty{\approx1.85}{\per\angstrom}$.
+The ($\bar{1}$11) and (200) Bragg peaks can be identified respectively at $q_z \qty{\approx0.92}{\per\angstrom}$ and $q_z \qty{\approx1.85}{\per\angstrom}$.
 Both peaks being visible along the same CTR shows that all nanoparticles do not share the same in plane orientation, due to different stacking of the (111) layers along the [111] axis, e.g. ABC or ACB stacking, rotated by \ang{180} \parencite{Jones2019}.
 Low intensity CTRs in other directions due to other facets present on the nanoparticles can be seen around both Bragg peaks.
-The peak at $q_z \qty{\approx1.46}{\per\angstrom}$ corresponds to a (2$\bar{1}$3) Bragg peak from the \ce{Al_2O_3} substrate ($q = \qty{3.01}{\per\angstrom}$, tab. \ref{tab:Reflections}).
+The peak at $q_z \qty{\approx1.46}{\per\angstrom}$ corresponds to a \{2$\bar{1}1$3\} Bragg peak from the \ce{Al_2O_3} substrate ($q = \qty{3.01}{\per\angstrom}$, tab. \ref{tab:Reflections}).
 The substrate is also at the origin of its own CTR in the [111] direction, parallel to the more intense Pt CTR (fig. \ref{fig:2DCTR111Particles}).
 
 \begin{figure}[!htb]
@@ -126,7 +126,7 @@ The substrate is also at the origin of its own CTR in the [111] direction, paral
     \includegraphics[height=7cm]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR111_K_vmax100_edited.pdf}
     \includegraphics[height=7cm]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR_300_edited.pdf}
     \caption{
-        Left: Large out-of-plane reciprocal space map in which a CTR signal in the [111] direction can be identified, as well as weaker CTR in other directions passing through the Bragg peaks.
+        Left: Large out-of-plane reciprocal space map in which a CTR signal in the [111] direction can be identified, as well as weaker CTRs in other directions passing through the Bragg peaks.
         The ($\vec{q}_x$, $\vec{q}_y$) plane was rotated around $\vec{q}_z$ to highlight the presence of signals from facets on the particles other than the (111) facet, indicated by white arrows.
         Right: Crystal truncation rod signals in the $[111]$ direction as a function of $q_z$, presented for different atmospheres, at \qty{300}{\degreeCelsius}.
     }
@@ -166,13 +166,13 @@ Secondly, a very intense powder ring ($\approx \num{1e2}$) can be seen around th
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/introduction/stereographic_projection_top.pdf}
     \caption{
-        Stereographic projection perpendicular to $[111]$ crystallographic orientation (for a face-centred cubic lattice).
+        $[111]$ stereographic projection (for a face-centred cubic lattice).
         The circles describe the angle with the $[111]$ direction from \ang{0} (centre) to \ang{90} (outer-ring).
     }
     \label{fig:StereoTop}
 \end{figure}
 
-The identification of the crystallographic direction of each CTR present around the Bragg peak was performed thanks to the stereographic projection perpendicular to the [111] direction.
+The identification of the crystallographic direction of each CTR present around the Bragg peak was performed thanks to the [111] stereographic projection.
 This stereographic projection is presented in fig. \ref{fig:StereoTop}, which in the current experiment is parallel to $\vec{q}_z$.
 Each dot represents a crystallographic direction, \textit{e.g.} [100], [110], etc.
 The distance between the dots and the centre of the figure is a function of the angle with the [111] direction, whereas their angular distribution corresponds to the planar angle of the component perpendicular to the [111] direction.
@@ -192,7 +192,7 @@ Each [$1\bar{1}1$]-oriented CTR is also linked to a [$\bar{1}1\bar{1}$]-oriented
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets/facet_signal_evolution_together.pdf}
     \caption{
-    Evolution of the scattered intensity taken along a square area perpendicular to the [111] direction at three different positions in the ($\vec{q}_x, \vec{q}_z$) plane to probe the evolution of crystal truncation rods.
+    Evolution of the scattered intensity taken along a square area perpendicular to the [111] direction at three different positions in the ($\vec{q}_x, \vec{q}_z$) plane to probe the intensity evolution of crystal truncation rods.
     }
     \label{fig:FacetSignal}
 \end{figure}
@@ -228,7 +228,7 @@ The original mass spectrometer signal as a function of time can be seen in the a
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/product_comparison_carrier_pressure.pdf}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/product_comparison_no_norm.pdf}
     \caption{
         Evolution of reaction product partial pressures during the SXRD experiment on the non-patterned sample containing Pt nanoparticles, at \qty{300}{\degreeCelsius}, \qty{500}{\degreeCelsius}, and \qty{600}{\degreeCelsius}.
         Mean partial pressures during \qty{1}{\minute} at the end of each condition, recorded from a leak in the reactor output by a residual gas analyser (RGA).

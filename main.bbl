@@ -218,7 +218,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The use of an ammonia-fed solid oxide fuel cell (SOFC) is the most efficient method of generating power. In terms of CO2 emission, ammonia is a good indirect hydrogen storage material because it does not contain carbon and therefore will not release CO2 when used as fuel in a fuel cell or gas turbine. Using ammonia like hydrogen directly in a fuel-cell system provides high power density. Compared with other fuel cells, the ammonia-fed SOFC has many advantages. The availability of NH3 is one of the main reasons for the high output. This paper presents a comparative study of the working principles, analyses, applications, advantages and disadvantages of various technologies available for ammonia fuel cells. The aim of the paper is to review and describe the suitability of ammonia as a fuel for the next generation of fuel cells, including direct ammonia-fed SOFCs, the development of different types of fuel cells using ammonia as a fuel, and the potential applications of ammonia-fed fuel cells.}
+      \field{abstract}{The use of an ammonia-fed solid oxide fuel cell (SOFC) is the most efficient method of generating power. In terms of CO2 emission, ammonia is a good indirect hydrogen storage material because it does not contain carbon and therefore will not release CO2 when used as fuel in a fuel cell or gas turbine. Using ammonia like hydrogen directly in a fuel-cell system provides high power density. Compared with other fuel cells, the ammonia-fed SOFC has many advantages. The availability of NH$_3$ is one of the main reasons for the high output. This paper presents a comparative study of the working principles, analyses, applications, advantages and disadvantages of various technologies available for ammonia fuel cells. The aim of the paper is to review and describe the suitability of ammonia as a fuel for the next generation of fuel cells, including direct ammonia-fed SOFCs, the development of different types of fuel cells using ammonia as a fuel, and the potential applications of ammonia-fed fuel cells.}
       \field{issn}{1364-0321}
       \field{journaltitle}{Renewable and Sustainable Energy Reviews}
       \field{title}{Ammonia-fed fuel cells: a comprehensive review}
@@ -227,7 +227,7 @@
       \field{pages}{822\bibrangedash 835}
       \range{pages}{14}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.rser.2016.01.120
+      \verb doi.org/10.1016/j.rser.2016.01.120
       \endverb
       \keyw{Solid oxide fuel cell,Proton conductor,Ammonia,Oxygen-ion-conducting Electrolyte,Proton-conducting electrolyte}
     \endentry
@@ -256,10 +256,10 @@
       \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://anr.fr/fr/france-2030/france2030/call/pepr-diadem-appel-a-projets-dispositifs-integres-pour-lacceleration-du-deploiement-de-materiaux/
+      \verb anr.fr/fr/france-2030/france2030/call/pepr-diadem-appel-a-projets-dispositifs-integres-pour-lacceleration-du-deploiement-de-materiaux/
       \endverb
       \verb{url}
-      \verb https://anr.fr/fr/france-2030/france2030/call/pepr-diadem-appel-a-projets-dispositifs-integres-pour-lacceleration-du-deploiement-de-materiaux/
+      \verb anr.fr/fr/france-2030/france2030/call/pepr-diadem-appel-a-projets-dispositifs-integres-pour-lacceleration-du-deploiement-de-materiaux/
       \endverb
     \endentry
     \entry{Ahmad2015}{article}{}
@@ -310,7 +310,7 @@
       \field{pages}{599\bibrangedash 610}
       \range{pages}{12}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.rser.2014.10.101
+      \verb doi.org/10.1016/j.rser.2014.10.101
       \endverb
       \keyw{Photo-catalytic,Water splitting,Hydrogen,Methanol}
     \endentry
@@ -401,10 +401,10 @@
       \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.paris.fr/pages/etat-des-lieux-de-la-qualite-de-l-air-a-paris-7101
+      \verb www.paris.fr/pages/etat-des-lieux-de-la-qualite-de-l-air-a-paris-7101
       \endverb
       \verb{url}
-      \verb https://www.paris.fr/pages/etat-des-lieux-de-la-qualite-de-l-air-a-paris-7101
+      \verb www.paris.fr/pages/etat-des-lieux-de-la-qualite-de-l-air-a-paris-7101
       \endverb
     \endentry
     \entry{Alizada2017}{article}{}
@@ -542,7 +542,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{1530-6984}
       \field{journaltitle}{Nano Letters}
-      \field{month}{1}
+      \field{month}{01}
       \field{number}{1}
       \field{title}{Three-Dimensional Quantification of the Facet Evolution of Pt Nanoparticles in a Variable Gaseous Environment}
       \field{volume}{19}
@@ -589,16 +589,16 @@
       \field{pages}{1512\bibrangedash 1524}
       \range{pages}{13}
       \verb{doi}
-      \verb https://doi.org/10.1002/cctc.201200229
+      \verb doi.org/10.1002/cctc.201200229
       \endverb
       \verb{eprint}
-      \verb https://chemistry-europe.onlinelibrary.wiley.com/doi/pdf/10.1002/cctc.201200229
+      \verb chemistry-europe.onlinelibrary.wiley.com/doi/pdf/10.1002/cctc.201200229
       \endverb
       \verb{urlraw}
-      \verb https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cctc.201200229
+      \verb chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cctc.201200229
       \endverb
       \verb{url}
-      \verb https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cctc.201200229
+      \verb chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/cctc.201200229
       \endverb
       \keyw{catalyst,colloid,in situ characterization,nanoparticles,selectivity}
     \endentry
@@ -877,7 +877,7 @@
       \field{pages}{7852\bibrangedash 7872}
       \range{pages}{21}
       \verb{doi}
-      \verb https://doi.org/10.1002/anie.200500766
+      \verb doi.org/10.1002/anie.200500766
       \endverb
       \keyw{CC coupling,dendrimers,gold,nanoparticles,palladium,supported catalysts}
     \endentry
@@ -907,7 +907,7 @@
       \field{labeltitlesource}{title}
       \field{issn}{0009-2665}
       \field{journaltitle}{Chemical Reviews}
-      \field{month}{1}
+      \field{month}{01}
       \field{number}{2}
       \field{title}{Introduction: Nanoparticles in Catalysis}
       \field{volume}{120}
@@ -1086,18 +1086,17 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Surface Science Spectra}
-      \field{number}{November 2019}
-      \field{title}{{Oxygen gas, O2(g), by near-ambient pressure XPS}}
+      \field{title}{{Oxygen gas, O$_2$(g), by near-ambient pressure XPS}}
       \field{volume}{2}
       \field{year}{2022}
       \verb{doi}
       \verb 10.1116/1.5100962
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1116/1.5100962
+      \verb doi.org/10.1116/1.5100962
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1116/1.5100962
+      \verb doi.org/10.1116/1.5100962
       \endverb
       \keyw{comparison,g,nap-xps,near-ambient pressure x-ray photoelectron,o 2,oxygen,spectral category,spectroscopy,xps}
     \endentry
@@ -1246,7 +1245,7 @@
       \field{volume}{533}
       \field{year}{2016}
       \verb{doi}
-      \verb https://doi.org/10.1038/533452a
+      \verb doi.org/10.1038/533452a
       \endverb
     \endentry
     \entry{Barringer2021}{article}{}
@@ -1585,7 +1584,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The changes in structure and surface composition of new and used Pt–Rh catalyst gauzes have been studied by gas adsorption methods. The total surface area was measured by physical adsorption of Kr (Kr-BET). The surface area of used samples varied between 0.01 and 0.06 m2/g representing an increase in surface area of 2 to 20 times compared with the surface area of new catalysts. A gauze with RH$_2$O$_3$whiskers exhibited the largest increase in surface area. Except for this abnormal sample, the top gauze in the catalyst pack exhibited the largest surface area. The active surface area of the Pt–Rh gauze catalysts was measured by H2-titration/adsorption. It was assumed that Pt represents the active part of the catalyst. When exposing a spent gauze to H2at 298 K, only platinum oxide on the catalyst surface was titrated. During operation the catalyst deactivates partly by the formation of RH$_2$O$_3$, which was found to be inert against H2at 298 K. However, reduction of used catalyst gauze in H2at 623 K and reoxidation at 623 K made all the RH$_2$O$_3$reactive toward H2at 298 K, indicating the presence of two forms of RH$_2$O$_3$. It was observed that only the first gauze in a gauze pack from a NH$_3$-oxidation reactor comprised a noteworthy active area. All the other gauzes investigated were more or less blocked by RH$_2$O$_3$.}
+      \field{abstract}{The changes in structure and surface composition of new and used Pt–Rh catalyst gauzes have been studied by gas adsorption methods. The total surface area was measured by physical adsorption of Kr (Kr-BET). The surface area of used samples varied between 0.01 and 0.06 m2/g representing an increase in surface area of 2 to 20 times compared with the surface area of new catalysts. A gauze with RH$_2$O$_3$whiskers exhibited the largest increase in surface area. Except for this abnormal sample, the top gauze in the catalyst pack exhibited the largest surface area. The active surface area of the Pt–Rh gauze catalysts was measured by H$_2$-titration/adsorption. It was assumed that Pt represents the active part of the catalyst. When exposing a spent gauze to H2at 298 K, only platinum oxide on the catalyst surface was titrated. During operation the catalyst deactivates partly by the formation of RH$_2$O$_3$, which was found to be inert against H2at 298 K. However, reduction of used catalyst gauze in H2at 623 K and reoxidation at 623 K made all the RH$_2$O$_3$reactive toward H2at 298 K, indicating the presence of two forms of RH$_2$O$_3$. It was observed that only the first gauze in a gauze pack from a NH$_3$-oxidation reactor comprised a noteworthy active area. All the other gauzes investigated were more or less blocked by RH$_2$O$_3$.}
       \field{issn}{0021-9517}
       \field{journaltitle}{Journal of Catalysis}
       \field{number}{2}
@@ -1595,7 +1594,7 @@
       \field{pages}{141\bibrangedash 147}
       \range{pages}{7}
       \verb{doi}
-      \verb https://doi.org/10.1006/jcat.1996.0133
+      \verb doi.org/10.1006/jcat.1996.0133
       \endverb
     \endentry
     \entry{NIST_cross_sections}{online}{}
@@ -1668,13 +1667,13 @@
       \field{year}{2010}
       \field{urldateera}{ce}
       \verb{doi}
-      \verb https://dx.doi.org/10.18434/T48G6X
+      \verb dx.doi.org/10.18434/T48G6X
       \endverb
       \verb{urlraw}
-      \verb https://www.nist.gov/pml/xcom-photon-cross-sections-database
+      \verb www.nist.gov/pml/xcom-photon-cross-sections-database
       \endverb
       \verb{url}
-      \verb https://www.nist.gov/pml/xcom-photon-cross-sections-database
+      \verb www.nist.gov/pml/xcom-photon-cross-sections-database
       \endverb
     \endentry
     \entry{Bewley2006}{article}{}
@@ -1749,7 +1748,7 @@
       \field{pages}{1029\bibrangedash 1031}
       \range{pages}{3}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.physb.2006.05.328
+      \verb doi.org/10.1016/j.physb.2006.05.328
       \endverb
       \keyw{Neutron instruments,Time of flight,Direct geometry}
     \endentry
@@ -1768,9 +1767,6 @@
            giveni={D\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {International Union of Crystallography}%
-      }
       \strng{namehash}{15681f62f5585ae608e7f1fcf5f119a1}
       \strng{fullhash}{91a818d4d1dfd9b4b150de6ab72ab035}
       \strng{bibnamehash}{91a818d4d1dfd9b4b150de6ab72ab035}
@@ -1783,15 +1779,19 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Compton scattering is generally neglected in diffraction experiments because the incoherent radiation it generates does not give rise to interference effects and therefore is negligible at Bragg peaks. However, as the scattering volume is reduced, the difference between the Rayleigh (coherent) and Compton (incoherent) contributions at Bragg peaks diminishes and the incoherent part may become substantial. The consequences can be significant for coherent diffraction imaging at high scattering angles: the incoherent radiation produces background that smears out the secondary interference fringes, affecting thus the achievable resolution of the technique. Here, a criterion that relates the object shape and the resolution is introduced. The Compton contribution for several object shapes is quantified, and it is shown that the maximum achievable resolution along different directions has a strong dependence on the crystal shape and size.}
-      \field{title}{{On Compton scattering as a source of background in coherent diffraction imaging experiments research papers}}
+      \field{abstract}{Compton scattering is generally neglected in diffraction experiments because the incoherent radiation it generates does not give rise to interference effects and therefore is negligible at Bragg peaks. However, as the scattering volume is~reduced, the difference between the Rayleigh (coherent) and Compton (incoherent) contributions at Bragg peaks diminishes and the incoherent part may become substantial. The consequences can be significant for coherent diffraction imaging at high scattering angles: the incoherent radiation produces background that smears out the secondary interference fringes, affecting thus the achievable resolution of the technique. Here, a criterion that relates the object shape and the resolution is introduced. The Compton contribution for several object shapes is quantified, and it is shown that the maximum achievable resolution along different directions has a strong dependence on the crystal shape and size.}
+      \field{journaltitle}{Journal of Synchrotron Radiation}
+      \field{month}{03}
+      \field{number}{2}
+      \field{title}{{On Compton scattering as a source of background in coherent diffraction imaging experiments}}
+      \field{volume}{28}
       \field{year}{2021}
       \field{pages}{538\bibrangedash 549}
       \range{pages}{12}
       \verb{doi}
       \verb 10.1107/S1600577521000722
       \endverb
-      \keyw{coherence,imaging,scattering}
+      \keyw{coherence,imaging,scattering,X-rays}
     \endentry
     \entry{Bilderback2005}{article}{}
       \name{author}{3}{}{%
@@ -2018,10 +2018,10 @@
       \field{title}{Bokeh: Python library for interactive visualization}
       \field{year}{2018}
       \verb{urlraw}
-      \verb https://bokeh.pydata.org/en/latest/
+      \verb bokeh.pydata.org/
       \endverb
       \verb{url}
-      \verb https://bokeh.pydata.org/en/latest/
+      \verb bokeh.pydata.org/
       \endverb
     \endentry
     \entry{Borg1994}{article}{}
@@ -2206,10 +2206,10 @@
       \verb 10.1021/cr00035a009
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1021/cr00035a009
+      \verb doi.org/10.1021/cr00035a009
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1021/cr00035a009
+      \verb doi.org/10.1021/cr00035a009
       \endverb
     \endentry
     \entry{Boukouvala2021}{article}{}
@@ -2451,7 +2451,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Ammonia adsorption has been investigated on the hex-R and (1 × 1) faces of the Pt{100} crystal. It is found that adsorption on the hex-R surface does not lift the surface reconstruction at 150 K, and that no dissociation of NH3 occurs. In contrast, the (1 × 1) surface exhibits an ability to dissociate NH3. The initial sticking probability is reported as a function of incident energy and surface temperature, and the results indicate that adsorption is direct and non-activated on the clean hex-R and (1 × 1) surfaces. Sticking probability versus NH3 coverage measurements reveal that at finite coverages, on both surfaces, there is an additional adsorption pathway involving an extrinsic precursor.}
+      \field{abstract}{Ammonia adsorption has been investigated on the hex-R and (1 × 1) faces of the Pt{100} crystal. It is found that adsorption on the hex-R surface does not lift the surface reconstruction at 150 K, and that no dissociation of NH$_3$ occurs. In contrast, the (1 × 1) surface exhibits an ability to dissociate NH$_3$. The initial sticking probability is reported as a function of incident energy and surface temperature, and the results indicate that adsorption is direct and non-activated on the clean hex-R and (1 × 1) surfaces. Sticking probability versus NH$_3$ coverage measurements reveal that at finite coverages, on both surfaces, there is an additional adsorption pathway involving an extrinsic precursor.}
       \field{issn}{0039-6028}
       \field{journaltitle}{Surface Science}
       \field{number}{2}
@@ -2461,7 +2461,7 @@
       \field{pages}{255\bibrangedash 263}
       \range{pages}{9}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0039-6028(96)01018-7
+      \verb doi.org/10.1016/S0039-6028(96)01018-7
       \endverb
       \keyw{Chemisorption,Molecule-solid reactions,Platinum,Surface chemical reaction}
     \endentry
@@ -2701,10 +2701,10 @@
       \field{title}{\textit{ipyvolume}, 0.6.0}
       \field{year}{2021}
       \verb{urlraw}
-      \verb https://github.com/maartenbreddels/ipyvolume
+      \verb github.com/maartenbreddels/ipyvolume
       \endverb
       \verb{url}
-      \verb https://github.com/maartenbreddels/ipyvolume
+      \verb github.com/maartenbreddels/ipyvolume
       \endverb
     \endentry
     \entry{InterTablesOfCryst}{book}{}
@@ -2767,12 +2767,9 @@
         {{un=0,uniquepart=base,hash=52dbce452736c579ce3afd0bc41401e2}{%
            family={Cahn},
            familyi={C\bibinitperiod},
-           given={John\bibnamedelima W},
+           given={John\bibnamedelima W.},
            giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
            givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {American Institute of Physics}%
       }
       \strng{namehash}{52dbce452736c579ce3afd0bc41401e2}
       \strng{fullhash}{52dbce452736c579ce3afd0bc41401e2}
@@ -2786,13 +2783,19 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of chemical physics}
+      \field{abstract}{{The thermodynamic treatment of nonuniform systems of Cahn and Hilliard is shown to be equivalent to the self‐consistent thermodynamic formalism of Hart. All parameters of the two treatments have been rigorously related and key equations have been shown to be equivalent.}}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{08}
       \field{number}{5}
-      \field{title}{Free energy of a nonuniform system. II. Thermodynamic basis}
+      \field{title}{{Free Energy of a Nonuniform System. II. Thermodynamic Basis}}
       \field{volume}{30}
-      \field{year}{1959}
+      \field{year}{2004}
       \field{pages}{1121\bibrangedash 1124}
       \range{pages}{4}
+      \verb{doi}
+      \verb 10.1063/1.1730145
+      \endverb
     \endentry
     \entry{CalleVallejo2023}{article}{}
       \name{author}{1}{}{%
@@ -2815,7 +2818,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract The quest for enhanced electrocatalysts can be boosted by descriptor-based analyses. Because adsorption energies are the most common descriptors, electrocatalyst design is largely based on brute-force routines that comb materials databases until an energetic criterion is verified. In this review, it is shown that an alternative is provided by generalized coordination numbers (denoted by CN¯\$\overline {{\rm{CN}}} \$ or GCN), an inexpensive geometric descriptor for strained and unstrained transition metals and some alloys. CN¯\$\overline {{\rm{CN}}} \$ captures trends in adsorption energies on both extended surfaces and nanoparticles and is used to elaborate structure-sensitive electrocatalytic activity plots and selectivity maps. Importantly, CN¯\$\overline {{\rm{CN}}} \$ outlines the geometric configuration of the active sites, thereby enabling an atom-by-atom design, which is not possible using energetic descriptors. Specific examples for various adsorbates (e.g., *OH, *OOH, *CO, and *H), metals (e.g., Pt and Cu), and electrocatalytic reactions (e.g., O2 reduction, H2 evolution, CO oxidation, and reduction) are presented, and comparisons are made against other descriptors.}
+      \field{abstract}{Abstract The quest for enhanced electrocatalysts can be boosted by descriptor-based analyses. Because adsorption energies are the most common descriptors, electrocatalyst design is largely based on brute-force routines that comb materials databases until an energetic criterion is verified. In this review, it is shown that an alternative is provided by generalized coordination numbers (denoted by CN¯\$\overline {{\rm{CN}}} \$ or GCN), an inexpensive geometric descriptor for strained and unstrained transition metals and some alloys. CN¯\$\overline {{\rm{CN}}} \$ captures trends in adsorption energies on both extended surfaces and nanoparticles and is used to elaborate structure-sensitive electrocatalytic activity plots and selectivity maps. Importantly, CN¯\$\overline {{\rm{CN}}} \$ outlines the geometric configuration of the active sites, thereby enabling an atom-by-atom design, which is not possible using energetic descriptors. Specific examples for various adsorbates (e.g., *OH, *OOH, *CO, and *H), metals (e.g., Pt and Cu), and electrocatalytic reactions (e.g., O$_2$ reduction, H$_2$ evolution, CO oxidation, and reduction) are presented, and comparisons are made against other descriptors.}
       \field{journaltitle}{Advanced Science}
       \field{number}{20}
       \field{title}{The ABC of Generalized Coordination Numbers and Their Use as a Descriptor in Electrocatalysis}
@@ -2824,16 +2827,16 @@
       \field{pages}{2207644}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1002/advs.202207644
+      \verb doi.org/10.1002/advs.202207644
       \endverb
       \verb{eprint}
-      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/advs.202207644
+      \verb onlinelibrary.wiley.com/doi/pdf/10.1002/advs.202207644
       \endverb
       \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/advs.202207644
+      \verb onlinelibrary.wiley.com/doi/abs/10.1002/advs.202207644
       \endverb
       \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/advs.202207644
+      \verb onlinelibrary.wiley.com/doi/abs/10.1002/advs.202207644
       \endverb
       \keyw{computational electrocatalysis,coordination numbers,coordination-activity plots,descriptor-based analysis,selectivity maps,structural sensitivity}
     \endentry
@@ -2873,7 +2876,7 @@
       \field{pages}{1824\bibrangedash 1828}
       \range{pages}{5}
       \verb{doi}
-      \verb https://doi.org/10.1002/cssc.201800569
+      \verb doi.org/10.1002/cssc.201800569
       \endverb
       \keyw{adsorption energy,generalized coordination number,morphology,oxygen reduction reaction,strain}
     \endentry
@@ -2931,7 +2934,7 @@
       \field{pages}{8316\bibrangedash 8319}
       \range{pages}{4}
       \verb{doi}
-      \verb https://doi.org/10.1002/anie.201402958
+      \verb doi.org/10.1002/anie.201402958
       \endverb
       \keyw{adsorption energy,coordination numbers,d-band center,nanoparticles,platinum}
     \endentry
@@ -3646,6 +3649,89 @@
       \verb 10.1038/s41467-021-25625-0
       \endverb
     \endentry
+    \entry{CastanGuerrero2018}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=580e6f35c67d5c3f617f4db6e7d7f22a}{%
+           family={Castán-Guerrero},
+           familyi={C\bibinithyphendelim G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee279387021505227f38eb5b5033e552}{%
+           family={Krizmancic},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1be4161e697c400b6f3dcf1cf0f7648}{%
+           family={Bonanni},
+           familyi={B\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ad83d5fb9dba9e0d02a3f5ccf702771}{%
+           family={Edla},
+           familyi={E\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb695a21ee991b8c66ed69e74de3fe53}{%
+           family={Deluisa},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86f5f8aff7d434b2860241c1d2248f75}{%
+           family={Salvador},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e5e59fe2f03306385d58ba9e3eebeb5}{%
+           family={Rossi},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa21b37570633d96bdccb4916176864f}{%
+           family={Panaccione},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8fccf1ffbe2bc0fb26c3d4bee3fd14b}{%
+           family={Torelli},
+           familyi={T\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fcd6a45c6e6c7a89fc21c9e200b76555}
+      \strng{fullhash}{62e3fe6a6efb8be43f40a1c6ee4bebce}
+      \strng{bibnamehash}{fcd6a45c6e6c7a89fc21c9e200b76555}
+      \strng{authorbibnamehash}{fcd6a45c6e6c7a89fc21c9e200b76555}
+      \strng{authornamehash}{fcd6a45c6e6c7a89fc21c9e200b76555}
+      \strng{authorfullhash}{62e3fe6a6efb8be43f40a1c6ee4bebce}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{We present a new experimental setup for performing X-ray Absorption Spectroscopy (XAS) in the soft X-ray range at ambient pressure. The ambient pressure XAS setup is fully compatible with the ultra high vacuum environment of a synchrotron radiation spectroscopy beamline end station by means of ultrathin Si3N4 membranes acting as windows for the X-ray beam and seal of the atmospheric sample environment. The XAS detection is performed in total electron yield (TEY) mode by probing the drain current from the sample with a picoammeter. The high signal/noise ratio achievable in the TEY mode, combined with a continuous scanning of the X-ray energies, makes it possible recording XAS spectra in a few seconds. The first results show the performance of this setup to record fast XAS spectra from sample surfaces exposed at atmospheric pressure, even in the case of highly insulating samples. The use of a permanent magnet inside the reaction cell enables the measurement of X-ray magnetic circular dichroism at ambient pressure.}}
+      \field{issn}{0034-6748}
+      \field{journaltitle}{Review of Scientific Instruments}
+      \field{month}{05}
+      \field{number}{5}
+      \field{title}{{A reaction cell for ambient pressure soft x-ray absorption spectroscopy}}
+      \field{volume}{89}
+      \field{year}{2018}
+      \field{pages}{054101}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.5019333
+      \endverb
+    \endentry
     \entry{Chahine2014}{article}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=a9249be6f0f3d2dea464ef6d60d67661}{%
@@ -3752,10 +3838,10 @@
       \verb 10.1107/S1600576714004506
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1107/S1600576714004506
+      \verb doi.org/10.1107/S1600576714004506
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1107/S1600576714004506
+      \verb doi.org/10.1107/S1600576714004506
       \endverb
       \keyw{reciprocal space mapping,strain,lattice orientation,data analysis software,scanning X-ray diffraction microscopy,scanning probe microscopy}
     \endentry
@@ -4094,7 +4180,7 @@
       \field{pages}{162\bibrangedash 171}
       \range{pages}{10}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.cattod.2013.07.006
+      \verb doi.org/10.1016/j.cattod.2013.07.006
       \endverb
       \keyw{Catalysis,Hydrogenation,Nickel,Theory,Agriculture,Space technology}
     \endentry
@@ -4137,7 +4223,7 @@
       \field{pages}{55\bibrangedash 172}
       \range{pages}{118}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0360-0564(08)60017-6
+      \verb doi.org/10.1016/S0360-0564(08)60017-6
       \endverb
     \endentry
     \entry{ChenBo2012}{article}{}
@@ -4386,13 +4472,13 @@
       \verb 10.1126/science.aar6611
       \endverb
       \verb{eprint}
-      \verb https://www.science.org/doi/pdf/10.1126/science.aar6611
+      \verb www.science.org/doi/pdf/10.1126/science.aar6611
       \endverb
       \verb{urlraw}
-      \verb https://www.science.org/doi/abs/10.1126/science.aar6611
+      \verb www.science.org/doi/abs/10.1126/science.aar6611
       \endverb
       \verb{url}
-      \verb https://www.science.org/doi/abs/10.1126/science.aar6611
+      \verb www.science.org/doi/abs/10.1126/science.aar6611
       \endverb
     \endentry
     \entry{Chen2012}{article}{}
@@ -4802,9 +4888,6 @@
            giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{3029aeff117b98ffe5f3cb5126e8a05d}
       \strng{fullhash}{92d327482731a2bf14be8dad63ab111a}
       \strng{bibnamehash}{3029aeff117b98ffe5f3cb5126e8a05d}
@@ -5040,6 +5123,71 @@
       \field{year}{1965}
       \field{pages}{297\bibrangedash 301}
       \range{pages}{5}
+      \verb{urlraw}
+      \verb www.ams.org/journals/mcom/1965-19-090/S0025-5718-1965-0178586-1/
+      \endverb
+      \verb{url}
+      \verb www.ams.org/journals/mcom/1965-19-090/S0025-5718-1965-0178586-1/
+      \endverb
+    \endentry
+    \entry{Cornelius2011}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=70e97c149411705d9a88b0d8e85eae84}{%
+           family={Cornelius},
+           familyi={C\bibinitperiod},
+           given={T.\bibnamedelimi W.},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bcddae384ed8a62d0600c434373f5ce}{%
+           family={Carbone},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f09d06ac25591fbc26a49331394f1ea}{%
+           family={Jacques},
+           familyi={J\bibinitperiod},
+           given={V.\bibnamedelimi L.\bibnamedelimi R.},
+           giveni={V\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1073624d746914c6e3b14b46ade1089}{%
+           family={Schülli},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi U.},
+           giveni={T\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bbe6cf1a540469289ec5be9848949149}{%
+           family={Metzger},
+           familyi={M\bibinitperiod},
+           given={T.\bibnamedelimi H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b90e8230694c8d3762d42126638e04ef}
+      \strng{fullhash}{afa4245f5f3cb78c1447e6bde796aa59}
+      \strng{bibnamehash}{b90e8230694c8d3762d42126638e04ef}
+      \strng{authorbibnamehash}{b90e8230694c8d3762d42126638e04ef}
+      \strng{authornamehash}{b90e8230694c8d3762d42126638e04ef}
+      \strng{authorfullhash}{afa4245f5f3cb78c1447e6bde796aa59}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Three-dimensional reciprocal-space maps of a single SiGe island around the Si(004) Bragg peak are recorded using an energy-tuning technique with a microfocused X-ray beam with compound refractive lenses as focusing optics. The map is in agreement with simulated data as well as with a map recorded by an ordinary rocking-curve scan. The energy-tuning approach circumvents both the comparatively large sphere of confusion of diffractometers compared with nanostructures and vibrations induced by motors. Thus, this method offers new possibilities for novel combinations of three-dimensional micro- and nano-focused X-ray diffraction with complex {\it in situ} sample environments such as scanning probe microscopes.}
+      \field{journaltitle}{Journal of Synchrotron Radiation}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{{Three-dimensional diffraction mapping by tuning the X-ray energy}}
+      \field{volume}{18}
+      \field{year}{2011}
+      \field{pages}{413\bibrangedash 417}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1107/S0909049511003190
+      \endverb
+      \keyw{X-ray diffraction,nanofocused and microfocused XRD,energy scan,three-dimensional reciprocal-space mapping}
     \endentry
     \entry{Cox1983}{article}{}
       \name{author}{4}{}{%
@@ -5354,7 +5502,7 @@
       \field{pages}{165\bibrangedash 180}
       \range{pages}{16}
       \verb{doi}
-      \verb https://doi.org/10.1016/0039-6028(84)90389-3
+      \verb doi.org/10.1016/0039-6028(84)90389-3
       \endverb
     \endentry
     \entry{Desjonqueres1975}{article}{}
@@ -5394,7 +5542,7 @@
       \field{pages}{429\bibrangedash 442}
       \range{pages}{14}
       \verb{doi}
-      \verb https://doi.org/10.1016/0039-6028(75)90142-9
+      \verb doi.org/10.1016/0039-6028(75)90142-9
       \endverb
     \endentry
     \entry{Deskins2005}{article}{}
@@ -5611,7 +5759,7 @@
       \field{pages}{19\bibrangedash 32}
       \range{pages}{14}
       \verb{doi}
-      \verb https://doi.org/10.1016/S1381-1169(00)00319-8
+      \verb doi.org/10.1016/S1381-1169(00)00319-8
       \endverb
       \keyw{Mars and Van Krevelen mechanism,Catalytic activation,Deoxygenation of nitrocompounds,Deoxygenation of carboxylic acids,Oxygen exchange reaction}
     \endentry
@@ -5998,7 +6146,7 @@
       \field{pages}{253\bibrangedash 415}
       \range{pages}{163}
       \verb{doi}
-      \verb https://doi.org/10.1016/0167-5729(87)90007-0
+      \verb doi.org/10.1016/0167-5729(87)90007-0
       \endverb
     \endentry
     \entry{Einstein1905}{article}{}
@@ -6117,10 +6265,10 @@
       \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.epa.gov/ghgemissions/overview-greenhouse-gases
+      \verb www.epa.gov/ghgemissions/overview-greenhouse-gases
       \endverb
       \verb{url}
-      \verb https://www.epa.gov/ghgemissions/overview-greenhouse-gases
+      \verb www.epa.gov/ghgemissions/overview-greenhouse-gases
       \endverb
     \endentry
     \entry{Erisman2007}{article}{}
@@ -6171,7 +6319,7 @@
       \field{pages}{140\bibrangedash 149}
       \range{pages}{10}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.envpol.2007.06.033
+      \verb doi.org/10.1016/j.envpol.2007.06.033
       \endverb
       \keyw{Reduced nitrogen,Emission,Nitrogen cycle,Ammonia,Effects,Abatement}
     \endentry
@@ -6492,7 +6640,7 @@
       \field{pages}{47\bibrangedash 58}
       \range{pages}{12}
       \verb{doi}
-      \verb https://doi.org/10.1016/0022-0248(93)90102-3
+      \verb doi.org/10.1016/0022-0248(93)90102-3
       \endverb
     \endentry
     \entry{Favier2007}{article}{}
@@ -6555,7 +6703,7 @@
       \field{pages}{5310\bibrangedash 5322}
       \range{pages}{13}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.actamat.2007.05.027
+      \verb doi.org/10.1016/j.actamat.2007.05.027
       \endverb
       \keyw{NiTi shape memory alloys,Tension test,Localisation,Phase transformations,Strain and temperature fields}
     \endentry
@@ -6580,6 +6728,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{HDR}
       \field{title}{Semiconductor nano-structures in the light of synchrotron radiation}
       \field{year}{2011}
     \endentry
@@ -6810,7 +6959,7 @@
       \field{pages}{2\bibrangedash 27}
       \range{pages}{26}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.cattod.2012.04.003
+      \verb doi.org/10.1016/j.cattod.2012.04.003
       \endverb
       \keyw{Heterogeneous catalysis,History,Industrial realisations,Future,Challenges,New materials,Chemicals,Energy,Environment}
     \endentry
@@ -6845,7 +6994,7 @@
       \field{pages}{105\bibrangedash 188}
       \range{pages}{84}
       \verb{doi}
-      \verb https://doi.org/10.1016/0167-5729(89)90002-2
+      \verb doi.org/10.1016/0167-5729(89)90002-2
       \endverb
     \endentry
     \entry{Fernandez2019}{article}{}
@@ -7072,9 +7221,6 @@
            given={J.\bibnamedelimi R.},
            giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
            givenun=0}}%
-      }
-      \list{language}{1}{%
-        {EN}%
       }
       \strng{namehash}{e218eed04a12d05f90c98eef3cf45e75}
       \strng{fullhash}{e218eed04a12d05f90c98eef3cf45e75}
@@ -7319,7 +7465,7 @@
       \field{pages}{446\bibrangedash 455}
       \range{pages}{10}
       \verb{doi}
-      \verb https://doi.org/10.1016/0039-6028(80)90018-7
+      \verb doi.org/10.1016/0039-6028(80)90018-7
       \endverb
     \endentry
     \entry{FlytzaniStephanopoulos1979}{article}{}
@@ -7359,7 +7505,7 @@
       \field{pages}{83\bibrangedash 111}
       \range{pages}{29}
       \verb{doi}
-      \verb https://doi.org/10.1016/0079-6816(79)90001-7
+      \verb doi.org/10.1016/0079-6816(79)90001-7
       \endverb
     \endentry
     \entry{Frosik2021}{online}{}
@@ -7387,17 +7533,17 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{11}
-      \field{title}{{AdvancedPhotonSource}/cohere}
+      \field{title}{Cohere}
       \field{urlday}{17}
       \field{urlmonth}{12}
       \field{urlyear}{2021}
       \field{year}{2021}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://github.com/AdvancedPhotonSource/cohere
+      \verb github.com/AdvancedPhotonSource/cohere
       \endverb
       \verb{url}
-      \verb https://github.com/AdvancedPhotonSource/cohere
+      \verb github.com/AdvancedPhotonSource/cohere
       \endverb
     \endentry
     \entry{Gaggioli2019}{article}{}
@@ -7500,31 +7646,41 @@
            given={Ernesto\bibnamedelima E.},
            giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=804980573b61f1e427882a5bb4a0e60d}{%
+        {{un=0,uniquepart=base,hash=e661485f831639b2b0ee9a4a6aa89651}{%
            family={Roffo},
            familyi={R\bibinitperiod},
-           given={Angel\bibnamedelima E.},
-           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
+           given={Jr.},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           suffix={Angel\bibnamedelima E.},
+           suffixi={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           suffixun=0}}%
       }
-      \strng{namehash}{7c71a1a74eb562db6df31787741b7c33}
-      \strng{fullhash}{7c71a1a74eb562db6df31787741b7c33}
-      \strng{bibnamehash}{7c71a1a74eb562db6df31787741b7c33}
-      \strng{authorbibnamehash}{7c71a1a74eb562db6df31787741b7c33}
-      \strng{authornamehash}{7c71a1a74eb562db6df31787741b7c33}
-      \strng{authorfullhash}{7c71a1a74eb562db6df31787741b7c33}
+      \strng{namehash}{277da76106ff50808dd13b76aed524c3}
+      \strng{fullhash}{277da76106ff50808dd13b76aed524c3}
+      \strng{bibnamehash}{277da76106ff50808dd13b76aed524c3}
+      \strng{authorbibnamehash}{277da76106ff50808dd13b76aed524c3}
+      \strng{authornamehash}{277da76106ff50808dd13b76aed524c3}
+      \strng{authorfullhash}{277da76106ff50808dd13b76aed524c3}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Chemical Physics}
-      \field{title}{The Crystalline Structure of Pt3O4}
+      \field{abstract}{{By x‐ray diffraction, the chemical formula and crystal structure of Pt$_3$O$_4$ have been established. The crystal lattice has a body‐centered cube symmetry. The edges of the cubes are 6.226A long, and there are two molecules per unit cell. A chemical method for preparing this oxide has been given by Jörgensen but Wöhler claims that the compound thus obtained is a mixture of monoxide and dioxide rather than a separate chemical entity, see references 2 and 3.}}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{{The Crystalline Structure of Pt$_3$O$_4$}}
       \field{volume}{9}
-      \field{year}{1941}
-      \field{pages}{4\bibrangedash 7}
-      \range{pages}{4}
+      \field{year}{2004}
+      \field{pages}{875\bibrangedash 877}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1063/1.1750860
+      \endverb
     \endentry
     \entry{Galloway1981}{article}{}
       \name{author}{2}{}{%
@@ -7562,7 +7718,7 @@
       \field{pages}{1081\bibrangedash 1085}
       \range{pages}{5}
       \verb{doi}
-      \verb https://doi.org/10.1016/0004-6981(81)90109-8
+      \verb doi.org/10.1016/0004-6981(81)90109-8
       \endverb
     \endentry
     \entry{Gandhi2003}{article}{}
@@ -7608,7 +7764,7 @@
       \field{pages}{433\bibrangedash 442}
       \range{pages}{10}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0021-9517(02)00067-2
+      \verb doi.org/10.1016/S0021-9517(02)00067-2
       \endverb
       \keyw{Automative exhaust catalyst,TWC,Oxygen storage capacity,Platinum,Palladium,Rhodium,Ceria,Zirconia}
     \endentry
@@ -7775,7 +7931,7 @@
       \field{pages}{9\bibrangedash 23}
       \range{pages}{15}
       \verb{doi}
-      \verb https://doi.org/10.1016/0021-9517(78)90003-9
+      \verb doi.org/10.1016/0021-9517(78)90003-9
       \endverb
     \endentry
     \entry{Gland1978a}{article}{}
@@ -7817,7 +7973,7 @@
       \field{pages}{324\bibrangedash 336}
       \range{pages}{13}
       \verb{doi}
-      \verb https://doi.org/10.1016/0021-9517(78)90220-8
+      \verb doi.org/10.1016/0021-9517(78)90220-8
       \endverb
     \endentry
     \entry{Gland1980}{article}{}
@@ -7853,7 +8009,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The reactions of oxygen with ammonia have been studied over the low index Pt(111) and the stepped Pt(S)-12(111) × (111) surfaces for pressures in the 10−9 Torr range over the temperature range −150 to 700 °C. These steady-state oxidation studies were performed on a system equipped with low-energy electron diffraction, Auger electron spectroscopy, and mass spectrometry. On both surfaces the oxidation of ammonia proceeds rapidly in the temperature range 100 to 600 °C; the products observed are nitric oxide, nitrogen, and water. The stepped platinum surface is generally more catalytically active than the low index surface for both NO and N2 formation branches of the reaction system.}
+      \field{abstract}{The reactions of oxygen with ammonia have been studied over the low index Pt(111) and the stepped Pt(S)-12(111) × (111) surfaces for pressures in the 10−9 Torr range over the temperature range −150 to 700 °C. These steady-state oxidation studies were performed on a system equipped with low-energy electron diffraction, Auger electron spectroscopy, and mass spectrometry. On both surfaces the oxidation of ammonia proceeds rapidly in the temperature range 100 to 600 °C; the products observed are nitric oxide, nitrogen, and water. The stepped platinum surface is generally more catalytically active than the low index surface for both NO and N$_2$ formation branches of the reaction system.}
       \field{issn}{0021-9517}
       \field{journaltitle}{Journal of Catalysis}
       \field{number}{2}
@@ -7863,7 +8019,7 @@
       \field{pages}{543\bibrangedash 546}
       \range{pages}{4}
       \verb{doi}
-      \verb https://doi.org/10.1016/0021-9517(80)90405-4
+      \verb doi.org/10.1016/0021-9517(80)90405-4
       \endverb
     \endentry
     \entry{Glavic2022}{article}{}
@@ -7988,10 +8144,10 @@
       \verb 10.1107/S1600576721003113
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1107/S1600576721003113
+      \verb doi.org/10.1107/S1600576721003113
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1107/S1600576721003113
+      \verb doi.org/10.1107/S1600576721003113
       \endverb
       \keyw{coherent X-ray Bragg diffraction imaging,Bragg ptychography,scattering amplitudes,strain,structure factors}
     \endentry
@@ -8062,13 +8218,13 @@
       \field{pages}{837\bibrangedash 848}
       \range{pages}{12}
       \verb{doi}
-      \verb https://doi.org/10.1016/0039-6028(94)90701-3
+      \verb doi.org/10.1016/0039-6028(94)90701-3
       \endverb
       \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/0039602894907013
+      \verb www.sciencedirect.com/science/article/pii/0039602894907013
       \endverb
       \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/0039602894907013
+      \verb www.sciencedirect.com/science/article/pii/0039602894907013
       \endverb
     \endentry
     \entry{Grediac1996}{article}{}
@@ -8102,7 +8258,7 @@
       \field{pages}{841\bibrangedash 846}
       \range{pages}{6}
       \verb{doi}
-      \verb https://doi.org/10.1016/0266-3538(96)00030-9
+      \verb doi.org/10.1016/0266-3538(96)00030-9
       \endverb
       \keyw{heterogeneous strain fields,mechanical tests,anisotropic elastic properties}
     \endentry
@@ -8260,13 +8416,13 @@
       \verb 10.1126/science.280.5364.717
       \endverb
       \verb{eprint}
-      \verb https://www.science.org/doi/pdf/10.1126/science.280.5364.717
+      \verb www.science.org/doi/pdf/10.1126/science.280.5364.717
       \endverb
       \verb{urlraw}
-      \verb https://www.science.org/doi/abs/10.1126/science.280.5364.717
+      \verb www.science.org/doi/abs/10.1126/science.280.5364.717
       \endverb
       \verb{url}
-      \verb https://www.science.org/doi/abs/10.1126/science.280.5364.717
+      \verb www.science.org/doi/abs/10.1126/science.280.5364.717
       \endverb
     \endentry
     \entry{Gu2007}{article}{}
@@ -8504,42 +8660,6 @@
       \verb 10.1021/jp803264v
       \endverb
     \endentry
-    \entry{Gupta1981}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bb50cedddff175bb639c26bb9b5271d8}{%
-           family={Gupta},
-           familyi={G\bibinitperiod},
-           given={Raju\bibnamedelima P.},
-           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{bb50cedddff175bb639c26bb9b5271d8}
-      \strng{fullhash}{bb50cedddff175bb639c26bb9b5271d8}
-      \strng{bibnamehash}{bb50cedddff175bb639c26bb9b5271d8}
-      \strng{authorbibnamehash}{bb50cedddff175bb639c26bb9b5271d8}
-      \strng{authornamehash}{bb50cedddff175bb639c26bb9b5271d8}
-      \strng{authorfullhash}{bb50cedddff175bb639c26bb9b5271d8}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{12}
-      \field{journaltitle}{Phys. Rev. B}
-      \field{month}{06}
-      \field{title}{Lattice relaxation at a metal surface}
-      \field{volume}{23}
-      \field{year}{1981}
-      \field{pages}{6265\bibrangedash 6270}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1103/PhysRevB.23.6265
-      \endverb
-    \endentry
     \entry{Gustafson2014}{article}{}
       \name{author}{10}{}{%
         {{un=0,uniquepart=base,hash=e9ef202445b76157c20fdf45a21dacb0}{%
@@ -8704,26 +8824,27 @@
            given={B.},
            giveni={B\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=8c933fbd3e5f577729a2be9a8434ce38}{%
-           family={Norskov},
+        {{un=0,uniquepart=base,hash=7ae731ce41a114f67899c33dc2c13dfe}{%
+           family={N{ø}rskov},
            familyi={N\bibinitperiod},
            given={J.\bibnamedelimi K.},
            giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{4eea25a79bac87c17360396a9dccd4bf}
-      \strng{fullhash}{4eea25a79bac87c17360396a9dccd4bf}
-      \strng{bibnamehash}{4eea25a79bac87c17360396a9dccd4bf}
-      \strng{authorbibnamehash}{4eea25a79bac87c17360396a9dccd4bf}
-      \strng{authornamehash}{4eea25a79bac87c17360396a9dccd4bf}
-      \strng{authorfullhash}{4eea25a79bac87c17360396a9dccd4bf}
+      \strng{namehash}{8ded401f12acd3f31aa4b8de00009155}
+      \strng{fullhash}{8ded401f12acd3f31aa4b8de00009155}
+      \strng{bibnamehash}{8ded401f12acd3f31aa4b8de00009155}
+      \strng{authorbibnamehash}{8ded401f12acd3f31aa4b8de00009155}
+      \strng{authornamehash}{8ded401f12acd3f31aa4b8de00009155}
+      \strng{authorfullhash}{8ded401f12acd3f31aa4b8de00009155}
+      \field{extraname}{1}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{THE unique role that gold plays in society is to a large extent related to the fact that it is the most noble of all metals: it is the least reactive metal towards atoms or molecules at the interface with a gas or a liquid. The inertness of gold does not reflect a general inability to form chemical bonds, however---gold forms very stable alloys with many other metals. To understand the nobleness of gold, we have studied a simple surface reaction, the dissociation of H2 on the surface of gold and of three other metals (copper, nickel and platinum) that lie close to it in the periodic table. We present self-consistent density-functional calculations of the activation barriers and chemisorption energies which clearly illustrate that nobleness is related to two factors: the degree of filling of the antibonding states on adsorption, and the degree of orbital overlap with the adsorbate. These two factors, which determine both the strength of the adsorbate-metal interaction and the energy barrier for dissociation, operate together to the maxima] detriment of adsorbate binding and subsequent reactivity on gold.}
+      \field{abstract}{THE unique role that gold plays in society is to a large extent related to the fact that it is the most noble of all metals: it is the least reactive metal towards atoms or molecules at the interface with a gas or a liquid. The inertness of gold does not reflect a general inability to form chemical bonds, however---gold forms very stable alloys with many other metals. To understand the nobleness of gold, we have studied a simple surface reaction, the dissociation of H$_2$ on the surface of gold and of three other metals (copper, nickel and platinum) that lie close to it in the periodic table. We present self-consistent density-functional calculations of the activation barriers and chemisorption energies which clearly illustrate that nobleness is related to two factors: the degree of filling of the antibonding states on adsorption, and the degree of orbital overlap with the adsorbate. These two factors, which determine both the strength of the adsorbate-metal interaction and the energy barrier for dissociation, operate together to the maxima] detriment of adsorbate binding and subsequent reactivity on gold.}
       \field{issn}{1476-4687}
       \field{journaltitle}{Nature}
       \field{month}{07}
@@ -8758,6 +8879,7 @@
       \strng{authorbibnamehash}{8ded401f12acd3f31aa4b8de00009155}
       \strng{authornamehash}{8ded401f12acd3f31aa4b8de00009155}
       \strng{authorfullhash}{8ded401f12acd3f31aa4b8de00009155}
+      \field{extraname}{2}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -8913,7 +9035,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Chemical vapor transport of platinum (Pt) and rhodium (Rh) has been studied in closed ampoules using a 900–800°C over 100mm gradient for periods of 123–365 days. The ability of O2, air, and H2O to act as transport agents has been evaluated, control experiments have been performed with vacuum, N2, and Ar, and surveying experiments have been made with NH3, NO, and H2. Transport of Pt and Rh occurs in the presence of oxygen (regardless of source), manifested as single-crystal growth at the colder end of the ampoules. PtO2 and RhO2 were identified as vapor molecules by in situ mass spectrometric monitoring. A small transport of Rh is indicated for H2O as agent, whereas no transport is observed in N2, H2, NH3, and Ar atmospheres.}
+      \field{abstract}{Chemical vapor transport of platinum (Pt) and rhodium (Rh) has been studied in closed ampoules using a 900–800°C over 100mm gradient for periods of 123–365 days. The ability of O$_2$, air, and H$_2$O to act as transport agents has been evaluated, control experiments have been performed with vacuum, N$_2$, and Ar, and surveying experiments have been made with NH$_3$, NO, and H$_2$. Transport of Pt and Rh occurs in the presence of oxygen (regardless of source), manifested as single-crystal growth at the colder end of the ampoules. PtO2 and RhO2 were identified as vapor molecules by in situ mass spectrometric monitoring. A small transport of Rh is indicated for H$_2$O as agent, whereas no transport is observed in N$_2$, H$_2$, NH$_3$, and Ar atmospheres.}
       \field{issn}{0022-0248}
       \field{journaltitle}{Journal of Crystal Growth}
       \field{number}{1}
@@ -8923,7 +9045,7 @@
       \field{pages}{206\bibrangedash 212}
       \range{pages}{7}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.jcrysgro.2005.02.024
+      \verb doi.org/10.1016/j.jcrysgro.2005.02.024
       \endverb
       \keyw{A1. Ammonia oxidation,A1. Chemical-vapor-transport reaction,B1. Platinum,B1. Rhodium}
     \endentry
@@ -8977,7 +9099,7 @@
       \field{pages}{163\bibrangedash 176}
       \range{pages}{14}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.apcata.2005.01.033
+      \verb doi.org/10.1016/j.apcata.2005.01.033
       \endverb
       \keyw{Platinum–rhodium catalyst reconstruction,Ammonia oxidation,Catalytic etching,“Cauliflower”-shaped excrescences}
     \endentry
@@ -9129,7 +9251,7 @@
       \field{pages}{65\bibrangedash 108}
       \range{pages}{44}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0065-2113(01)73005-2
+      \verb doi.org/10.1016/S0065-2113(01)73005-2
       \endverb
     \endentry
     \entry{Hatscher2008}{inbook}{}
@@ -9183,7 +9305,7 @@
       \field{pages}{2575\bibrangedash 2592}
       \range{pages}{18}
       \verb{doi}
-      \verb https://doi.org/10.1002/9783527610044.hetcat0130
+      \verb doi.org/10.1002/9783527610044.hetcat0130
       \endverb
       \keyw{ammonia oxidation,reaction mechanism,platinum,rhodium,palladium,gauzes,reaction engineering}
     \endentry
@@ -9439,7 +9561,7 @@
       \field{pages}{443\bibrangedash 457}
       \range{pages}{15}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0926-860X(01)00818-3
+      \verb doi.org/10.1016/S0926-860X(01)00818-3
       \endverb
       \keyw{Catalytic converters,Gasoline,Diesel,Lean-burn engines,Lean-NO,Fuel cells}
     \endentry
@@ -9761,7 +9883,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Noble metal nanoparticles supported by oxide carriers are widely employed in heterogeneous catalysis. To improve catalyst efficiency, it is important to understand oxidation processes on the atomic scale. Here, we studied oxygen-induced shape changes of Pt nanoparticles on MgO(001) by means of in situ surface X-ray diffraction and X-ray reflectivity measurements. The X-ray results on the particle morphology were complemented by transmission electron microscopy studies. The samples were prepared by means of physical vapor deposition and differed in average particle size and lateral particle size distribution. The oxygen-induced particle shape changes were found to be independent of particle size and were characterized by the emergence of higher indexed facets. We find the bulk oxide formation to be kinetically hindered and particle size-dependent. The formed bulk oxide structures were concluded to be (110)-oriented Pt3O4 and a modified structure of (0001)-oriented $\alpha$-PtO$_2$.CO exposure of the oxidized particles did not lead to a shape change reversibility.}
+      \field{abstract}{Noble metal nanoparticles supported by oxide carriers are widely employed in heterogeneous catalysis. To improve catalyst efficiency, it is important to understand oxidation processes on the atomic scale. Here, we studied oxygen-induced shape changes of Pt nanoparticles on MgO(001) by means of in situ surface X-ray diffraction and X-ray reflectivity measurements. The X-ray results on the particle morphology were complemented by transmission electron microscopy studies. The samples were prepared by means of physical vapor deposition and differed in average particle size and lateral particle size distribution. The oxygen-induced particle shape changes were found to be independent of particle size and were characterized by the emergence of higher indexed facets. We find the bulk oxide formation to be kinetically hindered and particle size-dependent. The formed bulk oxide structures were concluded to be (110)-oriented Pt$_3$O$_4$ and a modified structure of (0001)-oriented $\alpha$-PtO$_2$.CO exposure of the oxidized particles did not lead to a shape change reversibility.}
       \field{issn}{14639076}
       \field{journaltitle}{Journal of Physical Chemistry C}
       \field{number}{117}
@@ -10063,7 +10185,7 @@
       \field{pages}{181\bibrangedash 342}
       \range{pages}{162}
       \verb{doi}
-      \verb https://doi.org/10.1006/adnd.1993.1013
+      \verb doi.org/10.1006/adnd.1993.1013
       \endverb
     \endentry
     \entry{Matthey2022}{online}{}
@@ -10079,10 +10201,10 @@
       \field{year}{2022}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://technology.matthey.com/article/45/2/74-82/
+      \verb technology.matthey.com/article/45/2/74-82/
       \endverb
       \verb{url}
-      \verb https://technology.matthey.com/article/45/2/74-82/
+      \verb technology.matthey.com/article/45/2/74-82/
       \endverb
     \endentry
     \entry{Hofmann2020}{article}{}
@@ -10356,10 +10478,10 @@
       \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=907540
+      \verb tsapps.nist.gov/publication/get_pdf.cfm?pub_id=907540
       \endverb
       \verb{url}
-      \verb https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=907540
+      \verb tsapps.nist.gov/publication/get_pdf.cfm?pub_id=907540
       \endverb
     \endentry
     \entry{Hughes1950}{article}{}
@@ -10400,7 +10522,7 @@
       \field{labeltitlesource}{title}
       \field{issue}{0}
       \field{journaltitle}{J. Chem. Soc.}
-      \field{title}{493. Kinetics and mechanism of aromatic nitration. Part II. Nitration by the nitronium ion{,} NO2+{,} derived from nitric acid}
+      \field{title}{493. Kinetics and mechanism of aromatic nitration. Part II. Nitration by the nitronium ion{,} NO$_2^+$, derived from nitric acid}
       \field{year}{1950}
       \field{pages}{2400\bibrangedash 2440}
       \range{pages}{41}
@@ -10905,7 +11027,7 @@
       \field{pages}{63\bibrangedash 82}
       \range{pages}{20}
       \verb{doi}
-      \verb https://doi.org/10.1016/B978-0-08-102051-7.00005-1
+      \verb doi.org/10.1016/B978-0-08-102051-7.00005-1
       \endverb
     \endentry
     \entry{JupyterNotebook7}{online}{}
@@ -10921,10 +11043,10 @@
       \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://blog.jupyter.org/announcing-jupyter-notebook-7-8d6d66126dcf
+      \verb blog.jupyter.org/announcing-jupyter-notebook-7-8d6d66126dcf
       \endverb
       \verb{url}
-      \verb https://blog.jupyter.org/announcing-jupyter-notebook-7-8d6d66126dcf
+      \verb blog.jupyter.org/announcing-jupyter-notebook-7-8d6d66126dcf
       \endverb
     \endentry
     \entry{Kaganer2007}{article}{}
@@ -11119,7 +11241,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Bimetallic catalysts can undergo segregation or redistribution of the metals driven by oxidizing and reducing environments. Bragg coherent diffraction imaging (BCDI) was used to relate displacement fields to compositional distributions in crystalline Pt-Rh alloy nanoparticles. Three-dimensional images of internal composition showed that the radial distribution of compositions reverses partially between the surface shell and the core when gas flow changes between O$_2$ and H2. Our observation suggests that the elemental segregation of nanoparticle catalysts should be highly active during heterogeneous catalysis and can be a controlling factor in synthesis of electrocatalysts. In addition, our study exemplifies applications of BCDI for in situ 3D imaging of internal equilibrium compositions in other bimetallic alloy nanoparticles.}
+      \field{abstract}{Bimetallic catalysts can undergo segregation or redistribution of the metals driven by oxidizing and reducing environments. Bragg coherent diffraction imaging (BCDI) was used to relate displacement fields to compositional distributions in crystalline Pt-Rh alloy nanoparticles. Three-dimensional images of internal composition showed that the radial distribution of compositions reverses partially between the surface shell and the core when gas flow changes between O$_2$ and H$_2$. Our observation suggests that the elemental segregation of nanoparticle catalysts should be highly active during heterogeneous catalysis and can be a controlling factor in synthesis of electrocatalysts. In addition, our study exemplifies applications of BCDI for in situ 3D imaging of internal equilibrium compositions in other bimetallic alloy nanoparticles.}
       \field{issn}{10797114}
       \field{journaltitle}{Physical Review Letters}
       \field{number}{24}
@@ -11361,7 +11483,7 @@
       \field{pages}{2080\bibrangedash 2084}
       \range{pages}{5}
       \verb{doi}
-      \verb https://doi.org/10.1002/anie.200462127
+      \verb doi.org/10.1002/anie.200462127
       \endverb
       \keyw{adsorption,electrochemistry,heterogeneous catalysis,monolayers,oxidation,surface chemistry}
     \endentry
@@ -11394,7 +11516,7 @@
       \field{pages}{769\bibrangedash 788}
       \range{pages}{20}
       \verb{doi}
-      \verb https://doi.org/10.1002/andp.19314020702
+      \verb doi.org/10.1002/andp.19314020702
       \endverb
     \endentry
     \entry{Kim2018}{article}{}
@@ -11840,13 +11962,13 @@
       \field{issn}{0039-6028}
       \field{journaltitle}{Surface Science}
       \field{number}{2}
-      \field{title}{No adsorption on Pt(111)}
+      \field{title}{NO adsorption on Pt(111)}
       \field{volume}{136}
       \field{year}{1984}
       \field{pages}{285\bibrangedash 295}
       \range{pages}{11}
       \verb{doi}
-      \verb https://doi.org/10.1016/0039-6028(84)90612-5
+      \verb doi.org/10.1016/0039-6028(84)90612-5
       \endverb
     \endentry
     \entry{Kiskinova1985}{article}{}
@@ -11883,17 +12005,17 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The adsorption of H2O on clean and K-covered Pt(111) was investigated by utilizing Auger, X-ray and ultra-violet photoemission spectroscopies. The adsorption on Pt(111) at 100–150 K was purely molecular (ice formation) in agreement with previous work. No dissociation of this adsorbed H2O was noted on heating to higher temperatures. On the other hand, adsorption of H2O on Pt(111) + K leads to dissociation and to the formation of OH species which were characterized by a work function increase, an O 1s binding energy of 530.9 eV and UPS peaks at 4.7 and 8.7 eV below the Fermi level. The amount of OH formed was proportional to the K coverage for θK > 0.06 whereas no OH could be detected for θ⩽ 0.06. Dissociation of H2O occurred already at T = 100 K, with a sequential appearance of O 1s peaks at 531 and 533 eV representing OH and adsorbed H2O, respectively. At room temperature and above only the OH species was observed. Annealing of the surface covered with coadsorbed K/OH indicated the high stability of this OH species which could be detected spectroscopically up to 570 K. The adsorption energy of H2O coadsorbed with K and OH on Pt(111) is increased relative to that of H2O on Pt. The work function due to this adsorbed H2O increases whereas it decreases for H2O on Pt(111). The energy shifts of valence and O1s core levels of H2O on Pt + K as deduced from a comparison of gas phase and adsorbate spectra are 2.8–4.2 eV compared to ≈ 1.3–2.3 eV for H2O on Pt (111). This increased relaxation energy shift suggests a charge transfer screening process for H2O on Pt + K possibly involving the unoccupied 4a1 orbital of H2O. The occurrence of this mode of screening would be consistent with the higher adsorption energy of H2O on Pt + K and with its high propensity to dissociate into OH and H.}
+      \field{abstract}{The adsorption of H$_2$O on clean and K-covered Pt(111) was investigated by utilizing Auger, X-ray and ultra-violet photoemission spectroscopies. The adsorption on Pt(111) at 100–150 K was purely molecular (ice formation) in agreement with previous work. No dissociation of this adsorbed H$_2$O was noted on heating to higher temperatures. On the other hand, adsorption of H$_2$O on Pt(111) + K leads to dissociation and to the formation of OH species which were characterized by a work function increase, an O 1s binding energy of 530.9 eV and UPS peaks at 4.7 and 8.7 eV below the Fermi level. The amount of OH formed was proportional to the K coverage for θK > 0.06 whereas no OH could be detected for θ⩽ 0.06. Dissociation of H$_2$O occurred already at T = 100 K, with a sequential appearance of O 1s peaks at 531 and 533 eV representing OH and adsorbed H$_2$O, respectively. At room temperature and above only the OH species was observed. Annealing of the surface covered with coadsorbed K/OH indicated the high stability of this OH species which could be detected spectroscopically up to 570 K. The adsorption energy of H$_2$O coadsorbed with K and OH on Pt(111) is increased relative to that of H$_2$O on Pt. The work function due to this adsorbed H$_2$O increases whereas it decreases for H$_2$O on Pt(111). The energy shifts of valence and O1s core levels of H$_2$O on Pt + K as deduced from a comparison of gas phase and adsorbate spectra are 2.8–4.2 eV compared to ≈ 1.3–2.3 eV for H$_2$O on Pt (111). This increased relaxation energy shift suggests a charge transfer screening process for H$_2$O on Pt + K possibly involving the unoccupied 4a1 orbital of H$_2$O. The occurrence of this mode of screening would be consistent with the higher adsorption energy of H$_2$O on Pt + K and with its high propensity to dissociate into OH and H.}
       \field{issn}{0039-6028}
       \field{journaltitle}{Surface Science}
       \field{number}{2}
-      \field{title}{Adsorption and decomposition of H2O on a K-covered Pt(111) surface}
+      \field{title}{Adsorption and decomposition of H$_2$O on a K-covered Pt(111) surface}
       \field{volume}{150}
       \field{year}{1985}
       \field{pages}{319\bibrangedash 338}
       \range{pages}{20}
       \verb{doi}
-      \verb https://doi.org/10.1016/0039-6028(85)90649-1
+      \verb doi.org/10.1016/0039-6028(85)90649-1
       \endverb
     \endentry
     \entry{Kitchin2004}{article}{}
@@ -12150,16 +12272,16 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The effect of reaction conditions and rhodium content in H2-pretreated Pt–Rh materials on their initial activity and time-on-stream behavior in direct N2O decomposition at 1023K was investigated by means of continuous-flow catalytic tests at ambient pressure and X-ray photoelectron spectroscopy (XPS) analysis before and after catalytic tests. Reduced pure Pt (Pt100) gauze shows a slightly higher initial activity (after 10min on stream) in the reaction than reduced pure Rh (Rh100) wire. The initial N2O conversion over various Pt–Rh alloys (95–5, 90–10, and 80–20) was considerably lower than that of the pure metals. The following order of initial activity was obtained: Pt100>Rh100>Pt95–Rh5>Pt90–Rh10>Pt80–Rh20. However, Pt100 gauze rapidly deactivates with time-on-stream. This deactivation is tentatively attributed to the penetration of oxygen (generated upon N2O decomposition) into the bulk of the metal. In contrast to Pt100 gauze, Rh100 wire activates with time-on-stream leading to a significantly enhanced and stable N2O conversion. The activity trend after 900min on stream is changed to: Rh100>Pt95–Rh5>Pt90–Rh10>Pt80–Rh20>Pt100. The different catalytic performance of Rh is related to the gradual transformation of metallic Rh to Rh2O3 under reaction conditions as concluded from surface composition obtained by XPS analyses. Our results indicate that the Pt–Rh alloy gauzes are inactive for direct N2O decomposition in the presence of excess oxygen, as typically found in ammonia burners.}
+      \field{abstract}{The effect of reaction conditions and rhodium content in H$_2$-pretreated Pt–Rh materials on their initial activity and time-on-stream behavior in direct N$_2$O decomposition at 1023K was investigated by means of continuous-flow catalytic tests at ambient pressure and X-ray photoelectron spectroscopy (XPS) analysis before and after catalytic tests. Reduced pure Pt (Pt100) gauze shows a slightly higher initial activity (after 10min on stream) in the reaction than reduced pure Rh (Rh100) wire. The initial N$_2$O conversion over various Pt–Rh alloys (95–5, 90–10, and 80–20) was considerably lower than that of the pure metals. The following order of initial activity was obtained: Pt100>Rh100>Pt95–Rh5>Pt90–Rh10>Pt80–Rh20. However, Pt100 gauze rapidly deactivates with time-on-stream. This deactivation is tentatively attributed to the penetration of oxygen (generated upon N$_2$O decomposition) into the bulk of the metal. In contrast to Pt100 gauze, Rh100 wire activates with time-on-stream leading to a significantly enhanced and stable N$_2$O conversion. The activity trend after 900min on stream is changed to: Rh100>Pt95–Rh5>Pt90–Rh10>Pt80–Rh20>Pt100. The different catalytic performance of Rh is related to the gradual transformation of metallic Rh to Rh2O3 under reaction conditions as concluded from surface composition obtained by XPS analyses. Our results indicate that the Pt–Rh alloy gauzes are inactive for direct N$_2$O decomposition in the presence of excess oxygen, as typically found in ammonia burners.}
       \field{issn}{0926-860X}
       \field{journaltitle}{Applied Catalysis A: General}
-      \field{title}{Distinct activity and time-on-stream behavior of pure Pt and Rh metals and Pt–Rh alloys in the high-temperature N2O decomposition}
+      \field{title}{Distinct activity and time-on-stream behavior of pure Pt and Rh metals and Pt–Rh alloys in the high-temperature N$_2$O decomposition}
       \field{volume}{298}
       \field{year}{2006}
       \field{pages}{73\bibrangedash 79}
       \range{pages}{7}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.apcata.2005.09.022
+      \verb doi.org/10.1016/j.apcata.2005.09.022
       \endverb
       \keyw{NO decomposition,Pt,Rh,Pt–Rh alloy,High-temperature reactions,Deactivation,RhO and restructuring of Pt}
     \endentry
@@ -12190,17 +12312,17 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The reaction pathways of N2 and N2O formation in the direct decomposition and reduction of NO by NH3 were investigated over a polycrystalline Pt catalyst between 323 and 973K by transient experiments using the temporal analysis of products (TAP-2) reactor. The interaction between nitric oxide and ammonia was studied in the sequential pulse mode applying 15NO. Differently labelled nitrogen and nitrous oxide molecules were detected. In both, direct NO decomposition and NH3–NO interaction, N2O formation was most marked between 573 and 673K, whereas N2 formation dominated at higher temperatures. An unusual interruption of nitrogen formation in the 15NO pulse at 473K was caused by an inhibiting effect of adsorbed NO species. The detailed analysis of the product distribution at this temperature clearly indicates different reaction pathways leading to the product formation. Nitrogen formation occurs via recombination of nitrogen atoms formed by dissociation of nitric oxide or/and complete dehydrogenation of ammonia. N2O is formed via recombination of adsorbed NO molecules. Additionally, both products are formed via interactions between adsorbed ammonia fragments and nitric oxide.}
+      \field{abstract}{The reaction pathways of N$_2$ and N$_2$O formation in the direct decomposition and reduction of NO by NH$_3$ were investigated over a polycrystalline Pt catalyst between 323 and 973K by transient experiments using the temporal analysis of products (TAP-2) reactor. The interaction between nitric oxide and ammonia was studied in the sequential pulse mode applying 15NO. Differently labelled nitrogen and nitrous oxide molecules were detected. In both, direct NO decomposition and NH$_3$–NO interaction, N$_2$O formation was most marked between 573 and 673K, whereas N$_2$ formation dominated at higher temperatures. An unusual interruption of nitrogen formation in the 15NO pulse at 473K was caused by an inhibiting effect of adsorbed NO species. The detailed analysis of the product distribution at this temperature clearly indicates different reaction pathways leading to the product formation. Nitrogen formation occurs via recombination of nitrogen atoms formed by dissociation of nitric oxide or/and complete dehydrogenation of ammonia. N$_2$O is formed via recombination of adsorbed NO molecules. Additionally, both products are formed via interactions between adsorbed ammonia fragments and nitric oxide.}
       \field{issn}{0926-3373}
       \field{journaltitle}{Applied Catalysis B: Environmental}
       \field{number}{1}
-      \field{title}{Mechanistic insights into the formation of N2O and N2 in NO reduction by NH3 over a polycrystalline platinum catalyst}
+      \field{title}{Mechanistic insights into the formation of N$_2$O and N$_2$ in NO reduction by NH$_3$ over a polycrystalline platinum catalyst}
       \field{volume}{70}
       \field{year}{2007}
       \field{pages}{111\bibrangedash 118}
       \range{pages}{8}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.apcatb.2005.11.037
+      \verb doi.org/10.1016/j.apcatb.2005.11.037
       \endverb
       \keyw{Mechanism,NO decomposition,NO reduction by NH,NO formation,NO,Pt gauze,Transient experiments,TAP reactor}
     \endentry
@@ -12369,7 +12491,7 @@
       \field{pages}{29\bibrangedash 30}
       \range{pages}{2}
       \verb{doi}
-      \verb https://doi.org/10.1038/537029a
+      \verb doi.org/10.1038/537029a
       \endverb
     \endentry
     \entry{Kraehnert2008}{article}{}
@@ -12399,7 +12521,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The kinetics of Pt-catalyzed ammonia oxidation on polycrystalline Pt were investigated at partial pressures of ammonia and oxygen up to 6kPa and temperatures between 286 and 385°C, applying a micro-structured reactor that ascertained temperature control of the exothermic reaction. Using literature-based mechanistic models, a micro-kinetic model was derived based on parameter optimization and a model discrimination procedure. The model described the rates of formation of all nitrogen-containing products, i.e. N2, N2O and NO. Catalyst characterization of platinum samples by electron microscopy indicated that reaction-induced restructuring of the Pt surface limited the accuracy of derived kinetic parameters already at the low temperature applied in this work. Despite of necessary simplifications, the best-fitting kinetic model predicted reasonable product selectivities for the reaction conditions of an industrial ammonia burner.}
+      \field{abstract}{The kinetics of Pt-catalyzed ammonia oxidation on polycrystalline Pt were investigated at partial pressures of ammonia and oxygen up to 6kPa and temperatures between 286 and 385°C, applying a micro-structured reactor that ascertained temperature control of the exothermic reaction. Using literature-based mechanistic models, a micro-kinetic model was derived based on parameter optimization and a model discrimination procedure. The model described the rates of formation of all nitrogen-containing products, i.e. N$_2$, N$_2$O and NO. Catalyst characterization of platinum samples by electron microscopy indicated that reaction-induced restructuring of the Pt surface limited the accuracy of derived kinetic parameters already at the low temperature applied in this work. Despite of necessary simplifications, the best-fitting kinetic model predicted reasonable product selectivities for the reaction conditions of an industrial ammonia burner.}
       \field{issn}{1385-8947}
       \field{journaltitle}{Chemical Engineering Journal}
       \field{number}{2}
@@ -12409,7 +12531,7 @@
       \field{pages}{361\bibrangedash 375}
       \range{pages}{15}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.cej.2007.05.005
+      \verb doi.org/10.1016/j.cej.2007.05.005
       \endverb
       \keyw{Catalytic ammonia oxidation,Platinum catalyst,Kinetics,Micro-structured reactor}
     \endentry
@@ -12588,10 +12710,10 @@
       \verb 10.1107/S0021889813017214
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1107/S0021889813017214
+      \verb doi.org/10.1107/S0021889813017214
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1107/S0021889813017214
+      \verb doi.org/10.1107/S0021889813017214
       \endverb
       \keyw{X-ray scattering,data analysis,reciprocal space,computer programs}
     \endentry
@@ -13130,18 +13252,137 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The photoemission electron microscope (PEEM) makes it possible to image a surface via its work function. On a CO-covered Pt(100) surface, we prepared oxygen islands which appear dark in the PEEM image due to their higher work function. As the surface is heated to temperatures above 650 K we observe the conversion of these dark islands into very bright ones with work functions much lower than even that of the clean surface arising from an inverted dipole moment of oxygen atoms beneath the surface. We found an activation energy for this conversion of about 15 kcal/mol. Partially transformed oxygen islands were used to study the reactivity and the formation of this species further. CO and H2 both react with subsurface oxygen rather slowly, while at the interface between the subsurface and the chemisorbed phase, both adsorbents accelerate the conversion of parts of the remaining oxygen atoms towards the subsurface state. In contrast, additional oxygen adsorption does not contribute to a further transformation. We propose a qualitative microscopic model for the formation of subsurface oxygen based on experimental evidence.}
+      \field{abstract}{The photoemission electron microscope (PEEM) makes it possible to image a surface via its work function. On a CO-covered Pt(100) surface, we prepared oxygen islands which appear dark in the PEEM image due to their higher work function. As the surface is heated to temperatures above 650 K we observe the conversion of these dark islands into very bright ones with work functions much lower than even that of the clean surface arising from an inverted dipole moment of oxygen atoms beneath the surface. We found an activation energy for this conversion of about 15 kcal/mol. Partially transformed oxygen islands were used to study the reactivity and the formation of this species further. CO and H$_2$ both react with subsurface oxygen rather slowly, while at the interface between the subsurface and the chemisorbed phase, both adsorbents accelerate the conversion of parts of the remaining oxygen atoms towards the subsurface state. In contrast, additional oxygen adsorption does not contribute to a further transformation. We propose a qualitative microscopic model for the formation of subsurface oxygen based on experimental evidence.}
       \field{issn}{0039-6028}
       \field{journaltitle}{Surface Science}
       \field{number}{1}
-      \field{title}{Subsurface oxygen on Pt(100): kinetics of the transition from chemisorbed to subsurface state and its reaction with CO, H2 and O$_2$}
+      \field{title}{Subsurface oxygen on Pt(100): kinetics of the transition from chemisorbed to subsurface state and its reaction with CO, H$_2$ and O$_2$}
       \field{volume}{313}
       \field{year}{1994}
       \field{pages}{52\bibrangedash 63}
       \range{pages}{12}
       \verb{doi}
-      \verb https://doi.org/10.1016/0039-6028(94)91156-8
+      \verb doi.org/10.1016/0039-6028(94)91156-8
       \endverb
+    \endentry
+    \entry{Leake2019}{article}{}
+      \name{author}{15}{}{%
+        {{un=1,uniquepart=given,hash=7bdd6ba8fe072a30a7985c29befc8446}{%
+           family={Leake},
+           familyi={L\bibinitperiod},
+           given={Steven\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=b6412b11e487c517350071d0167f59b2}{%
+           family={Chahine},
+           familyi={C\bibinitperiod},
+           given={Gilbert\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c238a02ac2f483b676e2280c1554d95c}{%
+           family={Djazouli},
+           familyi={D\bibinitperiod},
+           given={Hamid},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb43f8d049da79757ef659dd18d8ef7a}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7001fcd73bc59f6b139b178cb16bef32}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d49df84154dd952d772bb26ead4bcf54}{%
+           family={Hilhorst},
+           familyi={H\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=384c4313db348945f3b65a50d0871bcd}{%
+           family={Petit},
+           familyi={P\bibinitperiod},
+           given={Lucien},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8337e20d13dbfa35881a3b2044706fc4}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={Marie-Ingrid},
+           giveni={M\bibinithyphendelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fb0c45a11985920e6f4321a495e2bc7}{%
+           family={Morawe},
+           familyi={M\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a081d21c515b8f8142ddd8285176de52}{%
+           family={Barrett},
+           familyi={B\bibinitperiod},
+           given={Raymond},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a1f1a0016bb4e33e52e9bd0f48cfd33}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb5d4781c951496e7ae2def99706f73b}{%
+           family={Homs-Regojo},
+           familyi={H\bibinithyphendelim R\bibinitperiod},
+           given={Roberto\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f23b63dc664989677dd939328a04c5f}{%
+           family={Favre-Nicolin},
+           familyi={F\bibinithyphendelim N\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0cbf371268d050e252c2c176cce6ae3e}{%
+           family={Boesecke},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=658daad814e9f7e747304d667d76959a}{%
+           family={Schülli},
+           familyi={S\bibinitperiod},
+           given={Tobias\bibnamedelima U.},
+           giveni={T\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d98d4f15d032ea11750162d0d5f230a}
+      \strng{fullhash}{00421ae18b7cc164e12658459377fa60}
+      \strng{bibnamehash}{9d98d4f15d032ea11750162d0d5f230a}
+      \strng{authorbibnamehash}{9d98d4f15d032ea11750162d0d5f230a}
+      \strng{authornamehash}{9d98d4f15d032ea11750162d0d5f230a}
+      \strng{authorfullhash}{00421ae18b7cc164e12658459377fa60}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ID01 beamline has been built to combine Bragg diffraction with imaging techniques to produce a strain and mosaicity microscope for materials in their native or {\it operando} state. A scanning probe with nano-focused beams, objective-lens-based full-field microscopy and coherent diffraction imaging provide a suite of tools which deliver micrometre to few nanometre spatial resolution combined with 10${\sp {$-$}5}$ strain and 10${\sp {$-$}3}$ tilt sensitivity. A detailed description of the beamline from source to sample is provided and serves as a reference for the user community. The anticipated impact of the impending upgrade to the ESRF {--} Extremely Brilliant Source is also discussed.}
+      \field{journaltitle}{Journal of Synchrotron Radiation}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{{The Nanodiffraction beamline ID01/ESRF: a microscope for imaging strain and structure}}
+      \field{volume}{26}
+      \field{year}{2019}
+      \field{pages}{571\bibrangedash 584}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1107/S160057751900078X
+      \endverb
+      \keyw{X-ray,full-field microscopy,scanning microscopy,Bragg diffraction,coherent diffraction imaging}
     \endentry
     \entry{Lee2017}{article}{}
       \name{author}{2}{}{%
@@ -13227,7 +13468,7 @@
       \field{pages}{11/1\bibrangedash 11/65}
       \range{pages}{-1}
       \verb{doi}
-      \verb https://doi.org/10.1016/B978-075067555-0.50099-2
+      \verb doi.org/10.1016/B978-075067555-0.50099-2
       \endverb
     \endentry
     \entry{Lee2006}{article}{}
@@ -13290,7 +13531,7 @@
       \field{pages}{7824\bibrangedash 7828}
       \range{pages}{5}
       \verb{doi}
-      \verb https://doi.org/10.1002/anie.200603068
+      \verb doi.org/10.1002/anie.200603068
       \endverb
       \keyw{heterogeneous catalysis,morphology control,nanostructures,platinum,surfactants}
     \endentry
@@ -13603,7 +13844,7 @@
       \field{pages}{1\bibrangedash 7}
       \range{pages}{7}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.cplett.2005.04.064
+      \verb doi.org/10.1016/j.cplett.2005.04.064
       \endverb
     \endentry
     \entry{Yawei2015}{article}{}
@@ -13684,13 +13925,13 @@
       \field{issn}{0926-3373}
       \field{journaltitle}{Applied Catalysis B: Environmental}
       \field{number}{2}
-      \field{title}{Selective NH3 oxidation to N2 in a wet stream}
+      \field{title}{Selective NH$_3$ oxidation to N$_2$ in a wet stream}
       \field{volume}{13}
       \field{year}{1997}
       \field{pages}{131\bibrangedash 139}
       \range{pages}{9}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0926-3373(96)00098-7
+      \verb doi.org/10.1016/S0926-3373(96)00098-7
       \endverb
       \keyw{Selective,Ammonia,Oxidation,Precious metal,Vanadia,Wet stream}
     \endentry
@@ -13898,10 +14139,10 @@
       \verb 10.1116/1.5111634
       \endverb
       \verb{urlraw}
-      \verb https://doi.org/10.1116/1.5111634
+      \verb doi.org/10.1116/1.5111634
       \endverb
       \verb{url}
-      \verb https://doi.org/10.1116/1.5111634
+      \verb doi.org/10.1116/1.5111634
       \endverb
       \keyw{nap-xps,near-ambient pressure x-ray photoelectron,spectroscopy,water vapor,xps}
     \endentry
@@ -14097,7 +14338,7 @@
       \field{pages}{313\bibrangedash 316}
       \range{pages}{4}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.chempr.2017.02.014
+      \verb doi.org/10.1016/j.chempr.2017.02.014
       \endverb
     \endentry
     \entry{Luke2005}{article}{}
@@ -14448,7 +14689,7 @@
       \field{pages}{41\bibrangedash 59}
       \range{pages}{19}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0009-2509(54)80005-4
+      \verb doi.org/10.1016/S0009-2509(54)80005-4
       \endverb
     \endentry
     \entry{Martini2019a}{article}{}
@@ -14535,9 +14776,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{X-ray absorption near-edge spectroscopy (XANES) is becoming an extremely popular tool for material science thanks to the development of new synchrotron radiation light sources. It provides information about charge state and local geometry around atoms of interest in operando and extreme conditions. However, in contrast to X-ray diffraction, a quantitative analysis of XANES spectra is rarely performed in the research papers. The reason must be found in the larger amount of time required for the calculation of a single spectrum compared to a diffractogram. For such time-consuming calculations, in the space of several structural parameters, we developed an interpolation approach proposed originally by Smolentsev and Soldatov (2007). The current version of this software, named PyFitIt, is a major upgrade version of FitIt and it is based on machine learning algorithms. We have chosen Jupyter Notebook framework to be friendly for users and at the same time being available for remastering. The analytical work is divided into two steps. First, the series of experimental spectra are analyzed statistically and decomposed into principal components. Second, pure spectral profiles, recovered by principal components, are fitted by theoretical interpolated spectra. We implemented different schemes of choice of nodes for approximation and learning algorithms including Gradient Boosting of Random Trees, Radial Basis Functions and Neural Networks. The fitting procedure can be performed both for a XANES spectrum or for a difference spectrum, thus minimizing the systematic errors of theoretical simulations. The problem of several local minima is addressed in the framework of direct and indirect approaches. Program summary: Program title: PyFitIt. Program Files doi: http://dx.doi.org/10.17632/ydkgfdc38t.1 Licensing provisions: GNU General Public License 3. Programming language: Python, Jupyter Notebook framework. Nature of problem: Quantitative structural refinements of the X-ray absorption near-edge structure spectra (XANES). Identification of the pure spectral and concentration profiles associated with an experimental XANES dataset. Solution method: The fitting procedure of the experimental XANES spectra or of their differences is realized by means of the inverse and direct approaches based on the training set and approximation machine learning algorithms. The spectral resolution method is based on the PCA technique involving the usage of a target transformation matrix. Additional comments including restrictions and unusual features: The current version is compatible with the free FDMNES program package for XANES simulations. However, users can prepare their own matrices of spectra calculated by an arbitrary software and the corresponding structural parameters to perform the fitting procedure in PyFitIt. The complete set of examples is distributed along with the program. References: PyFitIt web page: http://hpc.nano.sfedu.ru/pyfitit/}
       \field{issn}{00104655}
-      \field{issue}{xxxx}
       \field{journaltitle}{Computer Physics Communications}
       \field{title}{PyFitit: The software for quantitative analysis of XANES spectra using machine-learning algorithms}
       \field{year}{2019}
@@ -14585,7 +14824,7 @@
       \field{pages}{97\bibrangedash 108}
       \range{pages}{12}
       \verb{doi}
-      \verb https://doi.org/10.1016/0039-6028(92)90615-D
+      \verb doi.org/10.1016/0039-6028(92)90615-D
       \endverb
     \endentry
     \entry{Mason1956}{article}{}
@@ -14751,19 +14990,19 @@
            given={B.},
            giveni={B\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=8c933fbd3e5f577729a2be9a8434ce38}{%
-           family={Norskov},
+        {{un=0,uniquepart=base,hash=7ae731ce41a114f67899c33dc2c13dfe}{%
+           family={N{ø}rskov},
            familyi={N\bibinitperiod},
            given={J.K.},
            giveni={J\bibinitperiod},
            givenun=0}}%
       }
       \strng{namehash}{54e901e3a2df5127ce5a0421b525d6be}
-      \strng{fullhash}{33fbeae4f9e9f100999c65d58f59d0c9}
-      \strng{bibnamehash}{33fbeae4f9e9f100999c65d58f59d0c9}
-      \strng{authorbibnamehash}{33fbeae4f9e9f100999c65d58f59d0c9}
+      \strng{fullhash}{6080e7f984281599c0c0a9efda5b378c}
+      \strng{bibnamehash}{6080e7f984281599c0c0a9efda5b378c}
+      \strng{authorbibnamehash}{6080e7f984281599c0c0a9efda5b378c}
       \strng{authornamehash}{54e901e3a2df5127ce5a0421b525d6be}
-      \strng{authorfullhash}{33fbeae4f9e9f100999c65d58f59d0c9}
+      \strng{authorfullhash}{6080e7f984281599c0c0a9efda5b378c}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -14826,7 +15065,7 @@
       \field{pages}{629\bibrangedash 636}
       \range{pages}{8}
       \verb{doi}
-      \verb https://doi.org/10.1016/B0-12-227410-5/00719-5
+      \verb doi.org/10.1016/B0-12-227410-5/00719-5
       \endverb
     \endentry
     \entry{McBride1991}{article}{}
@@ -14925,10 +15164,10 @@
       \field{pages}{54\bibrangedash 62}
       \range{pages}{9}
       \verb{urlraw}
-      \verb https://www.ingentaconnect.com/content/matthey/pmr/1986/00000030/00000002/art00001
+      \verb www.ingentaconnect.com/content/matthey/pmr/1986/00000030/00000002/art00001
       \endverb
       \verb{url}
-      \verb https://www.ingentaconnect.com/content/matthey/pmr/1986/00000030/00000002/art00001
+      \verb www.ingentaconnect.com/content/matthey/pmr/1986/00000030/00000002/art00001
       \endverb
     \endentry
     \entry{McCabe1974}{article}{}
@@ -14964,17 +15203,17 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The etching which occurs when platinum is heated in NH3-air mixtures has been studied by exposing high purity wires to gases at different compositions and temperatures. Scanning electron microscopy indicates that etching is much more extensive and rapid in mixtures than in either pure O2 or pure NH3. Depending on the composition and temperature, etching produces either flat facets, curved surfaces, pitting, or a combination of several modes. A “phase diagram” for catalytic etching is constructed from micrographs of ~80 specimens. The structures are similar to those observed when metals are heated in oxygen, but they develop in much shorter times and at lower temperatures. Crystallographic variations in surface tension and volatile oxide formation appear to be inadequate to explain these observations. A mechanism for catalytic etching which includes effects of both the surface reaction and the gas-phase boundary layer is proposed. Volatile oxide transport could be the transport mechanism under O2-rich operation but surface diffusion is probably dominant in the NH3-rich regime. Pit formation appears to be associated with preferential attack at line defects for certain temperatures and compositions.}
+      \field{abstract}{The etching which occurs when platinum is heated in NH$_3$-air mixtures has been studied by exposing high purity wires to gases at different compositions and temperatures. Scanning electron microscopy indicates that etching is much more extensive and rapid in mixtures than in either pure O$_2$ or pure NH$_3$. Depending on the composition and temperature, etching produces either flat facets, curved surfaces, pitting, or a combination of several modes. A “phase diagram” for catalytic etching is constructed from micrographs of ~80 specimens. The structures are similar to those observed when metals are heated in oxygen, but they develop in much shorter times and at lower temperatures. Crystallographic variations in surface tension and volatile oxide formation appear to be inadequate to explain these observations. A mechanism for catalytic etching which includes effects of both the surface reaction and the gas-phase boundary layer is proposed. Volatile oxide transport could be the transport mechanism under O$_2$-rich operation but surface diffusion is probably dominant in the NH$_3$-rich regime. Pit formation appears to be associated with preferential attack at line defects for certain temperatures and compositions.}
       \field{issn}{0021-9517}
       \field{journaltitle}{Journal of Catalysis}
       \field{number}{1}
-      \field{title}{Catalytic etching of platinum in NH3 oxidation}
+      \field{title}{Catalytic etching of platinum in NH$_3$ oxidation}
       \field{volume}{32}
       \field{year}{1974}
       \field{pages}{114\bibrangedash 126}
       \range{pages}{13}
       \verb{doi}
-      \verb https://doi.org/10.1016/0021-9517(74)90165-1
+      \verb doi.org/10.1016/0021-9517(74)90165-1
       \endverb
     \endentry
     \entry{RLMcGreevy2001}{article}{}
@@ -15202,9 +15441,6 @@
            giveni={D\bibinitperiod},
            givenun=0}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{d3569a3e6a06c379afc35eb4edcdd5df}
       \strng{fullhash}{d3569a3e6a06c379afc35eb4edcdd5df}
       \strng{bibnamehash}{d3569a3e6a06c379afc35eb4edcdd5df}
@@ -15409,7 +15645,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Results of a study of the thermally activated reactions of ammonia with atomic and molecular oxygen on Pt (111) are presented. Ultrahigh vacuum, surface sensitive techniques such as temperature programmed desorption and reaction spectroscopies (TPD, TPRS) , electron energy loss spectroscopy (EELS) , Auger electron spectroscopy (AES) , and low energy electron diffraction (LEED) were used in this study. H2O, NO, and N2 are produced in various amounts depending on reactant concentrations. Stable intermediate species OH, NH, and NH2 are identified by EELS. Assignment of reaction mechanisms based on liberation of hydrogen via stepwise N-H bond cleavage by atomic oxygen and OH is made through an EELS analysis of reaction intermediates and a TPRS analysis of NH3 coverage dependences of product distributions. A forthcoming report will describe the photo-induced reaction of NH3 and O2 coadsorbed on Pt (111)}
+      \field{abstract}{Results of a study of the thermally activated reactions of ammonia with atomic and molecular oxygen on Pt (111) are presented. Ultrahigh vacuum, surface sensitive techniques such as temperature programmed desorption and reaction spectroscopies (TPD, TPRS) , electron energy loss spectroscopy (EELS) , Auger electron spectroscopy (AES) , and low energy electron diffraction (LEED) were used in this study. H$_2$O, NO, and N$_2$ are produced in various amounts depending on reactant concentrations. Stable intermediate species OH, NH, and NH2 are identified by EELS. Assignment of reaction mechanisms based on liberation of hydrogen via stepwise N-H bond cleavage by atomic oxygen and OH is made through an EELS analysis of reaction intermediates and a TPRS analysis of NH$_3$ coverage dependences of product distributions. A forthcoming report will describe the photo-induced reaction of NH$_3$ and O$_2$ coadsorbed on Pt (111)}
       \field{issn}{0039-6028}
       \field{journaltitle}{Surface Science}
       \field{number}{1}
@@ -15419,7 +15655,7 @@
       \field{pages}{151\bibrangedash 167}
       \range{pages}{17}
       \verb{doi}
-      \verb https://doi.org/10.1016/0039-6028(95)90026-8
+      \verb doi.org/10.1016/0039-6028(95)90026-8
       \endverb
       \keyw{Ammonia,Electron energy loss spectroscopy,Nitrogen,Nitrogen oxides,Oxygen,Platinum,Thermal desorption spectroscopy,Water}
     \endentry
@@ -15625,7 +15861,6 @@
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labeltitlesource}{title}
-      \field{issue}{November}
       \field{journaltitle}{Nature Catalysis}
       \field{title}{Mind the gap}
       \field{volume}{1}
@@ -15724,10 +15959,10 @@
       \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://climate.mit.edu/explainers/greenhouse-gases
+      \verb climate.mit.edu/explainers/greenhouse-gases
       \endverb
       \verb{url}
-      \verb https://climate.mit.edu/explainers/greenhouse-gases
+      \verb climate.mit.edu/explainers/greenhouse-gases
       \endverb
     \endentry
     \entry{MitsubishiSCR}{online}{}
@@ -15755,10 +15990,10 @@
       \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://power.mhi.com/products/aqcs/lineup/flue-gas-denitration/
+      \verb power.mhi.com/products/aqcs/lineup/flue-gas-denitration/
       \endverb
       \verb{url}
-      \verb https://power.mhi.com/products/aqcs/lineup/flue-gas-denitration/
+      \verb power.mhi.com/products/aqcs/lineup/flue-gas-denitration/
       \endverb
     \endentry
     \entry{Molenbroek2009}{article}{}
@@ -15881,17 +16116,17 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The systems Pt-O and Rh-O have been investigated at high oxygen pressures (up to 3500 atm) and temperatures ranging from 400 ° to nearly 900 °C. Three platinum oxide phases were found: the hexagonal $\alpha$-PtO$_2$, already described in the literature, a new phase, $\beta$-PtO$_2$ (CaCl2 structure), and Pt3O4 (NaxPt3O4 structure). $\beta$-PtO$_2$ andPt3O4 are black, highly insoluble solids, which can be easily synthesized in bulk at high oxygen pressures. The tetragonal PtO phase reported by Moore and Pauling was not encountered in this study and neither was the b.c.c. Pt3O4 found by Galloni and Roffo. In the system Rh-O we found (besides the already-known, two RH$_2$O$_3$ polymorphs) a new RhO$_2$ phase with the rutile structure. RhO$_2$ is a black, easily synthesized solid, which is highly insoluble even in hot aqua regia. “Goldschmidt radii” were derived for Pt4+ and Rh4+ and found to be 0.66 Å and 0.64 Å, respectively.}
+      \field{abstract}{The systems Pt-O and Rh-O have been investigated at high oxygen pressures (up to 3500 atm) and temperatures ranging from 400 ° to nearly 900 °C. Three platinum oxide phases were found: the hexagonal $\alpha$-PtO$_2$, already described in the literature, a new phase, $\beta$-PtO$_2$ (CaCl2 structure), and Pt$_3$O$_4$ (NaxPt3O4 structure). $\beta$-PtO$_2$ andPt3O4 are black, highly insoluble solids, which can be easily synthesized in bulk at high oxygen pressures. The tetragonal PtO phase reported by Moore and Pauling was not encountered in this study and neither was the b.c.c. Pt$_3$O$_4$ found by Galloni and Roffo. In the system Rh-O we found (besides the already-known, two RH$_2$O$_3$ polymorphs) a new RhO$_2$ phase with the rutile structure. RhO$_2$ is a black, easily synthesized solid, which is highly insoluble even in hot aqua regia. “Goldschmidt radii” were derived for Pt4+ and Rh4+ and found to be 0.66 Å and 0.64 Å, respectively.}
       \field{issn}{0022-5088}
       \field{journaltitle}{Journal of the Less Common Metals}
       \field{number}{2}
-      \field{title}{Formation and stability of the platinum and rhodium oxides at high oxygen pressures and the structures of Pt3O4, $\beta$-PtO$_2$ and RhO$_2$}
+      \field{title}{Formation and stability of the platinum and rhodium oxides at high oxygen pressures and the structures of Pt$_3$O$_4$, $\beta$-PtO$_2$ and RhO$_2$}
       \field{volume}{16}
       \field{year}{1968}
       \field{pages}{129\bibrangedash 146}
       \range{pages}{18}
       \verb{doi}
-      \verb https://doi.org/10.1016/0022-5088(68)90070-2
+      \verb doi.org/10.1016/0022-5088(68)90070-2
       \endverb
     \endentry
     \entry{Munafo2017}{article}{}
@@ -16041,7 +16276,7 @@
       \field{pages}{143\bibrangedash 207}
       \range{pages}{65}
       \verb{doi}
-      \verb https://doi.org/10.1016/0378-5963(82)90142-8
+      \verb doi.org/10.1016/0378-5963(82)90142-8
       \endverb
     \endentry
     \entry{Ndolomingo2020}{article}{}
@@ -16080,7 +16315,7 @@
       \field{abstract}{Supported metal nanoparticles, M-NPs, are of great scientific and economic interest as they encompass application in chemical manufacturing, oil refining and environmental catalysis. Oxidation and hydrogenation reactions are among the major reactions catalyzed by supported M-NPs. Although supported M-NPs are preferable due to their easy recovery and reuse, there are still some practical issues regarding their catalytic activity and deactivation. This review highlights the general features of supported M-NPs as catalysts with particular attention to copper, gold, platinum, palladium, ruthenium, silver, cobalt and nickel and their catalytic evaluation in various reactions. The catalytic performance of noble M-NPs has been explored extensively in various selective oxidation and hydrogenation reactions. In general, noble metals are expensive and sensitive to poisons. Despite their significant merits and potential (easily available, comparatively inexpensive and less sensitive to poisons), catalysis by base M-NPs is relatively less explored. Therefore, activity of base M-NPs can be improved, and still, there is potential for such catalysts.}
       \field{issn}{1573-4803}
       \field{journaltitle}{Journal of Materials Science}
-      \field{month}{5}
+      \field{month}{05}
       \field{number}{15}
       \field{title}{Review of supported metal nanoparticles: synthesis methodologies, advantages and application as catalysts}
       \field{volume}{55}
@@ -16231,7 +16466,7 @@
       \endverb
       \keyw{Bonsu,FFTW,NumPy,Python,SciPy,computer programs,phase retrieval}
     \endentry
-    \entry{Newville2016}{misc}{}
+    \entry{Newville2016}{online}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=60eb67cc225c58ee93309a22b68a3776}{%
            family={Newville},
@@ -16285,6 +16520,12 @@
       \field{abstract}{Lmfit provides a high-level interface to non-linear optimization and curve fitting problems for Python. Lmfit builds on and extends many of the optimization algorithm of scipy.optimize, especially the Levenberg-Marquardt method from optimize.leastsq. Its enhancements to optimization and data fitting problems include using Parameter objects instead of plain floats as variables, the ability to easily change fitting algorithms, and improved estimation of confidence intervals and curve-fitting with the Model class. Lmfit includes many pre-built models for common lineshapes.}
       \field{title}{{Lmfit: Non-Linear Least-Square Minimization and Curve-Fitting for Python}}
       \field{year}{2016}
+      \verb{urlraw}
+      \verb lmfit.github.io/lmfit-py/
+      \endverb
+      \verb{url}
+      \verb lmfit.github.io/lmfit-py/
+      \endverb
       \keyw{Software}
     \endentry
     \entry{Nilsen2001}{article}{}
@@ -16329,7 +16570,7 @@
       \field{pages}{43\bibrangedash 54}
       \range{pages}{12}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0926-860X(00)00615-3
+      \verb doi.org/10.1016/S0926-860X(00)00615-3
       \endverb
       \keyw{Platinum catalyst reconstruction and loss,Catalyst oxidation of ammonia,‘Cauliflower’ shaped excrescences on platinum}
     \endentry
@@ -16620,7 +16861,7 @@
       \field{journaltitle}{The Journal of Physical Chemistry B}
       \field{month}{09}
       \field{number}{38}
-      \field{title}{DFT Characterization of Adsorbed NHx Species on Pt(100) and Pt(111) Surfaces}
+      \field{title}{DFT Characterization of Adsorbed NH$_x$ Species on Pt(100) and Pt(111) Surfaces}
       \field{volume}{109}
       \field{year}{2005}
       \field{pages}{18061\bibrangedash 18069}
@@ -16738,7 +16979,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The oxidation of ammonia on platinum metals has been the subject of considerable experimental study since long before the first commercial application of the process more than 60 yr ago, yet the detailed mechanism of the oxidation reaction still remains the subject of discussion and unresolved controversy. Various theories for the mechanism have been put forward1,2, involving various stable and unstable species (for example, NH2OH, NH, UNO, HNO2, N2O as well as NO and H2O) as intermediate products in simultaneous or consecutive reactions on or near the surface of the catalyst.}
+      \field{abstract}{The oxidation of ammonia on platinum metals has been the subject of considerable experimental study since long before the first commercial application of the process more than 60 yr ago, yet the detailed mechanism of the oxidation reaction still remains the subject of discussion and unresolved controversy. Various theories for the mechanism have been put forward1,2, involving various stable and unstable species (for example, NH2OH, NH, UNO, HNO2, N$_2$O as well as NO and H$_2$O) as intermediate products in simultaneous or consecutive reactions on or near the surface of the catalyst.}
       \field{issn}{1476-4687}
       \field{journaltitle}{Nature}
       \field{month}{11}
@@ -16831,7 +17072,7 @@
       \field{issn}{00396028}
       \field{journaltitle}{Surface Science}
       \field{number}{9}
-      \field{title}{{Ammonia activation on platinum {1 1 1}: A density functional theory study}}
+      \field{title}{{Ammonia activation on Pt(111): A density functional theory study}}
       \field{volume}{600}
       \field{year}{2006}
       \field{pages}{1714\bibrangedash 1734}
@@ -16896,7 +17137,7 @@
       \field{issn}{19327447}
       \field{journaltitle}{Journal of Physical Chemistry C}
       \field{number}{47}
-      \field{title}{{Ammonia dissociation on Pt{100}, Pt{111}, and Pt{211}: A comparative density functional theory study}}
+      \field{title}{{Ammonia dissociation on Pt(100), Pt(111), and Pt(211): A comparative density functional theory study}}
       \field{volume}{111}
       \field{year}{2007}
       \field{pages}{17551\bibrangedash 17557}
@@ -16991,7 +17232,7 @@
       \field{pages}{253\bibrangedash 281}
       \range{pages}{29}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0304-3894(99)00039-4
+      \verb doi.org/10.1016/S0304-3894(99)00039-4
       \endverb
       \keyw{Ammonium nitrate,Solid composite propellants,Clean burning propellants,Phase modification,Explosives,Burning rate}
     \endentry
@@ -17039,7 +17280,7 @@
       \field{pages}{457\bibrangedash 473}
       \range{pages}{17}
       \verb{doi}
-      \verb https://doi.org/10.1016/0021-9517(74)90292-9
+      \verb doi.org/10.1016/0021-9517(74)90292-9
       \endverb
     \endentry
     \entry{Ostermaier1976}{article}{}
@@ -17076,7 +17317,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Deactivation of 2.0-15 nm Pt crystallites supported on alumina and Pt black was studied in a fixed-bed differential reactor during NH$_3$ oxidation by molecular oxygen between 368 and 473 °K. Marked deactivation caused by surface oxidation took place during the first 12 hr on stream. Deactivation occurred only in the presence of both reactants. It was more severe with smaller crystallites and at lower temperatures. The rate decay was best described by a second-order deactivation process. At 433 °K oxygen present in the deactivated 2.7 nm crystallites was about 5 atoms per surface Pt atom, giving an estimated bulk composition of PtO1.7. For the 15.5 nm crystallites the oxygen present in the deactivated crystallites was about 7 atoms per surface Pt atom but the resultant bulk composition was PtO0.5. Deactivation was reversible and activity could be restored by raising the temperature above 473 °K or by reacting with H2 or NH$_3$. Deactivated catalyst slowly released oxygen in reaction with NH$_3$ chemisorbed on the support after the feed O$_2$ and NH$_3$ were turned off. This is a form of reverse spillover. Platinum black studies confirmed the results with the supported catalysts. {©} 1976.}
+      \field{abstract}{Deactivation of 2.0-15 nm Pt crystallites supported on alumina and Pt black was studied in a fixed-bed differential reactor during NH$_3$ oxidation by molecular oxygen between 368 and 473 °K. Marked deactivation caused by surface oxidation took place during the first 12 hr on stream. Deactivation occurred only in the presence of both reactants. It was more severe with smaller crystallites and at lower temperatures. The rate decay was best described by a second-order deactivation process. At 433 °K oxygen present in the deactivated 2.7 nm crystallites was about 5 atoms per surface Pt atom, giving an estimated bulk composition of PtO1.7. For the 15.5 nm crystallites the oxygen present in the deactivated crystallites was about 7 atoms per surface Pt atom but the resultant bulk composition was PtO0.5. Deactivation was reversible and activity could be restored by raising the temperature above 473 °K or by reacting with H$_2$ or NH$_3$. Deactivated catalyst slowly released oxygen in reaction with NH$_3$ chemisorbed on the support after the feed O$_2$ and NH$_3$ were turned off. This is a form of reverse spillover. Platinum black studies confirmed the results with the supported catalysts. {©} 1976.}
       \field{issn}{10902694}
       \field{journaltitle}{Journal of Catalysis}
       \field{number}{2}
@@ -17089,7 +17330,7 @@
       \verb 10.1016/0021-9517(76)90343-2
       \endverb
     \endentry
-    \entry{Ostwald1903}{patent}{}
+    \entry{Ostwald1902}{patent}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=96b92c86b93c9340ec9c3e81dfb57d03}{%
            family={Ostwald},
@@ -17107,13 +17348,14 @@
       \field{extraname}{1}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
-      \field{number}{GB190208300A}
+      \field{number}{GB190200698A}
       \field{year}{1902}
     \endentry
-    \entry{Ostwald1902}{patent}{}
+    \entry{Ostwald1902a}{patent}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=96b92c86b93c9340ec9c3e81dfb57d03}{%
            family={Ostwald},
@@ -17131,11 +17373,12 @@
       \field{extraname}{2}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
-      \field{number}{GB190200698A}
-      \field{year}{1903}
+      \field{number}{GB190208300A}
+      \field{year}{1902}
     \endentry
     \entry{Ouellette2014}{incollection}{}
       \name{author}{2}{}{%
@@ -17192,7 +17435,7 @@
       \field{pages}{417\bibrangedash 451}
       \range{pages}{35}
       \verb{doi}
-      \verb https://doi.org/10.1016/B978-0-12-800780-8.00013-9
+      \verb doi.org/10.1016/B978-0-12-800780-8.00013-9
       \endverb
     \endentry
     \entry{WorldDataFertilizer}{online}{}
@@ -17220,10 +17463,10 @@
       \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://ourworldindata.org/fertilizers
+      \verb ourworldindata.org/fertilizers
       \endverb
       \verb{url}
-      \verb https://ourworldindata.org/fertilizers
+      \verb ourworldindata.org/fertilizers
       \endverb
     \endentry
     \entry{Ozturk2017}{article}{}
@@ -17319,10 +17562,10 @@
       \field{title}{Coherent X-Ray Optics}
       \field{year}{2006}
       \verb{urlraw}
-      \verb https://global.oup.com/academic/product/coherent-x-ray-optics-9780199673865?cc=ro&lang=en&
+      \verb global.oup.com/academic/product/coherent-x-ray-optics-9780199673865?cc=ro&lang=en&
       \endverb
       \verb{url}
-      \verb https://global.oup.com/academic/product/coherent-x-ray-optics-9780199673865?cc=ro&lang=en&
+      \verb global.oup.com/academic/product/coherent-x-ray-optics-9780199673865?cc=ro&lang=en&
       \endverb
     \endentry
     \entry{Parratt1954}{article}{}
@@ -17471,6 +17714,48 @@
       \verb 10.1038/s41467-020-18622-2
       \endverb
     \endentry
+    \entry{Patterson1939}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6db6d5691523b766acb84f41c47f1aec}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{6db6d5691523b766acb84f41c47f1aec}
+      \strng{fullhash}{6db6d5691523b766acb84f41c47f1aec}
+      \strng{bibnamehash}{6db6d5691523b766acb84f41c47f1aec}
+      \strng{authorbibnamehash}{6db6d5691523b766acb84f41c47f1aec}
+      \strng{authornamehash}{6db6d5691523b766acb84f41c47f1aec}
+      \strng{authorfullhash}{6db6d5691523b766acb84f41c47f1aec}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{11}
+      \field{title}{The Scherrer Formula for X-Ray Particle Size Determination}
+      \field{volume}{56}
+      \field{year}{1939}
+      \field{pages}{978\bibrangedash 982}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1103/PhysRev.56.978
+      \endverb
+      \verb{urlraw}
+      \verb link.aps.org/doi/10.1103/PhysRev.56.978
+      \endverb
+      \verb{url}
+      \verb link.aps.org/doi/10.1103/PhysRev.56.978
+      \endverb
+    \endentry
     \entry{Perez2007}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=3133b40d011a6dfb7fc4f15b0025967a}{%
@@ -17553,13 +17838,13 @@
       \field{issn}{0926-3373}
       \field{journaltitle}{Applied Catalysis B: Environmental}
       \field{number}{2}
-      \field{title}{Formation and control of N2O in nitric acid production: Where do we stand today?}
+      \field{title}{Formation and control of N$_2$O in nitric acid production: Where do we stand today?}
       \field{volume}{44}
       \field{year}{2003}
       \field{pages}{117\bibrangedash 151}
       \range{pages}{35}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0926-3373(03)00026-2
+      \verb doi.org/10.1016/S0926-3373(03)00026-2
       \endverb
       \keyw{Nitrous oxide,Laughing gas,NO,Nitric acid production,Abatement,Technology,Catalyst,Environment,Greenhouse gas,Ozone layer,In-process-gas,Tail-gas}
     \endentry
@@ -17612,7 +17897,7 @@
       \field{pages}{90\bibrangedash 100}
       \range{pages}{11}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.jcat.2004.06.023
+      \verb doi.org/10.1016/j.jcat.2004.06.023
       \endverb
       \keyw{NH oxidation,Platinum,Rhodium,Gauze,Selectivity,NO,N,NO,Mechanism,Transient experiments,TAP reactor,Isotopes}
     \endentry
@@ -17664,7 +17949,7 @@
       \field{pages}{217\bibrangedash 223}
       \range{pages}{7}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.jcat.2008.11.018
+      \verb doi.org/10.1016/j.jcat.2008.11.018
       \endverb
       \keyw{NH oxidation,Mechanism,Platinum,Palladium,Rhodium,Wires,TAP reactor,DFT}
     \endentry
@@ -17695,7 +17980,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Various adlayers were grown on the (111) surface of a platinum crystal by four different oxidizing treatments. The resulting surface phases were characterized by X-ray photoelectron spectroscopy. According to the Pt 4f and O 1s XPS spectra, treatment in 0.1 MPa O2 at 900 K yielded about two monolayers of PtO2; anodic polarization in 0.5M H2SO4 acid electrolyte at 3 V versus standard hydrogen electrode gave a thick (> 5 nm) layer of Pt(OH)4, while by polarization in 1M NaOH base electrolyte at 3 V versus Ag/AgCl reference electrode a thick film of an oxyhydroxide (approximately PtO(OH)2) was formed. Etching in boiling conc. HNO3 led to a thin layer of about 1 nm of a hydrated oxide, PtO2 · xH2O. Identification of the different surface phases was supported by comparative experiments with bulk PtO2. The thermal stability of all compounds was investigated by heating the samples in ultrahigh vacuum. They all decomposed at about 400 K. Initially, not a pure metal phase was formed, but a mixed phase containing Pt metal and oxide, which was stable over a wide temperature range. No oxygen could be detected on the surface at 1070 K by XPS or Auger spectroscopy.}
+      \field{abstract}{Various adlayers were grown on the (111) surface of a platinum crystal by four different oxidizing treatments. The resulting surface phases were characterized by X-ray photoelectron spectroscopy. According to the Pt 4f and O 1s XPS spectra, treatment in 0.1 MPa O$_2$ at 900 K yielded about two monolayers of PtO2; anodic polarization in 0.5M H2SO4 acid electrolyte at 3 V versus standard hydrogen electrode gave a thick (> 5 nm) layer of Pt(OH)4, while by polarization in 1M NaOH base electrolyte at 3 V versus Ag/AgCl reference electrode a thick film of an oxyhydroxide (approximately PtO(OH)2) was formed. Etching in boiling conc. HNO3 led to a thin layer of about 1 nm of a hydrated oxide, PtO2 · xH2O. Identification of the different surface phases was supported by comparative experiments with bulk PtO2. The thermal stability of all compounds was investigated by heating the samples in ultrahigh vacuum. They all decomposed at about 400 K. Initially, not a pure metal phase was formed, but a mixed phase containing Pt metal and oxide, which was stable over a wide temperature range. No oxygen could be detected on the surface at 1070 K by XPS or Auger spectroscopy.}
       \field{issn}{0039-6028}
       \field{journaltitle}{Surface Science}
       \field{number}{1}
@@ -17705,7 +17990,7 @@
       \field{pages}{239\bibrangedash 259}
       \range{pages}{21}
       \verb{doi}
-      \verb https://doi.org/10.1016/0039-6028(84)90778-7
+      \verb doi.org/10.1016/0039-6028(84)90778-7
       \endverb
     \endentry
     \entry{Mark2005}{thesis}{}
@@ -17731,6 +18016,7 @@
       \field{labeltitlesource}{title}
       \field{month}{01}
       \field{title}{Structural studies of lead nanocrystals using coherent X-ray diffraction}
+      \field{type}{phdthesis}
       \field{year}{2005}
     \endentry
     \entry{Pfeifer2006}{article}{}
@@ -17818,17 +18104,17 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{On-line mass spectrometry is used to examine the kinetics of NH3-oxidation on polycrystalline Pt wires for temperatures between 250 and 1500°C. A differentially pumped system is employed so that species concentrations can be continuously monitored and absolute reaction rates determined. Reactions studied under reaction controlled conditions are unimolecular decomposition of NO and of NH3, the bimolecular reaction of NH3 and NO to form N2, and NH3 oxidation to NO and to N2. In all reactions and at all temperatures, unique steady-states were observed, and these were attained in less than 2 seconds after adjusting pressures and temperatures. Comparison is made with results obtained in a 1 atm flow reactor, and some possible effects of mass transfer limitation on the selectivity are discussed. The selectivity of NO vs. N2 production appears to be controlled almost entirely by the NONH3 reaction for T ⪅ 1000°C, and by unimolecular decomposition of NH3 for higher temperatures. The rates of NH3 decomposition and of NO reduction by NH3 are semi-quantitatively described with simple Langmuir—Hinshelwood kinetics. Adsorbed oxygen is found to inhibit NH3-decomposition and may be necessary to promote the NONH3 reaction.}
+      \field{abstract}{On-line mass spectrometry is used to examine the kinetics of NH$_3$-oxidation on polycrystalline Pt wires for temperatures between 250 and 1500°C. A differentially pumped system is employed so that species concentrations can be continuously monitored and absolute reaction rates determined. Reactions studied under reaction controlled conditions are unimolecular decomposition of NO and of NH$_3$, the bimolecular reaction of NH$_3$ and NO to form N$_2$, and NH$_3$ oxidation to NO and to N$_2$. In all reactions and at all temperatures, unique steady-states were observed, and these were attained in less than 2 seconds after adjusting pressures and temperatures. Comparison is made with results obtained in a 1 atm flow reactor, and some possible effects of mass transfer limitation on the selectivity are discussed. The selectivity of NO vs. N$_2$ production appears to be controlled almost entirely by the NONH3 reaction for T ⪅ 1000°C, and by unimolecular decomposition of NH$_3$ for higher temperatures. The rates of NH$_3$ decomposition and of NO reduction by NH$_3$ are semi-quantitatively described with simple Langmuir—Hinshelwood kinetics. Adsorbed oxygen is found to inhibit NH$_3$-decomposition and may be necessary to promote the NONH3 reaction.}
       \field{issn}{0009-2509}
       \field{journaltitle}{Chemical Engineering Science}
       \field{number}{5}
-      \field{title}{Selectivity of NH3 oxidation on platinum}
+      \field{title}{Selectivity of NH$_3$ oxidation on platinum}
       \field{volume}{29}
       \field{year}{1974}
       \field{pages}{1123\bibrangedash 1131}
       \range{pages}{9}
       \verb{doi}
-      \verb https://doi.org/10.1016/0009-2509(74)80111-9
+      \verb doi.org/10.1016/0009-2509(74)80111-9
       \endverb
     \endentry
     \entry{Pignet1975}{article}{}
@@ -17859,23 +18145,23 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The kinetics of the reactions involved in the catalytic oxidation of NH3 have been studied as a function of temperature over polycrystalline Pt, Rh, and Pd wires in a steady state flow system using a differentially pumped mass spectrometer to monitor species concentrations. Unique and reproducible steady state rates were observed in all experiments for temperatures up to 1400 °C at all compositions. Rates of individual reactions could be fit by Langmuir-Hinshelwood rate expressions with constant parameters, and comparisons of these parameters on different metals give reasonable qualitative interpretations for observed differences between metals. The competition of NO and NH3 for adsorption sites appears to be important in determining the rates of various reactions. Differences in selectivity between metals are caused by the different temperature dependences of rates of individual reactions rather than by uniform differences in rates. Kinetics measured at low pressures (1–2 Torr) are used to estimate selectivities of NO and N2 production at conditions of industrial nitric acid production. The predicted selectivity and optimum temperature and composition on Pt assuming simple models of flow patterns over the catalyst gauze match closely those observed in the high pressure process.}
+      \field{abstract}{The kinetics of the reactions involved in the catalytic oxidation of NH$_3$ have been studied as a function of temperature over polycrystalline Pt, Rh, and Pd wires in a steady state flow system using a differentially pumped mass spectrometer to monitor species concentrations. Unique and reproducible steady state rates were observed in all experiments for temperatures up to 1400 °C at all compositions. Rates of individual reactions could be fit by Langmuir-Hinshelwood rate expressions with constant parameters, and comparisons of these parameters on different metals give reasonable qualitative interpretations for observed differences between metals. The competition of NO and NH$_3$ for adsorption sites appears to be important in determining the rates of various reactions. Differences in selectivity between metals are caused by the different temperature dependences of rates of individual reactions rather than by uniform differences in rates. Kinetics measured at low pressures (1–2 Torr) are used to estimate selectivities of NO and N$_2$ production at conditions of industrial nitric acid production. The predicted selectivity and optimum temperature and composition on Pt assuming simple models of flow patterns over the catalyst gauze match closely those observed in the high pressure process.}
       \field{issn}{0021-9517}
       \field{journaltitle}{Journal of Catalysis}
       \field{number}{2}
-      \field{title}{Kinetics of NH3 oxidation on Pt, Rh, and Pd}
+      \field{title}{Kinetics of NH$_3$ oxidation on Pt, Rh, and Pd}
       \field{volume}{40}
       \field{year}{1975}
       \field{pages}{212\bibrangedash 225}
       \range{pages}{14}
       \verb{doi}
-      \verb https://doi.org/10.1016/0021-9517(75)90249-3
+      \verb doi.org/10.1016/0021-9517(75)90249-3
       \endverb
       \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/0021951775902493
+      \verb www.sciencedirect.com/science/article/pii/0021951775902493
       \endverb
       \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/0021951775902493
+      \verb www.sciencedirect.com/science/article/pii/0021951775902493
       \endverb
     \endentry
     \entry{PtRhGauze}{online}{}
@@ -17935,9 +18221,6 @@
            given={S.},
            giveni={S\bibinitperiod},
            givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
       }
       \strng{namehash}{dca813eef8893e9b50846096c4924d48}
       \strng{fullhash}{0f7507452fc2393e419ca412799cc31e}
@@ -18060,7 +18343,7 @@
       \field{volume}{439}
       \field{year}{2022}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.cej.2022.135350
+      \verb doi.org/10.1016/j.cej.2022.135350
       \endverb
       \keyw{Ammonia oxidation,CFD simulations,Gauze catalyst,Ostwald process,Platinum,Spatial profile measurements}
     \endentry
@@ -18148,7 +18431,7 @@
       \field{pages}{2487\bibrangedash 2504}
       \range{pages}{18}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.energy.2004.12.004
+      \verb doi.org/10.1016/j.energy.2004.12.004
       \endverb
     \endentry
     \entry{Rafti2007}{article}{}
@@ -18190,11 +18473,11 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The NH3 + O2 reaction over Pt(1 0 0) single-crystal surface was studied under UHV conditions using photoemission electron microscopy (PEEM) as spatially resolving method and work function measurements via a Kelvin probe and temperature programmed reaction (TPR) experiments as integral methods. A broad hysteresis in the reaction rates occurs and one finds, reaction fronts as well as spatially homogeneous transitions in the adsorbate layer. {©} 2007 Elsevier B.V. All rights reserved.}
+      \field{abstract}{The NH$_3$ + O$_2$ reaction over Pt(1 0 0) single-crystal surface was studied under UHV conditions using photoemission electron microscopy (PEEM) as spatially resolving method and work function measurements via a Kelvin probe and temperature programmed reaction (TPR) experiments as integral methods. A broad hysteresis in the reaction rates occurs and one finds, reaction fronts as well as spatially homogeneous transitions in the adsorbate layer. {©} 2007 Elsevier B.V. All rights reserved.}
       \field{issn}{00092614}
       \field{journaltitle}{Chemical Physics Letters}
       \field{number}{4-6}
-      \field{title}{{Homogeneous and front-induced surface transformations during catalytic oxidation of ammonia over Pt(1 0 0)}}
+      \field{title}{{Homogeneous and front-induced surface transformations during catalytic oxidation of ammonia over Pt(100)}}
       \field{volume}{446}
       \field{year}{2007}
       \field{pages}{323\bibrangedash 328}
@@ -18251,7 +18534,7 @@
       \field{pages}{2190\bibrangedash 2209}
       \range{pages}{20}
       \verb{doi}
-      \verb https://doi.org/10.1002/anie.200460466
+      \verb doi.org/10.1002/anie.200460466
       \endverb
       \keyw{electrochemistry,energy technology,heterogeneous catalysis,nanoparticles,surface chemistry}
     \endentry
@@ -18495,10 +18778,123 @@
       \verb 10.1103/PhysRevLett.93.116105
       \endverb
       \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.93.116105
+      \verb link.aps.org/doi/10.1103/PhysRevLett.93.116105
       \endverb
       \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.93.116105
+      \verb link.aps.org/doi/10.1103/PhysRevLett.93.116105
+      \endverb
+    \endentry
+    \entry{Richard2017}{article}{}
+      \name{author}{14}{}{%
+        {{un=1,uniquepart=given,hash=bd4400c6d64ced807b65eeb551225fbc}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={M.-I.},
+           giveni={M\bibinithyphendelim I\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=819bb56f61ea99a3e9bd5a8e71ecba8c}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab95244e7e2a550a4bc90d4b91e50a0b}{%
+           family={Hofmann},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=96193b8d8a39fcf9708e0f64fabcf2fc}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60f5ed63a5c6b9dec197176958cd79fa}{%
+           family={Chahine},
+           familyi={C\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bf99ecaf12f04e2f0f34810cc0a9bdf}{%
+           family={Leake},
+           familyi={L\bibinitperiod},
+           given={S.\bibnamedelimi J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cb31f18366a08fa0351e0e86fae629d}{%
+           family={Djazouli},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3712b933bceed208e26ae2645fa15611}{%
+           family={De\bibnamedelima Bortoli},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55964e2480e2641342fec2bbe2e765d3}{%
+           family={Petit},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f60b935c51493e39b5c4abc1437d1581}{%
+           family={Boesecke},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=286771e3cd93e7de76ddedfe167ced67}{%
+           family={Labat},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01494da7dccfe3643a5f9bfb566afce8}{%
+           family={Hensen},
+           familyi={H\bibinitperiod},
+           given={E.\bibnamedelimi J.\bibnamedelimi M.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18c7ea5ebe227dd6a381d07eeac8b4a3}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7f07c12379ff60c91ca3672a32cd3e7}{%
+           family={Schülli},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{57edc4dd2aab5b75ccd240cf060d4e64}
+      \strng{fullhash}{565cb17043677464d5443e84ce7e0259}
+      \strng{bibnamehash}{57edc4dd2aab5b75ccd240cf060d4e64}
+      \strng{authorbibnamehash}{57edc4dd2aab5b75ccd240cf060d4e64}
+      \strng{authornamehash}{57edc4dd2aab5b75ccd240cf060d4e64}
+      \strng{authorfullhash}{565cb17043677464d5443e84ce7e0259}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{ A reactor cell for in situ studies of individual catalyst nanoparticles or surfaces by nano-focused (coherent) x-ray diffraction has been developed. Catalytic reactions can be studied in flow mode in a pressure range of 10−2–103 mbar and temperatures up to 900 °C. This instrument bridges the pressure and materials gap at the same time within one experimental setup. It allows us to probe in situ the structure (e.g., shape, size, strain, faceting, composition, and defects) of individual nanoparticles using a nano-focused x-ray beam. Here, the setup was used to observe strain and facet evolution of individual model Pt catalysts during in situ experiments. It can be used for heating other (non-catalytically active) nanoparticles (e.g., nanowires) in inert or reactive gas atmospheres or vacuum as well. }}
+      \field{issn}{0034-6748}
+      \field{journaltitle}{Review of Scientific Instruments}
+      \field{month}{09}
+      \field{number}{9}
+      \field{title}{{Reactor for nano-focused x-ray diffraction and imaging under catalytic in situ conditions}}
+      \field{volume}{88}
+      \field{year}{2017}
+      \field{pages}{093902}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.5000015
       \endverb
     \endentry
     \entry{Richard2018}{article}{}
@@ -18639,86 +19035,6 @@
       \endverb
       \keyw{Arrays; Deconvolution; Image processing; Point spread function}
     \endentry
-    \entry{Richter2019}{article}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=7001fcd73bc59f6b139b178cb16bef32}{%
-           family={Richter},
-           familyi={R\bibinitperiod},
-           given={Carsten},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d49df84154dd952d772bb26ead4bcf54}{%
-           family={Hilhorst},
-           familyi={H\bibinitperiod},
-           given={Jan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=384c4313db348945f3b65a50d0871bcd}{%
-           family={Petit},
-           familyi={P\bibinitperiod},
-           given={Lucien},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1bcb5a0354e0b6196439518c05547451}{%
-           family={Richard},
-           familyi={R\bibinitperiod},
-           given={Marie-ingrid},
-           giveni={M\bibinithyphendelim i\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2fb0c45a11985920e6f4321a495e2bc7}{%
-           family={Morawe},
-           familyi={M\bibinitperiod},
-           given={Christian},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a081d21c515b8f8142ddd8285176de52}{%
-           family={Barrett},
-           familyi={B\bibinitperiod},
-           given={Raymond},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3a1f1a0016bb4e33e52e9bd0f48cfd33}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Lin},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2a41fc8bc7b2fdc4bcd1d971149d6e38}{%
-           family={Homs-regojo},
-           familyi={H\bibinithyphendelim r\bibinitperiod},
-           given={Roberto\bibnamedelima A},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {International Union of Crystallography}%
-      }
-      \strng{namehash}{b4334416a1d93300beb95c4c5c752dbf}
-      \strng{fullhash}{94ac79c1fd5a210f07529e5d72b7250d}
-      \strng{bibnamehash}{b4334416a1d93300beb95c4c5c752dbf}
-      \strng{authorbibnamehash}{b4334416a1d93300beb95c4c5c752dbf}
-      \strng{authornamehash}{b4334416a1d93300beb95c4c5c752dbf}
-      \strng{authorfullhash}{94ac79c1fd5a210f07529e5d72b7250d}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The ID01 beamline has been built to combine Bragg diffraction with imaging techniques to produce a strain and mosaicity microscope for materials in their native or operando state. A scanning probe with nano-focused beams, objective-lens-based full-field microscopy and coherent diffraction imaging provide a suite of tools which deliver micrometre to few nanometre spatial resolution combined with 10-5 strain and 10-3 tilt sensitivity. A detailed description of the beamline from source to sample is provided and serves as a reference for the user community. The anticipated impact of the impending upgrade to the ESRF – Extremely Brilliant Source is also discussed.}
-      \field{journaltitle}{Journal of Synchrotron Radiation}
-      \field{title}{{The Nanodiffraction beamline ID01 / ESRF : a microscope for imaging strain and structure}}
-      \field{year}{2019}
-      \field{pages}{571\bibrangedash 584}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1107/S160057751900078X
-      \endverb
-      \verb{file}
-      \verb :home/david/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Richter et al. - 2019 - The Nanodiffraction beamline ID01 ESRF a microscope for imaging strain and structure.pdf:pdf
-      \endverb
-      \keyw{been built to combine,bragg diffraction,bragg diffraction with imaging,coherent diffraction imaging,full-field microscopy,scanning microscopy,the id01 beamline has,x-ray}
-    \endentry
     \entry{Rideal1939}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d0a2b45a776ce5f0087b0a0649727e5c}{%
@@ -18811,12 +19127,12 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{{Using synchrotron radiation x-ray photoelectron spectroscopy we have determined the surface composition during the reduction reactions of nitric oxide with hydrogen and carbon monoxide on Pt(100). It is found that NO dissociates readily on this surface and that the dissociation product oxygen is only partially removed by reducing agents H2 and CO. Two oxygen species have been identified after NO dissociation, and they appear to react with H2 and CO at different rates. With increasing total pressures in the NO–H2 reaction, new N-containing surface species are observed. Some preliminary results are presented concerning the reduction of NO in the presence of both CO and H2. For this system partially hydrogenated CO molecules are found in addition to partially hydrogenated N-species.}}
+      \field{abstract}{{Using synchrotron radiation x-ray photoelectron spectroscopy we have determined the surface composition during the reduction reactions of nitric oxide with hydrogen and carbon monoxide on Pt(100). It is found that NO dissociates readily on this surface and that the dissociation product oxygen is only partially removed by reducing agents H$_2$ and CO. Two oxygen species have been identified after NO dissociation, and they appear to react with H$_2$ and CO at different rates. With increasing total pressures in the NO–H$_2$ reaction, new N-containing surface species are observed. Some preliminary results are presented concerning the reduction of NO in the presence of both CO and H$_2$. For this system partially hydrogenated CO molecules are found in addition to partially hydrogenated N-species.}}
       \field{issn}{0021-9606}
       \field{journaltitle}{The Journal of Chemical Physics}
       \field{month}{09}
       \field{number}{12}
-      \field{title}{{The reduction of NO on Pt(100) by H2 and CO studied with synchrotron x-ray photoelectron spectroscopy}}
+      \field{title}{{The reduction of NO on Pt(100) by H$_2$ and CO studied with synchrotron x-ray photoelectron spectroscopy}}
       \field{volume}{119}
       \field{year}{2003}
       \field{pages}{6245\bibrangedash 6252}
@@ -18982,6 +19298,43 @@
       \verb 10.1107/S0021889800004696
       \endverb
     \endentry
+    \entry{Robinson1983}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=892104b4cadaea7613199fef90707a6c}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={I.\bibnamedelimi K.},
+           giveni={I\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{892104b4cadaea7613199fef90707a6c}
+      \strng{fullhash}{892104b4cadaea7613199fef90707a6c}
+      \strng{bibnamehash}{892104b4cadaea7613199fef90707a6c}
+      \strng{authorbibnamehash}{892104b4cadaea7613199fef90707a6c}
+      \strng{authornamehash}{892104b4cadaea7613199fef90707a6c}
+      \strng{authorfullhash}{892104b4cadaea7613199fef90707a6c}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{15}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{4}
+      \field{title}{Direct Determination of the Au(110) Reconstructed Surface by X-Ray Diffraction}
+      \field{volume}{50}
+      \field{year}{1983}
+      \field{pages}{1145\bibrangedash 1148}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.50.1145
+      \endverb
+    \endentry
     \entry{Robinson1986}{article}{}
       \name{author}{1}{}{%
         {{un=1,uniquepart=given,hash=892104b4cadaea7613199fef90707a6c}{%
@@ -18997,6 +19350,7 @@
       \strng{authorbibnamehash}{892104b4cadaea7613199fef90707a6c}
       \strng{authornamehash}{892104b4cadaea7613199fef90707a6c}
       \strng{authorfullhash}{892104b4cadaea7613199fef90707a6c}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -19012,7 +19366,7 @@
       \field{pages}{3830\bibrangedash 3836}
       \range{pages}{7}
       \verb{doi}
-      \verb https://doi.org/10.1103/PhysRevB.33.3830
+      \verb doi.org/10.1103/PhysRevB.33.3830
       \endverb
     \endentry
     \entry{Robinson2005}{article}{}
@@ -19041,9 +19395,6 @@
            given={J.\bibnamedelimi E.},
            giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
            givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
       }
       \strng{namehash}{58645c2895f47bf8b336b81a3935b366}
       \strng{fullhash}{a1f0106225b924ae73f802e1d3ad691e}
@@ -19239,7 +19590,7 @@
       \field{pages}{3127\bibrangedash 3150}
       \range{pages}{24}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.tsf.2010.01.018
+      \verb doi.org/10.1016/j.tsf.2010.01.018
       \endverb
       \keyw{Catalysis,Nanoparticle,Cluster,Reactivity,XPS,EXAFS,TPD,STM,Mass spectrometry,Electrochemistry}
     \endentry
@@ -19425,7 +19776,7 @@
       \field{pages}{161\bibrangedash 186}
       \range{pages}{26}
       \verb{doi}
-      \verb https://doi.org/10.1016/B978-0-444-63474-0.00007-2
+      \verb doi.org/10.1016/B978-0-444-63474-0.00007-2
       \endverb
       \keyw{Kinetics of unimolecular catalytic reactions,enzyme kinetics,Michaelis–Menton kinetics,inhibition by product,kinetics of bimolecular catalytic reactions,Langmuir–Hinshelwood mechanism,true and apparent activation energies,Eley–Rideal mechanism,Mars–van Krevelen mechanism,kinetics of hydrocarbon oxidation,pressure functions,kinetics of ammonia synthesis and decomposition,kinetics of ethane hydrogenolysis,kinetics of methanation,kinetics of formic acid decomposition}
     \endentry
@@ -19640,7 +19991,7 @@
       \field{pages}{2015}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1038/525159a
+      \verb doi.org/10.1038/525159a
       \endverb
     \endentry
     \entry{Takagi1969}{article}{}
@@ -19672,7 +20023,7 @@
       \field{pages}{1239}
       \range{pages}{1}
       \verb{doi}
-      \verb https://doi.org/10.1143/JPSJ.26.1239
+      \verb doi.org/10.1143/JPSJ.26.1239
       \endverb
     \endentry
     \entry{Sayre1952}{article}{}
@@ -19766,7 +20117,7 @@
       \field{pages}{210\bibrangedash 216}
       \range{pages}{7}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.jcat.2013.02.010
+      \verb doi.org/10.1016/j.jcat.2013.02.010
       \endverb
       \keyw{Ammonia oxidation,Mechanism,Nanoparticles,Platinum,Nitric oxide,TAP reactor}
     \endentry
@@ -19825,7 +20176,7 @@
       \verb 10.1021/ar300225s
       \endverb
     \endentry
-    \entry{Schavkan2013}{inproceedings}{}
+    \entry{Schavkan2013}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=123d2dd8eddb678765433096b52f0943}{%
            family={Schavkan},
@@ -19870,9 +20221,6 @@
            giveni={M\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {Institute of Physics Publishing}%
-      }
       \strng{namehash}{f3ddc2756967f8dd42d51af5df9cb56a}
       \strng{fullhash}{c296d54c326483cd73e423689e5af807}
       \strng{bibnamehash}{f3ddc2756967f8dd42d51af5df9cb56a}
@@ -19887,7 +20235,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Possibilities to use the MAXIPIX 2×2 detector for coherent scattering applications are investigated. This study focuses on X-ray Photon Correlation Spectroscopy experiments. Flatfield measurements show that the MAXIPIX detector pixels respond very inhomogeneously in the X-ray range between 5 and 10 keV most commonly used for coherent scattering experiments. Two colloidal model sample systems are investigated using the MAXIPIX and a direct illumination CCD for comparison. It is demonstrated that the MAXIPIX 2×2 detector is applicable for static and dynamic coherent scattering experiments after flatfield correction.}
       \field{issn}{17426596}
-      \field{issue}{PART 20}
       \field{journaltitle}{Journal of Physics: Conference Series}
       \field{title}{Using the MAXIPIX detector for coherent X-ray scattering applications}
       \field{volume}{425}
@@ -19929,7 +20276,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The kinetics of ammonia oxidation with oxygen have been investigated in the 10−5 and 10−4mbar range on Pt(533) and Pt(443). Only N2 and NO but no N2O were detected as reaction products. The dependence of product formation on temperature and on the partial pressures of the reactants has been studied under steady state conditions. The reactive sticking coefficients were determined under reaction conditions with sreac of ammonia reaching nearly 0.2. The Pt(533) surface was found to be catalytically more active than Pt(443) by a factor of 2–4.}
+      \field{abstract}{The kinetics of ammonia oxidation with oxygen have been investigated in the 10−5 and 10−4mbar range on Pt(533) and Pt(443). Only N$_2$ and NO but no N$_2$O were detected as reaction products. The dependence of product formation on temperature and on the partial pressures of the reactants has been studied under steady state conditions. The reactive sticking coefficients were determined under reaction conditions with sreac of ammonia reaching nearly 0.2. The Pt(533) surface was found to be catalytically more active than Pt(443) by a factor of 2–4.}
       \field{issn}{0039-6028}
       \field{journaltitle}{Surface Science}
       \field{number}{1}
@@ -19939,7 +20286,7 @@
       \field{pages}{1\bibrangedash 14}
       \range{pages}{14}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.susc.2004.12.027
+      \verb doi.org/10.1016/j.susc.2004.12.027
       \endverb
       \keyw{Platinum,Stepped platinum surface,Ammonia oxidation,Kinetics}
     \endentry
@@ -20156,7 +20503,7 @@
       \field{pages}{3581\bibrangedash 3601}
       \range{pages}{21}
       \verb{doi}
-      \verb https://doi.org/10.1002/cctc.201900595
+      \verb doi.org/10.1002/cctc.201900595
       \endverb
       \keyw{Computational chemistry,density functional theory,heterogeneous catalysis,machine learning,materials science}
     \endentry
@@ -20190,7 +20537,7 @@
       \field{pages}{3465\bibrangedash 3520}
       \range{pages}{56}
       \verb{doi}
-      \verb https://doi.org/10.1002/anie.201410738
+      \verb doi.org/10.1002/anie.201410738
       \endverb
       \keyw{heterogeneous catalysis,reaction kinetics,surface chemistry}
     \endentry
@@ -20229,74 +20576,91 @@
       \endverb
     \endentry
     \entry{Schroer2008}{article}{}
-      \name{author}{8}{}{%
+      \name{author}{10}{}{%
         {{un=0,uniquepart=base,hash=fea16c7674cf219e280292ab9cc22ff3}{%
            family={Schroer},
            familyi={S\bibinitperiod},
-           given={C\bibnamedelima G},
+           given={C.\bibnamedelimi G.},
            giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=154b180d075b537d0ba2e37523cf1b00}{%
            family={Boye},
            familyi={B\bibinitperiod},
-           given={P},
+           given={P.},
            giveni={P\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=4bab9f0d83f41eca05953f881cf64c0c}{%
            family={Feldkamp},
            familyi={F\bibinitperiod},
-           given={J\bibnamedelima M},
+           given={J.\bibnamedelimi M.},
            giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=f0b947e4d15e29fe772a1c5f258ef62f}{%
            family={Patommel},
            familyi={P\bibinitperiod},
-           given={J},
+           given={J.},
            giveni={J\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=2cd5bb0019eaf6561673d3f2ef248caa}{%
            family={Schropp},
            familyi={S\bibinitperiod},
-           given={A},
+           given={A.},
            giveni={A\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=1a3b35125ee6383e4aeab54583c98cf7}{%
            family={Schwab},
            familyi={S\bibinitperiod},
-           given={A},
+           given={A.},
            giveni={A\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=6820f34353f452d4f9805715bdc9d91c}{%
            family={Stephan},
            familyi={S\bibinitperiod},
-           given={S},
+           given={S.},
            giveni={S\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=addde88337c82329d444ed8b41578851}{%
            family={Burghammer},
            familyi={B\bibinitperiod},
-           given={M},
+           given={M.},
            giveni={M\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=1096d75e2e86717bab9e04202a0093c7}{%
+           family={Schöder},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4ab192cbf9fa8ae3e82b903d14497c3}{%
+           family={Riekel},
+           familyi={R\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
       }
       \strng{namehash}{d9fba359ca5353a5dc904f917f6ec429}
-      \strng{fullhash}{22a015bbc4d665d2c8a50d4f64875bb4}
+      \strng{fullhash}{871e2e9ae4002856c63251236525de92}
       \strng{bibnamehash}{d9fba359ca5353a5dc904f917f6ec429}
       \strng{authorbibnamehash}{d9fba359ca5353a5dc904f917f6ec429}
       \strng{authornamehash}{d9fba359ca5353a5dc904f917f6ec429}
-      \strng{authorfullhash}{22a015bbc4d665d2c8a50d4f64875bb4}
+      \strng{authorfullhash}{871e2e9ae4002856c63251236525de92}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issue}{August}
+      \field{issue}{9}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{08}
       \field{title}{Coherent X-Ray Diffraction Imaging with Nanofocused Illumination}
-      \field{volume}{090801}
+      \field{volume}{101}
       \field{year}{2008}
-      \field{pages}{1\bibrangedash 4}
-      \range{pages}{4}
+      \field{pages}{090801}
+      \range{pages}{1}
       \verb{doi}
       \verb 10.1103/PhysRevLett.101.090801
       \endverb
@@ -20376,7 +20740,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Angular distributions of CO2, I(γr), formed by catalytic reaction between CO and O2 on a stepped Pt(111) surface, have been measured by means of molecular beam techniques as a function of CO and O coverages, in the presence of “subsurface oxide”, and at varying temperatures. The resulting data can well be fitted by I(γr) = a cos γr + (1-a) cos7γr with a being an adjustable parameter which varies with the surface conditions. The cos γr part is ascribed to particles which were completely accommodated with their translational energy to the surface temperature before leaving the surface, while the cos7γr channel corresponds to molecules carrying excess translational energy from crossing the activation barrier of the surface reaction. The fraction of thermally accommodated particles increases by the presence of steps or “subsurface oxide”, and decreases with O and CO coverage as well as with increasing temperature. The effect of coverage can qualitatively be attributed to the varying participation of defect sites in product formation, while the influence of surface temperature is well reproduced in the framework of a general theoretical model. Scattering experiments with CO2 revealed that the trapping probability for this molecule (in the temperature range interesting here) is of the order of 0.5, thus confirming the conclusion of incomplete thermal accommodation of a CO2 molecule interacting with a Pt(111) surface.}
+      \field{abstract}{Angular distributions of CO2, I(γr), formed by catalytic reaction between CO and O$_2$ on a stepped Pt(111) surface, have been measured by means of molecular beam techniques as a function of CO and O coverages, in the presence of “subsurface oxide”, and at varying temperatures. The resulting data can well be fitted by I(γr) = a cos γr + (1-a) cos7γr with a being an adjustable parameter which varies with the surface conditions. The cos γr part is ascribed to particles which were completely accommodated with their translational energy to the surface temperature before leaving the surface, while the cos7γr channel corresponds to molecules carrying excess translational energy from crossing the activation barrier of the surface reaction. The fraction of thermally accommodated particles increases by the presence of steps or “subsurface oxide”, and decreases with O and CO coverage as well as with increasing temperature. The effect of coverage can qualitatively be attributed to the varying participation of defect sites in product formation, while the influence of surface temperature is well reproduced in the framework of a general theoretical model. Scattering experiments with CO2 revealed that the trapping probability for this molecule (in the temperature range interesting here) is of the order of 0.5, thus confirming the conclusion of incomplete thermal accommodation of a CO2 molecule interacting with a Pt(111) surface.}
       \field{issn}{0039-6028}
       \field{journaltitle}{Surface Science}
       \field{number}{2}
@@ -20386,7 +20750,7 @@
       \field{pages}{505\bibrangedash 523}
       \range{pages}{19}
       \verb{doi}
-      \verb https://doi.org/10.1016/0039-6028(84)90262-0
+      \verb doi.org/10.1016/0039-6028(84)90262-0
       \endverb
     \endentry
     \entry{Seriani2008}{article}{}
@@ -20469,7 +20833,7 @@
       \field{issue}{30}
       \field{journaltitle}{Journal of Physical Chemistry B}
       \field{month}{8}
-      \field{title}{Catalytic oxidation activity of Pt3O4 surfaces and thin films}
+      \field{title}{Catalytic oxidation activity of Pt$_3$O$_4$ surfaces and thin films}
       \field{volume}{110}
       \field{year}{2006}
       \field{pages}{14860\bibrangedash 14869}
@@ -20781,7 +21145,7 @@
       \field{volume}{7}
       \field{year}{2020}
       \verb{doi}
-      \verb https://doi.org/10.1107/S1600577520011388
+      \verb doi.org/10.1107/S1600577520011388
       \endverb
       \keyw{in situ measurements,nexafs,numbers,peak fitting,python,transfer of copyright received,using the doi,yet been assigned page,your article has not}
     \endentry
@@ -20930,7 +21294,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The low-temperature deactivation of a platinum sponge catalyst used for ammonia oxidation was studied with the positron emission profiling technique (PEP). Evidence that irreversibly adsorbed nitrogen species deactivate the catalyst is presented. Two reactivity regimes are distinguished. Initial fast N2 production at low surface coverage and a relatively slow N2 and N2O production at steady state when the surface is fully covered. The fast deactivation of the platinum sponge is mainly caused by adsorbed nitrogen species. The formation of PtO is relatively slow compared to surface nitride. The fast initial deactivation of platinum sponge by nitrogen and oxygen species is greatly retarded at temperatures above 388 K. Temperature-programmed reaction together with temperature-programmed desorption experiments show reactivation of the catalyst above this temperature.}
+      \field{abstract}{The low-temperature deactivation of a platinum sponge catalyst used for ammonia oxidation was studied with the positron emission profiling technique (PEP). Evidence that irreversibly adsorbed nitrogen species deactivate the catalyst is presented. Two reactivity regimes are distinguished. Initial fast N$_2$ production at low surface coverage and a relatively slow N$_2$ and N$_2$O production at steady state when the surface is fully covered. The fast deactivation of the platinum sponge is mainly caused by adsorbed nitrogen species. The formation of PtO is relatively slow compared to surface nitride. The fast initial deactivation of platinum sponge by nitrogen and oxygen species is greatly retarded at temperatures above 388 K. Temperature-programmed reaction together with temperature-programmed desorption experiments show reactivation of the catalyst above this temperature.}
       \field{issn}{0021-9517}
       \field{journaltitle}{Journal of Catalysis}
       \field{number}{2}
@@ -20940,7 +21304,7 @@
       \field{pages}{466\bibrangedash 478}
       \range{pages}{13}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.jcat.2004.04.035
+      \verb doi.org/10.1016/j.jcat.2004.04.035
       \endverb
       \keyw{NH,O,Positron emission profiling,Ammonia oxidation,Deactivation,Platinum,Platinum sponge,Low temperature}
     \endentry
@@ -21236,7 +21600,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Adsorption states of nitric oxide on Pt(100) and Pt(310) surfaces were studied by Auger electron spectroscopy (AES), ultraviolet and X-ray photoelectron spectroscopy (UPS and XPS). The molecular NO and the dissociated N and O atoms coexist on both the platinum surfaces at room temperature. As the temperature rises, a part of the molecules desorbs quickly and another part decomposes into N and O up to 420 K for Pt(100) and 400 K for Pt(310). The N atoms desorb as N2 up to 420 K. A part of the dissociated O atoms penetrates into a few atomic layers of the platinum crystals up to about 600 K, and they diffuse back to the surface with the thermal desorption of O2 at higher temperatures. The Pt(310) surface is slightly more active for the N-O bond breaking than Pt(100), and less than Pt(410).}
+      \field{abstract}{Adsorption states of nitric oxide on Pt(100) and Pt(310) surfaces were studied by Auger electron spectroscopy (AES), ultraviolet and X-ray photoelectron spectroscopy (UPS and XPS). The molecular NO and the dissociated N and O atoms coexist on both the platinum surfaces at room temperature. As the temperature rises, a part of the molecules desorbs quickly and another part decomposes into N and O up to 420 K for Pt(100) and 400 K for Pt(310). The N atoms desorb as N$_2$ up to 420 K. A part of the dissociated O atoms penetrates into a few atomic layers of the platinum crystals up to about 600 K, and they diffuse back to the surface with the thermal desorption of O$_2$ at higher temperatures. The Pt(310) surface is slightly more active for the N-O bond breaking than Pt(100), and less than Pt(410).}
       \field{issn}{0039-6028}
       \field{journaltitle}{Surface Science}
       \field{number}{1}
@@ -21246,7 +21610,7 @@
       \field{pages}{67\bibrangedash 75}
       \range{pages}{9}
       \verb{doi}
-      \verb https://doi.org/10.1016/0039-6028(93)90610-V
+      \verb doi.org/10.1016/0039-6028(93)90610-V
       \endverb
     \endentry
     \entry{Suzana2019}{article}{}
@@ -21403,7 +21767,7 @@
       \field{pages}{4537\bibrangedash 4547}
       \range{pages}{11}
       \verb{doi}
-      \verb https://doi.org/10.1002/cctc.201900971
+      \verb doi.org/10.1002/cctc.201900971
       \endverb
       \keyw{Machine learning,Catalysis informatics,Methane oxidative coupling,Water gas shift,CO oxidation}
     \endentry
@@ -21500,18 +21864,18 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Abstract Two series of Pt/γ-Al2O3 catalysts for low temperature NH3 oxidation were prepared using Pt(NO3)4 and H2PtCl6 precursors. Using both precursors results in the formation of small Pt particles (d<1.5 nm), however, Cl-containing Pt precursors give a higher fraction of highly dispersed Pt species. Such species show high stability against thermal or H2 treatment probably due to the presence of a substantial amount of chlorine on the surface. Treatment of the samples prepared from Pt(NO3)4 with H2 leads to the formation of metallic Pt nanoparticles accompanied by the improvement of catalytic activity in NH3 oxidation at T<200 °C. The main products of ammonia oxidation at temperatures below 250 °C were molecular nitrogen and nitrous oxide with the N2 selectivity reaching 80 \%. Operando XANES/EXAFS revealed that even after H2 pretreatment at least 40 \% of Pt surface remains in oxidized state under reaction conditions resulting in the appearance of N2O as a by-product.}
+      \field{abstract}{Abstract Two series of Pt/γ-Al$_2$O$_3$ catalysts for low temperature NH$_3$ oxidation were prepared using Pt(NO3)4 and H2PtCl6 precursors. Using both precursors results in the formation of small Pt particles (d<1.5 nm), however, Cl-containing Pt precursors give a higher fraction of highly dispersed Pt species. Such species show high stability against thermal or H$_2$ treatment probably due to the presence of a substantial amount of chlorine on the surface. Treatment of the samples prepared from Pt(NO3)4 with H$_2$ leads to the formation of metallic Pt nanoparticles accompanied by the improvement of catalytic activity in NH$_3$ oxidation at T<200 °C. The main products of ammonia oxidation at temperatures below 250 °C were molecular nitrogen and nitrous oxide with the N$_2$ selectivity reaching 80 \%. Operando XANES/EXAFS revealed that even after H$_2$ pretreatment at least 40 \% of Pt surface remains in oxidized state under reaction conditions resulting in the appearance of N$_2$O as a by-product.}
       \field{journaltitle}{ChemCatChem}
       \field{number}{3}
-      \field{title}{Insight into the Nature of Active Species of Pt/Al2O3 Catalysts for low Temperature NH3 Oxidation}
+      \field{title}{Insight into the Nature of Active Species of Pt/Al$_2$O$_3$ Catalysts for low Temperature NH$_3$ Oxidation}
       \field{volume}{12}
       \field{year}{2020}
       \field{pages}{867\bibrangedash 880}
       \range{pages}{14}
       \verb{doi}
-      \verb https://doi.org/10.1002/cctc.201901719
+      \verb doi.org/10.1002/cctc.201901719
       \endverb
-      \keyw{ammonia slip catalyst,NH3,operando spectroscopy,Pt/Al2O3,platinum}
+      \keyw{ammonia slip catalyst,NH$_3$,operando spectroscopy,Pt/Al$_2$O$_3$,platinum}
     \endentry
     \entry{Taglauer1990}{article}{}
       \name{author}{1}{}{%
@@ -21579,7 +21943,7 @@
       \field{pages}{1311\bibrangedash 1312}
       \range{pages}{2}
       \verb{doi}
-      \verb https://doi.org/10.1107/S0365110X62003473
+      \verb doi.org/10.1107/S0365110X62003473
       \endverb
     \endentry
     \entry{Taylor1925}{article}{}
@@ -21645,10 +22009,10 @@
       \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.thermofisher.com/blog/identifying-threats/reducing-nh3-slip-in-selective-catalytic-reduction-scr/
+      \verb www.thermofisher.com/blog/identifying-threats/reducing-NH$_3$-slip-in-selective-catalytic-reduction-scr/
       \endverb
       \verb{url}
-      \verb https://www.thermofisher.com/blog/identifying-threats/reducing-nh3-slip-in-selective-catalytic-reduction-scr/
+      \verb www.thermofisher.com/blog/identifying-threats/reducing-NH$_3$-slip-in-selective-catalytic-reduction-scr/
       \endverb
     \endentry
     \entry{Thiemann2000}{inbook}{}
@@ -21693,7 +22057,7 @@
       \field{title}{Nitric Acid, Nitrous Acid, and Nitrogen Oxides}
       \field{year}{2000}
       \verb{doi}
-      \verb https://doi.org/10.1002/14356007.a17_293
+      \verb doi.org/10.1002/14356007.a17_293
       \endverb
     \endentry
     \entry{Tian2007}{article}{}
@@ -21753,13 +22117,13 @@
       \verb 10.1126/science.1140484
       \endverb
       \verb{eprint}
-      \verb https://www.science.org/doi/pdf/10.1126/science.1140484
+      \verb www.science.org/doi/pdf/10.1126/science.1140484
       \endverb
       \verb{urlraw}
-      \verb https://www.science.org/doi/abs/10.1126/science.1140484
+      \verb www.science.org/doi/abs/10.1126/science.1140484
       \endverb
       \verb{url}
-      \verb https://www.science.org/doi/abs/10.1126/science.1140484
+      \verb www.science.org/doi/abs/10.1126/science.1140484
       \endverb
     \endentry
     \entry{Ulvestad2014}{article}{}
@@ -21812,9 +22176,6 @@
            given={O.\bibnamedelimi G.},
            giveni={O\bibinitperiod\bibinitdelim G\bibinitperiod},
            givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
       }
       \strng{namehash}{58324b09294cd6612b9decb22232d26d}
       \strng{fullhash}{b1bdf84932fabd7cac5887d8cd3f1d50}
@@ -22221,7 +22582,7 @@
       \field{pages}{3\bibrangedash 49}
       \range{pages}{47}
       \verb{doi}
-      \verb https://doi.org/10.1016/S1573-4331(96)80006-0
+      \verb doi.org/10.1016/S1573-4331(96)80006-0
       \endverb
     \endentry
     \entry{VanBeurden2004}{article}{}
@@ -22306,7 +22667,7 @@
       \field{pages}{297\bibrangedash 306}
       \range{pages}{10}
       \verb{doi}
-      \verb https://doi.org/10.1006/jcat.1999.2506
+      \verb doi.org/10.1006/jcat.1999.2506
       \endverb
     \endentry
     \entry{VanDerWalt2011}{article}{}
@@ -22468,7 +22829,7 @@
       \field{pages}{189\bibrangedash 217}
       \range{pages}{29}
       \verb{doi}
-      \verb https://doi.org/10.1016/0039-6028(81)90107-2
+      \verb doi.org/10.1016/0039-6028(81)90107-2
       \endverb
     \endentry
     \entry{VanSpronsen2017}{article}{}
@@ -22876,7 +23237,7 @@
       \field{pages}{401\bibrangedash 405}
       \range{pages}{5}
       \verb{doi}
-      \verb https://doi.org/10.1107/S0021889899013655
+      \verb doi.org/10.1107/S0021889899013655
       \endverb
     \endentry
     \entry{Vogt2022}{article}{}
@@ -22985,7 +23346,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Unlike for metal catalysts where selective chemisorption probes (H2, O$_2$, CO and N$_2$O) have been successfully applied to count the number of active surface sites and allow determination of TOF values, the analogous situation for oxide catalysts has developed very slowly. The reason for the sluggish development of selective chemisorption probes for oxides is that the same chemisorption probes that work well with metals aren’t compatible with oxides since these chemical probes weakly adsorb on oxides. Methanol, however, is a very reactive molecule that has been found to readily chemisorb on oxides and allows for quantitative determination of the number of active surface sites (Ns). In this mini-review, the determination of the number of active sites by methanol chemisorption is reviewed with examples for pure oxides (one-component oxides), supported oxides (submonolayer, monolayer and above monolayer) and bulk mixed oxides (surface enriched oxide present in submonolayer, monolayer and in excess of monolayer coverages).}
+      \field{abstract}{Unlike for metal catalysts where selective chemisorption probes (H$_2$, O$_2$, CO and N$_2$O) have been successfully applied to count the number of active surface sites and allow determination of TOF values, the analogous situation for oxide catalysts has developed very slowly. The reason for the sluggish development of selective chemisorption probes for oxides is that the same chemisorption probes that work well with metals aren’t compatible with oxides since these chemical probes weakly adsorb on oxides. Methanol, however, is a very reactive molecule that has been found to readily chemisorb on oxides and allows for quantitative determination of the number of active surface sites (Ns). In this mini-review, the determination of the number of active sites by methanol chemisorption is reviewed with examples for pure oxides (one-component oxides), supported oxides (submonolayer, monolayer and above monolayer) and bulk mixed oxides (surface enriched oxide present in submonolayer, monolayer and in excess of monolayer coverages).}
       \field{issn}{0021-9517}
       \field{journaltitle}{Journal of Catalysis}
       \field{title}{Number of surface sites and turnover frequencies for oxide catalysts}
@@ -22994,7 +23355,7 @@
       \field{pages}{462\bibrangedash 472}
       \range{pages}{11}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.jcat.2021.12.032
+      \verb doi.org/10.1016/j.jcat.2021.12.032
       \endverb
       \keyw{Oxides,Redox,Acid,Ns,TOF}
     \endentry
@@ -23394,7 +23755,7 @@
       \field{pages}{359\bibrangedash 421}
       \range{pages}{63}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0360-0564(08)60044-9
+      \verb doi.org/10.1016/S0360-0564(08)60044-9
       \endverb
     \endentry
     \entry{Weinberg1996}{article}{}
@@ -23478,7 +23839,7 @@
       \field{pages}{915\bibrangedash 921}
       \range{pages}{7}
       \verb{doi}
-      \verb https://doi.org/10.1016/S0166-1116(98)80054-X
+      \verb doi.org/10.1016/S0166-1116(98)80054-X
       \endverb
     \endentry
     \entry{Weissmuller2019}{article}{}
@@ -23511,7 +23872,7 @@
       \field{pages}{45\bibrangedash 53}
       \range{pages}{9}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.coche.2018.12.012
+      \verb doi.org/10.1016/j.coche.2018.12.012
       \endverb
     \endentry
     \entry{Weststrate2006}{article}{}
@@ -23571,7 +23932,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The adsorption of both O2 and NH3 on Pt(410) was studied using temperature-programmed desorption (TPD) and X-ray photoelectron spectroscopy (XPS). Molecular NH3 desorbed from Pt(410) between 100 and 450 K, and dissociation was not observed. Radiation (X-rays, electrons) induced NH3ad dissociation, and as a result several dissociation products (NH2ad, NHad, and Nad) were observed in the N 1s core-level spectrum. NHad is a rather stable dissociation product that starts to dehydrogenate above 350 K. The Nad and Had formed in this process desorbed on formation (as N2 and H2). Both molecular and dissociative O2 adsorption were observed after the surface was exposed to O2(g) at 100 K. Molecularly adsorbed O2 desorbed below 200 K, whereas atomic oxygen desorbed (as O2) between 600 and 900 K, in two distinct desorption peaks. In the O 1s core-level spectrum, both molecular O2 and two different types of Oad were distinguished. NH3ad dissociation was observed on an oxygen-presaturated surface. The NH3ad oxy-dehydrogenation started at 150 K. NOad and NO(g) were also observed, but only during experiments in which an excess of Oad was available. NOad desorbed/decomposed between 400 and 500 K. For the steady-state ammonia oxidation reaction, N2 and H2O were the major products at low temperatures, whereas the selectivity toward NO and H2O changed at higher temperatures. This selectivity change can be attributed to changes in surface composition.}
+      \field{abstract}{The adsorption of both O$_2$ and NH$_3$ on Pt(410) was studied using temperature-programmed desorption (TPD) and X-ray photoelectron spectroscopy (XPS). Molecular NH$_3$ desorbed from Pt(410) between 100 and 450 K, and dissociation was not observed. Radiation (X-rays, electrons) induced NH3ad dissociation, and as a result several dissociation products (NH2ad, NHad, and Nad) were observed in the N 1s core-level spectrum. NHad is a rather stable dissociation product that starts to dehydrogenate above 350 K. The Nad and Had formed in this process desorbed on formation (as N$_2$ and H$_2$). Both molecular and dissociative O$_2$ adsorption were observed after the surface was exposed to O$_2$(g) at 100 K. Molecularly adsorbed O$_2$ desorbed below 200 K, whereas atomic oxygen desorbed (as O$_2$) between 600 and 900 K, in two distinct desorption peaks. In the O 1s core-level spectrum, both molecular O$_2$ and two different types of Oad were distinguished. NH3ad dissociation was observed on an oxygen-presaturated surface. The NH3ad oxy-dehydrogenation started at 150 K. NOad and NO(g) were also observed, but only during experiments in which an excess of Oad was available. NOad desorbed/decomposed between 400 and 500 K. For the steady-state ammonia oxidation reaction, N$_2$ and H$_2$O were the major products at low temperatures, whereas the selectivity toward NO and H$_2$O changed at higher temperatures. This selectivity change can be attributed to changes in surface composition.}
       \field{issn}{0021-9517}
       \field{journaltitle}{Journal of Catalysis}
       \field{number}{1}
@@ -23581,7 +23942,7 @@
       \field{pages}{184\bibrangedash 194}
       \range{pages}{11}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.jcat.2006.06.011
+      \verb doi.org/10.1016/j.jcat.2006.06.011
       \endverb
       \keyw{O adsorption,NH,Pt(410),Ammonia oxidation,NO formation,X-ray photoelectron spectroscopy,Synchrotron radiation,Temperature-programmed desorption}
     \endentry
@@ -23700,10 +24061,10 @@
       \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.who.int/health-topics/air-pollution
+      \verb www.who.int/health-topics/air-pollution
       \endverb
       \verb{url}
-      \verb https://www.who.int/health-topics/air-pollution
+      \verb www.who.int/health-topics/air-pollution
       \endverb
     \endentry
     \entry{Wild2000}{article}{}
@@ -23745,7 +24106,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The surface composition of Rh and Pt blacks (as determined by XPS) shows carbon and oxygen impurities in the untreated state. Oxygen on Pt is present as adsorbed O as well as OH/H2O groups and oxidized carbon. Rh was partly oxidized to Rh2O3, in agreement with UPS showing hardly any Fermi‐edge intensity in untreated Rh as opposed to untreated Pt. High Fermi‐edge intensities indicated a predominant metallic surface after an in situ treatment with H2 at 483 K, increasing the purity (XPS) to ∼90{\%}. This treatment reduced Rh to metal and removed its C impurity. Pt, in turn, retained much carbon after H2 treatment, present mainly as graphitic carbon. A minor amount of CO was also detected, some of the O 1s peak belonging to it. The two metals were tested in methylcyclopentane reactions. Considering the necessity of carbon for nondegradative reactions and oxygen enhancing fragmentation, a correlation is suggested between the typical impurities of Pt and Rh and their respective catalytic propensities: the high fragmentation activity of Rh and the predominant nondegradative reactions to C6 ``ring opening products'' on Pt.}
+      \field{abstract}{The surface composition of Rh and Pt blacks (as determined by XPS) shows carbon and oxygen impurities in the untreated state. Oxygen on Pt is present as adsorbed O as well as OH/H$_2$O groups and oxidized carbon. Rh was partly oxidized to Rh2O3, in agreement with UPS showing hardly any Fermi‐edge intensity in untreated Rh as opposed to untreated Pt. High Fermi‐edge intensities indicated a predominant metallic surface after an in situ treatment with H$_2$ at 483 K, increasing the purity (XPS) to ∼90{\%}. This treatment reduced Rh to metal and removed its C impurity. Pt, in turn, retained much carbon after H$_2$ treatment, present mainly as graphitic carbon. A minor amount of CO was also detected, some of the O 1s peak belonging to it. The two metals were tested in methylcyclopentane reactions. Considering the necessity of carbon for nondegradative reactions and oxygen enhancing fragmentation, a correlation is suggested between the typical impurities of Pt and Rh and their respective catalytic propensities: the high fragmentation activity of Rh and the predominant nondegradative reactions to C6 ``ring opening products'' on Pt.}
       \field{issn}{1572-879X}
       \field{journaltitle}{Catalysis Letters}
       \field{month}{07}
@@ -23874,7 +24235,7 @@
       \field{pages}{303\bibrangedash 310}
       \range{pages}{8}
       \verb{doi}
-      \verb https://doi.org/10.1016/0001-6160(67)90206-4
+      \verb doi.org/10.1016/0001-6160(67)90206-4
       \endverb
     \endentry
     \entry{Wood1964}{article}{}
@@ -24102,7 +24463,7 @@
       \field{pages}{22996\bibrangedash 23001}
       \range{pages}{6}
       \verb{doi}
-      \verb https://doi.org/10.1002/anie.202110636
+      \verb doi.org/10.1002/anie.202110636
       \endverb
       \keyw{ab initio calculations,atomic strain,electrochemistry,nanomaterials,transition metals}
     \endentry
@@ -24492,7 +24853,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Catalytic properties of Pt3O4 platinum oxide were studied in the high-temperature range. The optimal parameters of ammonia oxidation on the oxide catalyst and kinetic characteristics of the reaction were determined. {©} 2001 MAIK Nauka/Interperiodica.}
+      \field{abstract}{Catalytic properties of Pt$_3$O$_4$ platinum oxide were studied in the high-temperature range. The optimal parameters of ammonia oxidation on the oxide catalyst and kinetic characteristics of the reaction were determined. {©} 2001 MAIK Nauka/Interperiodica.}
       \field{issn}{10704272}
       \field{journaltitle}{Russian Journal of Applied Chemistry}
       \field{number}{10}
@@ -24556,13 +24917,13 @@
       \verb 10.1126/science.273.5282.1688
       \endverb
       \verb{eprint}
-      \verb https://www.science.org/doi/pdf/10.1126/science.273.5282.1688
+      \verb www.science.org/doi/pdf/10.1126/science.273.5282.1688
       \endverb
       \verb{urlraw}
-      \verb https://www.science.org/doi/abs/10.1126/science.273.5282.1688
+      \verb www.science.org/doi/abs/10.1126/science.273.5282.1688
       \endverb
       \verb{url}
-      \verb https://www.science.org/doi/abs/10.1126/science.273.5282.1688
+      \verb www.science.org/doi/abs/10.1126/science.273.5282.1688
       \endverb
     \endentry
     \entry{Yingfeng2008}{thesis}{}
@@ -24617,7 +24978,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Ammonia oxidation over different Pt single crystal orientations and a Pt foil has been studied in the 10−5 to 10−2 mbar range with rate measurements and LEED. The reaction exhibits only a moderate structure sensitivity with the activity varying in the sequence Pt foil:Pt(533):Pt(865):Pt(443):Pt(100)=6:4:4:2:1. The activity is apparently mainly determined by the oxygen sticking coefficient which reaches 0.14 on the Pt foil. Broad hystereses in the reaction rates upon cyclic variation of the temperature are associated with reversible structural changes. The extent of reaction-induced structural changes depends strongly on the orientation, the total pressure and also on the ratio of the reactants NH3/O2. On Pt(533) and Pt(443) the extent of restructuring and the hysteretic behavior was found to depend in a non-monotonic way on the total pressure. Exposure to reaction conditions at 10−3 mbar creates a disordered surface as seen in LEED with no LEED spots visible; but after exposure to reaction conditions at 10−2 mbar the integral order beams in LEED are again visible.}
+      \field{abstract}{Ammonia oxidation over different Pt single crystal orientations and a Pt foil has been studied in the 10−5 to 10−2 mbar range with rate measurements and LEED. The reaction exhibits only a moderate structure sensitivity with the activity varying in the sequence Pt foil:Pt(533):Pt(865):Pt(443):Pt(100)=6:4:4:2:1. The activity is apparently mainly determined by the oxygen sticking coefficient which reaches 0.14 on the Pt foil. Broad hystereses in the reaction rates upon cyclic variation of the temperature are associated with reversible structural changes. The extent of reaction-induced structural changes depends strongly on the orientation, the total pressure and also on the ratio of the reactants NH$_3$/O$_2$. On Pt(533) and Pt(443) the extent of restructuring and the hysteretic behavior was found to depend in a non-monotonic way on the total pressure. Exposure to reaction conditions at 10−3 mbar creates a disordered surface as seen in LEED with no LEED spots visible; but after exposure to reaction conditions at 10−2 mbar the integral order beams in LEED are again visible.}
       \field{issn}{0021-9517}
       \field{journaltitle}{Journal of Catalysis}
       \field{number}{2}
@@ -24627,7 +24988,7 @@
       \field{pages}{129\bibrangedash 136}
       \range{pages}{8}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.jcat.2008.05.032
+      \verb doi.org/10.1016/j.jcat.2008.05.032
       \endverb
       \keyw{Platinum,Stepped platinum surface,Ammonia oxidation,Kinetics}
     \endentry
@@ -24680,7 +25041,7 @@
       \field{pages}{2876\bibrangedash 2883}
       \range{pages}{8}
       \verb{doi}
-      \verb https://doi.org/10.1016/j.joule.2019.11.005
+      \verb doi.org/10.1016/j.joule.2019.11.005
       \endverb
     \endentry
     \entry{Zhang2014}{article}{}
@@ -24928,7 +25289,7 @@
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The preferential oxidation of CO in H2-rich mixtures (COPrOx) is a major catalytic reaction utilized for hydrogen purification. In the exploration of alternatives to noble metals, cobalt-based catalysts appear to be a very promising choice. The activity and stability of cobalt in the COPrOx reaction can be improved by the addition of transition metals and manganese is maybe the most prominent among them. Yet, the arrangement of the two components in the catalytically active state is largely unknown, which hinders in-depth understanding of the manganese promotion effect. Here, we compare pure and Mn-modified cobalt catalysts and correlate their structural and chemical characteristics with their COPrOx performance. The Mn-promoted cobalt catalyst is significantly more active than pure cobalt especially at intermediate reaction temperatures (around 200 °C). The addition of Mn improves the structural stability of the catalyst and helps to maintain higher specific surface areas. Chemical and microstructural analysis using various operando and in situ techniques revealed that Mn promotes CO conversion by partially stabilizing CoO phase during reaction conditions. It is also suggested that at high temperature, Mn suppress CO methanation reaction but promotes H2 oxidation. Apart of the particular interest in COPrOx reaction, in a general context, this work shows how the spatial distribution of the different catalyst components at nanoscopic level, may affect the surface chemistry and consequently control the reactivity.}
+      \field{abstract}{The preferential oxidation of CO in H$_2$-rich mixtures (COPrOx) is a major catalytic reaction utilized for hydrogen purification. In the exploration of alternatives to noble metals, cobalt-based catalysts appear to be a very promising choice. The activity and stability of cobalt in the COPrOx reaction can be improved by the addition of transition metals and manganese is maybe the most prominent among them. Yet, the arrangement of the two components in the catalytically active state is largely unknown, which hinders in-depth understanding of the manganese promotion effect. Here, we compare pure and Mn-modified cobalt catalysts and correlate their structural and chemical characteristics with their COPrOx performance. The Mn-promoted cobalt catalyst is significantly more active than pure cobalt especially at intermediate reaction temperatures (around 200 °C). The addition of Mn improves the structural stability of the catalyst and helps to maintain higher specific surface areas. Chemical and microstructural analysis using various operando and in situ techniques revealed that Mn promotes CO conversion by partially stabilizing CoO phase during reaction conditions. It is also suggested that at high temperature, Mn suppress CO methanation reaction but promotes H$_2$ oxidation. Apart of the particular interest in COPrOx reaction, in a general context, this work shows how the spatial distribution of the different catalyst components at nanoscopic level, may affect the surface chemistry and consequently control the reactivity.}
       \field{issn}{09263373}
       \field{issue}{June}
       \field{journaltitle}{Applied Catalysis B: Environmental}
@@ -24976,7 +25337,7 @@
       \field{pages}{602\bibrangedash 613}
       \range{pages}{12}
       \verb{doi}
-      \verb https://doi.org/10.1002/anie.201102619
+      \verb doi.org/10.1002/anie.201102619
       \endverb
       \keyw{crystal facets,heterogeneous catalysis,nanocrystals,shape control,structure sensitivity}
     \endentry
@@ -25029,7 +25390,7 @@
       \field{issn}{00396028}
       \field{journaltitle}{Surface Science}
       \field{number}{3}
-      \field{title}{{In situ high-resolution XPS studies on adsorption of NO on Pt(1 1 1)}}
+      \field{title}{{In situ high-resolution XPS studies on adsorption of NO on Pt(111)}}
       \field{volume}{529}
       \field{year}{2003}
       \field{pages}{384\bibrangedash 396}

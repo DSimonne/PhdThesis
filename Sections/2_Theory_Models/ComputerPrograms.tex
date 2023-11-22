@@ -6,11 +6,11 @@ In a general frame, the increase in flux at synchrotrons leads to quicker experi
 
 Data produced at synchrotron has reached a volume and complexity that can nowadays be considered as part of \textit{big data} \parencite{Alizada2017, Wang2018}, referring to vast volumes, generated at high velocities, and from various sources.
 Big data becomes too complex or large to be processed and analysed using traditional tools or methods, originally written to simulate or fit reduced amounts of data.
-In the specific case of Bragg coherent diffraction imaging, new tools have been developed during the thesis (sec. \ref{sec:Gwaihir}, \cite{Carnis2021c, Simonne2022}) to help create a fast and reproducible workflow.
+In the specific case of Bragg coherent diffraction imaging, new tools have been developed during this thesis (sec. \ref{sec:Gwaihir}, \cite{Carnis2021c, Simonne2022}) to help create a fast and reproducible workflow.
 Nevertheless, it is a more general way of working that must be adopted in synchrotrons to adapt and profit from the transition to big data \parencite{Wang2018}.
 This does not only concern scientific analysis, but also the complexity of operating synchrotron beamlines, that could benefit from this transition to upgrade their performances \parencite{Diadem}.
 
-First, synchrotron data must be stored in a comprehensive format (e.g. \textit{NeXuS} format, Könnecke et al \cite{Konnecke2015}).
+First, synchrotron data must be stored in a comprehensive format (e.g. \textit{NeXuS} format, Könnecke et al \cite*{Konnecke2015}).
 The stored files must not only contain detector images, but routinely include all of the important metadata (informational data) to provide a more comprehensive and detailed view of the experiments.
 
 Secondly, synchrotrons must offer high performance computing (HPC) clusters \parencite{Wang2021}, and make the data available to their users through an interface compatible with the most common integrated development environment (IDE).
@@ -31,18 +31,18 @@ A \textit{dataset} is then defined as a collection of data, \textit{e.g.} in BCD
 Achieving reproducibility with big data can be challenging due to the massive volume, velocity, variety and complexity of the data involved.
 However, linking reproducibility and big data is crucial for ensuring the credibility and reliability of the insights derived from large and complex datasets.
 
-For example, it is possible to measure a single rocking curve in less than a minute at specialised BCDI beamlines, such as ID01 at the upgraded European synchrotron \parencite{Richter2019}.
+For example, it is possible to measure a single rocking curve in less than a minute at specialised BCDI beamlines, such as ID01 at the upgraded European synchrotron \parencite{Leake2019}.
 The high complexity of the data reduction and analysis process in BCDI makes the replication of result complex for external scientists, that often do not have access to the same data reduction softwares, or to the value of the parameters used during the process.
 
 Discussions about defining a set of rules that regulate research practice \parencite{Kretser2019}, and reduce the grey zone that includes scientific misconduct at all levels of academia \parencite{Kornfeld2016} are growing, raising awareness on reproducibility in the scientific community.
 
 Staggering numbers \parencite{Baker2016} show that about \qty{65}{\percent} of scientists in the field of physics and engineering struggle to reproduce others' results, and about \qty{50}{\percent} fail to reproduce their own results.
-These numbers can sometimes be linked to very precise environments and techniques, with experimental conditions and processes difficult to reproduce between different laboratories, or to knowledge transfer from academia to industry \parencite{Sarwitz2015}.
-However, according to the same study \parencite{Baker2016}, code availability, insufficient peer reviewing, and access to raw data contribute together to non-reproducible results.
+These numbers can sometimes be linked to very precise environments and techniques, with experimental conditions and processes difficult to replicate between different laboratories, or to knowledge transfer from academia to industry \parencite{Sarwitz2015}.
+However, according to the same study \parencite{Baker2016}, code availability, insufficient peer reviewing, and access to raw data contribute together to this issue.
 Moreover, it is largely accepted that the publishing industry has its own role to play by facilitating peer-reviewing to promote reproducibility \parencite{Lee2017}.
 
-Therefore, code-availability, access to raw data combined with metadata, and reproducible workflows are goals of utmost importance for experimental science \parencite{Munafo2017}.
-Reproducible results will result in a global improvement of confidence in new techniques, such as BCDI, which could subsequently result in growth of interest and community.
+Therefore, code-availability, access to raw data combined with metadata, and well-defined workflows are goals of utmost importance for experimental science \parencite{Munafo2017}.
+Reproducible results lead to a global improvement of confidence in new techniques, such as BCDI, which could subsequently result in growth of interest and community.
 Key problems are for example the difficulty to reconstruct highly strained objects, or the determination of a metric that would allow scientists to \textit{blindly} trust reconstructed data, permitting a fully automatised data reduction workflow.
 Reproducibility is first permitted by the use of a common data reduction and analysis environment.
 
@@ -70,7 +70,8 @@ BCDI relies on iterative algorithms to solve the phase lost during the measureme
 A 3D intensity distribution in the vicinity of a Bragg peak (stack of diffraction patterns forming a 3D reciprocal space map with the proper sampling) is collected from a sample illuminated with coherent light \parencite{Robinson2005}, and serves as input for phase retrieval.
 
 \begin{figure}[!htb]
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/Packages.png}
+    \centering
+    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/Packages.png}
     \caption{
     Flow chart illustrating the main steps in the BCDI data reduction workflow.
     \textit{Gwaihir} links the \textit{bcdi} and \textit{PyNX} packages \textit{via} its graphical user interface and command line scripts, resulting in a complete and understandable workflow.
@@ -161,7 +162,8 @@ Moreover, the support becomes very difficult to determine since the diffraction 
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/phase_retrieval_tab.png}
+    %\includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/phase_retrieval_tab.png}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/PRTab.pdf}
     \caption{
     Phase retrieval tab in \textit{Gwaihir}.
     Parameters are separated into groups (files, support, point-spread function, algorithms, ...) and detailed in the \textit{Readme} tab.
@@ -207,7 +209,8 @@ For example, it is possible to select a list of 3D complex data arrays, and to v
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/3D_obj.png}
+    %\includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/3D_obj.png}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/PlotTab.pdf}
     \caption{
     Visualisation tab in \textit{Gwaihir}.
     The selection of the data array, the colormap, and the contour of the resulting 3D object are performed through different widgets.
@@ -253,7 +256,7 @@ The configuration files are written in \textit{YAML} (fig. \ref{fig:YAML_file}).
 
 \subsubsection{The CXI database}
 
-Raw and processed data can both be accessed for the BCDI technique through the \textit{.cxi} database (\url{https://cxidb.org/}, Maia \cite*{Maia2012}, which aims at creating a single data-storing architecture/format for coherent X-ray imaging experiments.
+Raw and processed data can both be accessed for the BCDI technique through the \textit{.cxi} database (\url{https://cxidb.org/}, Maia \cite*{Maia2012}), which aims at creating a single data-storing architecture/format for coherent X-ray imaging experiments.
 The data input/output follows Nexus definitions \parencite{Konnecke2015}.
 Both clarity and consistency in data formatting encourages the reproducibility of the science produced (\url{https://www.panosc.eu/}) and guarantees the workflow.
 
@@ -336,7 +339,7 @@ To avoid having to rely on an interpolation to fill these voxels, it is better t
 \begin{figure}[!htb]
     \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/background_fitaid.png}
     \caption{
-        Graphical user interface for the \text{fitaid} module of binoculars.
+        Graphical user interface for the \text{fitaid} module of BINoculars.
         The CTR structure factor is computed using eq. \ref{eq:BinocSF} in a rectangular region of interest around the CTR signal.
         Four rectangular regions of interests around the signal are used to compute the background.
     }
@@ -370,6 +373,7 @@ The primary challenge associated with surface x-ray diffraction lies in the comp
 On one hand, a fine sampling of the reciprocal space will take hours which is hardly compatible with time-resolved experiments.
 On the other hand, skipping areas of the reciprocal space could result in missing critical information if the symmetry of the surface structure is not known prior to the experiment.
 For high symmetry structures, a small portion of the reciprocal space can sometimes be sufficient to have a final solution.
+The typical approach for time-resolved experiments is to follow the intensity of a surface signal as a function of time.
 
 \textit{ROD} is a computer program written by Vlieg et al. \parencite*{Vlieg2000}, that can be used qualitatively to simulate structure factors from a given structure, and quantitatively to refine the atomic positions within the structure by fitting the structure factors with the experimental data.
 Since \textit{ROD} is written in \textit{C} and does not come with a graphical user interface, alternatives have been developed such as GenX \parencite{Bjorck2007, Glavic2022} written in \textit{Python} which mostly focuses on reflectivity.
@@ -386,7 +390,7 @@ In the frame of this thesis, \textit{ROD} was chosen for the analysis of SXRD da
 
 The structure of our crystal must be understood as follows when working with surfaces, infinite in both in-plane dimensions, finite in the out-of-plane dimension.
 The origin of the out-of-plane axis, commonly denoted $\vec{z}$, is situated at the surface of the crystal.
-When $z$ is negative the \textit{bulk} structure of the crystal is described, whereas when $z$ is positive, the \textit{surface} structure of the crystal is described, usually only a few atomic layers thick where e.g. surface relaxation effects can be detected.
+When $z$ is negative the \textit{bulk} structure of the crystal is described, whereas when $z$ is positive, the \textit{surface} structure of the crystal is described, usually only a few atomic layers thick where e.g. surface relaxation and reorganisation effects can be detected.
 
 Additional surface layers can be present on top of the main crystal structure, the example of a \ce{Pt_3O_4} platinum oxide is presented in fig. \ref{fig:SimROD}.
 At least two layers in $\vec{c}$ are necessary to see a modulation of the out-of-plane signal, the Bragg peaks linked to the presence of a bulk oxide start to be clearly visible after 4 unit cells of \ce{Pt_3O_4} are present on the platinum surface.

@@ -80,7 +80,7 @@
     \fancyhf{}
     \fancyfoot[C]{\thepage}
     \renewcommand{\headrulewidth}{0pt}%
-    \renewcommand{\footrulewidth}{0.4pt}%
+    \renewcommand{\footrulewidth}{0pt}%
 }
 \appto\frontmatter{\pagestyle{plain}}
 
@@ -218,12 +218,12 @@
     \input{Sections/00_Title_Saclay}
 
 % Optional Chapters
-    % \chapter*{Dedication}
-    % \input{Sections/0_Dedication}
-    % \chapter*{Declaration}
-    % \input{Sections/0_Declaration}
-    % \chapter*{Acknowledgements}
-    % \input{Sections/0_Acknowledgements}
+    \chapter*{Dedication}
+    \input{Sections/0_Dedication}
+    \chapter*{Declaration}
+    \input{Sections/0_Declaration}
+    \chapter*{Acknowledgements}
+    \input{Sections/0_Acknowledgements}
 
 \frontmatter
 {\hypersetup{linkcolor=black}
@@ -248,7 +248,7 @@
     \input{Sections/2_Theory_Models/SixS}
     \input{Sections/2_Theory_Models/ComputerPrograms}
 % Results BCDI
-    \addtocontents{toc}{\protect\newpage}
+    % \addtocontents{toc}{\protect\newpage}
     \chapter{Pt nanoparticles during ammonia oxidation}
     \input{Sections/3_Results_Nanoparticles/Introduction}
     \input{Sections/3_Results_Nanoparticles/SXRDNanoparticles}
