@@ -95,16 +95,8 @@
 \usepackage[utf8]{inputenc} % Use accents in source code, load before biblatex
 \usepackage[T1]{fontenc} % Show accents in output
 
-\usepackage[style=authoryear, isbn=false, date=year,sorting=nyt, maxcitenames=1, % mincitenames=1,
-    eprint=false,giveninits=true, url=false]{biblatex}
-%    nty Sort by name, title, year.
-%    nyt Sort by name, year, title.
-%    nyvt Sort by name, year, volume, title.
-%    anyt Sort by alphabetic label, name, year, title.
-%    anyvt Sort by alphabetic label, name, year, volume, title.
-%    ynt Sort by year, name, title.
-%    ydnt Sort by year (descending), name, title.
-%    none Do not sort at all. All entries are processed in citation order.
+\usepackage[style=authoryear, isbn=false, date=year, sorting=nyt, maxcitenames=1, % mincitenames=1,
+    eprint=false, giveninits=true, url=false]{biblatex}
 \addbibresource{/home/david/Documents/PhD/PhdThesis/references.bib}
 \AtEveryBibitem{\clearfield{pages}}
 
@@ -158,6 +150,8 @@
 \usepackage{lscape}
 \usepackage{amsmath} % for maths
 \usepackage{amssymb}
+
+\usepackage[page,toc,titletoc,title]{appendix}
 
 \usepackage[
     colorlinks = true,
@@ -217,13 +211,13 @@
 % Title page
     \input{Sections/00_Title_Saclay}
 
-% Optional Chapters
-    \chapter*{Dedication}
-    \input{Sections/0_Dedication}
-    \chapter*{Declaration}
-    \input{Sections/0_Declaration}
-    \chapter*{Acknowledgements}
-    \input{Sections/0_Acknowledgements}
+% % Optional Chapters
+%     \chapter*{Dedication}
+%     \input{Sections/0_Dedication}
+%     \chapter*{Declaration}
+%     \input{Sections/0_Declaration}
+%     \chapter*{Acknowledgements}
+%     \input{Sections/0_Acknowledgements}
 
 \frontmatter
 {\hypersetup{linkcolor=black}
@@ -248,7 +242,7 @@
     \input{Sections/2_Theory_Models/SixS}
     \input{Sections/2_Theory_Models/ComputerPrograms}
 % Results BCDI
-    % \addtocontents{toc}{\protect\newpage}
+    \addtocontents{toc}{\protect\newpage}
     \chapter{Pt nanoparticles during ammonia oxidation}
     \input{Sections/3_Results_Nanoparticles/Introduction}
     \input{Sections/3_Results_Nanoparticles/SXRDNanoparticles}
@@ -275,10 +269,9 @@
     ]
 
 % Appendices
-    \appendix
-
-    \chapter{Diffraction vocabulary}
-    \input{Sections/6_Appendix/DiffractionVocab}
+\begin{appendices}
+    % \chapter{Diffraction vocabulary}
+    % \input{Sections/6_Appendix/DiffractionVocab}
 
     \chapter{Nanoparticles study}
     \input{Sections/6_Appendix/Nanoparticles}
@@ -288,6 +281,7 @@
     \input{Sections/6_Appendix/Pt111}
     \input{Sections/6_Appendix/Pt100}
     \input{Sections/6_Appendix/Comparison}
+\end{appendices}
 
 % 4ème de couverture
 \input{Sections/99_4eme_couverture}

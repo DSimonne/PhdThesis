@@ -5,12 +5,12 @@
 The MED diffractometer was used in a vertical geometry (fig. \ref{fig:Diffractometer}).
 The incident angle $\mu$ was fixed to \ang{0.3}, to illuminate a larger portion of the sample surface.
 The incoming energy was set to \qty{18.44}{\keV}.
-In the vertical configuration, the sample surface must be parallel to the plane defined by the incoming beam and the vertical axis, so that sample rotations do not change the orientation of the sample plane.
+In the vertical configuration, the sample surface must be parallel to the plane defined by the incoming beam and the vertical axis, so that sample rotations do not change the orientation of the sample atomic planes.
 The alignment of the sample was performed in two consecutive steps, first the out-of-plane sample position was adjusted by using the direct beam, secondly any possible tilt of the sample surface was corrected by recording the intensity of the \textit{reflected} beam as a function of the $u$ (when $\omega=\ang{0}$) or $v$ (when $\omega=\ang{90}$) angles of the hexapod (fig. \ref{fig:Diffractometer}).
 
 \subsection{Epitaxial relationship under different atmospheres and temperature}
 
-To ensure that the \ce{Al_2O_3} supported particles have the expected epitaxial relation with the substrate, the scattering intensity in the sample plane was measured.
+To ensure that the \ce{Al_2O_3} supported particles have the expected epitaxial relationship with the substrate, the scattering intensity in the plane parallel to the sample surface was measured.
 
 \subsubsection{Room temperature study under inert atmosphere}
 
@@ -19,23 +19,27 @@ To ensure that the \ce{Al_2O_3} supported particles have the expected epitaxial 
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/map/qxqyqz_38_40.pdf}
     \caption{
         In-plane reciprocal space map at room temperature.
-        Starting from the centre of the map are 6 peaks corresponding to six $(2\bar{1}\bar{1}0)$-type Bragg peak from the substrate, thin circular powder signal for the $(111)$, $(200)$ and $(220)$ Bragg peaks, and 6 isolated $(220)$ Bragg peaks.
-        $(3\bar{3}00)$ peaks from the substrate can also be seen next to the Pt $(220)$ peaks.s
+        Starting from the centre of the map are (i) six $(2\bar{1}\bar{1}0)$-type Bragg peak from the substrate.
+        (ii) thin circular powder signals for the $(111)$, $(200)$ and $(220)$ platinum Bragg peaks.
+        (iii) six isolated $(220)$-type platinum Bragg peaks.
+        (iv) $(3\bar{3}00)$-type Bragg peaks from the substrate next to the $(220)$-type platinum Bragg peaks.
     }
     \label{fig:QxQyMap}
 \end{figure}
 
-The unit cell used to index the different Bragg peaks of platinum in this section is the FCC unit cell presented in sec. \ref{sec:ScatCrystal} to introduce the notions of crystals.
-This first map of the reciprocal space was recorded under inert argon atmosphere at room temperature (fig. \ref{fig:QxQyMap}), and shows the six expected \{220\} in-plane peaks for [111] oriented nanoparticles (fig. \ref{fig:Epitaxy}).
+The unit cell used to index the different Bragg peaks of platinum in this section is the FCC unit cell presented in sec. \ref{sec:ScatCrystal}.
+This first map of the reciprocal space was recorded under inert argon atmosphere at room temperature (fig. \ref{fig:QxQyMap}), and shows the six expected (220)-type in-plane peaks for [111] oriented nanoparticles (fig. \ref{fig:Epitaxy}).
 The h, k, l Miller indices must have the same parity for the Bragg reflection to be allowed for face-centred cubic crystals, leading to the extinctions of (110)-type Bragg peaks.
-From the average position of these peaks in q-space is computed the average in-plane lattice parameter of the platinum nanoparticles $a_{Pt}=\qty{3.91}{\angstrom}$, from which the scattering vectors $\vec{q}$ of the (200) and (111) Bragg peaks are computed (tab. \ref{tab:Reflections}).
+From the average position of these peaks in $q$-space is computed the average in-plane lattice parameter of the platinum nanoparticles $a_{Pt}=\qty{3.91}{\angstrom}$, from which the scattering vectors $\vec{q}$ of the (200) and (111) Bragg peaks are computed (tab. \ref{tab:Reflections}).
 
 Three arcs are drawn in fig. \ref{fig:QxQyMap} to underline the value of the (111), (200) and (220) scattering vectors.
 If no (200) and (111) Bragg peaks are observed, powder signals are visible for each reflection, which shows that some of the nanoparticles have a random orientation.
 Six (2$\bar{1}$0)-type Bragg peaks coming from the \ce{Al_2O_3} substrate are also observed at the lowest magnitude of the scattering vector ($q = \qty{2.64}{\per\angstrom}$, tab. \ref{tab:Reflections}).
-From the average position of these peaks in q-space is also computed the in-plane lattice parameter of the substrate, $a_{Sapphire}=\qty{4.77}{\angstrom}$.
+From the average position of these peaks in $q$-space is also computed the in-plane lattice parameter of the substrate, $a_{Sapphire}=\qty{4.77}{\angstrom}$.
 A first approximation of the in-plane misfit strain at the interface of the nanoparticles with the substrate is given following eq. \ref{eq:StrainDiffraction}: $\epsilon = \qty{0.45}{\percent}$.
-This value must be considered with caution since the Pt lattice parameter is averaged over the volume of all the nanoparticles present on the sample, and not representative of the platinum-sapphire interface.
+This value must be considered with caution since the Pt in-plane lattice parameter is averaged over the volume of all the nanoparticles present on the sample, and is not representative of the platinum-sapphire interface.
+$(3\bar{3}00)$-type Bragg peaks from the substrate are also visible, next to $(220)$-type platinum Bragg peaks.
+Not all six peaks can be seen which may be due to the sample alignment, or to the sample coverage by platinum nanoparticles, important for the patterned sample.
 
 \begin{table}[htb!]
     \begin{minipage}{.475\linewidth}
@@ -73,7 +77,7 @@ This value must be considered with caution since the Pt lattice parameter is ave
             % (1 $\bar{1}$ $\bar{4}$) & \ang{15.13} & \qty{2.46}{\per\angstrom} & \num{35.60} & \num{82.01} \\
             (2 $\bar{1}$ $\bar{1}$ 0) & \ang{16.21} & \qty{2.64}{\per\angstrom} & \num{16.81} & \num{38.73} \\
             (3 $\bar{3}$ 0 0)         & \ang{28.27} & \qty{4.57}{\per\angstrom} & \num{28.40} & \num{65.43} \\
-            (4 $\bar{2}$ $\bar{2}$ 0) & \ang{32.76} & \qty{5.27}{\per\angstrom} & \num{3.21}  & \num{7.40} \\
+            % (4 $\bar{2}$ $\bar{2}$ 0) & \ang{32.76} & \qty{5.27}{\per\angstrom} & \num{3.21}  & \num{7.40} \\
             % (0 0 6)                 & \ang{17.85} & \qty{2.90}{\per\angstrom} & \num{0.18}  & \num{0.42}  \\
             (2 $\bar{1}$ 1 3)         & \ang{18.52} & \qty{3.01}{\per\angstrom} & \num{38.90} & \num{89.60} \\
             % (2 $\bar{2}$ $\bar{2}$) & \ang{19.67} & \qty{3.195}{\per\angstrom} & \num{0.59}  & \num{1.35}  \\
@@ -102,7 +106,7 @@ These measurements are presented respectively in fig. \ref{fig:Epitaxy111}, fig.
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/220.pdf}
     \caption{
-        Integrated intensity in a \ang{1} range around the value of the (220) platinum scattering angle, as a function of the in-plane sample angle $\omega$, presented for different atmospheres.
+        Integrated intensity in a \ang{0.1} range around the value of the (220) platinum scattering angle, as a function of the in-plane sample angle $\omega$, presented for different atmospheres.
     }
     \label{fig:Epitaxy220}
 \end{figure}
@@ -126,7 +130,7 @@ The substrate is also at the origin of its own CTR in the [111] direction, paral
     \includegraphics[height=7cm]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR111_K_vmax100_edited.pdf}
     \includegraphics[height=7cm]{/home/david/Documents/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR_300_edited.pdf}
     \caption{
-        Left: Large out-of-plane reciprocal space map in which a CTR signal in the [111] direction can be identified, as well as weaker CTRs in other directions passing through the Bragg peaks.
+        Left: Large out-of-plane reciprocal space map in which a CTR signal in the [111] direction can be identified, as well as weaker CTRs passing through the Bragg peaks.
         The ($\vec{q}_x$, $\vec{q}_y$) plane was rotated around $\vec{q}_z$ to highlight the presence of signals from facets on the particles other than the (111) facet, indicated by white arrows.
         Right: Crystal truncation rod signals in the $[111]$ direction as a function of $q_z$, presented for different atmospheres, at \qty{300}{\degreeCelsius}.
     }
@@ -157,9 +161,9 @@ A volume of the reciprocal space was collected around the ($\bar{1}$11) Bragg pe
 Similar experiments have shown the oxygen-induced shape transformation of rhodium \parencite{Nolte2008}, or platinum nanoparticles \parencite{Hejral2013}, which was also linked to the presence of surface oxides.
 The data was computed in $q$-space with different in-plane offsets, so that each rod observed in fig. \ref{fig:FacetMaps} (a) becomes parallel to the $\vec{q}_x$ direction for a certain in-plane offset, thereby facilitating the data analysis.
 
-Besides the crystal truncation rods, there are two different parasitic signals going through the Bragg peak.
+Beside the crystal truncation rods, there are two different parasitic signals going through the Bragg peak.
 First, a curved signal almost parallel to $\vec{q}_y$ extends from $q_y = \qtyrange{-2.80}{-2.40}{\per\angstrom}$ in the ($\vec{q}_x, \vec{q}_y$) plane (in red in fig. \ref{fig:FacetMaps} - a).
-This signal comes from scattered x-rays diffusing towards the detector when near the Bragg peak, and increasing the background signal.
+This signal comes from scattered x-rays difusing towards the detector in position near the Bragg peak, and increasing the background signal.
 Secondly, a very intense powder ring ($\approx \num{1e2}$) can be seen around the crystal truncation rod perpendicular to $\vec{q}_z$, especially in fig. \ref{fig:FacetMaps} (c).
 
 \begin{figure}[!htb]

@@ -131,7 +131,7 @@ After the flash annealing, the particle shape near the interface has become less
 The evolution of the different type of facets present on the particle surface, as well as their relative surface area is presented in fig. \ref{fig:AmaterasuFacetsEvolution}.
 
 A ($10\bar{1}$) facet appeared after the flash annealing on the side of the particle near a (2$\bar{1}\bar{2}$) facet that replaced a ($1\bar{1}\bar{1}$) facet (fig. \ref{fig:AmaterasuDislocation}).
-The large cylindrical surface area spanned by the dislocation loop (also visible in fig. \ref{fig:AmaterasuA}) results in a large volume of the particle not visible in the selected contour of the reconstructed Bragg electronic density.
+The large cylindrical surface area spanned by the dislocation loop (also visible in fig. \ref{fig:AmaterasuA}) results in a large volume (pipe) of the particle not visible in the selected contour of the reconstructed Bragg electronic density.
 This is due to low amplitude in the Bragg electronic density regions around dislocation loops, demonstrated \textit{via} atomic simulations by Clark et al. \parencite*{Clark2015}, and Dupraz et al. \parencite*{Dupraz2017}.
 
 Removing the dislocation also removed this effect, which lead to an increase of the area recognised as belonging to the surrounding facets, especially for the $(\bar{1}\bar{1}\bar{1})$ facet, at the interface with the substrate.
@@ -173,7 +173,7 @@ Three ($\bar{1}1\bar{1}$), (1$\bar{1}\bar{1}$), and ($\bar{1}\bar{1}$1) facets a
     \label{fig:AmaterasuB}
 \end{figure}
 
-Overall, the surface occupied by the facets around the top of the particle increases during heating, while the surface area not recognised as faceted by the algorithm decreases, which could mean that smaller facets (not resolved by the algorithm) are absorbed by large low index facets when the temperature increase, the particle thus becoming gradually less round.
+Overall, the surface occupied by the facets around the top of the particle increases during heating, while the surface area not recognised as faceted by the algorithm decreases, which could mean that smaller facets (not resolved by the algorithm) are absorbed by large low index facets when the temperature increases, the particle thus becoming gradually less round.
 The respective number of ($1\bar{1}1$)-type and (100)-type facet does not change during the experiment.
 The facets that are around the bottom of the particle are the most subject to change during this temperature ramp, while the facets at the top of particle are more stable (fig. \ref{fig:AmaterasuFacetsEvolution}).
 
@@ -195,7 +195,7 @@ The alternating highly positive and negative strain regions in the middle of the
     \includegraphics[trim=0 1cm 0 0, clip, width=0.32\textwidth]{/home/david/Documents/PhDScripts/SixS\_2021\_01/paraview/110facet1631.png}
     \includegraphics[trim=0 1cm 0 0, clip, width=0.32\textwidth]{/home/david/Documents/PhDScripts/SixS\_2021\_01/paraview/110facet1675.png}
     \caption{
-        Surface of the reconstructed particle A at \qty{450}{\degreeCelsius} under Argon and at \qty{600}{\degreeCelsius}, \qty{60}{\minute} after the introduction of \ce{NH_3}.
+        Surface of the reconstructed particle A at \qty{450}{\degreeCelsius} under Argon and at \qty{600}{\degreeCelsius}, before and \qty{60}{\minute} after the introduction of \ce{NH_3}.
         The surface is coloured by the values of the heterogeneous strain at each surface voxel, the limit of each facet is delimited by thick white lines.
     }
     \label{fig:Amaterasu110}
@@ -206,53 +206,51 @@ The reaction can heat the catalyst to very high temperatures which in our case c
 
 \subsubsection{Determination of strain}
 
-The average value of the lattice parameter can be extracted from the position $\vec{G}$ of the Bragg peaks in reciprocal space \textit{via} eq. \ref{eq:QandD3} and eq. \ref{eq:Interplanarspacing}.
-This value can then be used to compute the average lattice strain \textit{via} eq. \ref{eq:StrainDiffraction}, by comparing with a reference value, e.g. room temperature values under inert atmosphere \parencite{Fernandez2019}.
+The average value of the out-of-plane lattice parameter can be extracted from the position $\vec{G}$ of the Bragg peaks in reciprocal space \textit{via} eq. \ref{eq:QandD3} and eq. \ref{eq:Interplanarspacing}.
+This value can then be used to compute the average out-of-plane lattice strain \textit{via} eq. \ref{eq:StrainDiffraction}, by comparing with a reference value, e.g. room temperature values under inert atmosphere \parencite{Fernandez2019}.
 
-However, the information extracted from the retrieved phase in BCDI is more complex since, by measuring three non-coplanar Bragg peaks, one may retrieve the full strain tensor (eq. \ref{eq:StrainTensor}) from the reconstructed displacement field $\vec{u}_{\hat{q_x}, \hat{q_y}, \hat{q_z}}$ (eq. \ref{eq:DisplacementField}), $\hat{q_x}, \hat{q_y}, \hat{q_z}$ being three orthogonal basis vectors in the reciprocal space \parencite{Karpov2019}.
+However, the information extracted from the retrieved phase in BCDI is more complex since, by measuring three non-coplanar Bragg peaks, one may retrieve the full strain tensor (eq. \ref{eq:StrainTensor}) from the reconstructed displacement field $\vec{u}_{\hat{q_x}, \hat{q_y}, \hat{q_z}}$ (eq. \ref{eq:DisplacementField}), $\hat{q_x}, \hat{q_y}, \hat{q_z}$ being three orthonormal basis vectors in the reciprocal space \parencite{Karpov2019}.
 
 \begin{equation}
     \vec{u}_{\hat{q_x}, \hat{q_y}, \hat{q_z}} =
      \begin{pmatrix}
-        \vec{u}_{\hat{q_x}} \\
-        \vec{u}_{\hat{q_y}} \\
-        \vec{u}_{\hat{q_z}} \\
+        u_{q_x} \\
+        u_{q_y} \\
+        u_{q_z} \\
      \end{pmatrix}
      \label{eq:DisplacementField}
 \end{equation}
 
-\begin{multicols}{3}
-    \begin{equation}
-        \epsilon =
-        \begin{bmatrix}
-            \epsilon_{xx} & \epsilon_{yx} & \epsilon_{zx}\\
-            \epsilon_{xy} & \epsilon_{yy} & \epsilon_{zy}\\
-            \epsilon_{xz} & \epsilon_{yz} & \epsilon_{zz}
-        \end{bmatrix}
-        \label{eq:StrainTensor}
-    \end{equation}
-    \break
-    \begin{equation}
-      \epsilon_{ij} = \frac{1}{2}
-        \Bigg(
-        \frac{\partial \vec{u}_{\hat{q_i}}}{\partial \hat{q_j}}
-        +
-        \frac{\partial \vec{u}_{\hat{q_j}}}{\partial \hat{q_i}}
-        \Bigg)
-        \label{eq:StrainTensorIJ}
-    \end{equation}
-    \break
-    \begin{equation}
-      \epsilon_{zz} =
-        \Bigg(
-        \frac{\partial \vec{u}_{\hat{q_z}}}{\partial \hat{q_z}}
-        \Bigg)
-        \label{eq:StrainTensorzz}
-    \end{equation}
-\end{multicols}
+\begin{equation}
+    \epsilon =
+    \begin{bmatrix}
+        \epsilon_{xx} & \epsilon_{yx} & \epsilon_{zx}\\
+        \epsilon_{xy} & \epsilon_{yy} & \epsilon_{zy}\\
+        \epsilon_{xz} & \epsilon_{yz} & \epsilon_{zz}
+    \end{bmatrix}
+    \label{eq:StrainTensor}
+\end{equation}
+
+\begin{equation}
+  \epsilon_{ij} = \frac{1}{2}
+    \Bigg(
+    \frac{\partial u_{q_i}}{\partial q_j}
+    +
+    \frac{\partial u_{q_j}}{\partial q_i}
+    \Bigg)
+    \label{eq:StrainTensorIJ}
+\end{equation}
+
+\begin{equation}
+  \epsilon_{ii} =
+    \Bigg(
+    \frac{\partial u_{q_i}}{\partial q_i}
+    \Bigg)
+    \label{eq:StrainTensorzz}
+\end{equation}
 
 The idea behind using the strain tensor is to identify shear components in the displacement field, \textit{i.e.} see if components in one direction depend on other directions, which can also help to identify defects present in nanoparticles \parencite{Lauraux2021}.
-Using a single Bragg peak, only one component of the displacement field can be retrieved, obtained from the division of the retrieved phase $\Phi$ of the scattered x-rays by the value of the scattering vector at the position of the Bragg peak (\textit{i.e.} $\vec{q} = \vec{G}$), following the assumptions for phase retrieval detailed in sec. \ref{sec:StrainBCDI}, eq. \ref{eq:FcrystalBCDI3} - \ref{eq:FcrystalBCDI7}.
+Using a single Bragg peak, only one component of the displacement field can be retrieved, obtained from the division of the retrieved phase $\Phi$ of the scattered x-rays by the modulus of the scattering vector at the position of the Bragg peak (\textit{i.e.} $\vec{q} = \vec{G}$), following the assumptions for phase retrieval detailed in sec. \ref{sec:StrainBCDI}, eq. \ref{eq:FcrystalBCDI3} - \ref{eq:FcrystalBCDI7}.
 
 In our case, the direction of the (111) scattering vector, $\vec{G}_{111}$, is perpendicular to the sample, along the $\vec{z}$ axis of the sample frame.
 Therefore, $\vec{G}_{111}$ is so forth described as $\vec{q}_z$, of magnitude  $|\vec{q}_z|$, with the direction described by the unit vector  $\hat{q_z}$, to be consistent with the equations detailed above.
@@ -262,9 +260,9 @@ Our approach to the strain is considerably simplified since only one component o
     \label{eq:StrainFromPhase1}
     & \Phi =  \vec{q}_z.\vec{u} \\
     \label{eq:StrainFromPhase2}
-    & \frac{\Phi}{|\vec{q}_z|} = \frac{\vec{q}_z}{|\vec{q}_z|}.\vec{u} = \hat{q_z}.\vec{u} = \vec{u}_{\hat{q_z}} \\
+    & \frac{\Phi}{|\vec{q}_z|} = \frac{\vec{q}_z}{|\vec{q}_z|}.\vec{u} = \hat{q_z}.\vec{u} = \vec{u}_{q_z} \\
     \label{eq:StrainFromPhase3}
-    & \vec{\nabla} \vec{u}_{\hat{q_z}} = \frac{\partial u_{\hat{q_z}}}{\partial z} = \epsilon_{zz}
+    & \vec{\nabla} \vec{u}_{\hat{q_z}} = \frac{\partial u_{q_z}}{\partial q_x} +  \frac{\partial u_{q_z}}{\partial q_y} +  \frac{\partial u_{q_z}}{\partial q_z} = \epsilon_{zz}
 \end{align}
 
 \subsubsection{Homogeneous strain evolution}
@@ -284,7 +282,7 @@ This isotropic \textit{homogeneous} strain ($\epsilon_{hmg}$) in the particle is
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS\_2021\_01/RockingCurves.pdf}
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS\_2021\_01/HomoStrainEdited.pdf}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS\_2021\_01/HomoStrain.pdf}
     \caption{
         a) Evolution of the integrated scattered intensity in the detector as a function of the scattering angle during the rocking scans, fitted (b) with a Lorentzian profile to retrieve the peak positions and full width at half maximum (FWHM).
         Evolution of the $d_{111}$ interplanar spacing (c), and associated homogeneous strain values as a function of the temperature.
@@ -295,10 +293,8 @@ This isotropic \textit{homogeneous} strain ($\epsilon_{hmg}$) in the particle is
     \label{fig:AmaterasuHomoStrain}
 \end{figure}
 
-It is of utmost importance to first study the evolution of the material under an inert atmosphere to be able to differ an evolution of the homogeneous strain due to the thermal expansion of the crystal from other potential relaxation phenomena.
-Such phenomena being for example the adsorption of molecules involved in the catalytic reaction.
-
-The average interplanar spacing between \{111\} crystallographic planes ($d_{111}$) in the particle was computed from the angular position of the Bragg peak \textit{via} eq. \ref{eq:QandD3}, presented in fig. \ref{fig:AmaterasuHomoStrain}.
+It is of utmost importance to first study the evolution of the material under an inert atmosphere to differ evolutions of the homogeneous strain due to the thermal expansion of the crystal from for example the adsorption of molecules involved in the catalytic reaction.
+The average interplanar spacing between \{111\} crystallographic planes ($d_{111}$) in the particle is computed from the Bragg peak position in $q$-space \textit{via} eq. \ref{eq:QandD3}, presented in fig. \ref{fig:AmaterasuHomoStrain}.
 Repeated measurements at fixed condition yield additional data points in the figure.
 
 The interplanar spacing follows approximately two distinct linear increases, first from \qtyrange{25}{150}{\degreeCelsius} before the dislocation removal, and secondly from \qtyrange{150}{600}{\degreeCelsius} after the dislocation removal (fig. \ref{fig:AmaterasuHomoStrain} - c).
@@ -309,6 +305,8 @@ Utilising the (111) Bragg peak in the current specular geometry can only bring i
 Homogeneous in-plane lattice distortions in $\vec{x}$ and $\vec{y}$ (\textit{i.e.} [$\bar{1}$01] and [1$\bar{2}$1], fig. \ref{fig:StereoTop}) are invisible in this study.
 The rocking curves presented in fig. \ref{fig:AmaterasuHomoStrain} (a) were fitted with a Lorentzian model (fig. \ref{fig:AmaterasuHomoStrain} - b) to retrieve the peak full width at half maximum in the $\vec{z}$ direction (FWHM$_z$).
 The flash annealing and removal of the dislocation at \qty{150}{\degreeCelsius} had the effect of increasing the average interplanar spacing $d_{111}$, and decreasing FWHM$_z$, which can be linked to a decrease of heterogeneous out-of-plane strain inside the particle \parencite{Warren1990}.
+In this discussion, variations in the FWHM are qualitatively attributed to the particle heterogenous strain.
+Other effects may contribute such as changes of particle size, but the 3D reconstructions show that the particle has a stable size.
 
 The particle was realigned after the removal of the dislocation to be sure of the absence of any angular offset, the flash heating process possibly moving the sample positions from thermal expansion.
 
@@ -381,8 +379,8 @@ This effect is reflected into respectively tensile and compressive strain on the
 % A higher resolution in a 3D displacement field together with simulations of the impact of dislocations at the interface are needed to fully characterised this network, which is outside the scope of this thesis.
 
 It is also during the presence of ammonia in the reactor that a (2$\bar{1}\bar{1}$) facet appears for the first time, perpendicular to the [111] direction (fig. \ref{fig:StereoTop}).
-Both facets perpendicular to the [111] direction, \textit{i.e} (2$\bar{1}\bar{1}$) and ($\bar{1}01$) facets, show low $\epsilon_{zz}$ values, corresponding to the absence of in-plane lattice strain in their cases.
-In fig. \ref{fig:AmaterasuStrain1675}, the three (100)-type facets exhibit the same strain values, none of which have the same surrounding facets (fig. \ref{fig:AmaterasuStrain1675}), while the areas between the (111) and \{100\} facets show a slightly positive strain.
+Both facets perpendicular to the [111] direction, \textit{i.e} (2$\bar{1}\bar{1}$) and ($\bar{1}01$), show low $\epsilon_{zz}$ values, corresponding to the absence of in-plane lattice strain in their cases.
+In fig. \ref{fig:AmaterasuStrain1675}, the three (100)-type facets exhibit the same strain values, none of which have the same surrounding facets, while the areas between the (111) and \{100\} facets show a slightly positive strain.
 
 \begin{figure}[!htb]
     \centering
@@ -399,7 +397,7 @@ In fig. \ref{fig:AmaterasuStrain1675}, the three (100)-type facets exhibit the s
 All facets that have a similar environment regarding the substrate and structure show a similar strain (e.g. the three \{100\}, and three (1$\bar{1}$1)-type facets) in fig. \ref{fig:AmaterasuStrain} and \ref{fig:AmaterasuStrain1675}.
 When considering all the \{111\} facets, different strain states are observed.
 The \{111\} facets close to the substrate do not show the same strain than those closer to the top of the particle (fig. \ref{fig:AmaterasuStrain}).
-The strain being in the [111] direction with the origin of the displacement field in the centre of the particle, if all of these facet had experienced the same compressive (tensile) strain perpendicular to their surface \textit{via} e.g. the adsorption of ammonia, they would all show a negative (positive) strain.
+The strain being in the [111] direction with the origin of the displacement field in the centre of the particle, if all of these facets had experienced the same compressive (tensile) strain perpendicular to their surface \textit{via} e.g. the adsorption of ammonia, they would all show a negative (positive) strain.
 % remember to compute the gradient, it helps
 
 This behaviour could be linked to a strong effect of the support, which has the dual effect of first preventing the ($\bar{1}\bar{1}\bar{1}$) facet from being exposed to the gases in the reactor and secondly forcing them to accommodate the strain linked to epitaxial relationship with the substrate.
@@ -427,7 +425,7 @@ The fact that only one component of the strain tensor is available makes it diff
 To summarise, the structure of the facets in contact with the ($\bar{1}\bar{1}\bar{1}$) facet at the interface with the substrate evolve during the heating process, with a perfectly symmetric particle only measured at \qty{450}{\degreeCelsius}, exhibiting only \{111\}, and \{100\} facets.
 Annealing the particle to \qty{800}{\degreeCelsius} for a few minutes effectively removed the dislocation present at the particle substrate.
 
-It was observed that the $d_{111}$ interplanar spacing follows two different linear increases as a function of the temperature, depending on the presence of a dislocation at the particle interface with the substrate.
+It was observed that the $d_{111}$ interplanar spacing follows two different linear trends as a function of the temperature, depending on the presence of a dislocation at the particle interface with the substrate.
 The removal of the dislocation resulted in a large increase of the interplanar spacing.
 Different $\epsilon_{zz}$ strain values were observed on facets sharing the same structure and equivalent orientation with the direction of the scattering vector, but different local environments because of the presence of a substrate, as well as different sizes.
 A similar influence of the epitaxied substrate on the facet strain has been observed for a \qty{100}{\nm} large Pt-Rh particle by Kim et al. \parencite*{Kim2021}.

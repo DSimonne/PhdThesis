@@ -407,6 +407,50 @@
       \verb www.paris.fr/pages/etat-des-lieux-de-la-qualite-de-l-air-a-paris-7101
       \endverb
     \endentry
+    \entry{Alcock1960}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1b4b006cc1f6b2120c841160692976d6}{%
+           family={Alcock},
+           familyi={A\bibinitperiod},
+           given={C.\bibnamedelimi B.\bibnamedelimi :},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim :\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2950719b9142eceb2819a102c187883c}{%
+           family={Hooper},
+           familyi={H\bibinitperiod},
+           given={G.\bibnamedelimi W.\bibnamedelimi :},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim :\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65fb03b3db279bed653bcb4d6993f725}{%
+           family={Nyholm},
+           familyi={N\bibinitperiod},
+           given={Ronald\bibnamedelima Sydney},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e13dad868d4f55242a85285b4755f031}
+      \strng{fullhash}{236cab2aa97c05846849a48ef9be407f}
+      \strng{bibnamehash}{236cab2aa97c05846849a48ef9be407f}
+      \strng{authorbibnamehash}{236cab2aa97c05846849a48ef9be407f}
+      \strng{authornamehash}{e13dad868d4f55242a85285b4755f031}
+      \strng{authorfullhash}{236cab2aa97c05846849a48ef9be407f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society of London. Series A. Mathematical and Physical Sciences}
+      \field{number}{1279}
+      \field{title}{Thermodynamics of the gaseous oxides of the platinum-group metals}
+      \field{volume}{254}
+      \field{year}{1960}
+      \field{pages}{551\bibrangedash 561}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1098/rspa.1960.0040
+      \endverb
+    \endentry
     \entry{Alizada2017}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=674b22a1be5c4b9ed17946175429462e}{%
@@ -5177,7 +5221,7 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Three-dimensional reciprocal-space maps of a single SiGe island around the Si(004) Bragg peak are recorded using an energy-tuning technique with a microfocused X-ray beam with compound refractive lenses as focusing optics. The map is in agreement with simulated data as well as with a map recorded by an ordinary rocking-curve scan. The energy-tuning approach circumvents both the comparatively large sphere of confusion of diffractometers compared with nanostructures and vibrations induced by motors. Thus, this method offers new possibilities for novel combinations of three-dimensional micro- and nano-focused X-ray diffraction with complex {\it in situ} sample environments such as scanning probe microscopes.}
       \field{journaltitle}{Journal of Synchrotron Radiation}
-      \field{month}{5}
+      \field{month}{05}
       \field{number}{3}
       \field{title}{{Three-dimensional diffraction mapping by tuning the X-ray energy}}
       \field{volume}{18}
@@ -7325,6 +7369,48 @@
       \verb 10.1364/josaa.3.001897
       \endverb
     \endentry
+    \entry{Fierro1990}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d9877fabf140428317bfce250632566d}{%
+           family={Fierro},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi L.\bibnamedelimi G.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7b95ebe7bac834b967e4b92cff32078}{%
+           family={Palacios},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=825c418b92e20f21d7600d788360e18e}{%
+           family={Tomas},
+           familyi={T\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{79f67b25667021d260f835008073f900}
+      \strng{fullhash}{ccf27f1dee6b23ac14197be2595557e0}
+      \strng{bibnamehash}{ccf27f1dee6b23ac14197be2595557e0}
+      \strng{authorbibnamehash}{ccf27f1dee6b23ac14197be2595557e0}
+      \strng{authornamehash}{79f67b25667021d260f835008073f900}
+      \strng{authorfullhash}{ccf27f1dee6b23ac14197be2595557e0}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Platinum Metals Review}
+      \field{number}{2}
+      \field{title}{Redistribution of Platinum Metals within an Ammonia Oxidation Plant}
+      \field{volume}{34}
+      \field{year}{1990}
+      \field{pages}{62\bibrangedash 70}
+      \range{pages}{9}
+    \endentry
     \entry{Fierro1992}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=d9877fabf140428317bfce250632566d}{%
@@ -7352,6 +7438,7 @@
       \strng{authorbibnamehash}{ccf27f1dee6b23ac14197be2595557e0}
       \strng{authornamehash}{79f67b25667021d260f835008073f900}
       \strng{authorfullhash}{ccf27f1dee6b23ac14197be2595557e0}
+      \field{extraname}{2}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -13267,122 +13354,127 @@
     \endentry
     \entry{Leake2019}{article}{}
       \name{author}{15}{}{%
-        {{un=1,uniquepart=given,hash=7bdd6ba8fe072a30a7985c29befc8446}{%
+        {{un=1,uniquepart=given,hash=9bf99ecaf12f04e2f0f34810cc0a9bdf}{%
            family={Leake},
            familyi={L\bibinitperiod},
-           given={Steven\bibnamedelima J.},
+           given={S.\bibnamedelimi J.},
            giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=1}}%
-        {{un=0,uniquepart=base,hash=b6412b11e487c517350071d0167f59b2}{%
+        {{un=0,uniquepart=base,hash=60f5ed63a5c6b9dec197176958cd79fa}{%
            family={Chahine},
            familyi={C\bibinitperiod},
-           given={Gilbert\bibnamedelima A.},
+           given={G.\bibnamedelimi A.},
            giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=c238a02ac2f483b676e2280c1554d95c}{%
+        {{un=0,uniquepart=base,hash=8cb31f18366a08fa0351e0e86fae629d}{%
            family={Djazouli},
            familyi={D\bibinitperiod},
-           given={Hamid},
+           given={H.},
            giveni={H\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=cb43f8d049da79757ef659dd18d8ef7a}{%
+        {{un=0,uniquepart=base,hash=85ae91828eb50de4aa0c9981355e02d1}{%
            family={Zhou},
            familyi={Z\bibinitperiod},
-           given={Tao},
+           given={T.},
            giveni={T\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=7001fcd73bc59f6b139b178cb16bef32}{%
+        {{un=0,uniquepart=base,hash=903b8cb6fc5dbea370c5ae4953eb1670}{%
            family={Richter},
            familyi={R\bibinitperiod},
-           given={Carsten},
+           given={C.},
            giveni={C\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=d49df84154dd952d772bb26ead4bcf54}{%
+        {{un=0,uniquepart=base,hash=54e6b84d641f43432451a6f56e663d62}{%
            family={Hilhorst},
            familyi={H\bibinitperiod},
-           given={Jan},
+           given={J.},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=384c4313db348945f3b65a50d0871bcd}{%
+        {{un=0,uniquepart=base,hash=55964e2480e2641342fec2bbe2e765d3}{%
            family={Petit},
            familyi={P\bibinitperiod},
-           given={Lucien},
+           given={L.},
            giveni={L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=8337e20d13dbfa35881a3b2044706fc4}{%
+        {{un=0,uniquepart=base,hash=bd4400c6d64ced807b65eeb551225fbc}{%
            family={Richard},
            familyi={R\bibinitperiod},
-           given={Marie-Ingrid},
+           given={M.-I.},
            giveni={M\bibinithyphendelim I\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=2fb0c45a11985920e6f4321a495e2bc7}{%
+        {{un=0,uniquepart=base,hash=91d47d7fb06deed751625dc088a86dd2}{%
            family={Morawe},
            familyi={M\bibinitperiod},
-           given={Christian},
+           given={C.},
            giveni={C\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=a081d21c515b8f8142ddd8285176de52}{%
+        {{un=0,uniquepart=base,hash=58398ff175a16b03d688fccf0435c328}{%
            family={Barrett},
            familyi={B\bibinitperiod},
-           given={Raymond},
+           given={R.},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=3a1f1a0016bb4e33e52e9bd0f48cfd33}{%
+        {{un=0,uniquepart=base,hash=6d96d6fbd106e2ffd88ad23ce0119654}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
-           given={Lin},
+           given={L.},
            giveni={L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=fb5d4781c951496e7ae2def99706f73b}{%
+        {{un=0,uniquepart=base,hash=14d7fb34afffdda0bb5f0777993bd691}{%
            family={Homs-Regojo},
            familyi={H\bibinithyphendelim R\bibinitperiod},
-           given={Roberto\bibnamedelima A.},
+           given={R.\bibnamedelimi A.},
            giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=4f23b63dc664989677dd939328a04c5f}{%
+        {{un=0,uniquepart=base,hash=488d712aadce0c9f2b76a0a08766f449}{%
            family={Favre-Nicolin},
            familyi={F\bibinithyphendelim N\bibinitperiod},
-           given={Vincent},
+           given={V.},
            giveni={V\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=0cbf371268d050e252c2c176cce6ae3e}{%
+        {{un=0,uniquepart=base,hash=f60b935c51493e39b5c4abc1437d1581}{%
            family={Boesecke},
            familyi={B\bibinitperiod},
-           given={Peter},
+           given={P.},
            giveni={P\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=658daad814e9f7e747304d667d76959a}{%
+        {{un=0,uniquepart=base,hash=c1073624d746914c6e3b14b46ade1089}{%
            family={Schülli},
            familyi={S\bibinitperiod},
-           given={Tobias\bibnamedelima U.},
+           given={T.\bibnamedelimi U.},
            giveni={T\bibinitperiod\bibinitdelim U\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{9d98d4f15d032ea11750162d0d5f230a}
-      \strng{fullhash}{00421ae18b7cc164e12658459377fa60}
-      \strng{bibnamehash}{9d98d4f15d032ea11750162d0d5f230a}
-      \strng{authorbibnamehash}{9d98d4f15d032ea11750162d0d5f230a}
-      \strng{authornamehash}{9d98d4f15d032ea11750162d0d5f230a}
-      \strng{authorfullhash}{00421ae18b7cc164e12658459377fa60}
+      \strng{namehash}{6a5ad3d482bf411aa74ffda9f41eddd8}
+      \strng{fullhash}{f00a25d1cff2ad451a8a22204cdbeb73}
+      \strng{bibnamehash}{6a5ad3d482bf411aa74ffda9f41eddd8}
+      \strng{authorbibnamehash}{6a5ad3d482bf411aa74ffda9f41eddd8}
+      \strng{authornamehash}{6a5ad3d482bf411aa74ffda9f41eddd8}
+      \strng{authorfullhash}{f00a25d1cff2ad451a8a22204cdbeb73}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The ID01 beamline has been built to combine Bragg diffraction with imaging techniques to produce a strain and mosaicity microscope for materials in their native or {\it operando} state. A scanning probe with nano-focused beams, objective-lens-based full-field microscopy and coherent diffraction imaging provide a suite of tools which deliver micrometre to few nanometre spatial resolution combined with 10${\sp {$-$}5}$ strain and 10${\sp {$-$}3}$ tilt sensitivity. A detailed description of the beamline from source to sample is provided and serves as a reference for the user community. The anticipated impact of the impending upgrade to the ESRF {--} Extremely Brilliant Source is also discussed.}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The ID01 beamline has been built to combine Bragg diffraction with imaging techniques to produce a strain and mosaicity microscope for materials in their native or operando state. A detailed description of the beamline from source to sample is provided and serves as a reference for the user community.}
+      \field{issn}{1600-5775}
       \field{journaltitle}{Journal of Synchrotron Radiation}
-      \field{month}{3}
+      \field{month}{03}
       \field{number}{2}
-      \field{title}{{The Nanodiffraction beamline ID01/ESRF: a microscope for imaging strain and structure}}
+      \field{shorttitle}{The {Nanodiffraction} beamline {ID01}/{ESRF}}
+      \field{title}{The {Nanodiffraction} beamline {ID01}/{ESRF}: a microscope for imaging strain and structure}
+      \field{urlday}{15}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
       \field{volume}{26}
       \field{year}{2019}
+      \field{urldateera}{ce}
       \field{pages}{571\bibrangedash 584}
       \range{pages}{14}
       \verb{doi}
       \verb 10.1107/S160057751900078X
       \endverb
-      \keyw{X-ray,full-field microscopy,scanning microscopy,Bragg diffraction,coherent diffraction imaging}
     \endentry
     \entry{Lee2017}{article}{}
       \name{author}{2}{}{%
@@ -19325,7 +19417,7 @@
       \field{labeltitlesource}{title}
       \field{issue}{15}
       \field{journaltitle}{Phys. Rev. Lett.}
-      \field{month}{4}
+      \field{month}{04}
       \field{title}{Direct Determination of the Au(110) Reconstructed Surface by X-Ray Diffraction}
       \field{volume}{50}
       \field{year}{1983}
@@ -23873,6 +23965,106 @@
       \range{pages}{9}
       \verb{doi}
       \verb doi.org/10.1016/j.coche.2018.12.012
+      \endverb
+    \endentry
+    \entry{Westerstrom2008}{article}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=f68befb1a111a18ae6026852bc5e0dac}{%
+           family={Westerström},
+           familyi={W\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=226eaafe5914f820cde5f4f72d30e4ee}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={J\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=915c494aa1795973fa32943a5792f3b6}{%
+           family={Ackermann},
+           familyi={A\bibinitperiod},
+           given={M\bibnamedelima D},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9ef202445b76157c20fdf45a21dacb0}{%
+           family={Gustafson},
+           familyi={G\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3fdc93c9feb3b8dedc38abea6e34238c}{%
+           family={Resta},
+           familyi={R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52272b10a2ebe40379d758c8b9021beb}{%
+           family={Mikkelsen},
+           familyi={M\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57250f3f54d00f4cebbd0210d39d2bcc}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={J\bibnamedelima N},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8e330f44098a0f5fdabcbdddd7dbac4}{%
+           family={Lundgren},
+           familyi={L\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75bb4745c07c3655a276bcdfdfcb27db}{%
+           family={Balmes},
+           familyi={B\bibinitperiod},
+           given={O},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e7aa6ddd08a4444b0143454dce87c88}{%
+           family={Torrelles},
+           familyi={T\bibinitperiod},
+           given={X},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=afd0f4c279d28543e233698dd8558cc5}{%
+           family={Frenken},
+           familyi={F\bibinitperiod},
+           given={J\bibnamedelima W\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4479c9971d09a8f94f6dbef3cdf9cb0e}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={B},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{760402982975111879d61cfb59ca1125}
+      \strng{fullhash}{228b1dfdc3e1b01fae57198d1f3ec8f7}
+      \strng{bibnamehash}{760402982975111879d61cfb59ca1125}
+      \strng{authorbibnamehash}{760402982975111879d61cfb59ca1125}
+      \strng{authornamehash}{760402982975111879d61cfb59ca1125}
+      \strng{authorfullhash}{228b1dfdc3e1b01fae57198d1f3ec8f7}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using a combined experimental and theoretical approach, we show that a thin RhO2 oxide film forms on a Pt25Rh75(100) surface at elevated oxygen pressures and temperatures prior to the bulk oxidation. By the use of in situ surface x-ray diffraction under realistic CO oxidation reaction conditions, we show that the onset of the growth of thin RhO2 oxide film coincides with an increase in CO2 production. During the reaction, the consumed oxide film is continuously re-grown by oxygen in the gas phase. Our theoretical results strongly suggest that the CO adsorbs on the metallic substrate but reacts with the O in the RhO2 oxide film at the border between the RhO2 oxide film and the metallic substrate. This scenario could explain the experimental observations of oxidation reactions on other late transition metal surfaces as well as on their corresponding nanoparticles under realistic conditions.}
+      \field{journaltitle}{Journal of Physics: Condensed Matter}
+      \field{month}{04}
+      \field{number}{18}
+      \field{title}{Structure and reactivity of a model catalyst alloy under realistic conditions}
+      \field{volume}{20}
+      \field{year}{2008}
+      \field{pages}{184018}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0953-8984/20/18/184018
       \endverb
     \endentry
     \entry{Weststrate2006}{article}{}

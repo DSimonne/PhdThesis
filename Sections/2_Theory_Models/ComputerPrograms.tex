@@ -117,6 +117,7 @@ To illustrate this, the results of the following procedure on a dataset collecte
     A 2D slice of a 3D coherent diffraction pattern is shown (left).
     The phase of the Bragg electronic density (\unit{\radian}) of the reconstructed object is shown (right), the facets are clearly visible.
     Image displayed \textit{via} \textit{JupyterHub}.
+    The particle is \qty{300}{\nm} wide.
     }
     \label{fig:GUI_file}
 \end{figure}
@@ -310,12 +311,11 @@ Different lattices can be used to highlight the difference of geometry between t
 
 \begin{figure}[!htb]
     \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/Pt100/maps/Map_hkl_surf_or_2227-2283_patched.png}
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/Pt100/maps/Map_hkl_hex_or_2227-2283_not_patched.png}
+    % \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/Pt100/maps/Map_hkl_hex_or_2227-2283_not_patched.png}
     \caption{
     Reciprocal space in-plane maps.
     The large high intensity peaks are Bragg peaks from the bulk structure, the low intensity peaks are from surface structures.
-    The left map is computed using a cubic unit cell, two hexagonal unit cells corresponding to the surface structures are drawn as diamonds.
-    The right image is computed using a hexagonal unit cell.
+    The map is computed using a cubic unit cell, two hexagonal unit cells corresponding to the surface structures are drawn as diamonds.
     }
     \label{fig:MapExampleBinoculars}
 \end{figure}
@@ -384,6 +384,7 @@ In the frame of this thesis, \textit{ROD} was chosen for the analysis of SXRD da
     \caption{
         Simulation of out-of-plane structure factors computed with \textit{ROD}.
         Different layers within a single unit cell of \ce{Pt_3O_4} are used in (a), while a different amount of the same \ce{Pt_3O_4} unit cell is used in (b).
+        Contribution from \ce{Pt3O4} are most important in the anti-Bragg region.
     }
     \label{fig:SimROD}
 \end{figure}

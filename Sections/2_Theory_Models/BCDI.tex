@@ -5,7 +5,7 @@ It reaches unparalleled spatial and strain resolution for a scattering technique
 
 The BCDI method is reliant on the coherence of the light available, thus only began to be exploited at third generation synchrotron sources \parencite{Miao1999, Miao2000, Robinson2001, Labat2007, Robinson2009, Vaxelaire2010, Chamard2010, Clark2012, Clark2013, Yang2013, Xiong2014}, also the subject of reviews \parencite{Nugent2010, Miao2015}.
 Since then it was developed into a characterisation tool for \textit{in situ / operando} studies of materials structure, mostly applied to three fields: electrochemistry \parencite{Ulvestad2015}, heterogeneous catalysis \parencite{Ulvestad2016}, and the structure and evolution of defects \parencite{Labat2015}.
-BCDI has gained from further source and beamline improvements as many synchrotrons have recently completed or are in the process of an upgrade from $3^{rd}$ to $4^{th}$ generation synchrotrons, which is predicted to allow the study of \textit{in-situ} dynamical phenomena \parencite{Lo2018}.
+BCDI has gained from further source and beamline improvements as many synchrotrons have recently completed or are in the process of an upgrade from $3^{rd}$ to $4^{th}$ generation synchrotrons, which is predicted to allow the study of \textit{in situ} dynamical phenomena \parencite{Lo2018}.
 Focusing optics that allowed the development of coherent imaging techniques by increasing the coherent flux on the probed sample will be discussed in this section.
 
 \subsection{Scattering by strained crystals}\label{sec:StrainBCDI}
@@ -233,13 +233,13 @@ This method is then called the strain shell correlation \parencite{Girard2020}.
 
 However, one must keep in mind that the upper threshold for the strain resolution exists based on the $(\vec{q}-\vec{G}).\vec{u}_k<<1$ condition, which mostly affects the quality of the phase retrieval.
 Highly strained crystals are very difficult to reconstruct and represent the next milestone in Bragg coherent diffraction imaging, recent methods have been proposed for specific cases such as phase transitions \parencite{Wang2020}.
-One could imagine a future in which the atomistic computation of the scattering factor has been so optimised that phase retrieval algorithms would only be needed to provide an initial guess to the electronic density, and be replaced in the final steps by a simple fitting of the computed structure factor to the square root of the measured intensity.
+One could imagine a future in which the atomistic computation of the scattering factor has been so optimised that phase retrieval algorithms would only be needed to provide an initial guess to the electronic density, replaced in the final steps by a fitting of the computed structure factor to the square root of the measured intensity.
 A reverse Monte-Carlo method used already for the simulation of powder diffractograms could also be used \parencite{RLMcGreevy2001}.
 
 \subsection{Facet analysis} \label{sec:FacetAnalysis}
 
 After phase retrieval, it becomes possible to exploit the electronic density of the reconstructed crystal.
-The surface of the reconstructed crystal corresponds to a layer of voxels in the three dimensional array.
+Its surface corresponds to a layer of voxels in the three dimensional array.
 Carnis et al. \parencite*{Carnis2019} have presented guidelines on how to correctly select the surface voxels, which are detailed below.
 The histogram in fig. \ref{fig:histo} represents the number of voxels per bin of normalised electronic density, the observed peak corresponds to the bulk voxels for which the amplitude of the electronic density is close to the maximum (fig. \ref{fig:histo} - right).
 An empiric criterion to select the voxels that correspond to the crystal's surface is to take the lowest foot of that peak, here around \num{0.6}, the surface being defined as the hull surrounding the bulk voxels.
@@ -247,12 +247,12 @@ An empiric criterion to select the voxels that correspond to the crystal's surfa
 \begin{figure}[!htb]
    \centering
    \includegraphics[height=4.5cm]{/home/david/Documents/PhD/Figures/bcdi_data/B7/hist_iso.pdf}
-   \includegraphics[height=4.4cm]{/home/david/Documents/PhD/Figures/bcdi_data/D6/amp_D6.png}
+   \includegraphics[height=4.4cm]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/AmplitudeLines.png}
    \caption{
    Histogram representing the distribution of the electronic density amplitude, normalised by its maximum (left).
    Values below 0.05 are ignored since they typically belong to voxels located far away from particle support.
    Amplitude of the electronic density in a slice of the reconstructed object (right).
-   Two curves are drawn at the iso-surface values of \num{0.05} (outer curve) and \num{0.6} (inner curve).
+   Two curves are drawn at the iso-surface values of \num{0.1} (outer curve - black ) and \num{0.6} (inner curve - red).
    }
    \label{fig:histo}
 \end{figure}
@@ -276,19 +276,6 @@ Finally, by \textit{marching} over the volume of the array, the algorithm derive
 
 Crystallographic facets can be identified on the surface of the reconstructed object when studying faceted objects with a highly coherent beam \parencite{Richard2018}, allowing in-depth studies of facet dependent strain and displacements.
 Lattice strain and displacements are key information to retrieve during \textit{in situ} and \textit{operando} experiments in fields such as heterogeneous catalysis \parencite{Ulvestad2016, Yau2017a, Kim2018, Fernandez2019, Abuin2019, Kim2019, Kawaguchi2019, Suzana2019, Choi2020, Passos2020,  Kim2021, Carnis2021, Dupraz2022} or electrochemistry \parencite{Ulvestad2015a, Bjorling2019, Vicente2021, Kawaguchi2021, Carnis2021b, Atlan2023}.
-
-Retrieving the facets can be achieved by analysing the probability distributions of the orientations of triangle normals on a mesh representation of the object \parencite{Grothausmann2012}.
-This method is used in the \textit{Paraview} plugin \textit{FacetAnalyser} \parencite{Grothausmann2015}, and yields a list of features detailed in tab. \ref{tab:facets}.
-The probability of each surface voxel to belong to a facet is illustrated in fig. \ref{fig:FacetsParaview}.
-The orientation of each facet is retrieved by analysing the angles between the normal of each facet, also returned by the algorithm, and a reference direction.
-
-In the case of highly resolved measurement, another approach could be inspired from image processing and convolutional neural networks, where 3D convolutions kernels are used to identify surfaces \parencite{RaschkaMirjalili2019}.
-By tuning the kernel size and values, it is possible to be sensitive to boundaries in specific directions.
-
-In this example, the FacetAnalyser plugin is used (fig. \ref{fig:FacetsParaview}).
-Note that the edges and corners of the reconstructed particle are also retrieved together as the voxels not belonging to any facets.
-The contribution from atomic edges and corners to those voxels, sites of particular interest for heterogeneous catalysis \parencite{Taylor1925}, depends on the spatial resolution of the experiment since averaged in the voxel size.
-The result depends on the algorithm input parameters, such as the minimum relative facet size, the angular acceptance for the facet normals, \textit{etc.}
 
 \begin{figure}
     \centering
@@ -324,3 +311,16 @@ The result depends on the algorithm input parameters, such as the minimum relati
     }
     \label{tab:facets}
 \end{table}{}
+
+Retrieving the facets can be achieved by analysing the probability distributions of the orientations of triangle normals on a mesh representation of the object \parencite{Grothausmann2012}.
+This method is used in the \textit{Paraview} plugin \textit{FacetAnalyser} \parencite{Grothausmann2015}, and yields a list of features detailed in tab. \ref{tab:facets}.
+The probability of each surface voxel to belong to a facet is illustrated in fig. \ref{fig:FacetsParaview}.
+The orientation of each facet is retrieved by analysing the angles between the normal of each facet, also returned by the algorithm, and a reference direction.
+
+In the case of highly resolved measurement, another approach could be inspired from image processing and convolutional neural networks, where 3D convolutions kernels are used to identify surfaces \parencite{RaschkaMirjalili2019}.
+By tuning the kernel size and values, it is possible to be sensitive to boundaries in specific directions.
+
+In this example, the FacetAnalyser plugin is used (fig. \ref{fig:FacetsParaview}).
+Note that the edges and corners of the reconstructed particle are also retrieved together as the voxels not belonging to any facets.
+The contribution from atomic edges and corners to those voxels, sites of particular interest for heterogeneous catalysis \parencite{Taylor1925}, depends on the spatial resolution of the experiment since averaged in the voxel size.
+The result depends on the algorithm input parameters, such as the minimum relative facet size, the angular acceptance for the facet normals, \textit{etc.}

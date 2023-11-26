@@ -20,12 +20,12 @@ The properties of the photon and its use in our society depends on its energy an
 For example, visible light is situated between \qty{1.65}{\eV} and \qty{3.26}{\eV}, micro-waves used in our everyday life are situated between \qty{e-6}{\eV} and \qty{e-3}{\eV}.
 On the other side of the electromagnetic spectrum are higher energy photons such as x-rays (\qtyrange{e2}{e5}{\eV}) and $\gamma$-rays (\qty{>e5}{\eV}).
 
-X-rays have a wavelength of a few \unit{\angstrom} (\qty{e-10}{\m}) making them the perfect probe to study the structures of materials at the atomic scale thanks to different interactions with matter.
+Hard x-rays have a wavelength of a few \unit{\angstrom} (\qty{e-10}{\m}) making them the perfect probe to study the structures of materials at the atomic scale thanks to different interactions with matter.
 
 \subsubsection{Cross-sections}
 
 When electromagnetic wave interacts with matter it will be attenuated by absorption, reflection or scattering.
-Each process can be quantified depending on the atoms (and thus on the electronic cloud and nucleus) the beam interacts with, and the energy on the incident photon (fig. \ref{fig:cross_sections}).
+Each process can be quantified depending on the atoms (and thus on its electronic cloud and nucleus) the beam interacts with, and the energy on the incident photon (fig. \ref{fig:cross_sections}).
 The cross-section for a particular process $p$ is defined as follows \parencite{Willmott}:
 
 \begin{equation}
@@ -95,6 +95,7 @@ At synchrotrons, where the incident beam has a horizontal polarisation, working 
     \caption{
         Effect of relation between synchrotron x-ray polarisation $\hat{\epsilon}$ and scattered x-ray polarisation $\hat{\epsilon}'$ on the scattered field.
         The scattered field intensity is attenuated by a $\cos{(\theta)}$ factor, where $\theta$ is the angle between the plane perpendicular to the electric field and the direction of observation $\vec{R}$.
+        $\vec{x}$ is parallel to the beam.
     }
     \label{fig:PolarisationEffect}
 \end{figure}
@@ -132,7 +133,7 @@ To describe the phase of the scattered field, which depends on the phase of each
     \label{fig:q}
 \end{figure}
 
-The phase difference between a wave scattered at a position $O$ and a wave scattered at a distance $\vec{r}$ from $O$ is equal to $(\vec{k}_i - \vec{k}_s).\vec{r} = \vec{q}.\vec{r}$ (fig. \ref{fig:q} - Jens Als-Nielsen \cite*{NielsenMcMorrow}).
+The phase difference between a wave scattered at a position $O$ and a wave scattered at a distance $\vec{r}$ from $O$ is equal to $(\vec{k}_s - \vec{k}_i).\vec{r} = \vec{q}.\vec{r}$ (fig. \ref{fig:q} - Jens Als-Nielsen \cite*{NielsenMcMorrow}).
 
 From fig. \ref{fig:q}, and the relation between wavevector and wavelength ($k = 2 \pi/\lambda$), the scattering vector modulus can be written as a function of the wavelength of the incident beam $\lambda$, and of the direction of detection defined by the scattering angle $2\theta$ (eq. \ref{eq:QSinTheta}).
 % between the wavevector of the incident photon $\vec{k}_i$ and the wavevector of the scattered photon $\vec{k}_s$.
@@ -152,7 +153,7 @@ The total contribution of one atom to the scattered field in the direction of th
 \end{equation}
 
 The scattering amplitude as a function of $\vec{q}$ is described by the atomic from factor $f^0(\vec{q})$, which is defined as the Fourier transform of the atomic electronic density $\rho_{atom}(\vec{r})$ \parencite{Paganin}.
-The values for the atomic from factor can be approximated by a sum of Gaussians using tabulated coefficients (eq. \ref{eq:AtomicFormFactorTab}) available online \parencite{InterTablesOfCryst}.
+The values for the atomic from factor can be approximated by a sum of Gaussians using tabulated coefficients ($a_i$, $b_i$ and $c$, eq. \ref{eq:AtomicFormFactorTab}) available online \parencite{InterTablesOfCryst}.
 It decreases with $\vec{q}$ (or $\sin(\theta) / \lambda)$ as illustrated in figure \ref{fig:AtomicFormFactor}.
 
 \begin{equation}
@@ -246,7 +247,7 @@ The \textit{primitive} unit cell is the smallest cell with which you can describ
 
 The structure of the Bravais lattice (cubic, hexagonal, ...) combined with the position of the patterns in the lattice and the symmetry relations between them defines the crystal \textit{space group}.
 In total there exist 230 space group in crystallography.
-In the simplest case the pattern consists of a single atom, for example pure platinum ($Z=78$) crystallises at room temperature in a cubic Bravais lattice (fig. \ref{fig:fcc}).
+In the simplest case the pattern consists of a single atom, for example pure platinum ($Z=78$) crystallises at room temperature in a facet centred cubic Bravais lattice (fig. \ref{fig:fcc}).
 
 The scattering factor $F_{crystal}$ of the crystal, that describes the amplitude of the scattered waves, is defined by the sum of the atomic scattering factor $f_j(\vec{q})$ of each atom present in the crystal.
 The phases between the scattered waves depend on the positions of the atoms $\vec{R}_j$ in the direction parallel to the scattering vector $\vec{q}$ (eq. \ref{eq:FCrystal1}).
@@ -268,7 +269,7 @@ The Thomson scattering length is left apart for simplicity.
     \includegraphics[height=5cm]{/home/david/Documents/PhD/Figures/introduction/PtClean.pdf}
     \caption{
     Face centred cubic (FCC) lattice of Pt (space group 225).
-    Atoms are represented as solid balls and situated on the corners and at the middle of the faces.
+    Atoms are represented as solid spheres and situated on the corners and at the middle of the faces of the cube.
     A schematic representation of the unit cell is shown on the right to be able to visualise the positions of each atom.
     The lattice parameter at room temperature is $a = \qty{3.92}{\angstrom}$.
     Close packed direction is achieved along the diagonal of the lateral faces, the distance between the atoms then becomes \qty{2.77}{\angstrom}.
@@ -527,7 +528,7 @@ Indeed, to be able to resolve the interference fringes resulting from the lattic
 
 \textit{
 This introduction is limited to the kinematical approach of diffraction, which means that the scattering is weak, so that multiple scattering can be ignored.
-This is explained by the size of the samples, e.g. surfaces and nanoparticles.
+This is explained by the finite size of the samples, e.g. surfaces and nanoparticles.
 This allows us to assume that the sample is only a perturbation to the incident field, and that the structure factor can be written as the Fourier transform of the electronic density (Born approximation).
 It is also assumed that the incident wave is plane within the scattering volume, and that the distance between the scatterer and the detector is large enough for the scattered waves to be considered planes (far-field or Fraunhofer regime).
 }

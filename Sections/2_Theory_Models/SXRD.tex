@@ -4,7 +4,7 @@ Surface x-ray diffraction is a technique used to study the atomic structure and 
 In surface x-ray diffraction, the incident photon beam is directed towards the sample surface at a grazing angle of incidence to lower the penetration depth of the x-rays in the material, typically probing the top few atomic layers.
 The x-rays interact with the atoms in the topmost layer of the material and undergo scattering.
 The intensity of the scattered x-rays is then measured as a function of the scattering angle.
-The incident angle can be chosen to coincide with the critical angle of the material to increase the intensity of the scattered beam due to total reflection, and to lower the bulk contribution to the intensity in comparison with the surface contribution \parencite{Feidenhansl1989, Moritz2022}.
+The incident angle can be chosen to coincide with the critical angle of the material (sec. \ref{sec:RefractionReflectionAbsorption}) to increase the intensity of the scattered beam due to total reflection, and to lower the bulk contribution to the intensity in comparison with the surface contribution \parencite{Feidenhansl1989, Moritz2022}.
 However, since the intensity becomes so dependent on the incident angle, a misalignment of the incident beam can lead to relevant errors in the scattered beam intensity, the surface alignment is critical during surface x-ray diffraction experiments.
 
 % By analyzing the diffraction pattern, which consists of intensity peaks at specific scattering angles, valuable information about the crystal structure and surface properties can be obtained.
@@ -18,18 +18,18 @@ The aim of the technique is to obtain geometrical information of the surface at 
     \centering
     \includegraphics[width=\textwidth]{Figures/introduction/SurfaceReconstructions.pdf}
     \caption{
-    (a) Top view of the crystal surface, the last atomic layer (green) does not have the same periodicity as the bulk layers (orange), but a (2x4) periodicity.
-    (b) HK plane in the reciprocal space, diffraction peaks are represented as small orange and green dots for the bulk and surface reconstruction, respectively. The bulk reciprocal lattice is represented in grey.
+    (a) Top view of the crystal surface, the last atomic layer (green) does not have the same periodicity as the bulk layers (brown), but a (2x4) periodicity.
+    (b) HK plane in the reciprocal space, diffraction peaks are represented as small brown and green dots for the bulk and surface reconstruction, respectively. The bulk reciprocal lattice is represented in grey.
     }
     \label{fig:SurfaceReconstructions}
 \end{figure}
 
-An example of surface reconstructions is given in fig. \ref{fig:SurfaceReconstructions}, where the latest atomic layer (green) does not have the same periodicity as the bulk layers (orange).
+An example of surface reconstructions is given in fig. \ref{fig:SurfaceReconstructions}, where the latest atomic layer (green) does not have the same periodicity as the bulk layers (brown).
 This phenomenon gives rise to additional signals at positions defined by how the periodicity of the reconstruction relates to the periodicity of the bulk structure in the $\vec{a}$ and $\vec{b}$ directions (also named in-plane directions).
 The origin of this phenomenon can be linked to a different environment for surface atoms, in comparison with the bulk atoms \parencite{Robinson1983, Feidenhansl1989}.
 
 In this example, the surface reconstructions can be described using the \textit{Wood notation}, that quantifies the relation between the surface reconstruction unit vectors ($\vec{a}_r, \vec{b}_r$) and the bulk unit vectors ($\vec{a}, \vec{b}$) \parencite{Wood1964, Unertl1996, Goncharova2018}.
-Let us take the example of fig. \ref{fig:SurfaceReconstructions}, for which the orange atoms correspond to the Pt(100) surface.
+Let us take the example of fig. \ref{fig:SurfaceReconstructions}, for which the brown atoms correspond to the Pt(100) surface.
 The green reconstruction can be described as Pt(100)-p(2x4)-R\ang{0}.
 A possible rotation of the reconstruction arrangement with respect to the bulk layer would result in a specific angular value.
 If an atom was present in the center of the \numproduct{2x4} arrangement, \textit{i.e.} at (1, 2), the notation would change and become Pt(100)-c(2x4)-R\ang{0}.
@@ -56,7 +56,7 @@ In this case $M_{ii}, M_{jj} = 2, 4$, and $M_{ij}, M_{ji} = 0, 0$.
 
 It was shown in sec. \ref{sec:LatticeFactor} that the lattice factor is equivalent to the Fourier transform of the crystal shape.
 For infinitely large crystals, the lattice factor converges towards a three dimensional Dirac peak.
-When working with large single crystals for surface x-ray diffraction, the samples are considered to be infinitely large in the $\vec{a}, \vec{b}$ in-plane directions, and \textit{semi-infinitely} large in the out-of-plane $\vec{c}$ direction, creating an infinitely large flat surface.
+When working with large single crystals for surface x-ray diffraction, the samples are considered to be infinitely large in the $\vec{a}, \vec{b}$ in the surface plane (in-plane) directions, and \textit{semi-infinitely} large in the out-of-plane $\vec{c}$ direction, creating an infinitely large flat surface.
 In the real space, this can be mathematically described by the multiplication of the crystal lattice and a step-function, as illustrated in fig. \ref{fig:CTRConvolution}.
 The convolution theorem states that the Fourier transform of the multiplication of two functions is the convolution of their Fourier transforms \parencite{Mcalister2003}.
 The Fourier transform of the crystal lattice is the Lattice factor, when the Fourier transform of the step function is the inverse function $\frac{1}{q_z}$ \parencite{Andrews1985, Robinson1986}.
@@ -102,15 +102,16 @@ An effective way to represent roughness is \textit{via} the $\beta$ model, in wh
 The effect of roughness is illustrated in fig. \ref{fig:CTRSimulation}.
 This model only serves to describe the roughness of the bulk structure and does not function to describe the roughness of additional surface structures.
 
-In surface x-ray diffraction, lattice strain is defined as the displacement of the surface atomic layers with respect to the bulk unit cell lattice parameters.
+Lattice strain is defined as the displacement of the surface atomic layers with respect to the bulk unit cell lattice parameters.
 Positive or negative strain, also called surface relaxation,
 % when due to the minimisation of the surface energy from the presence of an ad-atom \parencite{Gupta1981}
 has the effect of changing the position of the CTR minimum, and of skewing the shape of the CTR as illustrated in fig. \ref{fig:CTRSimulation}.
 
 Surface reconstructions also yield crystal truncation rods in the reciprocal space, perpendicular to the nodes of the reconstructed lattice, called super-structure rods (SSR).
-These rods are structured in $L$ if the width of the surface reconstruction in $\vec{c}$ is more than a few unit cells.
-Otherwise, the scattered signal corresponds to a diffuse signal slowly decreasing as a function of $L$ instead.
-To resume, analysing the scattered signal as a function of $L$ (out-of-plane measurements) yields information about the structure in the $\vec{c}$ direction, whereas analysing the position and intensity of the peaks in $[H, K]$ planes (in-plane measurements) yields information about the two-dimensional structure in the directions of $\vec{a}$ and $\vec{b}$.
+These rods are structured in $L$ by the atomic positions.
+If the surface layer is flat, the scattered signal corresponds to a diffuse signal slowly decreasing as a function of $L$.
+To resume, the in-plane $[H, K]$ position give the periodicity of the surface structure.
+The intensity measured along the corresponding SSR allows to extract the surface structure factors, and to identify the surface atomic positions.
 
 \subsection{Data collection} \label{sec:DataCollectionSXRD}
 
@@ -143,21 +144,22 @@ The Laue condition for a particular reflection is satisfied when the scattering 
     \caption{
     2+3 multi-environment diffractometer (MED) used at SixS, figure adapted from \cite{Schleputz2011}.
     The diffractometer has a horizontal (red) and vertical (blue) geometry, depending on the position of the sample.\\
-    The scattering plane is defined as parallel to the sample surface, $\omega$ is always the in-plane rotation of the sample.
-    The out-of-plane angular rotation is performed with $\beta$ in the horizontal configuration, whereas $\mu$ is used in the vertical configuration.\\
+    The scattering plane is defined as parallel to the sample surface.
+    The sample in-plane (out-of-plane) angular rotation is performed with $\mu$ ($\beta$) in the horizontal configuration, whereas $\omega$ ($\mu$) is used in the vertical configuration.\\
     $\gamma$ and $\delta$ are respectively the in-plane (out-of-plane) and out-of-plane (in-plane) detector angles in the horizontal (vertical) configuration.\\
     The $u$ and $v$ angles are pseudo-angles used to tilt the position of the sample with the goniometer.
+    $\eta$ is the rotation of the detector around its axis.
     }
     \label{fig:Diffractometer}
 \end{figure}
 
 The Ewald sphere is represented in fig. \ref{fig:EwaldSphere} to highlight how the diffraction angles can be tuned to satisfy the Laue condition.
-Let us take the example of a diffractometer in a horizontal setup (fig. \ref{fig:Diffractometer} - in red), $\omega$ and $\beta$ (rotation around $\vec{z}$ of the entire setup) are respectively the in-plane and out-of-plane rotation angles of the sample when $\gamma$ and $\delta$ are the in-plane and out-of-plane rotation angles of the detector.
+Let us take the example of a diffractometer in a horizontal setup (fig. \ref{fig:Diffractometer} - in red), $\mu$ and $\beta$ are respectively the in-plane and out-of-plane rotation angles of the sample when $\gamma$ and $\delta$ are the in-plane and out-of-plane rotation angles of the detector.
 The Laue condition is satisfied by rotating the reciprocal space, which is performed by rotating the sample (the reciprocal space rotates jointly with the atomic lattice).
 The detection of the scattered x-rays by the detector is then attained by placing the detector in the direction of the scattering wavevector $\vec{k}_s$.
 
-For in-plane measurements, the Laue condition is fulfilled by rotating the in-plane sample angle $\omega$ to the Bragg angle.
-The detector in-plane angle $\gamma$ must then be equal to $\gamma = 2 \omega$ to measure the scattered x-rays in the direction of the scattering wavevector $\vec{k}_s$ (fig. \ref{fig:EwaldSphere} - a).
+For in-plane measurements, the Laue condition is fulfilled by rotating the in-plane sample angle $\mu$ to the Bragg angle.
+The detector in-plane angle $\gamma$ must then be equal to $\gamma = 2 \mu$ to measure the scattered x-rays in the direction of the scattering wavevector $\vec{k}_s$ (fig. \ref{fig:EwaldSphere} - a).
 The incident angle between $\vec{k}_i$ and the sample must be kept to low values, in the case of out-of-plane measurements, this brings some important constraints about the experiment geometry.
 For example, the $(0, 0, L)$ crystal truncation rod becomes impossible to measure, for other rods (e.g. $(0, 1, L)$, fig. \ref{fig:EwaldSphere} - b), the sample must be rotated in plane so that the top of the Ewald sphere intersects the rod in the reciprocal space \parencite{Vlieg1997, Schleputz2005}.
 
