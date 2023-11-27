@@ -310,7 +310,8 @@ Different orthonormal frames can be of interest when analysing the data, the q-s
 Different lattices can be used to highlight the difference of geometry between the bulk structure and the surface structure (fig. \ref{fig:MapExampleBinoculars}).
 
 \begin{figure}[!htb]
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/Pt100/maps/Map_hkl_surf_or_2227-2283_patched.png}
+    \centering
+    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/Pt100/maps/Map_hkl_surf_or_2227-2283_patched.png}
     % \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/Pt100/maps/Map_hkl_hex_or_2227-2283_not_patched.png}
     \caption{
     Reciprocal space in-plane maps.
@@ -379,6 +380,20 @@ The typical approach for time-resolved experiments is to follow the intensity of
 Since \textit{ROD} is written in \textit{C} and does not come with a graphical user interface, alternatives have been developed such as GenX \parencite{Bjorck2007, Glavic2022} written in \textit{Python} which mostly focuses on reflectivity.
 In the frame of this thesis, \textit{ROD} was chosen for the analysis of SXRD data.
 
+\begin{SCfigure}
+    \centering
+    \includegraphics[trim=0 1cm 0 1cm, clip, width=0.35\textwidth]{/home/david/Documents/PhD/Figures/introduction/Pt3O4.pdf}
+    \caption{
+        \ce{Pt_3O_4} bulk unit cell.
+        Platinum atoms are situated on the faces on the cubic unit cell (e.g. $(0, 1/2, 1/4)$, $(0, 1/2, 3/4)$), while the eight oxygen atoms are inside the unit cell at the positions $(1/4, 1/4, z)$, $(1/4, 2/4, z)$, $(2/4, 1/4, z)$, $(2/4, 2/4, z)$ for $z=1/4$ and $z=3/4$.
+    }
+    \label{fig:Pt3O4_ROD}
+\end{SCfigure}
+
+The structure of our crystal must be understood as follows when working with surfaces, infinite in both in-plane dimensions, finite in the out-of-plane dimension.
+The origin of the out-of-plane axis, commonly denoted $\vec{z}$, is situated at the surface of the crystal.
+When $z$ is negative the \textit{bulk} structure of the crystal is described, whereas when $z$ is positive, the \textit{surface} structure of the crystal is described, usually only a few atomic layers thick where e.g. surface relaxation and reorganisation effects can be detected.
+
 \begin{figure}[!htb]
     \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/simulations/rod_pt304/figures/rod_4_0_pt3o4.pdf}
     \caption{
@@ -389,22 +404,9 @@ In the frame of this thesis, \textit{ROD} was chosen for the analysis of SXRD da
     \label{fig:SimROD}
 \end{figure}
 
-The structure of our crystal must be understood as follows when working with surfaces, infinite in both in-plane dimensions, finite in the out-of-plane dimension.
-The origin of the out-of-plane axis, commonly denoted $\vec{z}$, is situated at the surface of the crystal.
-When $z$ is negative the \textit{bulk} structure of the crystal is described, whereas when $z$ is positive, the \textit{surface} structure of the crystal is described, usually only a few atomic layers thick where e.g. surface relaxation and reorganisation effects can be detected.
-
 Additional surface layers can be present on top of the main crystal structure, the example of a \ce{Pt_3O_4} platinum oxide is presented in fig. \ref{fig:SimROD}.
 At least two layers in $\vec{c}$ are necessary to see a modulation of the out-of-plane signal, the Bragg peaks linked to the presence of a bulk oxide start to be clearly visible after 4 unit cells of \ce{Pt_3O_4} are present on the platinum surface.
-
-\begin{SCfigure}
-    \centering
-    \includegraphics[trim=0 1cm 0 1cm, clip, width=0.35\textwidth]{/home/david/Documents/PhD/Figures/introduction/Pt3O4.pdf}
-    \caption{
-        \ce{Pt_3O_4} bulk unit cell.
-        Platinum atoms are situated on the faces on the cubic unit cell (e.g. $(0, 1/2, 1/4)$, $(0, 1/2, 3/4)$), while the eight oxygen atoms are inside the unit cell at the positions $(1/4, 1/4, z)$, $(1/4, 2/4, z)$, $(2/4, 1/4, z)$, $(2/4, 2/4, z)$ for $z=1/4$ and $z=3/4$.
-    }
-    \label{fig:Pt3O4_ROD}
-\end{SCfigure}
+The unit cell of \ce{Pt3O4} is presented in fig. \ref{fig:Pt3O4_ROD}.
 
 In a second step, it is possible to refine the position of each atom in the unit cell to take into account possible strain along $\vec{c}$, that will have a significant effect in the shape of the crystal truncation rods as shown previously in fig. \ref{fig:CTRSimulation}.
 The structure along $\vec{c}$ is refined by computing the shape of crystal truncation rods, and comparing them with experimental data.
