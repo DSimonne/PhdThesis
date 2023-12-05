@@ -38,3 +38,6 @@ also no 8x8 oxide detected so far in sxrd
 * $r_0$ use consistent ? $2\pi$ ? seems ok
 * hypothesis to explain: dipole approximation, perfect crystals
 * extinction length
+
+# Errors
+* fwhm and not standard deviation for coherence length (see thesis vincent jacques)
