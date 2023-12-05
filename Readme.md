@@ -6,8 +6,6 @@ pdflatex main.tex; biber main; pdflatex main.tex; okular main.pdf
 Nomenclature: https://www.overleaf.com/learn/latex/Nomenclatures
 
 # TODO
-* pt100 fit
-
 ## SXRD single crystals
 * in plane lattice displacement ROD fitting
 * pt100 hex reconstruction literature, and subsurface oxygen
@@ -27,8 +25,6 @@ Nomenclature: https://www.overleaf.com/learn/latex/Nomenclatures
 * Radial distributions analysis, onion rings !
 * Cross correlation for defect
 * Ask andrea about H decrease, NH3 ? or dissociation ?
-* scale bar
-* SFE as time
 
 ## XPS
 The peak at 531 ev for Pt111 is not oxide bc the PtO2 peak is not visible in the Pt4f level,
@@ -40,15 +36,5 @@ also no 8x8 oxide detected so far in sxrd
 * Field / amplitude / intensity consistent ? seems ok
 * summary ?
 * $r_0$ use consistent ? $2\pi$ ? seems ok
-* hypothesis to explain: DWBA, dipole approximation, perfect crystals
-* When detecting the scattered field at a point $\vec{R}$, we assume that $\|vec{R}|$ is far greater than the electronic density, this is called the dipole approximation. NOT GOOD Each atom can be considered as a ball of certain radius (see \ref{fcc_lattice}).
-
-# Open questions
-* Check if line profiles are really biased from ER
-* adsorbed molecules impact on strain or strain means adsorbed molecules
-* BCDI -> real world
-* beam stability: 1h30
-* Fit L scans with distorted PtO2
-* material loss on B7 nanoparticle ?
-* all contributions to FWHM
-* quelle épaisseur avec SXRD ?
+* hypothesis to explain: dipole approximation, perfect crystals
+* extinction length
