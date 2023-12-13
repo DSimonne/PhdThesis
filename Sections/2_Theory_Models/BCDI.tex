@@ -78,7 +78,7 @@ This approximation breaks down far away from the Laue condition, or if the strai
 
 In the case of highly strained crystal, or when the intensity must be computed far away from Bragg peaks, it is still possible to resort to so-called \textit{atomistic} simulations, by computing the scattering intensity directly from the position of each atom in the crystal (eq. \ref{eq:FCrystal1}).
 However, the position of each atom must be known and, for a large crystal, the sum becomes too large to handle even with high-performance clusters due to a quadratic time complexity $O(n^2)$ (n is the number of operations).
-Atomistic simulations are usually used when studying crystals of dimensions below 100 nm \parencite{Dupraz2022}.
+Atomistic simulations are usually used when studying crystals of dimensions below \qty{100}{\nm} \parencite{Dupraz2022}.
 
 For a non-strained crystal, the Lattice factor is the same at each Bragg peak, equal to the Fourier transform of the crystal's lattice.
 In the case of a strained crystal, the additional phase factor introduced in eq. \ref{eq:FcrystalBCDI7} breaks the centrosymmetry around each Bragg peak, due to the heterogeneous displacement field in the crystal.
