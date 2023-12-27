@@ -112,11 +112,11 @@ It is also possible to collect 3D measurements by tuning the energy of the incid
 
 As seen in sec. \ref{sec:DataCollectionSXRD}, the diffracted intensity collected by the detector is proportional to the squared modulus of the structure factor $F_{crystal}(\vec{q})$ (eq. \ref{eq:ScatteredIntensity}), the phase of the scattered x-rays is lost during the measurement.
 
-Without the phase information, it is impossible to directly reconstruct the crystal electronic density with the help of an inverse discrete Fourier transform (IDFT, from eq. \ref{eq:FCrystal1}), and to obtain a detailed structural model of the crystal.
+Without the phase information in reciprocal space, it is impossible to directly reconstruct the crystal electronic density with the help of an inverse discrete Fourier transform (IDFT, from eq. \ref{eq:FCrystal1}), and to obtain a detailed structural model of the crystal.
 
 \begin{equation}
     \label{eq:IDFT}
-    \rho(\vec{r}) = IDFT [F_{crystal}(\vec{q})] %  \approx \vec{G}
+    \rho(\vec{r}) = IDFT [F_{crystal}(\vec{q})]
 \end{equation}
 
 It has been demonstrated that when fulfilling the \textit{oversampling} condition, the phase lost during the measurement can be retrieved \parencite{Shannon1949, Sayre1952}.
@@ -150,11 +150,11 @@ The oversampling condition partly dictates the instrumental parameters which def
 
 Fienup et al. \parencite*{Fienup1978, Fienup1982, Fienup1986} have laid the ground for computer methods permitting phase retrieval, once the oversampling condition has been satisfied.
 The error-reduction (ER) algorithm works by iterating between real and reciprocal space by the means of fast Fourier transforms (FFT) and inverse fast Fourier transforms (IFFT) methods.
-The process starts by assigning random phases to the square root of the measured scattered intensity ($I(\vec{q})$), to create a first guess of the structure factor: $F_{crystal}(\vec{q}) = \sqrt{I(\vec{q})}e^{i\Phi(\vec{q})}$.
-The inverse Fourier transform of the structure factor yields the electronic density of the crystal (eq. \ref{eq:IDFT}).
+The process starts by assigning random phases to the square root of the measured scattered intensity ($I(\vec{q})$), to create a first guess of the scattered amplitude: $A(\vec{q}) = \sqrt{I(\vec{q})}e^{i\Phi(\vec{q})}$, proportionnal to the structure factor.
+The inverse Fourier transform yields a complex object $\rho(\vec{r})$ of amplitude proportionnal to the electronic density of the crystal (eq. \ref{eq:IDFT}), and with an additionnal phase factor linked to the displacement of the unit cells (eq. \ref{eq:FcrystalBCDI7}).
 A real space constraint is then applied by selecting a region above a certain threshold $t$ of the modulus of the electronic density which is called the \textit{support}.
 The electronic density outside the support is set to zero (eq. \ref{eq:ElectronicDensity}).
-The structure factor is then computed with the Fourier transform of the electronic density, the following reciprocal space constraint consisting in replacing the amplitude of the computed structure factor by the square root of the measured intensity.
+The scattered amplitude is then computed with the Fourier transform of the electronic density, the following reciprocal space constraint consisting in replacing the amplitude of the computed amplitude by the square root of the measured intensity.
 
 \begin{equation}
     \label{eq:ElectronicDensity}
@@ -167,13 +167,13 @@ The structure factor is then computed with the Fourier transform of the electron
 
 By iterating between the real and reciprocal space, the algorithm converges towards a final solution for the electronic density (fig. \ref{fig:PRAlgo}).
 
-The error-metric used to follow the convergence of the algorithm is the mean squared error between the square root of the measured intensity, and the structure factor computed from the Fourier transform of the electronic density.
+The error-metric used to follow the convergence of the algorithm is the mean squared error between the square root of the measured intensity, and the amplitude computed from the Fourier transform of the electronic density.
 The main drawback of this error-metric is that each voxel is given the same weight, whereas the impact of the approximation detailed previously depend on the distance from the Bragg peak \parencite{Godard2021}.
 
-\begin{equation}
-    \label{eq:MSE}
-    E = \frac{\sum \big( F_{crystal}(\vec{q}) - \sqrt{I(\vec{q})}  \big)^2}{I(\vec{q})}
-\end{equation}
+% \begin{equation}
+%     \label{eq:MSE}
+%     E = \frac{\sum \big( F_{crystal}(\vec{q}) - \sqrt{I(\vec{q})}  \big)^2}{I(\vec{q})}
+% \end{equation}
 
 More algorithms have since then been developed to help converge towards the final solution without being stuck in local minima such as the hybrid input-output (HIO) and relaxed averaged alternating reflections (RAAR) algorithms, by introducing a new parameter, $\beta$, which relaxes the threshold condition in real space from the ER algorithm \parencite{Marchesini2003, Luke2005, Marchesini2007}.
 
@@ -194,7 +194,7 @@ A high-intensity dynamic range detector is therefore needed to correctly probe i
 This is the case in simulated data, but not with experimental data, for which the noise starts to become important far away from the Bragg peak \parencite{Bikondoa2021}, keeping in mind that the intensity decreases as a function of $q^{-4}$ as a function of the distance from the Bragg peak \parencite{Marchesini2003a}, depending also on the form factor \parencite{Croset2017}.
 The community has therefore relied so far on a few methods to estimate the spatial resolution of the reconstructed electronic density.
 
-First, the Phase Retrieval Transfer Function (PRTF) \parencite{Chapman2006} is the \textit{ratio} of the calculated structure factor $|F_k(\vec{q})|$ to the square-root of the measured intensity $\sqrt{I_k(\vec{q})}$ as a function of the resolution shell.
+First, the Phase Retrieval Transfer Function (PRTF) \parencite{Chapman2006} is the \textit{ratio} of the calculated amplitude $|A_k(\vec{q})|$ to the square-root of the measured intensity $\sqrt{I_k(\vec{q})}$ as a function of the resolution shell.
 The resolution shell $k$ is defined as all voxels of position $q=\sqrt{q_x^2 + q_y^2 +q_z^2}$ that satisfy the condition $q \in [q_k, q_{k+1}]$.
 $\delta q$ is the width of the resolution shell which divides the extent $[q_{min}, q_{max}]$ of the sampled reciprocal space in $N$ shells so that $q_{max} = q_{min} + N \times \delta q$ and $q_{k+1} - q_{k} = \delta q$.
 
@@ -202,7 +202,7 @@ $\delta q$ is the width of the resolution shell which divides the extent $[q_{mi
     PRTF(q_k, q_{k+1}) = \frac{|<F_k(\vec{q})>|}{<\sqrt{I_k(\vec{q})}>}
 \end{equation}
 
-Secondly, the Fourier shell correlation (FSC) \parencite{VanHeel2005} measures the \textit{normalised cross-correlation coefficient} between the structure factor of two independent reconstructions, also as a function of the resolution shell, but from two independent datasets collected with the same instrumental parameters:
+Secondly, the Fourier shell correlation (FSC) \parencite{VanHeel2005} measures the \textit{normalised cross-correlation coefficient} between the amplitude of two independent reconstructions, also as a function of the resolution shell, but from two independent datasets collected with the same instrumental parameters:
 
 \begin{equation}
     FSC(q_k, q_{k+1}) = \frac{ |\sum F_{1,k} F_{2,k}^*| }{\sqrt{ \sum F_{1,k} F_{1,k}^* \times \sum F_{2,k} F_{2,k}^*}}
@@ -228,12 +228,12 @@ Consequently, the significance of the sample's shape, as well as the measurement
 For instance, a large planar particle featuring a sizeable (111) top facet would yield a more readily resolvable signal in the (111) direction compared to a smaller, spherical particle with a diminished (111) top facet.
 
 Concerning the resolution of the retrieved atomic displacement, Labat et al. \parencite*{Labat2015} have demonstrated a displacement field accuracy of few \unit{pm} along preferential directions, by comparing with simulated displacement fields.
-Another method is to work in a similar way to the Fourier shell correlation by replacing the shells of structure factor as a function of $\vec{q}$ by shells of strain as a function of the strain magnitude, and see if there exists a strain threshold below which the correlation drops.
+Another method is to work in a similar way to the Fourier shell correlation by replacing the shells of amplitude as a function of $\vec{q}$ by shells of strain as a function of the strain magnitude, and see if there exists a strain threshold below which the correlation drops.
 This method is then called the strain shell correlation \parencite{Girard2020}.
 
 However, one must keep in mind that the upper threshold for the strain resolution exists based on the $(\vec{q}-\vec{G}).\vec{u}_k<<1$ condition, which mostly affects the quality of the phase retrieval.
 Highly strained crystals are very difficult to reconstruct and represent the next milestone in Bragg coherent diffraction imaging, recent methods have been proposed for specific cases such as phase transitions \parencite{Wang2020}.
-One could imagine a future in which the atomistic computation of the scattering factor has been so optimised that phase retrieval algorithms would only be needed to provide an initial guess to the electronic density, replaced in the final steps by a fitting of the computed structure factor to the square root of the measured intensity.
+One could imagine a future in which the atomistic computation of the scattering factor has been so optimised that phase retrieval algorithms would only be needed to provide an initial guess to the electronic density, replaced in the final steps by a fitting of the computed amplitude to the square root of the measured intensity.
 A reverse Monte-Carlo method used already for the simulation of powder diffractograms could also be used \parencite{RLMcGreevy2001}.
 
 \subsection{Facet analysis} \label{sec:FacetAnalysis}

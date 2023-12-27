@@ -208,31 +208,30 @@
 
 \begin{document}
 
-% Title page
     \input{Sections/00_Title_Saclay}
+    \newpage
+    \input{Sections/99_2eme_couverture}
 
-% % Optional Chapters
-%     \chapter*{Dedication}
-%     \input{Sections/0_Dedication}
-%     \chapter*{Declaration}
-%     \input{Sections/0_Declaration}
-%     \chapter*{Acknowledgements}
-%     \input{Sections/0_Acknowledgements}
+    % Optional Chapters
+    %     \chapter*{Dedication}
+    %     \input{Sections/0_Dedication}
+    %     \chapter*{Declaration}
+    %     \input{Sections/0_Declaration}
+    %     \chapter*{Acknowledgements}
+    %     \input{Sections/0_Acknowledgements}
 
-\frontmatter
-{\hypersetup{linkcolor=black}
-    \tableofcontents
-    % \listoffigures
-    % \listoftables
-}
-\newpage
+    \frontmatter
+    {\hypersetup{linkcolor=black}
+        \tableofcontents
+        % \listoffigures
+        % \listoftables
+    }
+    \newpage
 
-\mainmatter
-% Introduction
+    \mainmatter
     \chapter{Introduction}
     \input{Sections/1_Introduction/AmmoniaOxidation}
      
-% Theory
     \chapter{Theory and methods}
     \input{Sections/2_Theory_Models/Introduction}
     \input{Sections/2_Theory_Models/Catalysis}
@@ -241,8 +240,8 @@
     \input{Sections/2_Theory_Models/BCDI}
     \input{Sections/2_Theory_Models/SixS}
     \input{Sections/2_Theory_Models/ComputerPrograms}
-% Results BCDI
-    \addtocontents{toc}{\protect\newpage}
+
+    % \addtocontents{toc}{\protect\newpage}
     \chapter{Pt nanoparticles during ammonia oxidation}
     \input{Sections/3_Results_Nanoparticles/Introduction}
     \input{Sections/3_Results_Nanoparticles/SXRDNanoparticles}
@@ -250,26 +249,22 @@
     \input{Sections/3_Results_Nanoparticles/BCDIOxidationAmmonia}
     \input{Sections/3_Results_Nanoparticles/Conclusion}
 
-% Results SXRD
     \chapter{Pt single crystals during ammonia oxidation}
     \input{Sections/4_Results_SingleCrystals/Introduction}
     \input{Sections/4_Results_SingleCrystals/111}
     \input{Sections/4_Results_SingleCrystals/100}
     \input{Sections/4_Results_SingleCrystals/Conclusion}
 
-% Conclusion
     \chapter{Conclusion}
     \input{Sections/5_Conclusion/Conclusion}
     
-% % Bibliography
     \phantomsection
     \printbibliography[
         heading=bibintoc,
         title={Bibliography}
     ]
 
-% Appendices
-\begin{appendices}
+    \begin{appendices}
     % \chapter{Diffraction vocabulary}
     % \input{Sections/6_Appendix/DiffractionVocab}
 
@@ -283,8 +278,6 @@
     \input{Sections/6_Appendix/Comparison}
 \end{appendices}
 
-% 4ème de couverture
-\input{Sections/99_4eme_couverture}
 \end{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

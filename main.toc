@@ -1,114 +1,113 @@
 \babel@toc {british}{}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}The oxidation of ammonia}{4}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}The Haber-Bosch and Ostwald processes}{4}{subsection.1.1.1}%
-\contentsline {section}{\numberline {1.2}The importance of heterogeneous catalysis}{7}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Industry conditions and catalysts}{7}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Reaction mechanism}{9}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Environmental impact}{12}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Greenhouse effect}{12}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Pollution}{13}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}From industry to model catalysis}{13}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Aim and Scope}{15}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Thesis outline}{16}{section.1.6}%
-\contentsline {chapter}{\numberline {2}Theory and methods}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{17}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Heterogeneous Catalysis}{18}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Mechanisms}{18}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Active sites in heterogeneous catalysis}{20}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Linking strain and reactivity}{21}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}X-ray interaction with matter}{22}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Scattering from electrons and atoms}{22}{subsection.2.3.1}%
-\contentsline {subsubsection}{Cross-sections}{22}{section*.14}%
-\contentsline {subsubsection}{Scattering from an electron}{22}{section*.16}%
-\contentsline {subsubsection}{Scattering from a single atom}{24}{section*.18}%
-\contentsline {subsection}{\numberline {2.3.2}Refraction, reflection and absorption effects}{25}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Scattering from crystals}{27}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Bragg's law}{29}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Structure factor}{30}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Lattice factor}{31}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Coherence}{32}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}Surface x-ray diffraction}{33}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Surface reconstructions}{34}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Crystal truncation rods}{34}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Data collection}{37}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}X-ray reflectivity}{39}{subsection.2.5.4}%
-\contentsline {section}{\numberline {2.6}Bragg coherent diffraction imaging}{40}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Scattering by strained crystals}{41}{subsection.2.6.1}%
-\contentsline {subsubsection}{Data collection}{43}{section*.32}%
-\contentsline {subsection}{\numberline {2.6.2}Phase retrieval}{43}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Resolution}{45}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}Facet analysis}{47}{subsection.2.6.4}%
-\contentsline {section}{\numberline {2.7}Synchrotron radiation for the study of materials}{49}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Synchrotron radiation}{49}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}The SixS beamline}{50}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Multi environment diffractometer}{51}{subsection.2.7.3}%
-\contentsline {subsubsection}{BCDI configuration}{52}{section*.43}%
-\contentsline {subsubsection}{Improving Bragg coherent diffraction imaging at SixS}{53}{section*.46}%
-\contentsline {subsubsection}{Catalysis reactor}{54}{section*.48}%
-\contentsline {subsubsection}{Detectors}{56}{section*.52}%
-\contentsline {section}{\numberline {2.8}Computer programs}{57}{section.2.8}%
-\contentsline {subsubsection}{Result reproducibility}{57}{section*.53}%
-\contentsline {subsubsection}{\textit {Python} in the \textit {Jupyter} environment}{58}{section*.54}%
-\contentsline {subsection}{\numberline {2.8.1}\textit {Gwaihir}}{59}{subsection.2.8.1}%
-\contentsline {subsubsection}{Workflow for Bragg coherent diffraction imaging}{60}{section*.56}%
-\contentsline {subsubsection}{Pre-processing}{60}{section*.59}%
-\contentsline {subsubsection}{Phase retrieval}{61}{section*.60}%
-\contentsline {subsubsection}{Post-processing}{63}{section*.62}%
-\contentsline {subsubsection}{Graphical interface}{63}{section*.63}%
-\contentsline {subsubsection}{Command line scripts}{64}{section*.66}%
-\contentsline {subsubsection}{The CXI database}{64}{section*.68}%
-\contentsline {subsection}{\numberline {2.8.2}BINoculars}{66}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2.8.3}\textit {ROD}}{68}{subsection.2.8.3}%
-\newpage 
-\contentsline {chapter}{\numberline {3}Pt nanoparticles during ammonia oxidation}{71}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{71}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}$\alpha $-\ce {Al_2O_3} supported Pt nanoparticles synthesis}{72}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Catalysis reactor for near-ambient pressure \textit {operando} studies}{73}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Collective behaviour of Pt nanoparticles: SXRD}{75}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Experimental setup for SXRD experiments in the vertical geometry}{75}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Epitaxial relationship under different atmospheres and temperature}{75}{subsection.3.2.2}%
-\contentsline {subsubsection}{Room temperature study under inert atmosphere}{75}{section*.79}%
-\contentsline {subsubsection}{Study during ammonia oxidation before and after catalyst light off temperature}{76}{section*.82}%
-\contentsline {subsection}{\numberline {3.2.3}Particle reshaping during the oxidation of ammonia}{78}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Single Pt nanoparticles: BCDI}{83}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Experimental setup for BCDI experiments}{83}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Effects of temperature under inert atmosphere from \qtyrange {25}{600}{\degreeCelsius }}{83}{subsection.3.3.2}%
-\contentsline {subsubsection}{Shape evolution}{84}{section*.90}%
-\contentsline {subsubsection}{Determination of strain}{88}{section*.96}%
-\contentsline {subsubsection}{Homogeneous strain evolution}{89}{section*.97}%
-\contentsline {subsubsection}{Heterogeneous strain evolution}{91}{section*.99}%
-\contentsline {subsection}{\numberline {3.3.3}Particle structure evolution during ammonia oxidation at \qty {300}{\degreeCelsius } and \qty {400}{\degreeCelsius }}{94}{subsection.3.3.3}%
-\contentsline {subsubsection}{Particle B}{96}{section*.105}%
-\contentsline {subsubsection}{Particle C}{101}{section*.111}%
-\contentsline {subsubsection}{Mass spectrometry results}{104}{section*.116}%
-\contentsline {section}{\numberline {3.4}Discussion}{105}{section.3.4}%
-\contentsline {subsubsection}{Summary}{109}{section*.118}%
-\contentsline {chapter}{\numberline {4}Pt single crystals during ammonia oxidation}{111}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{111}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Experimental setup for SXRD experiments in the horizontal geometry}{113}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Experimental setup for x-ray photoelectron spectroscopy}{113}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Pt(111) single crystal studied at \qty {450}{\degreeCelsius }}{114}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Oxide growth under 80 mbar of oxygen}{114}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Near ambient pressure ammonia oxidation cycle}{120}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Oxide growth under 5 mbar of oxygen}{122}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Surface roughness and surface relaxation effects}{126}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Surface species}{129}{subsection.4.2.5}%
-\contentsline {subsubsection}{N 1s and O 1s levels}{130}{section*.139}%
-\contentsline {subsubsection}{Pt 4f level}{133}{section*.142}%
-\contentsline {section}{\numberline {4.3}Pt(100) single crystal studied at \qty {450}{\degreeCelsius }}{134}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Oxide growth under 80 mbar of oxygen}{135}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Near ambient pressure ammonia oxidation cycle}{137}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Oxide growth under 5 mbar of oxygen}{141}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Surface roughness and surface relaxation effects}{141}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Surface species}{146}{subsection.4.3.5}%
-\contentsline {subsubsection}{N 1s and O 1s levels}{146}{section*.159}%
-\contentsline {subsubsection}{Pt 4f level}{149}{section*.162}%
-\contentsline {section}{\numberline {4.4}Discussion}{150}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusion}{155}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Research aim and results}{155}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Perspectives}{157}{section.5.2}%
-\contentsline {chapter}{Bibliography}{159}{chapter*.167}%
-\contentsline {chapter}{Appendices}{182}{section*.168}%
-\contentsline {chapter}{Appendix \numberline {A}Nanoparticles study}{183}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}Single crystals study}{196}{appendix.a.B}%
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The oxidation of ammonia}{7}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}The Haber-Bosch and Ostwald processes}{7}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.2}The importance of heterogeneous catalysis}{10}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Industry conditions and catalysts}{10}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Reaction mechanism}{12}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Environmental impact}{15}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Greenhouse effect}{15}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Pollution}{16}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}From industry to model catalysis}{16}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Aim and Scope}{18}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Thesis outline}{19}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Theory and methods}{20}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{20}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Heterogeneous Catalysis}{21}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Mechanisms}{21}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Active sites in heterogeneous catalysis}{23}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Linking strain and reactivity}{24}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}X-ray interaction with matter}{25}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Scattering from electrons and atoms}{25}{subsection.2.3.1}%
+\contentsline {subsubsection}{Cross-sections}{25}{section*.14}%
+\contentsline {subsubsection}{Scattering from an electron}{25}{section*.16}%
+\contentsline {subsubsection}{Scattering from a single atom}{27}{section*.18}%
+\contentsline {subsection}{\numberline {2.3.2}Refraction, reflection and absorption effects}{28}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Scattering from crystals}{30}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Bragg's law}{32}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Structure factor}{33}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Lattice factor}{34}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Coherence}{35}{subsection.2.4.4}%
+\contentsline {section}{\numberline {2.5}Surface x-ray diffraction}{36}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Surface reconstructions}{37}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Crystal truncation rods}{37}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Data collection}{40}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}X-ray reflectivity}{42}{subsection.2.5.4}%
+\contentsline {section}{\numberline {2.6}Bragg coherent diffraction imaging}{43}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Scattering by strained crystals}{44}{subsection.2.6.1}%
+\contentsline {subsubsection}{Data collection}{46}{section*.32}%
+\contentsline {subsection}{\numberline {2.6.2}Phase retrieval}{46}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Resolution}{48}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Facet analysis}{50}{subsection.2.6.4}%
+\contentsline {section}{\numberline {2.7}Synchrotron radiation for the study of materials}{52}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Synchrotron radiation}{52}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}The SixS beamline}{53}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Multi environment diffractometer}{54}{subsection.2.7.3}%
+\contentsline {subsubsection}{BCDI configuration}{55}{section*.43}%
+\contentsline {subsubsection}{Improving Bragg coherent diffraction imaging at SixS}{55}{section*.46}%
+\contentsline {subsubsection}{Catalysis reactor}{57}{section*.48}%
+\contentsline {subsubsection}{Detectors}{59}{section*.52}%
+\contentsline {section}{\numberline {2.8}Computer programs}{59}{section.2.8}%
+\contentsline {subsubsection}{Result reproducibility}{60}{section*.53}%
+\contentsline {subsubsection}{\textit {Python} in the \textit {Jupyter} environment}{61}{section*.54}%
+\contentsline {subsection}{\numberline {2.8.1}\textit {Gwaihir}}{62}{subsection.2.8.1}%
+\contentsline {subsubsection}{Workflow for Bragg coherent diffraction imaging}{63}{section*.56}%
+\contentsline {subsubsection}{Pre-processing}{63}{section*.59}%
+\contentsline {subsubsection}{Phase retrieval}{64}{section*.60}%
+\contentsline {subsubsection}{Post-processing}{66}{section*.62}%
+\contentsline {subsubsection}{Graphical interface}{66}{section*.63}%
+\contentsline {subsubsection}{Command line scripts}{68}{section*.66}%
+\contentsline {subsubsection}{The CXI database}{68}{section*.68}%
+\contentsline {subsection}{\numberline {2.8.2}BINoculars}{69}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}\textit {ROD}}{71}{subsection.2.8.3}%
+\contentsline {chapter}{\numberline {3}Pt nanoparticles during ammonia oxidation}{74}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{74}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}$\alpha $-\ce {Al_2O_3} supported Pt nanoparticles synthesis}{75}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Catalysis reactor for near-ambient pressure \textit {operando} studies}{76}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Collective behaviour of Pt nanoparticles: SXRD}{78}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Experimental setup for SXRD experiments in the vertical geometry}{78}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Epitaxial relationship under different atmospheres and temperature}{78}{subsection.3.2.2}%
+\contentsline {subsubsection}{Room temperature study under inert atmosphere}{78}{section*.79}%
+\contentsline {subsubsection}{Study during ammonia oxidation before and after catalyst light off temperature}{79}{section*.82}%
+\contentsline {subsection}{\numberline {3.2.3}Particle reshaping during the oxidation of ammonia}{81}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Single Pt nanoparticles: BCDI}{86}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Experimental setup for BCDI experiments}{86}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Effects of temperature under inert atmosphere from \qtyrange {25}{600}{\degreeCelsius }}{86}{subsection.3.3.2}%
+\contentsline {subsubsection}{Shape evolution}{87}{section*.90}%
+\contentsline {subsubsection}{Determination of strain}{91}{section*.96}%
+\contentsline {subsubsection}{Homogeneous strain evolution}{92}{section*.97}%
+\contentsline {subsubsection}{Heterogeneous strain evolution}{94}{section*.99}%
+\contentsline {subsection}{\numberline {3.3.3}Particle structure evolution during ammonia oxidation at \qty {300}{\degreeCelsius } and \qty {400}{\degreeCelsius }}{97}{subsection.3.3.3}%
+\contentsline {subsubsection}{Particle B}{99}{section*.105}%
+\contentsline {subsubsection}{Particle C}{104}{section*.111}%
+\contentsline {subsubsection}{Mass spectrometry results}{107}{section*.116}%
+\contentsline {section}{\numberline {3.4}Discussion}{108}{section.3.4}%
+\contentsline {subsubsection}{Summary}{112}{section*.118}%
+\contentsline {chapter}{\numberline {4}Pt single crystals during ammonia oxidation}{114}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{114}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Experimental setup for SXRD experiments in the horizontal geometry}{116}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Experimental setup for x-ray photoelectron spectroscopy}{116}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Pt(111) single crystal studied at \qty {450}{\degreeCelsius }}{117}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Oxide growth under 80 mbar of oxygen}{117}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Near ambient pressure ammonia oxidation cycle}{123}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Oxide growth under 5 mbar of oxygen}{125}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Surface roughness and surface relaxation effects}{129}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Surface species}{132}{subsection.4.2.5}%
+\contentsline {subsubsection}{N 1s and O 1s levels}{133}{section*.139}%
+\contentsline {subsubsection}{Pt 4f level}{136}{section*.142}%
+\contentsline {section}{\numberline {4.3}Pt(100) single crystal studied at \qty {450}{\degreeCelsius }}{137}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Oxide growth under 80 mbar of oxygen}{138}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Near ambient pressure ammonia oxidation cycle}{140}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Oxide growth under 5 mbar of oxygen}{143}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Surface roughness and surface relaxation effects}{144}{subsection.4.3.4}%
+\contentsline {subsection}{\numberline {4.3.5}Surface species}{148}{subsection.4.3.5}%
+\contentsline {subsubsection}{N 1s and O 1s levels}{149}{section*.159}%
+\contentsline {subsubsection}{Pt 4f level}{152}{section*.162}%
+\contentsline {section}{\numberline {4.4}Discussion}{153}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusion}{158}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Research aim and results}{158}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Perspectives}{160}{section.5.2}%
+\contentsline {chapter}{Bibliography}{162}{chapter*.167}%
+\contentsline {chapter}{Appendices}{185}{section*.168}%
+\contentsline {chapter}{Appendix \numberline {A}Nanoparticles study}{186}{appendix.a.A}%
+\contentsline {chapter}{Appendix \numberline {B}Single crystals study}{199}{appendix.a.B}%
