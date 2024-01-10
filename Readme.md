@@ -11,7 +11,6 @@ Nomenclature: https://www.overleaf.com/learn/latex/Nomenclatures
 * vérifier mots-clefs
 * CV HAL
 * envoyer mail qd on met version finale, définitif scientifique
-* président du jury procuration pour signer
 * envoyer les documents vite après la soutenance
 * need to add a page with papers to get thesis price (lol)
 * ajouter jury dans remerciements, et tous les gens possibles, Acknowledge Victor, soleil, ale
@@ -19,13 +18,12 @@ Nomenclature: https://www.overleaf.com/learn/latex/Nomenclatures
 # Errors
 * fwhm and not standard deviation for coherence length (see thesis vincent jacques)
 * no amplitude of incoming wave in intensity equation
-* add facet a in table
+* add facet from particle A in table
 * particle size
 
 # Future work
 ## SXRD single crystals
 * in plane lattice displacement ROD fitting
-* pt100 hex reconstruction literature, and subsurface oxygen
 * better discuss oxides ?
 
 ## SXRD nanoparticles
