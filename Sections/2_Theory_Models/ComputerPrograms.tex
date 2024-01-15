@@ -71,7 +71,7 @@ A 3D intensity distribution in the vicinity of a Bragg peak (stack of diffractio
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/Packages.png}
+    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Figures/Gwaihir/Packages.png}
     \caption{
     Flow chart illustrating the main steps in the BCDI data reduction workflow.
     \textit{Gwaihir} links the \textit{bcdi} and \textit{PyNX} packages \textit{via} its graphical user interface and command line scripts, resulting in a complete and understandable workflow.
@@ -100,7 +100,7 @@ The source code as well as the latest developments are available on GitHub, whil
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.7\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/Workflow.png}
+    \includegraphics[width=0.7\textwidth]{/home/david/Documents/PhD/Figures/Gwaihir/Workflow.png}
     \caption{Workflow steps taken in \textit{Gwaihir}; the circular workflow illustrates result reproducibility, a key concept, facilitated by using the \textit{cxi} architecture.}
     \label{fig:Workflow}
 \end{figure}
@@ -110,9 +110,9 @@ To illustrate this, the results of the following procedure on a dataset collecte
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/CropDiffPatternRed.png}
-    %\includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/CropObjectAmplutideRed2.png}
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/crop_phase_red.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/Gwaihir/CropDiffPatternRed.png}
+    %\includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/Gwaihir/CropObjectAmplutideRed2.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/Gwaihir/crop_phase_red.png}
     \caption{
     A 2D slice of a 3D coherent diffraction pattern is shown (left).
     The phase of the Bragg electronic density (\unit{\radian}) of the reconstructed object is shown (right), the facets are clearly visible.
@@ -163,8 +163,8 @@ Moreover, the support becomes very difficult to determine since the diffraction 
 
 \begin{figure}[!htb]
     \centering
-    %\includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/phase_retrieval_tab.png}
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/PRTab.pdf}
+    %\includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/Gwaihir/phase_retrieval_tab.png}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/Gwaihir/PRTab.pdf}
     \caption{
     Phase retrieval tab in \textit{Gwaihir}.
     Parameters are separated into groups (files, support, point-spread function, algorithms, ...) and detailed in the \textit{Readme} tab.
@@ -210,8 +210,8 @@ For example, it is possible to select a list of 3D complex data arrays, and to v
 
 \begin{figure}[!htb]
     \centering
-    %\includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/3D_obj.png}
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/PlotTab.pdf}
+    %\includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/Gwaihir/3D_obj.png}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/Gwaihir/PlotTab.pdf}
     \caption{
     Visualisation tab in \textit{Gwaihir}.
     The selection of the data array, the colormap, and the contour of the resulting 3D object are performed through different widgets.
@@ -227,7 +227,7 @@ More complex interaction with figures and images (\textit{e.g.} zoom, set the co
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/detector_slice_bokeh.png}
+    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Figures/Gwaihir/detector_slice_bokeh.png}
     \caption{
     Detector images can be viewed interactively with \textit{Bokeh}, to zoom on the data, and visualise, for example, the intensity collected on each pixel.
     }
@@ -247,7 +247,7 @@ The configuration files are written in \textit{YAML} (fig. \ref{fig:YAML_file}).
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/yaml.png}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/Gwaihir/yaml.png}
     \caption{
     Configuration file in YAML, a human-readable data-serialisation language with a minimalist syntax.
     A configuration file is generated for the pre-processing and post-processing scripts, as well as for the phase retrieval.
@@ -263,7 +263,7 @@ Both clarity and consistency in data formatting encourages the reproducibility o
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.7\textwidth]{/home/david/Documents/PhD/Figures/gwaihir/tree.png}
+    \includegraphics[width=0.7\textwidth]{/home/david/Documents/PhD/Figures/Gwaihir/tree.png}
     \caption{
     Each parameter value used during the workflow is stored in the same \textit{.cxi} file, along with the results, in a nested architecture, displayed \textit{via} \textit{JupyterHub}.
     \text{instrument\_1} regroups parameters associated with the instrumental setup.
@@ -311,8 +311,8 @@ Different lattices can be used to highlight the difference of geometry between t
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2227-2283_patched_slides.pdf}
-    % \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/Pt100/maps/Map_hkl_hex_or_2227-2283_not_patched.png}
+    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2227-2283_patched_slides.pdf}
+    % \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/Figures/Binoculars/Pt100/maps/Map_hkl_hex_or_2227-2283_not_patched.png}
     \caption{
     Reciprocal space in-plane maps.
     The large high intensity peaks are Bragg peaks from the bulk structure, the low intensity peaks are from surface structures.
@@ -338,7 +338,7 @@ This is often the case during the collection of crystal truncation rods, at high
 To avoid having to rely on an interpolation to fill these voxels, it is better to use a larger resolution when concatenating the images, and then to use the same step when integrating the data.
 
 \begin{figure}[!htb]
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/sxrd_data/background_fitaid.png}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/Binoculars/background_fitaid.png}
     \caption{
         Graphical user interface for the \text{fitaid} module of BINoculars.
         The CTR structure factor is computed using eq. \ref{eq:BinocSF} in a rectangular region of interest around the CTR signal.
@@ -382,7 +382,7 @@ In the frame of this thesis, \textit{ROD} was chosen for the analysis of SXRD da
 
 \begin{SCfigure}
     \centering
-    \includegraphics[trim=0 1cm 0 1cm, clip, width=0.35\textwidth]{/home/david/Documents/PhD/Figures/introduction/Pt3O4.pdf}
+    \includegraphics[trim=0 1cm 0 1cm, clip, width=0.35\textwidth]{/home/david/Documents/PhD/Figures/Introduction/Pt3O4.pdf}
     \caption{
         \ce{Pt_3O_4} bulk unit cell.
         Platinum atoms are situated on the faces on the cubic unit cell (e.g. $(0, 1/2, 1/4)$, $(0, 1/2, 3/4)$), while the eight oxygen atoms are inside the unit cell at the positions $(1/4, 1/4, z)$, $(1/4, 2/4, z)$, $(2/4, 1/4, z)$, $(2/4, 2/4, z)$ for $z=1/4$ and $z=3/4$.
@@ -395,7 +395,7 @@ The origin of the out-of-plane axis, commonly denoted $\vec{z}$, is situated at 
 When $z$ is negative the \textit{bulk} structure of the crystal is described, whereas when $z$ is positive, the \textit{surface} structure of the crystal is described, usually only a few atomic layers thick where e.g. surface relaxation and reorganisation effects can be detected.
 
 \begin{figure}[!htb]
-    \includegraphics[width=\textwidth]{/home/david/Documents/PhDScripts/SixS_2022_01_SXRD_Pt100/simulations/rod_pt304/figures/rod_4_0_pt3o4.pdf}
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/simulations/rod_pt304/figures/rod_4_0_pt3o4.pdf}
     \caption{
         Simulation of out-of-plane structure factors computed with \textit{ROD}.
         Different layers within a single unit cell of \ce{Pt_3O_4} are used in (a), while a different amount of the same \ce{Pt_3O_4} unit cell is used in (b).

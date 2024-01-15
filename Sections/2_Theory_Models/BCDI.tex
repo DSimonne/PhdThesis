@@ -32,7 +32,7 @@ The shape of the scattering intensity around Bragg peaks is then given by $F_{la
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Figures/introduction/StrainedCrystal.pdf}
+    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Figures/Introduction/StrainedCrystal.pdf}
     \caption{
     Simplified representation of a crystal in which each dot corresponds to a unit cell.
     The red dots represent displaced unit cells from their ideal position by a displacement vector $\vec{u}_k$, resulting in a shift in the phase of the scattered x-rays.
@@ -94,8 +94,8 @@ This measurement is called a rocking curve (fig. \ref{fig:3DDP} - left), the ass
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.39\textwidth]{/home/david/Documents/PhD/Figures/introduction/RockingCurve.png}
-    \includegraphics[width=0.59\textwidth]{/home/david/Documents/PhD/Figures/bcdi_data/3D_DP/DP_white_1.png}
+    \includegraphics[width=0.39\textwidth]{/home/david/Documents/PhD/Figures/Introduction/RockingCurve.png}
+    \includegraphics[width=0.59\textwidth]{/home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/3D_DP/DP_white_1.png}
     \caption{
     Left: rocking curve for the measurement of the 3D scattered intensity around a Bragg peak. Taken from \cite{Willmott}.
     Right: 3D diffraction pattern collected at SixS (SOLEIL).
@@ -140,7 +140,7 @@ The oversampling condition partly dictates the instrumental parameters which def
 
 \begin{figure}[!htb]
    \centering
-   \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/introduction/PhaseRetrieval.pdf}
+   \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/Introduction/PhaseRetrieval.pdf}
    \caption{
    Iterative phase retrieval algorithms converge towards a solution by the means of real and reciprocal space constraints.
    $\rho'(\vec{r})$ is the updated Bragg electronic density after application of the support constraint.
@@ -246,8 +246,8 @@ An empiric criterion to select the voxels that correspond to the crystal's surfa
 
 \begin{figure}[!htb]
    \centering
-   \includegraphics[height=4.5cm]{/home/david/Documents/PhD/Figures/bcdi_data/B7/hist_iso.pdf}
-   \includegraphics[height=4.4cm]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/AmplitudeLines.png}
+   \includegraphics[height=4.5cm]{/home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/hist_iso.pdf}
+   \includegraphics[height=4.4cm]{/home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/AmplitudeLines.png}
    \caption{
    Histogram representing the distribution of the electronic density amplitude, normalised by its maximum (left).
    Values below 0.05 are ignored since they typically belong to voxels located far away from particle support.
@@ -265,7 +265,7 @@ Finally, by \textit{marching} over the volume of the array, the algorithm derive
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/Presentations/Slides/PhdSlides/Figures/bcdi_data/MarchingCubes.png}
+    \includegraphics[width=0.66\textwidth]{/home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/MarchingCubes.png}
     \caption{
     The Marching-cubes algorithm generates triangles connecting the vertices to form the mesh surface.
     Each selected configuration has a specific arrangement of vertices that dictate how to form triangles to create a smooth surface.
@@ -279,8 +279,8 @@ Lattice strain and displacements are key information to retrieve during \textit{
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/FacetProbability.png}
-    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/FacetIDs.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/FacetProbability.png}
+    \includegraphics[width=0.49\textwidth]{/home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/FacetIDs.png}
     \caption{
     a) Surface of a reconstructed nanoparticle ($\diameter \approx \qty{800}{\nm}$) with each surface voxel coloured by its probability to belong to a facet.
     The same surface is represented in b) with a hull in which each facet is drawn, delimited by thick white lines.

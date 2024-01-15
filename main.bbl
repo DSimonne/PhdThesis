@@ -6317,12 +6317,12 @@
     \endentry
     \entry{Erisman2007}{article}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=dda1bf3f3cf1a1d5d9eccf2112ff639f}{%
+        {{un=1,uniquepart=given,hash=dda1bf3f3cf1a1d5d9eccf2112ff639f}{%
            family={Erisman},
            familyi={E\bibinitperiod},
            given={J.W.},
            giveni={J\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=91581fde9bb020b30bed226b4abd7acc}{%
            family={Bleeker},
            familyi={B\bibinitperiod},
@@ -6366,6 +6366,65 @@
       \verb doi.org/10.1016/j.envpol.2007.06.033
       \endverb
       \keyw{Reduced nitrogen,Emission,Nitrogen cycle,Ammonia,Effects,Abatement}
+    \endentry
+    \entry{Erisman2008}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=eac817ab253139f1e59751365391fb7e}{%
+           family={Erisman},
+           familyi={E\bibinitperiod},
+           given={Jan\bibnamedelima Willem},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=f8bfa19412397bdc4bf9f3e04d089e88}{%
+           family={Sutton},
+           familyi={S\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30ca368b28d541e44cc97befc915b9e2}{%
+           family={Galloway},
+           familyi={G\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eeb480e9c2750746d67ce8664a7f9d9c}{%
+           family={Klimont},
+           familyi={K\bibinitperiod},
+           given={Zbigniew},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b3b9eb2633f55e7b7a57f7f7ee6d56c}{%
+           family={Winiwarter},
+           familyi={W\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{623893e213672ef942058c8d342adfdf}
+      \strng{fullhash}{17ab28fdd354cfb6db95e0de11e9c34b}
+      \strng{bibnamehash}{623893e213672ef942058c8d342adfdf}
+      \strng{authorbibnamehash}{623893e213672ef942058c8d342adfdf}
+      \strng{authornamehash}{623893e213672ef942058c8d342adfdf}
+      \strng{authorfullhash}{17ab28fdd354cfb6db95e0de11e9c34b}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{On 13 October 1908, Fritz Haber filed his patent on the ``synthesis of ammonia from its elements'' for which he was later awarded the 1918 Nobel Prize in Chemistry. A hundred years on we live in a world transformed by and highly dependent upon Haber--Bosch nitrogen.}
+      \field{issn}{1752-0908}
+      \field{journaltitle}{Nature Geoscience}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{How a century of ammonia synthesis changed the world}
+      \field{volume}{1}
+      \field{year}{2008}
+      \field{pages}{636\bibrangedash 639}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/ngeo325
+      \endverb
     \endentry
     \entry{Fadenberger2010}{article}{}
       \name{author}{11}{}{%
