@@ -110,4 +110,4 @@
 \contentsline {chapter}{Bibliography}{162}{chapter*.167}%
 \contentsline {chapter}{Appendices}{185}{section*.168}%
 \contentsline {chapter}{Appendix \numberline {A}Nanoparticles study}{186}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}Single crystals study}{199}{appendix.a.B}%
+\contentsline {chapter}{Appendix \numberline {B}Single crystals study}{198}{appendix.a.B}%

@@ -167,13 +167,8 @@ The scattered amplitude is then computed with the Fourier transform of the elect
 
 By iterating between the real and reciprocal space, the algorithm converges towards a final solution for the electronic density (fig. \ref{fig:PRAlgo}).
 
-The error-metric used to follow the convergence of the algorithm is the mean squared error between the square root of the measured intensity, and the amplitude computed from the Fourier transform of the electronic density.
+A classical error-metric used to follow the convergence of the algorithm is the minimisation of the residuals between the square root of the measured intensity, and the amplitude computed from the Fourier transform of the electronic density.
 The main drawback of this error-metric is that each voxel is given the same weight, whereas the impact of the approximation detailed previously depend on the distance from the Bragg peak \parencite{Godard2021}.
-
-% \begin{equation}
-%     \label{eq:MSE}
-%     E = \frac{\sum \big( F_{crystal}(\vec{q}) - \sqrt{I(\vec{q})}  \big)^2}{I(\vec{q})}
-% \end{equation}
 
 More algorithms have since then been developed to help converge towards the final solution without being stuck in local minima such as the hybrid input-output (HIO) and relaxed averaged alternating reflections (RAAR) algorithms, by introducing a new parameter, $\beta$, which relaxes the threshold condition in real space from the ER algorithm \parencite{Marchesini2003, Luke2005, Marchesini2007}.
 
