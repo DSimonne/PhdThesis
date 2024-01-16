@@ -150,8 +150,8 @@ The oversampling condition partly dictates the instrumental parameters which def
 
 Fienup et al. \parencite*{Fienup1978, Fienup1982, Fienup1986} have laid the ground for computer methods permitting phase retrieval, once the oversampling condition has been satisfied.
 The error-reduction (ER) algorithm works by iterating between real and reciprocal space by the means of fast Fourier transforms (FFT) and inverse fast Fourier transforms (IFFT) methods.
-The process starts by assigning random phases to the square root of the measured scattered intensity ($I(\vec{q})$), to create a first guess of the scattered amplitude: $A(\vec{q}) = \sqrt{I(\vec{q})}e^{i\Phi(\vec{q})}$, proportionnal to the structure factor.
-The inverse Fourier transform yields a complex object $\rho(\vec{r})$ of amplitude proportionnal to the electronic density of the crystal (eq. \ref{eq:IDFT}), and with an additionnal phase factor linked to the displacement of the unit cells (eq. \ref{eq:FcrystalBCDI7}).
+The process starts by assigning random phases to the square root of the measured scattered intensity ($I(\vec{q})$), to create a first guess of the scattered amplitude: $A(\vec{q}) = \sqrt{I(\vec{q})}e^{i\Phi(\vec{q})}$, proportional to the structure factor.
+The inverse Fourier transform yields a complex object $\rho(\vec{r})$ of amplitude proportional to the electronic density of the crystal (eq. \ref{eq:IDFT}), and with an additional phase factor linked to the displacement of the unit cells (eq. \ref{eq:FcrystalBCDI7}).
 A real space constraint is then applied by selecting a region above a certain threshold $t$ of the modulus of the electronic density which is called the \textit{support}.
 The electronic density outside the support is set to zero (eq. \ref{eq:ElectronicDensity}).
 The scattered amplitude is then computed with the Fourier transform of the electronic density, the following reciprocal space constraint consisting in replacing the amplitude of the computed amplitude by the square root of the measured intensity.
@@ -169,6 +169,7 @@ By iterating between the real and reciprocal space, the algorithm converges towa
 
 A classical error-metric used to follow the convergence of the algorithm is the minimisation of the residuals between the square root of the measured intensity, and the amplitude computed from the Fourier transform of the electronic density.
 The main drawback of this error-metric is that each voxel is given the same weight, whereas the impact of the approximation detailed previously depend on the distance from the Bragg peak \parencite{Godard2021}.
+New metrics have been developed, such as the free log-likelihood \parencite{FavreNicolin2020a}, that have proven more robust.
 
 More algorithms have since then been developed to help converge towards the final solution without being stuck in local minima such as the hybrid input-output (HIO) and relaxed averaged alternating reflections (RAAR) algorithms, by introducing a new parameter, $\beta$, which relaxes the threshold condition in real space from the ER algorithm \parencite{Marchesini2003, Luke2005, Marchesini2007}.
 

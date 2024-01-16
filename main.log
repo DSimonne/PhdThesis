@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.7.23)  15 JAN 2024 21:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2023.7.23)  16 JAN 2024 19:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1824,7 +1824,7 @@ Overfull \hbox (6.81544pt too wide) in paragraph at lines 71--85
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/david/Documents/PhD/
-Figures/Logos/Frame-ups.pdf>]) (./Sections/99_2eme_couverture.tex
+Figures/Logos/Frame-ups.pdf>]) (./Sections/2eme_couverture.tex
 </home/david/Documents/PhD/Figures/Logos/logo_usp_PIF.png, id=356, 362.3355pt x
  85.41pt>
 File: /home/david/Documents/PhD/Figures/Logos/logo_usp_PIF.png Graphic file (ty
@@ -1842,23 +1842,145 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 \newpage
+l.58 \newpage
               [1 </home/david/Documents/PhD/Figures/Logos/logo_usp_PIF.png>]
 File: /home/david/Documents/PhD/Figures/Logos/logo_usp_PIF.png Graphic file (ty
 pe png)
 <use /home/david/Documents/PhD/Figures/Logos/logo_usp_PIF.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Logos/logo_usp_PIF.p
-ng  used on input line 64.
+ng  used on input line 73.
 (pdftex.def)             Requested size: 289.70291pt x 68.28644pt.
 
-[2] [3]) (./main.toc [4])
+[2] [3]) (./Sections/0_Dedication.tex) [4
+
+] (./Sections/0_Declaration.tex
+</home/david/Documents/PhD/Figures/signature.png, id=386, 1101.11375pt x 281.05
+pt>
+File: /home/david/Documents/PhD/Figures/signature.png Graphic file (type png)
+<use /home/david/Documents/PhD/Figures/signature.png>
+Package pdftex.def Info: /home/david/Documents/PhD/Figures/signature.png  used 
+on input line 14.
+(pdftex.def)             Requested size: 218.3016pt x 55.71582pt.
+)
+[5
+
+ </home/david/Documents/PhD/Figures/signature.png>]
+(./Sections/0_Acknowledgements.tex [6
+
+] [7] [8]) (./Sections/FrenchSummary.tex
+
+LaTeX Warning: Command \` invalid in math mode on input line 14.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 14.
+
+</home/david/Documents/PhD/Figures/Sample/EtchedGauzeAndReconstructedGauze.pdf,
+ id=414, 586.12677pt x 227.62204pt>
+File: /home/david/Documents/PhD/Figures/Sample/EtchedGauzeAndReconstructedGauze
+.pdf Graphic file (type pdf)
+<use /home/david/Documents/PhD/Figures/Sample/EtchedGauzeAndReconstructedGauze.
+pdf>
+Package pdftex.def Info: /home/david/Documents/PhD/Figures/Sample/EtchedGauzeAn
+dReconstructedGauze.pdf  used on input line 22.
+(pdftex.def)             Requested size: 441.01772pt x 171.26834pt.
+[9
+
+ </home/david/Documents/PhD/Figures/Sample/EtchedGauzeAndReconstructedGauze.pdf
+>]
+
+LaTeX Warning: Command \` invalid in math mode on input line 81.
+
+[10]
+</home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets/face
+t_signal_evolution_together.pdf, id=461, 722.7pt x 722.7pt>
+File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets
+/facet_signal_evolution_together.pdf Graphic file (type pdf)
+<use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets/
+facet_signal_evolution_together.pdf>
+Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
+_NH3/figures/facets/facet_signal_evolution_together.pdf  used on input line 94.
+
+(pdftex.def)             Requested size: 441.01772pt x 441.0228pt.
+</home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
+_good_files/D6/300/300_ammonia_100.png, id=463, 722.7pt x 602.25pt>
+File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
+s/vti_good_files/D6/300/300_ammonia_100.png Graphic file (type png)
+<use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
+/vti_good_files/D6/300/300_ammonia_100.png>
+Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
+_NH3/reconstructions/vti_good_files/D6/300/300_ammonia_100.png  used on input l
+ine 122.
+(pdftex.def)             Requested size: 141.12889pt x 117.60828pt.
+</home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
+_good_files/D6/300/300_ammonia_010.png, id=464, 722.7pt x 602.25pt>
+File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
+s/vti_good_files/D6/300/300_ammonia_010.png Graphic file (type png)
+<use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
+/vti_good_files/D6/300/300_ammonia_010.png>
+Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
+_NH3/reconstructions/vti_good_files/D6/300/300_ammonia_010.png  used on input l
+ine 123.
+(pdftex.def)             Requested size: 141.12889pt x 117.60828pt.
+</home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
+_good_files/D6/300/300_ammonia_001.png, id=465, 722.7pt x 602.25pt>
+File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
+s/vti_good_files/D6/300/300_ammonia_001.png Graphic file (type png)
+<use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
+/vti_good_files/D6/300/300_ammonia_001.png>
+Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
+_NH3/reconstructions/vti_good_files/D6/300/300_ammonia_001.png  used on input l
+ine 124.
+(pdftex.def)             Requested size: 141.12889pt x 117.60828pt.
+ [11] [12 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/f
+acets/facet_signal_evolution_together.pdf> </home/david/Documents/PhD/PhDScript
+s/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/300_ammonia_100.p
+ng (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reco
+nstructions/vti_good_files/D6/300/300_ammonia_010.png (PNG copy)> </home/david/
+Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D
+6/300/300_ammonia_001.png (PNG copy)>]
+</home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
+_good_files/B7/RT/RT_100_B7.png, id=591, 722.7pt x 602.25pt>
+File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
+s/vti_good_files/B7/RT/RT_100_B7.png Graphic file (type png)
+<use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
+/vti_good_files/B7/RT/RT_100_B7.png>
+Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
+_NH3/reconstructions/vti_good_files/B7/RT/RT_100_B7.png  used on input line 139
+.
+(pdftex.def)             Requested size: 141.12889pt x 117.60828pt.
+</home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
+_good_files/B7/RT/RT_010_B7.png, id=592, 722.7pt x 602.25pt>
+File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
+s/vti_good_files/B7/RT/RT_010_B7.png Graphic file (type png)
+<use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
+/vti_good_files/B7/RT/RT_010_B7.png>
+Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
+_NH3/reconstructions/vti_good_files/B7/RT/RT_010_B7.png  used on input line 140
+.
+(pdftex.def)             Requested size: 141.12889pt x 117.60828pt.
+</home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
+_good_files/B7/RT/RT_001_B7.png, id=593, 722.7pt x 602.25pt>
+File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
+s/vti_good_files/B7/RT/RT_001_B7.png Graphic file (type png)
+<use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
+/vti_good_files/B7/RT/RT_001_B7.png>
+Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
+_NH3/reconstructions/vti_good_files/B7/RT/RT_001_B7.png  used on input line 141
+.
+(pdftex.def)             Requested size: 141.12889pt x 117.60828pt.
+ [13 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
+s/vti_good_files/B7/RT/RT_100_B7.png (PNG copy)> </home/david/Documents/PhD/PhD
+Scripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/B7/RT/RT_010_B7.pn
+g (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/recon
+structions/vti_good_files/B7/RT/RT_001_B7.png (PNG copy)>] [14] [15] [16]) (./m
+ain.toc [17])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [5]
+ [18]
 Chapter 1.
 (./Sections/1_Introduction/AmmoniaOxidation.tex
-</home/david/Documents/PhD/Figures/AmmoniaOxidation/ParisNO2English.png, id=477
+</home/david/Documents/PhD/Figures/AmmoniaOxidation/ParisNO2English.png, id=727
 , 796.9775pt x 597.23125pt>
 File: /home/david/Documents/PhD/Figures/AmmoniaOxidation/ParisNO2English.png Gr
 aphic file (type png)
@@ -1866,11 +1988,11 @@ aphic file (type png)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/AmmoniaOxidation/Par
 isNO2English.png  used on input line 8.
 (pdftex.def)             Requested size: 441.01772pt x 330.48306pt.
- [6
+ [19
 
  </home/david/Documents/PhD/Figures/AmmoniaOxidation/ParisNO2English.png>]
 </home/david/Documents/PhD/Figures//WorldInData/world-population-with-and-witho
-ut-fertilizer.png, id=517, 3412.75pt x 2409.0pt>
+ut-fertilizer.png, id=766, 3412.75pt x 2409.0pt>
 File: /home/david/Documents/PhD/Figures//WorldInData/world-population-with-and-
 without-fertilizer.png Graphic file (type png)
 <use /home/david/Documents/PhD/Figures//WorldInData/world-population-with-and-w
@@ -1912,11 +2034,11 @@ LaTeX Font Info:    Trying to load font information for T1+lmss on input line 5
 9.
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [7] [8 </home/david/Documents/PhD/Figures//WorldInData/world-population-with-
-and-without-fertilizer.png>] [9
+) [20] [21 </home/david/Documents/PhD/Figures//WorldInData/world-population-wit
+h-and-without-fertilizer.png>] [22
 
 ]
-</home/david/Documents/PhD/Figures/Introduction/Umicore.pdf, id=627, 711.31892p
+</home/david/Documents/PhD/Figures/Introduction/Umicore.pdf, id=870, 711.31892p
 t x 284.52756pt>
 File: /home/david/Documents/PhD/Figures/Introduction/Umicore.pdf Graphic file (
 type pdf)
@@ -1925,11 +2047,9 @@ Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/Umicore
 .pdf  used on input line 151.
 (pdftex.def)             Requested size: 441.01772pt x 176.40526pt.
 
-[10
+[23
 
 ]
-</home/david/Documents/PhD/Figures/Sample/EtchedGauzeAndReconstructedGauze.pdf,
- id=669, 586.12677pt x 227.62204pt>
 File: /home/david/Documents/PhD/Figures/Sample/EtchedGauzeAndReconstructedGauze
 .pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/Figures/Sample/EtchedGauzeAndReconstructedGauze.
@@ -1937,35 +2057,34 @@ pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Sample/EtchedGauzeAn
 dReconstructedGauze.pdf  used on input line 179.
 (pdftex.def)             Requested size: 441.01772pt x 171.26834pt.
- [11 </home/david/Documents/PhD/Figures/Introduction/Umicore.pdf> </home/david/
-Documents/PhD/Figures/Sample/EtchedGauzeAndReconstructedGauze.pdf>]
+ [24 </home/david/Documents/PhD/Figures/Introduction/Umicore.pdf>]
 Overfull \hbox (2.88173pt too wide) in paragraph at lines 205--207
 \T1/lmr/m/n/10.95 First stud-ies per-formed at low pres-sure and dif-fer-ent te
 m-per-at-ures have sup-por-ted a Langmuir-
  []
 
-[12] [13]
-</home/david/Documents/PhD/Figures/AmmoniaOxidation/ReactionMechanism.png, id=8
-04, 1780.6525pt x 982.67125pt>
+[25] [26]
+</home/david/Documents/PhD/Figures/AmmoniaOxidation/ReactionMechanism.png, id=1
+031, 1780.6525pt x 982.67125pt>
 File: /home/david/Documents/PhD/Figures/AmmoniaOxidation/ReactionMechanism.png 
 Graphic file (type png)
 <use /home/david/Documents/PhD/Figures/AmmoniaOxidation/ReactionMechanism.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/AmmoniaOxidation/Rea
 ctionMechanism.png  used on input line 256.
 (pdftex.def)             Requested size: 441.01772pt x 243.37308pt.
- [14 </home/david/Documents/PhD/Figures/AmmoniaOxidation/ReactionMechanism.png>
+ [27 </home/david/Documents/PhD/Figures/AmmoniaOxidation/ReactionMechanism.png>
 ]
-</home/david/Documents/PhD/Figures/AmmoniaOxidation/NO2pie.pdf, id=832, 867.24p
-t x 361.35pt>
+</home/david/Documents/PhD/Figures/AmmoniaOxidation/NO2pie.pdf, id=1055, 867.24
+pt x 361.35pt>
 File: /home/david/Documents/PhD/Figures/AmmoniaOxidation/NO2pie.pdf Graphic fil
 e (type pdf)
 <use /home/david/Documents/PhD/Figures/AmmoniaOxidation/NO2pie.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/AmmoniaOxidation/NO2
 pie.pdf  used on input line 302.
 (pdftex.def)             Requested size: 441.01772pt x 183.75674pt.
- [15 </home/david/Documents/PhD/Figures/AmmoniaOxidation/NO2pie.pdf>] [16]
-</home/david/Documents/PhD/Figures/Sample/pt_gazes.png, id=947, 1353.055pt x 13
-60.08125pt>
+ [28 </home/david/Documents/PhD/Figures/AmmoniaOxidation/NO2pie.pdf>] [29]
+</home/david/Documents/PhD/Figures/Sample/pt_gazes.png, id=1170, 1353.055pt x 1
+360.08125pt>
 File: /home/david/Documents/PhD/Figures/Sample/pt_gazes.png Graphic file (type 
 png)
 <use /home/david/Documents/PhD/Figures/Sample/pt_gazes.png>
@@ -1973,7 +2092,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/Figures/Sample/pt_gazes.png
  used on input line 382.
 (pdftex.def)             Requested size: 121.70775pt x 122.34692pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7_face
-ts_cropped.png, id=948, 434.62375pt x 304.13625pt>
+ts_cropped.png, id=1171, 434.62375pt x 304.13625pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7
 _facets_cropped.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7_
@@ -1981,54 +2100,54 @@ facets_cropped.png>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/B-7/B7_facets_cropped.png  used on input line 383.
 (pdftex.def)             Requested size: 174.83455pt x 122.34692pt.
-</home/david/Documents/PhD/Figures/Sample/sxrd_sample.png, id=949, 193.72375pt 
-x 196.735pt>
+</home/david/Documents/PhD/Figures/Sample/sxrd_sample.png, id=1172, 193.72375pt
+ x 196.735pt>
 File: /home/david/Documents/PhD/Figures/Sample/sxrd_sample.png Graphic file (ty
 pe png)
 <use /home/david/Documents/PhD/Figures/Sample/sxrd_sample.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Sample/sxrd_sample.p
 ng  used on input line 385.
 (pdftex.def)             Requested size: 120.47401pt x 122.34692pt.
- [17 </home/david/Documents/PhD/Figures/Sample/pt_gazes.png> </home/david/Docum
+ [30 </home/david/Documents/PhD/Figures/Sample/pt_gazes.png> </home/david/Docum
 ents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7_facets_cropped.png> </
-home/david/Documents/PhD/Figures/Sample/sxrd_sample.png>] [18]) [19]
+home/david/Documents/PhD/Figures/Sample/sxrd_sample.png>] [31]) [32]
 Chapter 2.
 (./Sections/2_Theory_Models/Introduction.tex
-</home/david/Documents/PhD/Figures//Gwaihir/dp_pr.png, id=1025, 453.19313pt x 5
+</home/david/Documents/PhD/Figures//Gwaihir/dp_pr.png, id=1245, 453.19313pt x 5
 08.90125pt>
 File: /home/david/Documents/PhD/Figures//Gwaihir/dp_pr.png Graphic file (type p
 ng)
 <use /home/david/Documents/PhD/Figures//Gwaihir/dp_pr.png>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures//Gwaihir/dp_pr.png  
-used on input line 34.
+used on input line 38.
 (pdftex.def)             Requested size: 108.00098pt x 121.27718pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_s
-urf_or_2227-2283_patched_slides.pdf, id=1026, 578.16pt x 433.62pt>
+urf_or_2227-2283_patched_slides.pdf, id=1246, 578.16pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
 hkl_surf_or_2227-2283_patched_slides.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_h
 kl_surf_or_2227-2283_patched_slides.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/Map_hkl_surf_or_2227-2283_patched_slides.pdf  used on input line
- 35.
+ 39.
 (pdftex.def)             Requested size: 161.69843pt x 121.27718pt.
 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/transition_xps.pn
-g, id=1027, 803.0pt x 602.25pt>
+g, id=1247, 803.0pt x 602.25pt>
 File: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/transition_x
 ps.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/transition_xp
 s.png>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/F
-igures/transition_xps.png  used on input line 36.
+igures/transition_xps.png  used on input line 40.
 (pdftex.def)             Requested size: 161.6999pt x 121.27718pt.
- [20
+ [33
 
  </home/david/Documents/PhD/Figures//Gwaihir/dp_pr.png> </home/david/Documents/
 PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2227-2283_patche
 d_slides.pdf> </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/tra
 nsition_xps.png>])
-(./Sections/2_Theory_Models/Catalysis.tex [21]
-</home/david/Documents/PhD/Figures/AmmoniaOxidation/ER.pdf, id=1093, 462.52798p
+(./Sections/2_Theory_Models/Catalysis.tex [34]
+</home/david/Documents/PhD/Figures/AmmoniaOxidation/ER.pdf, id=1313, 462.52798p
 t x 346.89601pt>
 File: /home/david/Documents/PhD/Figures/AmmoniaOxidation/ER.pdf Graphic file (t
 ype pdf)
@@ -2036,7 +2155,7 @@ ype pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/AmmoniaOxidation/ER.
 pdf  used on input line 48.
 (pdftex.def)             Requested size: 216.10109pt x 147.10484pt.
-</home/david/Documents/PhD/Figures/AmmoniaOxidation/LH.pdf, id=1095, 462.52798p
+</home/david/Documents/PhD/Figures/AmmoniaOxidation/LH.pdf, id=1315, 462.52798p
 t x 346.89601pt>
 File: /home/david/Documents/PhD/Figures/AmmoniaOxidation/LH.pdf Graphic file (t
 ype pdf)
@@ -2044,7 +2163,7 @@ ype pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/AmmoniaOxidation/LH.
 pdf  used on input line 49.
 (pdftex.def)             Requested size: 216.10109pt x 147.10484pt.
- [22 </home/david/Documents/PhD/Figures/AmmoniaOxidation/ER.pdf> </home/david/D
+ [35 </home/david/Documents/PhD/Figures/AmmoniaOxidation/ER.pdf> </home/david/D
 ocuments/PhD/Figures/AmmoniaOxidation/LH.pdf>]
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7
 _facets_cropped.png Graphic file (type png)
@@ -2059,29 +2178,28 @@ pe png)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Sample/sxrd_sample.p
 ng  used on input line 81.
 (pdftex.def)             Requested size: 112.0672pt x 113.81102pt.
- [23]) (./Sections/2_Theory_Models/X-ray_interaction_matter.tex
-[24]
-<Figures/Introduction/cross_sections.pdf, id=1299, 462.52798pt x 346.89601pt>
+ [36] [37])
+(./Sections/2_Theory_Models/X-ray_interaction_matter.tex
+<Figures/Introduction/cross_sections.pdf, id=1517, 462.52798pt x 346.89601pt>
 File: Figures/Introduction/cross_sections.pdf Graphic file (type pdf)
 <use Figures/Introduction/cross_sections.pdf>
 Package pdftex.def Info: Figures/Introduction/cross_sections.pdf  used on input
  line 39.
 (pdftex.def)             Requested size: 291.0733pt x 218.31273pt.
- [25]
-<Figures/Introduction/torus.pdf, id=1318, 569.05513pt x 213.39566pt>
+ [38] [39 <./Figures/Introduction/cross_sections.pdf>]
+<Figures/Introduction/torus.pdf, id=1601, 569.05513pt x 213.39566pt>
 File: Figures/Introduction/torus.pdf Graphic file (type pdf)
 <use Figures/Introduction/torus.pdf>
 Package pdftex.def Info: Figures/Introduction/torus.pdf  used on input line 94.
 
 (pdftex.def)             Requested size: 441.01772pt x 165.38644pt.
- [26 <./Figures/Introduction/cross_sections.pdf>]
-<Figures/Introduction/q.pdf, id=1383, 462.52798pt x 346.89601pt>
+<Figures/Introduction/q.pdf, id=1606, 462.52798pt x 346.89601pt>
 File: Figures/Introduction/q.pdf Graphic file (type pdf)
 <use Figures/Introduction/q.pdf>
 Package pdftex.def Info: Figures/Introduction/q.pdf  used on input line 128.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
- [27 <./Figures/Introduction/torus.pdf>]
-<Figures/Introduction/atomic_form_factor.pdf, id=6350, 462.52798pt x 346.89601p
+ [40 <./Figures/Introduction/torus.pdf>]
+<Figures/Introduction/atomic_form_factor.pdf, id=6574, 462.52798pt x 346.89601p
 t>
 File: Figures/Introduction/atomic_form_factor.pdf Graphic file (type pdf)
 <use Figures/Introduction/atomic_form_factor.pdf>
@@ -2090,12 +2208,12 @@ nput line 171.
 (pdftex.def)             Requested size: 330.76328pt x 248.0817pt.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
 76.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [28 <./Figures/Introduction/q.pdf>] [29 <./Figures/Introduction/atomic_form_f
-actor.pdf>]
-[30]
-</home/david/Documents/PhD/Figures/Drawing/blender/FCC.png, id=6472, 1927.2pt x
+) [41 <./Figures/Introduction/q.pdf>]
+[42 <./Figures/Introduction/atomic_form_factor.pdf>] [43]
+</home/david/Documents/PhD/Figures/Drawing/blender/FCC.png, id=6694, 1927.2pt x
  1084.05pt>
 File: /home/david/Documents/PhD/Figures/Drawing/blender/FCC.png Graphic file (t
 ype png)
@@ -2103,7 +2221,7 @@ ype png)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Drawing/blender/FCC.
 png  used on input line 268.
 (pdftex.def)             Requested size: 252.89732pt x 142.26378pt.
-</home/david/Documents/PhD/Figures/Introduction/PtClean.pdf, id=6473, 433.62pt 
+</home/david/Documents/PhD/Figures/Introduction/PtClean.pdf, id=6695, 433.62pt 
 x 433.62pt>
 File: /home/david/Documents/PhD/Figures/Introduction/PtClean.pdf Graphic file (
 type pdf)
@@ -2111,77 +2229,78 @@ type pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/PtClean
 .pdf  used on input line 269.
 (pdftex.def)             Requested size: 142.26135pt x 142.26378pt.
- [31 </home/david/Documents/PhD/Figures/Drawing/blender/FCC.png> </home/david/D
+ [44 </home/david/Documents/PhD/Figures/Drawing/blender/FCC.png> </home/david/D
 ocuments/PhD/Figures/Introduction/PtClean.pdf>]
-<Figures/Introduction/BraggLaw.pdf, id=6503, 578.16pt x 289.08pt>
+<Figures/Introduction/BraggLaw.pdf, id=6722, 578.16pt x 289.08pt>
 File: Figures/Introduction/BraggLaw.pdf Graphic file (type pdf)
 <use Figures/Introduction/BraggLaw.pdf>
 Package pdftex.def Info: Figures/Introduction/BraggLaw.pdf  used on input line 
 331.
 (pdftex.def)             Requested size: 289.07928pt x 144.53964pt.
- [32 <./Figures/Introduction/BraggLaw.pdf>] [33] [34]
-<Figures/Introduction/CoherenceLengths.pdf, id=6578, 810.90355pt x 184.94292pt>
+ [45] [46 <./Figures/Introduction/BraggLaw.pdf>]
+[47] [48]
+<Figures/Introduction/CoherenceLengths.pdf, id=6810, 810.90355pt x 184.94292pt>
 
 File: Figures/Introduction/CoherenceLengths.pdf Graphic file (type pdf)
 <use Figures/Introduction/CoherenceLengths.pdf>
 Package pdftex.def Info: Figures/Introduction/CoherenceLengths.pdf  used on inp
 ut line 489.
 (pdftex.def)             Requested size: 441.01772pt x 100.58446pt.
- [35 <./Figures/Introduction/CoherenceLengths.pdf>])
-(./Sections/2_Theory_Models/SXRD.tex [36]
-<Figures/Introduction/SurfaceReconstructions.pdf, id=6628, 578.16pt x 289.08pt>
+ [49 <./Figures/Introduction/CoherenceLengths.pdf>])
+(./Sections/2_Theory_Models/SXRD.tex
+<Figures/Introduction/SurfaceReconstructions.pdf, id=6850, 578.16pt x 289.08pt>
 
 File: Figures/Introduction/SurfaceReconstructions.pdf Graphic file (type pdf)
 <use Figures/Introduction/SurfaceReconstructions.pdf>
 Package pdftex.def Info: Figures/Introduction/SurfaceReconstructions.pdf  used 
 on input line 19.
 (pdftex.def)             Requested size: 441.01772pt x 220.50587pt.
-<Figures/Introduction/CTRConvolution.png, id=6636, 1179.40625pt x 905.3825pt>
+ [50]
+<Figures/Introduction/CTRConvolution.png, id=6870, 1179.40625pt x 905.3825pt>
 File: Figures/Introduction/CTRConvolution.png Graphic file (type png)
 <use Figures/Introduction/CTRConvolution.png>
 Package pdftex.def Info: Figures/Introduction/CTRConvolution.png  used on input
  line 50.
 (pdftex.def)             Requested size: 396.91324pt x 304.68997pt.
- [37 <./Figures/Introduction/SurfaceReconstructions.pdf>] [38 <./Figures/Introd
-uction/CTRConvolution.png>]
-<Figures/Introduction/relax_rough_ctr.pdf, id=6684, 578.16pt x 650.43pt>
+ [51 <./Figures/Introduction/SurfaceReconstructions.pdf>]
+<Figures/Introduction/relax_rough_ctr.pdf, id=6906, 578.16pt x 650.43pt>
 File: Figures/Introduction/relax_rough_ctr.pdf Graphic file (type pdf)
 <use Figures/Introduction/relax_rough_ctr.pdf>
 Package pdftex.def Info: Figures/Introduction/relax_rough_ctr.pdf  used on inpu
 t line 86.
 (pdftex.def)             Requested size: 441.01772pt x 496.13824pt.
- [39 <./Figures/Introduction/relax_rough_ctr.pdf>]
-<Figures/Introduction/EwaldSphereInPlane3D.png, id=6785, 578.16pt x 578.16pt>
+ [52 <./Figures/Introduction/CTRConvolution.png>] [53 <./Figures/Introduction/r
+elax_rough_ctr.pdf>]
+<Figures/Introduction/EwaldSphereInPlane3D.png, id=7018, 578.16pt x 578.16pt>
 File: Figures/Introduction/EwaldSphereInPlane3D.png Graphic file (type png)
 <use Figures/Introduction/EwaldSphereInPlane3D.png>
 Package pdftex.def Info: Figures/Introduction/EwaldSphereInPlane3D.png  used on
  input line 125.
 (pdftex.def)             Requested size: 216.10109pt x 165.37306pt.
-<Figures/Introduction/EwaldSphereOutOfPlane3D.png, id=6787, 578.16pt x 578.16pt
+<Figures/Introduction/EwaldSphereOutOfPlane3D.png, id=7020, 578.16pt x 578.16pt
 >
 File: Figures/Introduction/EwaldSphereOutOfPlane3D.png Graphic file (type png)
 <use Figures/Introduction/EwaldSphereOutOfPlane3D.png>
 Package pdftex.def Info: Figures/Introduction/EwaldSphereOutOfPlane3D.png  used
  on input line 126.
 (pdftex.def)             Requested size: 216.10109pt x 165.37306pt.
-<Figures/SixS/Diffractometer.pdf, id=6791, 705.62834pt x 532.06653pt>
+<Figures/SixS/Diffractometer.pdf, id=7024, 705.62834pt x 532.06653pt>
 File: Figures/SixS/Diffractometer.pdf Graphic file (type pdf)
 <use Figures/SixS/Diffractometer.pdf>
 Package pdftex.def Info: Figures/SixS/Diffractometer.pdf  used on input line 14
 4.
 (pdftex.def)             Requested size: 396.91324pt x 299.27856pt.
- [40] [41 <./Figures/Introduction/EwaldSphereInPlane3D.png> <./Figures/Introduc
-tion/EwaldSphereOutOfPlane3D.png>]
-<Figures/Introduction/EwaldSphereSpecular3D.png, id=6842, 578.16pt x 578.16pt>
+ [54 <./Figures/Introduction/EwaldSphereInPlane3D.png> <./Figures/Introduction/
+EwaldSphereOutOfPlane3D.png>] [55 <./Figures/SixS/Diffractometer.pdf>]
+<Figures/Introduction/EwaldSphereSpecular3D.png, id=7082, 578.16pt x 578.16pt>
 File: Figures/Introduction/EwaldSphereSpecular3D.png Graphic file (type png)
 <use Figures/Introduction/EwaldSphereSpecular3D.png>
 Package pdftex.def Info: Figures/Introduction/EwaldSphereSpecular3D.png  used o
 n input line 196.
 (pdftex.def)             Requested size: 216.10109pt x 165.37306pt.
-
-[42 <./Figures/SixS/Diffractometer.pdf>]) (./Sections/2_Theory_Models/BCDI.tex
-[43 <./Figures/Introduction/EwaldSphereSpecular3D.png>]
-</home/david/Documents/PhD/Figures/Introduction/StrainedCrystal.pdf, id=6934, 4
+ [56 <./Figures/Introduction/EwaldSphereSpecular3D.png>]) (./Sections/2_Theory_
+Models/BCDI.tex [57]
+</home/david/Documents/PhD/Figures/Introduction/StrainedCrystal.pdf, id=7170, 4
 62.64182pt x 256.0748pt>
 File: /home/david/Documents/PhD/Figures/Introduction/StrainedCrystal.pdf Graphi
 c file (type pdf)
@@ -2189,8 +2308,8 @@ c file (type pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/Straine
 dCrystal.pdf  used on input line 35.
 (pdftex.def)             Requested size: 291.0733pt x 161.11305pt.
- [44] [45 </home/david/Documents/PhD/Figures/Introduction/StrainedCrystal.pdf>]
-</home/david/Documents/PhD/Figures/Introduction/RockingCurve.png, id=7021, 486.
+ [58 </home/david/Documents/PhD/Figures/Introduction/StrainedCrystal.pdf>]
+</home/david/Documents/PhD/Figures/Introduction/RockingCurve.png, id=7239, 486.
 81876pt x 633.36626pt>
 File: /home/david/Documents/PhD/Figures/Introduction/RockingCurve.png Graphic f
 ile (type png)
@@ -2199,7 +2318,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/Rocking
 Curve.png  used on input line 97.
 (pdftex.def)             Requested size: 171.99663pt x 223.76901pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/3D_DP/DP_wh
-ite_1.png, id=7022, 1284.8pt x 1027.84pt>
+ite_1.png, id=7240, 1284.8pt x 1027.84pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/3D_DP/
 DP_white_1.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/3D_DP/D
@@ -2207,10 +2326,10 @@ P_white_1.png>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/3D_DP/DP_white_1.png  used on input line 98.
 (pdftex.def)             Requested size: 260.19882pt x 208.15215pt.
- [46 </home/david/Documents/PhD/Figures/Introduction/RockingCurve.png> </home/d
-avid/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/3D_DP/DP_white_1.pn
-g (PNG copy)>]
-</home/david/Documents/PhD/Figures/Introduction/PhaseRetrieval.pdf, id=7045, 71
+ [59] [60 </home/david/Documents/PhD/Figures/Introduction/RockingCurve.png> </h
+ome/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/3D_DP/DP_white
+_1.png (PNG copy)>]
+</home/david/Documents/PhD/Figures/Introduction/PhaseRetrieval.pdf, id=7280, 71
 1.31892pt x 170.71654pt>
 File: /home/david/Documents/PhD/Figures/Introduction/PhaseRetrieval.pdf Graphic
  file (type pdf)
@@ -2218,71 +2337,70 @@ File: /home/david/Documents/PhD/Figures/Introduction/PhaseRetrieval.pdf Graphic
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/PhaseRe
 trieval.pdf  used on input line 143.
 (pdftex.def)             Requested size: 441.01772pt x 105.84314pt.
- [47 </home/david/Documents/PhD/Figures/Introduction/PhaseRetrieval.pdf>] [48] 
-[49]
+ [61 </home/david/Documents/PhD/Figures/Introduction/PhaseRetrieval.pdf>] [62] 
+[63]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/hist_is
-o.pdf, id=7164, 433.62pt x 289.08pt>
+o.pdf, id=7399, 433.62pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/hi
 st_iso.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/his
 t_iso.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
-_NH3/figures/B-7/hist_iso.pdf  used on input line 244.
+_NH3/figures/B-7/hist_iso.pdf  used on input line 245.
 (pdftex.def)             Requested size: 192.05052pt x 128.0374pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
-_good_files/D6/300/AmplitudeLines.png, id=7165, 722.7pt x 501.875pt>
+_good_files/D6/300/AmplitudeLines.png, id=7400, 722.7pt x 501.875pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
 s/vti_good_files/D6/300/AmplitudeLines.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
 /vti_good_files/D6/300/AmplitudeLines.png>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/reconstructions/vti_good_files/D6/300/AmplitudeLines.png  used on input li
-ne 245.
+ne 246.
 (pdftex.def)             Requested size: 180.27756pt x 125.19194pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/MarchingCub
-es.png, id=7172, 1927.2pt x 907.39pt>
+es.png, id=7407, 1927.2pt x 907.39pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Marchi
 ngCubes.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Marchin
 gCubes.png>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
-_NH3/figures/MarchingCubes.png  used on input line 263.
+_NH3/figures/MarchingCubes.png  used on input line 264.
 (pdftex.def)             Requested size: 291.0733pt x 137.04413pt.
-
-[50 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/his
-t_iso.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstr
-uctions/vti_good_files/D6/300/AmplitudeLines.png (PNG copy)>]
+ [64 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/hi
+st_iso.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconst
+ructions/vti_good_files/D6/300/AmplitudeLines.png (PNG copy)> </home/david/Docu
+ments/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/MarchingCubes.png>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
-_good_files/D6/300/FacetProbability.png, id=7247, 722.7pt x 501.875pt>
+_good_files/D6/300/FacetProbability.png, id=7480, 722.7pt x 501.875pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
 s/vti_good_files/D6/300/FacetProbability.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
 /vti_good_files/D6/300/FacetProbability.png>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/reconstructions/vti_good_files/D6/300/FacetProbability.png  used on input 
-line 277.
+line 278.
 (pdftex.def)             Requested size: 216.10109pt x 150.06589pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
-_good_files/D6/300/FacetIDs.png, id=7248, 722.7pt x 501.875pt>
+_good_files/D6/300/FacetIDs.png, id=7481, 722.7pt x 501.875pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
 s/vti_good_files/D6/300/FacetIDs.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
 /vti_good_files/D6/300/FacetIDs.png>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
-_NH3/reconstructions/vti_good_files/D6/300/FacetIDs.png  used on input line 278
+_NH3/reconstructions/vti_good_files/D6/300/FacetIDs.png  used on input line 279
 .
 (pdftex.def)             Requested size: 216.10109pt x 150.06589pt.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/it' in size <10> not available
-(Font)              Font shape `U/wasy/m/sl' tried instead on input line 282.
+(Font)              Font shape `U/wasy/m/sl' tried instead on input line 283.
 
-) (./Sections/2_Theory_Models/SixS.tex [51 </home/david/Documents/PhD/PhDScript
-s/SixS_2021_06_BCDI_NH3/figures/MarchingCubes.png> </home/david/Documents/PhD/P
-hDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/FacetProb
-ability.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
-_NH3/reconstructions/vti_good_files/D6/300/FacetIDs.png (PNG copy)>]
-</home/david/Documents/PhD/Figures/SixS/RingSoleil.jpg, id=7278, 471.7625pt x 2
+) (./Sections/2_Theory_Models/SixS.tex [65 </home/david/Documents/PhD/PhDScript
+s/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/FacetProbability.
+png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/rec
+onstructions/vti_good_files/D6/300/FacetIDs.png (PNG copy)>]
+</home/david/Documents/PhD/Figures/SixS/RingSoleil.jpg, id=7509, 471.7625pt x 2
 95.1025pt>
 File: /home/david/Documents/PhD/Figures/SixS/RingSoleil.jpg Graphic file (type 
 jpg)
@@ -2290,7 +2408,7 @@ jpg)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/SixS/RingSoleil.jpg 
  used on input line 10.
 (pdftex.def)             Requested size: 216.10109pt x 135.17691pt.
-</home/david/Documents/PhD/Figures/SixS/BeamlineSoleil.jpg, id=7279, 552.0625pt
+</home/david/Documents/PhD/Figures/SixS/BeamlineSoleil.jpg, id=7510, 552.0625pt
  x 328.22626pt>
 File: /home/david/Documents/PhD/Figures/SixS/BeamlineSoleil.jpg Graphic file (t
 ype jpg)
@@ -2298,9 +2416,7 @@ ype jpg)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/SixS/BeamlineSoleil.
 jpg  used on input line 11.
 (pdftex.def)             Requested size: 216.10109pt x 128.4835pt.
- [52 </home/david/Documents/PhD/Figures/SixS/RingSoleil.jpg> </home/david/Docum
-ents/PhD/Figures/SixS/BeamlineSoleil.jpg>]
-</home/david/Documents/PhD/Figures/SixS/SixSBeamline.pdf, id=7292, 355.65945pt 
+</home/david/Documents/PhD/Figures/SixS/SixSBeamline.pdf, id=7517, 355.65945pt 
 x 256.0748pt>
 File: /home/david/Documents/PhD/Figures/SixS/SixSBeamline.pdf Graphic file (typ
 e pdf)
@@ -2308,12 +2424,14 @@ e pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/SixS/SixSBeamline.pd
 f  used on input line 40.
 (pdftex.def)             Requested size: 291.0733pt x 209.5724pt.
- [53 </home/david/Documents/PhD/Figures/SixS/SixSBeamline.pdf>]
+ [66 </home/david/Documents/PhD/Figures/SixS/RingSoleil.jpg> </home/david/Docum
+ents/PhD/Figures/SixS/BeamlineSoleil.jpg>]
 Overfull \hbox (8.58664pt too wide) in paragraph at lines 69--79
  [][] 
  []
 
-</home/david/Documents/PhD/Figures/SixS/DiffractometerDetails.pdf, id=7313, 597
+[67 </home/david/Documents/PhD/Figures/SixS/SixSBeamline.pdf>]
+</home/david/Documents/PhD/Figures/SixS/DiffractometerDetails.pdf, id=7546, 597
 .55246pt x 845.19763pt>
 File: /home/david/Documents/PhD/Figures/SixS/DiffractometerDetails.pdf Graphic 
 file (type pdf)
@@ -2321,8 +2439,8 @@ file (type pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/SixS/DiffractometerD
 etails.pdf  used on input line 89.
 (pdftex.def)             Requested size: 308.71104pt x 267.11383pt.
-[54 </home/david/Documents/PhD/Figures/SixS/DiffractometerDetails.pdf>]
-</home/david/Documents/PhD/Figures/SixS/OpticalSetup.pdf, id=7359, 497.92322pt 
+ [68 </home/david/Documents/PhD/Figures/SixS/DiffractometerDetails.pdf>]
+</home/david/Documents/PhD/Figures/SixS/OpticalSetup.pdf, id=7592, 497.92322pt 
 x 236.15787pt>
 File: /home/david/Documents/PhD/Figures/SixS/OpticalSetup.pdf Graphic file (typ
 e pdf)
@@ -2330,9 +2448,8 @@ e pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/SixS/OpticalSetup.pd
 f  used on input line 121.
 (pdftex.def)             Requested size: 352.8155pt x 167.33813pt.
-
-[55 </home/david/Documents/PhD/Figures/SixS/OpticalSetup.pdf>]
-</home/david/Documents/PhD/Figures/Sample/microscope_image.png, id=7444, 228.85
+ [69 </home/david/Documents/PhD/Figures/SixS/OpticalSetup.pdf>]
+</home/david/Documents/PhD/Figures/Sample/microscope_image.png, id=7676, 228.85
 5pt x 207.77625pt>
 File: /home/david/Documents/PhD/Figures/Sample/microscope_image.png Graphic fil
 e (type png)
@@ -2340,7 +2457,7 @@ e (type png)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Sample/microscope_im
 age.png  used on input line 165.
 (pdftex.def)             Requested size: 156.70186pt x 142.26378pt.
-</home/david/Documents/PhD/Figures/Sample/microscope_image_photon.png, id=7445,
+</home/david/Documents/PhD/Figures/Sample/microscope_image_photon.png, id=7677,
  345.54094pt x 276.28218pt>
 File: /home/david/Documents/PhD/Figures/Sample/microscope_image_photon.png Grap
 hic file (type png)
@@ -2348,9 +2465,7 @@ hic file (type png)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Sample/microscope_im
 age_photon.png  used on input line 166.
 (pdftex.def)             Requested size: 177.92656pt x 142.26378pt.
- [56 </home/david/Documents/PhD/Figures/Sample/microscope_image.png> </home/dav
-id/Documents/PhD/Figures/Sample/microscope_image_photon.png>]
-</home/david/Documents/PhD/Figures/SixS/SampleHolder.pdf, id=7464, 312.98033pt 
+</home/david/Documents/PhD/Figures/SixS/SampleHolder.pdf, id=7685, 312.98033pt 
 x 170.71654pt>
 File: /home/david/Documents/PhD/Figures/SixS/SampleHolder.pdf Graphic file (typ
 e pdf)
@@ -2358,7 +2473,9 @@ e pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/SixS/SampleHolder.pd
 f  used on input line 194.
 (pdftex.def)             Requested size: 308.71104pt x 168.39252pt.
-</home/david/Documents/PhD/Figures/SixS/IMG_20210612_153249_240.jpg, id=7466, 3
+ [70 </home/david/Documents/PhD/Figures/Sample/microscope_image.png> </home/dav
+id/Documents/PhD/Figures/Sample/microscope_image_photon.png>]
+</home/david/Documents/PhD/Figures/SixS/IMG_20210612_153249_240.jpg, id=7700, 3
 61.35pt x 361.35pt>
 File: /home/david/Documents/PhD/Figures/SixS/IMG_20210612_153249_240.jpg Graphi
 c file (type jpg)
@@ -2366,15 +2483,17 @@ c file (type jpg)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/SixS/IMG_20210612_15
 3249_240.jpg  used on input line 213.
 (pdftex.def)             Requested size: 216.10109pt x 190.88863pt.
-</home/david/Documents/PhD/Figures/SixS/CELL.jpg, id=7468, 1453.1088pt x 971.30
+</home/david/Documents/PhD/Figures/SixS/CELL.jpg, id=7702, 1453.1088pt x 971.30
 88pt>
 File: /home/david/Documents/PhD/Figures/SixS/CELL.jpg Graphic file (type jpg)
 <use /home/david/Documents/PhD/Figures/SixS/CELL.jpg>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/SixS/CELL.jpg  used 
 on input line 214.
 (pdftex.def)             Requested size: 216.10109pt x 190.50862pt.
- [57 </home/david/Documents/PhD/Figures/SixS/SampleHolder.pdf>]
-</home/david/Documents/PhD/Figures/SixS/GasSupplySystem.pdf, id=7497, 845.19763
+ [71 </home/david/Documents/PhD/Figures/SixS/IMG_20210612_153249_240.jpg> </hom
+e/david/Documents/PhD/Figures/SixS/CELL.jpg> </home/david/Documents/PhD/Figures
+/SixS/SampleHolder.pdf>]
+</home/david/Documents/PhD/Figures/SixS/GasSupplySystem.pdf, id=7731, 845.19763
 pt x 597.55246pt>
 File: /home/david/Documents/PhD/Figures/SixS/GasSupplySystem.pdf Graphic file (
 type pdf)
@@ -2382,11 +2501,10 @@ type pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/SixS/GasSupplySystem
 .pdf  used on input line 237.
 (pdftex.def)             Requested size: 441.01772pt x 327.48555pt.
- [58 </home/david/Documents/PhD/Figures/SixS/IMG_20210612_153249_240.jpg> </hom
-e/david/Documents/PhD/Figures/SixS/CELL.jpg>])
-(./Sections/2_Theory_Models/ComputerPrograms.tex [59 </home/david/Documents/PhD
-/Figures/SixS/GasSupplySystem.pdf, page is rotated 90 degrees>] [60] [61]
-</home/david/Documents/PhD/Figures/Gwaihir/Packages.png, id=7638, 854.19125pt x
+ [72 </home/david/Documents/PhD/Figures/SixS/GasSupplySystem.pdf, page is rotat
+ed 90 degrees>])
+(./Sections/2_Theory_Models/ComputerPrograms.tex [73] [74]
+</home/david/Documents/PhD/Figures/Gwaihir/Packages.png, id=7843, 854.19125pt x
  645.41125pt>
 File: /home/david/Documents/PhD/Figures/Gwaihir/Packages.png Graphic file (type
  png)
@@ -2394,7 +2512,8 @@ File: /home/david/Documents/PhD/Figures/Gwaihir/Packages.png Graphic file (type
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Gwaihir/Packages.png
   used on input line 74.
 (pdftex.def)             Requested size: 291.0733pt x 219.92934pt.
-</home/david/Documents/PhD/Figures/Gwaihir/Workflow.png, id=7647, 659.46375pt x
+ [75]
+</home/david/Documents/PhD/Figures/Gwaihir/Workflow.png, id=7880, 659.46375pt x
  456.70625pt>
 File: /home/david/Documents/PhD/Figures/Gwaihir/Workflow.png Graphic file (type
  png)
@@ -2402,9 +2521,7 @@ File: /home/david/Documents/PhD/Figures/Gwaihir/Workflow.png Graphic file (type
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Gwaihir/Workflow.png
   used on input line 103.
 (pdftex.def)             Requested size: 308.71104pt x 213.80177pt.
-
-[62 </home/david/Documents/PhD/Figures/Gwaihir/Packages.png>]
-</home/david/Documents/PhD/Figures/Gwaihir/CropDiffPatternRed.png, id=7662, 768
+</home/david/Documents/PhD/Figures/Gwaihir/CropDiffPatternRed.png, id=7883, 768
 .8725pt x 597.23125pt>
 File: /home/david/Documents/PhD/Figures/Gwaihir/CropDiffPatternRed.png Graphic 
 file (type png)
@@ -2412,7 +2529,7 @@ file (type png)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Gwaihir/CropDiffPatt
 ernRed.png  used on input line 113.
 (pdftex.def)             Requested size: 216.10109pt x 167.86151pt.
-</home/david/Documents/PhD/Figures/Gwaihir/crop_phase_red.png, id=7663, 1120.18
+</home/david/Documents/PhD/Figures/Gwaihir/crop_phase_red.png, id=7884, 1120.18
 5pt x 893.3375pt>
 File: /home/david/Documents/PhD/Figures/Gwaihir/crop_phase_red.png Graphic file
  (type png)
@@ -2420,10 +2537,11 @@ File: /home/david/Documents/PhD/Figures/Gwaihir/crop_phase_red.png Graphic file
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Gwaihir/crop_phase_r
 ed.png  used on input line 115.
 (pdftex.def)             Requested size: 216.10109pt x 172.33945pt.
- [63 </home/david/Documents/PhD/Figures/Gwaihir/Workflow.png> </home/david/Docu
-ments/PhD/Figures/Gwaihir/CropDiffPatternRed.png> </home/david/Documents/PhD/Fi
-gures/Gwaihir/crop_phase_red.png>]
-</home/david/Documents/PhD/Figures/Gwaihir/PRTab.pdf, id=7688, 540.60239pt x 67
+ [76 </home/david/Documents/PhD/Figures/Gwaihir/Packages.png>] [77 </home/david
+/Documents/PhD/Figures/Gwaihir/Workflow.png> </home/david/Documents/PhD/Figures
+/Gwaihir/CropDiffPatternRed.png> </home/david/Documents/PhD/Figures/Gwaihir/cro
+p_phase_red.png>]
+</home/david/Documents/PhD/Figures/Gwaihir/PRTab.pdf, id=7919, 540.60239pt x 67
 4.33032pt>
 File: /home/david/Documents/PhD/Figures/Gwaihir/PRTab.pdf Graphic file (type pd
 f)
@@ -2431,8 +2549,8 @@ f)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Gwaihir/PRTab.pdf  u
 sed on input line 167.
 (pdftex.def)             Requested size: 441.01772pt x 550.11456pt.
- [64] [65 </home/david/Documents/PhD/Figures/Gwaihir/PRTab.pdf>]
-</home/david/Documents/PhD/Figures/Gwaihir/PlotTab.pdf, id=7726, 540.60239pt x 
+ [78] [79 </home/david/Documents/PhD/Figures/Gwaihir/PRTab.pdf>]
+</home/david/Documents/PhD/Figures/Gwaihir/PlotTab.pdf, id=7959, 540.60239pt x 
 386.95747pt>
 File: /home/david/Documents/PhD/Figures/Gwaihir/PlotTab.pdf Graphic file (type 
 pdf)
@@ -2440,7 +2558,7 @@ pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Gwaihir/PlotTab.pdf 
  used on input line 214.
 (pdftex.def)             Requested size: 441.01772pt x 315.67754pt.
-</home/david/Documents/PhD/Figures/Gwaihir/detector_slice_bokeh.png, id=7731, 4
+</home/david/Documents/PhD/Figures/Gwaihir/detector_slice_bokeh.png, id=7964, 4
 45.665pt x 445.665pt>
 File: /home/david/Documents/PhD/Figures/Gwaihir/detector_slice_bokeh.png Graphi
 c file (type png)
@@ -2448,13 +2566,7 @@ c file (type png)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Gwaihir/detector_sli
 ce_bokeh.png  used on input line 230.
 (pdftex.def)             Requested size: 291.0733pt x 291.07288pt.
- [66]
-
-LaTeX Warning: Text page 67 contains only floats.
-
-[67 </home/david/Documents/PhD/Figures/Gwaihir/PlotTab.pdf> </home/david/Docume
-nts/PhD/Figures/Gwaihir/detector_slice_bokeh.png>]
-</home/david/Documents/PhD/Figures/Gwaihir/yaml.png, id=7766, 1643.13875pt x 88
+</home/david/Documents/PhD/Figures/Gwaihir/yaml.png, id=7966, 1643.13875pt x 88
 1.2925pt>
 File: /home/david/Documents/PhD/Figures/Gwaihir/yaml.png Graphic file (type png
 )
@@ -2462,7 +2574,13 @@ File: /home/david/Documents/PhD/Figures/Gwaihir/yaml.png Graphic file (type png
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Gwaihir/yaml.png  us
 ed on input line 250.
 (pdftex.def)             Requested size: 441.01772pt x 236.52672pt.
-</home/david/Documents/PhD/Figures/Gwaihir/tree.png, id=7771, 743.77875pt x 597
+ [80]
+
+LaTeX Warning: Text page 81 contains only floats.
+
+[81 </home/david/Documents/PhD/Figures/Gwaihir/PlotTab.pdf> </home/david/Docume
+nts/PhD/Figures/Gwaihir/detector_slice_bokeh.png>]
+</home/david/Documents/PhD/Figures/Gwaihir/tree.png, id=8003, 743.77875pt x 597
 .23125pt>
 File: /home/david/Documents/PhD/Figures/Gwaihir/tree.png Graphic file (type png
 )
@@ -2470,8 +2588,7 @@ File: /home/david/Documents/PhD/Figures/Gwaihir/tree.png Graphic file (type png
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Gwaihir/tree.png  us
 ed on input line 266.
 (pdftex.def)             Requested size: 308.71104pt x 247.8919pt.
- [68 </home/david/Documents/PhD/Figures/Gwaihir/yaml.png>] [69 </home/david/Doc
-uments/PhD/Figures/Gwaihir/tree.png>]
+ [82 </home/david/Documents/PhD/Figures/Gwaihir/yaml.png>]
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
 hkl_surf_or_2227-2283_patched_slides.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_h
@@ -2480,7 +2597,8 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/Map_hkl_surf_or_2227-2283_patched_slides.pdf  used on input line
  314.
 (pdftex.def)             Requested size: 291.0733pt x 218.3048pt.
-</home/david/Documents/PhD/Figures/Binoculars/background_fitaid.png, id=7803, 1
+ [83 </home/david/Documents/PhD/Figures/Gwaihir/tree.png>]
+</home/david/Documents/PhD/Figures/Binoculars/background_fitaid.png, id=8034, 1
 422.31375pt x 664.4825pt>
 File: /home/david/Documents/PhD/Figures/Binoculars/background_fitaid.png Graphi
 c file (type png)
@@ -2488,8 +2606,8 @@ c file (type png)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Binoculars/backgroun
 d_fitaid.png  used on input line 341.
 (pdftex.def)             Requested size: 441.01772pt x 206.03813pt.
- [70] [71 </home/david/Documents/PhD/Figures/Binoculars/background_fitaid.png>]
-</home/david/Documents/PhD/Figures/Introduction/Pt3O4.pdf, id=7827, 505.89pt x 
+ [84]
+</home/david/Documents/PhD/Figures/Introduction/Pt3O4.pdf, id=8052, 505.89pt x 
 505.89pt>
 File: /home/david/Documents/PhD/Figures/Introduction/Pt3O4.pdf Graphic file (ty
 pe pdf)
@@ -2497,8 +2615,9 @@ pe pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/Pt3O4.p
 df  used on input line 385.
 (pdftex.def)             Requested size: 154.35889pt x 136.9983pt.
+ [85 </home/david/Documents/PhD/Figures/Binoculars/background_fitaid.png>]
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/simulations/rod_p
-t304/figures/rod_4_0_pt3o4.pdf, id=7829, 722.7pt x 289.08pt>
+t304/figures/rod_4_0_pt3o4.pdf, id=8062, 722.7pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/simulations/
 rod_pt304/figures/rod_4_0_pt3o4.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/simulations/r
@@ -2507,11 +2626,11 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/simulations/rod_pt304/figures/rod_4_0_pt3o4.pdf  used on input line 398.
 
 (pdftex.def)             Requested size: 441.01772pt x 176.4091pt.
-) [72 </home/david/Documents/PhD/Figures/Introduction/Pt3O4.pdf> </home/david/D
+) [86 </home/david/Documents/PhD/Figures/Introduction/Pt3O4.pdf> </home/david/D
 ocuments/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/simulations/rod_pt304/figures/r
-od_4_0_pt3o4.pdf>] [73]
+od_4_0_pt3o4.pdf>]
 Chapter 3.
-(./Sections/3_Results_Nanoparticles/Introduction.tex [74
+(./Sections/3_Results_Nanoparticles/Introduction.tex [87
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2541,7 +2660,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 41.
 
-</home/david/Documents/PhD/Figures/Sample/Mask.pdf, id=7936, 540.60239pt x 312.
+</home/david/Documents/PhD/Figures/Sample/Mask.pdf, id=8161, 540.60239pt x 312.
 98033pt>
 File: /home/david/Documents/PhD/Figures/Sample/Mask.pdf Graphic file (type pdf)
 
@@ -2549,7 +2668,7 @@ File: /home/david/Documents/PhD/Figures/Sample/Mask.pdf Graphic file (type pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Sample/Mask.pdf  use
 d on input line 58.
 (pdftex.def)             Requested size: 216.10109pt x 125.10872pt.
-</home/david/Documents/PhD/Figures/Sample/litho1_brighter.png, id=7937, 513.92p
+</home/david/Documents/PhD/Figures/Sample/litho1_brighter.png, id=8162, 513.92p
 t x 265.99374pt>
 File: /home/david/Documents/PhD/Figures/Sample/litho1_brighter.png Graphic file
  (type png)
@@ -2557,7 +2676,7 @@ File: /home/david/Documents/PhD/Figures/Sample/litho1_brighter.png Graphic file
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Sample/litho1_bright
 er.png  used on input line 59.
 (pdftex.def)             Requested size: 216.10109pt x 111.85054pt.
-</home/david/Documents/PhD/Figures/Introduction/Epitaxy.pdf, id=7940, 462.52798
+</home/david/Documents/PhD/Figures/Introduction/Epitaxy.pdf, id=8165, 462.52798
 pt x 346.89601pt>
 File: /home/david/Documents/PhD/Figures/Introduction/Epitaxy.pdf Graphic file (
 type pdf)
@@ -2565,11 +2684,11 @@ type pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/Epitaxy
 .pdf  used on input line 71.
 (pdftex.def)             Requested size: 308.71104pt x 231.54573pt.
-[75] [76 </home/david/Documents/PhD/Figures/Sample/Mask.pdf> </home/david/Docum
+[88] [89 </home/david/Documents/PhD/Figures/Sample/Mask.pdf> </home/david/Docum
 ents/PhD/Figures/Sample/litho1_brighter.png> </home/david/Documents/PhD/Figures
 /Introduction/Epitaxy.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/figu
-res/ThermocoupleCalibration.pdf, id=8009, 505.89pt x 361.35pt>
+res/ThermocoupleCalibration.pdf, id=8234, 505.89pt x 361.35pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis
 /figures/ThermocoupleCalibration.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/
@@ -2579,7 +2698,7 @@ _Pt100/gas_analysis/figures/ThermocoupleCalibration.pdf  used on input line 124
 .
 (pdftex.def)             Requested size: 218.3016pt x 155.92885pt.
 </home/david/Documents/PhD/PhDScripts/Test_Reactor_CO2_2021_01/Figures/TempRamp
-2.pdf, id=8010, 505.89pt x 361.35pt>
+2.pdf, id=8235, 505.89pt x 361.35pt>
 File: /home/david/Documents/PhD/PhDScripts/Test_Reactor_CO2_2021_01/Figures/Tem
 pRamp2.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/Test_Reactor_CO2_2021_01/Figures/Temp
@@ -2588,22 +2707,22 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/Test_Reactor_CO2_
 2021_01/Figures/TempRamp2.pdf  used on input line 125.
 (pdftex.def)             Requested size: 218.3016pt x 155.92885pt.
 )
-(./Sections/3_Results_Nanoparticles/SXRDNanoparticles.tex [77 </home/david/Docu
+(./Sections/3_Results_Nanoparticles/SXRDNanoparticles.tex [90 </home/david/Docu
 ments/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/figures/ThermocoupleC
 alibration.pdf> </home/david/Documents/PhD/PhDScripts/Test_Reactor_CO2_2021_01/
 Figures/TempRamp2.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/map/qxqyqz_
-38_40.pdf, id=8098, 722.7pt x 578.16pt>
+38_40.pdf, id=8324, page=4, 722.7pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/map/qx
 qyqz_38_40.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/map/qxq
-yqz_38_40.pdf>
+yqz_38_40.pdf, page 4>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
-_NH3/figures/map/qxqyqz_38_40.pdf  used on input line 19.
+_NH3/figures/map/qxqyqz_38_40.pdf , page4 used on input line 19.
 (pdftex.def)             Requested size: 441.01772pt x 352.81824pt.
- [78]
+ [91]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/220
-.pdf, id=8123, 650.43pt x 722.7pt>
+.pdf, id=8348, 650.43pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitax
 y/220.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy
@@ -2611,11 +2730,11 @@ y/220.pdf Graphic file (type pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
 _NH3/figures/epitaxy/220.pdf  used on input line 107.
 (pdftex.def)             Requested size: 441.01772pt x 490.029pt.
- [79 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/map/qx
-qyqz_38_40.pdf>] [80 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH
+ [92 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/map/qx
+qyqz_38_40.pdf>] [93 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH
 3/figures/epitaxy/220.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR111_
-K_vmax100_edited.pdf, id=8283, 378.42165pt x 578.16pt>
+K_vmax100_edited.pdf, id=8508, 378.42165pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CT
 R111_K_vmax100_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR
@@ -2624,7 +2743,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
 _NH3/figures/ctr/CTR111_K_vmax100_edited.pdf  used on input line 130.
 (pdftex.def)             Requested size: 130.35928pt x 199.16928pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR_300
-_edited.pdf, id=8284, 722.7pt x 505.89pt>
+_edited.pdf, id=8509, 722.7pt x 505.89pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CT
 R_300_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CTR
@@ -2632,55 +2751,53 @@ _300_edited.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
 _NH3/figures/ctr/CTR_300_edited.pdf  used on input line 131.
 (pdftex.def)             Requested size: 284.53154pt x 199.16928pt.
-</home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets/face
-ts_together.pdf, id=8286, 701.39684pt x 731.13103pt>
+</home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets/Face
+tsTogether.pdf, id=8511, page=1, 731.12202pt x 433.33546pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets
-/facets_together.pdf Graphic file (type pdf)
+/FacetsTogether.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets/
-facets_together.pdf>
+FacetsTogether.pdf, page 1>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
-_NH3/figures/facets/facets_together.pdf  used on input line 148.
-(pdftex.def)             Requested size: 441.01772pt x 459.72249pt.
+_NH3/figures/facets/FacetsTogether.pdf , page1 used on input line 148.
+(pdftex.def)             Requested size: 441.01772pt x 261.39844pt.
 </home/david/Documents/PhD/Figures/Introduction/stereographic_projection_top.pd
-f, id=8292, 722.7pt x 722.7pt>
+f, id=8518, 722.7pt x 722.7pt>
 File: /home/david/Documents/PhD/Figures/Introduction/stereographic_projection_t
 op.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/Figures/Introduction/stereographic_projection_to
 p.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/stereog
-raphic_projection_top.pdf  used on input line 171.
+raphic_projection_top.pdf  used on input line 172.
 (pdftex.def)             Requested size: 441.01772pt x 441.0228pt.
- [81 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CT
+ [94 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/ctr/CT
 R111_K_vmax100_edited.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2021_03_S
-XRD_NH3/figures/ctr/CTR_300_edited.pdf>] [82 </home/david/Documents/PhD/PhDScri
-pts/SixS_2021_03_SXRD_NH3/figures/facets/facets_together.pdf>]
-</home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets/face
-t_signal_evolution_together.pdf, id=8427, 722.7pt x 722.7pt>
+XRD_NH3/figures/ctr/CTR_300_edited.pdf>]
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets
 /facet_signal_evolution_together.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets/
 facet_signal_evolution_together.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
-_NH3/figures/facets/facet_signal_evolution_together.pdf  used on input line 197
+_NH3/figures/facets/facet_signal_evolution_together.pdf  used on input line 198
 .
 (pdftex.def)             Requested size: 441.01772pt x 441.0228pt.
- [83 </home/david/Documents/PhD/Figures/Introduction/stereographic_projection_t
-op.pdf>] [84 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figure
-s/facets/facet_signal_evolution_together.pdf>]
+ [95 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets
+/FacetsTogether.pdf>] [96 </home/david/Documents/PhD/Figures/Introduction/stere
+ographic_projection_top.pdf>] [97]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/product
-_comparison_no_norm.pdf, id=8581, 1075.86562pt x 350.69354pt>
+_comparison_no_norm.pdf, id=8663, 1075.86562pt x 350.69354pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/pr
 oduct_comparison_no_norm.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/pro
 duct_comparison_no_norm.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
-_NH3/figures/rga/product_comparison_no_norm.pdf  used on input line 235.
+_NH3/figures/rga/product_comparison_no_norm.pdf  used on input line 236.
 (pdftex.def)             Requested size: 441.01772pt x 143.75317pt.
- [85 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/pr
-oduct_comparison_no_norm.pdf>])
-(./Sections/3_Results_Nanoparticles/BCDITempRamp.tex [86]
-</home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1414top.png, id=864
-6, 1084.05pt x 722.7pt>
+)
+(./Sections/3_Results_Nanoparticles/BCDITempRamp.tex [98 </home/david/Documents
+/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/product_comparison_no_norm.pd
+f>]
+</home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1414top.png, id=872
+0, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1414top.png Gr
 aphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1414top.png>
@@ -2688,7 +2805,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1414top.png  used on input line 61.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1414bottom.png, id=
-8648, 1084.05pt x 722.7pt>
+8722, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1414bottom.png
  Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1414bottom.png>
@@ -2696,8 +2813,8 @@ File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1414bottom.png
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1414bottom.png  used on input line 62.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
-</home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1483top.png, id=865
-0, 1084.05pt x 722.7pt>
+</home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1483top.png, id=872
+4, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1483top.png Gr
 aphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1483top.png>
@@ -2705,7 +2822,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1483top.png  used on input line 63.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1483bottom.png, id=
-8652, 1084.05pt x 722.7pt>
+8726, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1483bottom.png
  Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1483bottom.png>
@@ -2713,8 +2830,8 @@ File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1483bottom.png
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1483bottom.png  used on input line 64.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
-</home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1534top.png, id=865
-4, 1084.05pt x 722.7pt>
+</home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1534top.png, id=872
+8, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1534top.png Gr
 aphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1534top.png>
@@ -2722,7 +2839,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1534top.png  used on input line 65.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1534bottom.png, id=
-8656, 1084.05pt x 722.7pt>
+8730, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1534bottom.png
  Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1534bottom.png>
@@ -2730,8 +2847,8 @@ File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1534bottom.png
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1534bottom.png  used on input line 66.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
-</home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1563top.png, id=865
-8, 1084.05pt x 722.7pt>
+</home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1563top.png, id=873
+2, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1563top.png Gr
 aphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1563top.png>
@@ -2739,7 +2856,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1563top.png  used on input line 67.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1563bottom.png, id=
-8660, 1084.05pt x 722.7pt>
+8734, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1563bottom.png
  Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1563bottom.png>
@@ -2747,8 +2864,17 @@ File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1563bottom.png
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1563bottom.png  used on input line 68.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
+ [99] [100 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1414top.
+png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/141
+4bottom.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
+view/1483top.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01
+/paraview/1483bottom.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS
+_2021_01/paraview/1534top.png (PNG copy)> </home/david/Documents/PhD/PhDScripts
+/SixS_2021_01/paraview/1534bottom.png (PNG copy)> </home/david/Documents/PhD/Ph
+DScripts/SixS_2021_01/paraview/1563top.png (PNG copy)> </home/david/Documents/P
+hD/PhDScripts/SixS_2021_01/paraview/1563bottom.png (PNG copy)>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/WireframeStrain1414
-.png, id=8669, 1084.05pt x 722.7pt>
+.png, id=8769, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/WireframeStrai
 n1414.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/WireframeStrain
@@ -2757,7 +2883,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/WireframeStrain1414.png  used on input line 119.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/WireframeStrain1483
-.png, id=8671, 1084.05pt x 722.7pt>
+.png, id=8771, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/WireframeStrai
 n1483.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/WireframeStrain
@@ -2765,17 +2891,11 @@ n1483.png Graphic file (type png)
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/WireframeStrain1483.png  used on input line 120.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
- [87] [88 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1414top.p
-ng (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1414
-bottom.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/parav
-iew/1483top.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/
-paraview/1483bottom.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_
-2021_01/paraview/1534top.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/
-SixS_2021_01/paraview/1534bottom.png (PNG copy)> </home/david/Documents/PhD/PhD
-Scripts/SixS_2021_01/paraview/1563top.png (PNG copy)> </home/david/Documents/Ph
-D/PhDScripts/SixS_2021_01/paraview/1563bottom.png (PNG copy)>]
+ [101 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/WireframeStra
+in1414.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/parav
+iew/WireframeStrain1483.png (PNG copy)>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/FacetAnalyser/FacetSizeEvolu
-tion.pdf, id=8708, 794.97pt x 505.89pt>
+tion.pdf, id=8791, 794.97pt x 505.89pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/FacetAnalyser/FacetSize
 Evolution.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/FacetAnalyser/FacetSizeE
@@ -2783,12 +2903,8 @@ volution.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/Face
 tAnalyser/FacetSizeEvolution.pdf  used on input line 142.
 (pdftex.def)             Requested size: 441.01772pt x 280.65648pt.
- [89 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/WireframeStrai
-n1414.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paravi
-ew/WireframeStrain1483.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/Si
-xS_2021_01/FacetAnalyser/FacetSizeEvolution.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1588top.png, id=880
-9, 1084.05pt x 722.7pt>
+0, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1588top.png Gr
 aphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1588top.png>
@@ -2796,7 +2912,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1588top.png  used on input line 163.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1588bottom.png, id=
-8811, 1084.05pt x 722.7pt>
+8802, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1588bottom.png
  Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1588bottom.png>
@@ -2804,8 +2920,8 @@ File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1588bottom.png
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1588bottom.png  used on input line 164.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
-</home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1631top.png, id=881
-3, 1084.05pt x 722.7pt>
+</home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1631top.png, id=880
+4, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1631top.png Gr
 aphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1631top.png>
@@ -2813,7 +2929,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1631top.png  used on input line 165.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1631bottom.png, id=
-8815, 1084.05pt x 722.7pt>
+8806, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1631bottom.png
  Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1631bottom.png>
@@ -2821,8 +2937,8 @@ File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1631bottom.png
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1631bottom.png  used on input line 166.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
-</home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675top.png, id=881
-7, 1084.05pt x 722.7pt>
+</home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675top.png, id=880
+8, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675top.png Gr
 aphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675top.png>
@@ -2830,7 +2946,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1675top.png  used on input line 167.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675bottom.png, id=
-8819, 1084.05pt x 722.7pt>
+8810, 1084.05pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675bottom.png
  Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675bottom.png>
@@ -2838,15 +2954,10 @@ File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675bottom.png
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1675bottom.png  used on input line 168.
 (pdftex.def)             Requested size: 216.10109pt x 132.7197pt.
- [90 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1588top.png (P
-NG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1588botto
-m.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1
-631top.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/parav
-iew/1631bottom.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_
-01/paraview/1675top.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_
-2021_01/paraview/1675bottom.png (PNG copy)>]
+ [102 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/FacetAnalyser/FacetSiz
+eEvolution.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/110facet1588.png, i
-d=8847, 722.7pt x 722.7pt>
+d=8918, 722.7pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/110facet1588.p
 ng Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/110facet1588.pn
@@ -2855,7 +2966,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/110facet1588.png  used on input line 194.
 (pdftex.def)             Requested size: 141.12889pt x 135.57364pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/110facet1631.png, i
-d=8849, 722.7pt x 722.7pt>
+d=8920, 722.7pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/110facet1631.p
 ng Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/110facet1631.pn
@@ -2864,7 +2975,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/110facet1631.png  used on input line 195.
 (pdftex.def)             Requested size: 141.12889pt x 135.57364pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/110facet1675.png, i
-d=8851, 722.7pt x 722.7pt>
+d=8922, 722.7pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/110facet1675.p
 ng Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/110facet1675.pn
@@ -2872,11 +2983,18 @@ g>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/110facet1675.png  used on input line 196.
 (pdftex.def)             Requested size: 141.12889pt x 135.57364pt.
- [91 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/110facet1588.p
-ng (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/110f
-acet1631.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/par
-aview/110facet1675.png (PNG copy)>]
-</home/david/Documents/PhD/PhDScripts/SixS_2021_01/RockingCurves.pdf, id=8881, 
+ [103 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1588top.png (
+PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1588bott
+om.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/
+1631top.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
+view/1631bottom.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021
+_01/paraview/1675top.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS
+_2021_01/paraview/1675bottom.png (PNG copy)>] [104 </home/david/Documents/PhD/P
+hDScripts/SixS_2021_01/paraview/110facet1588.png (PNG copy)> </home/david/Docum
+ents/PhD/PhDScripts/SixS_2021_01/paraview/110facet1631.png (PNG copy)> </home/d
+avid/Documents/PhD/PhDScripts/SixS_2021_01/paraview/110facet1675.png (PNG copy)
+>]
+</home/david/Documents/PhD/PhDScripts/SixS_2021_01/RockingCurves.pdf, id=8964, 
 1011.78pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/RockingCurves.pdf Graph
 ic file (type pdf)
@@ -2884,7 +3002,7 @@ ic file (type pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/Rock
 ingCurves.pdf  used on input line 284.
 (pdftex.def)             Requested size: 441.01772pt x 189.00693pt.
-</home/david/Documents/PhD/PhDScripts/SixS_2021_01/HomoStrain.pdf, id=8882, 101
+</home/david/Documents/PhD/PhDScripts/SixS_2021_01/HomoStrain.pdf, id=8965, 101
 1.78pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/HomoStrain.pdf Graphic 
 file (type pdf)
@@ -2892,11 +3010,10 @@ file (type pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/Homo
 Strain.pdf  used on input line 285.
 (pdftex.def)             Requested size: 441.01772pt x 189.00693pt.
- [92] [93 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/RockingCurves.pdf>
- </home/david/Documents/PhD/PhDScripts/SixS_2021_01/HomoStrain.pdf>]
-[94]
+ [105] [106 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/RockingCurves.pd
+f> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/HomoStrain.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/FacetAnalyser/FacetStrainEvo
-lution.pdf, id=9048, 867.24pt x 1084.05pt>
+lution.pdf, id=9125, 867.24pt x 1084.05pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/FacetAnalyser/FacetStra
 inEvolution.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/FacetAnalyser/FacetStrai
@@ -2904,10 +3021,10 @@ nEvolution.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/Face
 tAnalyser/FacetStrainEvolution.pdf  used on input line 355.
 (pdftex.def)             Requested size: 441.01772pt x 551.27023pt.
- [95 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/FacetAnalyser/FacetStra
-inEvolution.pdf>]
+ [107] [108 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/FacetAnalyser/Fa
+cetStrainEvolution.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675_strain_and_fac
-ets1.png, id=9118, 722.7pt x 722.7pt>
+ets1.png, id=9201, 722.7pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675_strain_an
 d_facets1.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675_strain_and
@@ -2916,7 +3033,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1675_strain_and_facets1.png  used on input line 387.
 (pdftex.def)             Requested size: 141.12889pt x 141.12993pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675_strain_and_fac
-ets2.png, id=9119, 722.7pt x 722.7pt>
+ets2.png, id=9202, 722.7pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675_strain_an
 d_facets2.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675_strain_and
@@ -2925,7 +3042,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1675_strain_and_facets2.png  used on input line 388.
 (pdftex.def)             Requested size: 141.12889pt x 141.12993pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675_strain_and_fac
-ets3.png, id=9120, 722.7pt x 722.7pt>
+ets3.png, id=9203, 722.7pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675_strain_an
 d_facets3.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675_strain_and
@@ -2933,13 +3050,11 @@ _facets3.png>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/para
 view/1675_strain_and_facets3.png  used on input line 389.
 (pdftex.def)             Requested size: 141.12889pt x 141.12993pt.
- [96 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675_strain_an
-d_facets1.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/pa
-raview/1675_strain_and_facets2.png (PNG copy)> </home/david/Documents/PhD/PhDSc
-ripts/SixS_2021_01/paraview/1675_strain_and_facets3.png (PNG copy)>]) (./Sectio
-ns/3_Results_Nanoparticles/BCDIOxidationAmmonia.tex
-</home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
-_good_files/B7/RT/RT_100_B7.png, id=9133, 722.7pt x 602.25pt>
+ [109 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/paraview/1675_strain_a
+nd_facets1.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_01/p
+araview/1675_strain_and_facets2.png (PNG copy)> </home/david/Documents/PhD/PhDS
+cripts/SixS_2021_01/paraview/1675_strain_and_facets3.png (PNG copy)>])
+(./Sections/3_Results_Nanoparticles/BCDIOxidationAmmonia.tex
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
 s/vti_good_files/B7/RT/RT_100_B7.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
@@ -2948,8 +3063,6 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/reconstructions/vti_good_files/B7/RT/RT_100_B7.png  used on input line 11.
 
 (pdftex.def)             Requested size: 141.12889pt x 117.60828pt.
-</home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
-_good_files/B7/RT/RT_010_B7.png, id=9134, 722.7pt x 602.25pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
 s/vti_good_files/B7/RT/RT_010_B7.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
@@ -2958,8 +3071,6 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/reconstructions/vti_good_files/B7/RT/RT_010_B7.png  used on input line 12.
 
 (pdftex.def)             Requested size: 141.12889pt x 117.60828pt.
-</home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
-_good_files/B7/RT/RT_001_B7.png, id=9135, 722.7pt x 602.25pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
 s/vti_good_files/B7/RT/RT_001_B7.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
@@ -2968,10 +3079,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/reconstructions/vti_good_files/B7/RT/RT_001_B7.png  used on input line 13.
 
 (pdftex.def)             Requested size: 141.12889pt x 117.60828pt.
-
-[97]
-</home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
-_good_files/D6/300/300_ammonia_100.png, id=9146, 722.7pt x 602.25pt>
+ [110]
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
 s/vti_good_files/D6/300/300_ammonia_100.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
@@ -2980,8 +3088,6 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/reconstructions/vti_good_files/D6/300/300_ammonia_100.png  used on input l
 ine 35.
 (pdftex.def)             Requested size: 141.12889pt x 117.60828pt.
-</home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
-_good_files/D6/300/300_ammonia_010.png, id=9147, 722.7pt x 602.25pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
 s/vti_good_files/D6/300/300_ammonia_010.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
@@ -2990,8 +3096,6 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/reconstructions/vti_good_files/D6/300/300_ammonia_010.png  used on input l
 ine 36.
 (pdftex.def)             Requested size: 141.12889pt x 117.60828pt.
-</home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti
-_good_files/D6/300/300_ammonia_001.png, id=9148, 722.7pt x 602.25pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
 s/vti_good_files/D6/300/300_ammonia_001.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions
@@ -3000,18 +3104,9 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/reconstructions/vti_good_files/D6/300/300_ammonia_001.png  used on input l
 ine 37.
 (pdftex.def)             Requested size: 141.12889pt x 117.60828pt.
- [98 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstruction
-s/vti_good_files/B7/RT/RT_100_B7.png (PNG copy)> </home/david/Documents/PhD/PhD
-Scripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/B7/RT/RT_010_B7.pn
-g (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/recon
-structions/vti_good_files/B7/RT/RT_001_B7.png (PNG copy)> </home/david/Document
-s/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/30
-0_ammonia_100.png (PNG copy)> </home/david/Documents/PhD/PhDScripts/SixS_2021_0
-6_BCDI_NH3/reconstructions/vti_good_files/D6/300/300_ammonia_010.png (PNG copy)
-> </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/v
-ti_good_files/D6/300/300_ammonia_001.png (PNG copy)>]
+ [111]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/hist_B7
-.pdf, id=9165, 722.7pt x 289.08pt>
+.pdf, id=9240, 722.7pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/hi
 st_B7.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/his
@@ -3019,10 +3114,8 @@ t_B7.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/B-7/hist_B7.pdf  used on input line 91.
 (pdftex.def)             Requested size: 441.01772pt x 176.4091pt.
- [99 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/hi
-st_B7.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7_orth
-ogonalized_3804_edited.pdf, id=9218, 1084.05pt x 361.35pt>
+ogonalized_3804_edited.pdf, id=9244, 1084.05pt x 361.35pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7
 _orthogonalized_3804_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7_
@@ -3031,7 +3124,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/B-7/B7_orthogonalized_3804_edited.pdf  used on input line 113.
 (pdftex.def)             Requested size: 441.01772pt x 147.0076pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7_orth
-ogonalized_3863_edited.pdf, id=9219, 1084.05pt x 361.35pt>
+ogonalized_3863_edited.pdf, id=9245, 1084.05pt x 361.35pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7
 _orthogonalized_3863_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7_
@@ -3040,7 +3133,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/B-7/B7_orthogonalized_3863_edited.pdf  used on input line 114.
 (pdftex.def)             Requested size: 441.01772pt x 147.0076pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7_orth
-ogonalized_4098_edited.pdf, id=9220, 1084.05pt x 361.35pt>
+ogonalized_4098_edited.pdf, id=9246, 1084.05pt x 361.35pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7
 _orthogonalized_4098_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7_
@@ -3048,13 +3141,15 @@ orthogonalized_4098_edited.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/B-7/B7_orthogonalized_4098_edited.pdf  used on input line 115.
 (pdftex.def)             Requested size: 441.01772pt x 147.0076pt.
- [100 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B
-7_orthogonalized_3804_edited.pdf> </home/david/Documents/PhD/PhDScripts/SixS_20
-21_06_BCDI_NH3/figures/B-7/B7_orthogonalized_3863_edited.pdf> </home/david/Docu
-ments/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7_orthogonalized_4098_e
-dited.pdf>]
+
+[112 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/hi
+st_B7.pdf>] [113 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/fi
+gures/B-7/B7_orthogonalized_3804_edited.pdf> </home/david/Documents/PhD/PhDScri
+pts/SixS_2021_06_BCDI_NH3/figures/B-7/B7_orthogonalized_3863_edited.pdf> </home
+/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/B7_orthogonal
+ized_4098_edited.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/fwhm_B7
-_two_peaks.pdf, id=9337, 1084.05pt x 867.24pt>
+_two_peaks.pdf, id=9412, 1084.05pt x 867.24pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/fw
 hm_B7_two_peaks.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/fwh
@@ -3062,10 +3157,10 @@ m_B7_two_peaks.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/B-7/fwhm_B7_two_peaks.pdf  used on input line 143.
 (pdftex.def)             Requested size: 441.01772pt x 352.81824pt.
-[101 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/fw
-hm_B7_two_peaks.pdf>]
+ [114 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/f
+whm_B7_two_peaks.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/lattice
-_parameter_B7.pdf, id=9393, 578.16pt x 433.62pt>
+_parameter_B7.pdf, id=9468, 578.16pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/la
 ttice_parameter_B7.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/lat
@@ -3073,10 +3168,10 @@ tice_parameter_B7.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/B-7/lattice_parameter_B7.pdf  used on input line 173.
 (pdftex.def)             Requested size: 264.61331pt x 198.45529pt.
- [102 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/l
+ [115 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/l
 attice_parameter_B7.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/strain_
-energy_B7.pdf, id=9466, 836.511pt x 355.65945pt>
+energy_B7.pdf, id=9545, 836.511pt x 355.65945pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/st
 rain_energy_B7.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/str
@@ -3084,10 +3179,8 @@ ain_energy_B7.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/B-7/strain_energy_B7.pdf  used on input line 208.
 (pdftex.def)             Requested size: 441.01772pt x 187.50548pt.
- [103 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/s
-train_energy_B7.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/D6_orth
-ogonalized_3517_edited.pdf, id=9601, 1084.05pt x 361.35pt>
+ogonalized_3517_edited.pdf, id=9555, 1084.05pt x 361.35pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/D6
 _orthogonalized_3517_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/D6_
@@ -3096,7 +3189,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/D-6/D6_orthogonalized_3517_edited.pdf  used on input line 237.
 (pdftex.def)             Requested size: 441.01772pt x 147.0076pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/D6_orth
-ogonalized_3572_edited.pdf, id=9602, 1084.05pt x 361.35pt>
+ogonalized_3572_edited.pdf, id=9556, 1084.05pt x 361.35pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/D6
 _orthogonalized_3572_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/D6_
@@ -3105,7 +3198,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/D-6/D6_orthogonalized_3572_edited.pdf  used on input line 238.
 (pdftex.def)             Requested size: 441.01772pt x 147.0076pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/D6_orth
-ogonalized_3823_edited.pdf, id=9603, 1084.05pt x 361.35pt>
+ogonalized_3823_edited.pdf, id=9557, 1084.05pt x 361.35pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/D6
 _orthogonalized_3823_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/D6_
@@ -3113,8 +3206,14 @@ orthogonalized_3823_edited.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/D-6/D6_orthogonalized_3823_edited.pdf  used on input line 239.
 (pdftex.def)             Requested size: 441.01772pt x 147.0076pt.
+ [116 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/s
+train_energy_B7.pdf>] [117 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_B
+CDI_NH3/figures/D-6/D6_orthogonalized_3517_edited.pdf> </home/david/Documents/P
+hD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/D6_orthogonalized_3572_edited.p
+df> </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/D6_
+orthogonalized_3823_edited.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/fwhm_D6
-.pdf, id=9608, 1084.05pt x 867.24pt>
+.pdf, id=9792, 1084.05pt x 867.24pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/fw
 hm_D6.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/fwh
@@ -3122,9 +3221,10 @@ m_D6.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/D-6/fwhm_D6.pdf  used on input line 260.
 (pdftex.def)             Requested size: 441.01772pt x 352.81824pt.
- [104]
+ [118 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/f
+whm_D6.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/lattice
-_parameter_D6.pdf, id=9620, 578.16pt x 433.62pt>
+_parameter_D6.pdf, id=9848, 578.16pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/la
 ttice_parameter_D6.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/lat
@@ -3132,14 +3232,8 @@ tice_parameter_D6.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/D-6/lattice_parameter_D6.pdf  used on input line 284.
 (pdftex.def)             Requested size: 264.61331pt x 198.45529pt.
-
-[105 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/D6
-_orthogonalized_3517_edited.pdf> </home/david/Documents/PhD/PhDScripts/SixS_202
-1_06_BCDI_NH3/figures/D-6/D6_orthogonalized_3572_edited.pdf> </home/david/Docum
-ents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/D6_orthogonalized_3823_ed
-ited.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/strain_
-energy_D6.pdf, id=9731, 836.511pt x 355.65945pt>
+energy_D6.pdf, id=9851, 836.511pt x 355.65945pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/st
 rain_energy_D6.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/str
@@ -3147,10 +3241,10 @@ ain_energy_D6.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/D-6/strain_energy_D6.pdf  used on input line 303.
 (pdftex.def)             Requested size: 441.01772pt x 187.50548pt.
- [106 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/f
-whm_D6.pdf>]
+ [119 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/l
+attice_parameter_D6.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysis/figure
-s/product_comparison_no_norm.pdf, id=9792, 1095.72644pt x 353.61333pt>
+s/product_comparison_no_norm.pdf, id=9921, 1095.72644pt x 353.61333pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysis/f
 igures/product_comparison_no_norm.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysis/fi
@@ -3159,17 +3253,16 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/gas_analysis/figures/product_comparison_no_norm.pdf  used on input line 33
 0.
 (pdftex.def)             Requested size: 441.01772pt x 142.32231pt.
-) (./Sections/3_Results_Nanoparticles/Conclusion.tex
-[107 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/la
-ttice_parameter_D6.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
-_NH3/figures/D-6/strain_energy_D6.pdf>] [108 </home/david/Documents/PhD/PhDScri
-pts/SixS_2021_06_BCDI_NH3/gas_analysis/figures/product_comparison_no_norm.pdf>]
-[109] [110] [111] [112]) [113]
+)
+(./Sections/3_Results_Nanoparticles/Conclusion.tex [120 </home/david/Documents/
+PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/D-6/strain_energy_D6.pdf> </home/d
+avid/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysis/figures/produc
+t_comparison_no_norm.pdf>] [121] [122] [123] [124] [125]) [126]
 Chapter 4.
-(./Sections/4_Results_SingleCrystals/Introduction.tex [114
+(./Sections/4_Results_SingleCrystals/Introduction.tex [127
 
-] [115]
-</home/david/Documents/PhD/Figures/Sample/SampleAndSetups.pdf, id=10114, 594.66
+] [128]
+</home/david/Documents/PhD/Figures/Sample/SampleAndSetups.pdf, id=10188, 594.66
 257pt x 170.71654pt>
 File: /home/david/Documents/PhD/Figures/Sample/SampleAndSetups.pdf Graphic file
  (type pdf)
@@ -3177,11 +3270,11 @@ File: /home/david/Documents/PhD/Figures/Sample/SampleAndSetups.pdf Graphic file
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Sample/SampleAndSetu
 ps.pdf  used on input line 132.
 (pdftex.def)             Requested size: 441.01772pt x 126.60698pt.
- [116])
+ [129])
 (./Sections/4_Results_SingleCrystals/111.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 1.
-</home/david/Documents/PhD/Figures/Introduction/111.pdf, id=10128, 433.62pt x 4
+</home/david/Documents/PhD/Figures/Introduction/111.pdf, id=10202, 433.62pt x 4
 33.62pt>
 File: /home/david/Documents/PhD/Figures/Introduction/111.pdf Graphic file (type
  pdf)
@@ -3190,7 +3283,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/111.pdf
   used on input line 12.
 (pdftex.def)             Requested size: 308.71104pt x 227.69548pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q_edi
-ted.pdf, id=10134, page=2, 578.16pt x 578.16pt>
+ted.pdf, id=10208, page=2, 578.16pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_
 q_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q
@@ -3199,7 +3292,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/map_q_edited.pdf , page2 used on input line 31.
 (pdftex.def)             Requested size: 218.3016pt x 218.30038pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q_edi
-ted.pdf, id=10135, page=3, 578.16pt x 578.16pt>
+ted.pdf, id=10209, page=3, 578.16pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_
 q_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q
@@ -3208,7 +3301,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/map_q_edited.pdf , page3 used on input line 32.
 (pdftex.def)             Requested size: 218.3016pt x 218.30038pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q_edi
-ted.pdf, id=10136, page=4, 578.16pt x 578.16pt>
+ted.pdf, id=10210, page=4, 578.16pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_
 q_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q
@@ -3217,7 +3310,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/map_q_edited.pdf , page4 used on input line 33.
 (pdftex.def)             Requested size: 218.3016pt x 218.30038pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q_edi
-ted.pdf, id=10137, page=5, 578.16pt x 578.16pt>
+ted.pdf, id=10211, page=5, 578.16pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_
 q_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q
@@ -3225,15 +3318,15 @@ _edited.pdf, page 5>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/map_q_edited.pdf , page5 used on input line 34.
 (pdftex.def)             Requested size: 218.3016pt x 218.30038pt.
- [117 </home/david/Documents/PhD/Figures/Sample/SampleAndSetups.pdf>] [118 </ho
-me/david/Documents/PhD/Figures/Introduction/111.pdf>] [119 </home/david/Documen
+ [130 </home/david/Documents/PhD/Figures/Sample/SampleAndSetups.pdf>] [131 </ho
+me/david/Documents/PhD/Figures/Introduction/111.pdf>] [132 </home/david/Documen
 ts/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q_edited.pdf> </home/davi
 d/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q_edited.pdf> </
 home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q_edite
 d.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ma
 p_q_edited.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/l_scans_h
-igh_oxygen.pdf, id=10561, 650.43pt x 505.89pt>
+igh_oxygen.pdf, id=10636, 650.43pt x 505.89pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/l_sc
 ans_high_oxygen.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/l_sca
@@ -3241,9 +3334,9 @@ ns_high_oxygen.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/l_scans_high_oxygen.pdf  used on input line 93.
 (pdftex.def)             Requested size: 441.01772pt x 343.0203pt.
- [120 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/l_s
+ [133 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/l_s
 cans_high_oxygen.pdf>]
-</home/david/Documents/PhD/Figures/Introduction/AlphaPtO2.pdf, id=10647, 505.89
+</home/david/Documents/PhD/Figures/Introduction/AlphaPtO2.pdf, id=10721, 505.89
 pt x 426.79132pt>
 File: /home/david/Documents/PhD/Figures/Introduction/AlphaPtO2.pdf Graphic file
  (type pdf)
@@ -3251,9 +3344,9 @@ File: /home/david/Documents/PhD/Figures/Introduction/AlphaPtO2.pdf Graphic file
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/AlphaPt
 O2.pdf  used on input line 146.
 (pdftex.def)             Requested size: 220.50885pt x 186.03044pt.
- [121 </home/david/Documents/PhD/Figures/Introduction/AlphaPtO2.pdf>]
+ [134 </home/david/Documents/PhD/Figures/Introduction/AlphaPtO2.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_recon
-structions_fitting_result.pdf, id=10721, 722.7pt x 289.08pt>
+structions_fitting_result.pdf, id=10794, 722.7pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_
 reconstructions_fitting_result.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_r
@@ -3262,7 +3355,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/ctr_reconstructions_fitting_result.pdf  used on input line 168.
 (pdftex.def)             Requested size: 441.01772pt x 176.4091pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/reflecto_
-80.pdf, id=10728, 650.43pt x 289.08pt>
+80.pdf, id=10801, 650.43pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/refl
 ecto_80.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/refle
@@ -3271,10 +3364,10 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/reflecto_80.pdf  used on input line 188.
 (pdftex.def)             Requested size: 441.01772pt x 196.0116pt.
 
-[122 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_
+[135 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_
 reconstructions_fitting_result.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q_edi
-ted.pdf, id=10816, page=6, 578.16pt x 578.16pt>
+ted.pdf, id=10890, page=6, 578.16pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_
 q_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q
@@ -3283,7 +3376,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/map_q_edited.pdf , page6 used on input line 229.
 (pdftex.def)             Requested size: 218.3016pt x 218.30038pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q_edi
-ted.pdf, id=10817, page=7, 578.16pt x 578.16pt>
+ted.pdf, id=10891, page=7, 578.16pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_
 q_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q
@@ -3292,7 +3385,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/map_q_edited.pdf , page7 used on input line 230.
 (pdftex.def)             Requested size: 218.3016pt x 218.30038pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q_edi
-ted.pdf, id=10818, page=8, 578.16pt x 578.16pt>
+ted.pdf, id=10892, page=8, 578.16pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_
 q_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q
@@ -3301,7 +3394,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/map_q_edited.pdf , page8 used on input line 231.
 (pdftex.def)             Requested size: 218.3016pt x 218.30038pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q_edi
-ted.pdf, id=10819, page=9, 578.16pt x 578.16pt>
+ted.pdf, id=10893, page=9, 578.16pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_
 q_edited.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map_q
@@ -3309,10 +3402,10 @@ _edited.pdf, page 9>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/map_q_edited.pdf , page9 used on input line 232.
 (pdftex.def)             Requested size: 218.3016pt x 218.30038pt.
- [123 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ref
+ [136 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ref
 lecto_80.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/reflecto_
-cycle.pdf, id=10879, 794.97pt x 289.08pt>
+cycle.pdf, id=10953, 794.97pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/refl
 ecto_cycle.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/refle
@@ -3320,13 +3413,13 @@ cto_cycle.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/reflecto_cycle.pdf  used on input line 248.
 (pdftex.def)             Requested size: 441.01772pt x 160.37512pt.
- [124 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map
+ [137 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/map
 _q_edited.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/fi
 gures/map_q_edited.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/map_q_edited.pdf> </home/david/Documents/PhD/PhDScripts/SixS_202
 3_04_SXRD_Pt111/figures/map_q_edited.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/large_map
-_q_edited_5mbar.pdf, id=11240, 597.50786pt x 839.3563pt>
+_q_edited_5mbar.pdf, id=11314, 597.50786pt x 839.3563pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/larg
 e_map_q_edited_5mbar.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/large
@@ -3334,11 +3427,11 @@ _map_q_edited_5mbar.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/large_map_q_edited_5mbar.pdf  used on input line 275.
 (pdftex.def)             Requested size: 396.91324pt x 557.56297pt.
- [125 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ref
-lecto_cycle.pdf>] [126 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_
+ [138 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ref
+lecto_cycle.pdf>] [139 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_
 Pt111/figures/large_map_q_edited_5mbar.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/small_map
-_q_edited_5mbar.pdf, id=11372, 753.99802pt x 693.39368pt>
+_q_edited_5mbar.pdf, id=11445, 753.99802pt x 693.39368pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/smal
 l_map_q_edited_5mbar.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/small
@@ -3346,10 +3439,10 @@ _map_q_edited_5mbar.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/small_map_q_edited_5mbar.pdf  used on input line 311.
 (pdftex.def)             Requested size: 441.01772pt x 405.57547pt.
- [127 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/sma
+ [140 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/sma
 ll_map_q_edited_5mbar.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/intensity
-_comparison_hex_reconstructions.pdf, id=11431, 867.24pt x 289.08pt>
+_comparison_hex_reconstructions.pdf, id=11505, 867.24pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/inte
 nsity_comparison_hex_reconstructions.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/inten
@@ -3358,10 +3451,10 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/intensity_comparison_hex_reconstructions.pdf  used on input line
  329.
 (pdftex.def)             Requested size: 441.01772pt x 147.00539pt.
- [128 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/int
+ [141 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/int
 ensity_comparison_hex_reconstructions.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/reflecto_
-05.pdf, id=11502, 650.43pt x 289.08pt>
+05.pdf, id=11576, 650.43pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/refl
 ecto_05.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/refle
@@ -3370,7 +3463,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/reflecto_05.pdf  used on input line 363.
 (pdftex.def)             Requested size: 441.01772pt x 196.0116pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_a.pdf
-, id=11503, 578.16pt x 289.08pt>
+, id=11577, 578.16pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_
 a.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_a
@@ -3379,7 +3472,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/ctr_a.pdf  used on input line 378.
 (pdftex.def)             Requested size: 441.01772pt x 220.50587pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_b.pdf
-, id=11504, 578.16pt x 289.08pt>
+, id=11578, 578.16pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_
 b.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_b
@@ -3387,7 +3480,7 @@ b.pdf Graphic file (type pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/ctr_b.pdf  used on input line 379.
 (pdftex.def)             Requested size: 441.01772pt x 220.50587pt.
-</home/david/Documents/PhD/Figures/Introduction/Pt111HexA.pdf, id=11507, 505.89
+</home/david/Documents/PhD/Figures/Introduction/Pt111HexA.pdf, id=11581, 505.89
 pt x 505.89pt>
 File: /home/david/Documents/PhD/Figures/Introduction/Pt111HexA.pdf Graphic file
  (type pdf)
@@ -3395,7 +3488,7 @@ File: /home/david/Documents/PhD/Figures/Introduction/Pt111HexA.pdf Graphic file
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/Pt111He
 xA.pdf  used on input line 395.
 (pdftex.def)             Requested size: 198.45662pt x 92.42207pt.
-</home/david/Documents/PhD/Figures/Introduction/Pt111HexB.pdf, id=11509, 505.89
+</home/david/Documents/PhD/Figures/Introduction/Pt111HexB.pdf, id=11583, 505.89
 pt x 505.89pt>
 File: /home/david/Documents/PhD/Figures/Introduction/Pt111HexB.pdf Graphic file
  (type pdf)
@@ -3404,7 +3497,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/Pt111He
 xB.pdf  used on input line 396.
 (pdftex.def)             Requested size: 198.45662pt x 92.42207pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/fit_compa
-rison_1_last_layer_free.pdf, id=11512, 650.43pt x 289.08pt>
+rison_1_last_layer_free.pdf, id=11586, 650.43pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/fit_
 comparison_1_last_layer_free.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/fit_c
@@ -3412,15 +3505,15 @@ omparison_1_last_layer_free.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/fit_comparison_1_last_layer_free.pdf  used on input line 421.
 (pdftex.def)             Requested size: 441.01772pt x 196.0116pt.
- [129 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ref
-lecto_05.pdf>] [130 </home/david/Documents/PhD/Figures/Introduction/Pt111HexA.p
+ [142 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ref
+lecto_05.pdf>] [143 </home/david/Documents/PhD/Figures/Introduction/Pt111HexA.p
 df> </home/david/Documents/PhD/Figures/Introduction/Pt111HexB.pdf> </home/david
 /Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_a.pdf> </home/dav
-id/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_b.pdf>] [131 </
+id/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/ctr_b.pdf>] [144 </
 home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/fit_compari
 son_1_last_layer_free.pdf>]
 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/pt111_time.pdf, i
-d=11792, 722.7pt x 289.08pt>
+d=11867, 722.7pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/pt111_time.p
 df Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/pt111_time.pd
@@ -3429,10 +3522,10 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/F
 igures/pt111_time.pdf  used on input line 471.
 (pdftex.def)             Requested size: 441.01772pt x 176.4091pt.
 
-[132 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/pt111_time.p
+[145 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/pt111_time.p
 df>]
 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt111/O1sN1s_700.
-pdf, id=11857, 650.43pt x 361.35pt>
+pdf, id=11931, 650.43pt x 361.35pt>
 File: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt111/O1sN1s
 _700.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt111/O1sN1s_
@@ -3440,10 +3533,10 @@ _700.pdf Graphic file (type pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/F
 igures/Pt111/O1sN1s_700.pdf  used on input line 531.
 (pdftex.def)             Requested size: 441.01772pt x 245.0145pt.
- [133] [134 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt111
-/O1sN1s_700.pdf>] [135]
+ [146] [147 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt111
+/O1sN1s_700.pdf>] [148]
 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt111/Pt4f_550_no
-_fit_merged.pdf, id=11972, 650.43pt x 505.89pt>
+_fit_merged.pdf, id=12045, 650.43pt x 505.89pt>
 File: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt111/Pt4f_5
 50_no_fit_merged.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt111/Pt4f_55
@@ -3451,10 +3544,10 @@ File: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt111/Pt4f_5
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/F
 igures/Pt111/Pt4f_550_no_fit_merged.pdf  used on input line 636.
 (pdftex.def)             Requested size: 441.01772pt x 343.0203pt.
- [136 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt111/Pt4f_
+ [149 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt111/Pt4f_
 550_no_fit_merged.pdf>])
 (./Sections/4_Results_SingleCrystals/100.tex
-</home/david/Documents/PhD/Figures/Introduction/100.pdf, id=12052, 433.62pt x 4
+</home/david/Documents/PhD/Figures/Introduction/100.pdf, id=12126, 433.62pt x 4
 33.62pt>
 File: /home/david/Documents/PhD/Figures/Introduction/100.pdf Graphic file (type
  pdf)
@@ -3463,7 +3556,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/100.pdf
   used on input line 11.
 (pdftex.def)             Requested size: 308.71104pt x 227.69548pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_s
-urf_or_1335-1375.pdf, id=12057, 578.16pt x 433.62pt>
+urf_or_1335-1375.pdf, id=12131, 578.16pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
 hkl_surf_or_1335-1375.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_h
@@ -3472,7 +3565,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/Map_hkl_surf_or_1335-1375.pdf  used on input line 28.
 (pdftex.def)             Requested size: 218.3016pt x 163.72528pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_s
-urf_or_1596-1635_patched.pdf, id=12058, 578.16pt x 433.62pt>
+urf_or_1596-1635_patched.pdf, id=12132, 578.16pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
 hkl_surf_or_1596-1635_patched.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_h
@@ -3480,9 +3573,9 @@ kl_surf_or_1596-1635_patched.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/Map_hkl_surf_or_1596-1635_patched.pdf  used on input line 29.
 (pdftex.def)             Requested size: 218.3016pt x 163.72528pt.
- [137]
+ [150]
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_scans_h
-igh_oxygen_no_map.pdf, id=12070, 578.16pt x 289.08pt>
+igh_oxygen_no_map.pdf, id=12145, 578.16pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_sc
 ans_high_oxygen_no_map.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_sca
@@ -3490,12 +3583,12 @@ ns_high_oxygen_no_map.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/l_scans_high_oxygen_no_map.pdf  used on input line 53.
 (pdftex.def)             Requested size: 441.01772pt x 220.50587pt.
- [138 </home/david/Documents/PhD/Figures/Introduction/100.pdf> </home/david/Doc
+ [151 </home/david/Documents/PhD/Figures/Introduction/100.pdf> </home/david/Doc
 uments/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1335-1375
 .pdf> </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map
 _hkl_surf_or_1596-1635_patched.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr_recon
-structions_fitting_result.pdf, id=12171, 576.13988pt x 569.14046pt>
+structions_fitting_result.pdf, id=12244, 576.13988pt x 569.14046pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr_
 reconstructions_fitting_result.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr_r
@@ -3509,10 +3602,10 @@ pe pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/Pt3O4.p
 df  used on input line 87.
 (pdftex.def)             Requested size: 154.35889pt x 136.9983pt.
- [139 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_s
+ [152 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_s
 cans_high_oxygen_no_map.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_s
-urf_or_1880-1902_patched.pdf, id=12232, 578.16pt x 433.62pt>
+urf_or_1880-1902_patched.pdf, id=12306, 578.16pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
 hkl_surf_or_1880-1902_patched.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_h
@@ -3521,7 +3614,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/Map_hkl_surf_or_1880-1902_patched.pdf  used on input line 108.
 (pdftex.def)             Requested size: 218.3016pt x 163.72528pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_s
-urf_or_1930-1936_patched.pdf, id=12233, 578.16pt x 433.62pt>
+urf_or_1930-1936_patched.pdf, id=12307, 578.16pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
 hkl_surf_or_1930-1936_patched.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_h
@@ -3529,10 +3622,10 @@ kl_surf_or_1930-1936_patched.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/Map_hkl_surf_or_1930-1936_patched.pdf  used on input line 109.
 (pdftex.def)             Requested size: 218.3016pt x 163.72528pt.
- [140 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr
+ [153 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr
 _reconstructions_fitting_result.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_s
-urf_or_1953-1981_patched.pdf, id=12264, 578.16pt x 433.62pt>
+urf_or_1953-1981_patched.pdf, id=12338, 578.16pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
 hkl_surf_or_1953-1981_patched.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_h
@@ -3541,7 +3634,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/Map_hkl_surf_or_1953-1981_patched.pdf  used on input line 131.
 (pdftex.def)             Requested size: 233.73885pt x 175.30415pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_scans_h
-igh_oxygen_ammonia_no_map.pdf, id=12265, 505.89pt x 433.62pt>
+igh_oxygen_ammonia_no_map.pdf, id=12339, 505.89pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_sc
 ans_high_oxygen_ammonia_no_map.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_sca
@@ -3550,11 +3643,11 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/l_scans_high_oxygen_ammonia_no_map.pdf  used on input line 132.
 (pdftex.def)             Requested size: 202.87111pt x 173.88823pt.
 
-[141 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
+[154 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
 hkl_surf_or_1880-1902_patched.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2
 022_01_SXRD_Pt100/figures/Map_hkl_surf_or_1930-1936_patched.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_s
-urf_or_2227-2283_patched.pdf, id=12352, 578.16pt x 433.62pt>
+urf_or_2227-2283_patched.pdf, id=12426, 578.16pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
 hkl_surf_or_2227-2283_patched.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_h
@@ -3563,7 +3656,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/Map_hkl_surf_or_2227-2283_patched.pdf  used on input line 164.
 (pdftex.def)             Requested size: 233.73885pt x 175.30415pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_scans_l
-ow_oxygen_ammonia.pdf, id=12353, 505.89pt x 433.62pt>
+ow_oxygen_ammonia.pdf, id=12427, 505.89pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_sc
 ans_low_oxygen_ammonia.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/l_sca
@@ -3571,14 +3664,14 @@ ns_low_oxygen_ammonia.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/l_scans_low_oxygen_ammonia.pdf  used on input line 165.
 (pdftex.def)             Requested size: 202.87111pt x 173.88823pt.
- [142 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map
+ [155 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map
 _hkl_surf_or_1953-1981_patched.pdf> </home/david/Documents/PhD/PhDScripts/SixS_
 2022_01_SXRD_Pt100/figures/l_scans_high_oxygen_ammonia_no_map.pdf> </home/david
 /Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2227-
 2283_patched.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100
 /figures/l_scans_low_oxygen_ammonia.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_s
-urf_or_2520-2570_patched.pdf, id=12529, 578.16pt x 433.62pt>
+urf_or_2520-2570_patched.pdf, id=12615, 578.16pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
 hkl_surf_or_2520-2570_patched.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_h
@@ -3587,7 +3680,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/Map_hkl_surf_or_2520-2570_patched.pdf  used on input line 204.
 (pdftex.def)             Requested size: 218.3016pt x 163.72528pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_s
-urf_or_2719-2767.pdf, id=12530, 578.16pt x 433.62pt>
+urf_or_2719-2767.pdf, id=12616, 578.16pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
 hkl_surf_or_2719-2767.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_h
@@ -3596,7 +3689,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/Map_hkl_surf_or_2719-2767.pdf  used on input line 205.
 (pdftex.def)             Requested size: 218.3016pt x 163.72528pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_s
-urf_or_2905-2953_patched.pdf, id=12533, 578.16pt x 433.62pt>
+urf_or_2905-2953_patched.pdf, id=12619, 578.16pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
 hkl_surf_or_2905-2953_patched.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_h
@@ -3605,7 +3698,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/Map_hkl_surf_or_2905-2953_patched.pdf  used on input line 218.
 (pdftex.def)             Requested size: 218.3016pt x 163.72528pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_s
-urf_or_3154-3169.pdf, id=12534, 578.16pt x 433.62pt>
+urf_or_3154-3169.pdf, id=12620, 578.16pt x 433.62pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_
 hkl_surf_or_3154-3169.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_h
@@ -3613,9 +3706,9 @@ kl_surf_or_3154-3169.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/Map_hkl_surf_or_3154-3169.pdf  used on input line 219.
 (pdftex.def)             Requested size: 218.3016pt x 163.72528pt.
- [143]
+ [156]
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr_a.pdf
-, id=12563, 578.16pt x 289.08pt>
+, id=12650, 578.16pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr_
 a.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr_a
@@ -3624,7 +3717,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/ctr_a.pdf  used on input line 239.
 (pdftex.def)             Requested size: 441.01772pt x 220.50587pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr_b.pdf
-, id=12564, 578.16pt x 289.08pt>
+, id=12651, 578.16pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr_
 b.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr_b
@@ -3632,14 +3725,14 @@ b.pdf Graphic file (type pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/ctr_b.pdf  used on input line 240.
 (pdftex.def)             Requested size: 441.01772pt x 220.50587pt.
- [144 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map
+ [157 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map
 _hkl_surf_or_2520-2570_patched.pdf> </home/david/Documents/PhD/PhDScripts/SixS_
 2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2719-2767.pdf> </home/david/Document
 s/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/Map_hkl_surf_or_2905-2953_patc
 hed.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/
 Map_hkl_surf_or_3154-3169.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/fit_8o2.p
-df, id=12726, 722.7pt x 578.16pt>
+df, id=12811, 722.7pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/fit_
 8o2.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/fit_8
@@ -3647,12 +3740,12 @@ o2.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/fit_8o2.pdf  used on input line 264.
 (pdftex.def)             Requested size: 441.01772pt x 352.81824pt.
- [145 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr
+ [158 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/ctr
 _a.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/c
 tr_b.pdf>]
-[146 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/fit_
+[159 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/fit_
 8o2.pdf>]
-</home/david/Documents/PhD/Figures/Introduction/Pt3O4onPt100.pdf, id=12903, 483
+</home/david/Documents/PhD/Figures/Introduction/Pt3O4onPt100.pdf, id=12989, 483
 .69685pt x 227.62204pt>
 File: /home/david/Documents/PhD/Figures/Introduction/Pt3O4onPt100.pdf Graphic f
 ile (type pdf)
@@ -3661,7 +3754,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/Pt3O4on
 Pt100.pdf  used on input line 305.
 (pdftex.def)             Requested size: 441.01772pt x 207.53926pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/fit_compa
-rison.pdf, id=12905, 578.16pt x 289.08pt>
+rison.pdf, id=12991, 578.16pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/fit_
 comparison.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/fit_c
@@ -3669,11 +3762,11 @@ omparison.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/figures/fit_comparison.pdf  used on input line 317.
 (pdftex.def)             Requested size: 441.01772pt x 220.50587pt.
- [147 </home/david/Documents/PhD/Figures/Introduction/Pt3O4onPt100.pdf> </home/
+ [160 </home/david/Documents/PhD/Figures/Introduction/Pt3O4onPt100.pdf> </home/
 david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/figures/fit_comparison.p
 df>]
 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/pt100_time.pdf, i
-d=13000, 722.7pt x 289.08pt>
+d=13086, 722.7pt x 289.08pt>
 File: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/pt100_time.p
 df Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/pt100_time.pd
@@ -3681,9 +3774,9 @@ f>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/F
 igures/pt100_time.pdf  used on input line 369.
 (pdftex.def)             Requested size: 441.01772pt x 176.4091pt.
- [148]
+ [161]
 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt100/O1sN1s_700.
-pdf, id=13015, 650.43pt x 361.35pt>
+pdf, id=13101, 650.43pt x 361.35pt>
 File: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt100/O1sN1s
 _700.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt100/O1sN1s_
@@ -3691,11 +3784,11 @@ _700.pdf Graphic file (type pdf)
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/F
 igures/Pt100/O1sN1s_700.pdf  used on input line 402.
 (pdftex.def)             Requested size: 441.01772pt x 245.0145pt.
- [149 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/pt100_time.
-pdf>] [150 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt100/
-O1sN1s_700.pdf>] [151]
+ [162 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/pt100_time.
+pdf>] [163 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt100/
+O1sN1s_700.pdf>] [164]
 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt100/Pt4f_550_no
-_fit_merged.pdf, id=13160, 650.43pt x 505.89pt>
+_fit_merged.pdf, id=13246, 650.43pt x 505.89pt>
 File: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt100/Pt4f_5
 50_no_fit_merged.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt100/Pt4f_55
@@ -3703,112 +3796,112 @@ File: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt100/Pt4f_5
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/F
 igures/Pt100/Pt4f_550_no_fit_merged.pdf  used on input line 525.
 (pdftex.def)             Requested size: 441.01772pt x 343.0203pt.
- [152 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt100/Pt4f_
+ [165 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/Pt100/Pt4f_
 550_no_fit_merged.pdf>])
-(./Sections/4_Results_SingleCrystals/Conclusion.tex [153]
-Overfull \hbox (4.55238pt too wide) in paragraph at lines 43--46
+(./Sections/4_Results_SingleCrystals/Conclusion.tex [166]
+Overfull \hbox (4.55238pt too wide) in paragraph at lines 44--47
 []\T1/lmr/m/n/10.95 None of the afore-men-tioned struc-tures were meas-ured un-
 der re-act-ing con-di-tions on Pt(111),
  []
 
-[154]
+[167]
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/product_c
-omparison_single_crystals.pdf, id=13290, 1096.53525pt x 355.2033pt>
+omparison_single_crystals.pdf, id=13379, 1096.53525pt x 355.2033pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/prod
 uct_comparison_single_crystals.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/produ
 ct_comparison_single_crystals.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
-_Pt111/figures/product_comparison_single_crystals.pdf  used on input line 67.
+_Pt111/figures/product_comparison_single_crystals.pdf  used on input line 68.
 (pdftex.def)             Requested size: 441.01772pt x 142.85927pt.
 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/product_compariso
-n_single_crystals.pdf, id=13291, 1096.53525pt x 353.61333pt>
+n_single_crystals.pdf, id=13380, 1096.53525pt x 353.61333pt>
 File: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/product_comp
 arison_single_crystals.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/product_compa
 rison_single_crystals.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/F
-igures/product_comparison_single_crystals.pdf  used on input line 68.
+igures/product_comparison_single_crystals.pdf  used on input line 69.
 (pdftex.def)             Requested size: 441.01772pt x 142.2198pt.
- [155 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/pro
+ [168 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/pro
 duct_comparison_single_crystals.pdf> </home/david/Documents/PhD/PhDScripts/B07_
-2022_04_XPS/Figures/product_comparison_single_crystals.pdf>]) [156]
-[157]
+2022_04_XPS/Figures/product_comparison_single_crystals.pdf>] [169])
+[170]
 Chapter 5.
-(./Sections/5_Conclusion/Conclusion.tex [158
+(./Sections/5_Conclusion/Conclusion.tex [171
 
-] [159] [160]) [161] [162
+] [172] [173]) [174] [175
 
-] [163]
-[164] [165]
-Overfull \hbox (21.14717pt too wide) in paragraph at lines 265--265
+] [176]
+[177] [178]
+Overfull \hbox (21.14717pt too wide) in paragraph at lines 267--267
 \T1/lmr/m/n/10.95 heur-istischen Gesicht-spunkt'. In: \T1/lmr/m/it/10.95 An-nal
 en der Physik \T1/lmr/m/n/10.95 322.6. \T1/lmr/m/sc/10.95 doi\T1/lmr/m/n/10.95 
 : [][]$\T1/lmtt/m/n/10.95 10 . 1002 / andp . 19053220607$[][]\T1/lmr/m/n/10.95 
 . 
  []
 
-[166] [167] [168] [169]
-Overfull \hbox (18.41206pt too wide) in paragraph at lines 265--265
+[179] [180] [181] [182]
+Overfull \hbox (18.41206pt too wide) in paragraph at lines 267--267
 [][]\T1/lmr/m/it/10.95 High Tem-per-at-ure Mech-an-ical Prop-er-ties of the Pla
 t-inum Group Metals \T1/lmr/m/n/10.95 (2022). \T1/lmr/m/sc/10.95 url\T1/lmr/m/n
 /10.95 : [][]$\T1/lmtt/m/n/10.95 technology .
  []
 
-[170]
-Overfull \hbox (44.10025pt too wide) in paragraph at lines 265--265
+[183]
+Overfull \hbox (44.10025pt too wide) in paragraph at lines 267--267
 \T1/lmr/m/n/10.95 fract-ive ima-ging'. In: \T1/lmr/m/it/10.95 Journal of Ap-pli
 ed Crys-tal-lo-graphy \T1/lmr/m/n/10.95 51 (1). \T1/lmr/m/sc/10.95 doi\T1/lmr/m
 /n/10.95 : [][]$\T1/lmtt/m/n/10.95 10 . 1107 / S1600576718000274$[][]\T1/lmr/m/
 n/10.95 . 
  []
 
-[171] [172] [173]
-Overfull \hbox (0.95477pt too wide) in paragraph at lines 265--265
+[184] [185] [186]
+Overfull \hbox (0.95477pt too wide) in paragraph at lines 267--267
 [][]\T1/lmr/m/n/10.95 Ma, H. and W. F. Schneider (2019). `  Structure- and Temp
 erature-Dependence of Pt-Catalyzed
  []
 
-[174] [175] [176]
-Overfull \hbox (11.11606pt too wide) in paragraph at lines 265--265
+[187] [188] [189]
+Overfull \hbox (11.11606pt too wide) in paragraph at lines 267--267
 [][]\T1/lmr/m/n/10.95 Ostermaier, J., J. Katzer and W. Manogue (1974). `  Crys-
 tal-lite size ef-fects in the low-temperature
  []
 
-[177]
-Overfull \hbox (2.77617pt too wide) in paragraph at lines 265--265
+[190]
+Overfull \hbox (2.77617pt too wide) in paragraph at lines 267--267
 [][]\T1/lmr/m/n/10.95 Rafiqul, I. et al. (2005). `  En-ergy ef-fi-ciency im-pro
 ve-ments in am-mo-nia pro-duc-tion^^Vperspectives
  []
 
-[178]
-Overfull \hbox (2.14302pt too wide) in paragraph at lines 265--265
+[191]
+Overfull \hbox (2.14302pt too wide) in paragraph at lines 267--267
 [][]\T1/lmr/m/n/10.95 Roobol, S. et al. (2015). `  BIN-ocu-lars: Data re-duc-ti
 on and ana-lysis soft-ware for two-dimensional
  []
 
-[179]
-Overfull \hbox (10.80344pt too wide) in paragraph at lines 265--265
+[192]
+Overfull \hbox (10.80344pt too wide) in paragraph at lines 267--267
 \T1/lmr/m/n/10.95 mech-an-isms of het-ero-gen-eous cata-lysis'. In: \T1/lmr/m/i
 t/10.95 Cata-lysis Let-ters \T1/lmr/m/n/10.95 9.3. \T1/lmr/m/sc/10.95 doi\T1/lm
 r/m/n/10.95 : [][]$\T1/lmtt/m/n/10.95 10 . 1007 / BF00773188$[][]\T1/lmr/m/n/10
 .95 . 
  []
 
-[180] [181]
-Overfull \hbox (1.16502pt too wide) in paragraph at lines 265--265
+[193] [194]
+Overfull \hbox (1.16502pt too wide) in paragraph at lines 267--267
 [][]\T1/lmr/m/n/10.95 Vaxelaire, N. et al. (2010). `  3D strain ima-ging in sub
 -micrometer crys-tals us-ing cross-reciprocal
  []
 
-[182] [183] [184] [185
+[195] [196] [197] [198
 
 
 ]
 Appendix A.
 (./Sections/6_Appendix/Nanoparticles.tex
 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/200
-.pdf, id=14155, 650.43pt x 722.7pt>
+.pdf, id=14244, 650.43pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitax
 y/200.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy
@@ -3817,7 +3910,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
 _NH3/figures/epitaxy/200.pdf  used on input line 3.
 (pdftex.def)             Requested size: 352.8155pt x 392.0276pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/111
-.pdf, id=14156, 650.43pt x 722.7pt>
+.pdf, id=14245, 650.43pt x 722.7pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitax
 y/111.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy
@@ -3826,7 +3919,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
 _NH3/figures/epitaxy/111.pdf  used on input line 12.
 (pdftex.def)             Requested size: 352.8155pt x 392.0276pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/rga_300
-.pdf, id=14157, 1156.32pt x 650.43pt>
+.pdf, id=14246, 1156.32pt x 650.43pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/rg
 a_300.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/rga
@@ -3835,7 +3928,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
 _NH3/figures/rga/rga_300.pdf  used on input line 21.
 (pdftex.def)             Requested size: 441.01772pt x 248.06912pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/rga_500
-.pdf, id=14158, 1156.32pt x 650.43pt>
+.pdf, id=14247, 1156.32pt x 650.43pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/rg
 a_500.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/rga
@@ -3844,7 +3937,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
 _NH3/figures/rga/rga_500.pdf  used on input line 31.
 (pdftex.def)             Requested size: 441.01772pt x 248.06912pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/rga_600
-.pdf, id=14159, 1156.32pt x 650.43pt>
+.pdf, id=14248, 1156.32pt x 650.43pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/rg
 a_600.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/rga/rga
@@ -3852,68 +3945,78 @@ _600.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
 _NH3/figures/rga/rga_600.pdf  used on input line 41.
 (pdftex.def)             Requested size: 441.01772pt x 248.06912pt.
+</home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets/Face
+tsTogether.pdf, id=14249, page=2, 731.12202pt x 433.33546pt>
+File: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets
+/FacetsTogether.pdf Graphic file (type pdf)
+<use /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets/
+FacetsTogether.pdf, page 2>
+Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD
+_NH3/figures/facets/FacetsTogether.pdf , page2 used on input line 51.
+(pdftex.def)             Requested size: 441.01772pt x 261.39844pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_01/FacetAnalyser/FacetDispEvolu
-tion.pdf, id=14160, 867.24pt x 1084.05pt>
+tion.pdf, id=14250, 867.24pt x 1084.05pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/FacetAnalyser/FacetDisp
 Evolution.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_01/FacetAnalyser/FacetDispE
 volution.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_01/Face
-tAnalyser/FacetDispEvolution.pdf  used on input line 51.
+tAnalyser/FacetDispEvolution.pdf  used on input line 63.
 (pdftex.def)             Requested size: 441.01772pt x 551.27023pt.
 </home/david/Documents/PhD/Figures/Introduction/stereographic_projection_bottom
-.pdf, id=14161, 722.7pt x 722.7pt>
+.pdf, id=14251, 722.7pt x 722.7pt>
 File: /home/david/Documents/PhD/Figures/Introduction/stereographic_projection_b
 ottom.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/Figures/Introduction/stereographic_projection_bo
 ttom.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/Figures/Introduction/stereog
-raphic_projection_bottom.pdf  used on input line 61.
+raphic_projection_bottom.pdf  used on input line 73.
 (pdftex.def)             Requested size: 441.01772pt x 441.0228pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/Fit3D.p
-ng, id=14162, 1076.02pt x 353.32pt>
+ng, id=14252, 1076.02pt x 353.32pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/Fi
 t3D.png Graphic file (type png)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/Fit
 3D.png>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
-_NH3/figures/B-7/Fit3D.png  used on input line 71.
+_NH3/figures/B-7/Fit3D.png  used on input line 83.
 (pdftex.def)             Requested size: 441.01772pt x 144.81361pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysis/figure
-s/rga_300.pdf, id=14163, 1156.32pt x 650.43pt>
+s/rga_300.pdf, id=14253, 1156.32pt x 650.43pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysis/f
 igures/rga_300.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysis/fi
 gures/rga_300.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
-_NH3/gas_analysis/figures/rga_300.pdf  used on input line 80.
+_NH3/gas_analysis/figures/rga_300.pdf  used on input line 92.
 (pdftex.def)             Requested size: 441.01772pt x 248.06912pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysis/figure
-s/rga_400.pdf, id=14164, 1156.32pt x 650.43pt>
+s/rga_400.pdf, id=14254, 1156.32pt x 650.43pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysis/f
 igures/rga_400.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysis/fi
 gures/rga_400.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
-_NH3/gas_analysis/figures/rga_400.pdf  used on input line 90.
+_NH3/gas_analysis/figures/rga_400.pdf  used on input line 102.
 (pdftex.def)             Requested size: 441.01772pt x 248.06912pt.
 )
-(./Sections/6_Appendix/3D_Operando.tex [186
+(./Sections/6_Appendix/3D_Operando.tex [199
 
  </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/epitaxy/20
-0.pdf>] [187 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figure
-s/epitaxy/111.pdf>] [188 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXR
+0.pdf>] [200 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figure
+s/epitaxy/111.pdf>] [201 </home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXR
 D_NH3/figures/rga/rga_300.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2021_
-03_SXRD_NH3/figures/rga/rga_500.pdf>] [189 </home/david/Documents/PhD/PhDScript
-s/SixS_2021_03_SXRD_NH3/figures/rga/rga_600.pdf>] [190 </home/david/Documents/P
-hD/PhDScripts/SixS_2021_01/FacetAnalyser/FacetDispEvolution.pdf>] [191 </home/d
-avid/Documents/PhD/Figures/Introduction/stereographic_projection_bottom.pdf> </
-home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/B-7/Fit3D.png
->] [192 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/gas_analysi
-s/figures/rga_300.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_
-NH3/gas_analysis/figures/rga_400.pdf>]
+03_SXRD_NH3/figures/rga/rga_500.pdf>] [202 </home/david/Documents/PhD/PhDScript
+s/SixS_2021_03_SXRD_NH3/figures/rga/rga_600.pdf> </home/david/Documents/PhD/PhD
+Scripts/SixS_2021_03_SXRD_NH3/figures/facets/FacetsTogether.pdf>] [203 </home/d
+avid/Documents/PhD/PhDScripts/SixS_2021_01/FacetAnalyser/FacetDispEvolution.pdf
+>] [204 </home/david/Documents/PhD/Figures/Introduction/stereographic_projectio
+n_bottom.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figur
+es/B-7/Fit3D.png>] [205 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
+_NH3/gas_analysis/figures/rga_300.pdf> </home/david/Documents/PhD/PhDScripts/Si
+xS_2021_06_BCDI_NH3/gas_analysis/figures/rga_400.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster3D/Op
-erandoBCDI.pdf, id=14555, 597.50786pt x 845.04686pt>
+erandoBCDI.pdf, id=14673, 597.50786pt x 845.04686pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster
 3D/OperandoBCDI.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster3
@@ -3929,7 +4032,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/Poster3D/OperandoBCDI.pdf  used on input line 4.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster3D/Op
-erandoBCDI.pdf, id=14558, page=1, 597.50786pt x 845.04686pt>
+erandoBCDI.pdf, id=14676, page=1, 597.50786pt x 845.04686pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster
 3D/OperandoBCDI.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster3
@@ -3965,12 +4068,12 @@ D/OperandoBCDI.pdf, page 1>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/Poster3D/OperandoBCDI.pdf , page1 used on input line 4.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
- [193
+ [206
 
  </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster3D/O
 perandoBCDI.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster3D/Op
-erandoBCDI.pdf, id=15143, page=2, 597.50786pt x 845.04686pt>
+erandoBCDI.pdf, id=15260, page=2, 597.50786pt x 845.04686pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster
 3D/OperandoBCDI.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster3
@@ -3992,10 +4095,10 @@ D/OperandoBCDI.pdf, page 2>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/Poster3D/OperandoBCDI.pdf , page2 used on input line 4.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
- [194 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poste
+ [207 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poste
 r3D/OperandoBCDI.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster3D/Op
-erandoBCDI.pdf, id=15149, page=3, 597.50786pt x 845.04686pt>
+erandoBCDI.pdf, id=15267, page=3, 597.50786pt x 845.04686pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster
 3D/OperandoBCDI.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster3
@@ -4017,10 +4120,10 @@ D/OperandoBCDI.pdf, page 3>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/Poster3D/OperandoBCDI.pdf , page3 used on input line 4.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
- [195 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poste
+ [208 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poste
 r3D/OperandoBCDI.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster3D/Op
-erandoBCDI.pdf, id=15155, page=4, 597.50786pt x 845.04686pt>
+erandoBCDI.pdf, id=15273, page=4, 597.50786pt x 845.04686pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster
 3D/OperandoBCDI.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster3
@@ -4042,10 +4145,10 @@ D/OperandoBCDI.pdf, page 4>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/Poster3D/OperandoBCDI.pdf , page4 used on input line 4.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
- [196 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poste
+ [209 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poste
 r3D/OperandoBCDI.pdf>]
 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster3D/Op
-erandoBCDI.pdf, id=15161, page=5, 597.50786pt x 845.04686pt>
+erandoBCDI.pdf, id=15279, page=5, 597.50786pt x 845.04686pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster
 3D/OperandoBCDI.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poster3
@@ -4067,12 +4170,12 @@ D/OperandoBCDI.pdf, page 5>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI
 _NH3/figures/Poster3D/OperandoBCDI.pdf , page5 used on input line 4.
 (pdftex.def)             Requested size: 597.53374pt x 845.08348pt.
- [197 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poste
+ [210 </home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/figures/Poste
 r3D/OperandoBCDI.pdf>])
 Appendix B.
 (./Sections/6_Appendix/Pt111.tex
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/rotated_r
-econstruction_cells.pdf, id=15167, 578.16pt x 578.16pt>
+econstruction_cells.pdf, id=15286, 578.16pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/rota
 ted_reconstruction_cells.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/rotat
@@ -4081,7 +4184,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/rotated_reconstruction_cells.pdf  used on input line 43.
 (pdftex.def)             Requested size: 216.10109pt x 216.09488pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/alphapto2
-_reconstruction_cell.pdf, id=15168, 578.16pt x 578.16pt>
+_reconstruction_cell.pdf, id=15287, 578.16pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/alph
 apto2_reconstruction_cell.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/alpha
@@ -4090,7 +4193,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/alphapto2_reconstruction_cell.pdf  used on input line 54.
 (pdftex.def)             Requested size: 216.10109pt x 216.09488pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/l_scans_l
-ow_oxygen.pdf, id=15169, 650.43pt x 505.89pt>
+ow_oxygen.pdf, id=15288, 650.43pt x 505.89pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/l_sc
 ans_low_oxygen.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/l_sca
@@ -4099,7 +4202,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/l_scans_low_oxygen.pdf  used on input line 63.
 (pdftex.def)             Requested size: 441.01772pt x 343.0203pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450_1.pd
-f, id=15170, 1156.32pt x 650.43pt>
+f, id=15289, 1156.32pt x 650.43pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450
 _1.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450_
@@ -4108,7 +4211,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/T450_1.pdf  used on input line 72.
 (pdftex.def)             Requested size: 441.01772pt x 248.06912pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450_2.pd
-f, id=15171, 1156.32pt x 650.43pt>
+f, id=15290, 1156.32pt x 650.43pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450
 _2.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450_
@@ -4117,7 +4220,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/T450_2.pdf  used on input line 83.
 (pdftex.def)             Requested size: 441.01772pt x 248.06912pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450_3.pd
-f, id=15172, 1156.32pt x 650.43pt>
+f, id=15291, 1156.32pt x 650.43pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450
 _3.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450_
@@ -4126,7 +4229,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD
 _Pt111/figures/T450_3.pdf  used on input line 94.
 (pdftex.def)             Requested size: 441.01772pt x 248.06912pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450_4.pd
-f, id=15173, 1156.32pt x 650.43pt>
+f, id=15292, 1156.32pt x 650.43pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450
 _4.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450_
@@ -4136,7 +4239,7 @@ _Pt111/figures/T450_4.pdf  used on input line 105.
 (pdftex.def)             Requested size: 441.01772pt x 248.06912pt.
 ) (./Sections/6_Appendix/Pt100.tex
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/figu
-res/exp_before_heater_change_no_norm.pdf, id=15174, 1156.32pt x 650.43pt>
+res/exp_before_heater_change_no_norm.pdf, id=15293, 1156.32pt x 650.43pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis
 /figures/exp_before_heater_change_no_norm.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/
@@ -4146,7 +4249,7 @@ _Pt100/gas_analysis/figures/exp_before_heater_change_no_norm.pdf  used on input
  line 3.
 (pdftex.def)             Requested size: 441.01772pt x 248.06912pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/figu
-res/exp_cycle_no_norm.pdf, id=15175, 1156.32pt x 650.43pt>
+res/exp_cycle_no_norm.pdf, id=15294, 1156.32pt x 650.43pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis
 /figures/exp_cycle_no_norm.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/
@@ -4155,7 +4258,7 @@ Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/gas_analysis/figures/exp_cycle_no_norm.pdf  used on input line 13.
 (pdftex.def)             Requested size: 441.01772pt x 248.06912pt.
 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/figu
-res/exp_cond_g_no_norm.pdf, id=15176, 1156.32pt x 650.43pt>
+res/exp_cond_g_no_norm.pdf, id=15295, 1156.32pt x 650.43pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis
 /figures/exp_cond_g_no_norm.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/
@@ -4166,7 +4269,7 @@ _Pt100/gas_analysis/figures/exp_cond_g_no_norm.pdf  used on input line 23.
 )
 (./Sections/6_Appendix/Comparison.tex
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/product_p
-artial_pressure_comparison_vs_time.pdf, id=15177, 722.7pt x 578.16pt>
+artial_pressure_comparison_vs_time.pdf, id=15296, 722.7pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/prod
 uct_partial_pressure_comparison_vs_time.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/produ
@@ -4176,7 +4279,7 @@ _Pt111/figures/product_partial_pressure_comparison_vs_time.pdf  used on input l
 ine 3.
 (pdftex.def)             Requested size: 441.01772pt x 352.81824pt.
 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/product_partial_p
-ressure_comparison_vs_time.pdf, id=15180, 722.7pt x 578.16pt>
+ressure_comparison_vs_time.pdf, id=15299, 722.7pt x 578.16pt>
 File: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/product_part
 ial_pressure_comparison_vs_time.pdf Graphic file (type pdf)
 <use /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figures/product_parti
@@ -4184,24 +4287,24 @@ al_pressure_comparison_vs_time.pdf>
 Package pdftex.def Info: /home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/F
 igures/product_partial_pressure_comparison_vs_time.pdf  used on input line 13.
 (pdftex.def)             Requested size: 441.01772pt x 352.81824pt.
-) [198
+) [211
 
  </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/rotated_
-reconstruction_cells.pdf>] [199 </home/david/Documents/PhD/PhDScripts/SixS_2023
+reconstruction_cells.pdf>] [212 </home/david/Documents/PhD/PhDScripts/SixS_2023
 _04_SXRD_Pt111/figures/alphapto2_reconstruction_cell.pdf> </home/david/Document
-s/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/l_scans_low_oxygen.pdf>] [200 
+s/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/l_scans_low_oxygen.pdf>] [213 
 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450_1.pd
 f> </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/T450_2
-.pdf>] [201 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figur
+.pdf>] [214 </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/figur
 es/T450_3.pdf> </home/david/Documents/PhD/PhDScripts/SixS_2023_04_SXRD_Pt111/fi
-gures/T450_4.pdf>] [202 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
+gures/T450_4.pdf>] [215 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD
 _Pt100/gas_analysis/figures/exp_before_heater_change_no_norm.pdf> </home/david/
 Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt100/gas_analysis/figures/exp_cycle
-_no_norm.pdf>] [203 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt1
-00/gas_analysis/figures/exp_cond_g_no_norm.pdf>] [204 </home/david/Documents/Ph
+_no_norm.pdf>] [216 </home/david/Documents/PhD/PhDScripts/SixS_2022_01_SXRD_Pt1
+00/gas_analysis/figures/exp_cond_g_no_norm.pdf>] [217 </home/david/Documents/Ph
 D/PhDScripts/SixS_2023_04_SXRD_Pt111/figures/product_partial_pressure_compariso
-n_vs_time.pdf>] [205 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figu
-res/product_partial_pressure_comparison_vs_time.pdf>] [206] (./main.aux)
+n_vs_time.pdf>] [218 </home/david/Documents/PhD/PhDScripts/B07_2022_04_XPS/Figu
+res/product_partial_pressure_comparison_vs_time.pdf>] (./main.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.26pt have occurred.
@@ -4209,65 +4312,63 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F5196CB9A058B47D8290BA6BAC825FFF;16897.
+(rerunfilecheck)             Checksum: C9F9F1DFB31B95204914151506F01790;16897.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 108 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 49255 strings out of 476091
- 1101651 string characters out of 5794081
- 2565075 words of memory out of 5000000
- 67588 multiletter control sequences out of 15000+600000
+ 49344 strings out of 476091
+ 1103796 string characters out of 5794081
+ 2569112 words of memory out of 5000000
+ 67635 multiletter control sequences out of 15000+600000
  667581 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,28n,106p,2426b,2739s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/f
-onts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/en
-c/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvsr
-8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/l
-msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmtti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1440.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texm
-f/fonts/type1/public/cm-super/sfss0900.pfb></usr/share/texmf/fonts/type1/public
-/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.p
-fb></usr/share/texmf/fonts/type1/public/cm-super/sfss2074.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfsx0800.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/wasy-type1/wasysl10.pfb>
-Output written on main.pdf (207 pages, 184079133 bytes).
+ 108i,28n,106p,2426b,2909s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/
+texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.e
+nc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/e
+nc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr
+/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf
+-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/bera/fvsr8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
+5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmri7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmtti10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfsi1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfss0900.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss2074.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfsx0800.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/wasy-type1/wasysl10.pfb>
+Output written on main.pdf (219 pages, 184293854 bytes).
 PDF statistics:
- 16115 PDF objects out of 18468 (max. 8388607)
- 8733 compressed objects within 88 object streams
- 1020 named destinations out of 1200 (max. 500000)
- 1885 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16239 PDF objects out of 18468 (max. 8388607)
+ 8819 compressed objects within 89 object streams
+ 1048 named destinations out of 1200 (max. 500000)
+ 1895 words of extra memory for PDF output out of 10000 (max. 10000000)
 
