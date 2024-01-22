@@ -1,0 +1,198 @@
+\usepackage{titling} % makes following commands available
+\title{Catalytic properties at the nanoscale probed by surface X-ray diffraction and coherent diffraction imaging}
+\author{David Simonne}
+\date{\today}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Colours %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{xcolor}
+
+\definecolor{ArgonColor}{HTML}{008FD5}
+\definecolor{AmmoniaColor}{HTML}{DD65B0}
+\definecolor{OxygenColor}{HTML}{FC4F30}
+\definecolor{NitrogenColor}{HTML}{810F7C}
+\definecolor{NitrousOxideColor}{HTML}{8B8B8B}
+\definecolor{NitrogenOxideColor}{HTML}{6D904F}
+\definecolor{WaterColor}{HTML}{E5AE38}
+
+\definecolor{Ostwald}{HTML}{800080}
+\definecolor{Haber}{HTML}{158466}
+
+\definecolor{LightBlue}{RGB}{30,75,180}
+\definecolor{LUBlue}{RGB}{0,0,128}
+\definecolor{LUGrey}{RGB}{77,76,68}
+\definecolor{Prune}{RGB}{99,0,60}
+\definecolor{Important}{HTML}{980000}
+
+\definecolor{DarkFern}{HTML}{407428}
+\definecolor{DarkCharcoal}{HTML}{4D4944}
+\definecolor{DarkBlue}{HTML}{23373B}
+\definecolor{DarkOrange}{HTML}{EA7500}
+\definecolor{LightOrange}{HTML}{F9D6B3}
+\definecolor{Blue}{HTML}{13406a}
+
+\colorlet{lightblue}{blue!60}
+\colorlet{lightorange}{orange!60}
+\colorlet{lightgreen}{green!60}
+\colorlet{lightred}{red!60}
+\colorlet{lightgray}{gray!60}
+\colorlet{lightbrown}{brown!60}
+\colorlet{lightpink}{pink!60}
+\colorlet{lightviolet}{violet!60}
+
+\colorlet{shadecolor}{gray!40}
+
+%%%%%%%%%%%%%%%%%%%%%%%% Page layout %%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[
+    a4paper,
+    width=155mm,
+    headheight=110pt,
+    top=25mm,
+    bottom=25mm
+]{geometry}
+
+\usepackage{etoolbox} % Apply different styles
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+
+% Define fancy style for thesis
+\fancypagestyle{main}{
+    \fancyhead[L]{\chaptername \, \thechapter}
+    \fancyhead[R]{\small{\textsf{\rightmark}}}
+    \fancyfoot[R]{\small{\thepage}}
+    \fancyfoot[L]{\small{\theauthor}}
+    \fancyfoot[C]{}
+    \renewcommand{\headrulewidth}{0.4pt}%
+    \renewcommand{\footrulewidth}{0.4pt}%
+}
+\appto\mainmatter{\pagestyle{main}}
+
+% Define plain style for table of contents and acknowledgements
+\fancypagestyle{plain}{
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    \renewcommand{\headrulewidth}{0pt}%
+    \renewcommand{\footrulewidth}{0pt}%
+}
+\appto\frontmatter{\pagestyle{plain}}
+
+\usepackage{sectsty} % To colour sections, raise an error on underbar
+\chapterfont{\color{Prune}}
+\sectionfont{\color{LUGrey}}
+\subsectionfont{\color{LUGrey}}
+\subsubsectionfont{\color{LUGrey}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Citation %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[utf8]{inputenc} % Use accents in source code, load before biblatex
+\usepackage[T1]{fontenc} % Show accents in output
+
+\usepackage[style=authoryear, isbn=false, date=year, sorting=nyt, maxcitenames=1, % mincitenames=1,
+    eprint=false, giveninits=true, url=false]{biblatex}
+\addbibresource{/home/david/Documents/PhD/PhdThesis/references.bib}
+\AtEveryBibitem{\clearfield{pages}}
+
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{tocloft}
+% \setlength{\cftbeforetoctitleskip}{0em}
+% \setlength{\cftaftertoctitleskip}{0em}
+
+%%%%%%%%%%%%%%%%%%%%%%% Other packages %%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{lipsum} % Latin blabla
+\usepackage{lmodern} % to avoid errors in font size
+\usepackage[british]{babel}
+\usepackage{setspace} % Space between lines
+\usepackage{mathtools}
+\usepackage{tikz} % Drawing
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+\usepackage{colortbl} % Colour the lines in the tables
+\usepackage[version=4]{mhchem}
+\usepackage{animate} % for animations in 3D
+\usepackage{pdfpages}
+\pdfminorversion=6 % to avoid errors when including pdf
+\usepackage{epigraph} % for quote
+
+\usepackage{textcomp} % To avoid warnings in gensymb
+\usepackage{gensymb} % for degree symbol
+
+\usepackage{siunitx} % Units
+\DeclareSIUnit\angstrom{\text{Å}}
+\DeclareSIUnit\barn{b}
+\DeclareSIUnit\photons{\text{photons}}
+\DeclareSIUnit\bar{bar}
+
+\usepackage{wasysym} % for diameter symbol
+
+\usepackage{graphicx} % Insert images
+
+\usepackage[hypcap=true,font={small,it},justification=centering]{caption}
+\captionsetup{belowskip=2pt,aboveskip=2pt}
+
+\usepackage{sidecap}
+\sidecaptionvpos{figure}{c}
+\usepackage{scrextend} % Forcer la 4eme  de couverture en page pair
+\usepackage{mdframed} % Entourer un paragraphe
+\usepackage{multirow} % Mettre un texte sur plusieurs rangées
+\usepackage{multicol} % Mettre un texte sur plusieurs colonnes
+\usepackage{array} % Create tables as arrays
+\usepackage{csquotes}
+\usepackage{booktabs} % for \midrule and such
+\usepackage{lscape}
+\usepackage{amsmath} % for maths
+\usepackage{amssymb}
+
+\usepackage[page,toc,titletoc,title]{appendix}
+
+\usepackage[
+    colorlinks = true,
+    linkcolor = LightBlue,
+    urlcolor  = LightBlue,
+    citecolor = LightBlue,
+    anchorcolor = LightBlue,
+]{hyperref} % load last to avoid errors
+
+%%%%%%%%%%%%%%%%%%%%%% Commands %%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\argon}{\ce{Ar}}
+%{\textcolor{ArgonColor}
+
+\newcommand{\ammonia}{\ce{NH_3}}
+%{\textcolor{AmmoniaColor}
+
+\newcommand{\nitrousoxide}{\ce{N_2O}}
+%{\textcolor{NitrousOxideColor}
+
+\newcommand{\water}{\ce{H_2O}}
+%{\textcolor{WaterColor}
+
+\newcommand{\nitrogen}{\ce{N_2}}
+%{\textcolor{NitrogenColor}
+
+\newcommand{\nitricacid}{\ce{HNO_3}}
+%{\textcolor{DarkOrange}
+
+\newcommand{\nitricoxide}{\ce{NO}}
+%{\textcolor{NitrogenOxideColor}
+
+\newcommand{\nitrogendioxide}{\ce{NO_2}}
+
+\newcommand{\carbondioxide}{\ce{CO_2}}
+
+\newcommand{\dioxygen}{\ce{O_2}}
+%{\textcolor{OxygenColor}
+
+\newcommand{\ptthreeofour}{\ce{Pt_3O_4}}
+%{\textcolor{Important}
+
+\newcommand{\ammoniumnitrate}{\ce{NH_4NO_3}}
+%{\textcolor{Blue}
+
+\newcommand{\urea}{\ce{CO(NH_2)_2}}
+
+\newcommand{\yes}{{\textcolor{green}{0}}}
+
+\newcommand{\no}{{\textcolor{red}{x}}}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
