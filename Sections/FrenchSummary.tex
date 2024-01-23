@@ -1,0 +1,248 @@
+% chapter 1 / intro
+Dans le premier chapitre de cette thèse, l'oxydation de l'ammoniac (\ce{NH_3}) ainsi que son importance est présentée.
+La réaction peut être décrite par trois équations qui, en fonction du rapport stoechiométrique entre \ce{NH_3} et \ce{O_2}, ont des produits différents.
+
+\begin{align}
+    \label{eq:AmmoniaOxidationNitrogenFr}
+    4 \ammonia + 3 \ce{O_2} & \rightarrow 6 \water + 2 \nitrogen \\
+    \label{eq:AmmoniaOxidationNitrousOxideFr}
+    4 \ammonia + 4 \ce{O_2} & \rightarrow 6 \water + 2 \nitrousoxide \\
+    \label{eq:AmmoniaOxidationNitricOxideFr}
+    4 \ammonia + 5 \ce{O_2} & \rightarrow 6 \water + 4 \nitricoxide
+\end{align}
+
+Cette réaction et ses produits associés ont exercés une profonde influence au cours des 20$^{ème}$ et 21$^{ème}$ siècles, jouant un rôle central par exemple dans l'industrie des engrais (procédé d'Ostwald, \textit{via} la synthèse acide nitrique) et les changements démographiques associés.
+Malgré son importance industrielle cruciale, les diverses applications industrielles liées au procédé d'Ostwald ont contribué de manière significative à la fois au changement climatique et à la pollution toujours croissante de nos écosystèmes.
+
+Bien qu’il s’agisse d’une réaction catalytique majeure, les mécanismes d’action exacts de l'oxydation de l'ammoniac ne sont pas encore entièrement compris.
+Notamment, l'origine d'importants changements morphologiques durant l'utilisation des catalyseurs en industrie (fig. \ref{fig:GauzesFr}), liés à une \textit{activation} de l'échantillon permettant une meilleure sélectivité vers \ce{NO}, est encore inconnue.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/Figures/Sample/EtchedGauzeAndReconstructedGauze.pdf}
+    \caption{
+    Images obtenues par microscope électronique à balayage, gazes reconstruits (Pt-Rh) montrant l'existence de motifs en forme de chou-fleur après utilisation en industrie, adapté depuis Bergene et al. \parencite*{Bergene1996}.
+    La barre horizontale mesure\qty{0.1}{\mm}.
+    }
+    \label{fig:GauzesFr}
+\end{figure}
+
+Obtenir une compréhension complète de ces mécanismes est essentiel pour contrôler la sélectivité des réactions.
+De plus, une compréhension plus approfondie du mécanisme de réaction est prometteuse pour le développement de nouveaux catalyseurs capables de s’affranchir de la dépendance aux métaux précieux coûteux, ou de fonctionner à plus basse température.
+
+Cette thèse vise à étudier l'oxydation catalytique de l'ammoniac à pression ambiante en couplant plusieurs techniques de diffraction et de spectroscopie.
+Pour ce faire, trois techniques principales ont été utilisées, l'imagerie par diffraction cohérente de Bragg, la diffraction des rayons X de surface et la spectroscopie photoélectronique des rayons X, combinées à des mesures par spectrométrie de masse (tab. \ref{tab:TechniquesFr}).
+Ces techniques sont compatibles avec des conditions de pression proches de l'ambiante, permettant de réduire l'écart de pression en catalyse hétérogène.
+Le réacteur utilisé pour étudier la réaction catalytique hétérogène sur la ligne SixS (SOLEIL) est déjà compatible avec les environnements hautement oxydants \parencite{VanRijn2010, Resta2020a}, et permet des expériences de diffraction des rayons X en surface à haute pression et d'imagerie par diffraction cohérente de Bragg.
+
+Pour combler le fossé matériel, des nanoparticules et monocristaux de platine ont été utilisés.
+Tout au long de ce travail, de faibles rapports de pression partielle et des basses températures \ce{O_2}/\ce{NH_3} ont été liés à la sélectivité vers \ce{N_2}, alors que des rapports et températures \ce{O_2}/\ce{NH_3} élevés ont été liés à une sélectivité accrue vers \ce{NO} et \ce{N_2O}.
+Ceci est cohérent avec la sélectivité rapportée pour les catalyseurs industriels, qui soutient l'utilisation de nanoparticules et de monocristaux comme catalyseurs modèles pour améliorer la compréhension du système.
+
+Les éléments optiques nécessaires à l'utilisation d'un faisceau cohérent focalisé ont été implémentés et caractérisés.
+L'extension du panel de techniques disponibles contribuera à combler le fossé entre les matériaux et pressions utilisés en industrie par rapport à ceux utilisés en sciences de surfaces.
+Dans le futur, les utilisateurs du synchrotron auront la possibilité d'étudier les réactions catalytiques dans des conditions et environnements équivalents, mais avec des techniques différentes.
+
+L'expérience de spectroscopie photoélectronique à rayons X a été réalisée sur la ligne de lumière B07 (Diamond), également compatible avec les hautes pressions \parencite{Held2020}.
+L'écart entre le matériau et la pression est partiellement comblé en fonctionnant à des températures supérieures à l'amorçage du catalyseur, à une pression presque industrielle.
+
+\begin{table}[!htb]
+\centering
+\resizebox{\textwidth}{!}{%
+    \begin{tabular}{l|l|l|l}
+        Technique    & Diffraction des rayons    & Diffraction cohérente & Spectroscopie photoélectronique \\
+                     & x en surface              & des rayons x en       & par rayons x              \\
+                     &                           & condition de Bragg    &                           \\
+        \midrule
+        Échantillons & Monocristaux de           & Particules de         & Monocristaux de           \\
+                     & Pt(111) et Pt(100),       & platine isolées       & Pt(111) et Pt(100),       \\
+                     & particules de platine     &                       &                           \\
+        \midrule
+        Information  & Structure de surface,      & Forme, champs de              & Présence d'espèces de      \\
+                     & rugosité, relaxation \&    & déformation et de déplacement & surfaces, quantité \& état \\
+                     & phases crystallographiques & de l'objet unique             & d'oxydation                \\
+        \midrule
+        Ligne de lumière & SixS (SOLEIL)          & SixS (SOLEIL)                 & B-07 (Diamond Light Source) \\
+    \end{tabular}
+    }
+    \caption{
+        Techniques utilisées dans le cadre de cette thèse employant les rayons X.
+    }
+    \label{tab:TechniquesFr}
+\end{table}
+
+% chapter 2
+Le deuxième chapitre fourni un aperçu concis de la catalyse hétérogène et des principes fondamentaux régissant l'interaction entre les rayons X et la matière.
+Cette section met l'accent sur les origines, les avantages et les contraintes de chaque technique utilisée dans l'étude, en soulignant comment les rayons X peuvent observer indirectement les réactions catalytiques en détectant des marqueurs uniques laissés sur les matériaux.
+Le concept de sites actifs est introduit ainsi que le lien entre adsorption et déformation de surface, crucial pour l'étude de la réaction catalytique avec les techniques de diffraction des rayons X, intrinsèquement sensible à la déformation du réseau dans les cristaux.
+
+La ligne de lumière SixS du synchrotron SOLEIL, principal outil pour la plupart des expériences, est présentée, mettant l'accent sur les dernières avancées en matière de techniques expérimentales et de matériel spécifique à la ligne de lumière.
+
+De plus, la thèse présente les différents logiciels utilisés pour la réduction et l'analyse des données développé au cours de ce travail, en se concentrant sur un flux de travail complet pour l'imagerie par diffraction cohérente de Bragg, une technique qui n'a pas encore atteint son plein potentiel grâce au développement de synchrotrons de $4^{ème}$-génération et de clusters de calcul puissants.
+Une description du logiciel \textit{Gwaihir} \parencite{Simonne2022}, qui vise à faciliter la réduction et l'analyse des données dans le langage de programmation \textit{Python}, tout en encourageant une adoption plus large de la technique à travers une interface graphique, est fournie.
+
+% chapter 3
+Les troisième et quatrième chapitres présentent les résultats de la thèse durant l'étude de différents échantillons pendant l'oxydation de l'ammoniac.
+L'étude de la réaction est réalisée \textit{operando}, en explorant l'espace de paramètres multidimensionnel défini par la température de fonctionnement, la pression totale et le rapport \ce{O2} / \ce{NH3}.
+Pour explorer la corrélation entre la structure de surface et l'activité catalytique, des données de spectrométrie de masse sont collectées simultanément à toutes les mesures.
+
+Dans le chapitre 3, des nanoparticules de platine sont utilisées pour explorer la relation entre morphologie/structure et sélectivité à pression ambiante et à haute température, au moyen d'une vaste gamme de rapports de pression partielle \ce{O2}/\ce{NH3}, favorisant soit la production de \ce{N2} ou \ce{NO}.
+Ces nanoparticules présentes une distribution de taille entre \qty{350}{\nm} et \qty{800}{\nm}.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=\textwidth]{/home/david/Documents/PhD/PhDScripts/SixS_2021_03_SXRD_NH3/figures/facets/facet_signal_evolution_together.pdf}
+    \caption{
+    Évolution de l'intensité diffusée prise le long d'une zone carrée perpendiculaire à la direction [111], à trois positions différentes dans le plan ($\vec{q}_x, \vec{q}_z$) pour sonder l'évolution de l'intensité des tiges de troncature cristalline.
+    }
+    \label{fig:FacetSignalFr}
+\end{figure}
+
+La possibilité que différents phénomènes se produisent dans les mêmes conditions de réaction a été révélée.
+D'importantes différences ont en effet été mesurées entre les informations moyennes obtenues par diffraction de surface sur un échantillon exhibant des milliers de particules, et les informations obtenues par diffraction cohérente sur des particules uniques.
+
+Les nanoparticules de platine épitaxiées sur saphir ont d'abord été mesurées à \qty{300}{\degreeCelsius}, \qty{500}{\degreeCelsius} et \qty{600}{\degreeCelsius} par diffraction de surface lors de l'oxydation de l'ammoniac, en commençant par l'introduction de l'ammoniac dans le réacteur, et suivie d'une augmentation progressive de la pression d'oxygène (\ce{O_2}/\ce{NH_3} = \{0, 0,5, 1, 2, 8\}).
+La forme moyenne des nanoparticules de Pt est principalement constituée de facettes \{111\}, \{110\}, \{100\} et \{113\}.
+
+Un re-facetage des particules est notamment révélé à \qty{600}{\degreeCelsius} lors des conditions de réaction.
+Une fois que \ce{O_2}/\ce{NH_3} = 1, et en augmentant les rapports oxygène/ammoniac, le taux de couverture des facettes \{110\} et \{113\} diminue, remplacée par des facettes de type \{111\}, et \ {100\} qui sont favorisées (fig. \ref{fig:FacetSignalFr}).
+
+Une particule a ensuite été imagée par imagerie cohérente en condition de Bragg sous atmosphère inerte, à des températures comprises entre \qty{25}{\degreeCelsius} et \qty{600}{\degreeCelsius}.
+Une dislocation présente à l'interface de la température ambiante jusqu'à \qty{125}{\degreeCelsius} a été éliminée avec succès par recuit au-dessus de \qty{800}{\degreeCelsius}.
+Il a été démontré que cette dislocation a un impact sur la relaxation thermique de la particule.
+De plus, les facettes \{111\} proches de l'interface évoluent entre des facettes de type \{211\}, \{221\} et \{110\} en fonction de la température de l'échantillon et de la déformation interfaciale.
+L'introduction d'ammoniac dans le réacteur à \qty{600}{\degreeCelsius} a entraîné une inversion de la déformation des facettes, probablement à l'origine de la création d'un réseau de dislocations interfaciales, mettant en évidence le lien entre facette et déformation interfaciale dans les nanoparticules.
+
+L'importance de la forme des particules, de la taille des facettes, de leur taux de couverture ainsi que de l'état de déformation initial a été mise en perspective par l'étude comparative de deux particules durant l'oxydation de l'ammoniac à \qty{300}{\degreeCelsius} et \qty{400}{\degreeCelsius}, en fonction du rapport entre \ce{O_2} et \ce{NH3}.
+Différents comportements ont été révélés sur les deux nanoparticules, qui présentent une taille, une forme, une couverture de facettes et un état de déformation initial différents, alors qu'aucun important changement n'a été mésuré en dessous de \qty{600}{\degreeCelsius} par diffraction de surface.
+La surface de la plus grande nanoparticule (particule \textit{C}, \qty{800}{\nm} de largeur) est constituée de facettes \{111\}, \{110\} et \{100\}.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/300_ammonia_100.png}
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/300_ammonia_010.png}
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/D6/300/300_ammonia_001.png}
+    \caption{
+        Surface de la particule C reconstruite à \qty{300}{\degreeCelsius} sous atmosphère d'argon (inerte).
+        La surface est colorée par les valeurs de la déformation hétérogène hors plan à chaque voxel de surface, la limite de chaque facette est délimitée par d'épaisses lignes blanches.
+    }
+    \label{fig:D6FacetsFr}
+\end{figure}
+
+La particule \textit{C} a montré une diminution/augmentation réversible de la déformation homogène lorsque l'ammoniac a été introduit/retiré du réacteur, et n'a pas pu être reconstruite sans sa présence.
+Une augmentation non réversible de la déformation hétérogène a été mesurée à \qty{300}{\degreeCelsius} lors de la première exposition de l'échantillon à des conditions de réaction (\ce{O_2}/\ce{NH_3} = 0,5), aucune augmentation de ce type n'a été reproduite aux mêmes conditions à \qty{400}{\degreeCelsius}.
+
+L'augmentation de déformation homogène liée à la présence/absence d'ammoniac n'a pas été reproduite sur la deuxième nanoparticule (particule \textit{B}, \qty{300}{\nm} de large), et avec des facettes \{113\} également présentes à sa surface.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/B7/RT/RT_100_B7.png}
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/B7/RT/RT_010_B7.png}
+    \includegraphics[width=0.32\textwidth]{/home/david/Documents/PhD/PhDScripts/SixS_2021_06_BCDI_NH3/reconstructions/vti_good_files/B7/RT/RT_001_B7.png}
+    \caption{
+        Surface de la particule B reconstruite à \qty{25}{\degreeCelsius} sous atmosphère d'argon (inerte).
+        La surface est colorée par les valeurs de la déformation hétérogène hors plan à chaque voxel de surface, la limite de chaque facette est délimitée par d'épaisses lignes blanches.
+    }
+    \label{fig:B7FacetsFr}
+\end{figure}
+
+Une augmentation non réversible de la déformation hétérogène a également été mesurée à \qty{300}{\degreeCelsius}, mais induite par la présence d'ammoniac, sans oxygène.
+La possibilité d'avoir un échantillon oxydé peut expliquer cette évolution sous atmosphère réductrice, mais n'est pas observée pour la particule \textit{C}.
+L'apparition d'un défaut à \qty{400}{\degreeCelsius} est liée à une augmentation non réversible et importante de la déformation homogène lors de l'oxydation de l'ammoniac, qui continue d'augmenter en fonction du rapport entre ammoniac et oxygène.
+Cette évolution structurelle est clairement visible en 3D, avec des volumes de densité électronique de Bragg manquants (app. \ref{app:AppendixBCDIOperando}).
+La présence de défauts pourrait jouer un rôle important dans le champ de déformation du catalyseur et donc dans ses propriétés catalytiques.
+Il est possible que cette transformation correspond à l'origine de la transformation observée dans les catalyseurs industriels.
+Une activation globale du catalyseur à \qty{300}{\degreeCelsius} et \qty{400}{\degreeCelsius} a été rapportée tandis que le rapport \ce{O_2}/\ce{NH_3} était maintenu égal à 2, avec une production accrue de \ce{NO}, et dans une moindre mesure \ce{N2O}, au détriment de \ce{N2}.
+
+En conclusion, il est primordial de sonder différentes nanoparticules avant de tirer une conclusion sur leur comportement global lors d’une réaction catalytique hétérogène.
+
+Pour mieux comprendre le rôle de chaque facette dans le comportement des nanoparticules de Pt, des expériences de diffraction de surface et de spectroscopie photoélectronique à rayons X ont été réalisées à \qty{450}{\degreeCelsius} sur des monocristaux de Pt(111) et Pt(100).
+Les échantillons ont d'abord été exposés à une atmosphère riche en oxygène (\qty{80}{\milli\bar}) pour oxyder les surfaces de Pt (pression totale toujours maintenue à \qty{500}{\milli\bar} grâce à l'utilisation d'argon).
+Deux rapports oxygène/ammoniac différents sont utilisés après l'oxydation de surface, en introduisant d'abord \qty{10}{\milli\bar} d'ammoniac (\ce{O_2}/\ce{NH_3} = \num{8}), puis en réduisant la pression d'oxygène à \qty{5}{\milli\bar} (\ce{O_2}/\ce{NH_3} = \num{0.5}).
+L'expérience de spectroscopie photoélectronique à rayons X a été réalisée avec les mêmes rapports ammoniac/oxygène, mais à des pressions partielles plus faibles (environ \qty{10}{\percent}), et sans garder la pression totale constante.
+
+La présence d'oxydes de platine est surveillée afin de comprendre son importance dans le mécanisme réactionnel, ainsi que dans d'éventuelles reconstructions du catalyseurs.
+Les différents résultats sont résumés dans le tableau \ref{tab:RecapSXRDFr}.
+
+\begin{table}[!htb]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llll@{}}
+    \toprule
+    \ce{O2} (\unit{\milli\bar}) & \ce{NH3} (\unit{\milli\bar}) & Pt(111) & Pt(100) \\
+    \midrule
+    0 & 0 & Pas de couche d'oxyde / pas de reconstruction & Pas de couche d'oxyde / pas de reconstruction\\
+    80 & 0 & Deux superstructures hexagonales tournés & Couche épaisse épitaxiée de \\
+     & & Pt(111)-($6\times6$)-R\ang{\pm8.8} (mono-couche) & \ce{Pt3O4}, Pt(100)-($2\times2$) \\
+     & & Après \qty{9}{\hour}\qty{30}{\minute}: superstructure & et signaux décalés en H ou K \\
+     & & Pt(111)-($8\times8$) (multicouche) & (mono-couche) \\
+    \midrule
+    80 & 10 & Pas de couche d'oxyde / pas de reconstruction & Pt(100)-($10\times10$) reconstruction\\
+     & & Signaux faibles au niveau O 1s & (multicouche) \\
+     & & & et signaux décalés en H ou K \\
+     & & & (mono-couche) \\
+     & & & Sélectivité \ce{NO} supérieure, et \\
+     & & & Signal important au niveau O 1s en \\
+     & & & comparaison avec Pt(111) \\
+    10 & 10 & Pas de couche d'oxyde / pas de reconstruction & Structure Pt(100)-Hex (mono-couche) \\
+     & & Aucun signal au niveau O 1s & Aucun signal au niveau O 1s \\
+     & & \ce{N_a} et \ce{NH_{3,a}} au niveau N 1s & Seulement \ce{N_a} au niveau N 1s \\
+    \midrule
+    0 & 10 & Pas de couche d'oxyde / pas de reconstruction & Suppression progressive de la structure Pt(001)-Hex \\
+    0 & 0 & Pas de couche d'oxyde / pas de reconstruction & Pas de couche d'oxyde / pas de reconstruction\\
+    \midrule
+    5 & 0 & Retour aux mêmes structures qu'à \qty{80}{\milli\bar} & Structures transitoires, différentes des signaux \\
+       & & de \ce{O2}, mais avec une cinétique diminuée & observée à \qty{80}{\milli\bar} de \ce{O2} \\
+    \bottomrule
+\end{tabular}%
+}
+\caption{Bref résumé des structures de surface identifiées par diffraction de surface et des changements pertinents dans les niveaux mesurés par spectroscopie photoélectronique des rayons X, combinées à des mesures par spectrométrie de masse.}
+\label{tab:RecapSXRDFr}
+\end{table}
+
+L'oxydation des deux surfaces est d'abord discutée.
+Une couche épaisse de \ce{Pt_3O_4} a été identifié sur Pt(100), dans un arrangement Pt(100)-($2\times2$) et d'épaisseur moyenne égale à \qty{16}{\angstrom} (\textit{i.e.} 3 cellules unitaires).
+Des signaux décalés dans l'espace réciproque par rapport aux pics \ce{Pt_3O_4} sont également mesurés.
+Les signaux liés au \ce{Pt_3O_4} et décalés ont été mesurés \qty{1}{\hour} après l'introduction de l'oxygène, mais n'ont pas pu être détectés sous une atmosphère réduite en oxygène (\qty{5}{\milli\bar}), même après plusieurs heures.
+Des signaux transitoires sont en effet mesurés, soulignant l’importance de la pression d’oxygène dans l’oxydation de surface.
+
+Le \ce{Pt3O4} n'a pas été observé sur Pt(111).
+Néanmoins, une superstructure commensurable Pt(111)-($8\times8$) a été clairement identifiée après \qty{9}{\hour}\qty{30}{\minute} de temps écoulé sous une atmosphère à forte teneur en oxygène, et après \qty {23}{\hour}\qty{30}{\minute} sous une atmosphère réduite en oxygène.
+À partir de la distribution d’intensité des signaux hors plan associés, il a été déterminé que cette structure avait quelques couches d’épaisseur.
+Des signaux supplémentaires dans le plan sont également détectés dès que de l'oxygène est introduit dans le réacteur, à basse et haute pression d'oxygène, liés à une structure Pt(111)-($6\times6$)-R\ang{\pm 8.8}.
+L'intensité de ces signaux diminue une fois que la structure Pt(111)-($8\times8$) est présente, ce qui soutient un lien précurseur entre les deux structures.
+% De plus, lors de la description des signaux avec la matrice Pt(111)-p$\begin{pmatrix} 1.08 & -0.21 \\ -0.21 & 1.08 \end{pmatrix}$, ce qui donne un angle spatial réel de \ang{ 137.4}, un signal de second ordre est partagé.
+Les signaux mesurés dans le niveau O 1s dans une atmosphère réduite en oxygène et attribués aux espèces d'oxygène de surface sont plus importants pour le Pt (100) que pour le Pt (111), montrant que la surface du Pt (100) est plus facilement oxydée que le Pt (111).
+L'oxydation des surface Pt(111) et du Pt(100) est aussi liée à une rugosité de surface accrue et à une déformation compressive hors plan par rapport à l'atmosphère inerte pour le Pt(111).
+
+Différents comportements ont été mesurés sur les deux surfaces lors de conditions de réaction.
+Sous un rapport \ce{O_2}/\ce{NH_3} élevé, qui favorise la production de \ce{NO}, les oxydes de surface sont directement éliminés du Pt(111), mais reconstruits avec un arrangement (10x10) sur Pt(100) .
+Les signaux des espèces oxygénées au niveau de O 1s sont faibles pour le Pt(111), difficiles à dissocier du fond, alors que les pics sont clairement détectés pour le Pt(100).
+La différence de présence d’oxygène en surface est déjà observée lors de la précédente oxydation de surface.
+La reconstruction de la surface du Pt(100) est liée à la présence persistante d'espèces oxygénées de surface lors de l'oxydation de l'ammoniac, différant ainsi de la surface du Pt(111).
+De plus, la sélectivité envers \ce{NO} est augmentée pour le Pt(100), également liée à la présence plus importante d'oxygène en surface, qui est prédite comme cruciale dans la production de \ce{NO} lors du mécanisme réactionnel \parencite{NovellLeruth2005, Offermans2006, Offermans2007, Imbihl2007, NovellLeruth2008}.
+Une rugosité importante est également observée dans ces conditions pour les deux surfaces.
+
+Le Pt(111) et Pt(100) montrent tout deux une sélectivité similaire vers \ce{N_2} en abaissant le rapport \ce{O_2}/\ce{NH_3} à \num{0,5}.
+L'ampleur de la déformation hors plan (relaxation de surface) et la rugosité de la surface sont déjà réduites dans ces conditions pour le Pt(111), mais restent à des valeurs similaires pour Pt (100).
+Sur les deux surfaces, les espèces d'oxygène sont absentes du niveau O 1 et l'azote atomique adsorbé est mesuré, lié à une superstructure de surface hexagonale pour Pt(100).
+L'ammoniac adsorbé est également observé sur le Pt(111).
+
+La différence de déformation hors plan (relaxation de surface) lors de l'abaissement du rapport \ce{O2}/\ce{NH3} de \num{8} à \num{0,5} est du même ordre de grandeur, mais de nature différente.
+Environ \qty{0,06}{\percent} de déformation en tension / compression sur le Pt(100) / Pt(111).
+Plus important encore, il est clair que la contrainte est contenue dans les couches supérieures des catalyseurs au platine.
+Si l'on considère un voxel de surface Pt(100) de \qty{10}{\nm} d'épaisseur, la déformation moyenne correspondante du voxel serait égale à \qty{0,002}{\percent} par rapport au réseau global.
+Par conséquent, le changement de déformation entre les conditions de réaction devient difficile à résoudre, ce qui peut expliquer pourquoi aucune différence n'est observée sur les particules \textit{C} lors de l'oxydation de l'ammoniac.
+Un autre facteur à prendre en compte est l'augmentation de la rugosité de surface liée à la forte pression d'oxygène, qui a pour effet de diminuer l'intensité des photons diffusés loin du pic de Bragg, et va ainsi réduire la résolution expérimentale.
+Des études supplémentaires à haute résolution pourraient contribuer à comprendre l’effet des adsorbats sur la relaxation de surface.
+
+La thèse démontre l’importance de combiner les mesures de particules individuelles et des assemblages de particules.
+Par imagerie de diffraction cohérente de Bragg, nous avons démontré qu'en fonction de la morphologie (forme, taille, type de facette et couverture, \textit{etc.}) et de l'état de déformation initial des particules de Pt, différentes évolutions structurelles sont observées (en termes de déformation, de morphologie et de défauts) lors de l'oxydation de l'ammoniac.
+Une meilleure représentation des différents comportements suivis par les particules de platine au cours de la réaction, en mesurant plusieurs particules individuelles, semble indispensable pour une compréhension globale de la relation structure-activité.
+Il est à noter que la déformation à l’interface particule/support semble exercer une influence prononcée sur le comportement des particules.
+Les nanoparticules servent de plate-forme pour explorer simultanément l’évolution structurelle de diverses facettes cristallographiques, alors que les permettent de mieux isoler les comportements des facettes uniques sur les nanoparticules.
+%************************************
+\vspace{\fill} % ALIGNER EN BAS DE PAGE
+%************************************
+
+\newpage\thispagestyle{empty}\null\newpage
