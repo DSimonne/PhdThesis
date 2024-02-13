@@ -16960,6 +16960,59 @@
       \verb 10.1103/PhysRevB.84.100101
       \endverb
     \endentry
+    \entry{Norskov2009}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7ae731ce41a114f67899c33dc2c13dfe}{%
+           family={N{ø}rskov},
+           familyi={N\bibinitperiod},
+           given={J.\bibnamedelimi K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea086ce39ac4792ec7fc5f4e6c7f5c7d}{%
+           family={Bligaard},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d024b89c4d16c36c20b1d73e0a77050}{%
+           family={Rossmeisl},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a7a16aa58765910c580f07136b2eda4}{%
+           family={Christensen},
+           familyi={C\bibinitperiod},
+           given={C.\bibnamedelimi H.},
+           giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a5101244d97012e111e347e4fbf19122}
+      \strng{fullhash}{beec5cf12d569a29974bb4f9f72f2fda}
+      \strng{bibnamehash}{a5101244d97012e111e347e4fbf19122}
+      \strng{authorbibnamehash}{a5101244d97012e111e347e4fbf19122}
+      \strng{authornamehash}{a5101244d97012e111e347e4fbf19122}
+      \strng{authorfullhash}{beec5cf12d569a29974bb4f9f72f2fda}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Over the past decade the theoretical description of surface reactions has undergone a radical development. Advances in density functional theory mean it is now possible to describe catalytic reactions at surfaces with the detail and accuracy required for computational results to compare favourably with experiments. Theoretical methods can be used to describe surface chemical reactions in detail and to understand variations in catalytic activity from one catalyst to another. Here, we review the first steps towards using computational methods to design new catalysts. Examples include screening for catalysts with increased activity and catalysts with improved selectivity. We discuss how, in the future, such methods may be used to engineer the electronic structure of the active surface by changing its composition and structure.}
+      \field{issn}{1755-4349}
+      \field{journaltitle}{Nature Chemistry}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{Towards the computational design of solid catalysts}
+      \field{volume}{1}
+      \field{year}{2009}
+      \field{pages}{37\bibrangedash 46}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1038/nchem.121
+      \endverb
+    \endentry
     \entry{NovellLeruth2005}{article}{}
       \name{author}{5}{ul=2}{%
         {{un=0,uniquepart=base,hash=c55669e7e908014b670711641177e5dc}{%
